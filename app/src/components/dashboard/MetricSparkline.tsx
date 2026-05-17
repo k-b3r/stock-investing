@@ -14,10 +14,11 @@ import type { YearDataPoint } from '@/lib/types/financials';
 interface Props {
   data: YearDataPoint[];
   unit?: string;
+  years?: number;
 }
 
-export function MetricSparkline({ data, unit = '%' }: Props) {
-  const chartData = data.slice(-10).map((d) => ({ year: d.year, value: d.value }));
+export function MetricSparkline({ data, unit = '%', years = 10 }: Props) {
+  const chartData = data.slice(-years).map((d) => ({ year: d.year, value: d.value }));
 
   return (
     <ResponsiveContainer width="100%" height={140}>

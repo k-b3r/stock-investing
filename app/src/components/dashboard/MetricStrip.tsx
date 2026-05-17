@@ -21,6 +21,7 @@ function pickGrowth(g: GrowthMetric, period: Period): number | null {
 export function MetricStrip({ financials }: Props) {
   const { summary, tabs } = financials;
   const [period, setPeriod] = useState<Period>('10Y');
+  const years = period === '3Y' ? 3 : period === '5Y' ? 5 : 10;
 
   const eps = pickGrowth(summary.epsGrowth, period);
   const rev = pickGrowth(summary.revenueGrowth, period);
@@ -94,7 +95,7 @@ export function MetricStrip({ financials }: Props) {
     </div>
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {metrics.map((m) => (
-        <MetricCard key={m.label} {...m} />
+        <MetricCard key={m.label} {...m} years={years} />
       ))}
     </div>
     </div>

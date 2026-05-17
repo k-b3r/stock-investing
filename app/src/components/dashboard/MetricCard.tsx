@@ -23,9 +23,10 @@ interface Props {
   threshold: ThresholdResult;
   sparkData: YearDataPoint[];
   unit?: string;
+  years?: number;
 }
 
-export function MetricCard({ label, value, threshold, sparkData, unit = '%' }: Props) {
+export function MetricCard({ label, value, threshold, sparkData, unit = '%', years = 10 }: Props) {
   const displayValue = value === null ? 'N/A' : `${value.toFixed(1)}${unit}`;
 
   return (
@@ -35,7 +36,7 @@ export function MetricCard({ label, value, threshold, sparkData, unit = '%' }: P
         <p className={cn('text-lg font-bold px-1.5 py-0.5 rounded inline-block', colorMap[threshold])}>
           {displayValue}
         </p>
-        <MetricSparkline data={sparkData} unit={unit} />
+        <MetricSparkline data={sparkData} unit={unit} years={years} />
       </CardContent>
     </Card>
   );
