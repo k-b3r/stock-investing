@@ -66,6 +66,30 @@ function avgNonNull(values: (number | null)[]): number | null {
   return nums.reduce((a, b) => a + b, 0) / nums.length;
 }
 
+function avgArr(arr: number[]): number | null {
+  if (arr.length === 0) return null;
+  return arr.reduce((a, b) => a + b, 0) / arr.length;
+}
+
+function computeGrowthMetricFromValues(values: (number | null)[]): GrowthMetric {
+  const rates: number[] = [];
+  for (let i = 1; i < values.length; i++) {
+    const prev = values[i - 1];
+    const curr = values[i];
+    if (prev !== null && curr !== null && prev !== 0) {
+      rates.push(((curr - prev) / Math.abs(prev)) * 100);
+    }
+  }
+  const n = rates.length;
+  if (n === 0) return { tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null };
+  return {
+    yearOverYear: rates[n - 1],
+    threeYearAvg: avgArr(rates.slice(Math.max(0, n - 3))),
+    fiveYearAvg: avgArr(rates.slice(Math.max(0, n - 5))),
+    tenYearAvg: avgArr(rates.slice(Math.max(0, n - 10))),
+  };
+}
+
 function computeFcfGrowthAvgs(annualRows: CashFlowRow[]): GrowthMetric {
   const vals = annualRows.map((r) => r.freeCashFlowGrowthPer);
   const n = vals.length;
@@ -119,41 +143,9 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
     isAnnualYM(r.fiscalPeriodYearMonth)
   );
 
-  // --- summary: per-period scan — find most recent non-null value for each window independently ---
-  function latestNonNull(getter: (r: GrowthDataRow) => number | null): number | null {
-    for (let i = annualGrowth.length - 1; i >= 0; i--) {
-      const v = getter(annualGrowth[i]);
-      if (v !== null) return v;
-    }
-    return null;
-  }
-
-  function buildGrowthMetric(
-    ten: (r: GrowthDataRow) => number | null,
-    five: (r: GrowthDataRow) => number | null,
-    three: (r: GrowthDataRow) => number | null,
-    yoy: (r: GrowthDataRow) => number | null,
-  ): GrowthMetric {
-    return {
-      tenYearAvg: latestNonNull(ten),
-      fiveYearAvg: latestNonNull(five),
-      threeYearAvg: latestNonNull(three),
-      yearOverYear: latestNonNull(yoy),
-    };
-  }
-
-  const epsGrowth = buildGrowthMetric(
-    r => r.epsPer.tenYearAvg, r => r.epsPer.fiveYearAvg,
-    r => r.epsPer.threeYearAvg, r => r.epsPer.yearOverYear,
-  );
-  const revenueGrowth = buildGrowthMetric(
-    r => r.revenuePer.tenYearAvg, r => r.revenuePer.fiveYearAvg,
-    r => r.revenuePer.threeYearAvg, r => r.revenuePer.yearOverYear,
-  );
-  const netIncomeGrowth = buildGrowthMetric(
-    r => r.netIncomePer.tenYearAvg, r => r.netIncomePer.fiveYearAvg,
-    r => r.netIncomePer.threeYearAvg, r => r.netIncomePer.yearOverYear,
-  );
+  const epsGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => r.basicEPS));
+  const revenueGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => r.revenue));
+  const netIncomeGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => r.netIncome));
 
   // --- summary: ROIC from most recent annual profitability row ---
   const latestProfit = annualProfit[annualProfit.length - 1];
