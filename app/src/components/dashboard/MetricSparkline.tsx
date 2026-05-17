@@ -8,7 +8,7 @@ interface Props {
 }
 
 export function MetricSparkline({ data }: Props) {
-  const chartData = data.map((d) => ({ year: d.year, value: d.value }));
+  const chartData = data.slice(-10).map((d) => ({ year: d.year, value: d.value }));
 
   return (
     <ResponsiveContainer width="100%" height={40}>
