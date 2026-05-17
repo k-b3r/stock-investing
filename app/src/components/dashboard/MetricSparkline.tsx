@@ -1,30 +1,60 @@
 'use client';
 
-import { ResponsiveContainer, LineChart, Line, Tooltip } from 'recharts';
+import {
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  Tooltip,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+} from 'recharts';
 import type { YearDataPoint } from '@/lib/types/financials';
 
 interface Props {
   data: YearDataPoint[];
+  unit?: string;
 }
 
-export function MetricSparkline({ data }: Props) {
+export function MetricSparkline({ data, unit = '%' }: Props) {
   const chartData = data.slice(-10).map((d) => ({ year: d.year, value: d.value }));
 
   return (
-    <ResponsiveContainer width="100%" height={40}>
-      <LineChart data={chartData}>
+    <ResponsiveContainer width="100%" height={140}>
+      <LineChart data={chartData} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
+        <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" strokeOpacity={0.5} />
+        <XAxis
+          dataKey="year"
+          tick={{ fontSize: 10, fill: 'hsl(var(--muted-foreground))' }}
+          tickLine={false}
+          axisLine={false}
+          interval="preserveStartEnd"
+        />
+        <YAxis
+          tick={{ fontSize: 10, fill: 'hsl(var(--muted-foreground))' }}
+          tickLine={false}
+          axisLine={false}
+          tickFormatter={(v) => `${Number(v).toFixed(0)}${unit}`}
+          width={36}
+        />
+        <Tooltip
+          contentStyle={{
+            fontSize: 11,
+            padding: '4px 8px',
+            borderRadius: 6,
+            border: '1px solid hsl(var(--border))',
+          }}
+          formatter={(v) => [v != null ? `${Number(v).toFixed(1)}${unit}` : 'N/A', '']}
+          labelFormatter={(l) => l}
+        />
         <Line
           type="monotone"
           dataKey="value"
           stroke="currentColor"
-          strokeWidth={1.5}
-          dot={false}
+          strokeWidth={2}
+          dot={{ r: 2, fill: 'currentColor' }}
+          activeDot={{ r: 4 }}
           connectNulls
-        />
-        <Tooltip
-          contentStyle={{ fontSize: 11, padding: '2px 6px' }}
-          formatter={(v) => [v != null ? Number(v).toFixed(1) + '%' : 'N/A', '']}
-          labelFormatter={(l) => l}
         />
       </LineChart>
     </ResponsiveContainer>
