@@ -1,13 +1,25 @@
 import { MetricCard } from './MetricCard';
 import { classifyMetric } from '@/service/thresholds';
-import type { TransformedFinancials } from '@/lib/types/financials';
+import type { GrowthMetric, TransformedFinancials } from '@/lib/types/financials';
 
 interface Props {
   financials: TransformedFinancials;
 }
 
+function bestGrowth(g: GrowthMetric): { value: number | null; label: string } {
+  if (g.tenYearAvg !== null) return { value: g.tenYearAvg, label: '10Y' };
+  if (g.fiveYearAvg !== null) return { value: g.fiveYearAvg, label: '5Y' };
+  if (g.threeYearAvg !== null) return { value: g.threeYearAvg, label: '3Y' };
+  return { value: g.yearOverYear, label: 'YoY' };
+}
+
 export function MetricStrip({ financials }: Props) {
   const { summary, tabs } = financials;
+
+  const eps = bestGrowth(summary.epsGrowth);
+  const rev = bestGrowth(summary.revenueGrowth);
+  const ni = bestGrowth(summary.netIncomeGrowth);
+  const fcf = bestGrowth(summary.fcfGrowth);
 
   const metrics = [
     {
@@ -17,27 +29,27 @@ export function MetricStrip({ financials }: Props) {
       sparkData: tabs.profitability.roic,
     },
     {
-      label: 'EPS Growth',
-      value: summary.epsGrowth.tenYearAvg,
-      threshold: classifyMetric('growth', summary.epsGrowth.tenYearAvg),
+      label: `EPS Growth (${eps.label})`,
+      value: eps.value,
+      threshold: classifyMetric('growth', eps.value),
       sparkData: tabs.growth.eps,
     },
     {
-      label: 'Revenue Growth',
-      value: summary.revenueGrowth.tenYearAvg,
-      threshold: classifyMetric('growth', summary.revenueGrowth.tenYearAvg),
+      label: `Revenue Growth (${rev.label})`,
+      value: rev.value,
+      threshold: classifyMetric('growth', rev.value),
       sparkData: tabs.growth.revenue,
     },
     {
-      label: 'Net Income Growth',
-      value: summary.netIncomeGrowth.tenYearAvg,
-      threshold: classifyMetric('growth', summary.netIncomeGrowth.tenYearAvg),
+      label: `Net Income Growth (${ni.label})`,
+      value: ni.value,
+      threshold: classifyMetric('growth', ni.value),
       sparkData: tabs.growth.netIncome,
     },
     {
-      label: 'FCF Growth',
-      value: summary.fcfGrowth.tenYearAvg,
-      threshold: classifyMetric('growth', summary.fcfGrowth.tenYearAvg),
+      label: `FCF Growth (${fcf.label})`,
+      value: fcf.value,
+      threshold: classifyMetric('growth', fcf.value),
       sparkData: tabs.cashFlow.fcfGrowth,
     },
     {
