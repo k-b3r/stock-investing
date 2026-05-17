@@ -70,12 +70,11 @@ describe('transformFinancials', () => {
     expect(summary.fcfGrowth.yearOverYear).toBeCloseTo(7.6, 1); // not null from TTM
   });
 
-  it('computes bookValue 10-year CAGR from annual financialHealth rows', () => {
+  it('computes bookValue CAGR using calendar year span (not entry count)', () => {
     const { summary } = transformFinancials(bdoRaw);
-    // Annual BV rows: 40.76 (2015), 44.81 (2016), 110.5 (2024) → 3 values
-    // CAGR = (110.5/40.76)^(1/2) - 1 = sqrt(2.711) - 1 ≈ 0.6458 = 64.58%
-    expect(summary.bookValueGrowth).not.toBeNull();
-    expect(summary.bookValueGrowth).toBeGreaterThan(0);
+    // BV: 40.76 (2015) → 110.5 (2024), yearSpan = 9
+    // CAGR = (110.5/40.76)^(1/9) - 1 ≈ 11.75%
+    expect(summary.bookValueGrowth).toBeCloseTo(11.75, 0);
   });
 
   describe('tabs.growth', () => {

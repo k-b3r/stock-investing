@@ -78,14 +78,17 @@ function computeFcfGrowthAvgs(annualRows: CashFlowRow[]): GrowthMetric {
 }
 
 function computeBookValueGrowth(annualHealthRows: HealthRow[]): number | null {
-  const bvs = annualHealthRows
-    .map((r) => r.bookValuePerShare)
-    .filter((v): v is number => v !== null);
-  if (bvs.length < 2) return null;
-  const first = bvs[0];
-  const last = bvs[bvs.length - 1];
-  const years = bvs.length - 1;
-  return ((last / first) ** (1 / years) - 1) * 100;
+  const withBV = annualHealthRows.filter(
+    (r): r is HealthRow & { bookValuePerShare: number } => r.bookValuePerShare !== null
+  );
+  if (withBV.length < 2) return null;
+  const first = withBV[0];
+  const last = withBV[withBV.length - 1];
+  const yearSpan =
+    parseInt(last.fiscalPeriodYearMonth.slice(0, 4), 10) -
+    parseInt(first.fiscalPeriodYearMonth.slice(0, 4), 10);
+  if (yearSpan <= 0) return null;
+  return ((last.bookValuePerShare / first.bookValuePerShare) ** (1 / yearSpan) - 1) * 100;
 }
 
 function toYDP(year: string, value: number | null): YearDataPoint {
@@ -106,13 +109,13 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
   };
 
   // --- filter to annual-only rows ---
-  const annualGrowth = data.growth.dataList.filter((r) => isAnnualYM(r.fiscalPeriodYearMonth));
-  const annualProfit = data.profitability.dataList.filter((r) => isAnnualYear(r.fiscalPeriodYear));
-  const annualHealth = data.financialHealth.dataList.filter((r) =>
+  const annualGrowth = (data.growth?.dataList ?? []).filter((r) => isAnnualYM(r.fiscalPeriodYearMonth));
+  const annualProfit = (data.profitability?.dataList ?? []).filter((r) => isAnnualYear(r.fiscalPeriodYear));
+  const annualHealth = (data.financialHealth?.dataList ?? []).filter((r) =>
     isAnnualYM(r.fiscalPeriodYearMonth)
   );
-  const annualCF = data.cashFlow.dataList.filter((r) => isAnnualYM(r.fiscalPeriodYearMonth));
-  const annualIncome = data['keyMetrics.annual'].incomeStatementList.dataList.filter((r) =>
+  const annualCF = (data.cashFlow?.dataList ?? []).filter((r) => isAnnualYM(r.fiscalPeriodYearMonth));
+  const annualIncome = (data['keyMetrics.annual']?.incomeStatementList?.dataList ?? []).filter((r) =>
     isAnnualYM(r.fiscalPeriodYearMonth)
   );
 
