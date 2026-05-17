@@ -166,6 +166,9 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
         eps: annualIncome.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.basicEPS)),
         revenue: annualIncome.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.revenue)),
         netIncome: annualIncome.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.netIncome)),
+        epsGrowthPct: annualGrowth.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.epsPer.yearOverYear)),
+        revenueGrowthPct: annualGrowth.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.revenuePer.yearOverYear)),
+        netIncomeGrowthPct: annualGrowth.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.netIncomePer.yearOverYear)),
       },
       profitability: {
         roe: annualProfit.map((r) => toYDP(r.fiscalPeriodYear, r.roe)),

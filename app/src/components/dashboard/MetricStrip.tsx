@@ -39,19 +39,19 @@ export function MetricStrip({ financials }: Props) {
       label: 'EPS Growth',
       value: eps,
       threshold: classifyMetric('growth', eps),
-      sparkData: tabs.growth.eps,
+      sparkData: tabs.growth.epsGrowthPct,
     },
     {
       label: 'Revenue Growth',
       value: rev,
       threshold: classifyMetric('growth', rev),
-      sparkData: tabs.growth.revenue,
+      sparkData: tabs.growth.revenueGrowthPct,
     },
     {
       label: 'Net Income Growth',
       value: ni,
       threshold: classifyMetric('growth', ni),
-      sparkData: tabs.growth.netIncome,
+      sparkData: tabs.growth.netIncomeGrowthPct,
     },
     {
       label: 'FCF Growth',

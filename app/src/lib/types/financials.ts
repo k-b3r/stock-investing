@@ -35,6 +35,9 @@ export interface FinancialTabs {
     eps: YearDataPoint[];
     revenue: YearDataPoint[];
     netIncome: YearDataPoint[];
+    epsGrowthPct: YearDataPoint[];
+    revenueGrowthPct: YearDataPoint[];
+    netIncomeGrowthPct: YearDataPoint[];
   };
   profitability: {
     roe: YearDataPoint[];
