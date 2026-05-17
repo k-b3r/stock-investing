@@ -39,19 +39,22 @@ export function MetricStrip({ financials }: Props) {
       label: 'EPS Growth',
       value: eps,
       threshold: classifyMetric('growth', eps),
-      sparkData: tabs.growth.epsGrowthPct,
+      sparkData: tabs.growth.eps,
+      sparkUnit: '',
     },
     {
       label: 'Revenue Growth',
       value: rev,
       threshold: classifyMetric('growth', rev),
-      sparkData: tabs.growth.revenueGrowthPct,
+      sparkData: tabs.growth.revenue,
+      sparkUnit: 'B',
     },
     {
       label: 'Net Income Growth',
       value: ni,
       threshold: classifyMetric('growth', ni),
-      sparkData: tabs.growth.netIncomeGrowthPct,
+      sparkData: tabs.growth.netIncome,
+      sparkUnit: 'B',
     },
     {
       label: 'FCF Growth',
@@ -95,7 +98,7 @@ export function MetricStrip({ financials }: Props) {
     </div>
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {metrics.map((m) => (
-        <MetricCard key={m.label} {...m} years={years} />
+        <MetricCard key={m.label} {...m} sparkUnit={m.sparkUnit} years={years} />
       ))}
     </div>
     </div>
