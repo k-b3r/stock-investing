@@ -1,3 +1,5 @@
+'use client';
+
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { MetricTable, type MetricRow } from './MetricTable';
 import type { TransformedFinancials } from '@/lib/types/financials';
