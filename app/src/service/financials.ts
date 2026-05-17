@@ -119,20 +119,41 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
     isAnnualYM(r.fiscalPeriodYearMonth)
   );
 
-  // --- summary: growth avgs from most recent annual row where tenYearAvg is non-null ---
-  const latestGrowthRow = [...annualGrowth]
-    .reverse()
-    .find((r) => r.epsPer.tenYearAvg !== null) ?? annualGrowth[annualGrowth.length - 1];
+  // --- summary: per-period scan — find most recent non-null value for each window independently ---
+  function latestNonNull(getter: (r: GrowthDataRow) => number | null): number | null {
+    for (let i = annualGrowth.length - 1; i >= 0; i--) {
+      const v = getter(annualGrowth[i]);
+      if (v !== null) return v;
+    }
+    return null;
+  }
 
-  const epsGrowth: GrowthMetric = latestGrowthRow?.epsPer ?? {
-    tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null,
-  };
-  const revenueGrowth: GrowthMetric = latestGrowthRow?.revenuePer ?? {
-    tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null,
-  };
-  const netIncomeGrowth: GrowthMetric = latestGrowthRow?.netIncomePer ?? {
-    tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null,
-  };
+  function buildGrowthMetric(
+    ten: (r: GrowthDataRow) => number | null,
+    five: (r: GrowthDataRow) => number | null,
+    three: (r: GrowthDataRow) => number | null,
+    yoy: (r: GrowthDataRow) => number | null,
+  ): GrowthMetric {
+    return {
+      tenYearAvg: latestNonNull(ten),
+      fiveYearAvg: latestNonNull(five),
+      threeYearAvg: latestNonNull(three),
+      yearOverYear: latestNonNull(yoy),
+    };
+  }
+
+  const epsGrowth = buildGrowthMetric(
+    r => r.epsPer.tenYearAvg, r => r.epsPer.fiveYearAvg,
+    r => r.epsPer.threeYearAvg, r => r.epsPer.yearOverYear,
+  );
+  const revenueGrowth = buildGrowthMetric(
+    r => r.revenuePer.tenYearAvg, r => r.revenuePer.fiveYearAvg,
+    r => r.revenuePer.threeYearAvg, r => r.revenuePer.yearOverYear,
+  );
+  const netIncomeGrowth = buildGrowthMetric(
+    r => r.netIncomePer.tenYearAvg, r => r.netIncomePer.fiveYearAvg,
+    r => r.netIncomePer.threeYearAvg, r => r.netIncomePer.yearOverYear,
+  );
 
   // --- summary: ROIC from most recent annual profitability row ---
   const latestProfit = annualProfit[annualProfit.length - 1];
