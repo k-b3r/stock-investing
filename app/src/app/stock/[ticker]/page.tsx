@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { getFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
 import { MetricStrip } from '@/components/dashboard/MetricStrip';
+import { FinancialTabs } from '@/components/dashboard/FinancialTabs';
 
 interface Props {
   params: Promise<{ ticker: string }>;
@@ -24,6 +25,7 @@ export default async function StockPage({ params }: Props) {
           <p className="text-muted-foreground text-sm mt-1">PSE-listed · Morningstar data</p>
         </div>
         <MetricStrip financials={financials} />
+        <FinancialTabs financials={financials} />
       </div>
     </main>
   );
