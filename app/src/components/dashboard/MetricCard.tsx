@@ -27,7 +27,7 @@ export function MetricCard({ label, value, threshold, sparkData, unit = '%' }: P
   const displayValue = value === null ? 'N/A' : `${value.toFixed(1)}${unit}`;
 
   return (
-    <Card className="flex-1 min-w-[200px]">
+    <Card>
       <CardContent className="pt-4 pb-3 px-4 space-y-2">
         <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">{label}</p>
         <p className={cn('text-lg font-bold px-1.5 py-0.5 rounded inline-block', colorMap[threshold])}>
