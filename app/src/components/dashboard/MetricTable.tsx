@@ -54,12 +54,14 @@ function Cell({
 
   if (tooltip && value === null) {
     return (
-      <TooltipProvider>
-        <Tooltip>
-          <TooltipTrigger asChild>{cell}</TooltipTrigger>
-          <TooltipContent>{tooltip}</TooltipContent>
-        </Tooltip>
-      </TooltipProvider>
+      <td className="px-3 py-1.5 text-right text-xs font-mono text-muted-foreground">
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger>N/A</TooltipTrigger>
+            <TooltipContent>{tooltip}</TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      </td>
     );
   }
 

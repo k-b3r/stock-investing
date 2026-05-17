@@ -23,7 +23,7 @@ export function MetricSparkline({ data }: Props) {
         />
         <Tooltip
           contentStyle={{ fontSize: 11, padding: '2px 6px' }}
-          formatter={(v: number) => [v?.toFixed(1) + '%', '']}
+          formatter={(v) => [v != null ? Number(v).toFixed(1) + '%' : 'N/A', '']}
           labelFormatter={(l) => l}
         />
       </LineChart>
