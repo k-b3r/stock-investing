@@ -1,25 +1,31 @@
+'use client';
+
+import { useState } from 'react';
 import { MetricCard } from './MetricCard';
 import { classifyMetric } from '@/service/thresholds';
+import { cn } from '@/lib/utils';
 import type { GrowthMetric, TransformedFinancials } from '@/lib/types/financials';
 
 interface Props {
   financials: TransformedFinancials;
 }
 
-function bestGrowth(g: GrowthMetric): { value: number | null; label: string } {
-  if (g.tenYearAvg !== null) return { value: g.tenYearAvg, label: '10Y' };
-  if (g.fiveYearAvg !== null) return { value: g.fiveYearAvg, label: '5Y' };
-  if (g.threeYearAvg !== null) return { value: g.threeYearAvg, label: '3Y' };
-  return { value: g.yearOverYear, label: 'YoY' };
+type Period = '3Y' | '5Y' | '10Y';
+
+function pickGrowth(g: GrowthMetric, period: Period): number | null {
+  if (period === '10Y') return g.tenYearAvg ?? g.fiveYearAvg ?? g.threeYearAvg ?? g.yearOverYear;
+  if (period === '5Y') return g.fiveYearAvg ?? g.threeYearAvg ?? g.yearOverYear;
+  return g.threeYearAvg ?? g.yearOverYear;
 }
 
 export function MetricStrip({ financials }: Props) {
   const { summary, tabs } = financials;
+  const [period, setPeriod] = useState<Period>('10Y');
 
-  const eps = bestGrowth(summary.epsGrowth);
-  const rev = bestGrowth(summary.revenueGrowth);
-  const ni = bestGrowth(summary.netIncomeGrowth);
-  const fcf = bestGrowth(summary.fcfGrowth);
+  const eps = pickGrowth(summary.epsGrowth, period);
+  const rev = pickGrowth(summary.revenueGrowth, period);
+  const ni = pickGrowth(summary.netIncomeGrowth, period);
+  const fcf = pickGrowth(summary.fcfGrowth, period);
 
   const metrics = [
     {
@@ -29,27 +35,27 @@ export function MetricStrip({ financials }: Props) {
       sparkData: tabs.profitability.roic,
     },
     {
-      label: `EPS Growth (${eps.label})`,
-      value: eps.value,
-      threshold: classifyMetric('growth', eps.value),
+      label: 'EPS Growth',
+      value: eps,
+      threshold: classifyMetric('growth', eps),
       sparkData: tabs.growth.eps,
     },
     {
-      label: `Revenue Growth (${rev.label})`,
-      value: rev.value,
-      threshold: classifyMetric('growth', rev.value),
+      label: 'Revenue Growth',
+      value: rev,
+      threshold: classifyMetric('growth', rev),
       sparkData: tabs.growth.revenue,
     },
     {
-      label: `Net Income Growth (${ni.label})`,
-      value: ni.value,
-      threshold: classifyMetric('growth', ni.value),
+      label: 'Net Income Growth',
+      value: ni,
+      threshold: classifyMetric('growth', ni),
       sparkData: tabs.growth.netIncome,
     },
     {
-      label: `FCF Growth (${fcf.label})`,
-      value: fcf.value,
-      threshold: classifyMetric('growth', fcf.value),
+      label: 'FCF Growth',
+      value: fcf,
+      threshold: classifyMetric('growth', fcf),
       sparkData: tabs.cashFlow.fcfGrowth,
     },
     {
@@ -68,10 +74,29 @@ export function MetricStrip({ financials }: Props) {
   ];
 
   return (
+    <div className="space-y-3">
+    <div className="flex items-center gap-1">
+      <span className="text-xs text-muted-foreground mr-1">Avg period:</span>
+      {(['3Y', '5Y', '10Y'] as Period[]).map((p) => (
+        <button
+          key={p}
+          onClick={() => setPeriod(p)}
+          className={cn(
+            'px-2.5 py-1 text-xs rounded font-medium transition-colors',
+            period === p
+              ? 'bg-foreground text-background'
+              : 'bg-muted text-muted-foreground hover:text-foreground'
+          )}
+        >
+          {p}
+        </button>
+      ))}
+    </div>
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {metrics.map((m) => (
         <MetricCard key={m.label} {...m} />
       ))}
+    </div>
     </div>
   );
 }
