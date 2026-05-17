@@ -25,10 +25,13 @@ export function MetricSparkline({ data, unit = '%' }: Props) {
         <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" strokeOpacity={0.5} />
         <XAxis
           dataKey="year"
-          tick={{ fontSize: 10, fill: 'hsl(var(--muted-foreground))' }}
+          tick={{ fontSize: 9, fill: 'hsl(var(--muted-foreground))' }}
           tickLine={false}
           axisLine={false}
-          interval="preserveStartEnd"
+          interval={0}
+          angle={-45}
+          textAnchor="end"
+          height={36}
         />
         <YAxis
           tick={{ fontSize: 10, fill: 'hsl(var(--muted-foreground))' }}
