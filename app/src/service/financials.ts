@@ -66,27 +66,41 @@ function avgNonNull(values: (number | null)[]): number | null {
   return nums.reduce((a, b) => a + b, 0) / nums.length;
 }
 
-function avgArr(arr: number[]): number | null {
-  if (arr.length === 0) return null;
-  return arr.reduce((a, b) => a + b, 0) / arr.length;
-}
-
 function computeGrowthMetricFromValues(values: (number | null)[]): GrowthMetric {
-  const rates: number[] = [];
-  for (let i = 1; i < values.length; i++) {
-    const prev = values[i - 1];
-    const curr = values[i];
-    if (prev !== null && curr !== null && prev !== 0) {
-      rates.push(((curr - prev) / Math.abs(prev)) * 100);
-    }
+  // Build indexed list of non-null values; index = year offset (consecutive rows = 1 year apart)
+  const pts: { v: number; i: number }[] = [];
+  for (let i = 0; i < values.length; i++) {
+    const v = values[i];
+    if (v !== null) pts.push({ v, i });
   }
-  const n = rates.length;
-  if (n === 0) return { tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null };
+  if (pts.length < 2) return { tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null };
+
+  const last = pts[pts.length - 1];
+  const secondLast = pts[pts.length - 2];
+
+  // YoY: simple % change between two most-recent non-null values
+  const yoy = secondLast.v !== 0
+    ? ((last.v - secondLast.v) / Math.abs(secondLast.v)) * 100
+    : null;
+
+  // CAGR over windowYears: find the non-null point closest to `windowYears` back from last
+  function windowCagr(windowYears: number): number | null {
+    const targetIdx = last.i - windowYears;
+    // pick the point at or before targetIdx (or oldest available)
+    let first = pts[0];
+    for (let j = pts.length - 2; j >= 0; j--) {
+      if (pts[j].i <= targetIdx) { first = pts[j]; break; }
+    }
+    const years = last.i - first.i;
+    if (years <= 0 || first.v <= 0 || last.v <= 0) return null;
+    return ((last.v / first.v) ** (1 / years) - 1) * 100;
+  }
+
   return {
-    yearOverYear: rates[n - 1],
-    threeYearAvg: avgArr(rates.slice(Math.max(0, n - 3))),
-    fiveYearAvg: avgArr(rates.slice(Math.max(0, n - 5))),
-    tenYearAvg: avgArr(rates.slice(Math.max(0, n - 10))),
+    yearOverYear: yoy,
+    threeYearAvg: windowCagr(3),
+    fiveYearAvg: windowCagr(5),
+    tenYearAvg: windowCagr(10),
   };
 }
 
