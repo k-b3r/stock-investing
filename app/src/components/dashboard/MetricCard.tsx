@@ -5,10 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import type { ThresholdResult, YearDataPoint } from '@/lib/types/financials';
 import { cn } from '@/lib/utils';
 
-const MetricSparkline = dynamic(
-  () => import('./MetricSparkline').then((m) => m.MetricSparkline),
-  { ssr: false }
-);
+const MetricSparkline = dynamic(() => import('./MetricSparkline'), { ssr: false });
 
 const colorMap: Record<ThresholdResult, string> = {
   green: 'text-green-600 bg-green-50',

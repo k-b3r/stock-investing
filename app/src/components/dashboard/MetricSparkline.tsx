@@ -17,7 +17,7 @@ interface Props {
   years?: number;
 }
 
-export function MetricSparkline({ data, unit = '%', years = 10 }: Props) {
+export default function MetricSparkline({ data, unit = '%', years = 10 }: Props) {
   const chartData = data.slice(-years).map((d) => ({ year: d.year, value: d.value }));
   const hasData = chartData.some((d) => d.value !== null);
   if (!hasData) return <div className="h-[140px] flex items-center justify-center text-xs text-muted-foreground">No data</div>;
