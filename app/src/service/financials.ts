@@ -92,7 +92,7 @@ function computeGrowthMetricFromValues(values: (number | null)[]): GrowthMetric 
       if (pts[j].i <= targetIdx) { first = pts[j]; break; }
     }
     const years = last.i - first.i;
-    if (years <= 0 || first.v <= 0 || last.v <= 0) return null;
+    if (years <= 0 || first.v <= 0 || last.v <= 0 || first.v < last.v * 0.05) return null;
     return ((last.v / first.v) ** (1 / years) - 1) * 100;
   }
 
