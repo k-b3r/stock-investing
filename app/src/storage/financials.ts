@@ -9,3 +9,11 @@ export async function getFinancials(ticker: string): Promise<RawFinancials | nul
   );
   return rows[0] ?? null;
 }
+
+export async function getAllFinancials(): Promise<RawFinancials[]> {
+  const pool = await getPool();
+  const { rows } = await pool.query<RawFinancials>(
+    `SELECT ticker, performance_id, data, scraped_at::text FROM financials ORDER BY ticker`
+  );
+  return rows;
+}

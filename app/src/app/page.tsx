@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { SearchBar } from '@/components/search/SearchBar';
 
 export default function HomePage() {
@@ -9,6 +10,11 @@ export default function HomePage() {
           Phil Town Rule #1 metrics for Philippine Stock Exchange companies
         </p>
         <SearchBar />
+        <div className="text-center mt-8">
+          <Link href="/screener" className="text-sm text-muted-foreground hover:text-foreground underline underline-offset-4">
+            View all stocks screener →
+          </Link>
+        </div>
       </div>
     </main>
   );
