@@ -66,13 +66,14 @@ function avgNonNull(values: (number | null)[]): number | null {
   return nums.reduce((a, b) => a + b, 0) / nums.length;
 }
 
-function computeGrowthMetricFromValues(values: (number | null)[]): GrowthMetric {
+export function computeGrowthMetricFromValues(
+  entries: { value: number | null; year: number }[]
+): GrowthMetric {
   // Only positive values are meaningful for CAGR (exclude null and zero)
-  const pts: { v: number; i: number }[] = [];
-  for (let i = 0; i < values.length; i++) {
-    const v = values[i];
-    if (v !== null && v > 0) pts.push({ v, i });
-  }
+  const pts = entries
+    .filter((e): e is { value: number; year: number } => e.value !== null && e.value > 0)
+    .map((e) => ({ v: e.value, y: e.year }));
+
   if (pts.length < 2) return { tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null };
 
   const last = pts[pts.length - 1];
@@ -80,13 +81,13 @@ function computeGrowthMetricFromValues(values: (number | null)[]): GrowthMetric 
 
   const yoy = ((last.v - secondLast.v) / secondLast.v) * 100;
 
-  // CAGR: use oldest positive value within the window as the start
+  // CAGR: oldest positive value within the calendar-year window as the start
   function windowCagr(windowYears: number): number | null {
-    const windowStart = last.i - windowYears;
-    const first = pts.find((p) => p.i >= windowStart && p.i < last.i);
+    const windowStart = last.y - windowYears;
+    const first = pts.find((p) => p.y >= windowStart && p.y < last.y);
     if (!first) return null;
-    const years = last.i - first.i;
-    if (years <= 0 || last.v <= 0) return null;
+    const years = last.y - first.y;
+    if (years <= 0) return null;
     return ((last.v / first.v) ** (1 / years) - 1) * 100;
   }
 
@@ -151,9 +152,13 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
     isAnnualYM(r.fiscalPeriodYearMonth)
   );
 
-  const epsGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => r.basicEPS));
-  const revenueGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => r.revenue));
-  const netIncomeGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => r.netIncome));
+  const toEntry = (value: number | null, ym: string) => ({
+    value,
+    year: parseInt(ym.slice(0, 4), 10),
+  });
+  const epsGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.basicEPS, r.fiscalPeriodYearMonth)));
+  const revenueGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.revenue, r.fiscalPeriodYearMonth)));
+  const netIncomeGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.netIncome, r.fiscalPeriodYearMonth)));
 
   // --- summary: ROIC from most recent annual profitability row ---
   const latestProfit = annualProfit[annualProfit.length - 1];
