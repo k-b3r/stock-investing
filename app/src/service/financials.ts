@@ -67,32 +67,26 @@ function avgNonNull(values: (number | null)[]): number | null {
 }
 
 function computeGrowthMetricFromValues(values: (number | null)[]): GrowthMetric {
-  // Build indexed list of non-null values; index = year offset (consecutive rows = 1 year apart)
+  // Only positive values are meaningful for CAGR (exclude null and zero)
   const pts: { v: number; i: number }[] = [];
   for (let i = 0; i < values.length; i++) {
     const v = values[i];
-    if (v !== null) pts.push({ v, i });
+    if (v !== null && v > 0) pts.push({ v, i });
   }
   if (pts.length < 2) return { tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null };
 
   const last = pts[pts.length - 1];
   const secondLast = pts[pts.length - 2];
 
-  // YoY: simple % change between two most-recent non-null values
-  const yoy = secondLast.v !== 0
-    ? ((last.v - secondLast.v) / Math.abs(secondLast.v)) * 100
-    : null;
+  const yoy = ((last.v - secondLast.v) / secondLast.v) * 100;
 
-  // CAGR over windowYears: find the non-null point closest to `windowYears` back from last
+  // CAGR: use oldest positive value within the window as the start
   function windowCagr(windowYears: number): number | null {
-    const targetIdx = last.i - windowYears;
-    // pick the point at or before targetIdx (or oldest available)
-    let first = pts[0];
-    for (let j = pts.length - 2; j >= 0; j--) {
-      if (pts[j].i <= targetIdx) { first = pts[j]; break; }
-    }
+    const windowStart = last.i - windowYears;
+    const first = pts.find((p) => p.i >= windowStart && p.i < last.i);
+    if (!first) return null;
     const years = last.i - first.i;
-    if (years <= 0 || first.v <= 0 || last.v <= 0 || first.v < last.v * 0.05) return null;
+    if (years <= 0 || last.v <= 0) return null;
     return ((last.v / first.v) ** (1 / years) - 1) * 100;
   }
 
