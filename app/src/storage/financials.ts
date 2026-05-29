@@ -1,19 +1,20 @@
-import { getPool } from './db';
 import type { RawFinancials } from '@/lib/types/financials';
 
+const API_URL = process.env.API_URL ?? 'http://localhost:3001';
+
 export async function getFinancials(ticker: string): Promise<RawFinancials | null> {
-  const pool = await getPool();
-  const { rows } = await pool.query<RawFinancials>(
-    `SELECT ticker, performance_id, data, scraped_at::text FROM financials WHERE ticker = $1`,
-    [ticker.toUpperCase()]
-  );
-  return rows[0] ?? null;
+  const res = await fetch(`${API_URL}/financials/${ticker.toUpperCase()}`, {
+    next: { revalidate: 300 },
+  });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`API error ${res.status}`);
+  return res.json();
 }
 
 export async function getAllFinancials(): Promise<RawFinancials[]> {
-  const pool = await getPool();
-  const { rows } = await pool.query<RawFinancials>(
-    `SELECT ticker, performance_id, data, scraped_at::text FROM financials ORDER BY ticker`
-  );
-  return rows;
+  const res = await fetch(`${API_URL}/financials`, {
+    next: { revalidate: 300 },
+  });
+  if (!res.ok) throw new Error(`API error ${res.status}`);
+  return res.json();
 }

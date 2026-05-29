@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { getAllFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
 import { ScreenerTable, type ScreenerRow } from '@/components/screener/ScreenerTable';
