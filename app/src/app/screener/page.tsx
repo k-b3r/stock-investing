@@ -20,6 +20,7 @@ export default async function ScreenerPage() {
       const revPeriod = summary.revenueGrowth.tenYearAvg ?? summary.revenueGrowth.fiveYearAvg ?? summary.revenueGrowth.threeYearAvg;
       const niPeriod = summary.netIncomeGrowth.tenYearAvg ?? summary.netIncomeGrowth.fiveYearAvg ?? summary.netIncomeGrowth.threeYearAvg;
       const fcfPeriod = summary.fcfGrowth.tenYearAvg ?? summary.fcfGrowth.fiveYearAvg ?? summary.fcfGrowth.threeYearAvg;
+      const dpsPeriod = summary.dpsGrowth.tenYearAvg ?? summary.dpsGrowth.fiveYearAvg ?? summary.dpsGrowth.threeYearAvg;
 
       const partial = {
         ticker: raw.ticker,
@@ -29,6 +30,7 @@ export default async function ScreenerPage() {
         niGrowth: niPeriod ?? null,
         fcfGrowth: fcfPeriod ?? null,
         bvGrowth: summary.bookValueGrowth,
+        dpsGrowth: dpsPeriod ?? null,
         debtEquity: summary.debtEquity,
       };
       return [{ ...partial, score: bigFiveScore(partial) }];

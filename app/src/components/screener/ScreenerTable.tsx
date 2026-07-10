@@ -12,6 +12,7 @@ export interface ScreenerRow {
   niGrowth: number | null;
   fcfGrowth: number | null;
   bvGrowth: number | null;
+  dpsGrowth: number | null;
   debtEquity: number | null;
   score: number; // count of Big Five metrics >= 10%
 }
@@ -26,6 +27,7 @@ const COLS: { key: Col; label: string; unit: string }[] = [
   { key: 'niGrowth',      label: 'NI Growth',       unit: '%' },
   { key: 'fcfGrowth',     label: 'FCF Growth',      unit: '%' },
   { key: 'bvGrowth',      label: 'BV Growth',       unit: '%' },
+  { key: 'dpsGrowth',     label: 'DPS Growth',      unit: '%' },
   { key: 'debtEquity',    label: 'D/E',             unit: 'x' },
 ];
 
