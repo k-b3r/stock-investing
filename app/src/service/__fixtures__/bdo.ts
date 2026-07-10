@@ -89,9 +89,9 @@ export const bdoRaw: RawFinancials = {
     'keyMetrics.annual': {
       incomeStatementList: {
         dataList: [
-          { fiscalPeriodYearMonth: '2015-12', basicEPS: 5.45, revenue: 85.19, netIncome: 24.68, revenueGrowthPer: 9.83 },
-          { fiscalPeriodYearMonth: '2016-12', basicEPS: 5.89, revenue: 92.4, netIncome: 26.04, revenueGrowthPer: 8.46 },
-          { fiscalPeriodYearMonth: '2024-12', basicEPS: 9.47, revenue: 185.2, netIncome: 51.3, revenueGrowthPer: -2.84 },
+          { fiscalPeriodYearMonth: '2015-12', basicEPS: 5.45, revenue: 85.19, netIncome: 24.68, revenueGrowthPer: 9.83, dividentPerShare: null },
+          { fiscalPeriodYearMonth: '2016-12', basicEPS: 5.89, revenue: 92.4, netIncome: 26.04, revenueGrowthPer: 8.46, dividentPerShare: 0.883856 },
+          { fiscalPeriodYearMonth: '2024-12', basicEPS: 9.47, revenue: 185.2, netIncome: 51.3, revenueGrowthPer: -2.84, dividentPerShare: 3.75 },
         ],
       },
       balanceSheetList: { dataList: [] },

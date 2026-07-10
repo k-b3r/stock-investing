@@ -252,3 +252,53 @@ describe('transformFinancials (BDO fixture)', () => {
     });
   });
 });
+
+// ---------------------------------------------------------------------------
+// DPS / dividends
+// ---------------------------------------------------------------------------
+
+describe('DPS / dividends', () => {
+  it('extracts dps series from BDO fixture', () => {
+    const f = transformFinancials(bdoRaw);
+    expect(f.tabs.dividends.dps).toEqual([
+      { year: '2015', value: null },
+      { year: '2016', value: 0.883856 },
+      { year: '2024', value: 3.75 },
+    ]);
+  });
+
+  it('computes dpsGrowth — skips null, uses CAGR from first positive in window', () => {
+    const f = transformFinancials(bdoRaw);
+    const g = f.summary.dpsGrowth;
+    // pts: [{v: 0.883856, y: 2016}, {v: 3.75, y: 2024}]
+    // YoY: (3.75 - 0.883856) / 0.883856 * 100 ≈ 324.2
+    // 3Y window (2021–2024): no point in range → null
+    // 5Y window (2019–2024): no point in range → null
+    // 10Y window (2014–2024): first = 2016, years = 8 → (3.75/0.883856)^(1/8)-1 ≈ 19.8%
+    expect(r(g.yearOverYear)).toBe(324.3);
+    expect(g.threeYearAvg).toBeNull();
+    expect(g.fiveYearAvg).toBeNull();
+    expect(r(g.tenYearAvg)).toBe(19.8);
+  });
+
+  it('dpsGrowth is all-null when no positive DPS values', () => {
+    const raw = {
+      ...bdoRaw,
+      data: {
+        ...bdoRaw.data,
+        'keyMetrics.annual': {
+          incomeStatementList: {
+            dataList: [
+              { fiscalPeriodYearMonth: '2022-12', basicEPS: 1, revenue: 1, netIncome: 1, revenueGrowthPer: 0, dividentPerShare: null },
+              { fiscalPeriodYearMonth: '2023-12', basicEPS: 1, revenue: 1, netIncome: 1, revenueGrowthPer: 0, dividentPerShare: null },
+            ],
+          },
+          balanceSheetList: { dataList: [] },
+          cashFlowList: { dataList: [] },
+        },
+      },
+    };
+    const f = transformFinancials(raw as typeof bdoRaw);
+    expect(f.summary.dpsGrowth).toEqual({ tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null });
+  });
+});

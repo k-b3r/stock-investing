@@ -20,6 +20,7 @@ export interface SummaryMetrics {
   fcfGrowth: GrowthMetric;
   bookValueGrowth: number | null;
   debtEquity: number | null;
+  dpsGrowth: GrowthMetric;
 }
 
 export type ThresholdResult = 'green' | 'yellow' | 'red' | 'neutral';
@@ -53,6 +54,9 @@ export interface FinancialTabs {
     fcfGrowth: YearDataPoint[];
     operatingCFGrowth: YearDataPoint[];
     fcfToNetIncome: YearDataPoint[];
+  };
+  dividends: {
+    dps: YearDataPoint[];
   };
 }
 

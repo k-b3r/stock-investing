@@ -48,6 +48,7 @@ interface IncomeRow {
   basicEPS: number | null;
   revenue: number | null;
   netIncome: number | null;
+  dividentPerShare: number | null;
 }
 
 // --- helpers ---
@@ -159,6 +160,7 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
   const epsGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.basicEPS, r.fiscalPeriodYearMonth)));
   const revenueGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.revenue, r.fiscalPeriodYearMonth)));
   const netIncomeGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.netIncome, r.fiscalPeriodYearMonth)));
+  const dpsGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.dividentPerShare, r.fiscalPeriodYearMonth)));
 
   // --- summary: ROIC from most recent annual profitability row ---
   const latestProfit = annualProfit[annualProfit.length - 1];
@@ -186,6 +188,7 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
       fcfGrowth,
       bookValueGrowth,
       debtEquity,
+      dpsGrowth,
     },
     tabs: {
       growth: {
@@ -222,6 +225,9 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
         fcfToNetIncome: annualCF.map((r) =>
           toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.freeCashFlowPerNetIncome)
         ),
+      },
+      dividends: {
+        dps: annualIncome.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.dividentPerShare)),
       },
     },
   };
