@@ -47,6 +47,10 @@ export function FinancialTabs({ financials }: Props) {
     { label: 'FCF / Net Income', data: tabs.cashFlow.fcfToNetIncome, format: fmt.ratio },
   ];
 
+  const dividendRows: MetricRow[] = [
+    { label: 'Dividends / Share (₱)', data: tabs.dividends.dps, format: fmt.abs },
+  ];
+
   return (
     <Tabs defaultValue="growth">
       <TabsList>
@@ -54,6 +58,7 @@ export function FinancialTabs({ financials }: Props) {
         <TabsTrigger value="profitability">Profitability</TabsTrigger>
         <TabsTrigger value="health">Financial Health</TabsTrigger>
         <TabsTrigger value="cashflow">Cash Flow</TabsTrigger>
+        <TabsTrigger value="dividends">Dividends</TabsTrigger>
       </TabsList>
 
       <TabsContent value="growth" className="mt-4">
@@ -67,6 +72,9 @@ export function FinancialTabs({ financials }: Props) {
       </TabsContent>
       <TabsContent value="cashflow" className="mt-4">
         <MetricTable rows={cashFlowRows} />
+      </TabsContent>
+      <TabsContent value="dividends" className="mt-4">
+        <MetricTable rows={dividendRows} />
       </TabsContent>
     </Tabs>
   );
