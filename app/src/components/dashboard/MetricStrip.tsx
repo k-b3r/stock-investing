@@ -8,6 +8,7 @@ import type { GrowthMetric, TransformedFinancials } from '@/lib/types/financials
 
 interface Props {
   financials: TransformedFinancials;
+  dividendYield?: number | null;
 }
 
 type Period = '3Y' | '5Y' | '10Y';
@@ -18,7 +19,7 @@ function pickGrowth(g: GrowthMetric, period: Period): number | null {
   return g.threeYearAvg ?? g.yearOverYear;
 }
 
-export function MetricStrip({ financials }: Props) {
+export function MetricStrip({ financials, dividendYield = null }: Props) {
   const { summary, tabs } = financials;
   const [period, setPeriod] = useState<Period>('10Y');
   const years = period === '3Y' ? 3 : period === '5Y' ? 5 : 10;
@@ -74,6 +75,14 @@ export function MetricStrip({ financials }: Props) {
       threshold: classifyMetric('debtEquity', summary.debtEquity),
       sparkData: tabs.financialHealth.debtEquity,
       unit: 'x',
+    },
+    {
+      label: 'Dividend Yield',
+      value: dividendYield,
+      threshold: classifyMetric('growth', dividendYield),
+      sparkData: tabs.dividends.dps,
+      unit: '%',
+      sparkUnit: '',
     },
   ];
 
