@@ -80,7 +80,7 @@ export function MetricStrip({ financials, dividendYield = null }: Props) {
       label: 'Dividend Yield',
       value: dividendYield,
       threshold: classifyMetric('growth', dividendYield),
-      sparkData: tabs.dividends.dps,
+      sparkData: tabs.dividends?.dps ?? [],
       unit: '%',
       sparkUnit: '',
     },
