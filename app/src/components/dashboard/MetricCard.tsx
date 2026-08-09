@@ -1,7 +1,9 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { Info } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import type { ThresholdResult, YearDataPoint } from '@/lib/types/financials';
 import { cn } from '@/lib/utils';
 
@@ -25,15 +27,28 @@ interface Props {
   unit?: string;
   sparkUnit?: string;
   years?: number;
+  tooltip?: string;
 }
 
-export function MetricCard({ label, value, threshold, sparkData, unit = '%', sparkUnit, years = 10 }: Props) {
+export function MetricCard({ label, value, threshold, sparkData, unit = '%', sparkUnit, years = 10, tooltip }: Props) {
   const displayValue = value === null ? 'N/A' : `${value.toFixed(1)}${unit}`;
 
   return (
     <Card>
       <CardContent className="pt-4 pb-3 px-4 space-y-2">
-        <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">{label}</p>
+        <div className="flex items-center gap-1">
+          <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">{label}</p>
+          {tooltip && (
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Info className="h-3 w-3 text-muted-foreground" />
+                </TooltipTrigger>
+                <TooltipContent className="max-w-xs text-xs">{tooltip}</TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          )}
+        </div>
         <p className={cn('text-lg font-bold px-1.5 py-0.5 rounded inline-block', colorMap[threshold])}>
           {displayValue}
         </p>

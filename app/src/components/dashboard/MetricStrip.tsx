@@ -133,6 +133,10 @@ export function MetricStrip({
       sparkData: tabs.growth.eps,
       unit: '',
       sparkUnit: '',
+      tooltip:
+        'Fair value estimate (Phil Town Rule #1): projects EPS forward 10 years at the ' +
+        'growth rate above (capped 15%), applies a future P/E of 2× growth (capped 20), ' +
+        'then discounts back at 15%/yr. Formula: ((EPS × (1+g)^10) × min(2g, 20)) ÷ 1.15^10',
     },
     {
       label: 'MOS Buy Price (₱)',
@@ -141,6 +145,7 @@ export function MetricStrip({
       sparkData: tabs.growth.eps,
       unit: '',
       sparkUnit: '',
+      tooltip: 'Target buy price with a 50% margin of safety below Sticker Price. Formula: MOS = Sticker Price × 50%',
     },
   ];
 
