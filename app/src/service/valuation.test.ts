@@ -54,4 +54,20 @@ describe('computeStickerPrice', () => {
     const result = computeStickerPrice(7.5, 9);
     expect(result!.mosPrice).toBeCloseTo(result!.stickerPrice * 0.5, 10);
   });
+
+  it('exposes the intermediate breakdown values used to reach stickerPrice (eps=10, growth=12%)', () => {
+    // cappedGrowthPct = 12 (under 15% cap)
+    // futurePE = min(12 * 2, 20) = 20
+    // futureEps = 10 * (1.12 ** 10) = 31.058...
+    const result = computeStickerPrice(10, 12);
+    expect(result!.cappedGrowthPct).toBeCloseTo(12, 6);
+    expect(result!.futurePE).toBeCloseTo(20, 6);
+    expect(result!.futureEps).toBeCloseTo(31.06, 1);
+  });
+
+  it('breakdown values respect the same 15% growth cap and 20 P/E cap as stickerPrice', () => {
+    const result = computeStickerPrice(10, 30);
+    expect(result!.cappedGrowthPct).toBeCloseTo(15, 6);
+    expect(result!.futurePE).toBeCloseTo(20, 6);
+  });
 });
