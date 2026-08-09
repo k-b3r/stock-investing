@@ -9,6 +9,24 @@ export function classifyMetric(category: MetricCategory, value: number | null): 
     return 'red';
   }
 
+  if (category === 'pe') {
+    if (value <= 15) return 'green';
+    if (value <= 25) return 'yellow';
+    return 'red';
+  }
+
+  if (category === 'pb') {
+    if (value <= 1.5) return 'green';
+    if (value <= 3) return 'yellow';
+    return 'red';
+  }
+
+  if (category === 'peg') {
+    if (value <= 1) return 'green';
+    if (value <= 2) return 'yellow';
+    return 'red';
+  }
+
   // 'growth' and 'roic' share the same thresholds
   if (value >= 10) return 'green';
   if (value >= 5) return 'yellow';

@@ -17,10 +17,24 @@ interface Props {
   years?: number;
 }
 
+function smartFormat(v: number, unit: string): string {
+  const abs = Math.abs(v);
+  const decimals = abs >= 10 ? 0 : abs >= 1 ? 1 : 2;
+  return `${v.toFixed(decimals)}${unit}`;
+}
+
 export default function MetricSparkline({ data, unit = '%', years = 10 }: Props) {
   const chartData = data.slice(-years).map((d) => ({ year: d.year, value: d.value }));
   const hasData = chartData.some((d) => d.value !== null);
-  if (!hasData) return <div className="h-[140px] flex items-center justify-center text-xs text-muted-foreground">No data</div>;
+  if (!hasData) return (
+    <div className="h-[140px] flex items-center justify-center text-xs text-muted-foreground">
+      No data
+    </div>
+  );
+
+  const nonNull = chartData.filter((d) => d.value !== null).map((d) => d.value as number);
+  const maxAbs = Math.max(...nonNull.map(Math.abs));
+  const axisDecimals = maxAbs >= 10 ? 0 : maxAbs >= 1 ? 1 : 2;
 
   return (
     <ResponsiveContainer width="100%" height={140}>
@@ -40,8 +54,8 @@ export default function MetricSparkline({ data, unit = '%', years = 10 }: Props)
           tick={{ fontSize: 10, fill: 'hsl(var(--muted-foreground))' }}
           tickLine={false}
           axisLine={false}
-          tickFormatter={(v) => `${Number(v).toFixed(0)}${unit}`}
-          width={36}
+          tickFormatter={(v) => `${Number(v).toFixed(axisDecimals)}${unit}`}
+          width={40}
         />
         <Tooltip
           contentStyle={{
@@ -49,9 +63,11 @@ export default function MetricSparkline({ data, unit = '%', years = 10 }: Props)
             padding: '4px 8px',
             borderRadius: 6,
             border: '1px solid hsl(var(--border))',
+            backgroundColor: 'hsl(var(--background))',
+            color: 'hsl(var(--foreground))',
           }}
-          formatter={(v) => [v != null ? `${Number(v).toFixed(1)}${unit}` : 'N/A', '']}
-          labelFormatter={(l) => l}
+          formatter={(v) => [v != null ? smartFormat(Number(v), unit) : 'N/A', '']}
+          labelFormatter={(l) => String(l)}
         />
         <Line
           type="monotone"

@@ -24,7 +24,7 @@ export interface SummaryMetrics {
 }
 
 export type ThresholdResult = 'green' | 'yellow' | 'red' | 'neutral';
-export type MetricCategory = 'growth' | 'roic' | 'debtEquity';
+export type MetricCategory = 'growth' | 'roic' | 'debtEquity' | 'pe' | 'pb' | 'peg';
 
 export interface YearDataPoint {
   year: string;

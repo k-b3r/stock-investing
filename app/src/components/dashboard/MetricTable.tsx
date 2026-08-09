@@ -11,9 +11,9 @@ import {
 } from '@/components/ui/tooltip';
 
 const colorMap = {
-  green: 'bg-green-50 text-green-700',
-  yellow: 'bg-yellow-50 text-yellow-700',
-  red: 'bg-red-50 text-red-700',
+  green: 'text-green-500',
+  yellow: 'text-yellow-500',
+  red: 'text-red-500',
   neutral: '',
 };
 
@@ -43,7 +43,7 @@ function Cell({
   const cell = (
     <td
       className={cn(
-        'px-3 py-1.5 text-right text-xs font-mono tabular-nums rounded',
+        'px-3 py-1.5 text-right text-xs font-mono tabular-nums',
         color,
         value === null && 'text-muted-foreground'
       )}

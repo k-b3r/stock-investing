@@ -9,6 +9,9 @@ import type { GrowthMetric, TransformedFinancials } from '@/lib/types/financials
 interface Props {
   financials: TransformedFinancials;
   dividendYield?: number | null;
+  pe?: number | null;
+  pb?: number | null;
+  peg?: number | null;
 }
 
 type Period = '3Y' | '5Y' | '10Y';
@@ -19,7 +22,7 @@ function pickGrowth(g: GrowthMetric, period: Period): number | null {
   return g.threeYearAvg ?? g.yearOverYear;
 }
 
-export function MetricStrip({ financials, dividendYield = null }: Props) {
+export function MetricStrip({ financials, dividendYield = null, pe = null, pb = null, peg = null }: Props) {
   const { summary, tabs } = financials;
   const [period, setPeriod] = useState<Period>('10Y');
   const years = period === '3Y' ? 3 : period === '5Y' ? 5 : 10;
@@ -83,6 +86,30 @@ export function MetricStrip({ financials, dividendYield = null }: Props) {
       sparkData: tabs.dividends?.dps ?? [],
       unit: '%',
       sparkUnit: '',
+    },
+    {
+      label: 'P/E',
+      value: pe,
+      threshold: classifyMetric('pe', pe),
+      sparkData: tabs.growth.eps,
+      unit: 'x',
+      sparkUnit: '',
+    },
+    {
+      label: 'P/B',
+      value: pb,
+      threshold: classifyMetric('pb', pb),
+      sparkData: tabs.financialHealth.bookValuePerShare,
+      unit: 'x',
+      sparkUnit: '',
+    },
+    {
+      label: 'PEG',
+      value: peg,
+      threshold: classifyMetric('peg', peg),
+      sparkData: tabs.growth.epsGrowthPct,
+      unit: 'x',
+      sparkUnit: '%',
     },
   ];
 
