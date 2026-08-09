@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { classifyMetric } from './thresholds';
+import { classifyMetric, classifyStickerPrice } from './thresholds';
 
 describe('classifyMetric — growth', () => {
   it('returns neutral for null', () => {
@@ -67,5 +67,39 @@ describe('classifyMetric — debtEquity', () => {
   });
   it('returns red for very high debt', () => {
     expect(classifyMetric('debtEquity', 5)).toBe('red');
+  });
+});
+
+describe('classifyStickerPrice', () => {
+  it('returns neutral when lastPrice is null', () => {
+    expect(classifyStickerPrice(null, 100)).toBe('neutral');
+  });
+
+  it('returns neutral when stickerPrice is null', () => {
+    expect(classifyStickerPrice(50, null)).toBe('neutral');
+  });
+
+  it('returns neutral when stickerPrice is zero', () => {
+    expect(classifyStickerPrice(50, 0)).toBe('neutral');
+  });
+
+  it('returns green when price is at exactly 50% of sticker (at MOS)', () => {
+    expect(classifyStickerPrice(50, 100)).toBe('green');
+  });
+
+  it('returns green when price is below 50% of sticker', () => {
+    expect(classifyStickerPrice(30, 100)).toBe('green');
+  });
+
+  it('returns yellow when price is between MOS and sticker', () => {
+    expect(classifyStickerPrice(75, 100)).toBe('yellow');
+  });
+
+  it('returns yellow when price is at exactly sticker price', () => {
+    expect(classifyStickerPrice(100, 100)).toBe('yellow');
+  });
+
+  it('returns red when price is above sticker price', () => {
+    expect(classifyStickerPrice(120, 100)).toBe('red');
   });
 });

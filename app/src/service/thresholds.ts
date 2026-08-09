@@ -32,3 +32,15 @@ export function classifyMetric(category: MetricCategory, value: number | null): 
   if (value >= 5) return 'yellow';
   return 'red';
 }
+
+export function classifyStickerPrice(
+  lastPrice: number | null,
+  stickerPrice: number | null
+): ThresholdResult {
+  if (lastPrice === null || stickerPrice === null || stickerPrice <= 0) return 'neutral';
+
+  const ratio = lastPrice / stickerPrice;
+  if (ratio <= 0.5) return 'green';
+  if (ratio <= 1) return 'yellow';
+  return 'red';
+}
