@@ -35,12 +35,20 @@ export function classifyMetric(category: MetricCategory, value: number | null): 
 
 export function classifyStickerPrice(
   lastPrice: number | null,
-  stickerPrice: number | null
+  stickerPrice: number | null,
+  mosPrice: number | null
 ): ThresholdResult {
-  if (lastPrice === null || stickerPrice === null || stickerPrice <= 0) return 'neutral';
+  if (
+    lastPrice === null ||
+    lastPrice <= 0 ||
+    stickerPrice === null ||
+    stickerPrice <= 0 ||
+    mosPrice === null
+  ) {
+    return 'neutral';
+  }
 
-  const ratio = lastPrice / stickerPrice;
-  if (ratio <= 0.5) return 'green';
-  if (ratio <= 1) return 'yellow';
+  if (lastPrice <= mosPrice) return 'green';
+  if (lastPrice <= stickerPrice) return 'yellow';
   return 'red';
 }

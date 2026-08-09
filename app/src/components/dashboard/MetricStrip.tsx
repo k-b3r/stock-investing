@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { MetricCard } from './MetricCard';
 import { classifyMetric, classifyStickerPrice } from '@/service/thresholds';
+import { computeStickerPrice } from '@/service/valuation';
 import { cn } from '@/lib/utils';
 import type { GrowthMetric, TransformedFinancials } from '@/lib/types/financials';
 
@@ -13,8 +14,7 @@ interface Props {
   pb?: number | null;
   peg?: number | null;
   lastPrice?: number | null;
-  stickerPrice?: number | null;
-  mosPrice?: number | null;
+  latestEps?: number | null;
 }
 
 type Period = '3Y' | '5Y' | '10Y';
@@ -32,8 +32,7 @@ export function MetricStrip({
   pb = null,
   peg = null,
   lastPrice = null,
-  stickerPrice = null,
-  mosPrice = null,
+  latestEps = null,
 }: Props) {
   const { summary, tabs } = financials;
   const [period, setPeriod] = useState<Period>('10Y');
@@ -43,6 +42,10 @@ export function MetricStrip({
   const rev = pickGrowth(summary.revenueGrowth, period);
   const ni = pickGrowth(summary.netIncomeGrowth, period);
   const fcf = pickGrowth(summary.fcfGrowth, period);
+
+  const stickerResult = computeStickerPrice(latestEps, eps);
+  const stickerPrice = stickerResult?.stickerPrice ?? null;
+  const mosPrice = stickerResult?.mosPrice ?? null;
 
   const metrics = [
     {
@@ -126,7 +129,7 @@ export function MetricStrip({
     {
       label: 'Sticker Price (₱)',
       value: stickerPrice,
-      threshold: classifyStickerPrice(lastPrice, stickerPrice),
+      threshold: classifyStickerPrice(lastPrice, stickerPrice, mosPrice),
       sparkData: tabs.growth.eps,
       unit: '',
       sparkUnit: '',
