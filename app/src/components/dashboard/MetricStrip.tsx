@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { MetricCard } from './MetricCard';
-import { classifyMetric } from '@/service/thresholds';
+import { classifyMetric, classifyStickerPrice } from '@/service/thresholds';
 import { cn } from '@/lib/utils';
 import type { GrowthMetric, TransformedFinancials } from '@/lib/types/financials';
 
@@ -12,6 +12,9 @@ interface Props {
   pe?: number | null;
   pb?: number | null;
   peg?: number | null;
+  lastPrice?: number | null;
+  stickerPrice?: number | null;
+  mosPrice?: number | null;
 }
 
 type Period = '3Y' | '5Y' | '10Y';
@@ -22,7 +25,16 @@ function pickGrowth(g: GrowthMetric, period: Period): number | null {
   return g.threeYearAvg ?? g.yearOverYear;
 }
 
-export function MetricStrip({ financials, dividendYield = null, pe = null, pb = null, peg = null }: Props) {
+export function MetricStrip({
+  financials,
+  dividendYield = null,
+  pe = null,
+  pb = null,
+  peg = null,
+  lastPrice = null,
+  stickerPrice = null,
+  mosPrice = null,
+}: Props) {
   const { summary, tabs } = financials;
   const [period, setPeriod] = useState<Period>('10Y');
   const years = period === '3Y' ? 3 : period === '5Y' ? 5 : 10;
@@ -110,6 +122,22 @@ export function MetricStrip({ financials, dividendYield = null, pe = null, pb = 
       sparkData: tabs.growth.epsGrowthPct,
       unit: 'x',
       sparkUnit: '%',
+    },
+    {
+      label: 'Sticker Price (₱)',
+      value: stickerPrice,
+      threshold: classifyStickerPrice(lastPrice, stickerPrice),
+      sparkData: tabs.growth.eps,
+      unit: '',
+      sparkUnit: '',
+    },
+    {
+      label: 'MOS Buy Price (₱)',
+      value: mosPrice,
+      threshold: 'neutral' as const,
+      sparkData: tabs.growth.eps,
+      unit: '',
+      sparkUnit: '',
     },
   ];
 
