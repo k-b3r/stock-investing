@@ -1,0 +1,59 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(npx create-next-app@latest *)",
+      "Bash(npx shadcn@latest *)",
+      "Bash(npx shadcn-ui@latest *)",
+      "Bash(node *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(cat *)"
+    ],
+    "deny": []
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [{
+          "type": "command",
+          "command": "echo \"Branch: $(git branch --show-current)\" && echo \"Status: $(git status --short | head -10)\""
+        }]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [{
+          "type": "command",
+          "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -qE 'rm -rf|--no-verify|force.*push|push.*--force'; then echo 'Blocked: dangerous command' >&2; exit 2; fi"
+        }]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "Bash",
+        "hooks": [{
+          "type": "command",
+          "command": "echo '⚠️ Bash tool failed — check command or permissions'"
+        }]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [{
+          "type": "command",
+          "command": "npm run lint --silent 2>&1 && npx tsc --noEmit --skipLibCheck 2>&1 && echo '✅ Clean — safe to commit' || echo '❌ Errors — fix before committing'"
+        }]
+      }
+    ]
+  }
+}
