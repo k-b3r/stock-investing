@@ -38,12 +38,12 @@ export function MetricStrip({
   const [period, setPeriod] = useState<Period>('10Y');
   const years = period === '3Y' ? 3 : period === '5Y' ? 5 : 10;
 
-  const eps = pickGrowth(summary.epsGrowth, period);
+  const epsGrowth = pickGrowth(summary.epsGrowth, period);
   const rev = pickGrowth(summary.revenueGrowth, period);
   const ni = pickGrowth(summary.netIncomeGrowth, period);
   const fcf = pickGrowth(summary.fcfGrowth, period);
 
-  const stickerResult = computeStickerPrice(latestEps, eps);
+  const stickerResult = computeStickerPrice(latestEps, epsGrowth);
   const stickerPrice = stickerResult?.stickerPrice ?? null;
   const mosPrice = stickerResult?.mosPrice ?? null;
 
@@ -56,8 +56,8 @@ export function MetricStrip({
     },
     {
       label: 'EPS Growth',
-      value: eps,
-      threshold: classifyMetric('growth', eps),
+      value: epsGrowth,
+      threshold: classifyMetric('growth', epsGrowth),
       sparkData: tabs.growth.eps,
       sparkUnit: '',
     },

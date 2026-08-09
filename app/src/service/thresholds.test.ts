@@ -114,4 +114,17 @@ describe('classifyStickerPrice', () => {
   it('returns neutral when mosPrice is null', () => {
     expect(classifyStickerPrice(50, 100, null)).toBe('neutral');
   });
+
+  it('returns neutral when mosPrice is zero or negative', () => {
+    expect(classifyStickerPrice(50, 100, 0)).toBe('neutral');
+    expect(classifyStickerPrice(50, 100, -10)).toBe('neutral');
+  });
+
+  it('uses the passed-in mosPrice rather than re-deriving 50% of stickerPrice', () => {
+    expect(classifyStickerPrice(60, 100, 70)).toBe('green');
+  });
+
+  it('classifies as yellow above a non-50% mosPrice but at or below stickerPrice', () => {
+    expect(classifyStickerPrice(60, 100, 55)).toBe('yellow');
+  });
 });

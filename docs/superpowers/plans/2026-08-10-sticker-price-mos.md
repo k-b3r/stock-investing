@@ -1,5 +1,7 @@
 # Sticker Price / MOS Implementation Plan
 
+> **Note:** implementation deviated from this doc during final review — `classifyStickerPrice` ended up taking `mosPrice` as a third argument (not re-deriving it internally), and the sticker price computation moved from `page.tsx` into `MetricStrip.tsx` so it tracks the period toggle. See commit `451d003` for the actual shipped design.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Add Phil Town's Sticker Price and Margin of Safety (MOS) Buy Price as two new

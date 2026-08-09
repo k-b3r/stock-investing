@@ -43,7 +43,8 @@ export function classifyStickerPrice(
     lastPrice <= 0 ||
     stickerPrice === null ||
     stickerPrice <= 0 ||
-    mosPrice === null
+    mosPrice === null ||
+    mosPrice <= 0
   ) {
     return 'neutral';
   }

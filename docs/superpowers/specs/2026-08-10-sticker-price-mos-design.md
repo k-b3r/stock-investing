@@ -1,5 +1,7 @@
 # Sticker Price / Margin of Safety (Phil Town Rule #1)
 
+> **Note:** implementation deviated from this doc during final review — `classifyStickerPrice` ended up taking `mosPrice` as a third argument (not re-deriving it internally), and the sticker price computation moved from `page.tsx` into `MetricStrip.tsx` so it tracks the period toggle. See commit `451d003` for the actual shipped design.
+
 ## Purpose
 Add Phil Town's "Sticker Price" and "Margin of Safety (MOS) Buy Price" valuation metrics
 to the stock dashboard, using data already available (EPS, historical EPS growth, last
