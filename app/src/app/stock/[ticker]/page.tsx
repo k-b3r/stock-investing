@@ -3,6 +3,7 @@ export const dynamic = 'force-dynamic';
 import { notFound } from 'next/navigation';
 import { getFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
+import { computeStickerPrice } from '@/service/valuation';
 import { getLastPrice, getCompanyName } from '@/lib/pse-edge';
 import { getDisclosures } from '@/storage/disclosures';
 import { getNewsArticles } from '@/lib/google-news';
@@ -43,6 +44,9 @@ export default async function StockPage({ params }: Props) {
   const pb  = lastPrice && latestBvps && latestBvps > 0 ? lastPrice / latestBvps : null;
   const epsGrowthRate = summary.epsGrowth.tenYearAvg ?? summary.epsGrowth.fiveYearAvg ?? summary.epsGrowth.threeYearAvg;
   const peg = pe && epsGrowthRate && epsGrowthRate > 0 ? pe / epsGrowthRate : null;
+  const stickerResult = computeStickerPrice(latestEps, epsGrowthRate);
+  const stickerPrice = stickerResult?.stickerPrice ?? null;
+  const mosPrice = stickerResult?.mosPrice ?? null;
 
   return (
     <main className="min-h-screen bg-background">
@@ -67,6 +71,9 @@ export default async function StockPage({ params }: Props) {
           pe={pe}
           pb={pb}
           peg={peg}
+          lastPrice={lastPrice}
+          stickerPrice={stickerPrice}
+          mosPrice={mosPrice}
         />
         <FinancialTabs
           financials={financials}
