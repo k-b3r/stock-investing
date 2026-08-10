@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { classifyStickerPrice } from '@/service/thresholds';
@@ -55,6 +55,68 @@ function cell(row: ScreenerRow, col: Col) {
   return { display, color: value >= 10 ? 'text-green-600' : value >= 5 ? 'text-yellow-600' : 'text-red-600' };
 }
 
+interface PriceResponse {
+  lastPrice: number | null;
+  stickerPrice: number | null;
+  mosPrice: number | null;
+}
+
+function Row({ row: initialRow }: { row: ScreenerRow }) {
+  const [row, setRow] = useState(initialRow);
+  const needsRefetch = row.lastPrice === null || row.mosPrice === null;
+  const rowRef = useRef<HTMLTableRowElement>(null);
+
+  useEffect(() => {
+    setRow(initialRow);
+  }, [initialRow]);
+
+  useEffect(() => {
+    const el = rowRef.current;
+    if (!needsRefetch || !el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        observer.disconnect();
+        fetch(`/api/price/${row.ticker}`)
+          .then((res) => (res.ok ? (res.json() as Promise<PriceResponse>) : null))
+          .then((data) => {
+            if (!data) return;
+            setRow((r) => ({
+              ...r,
+              lastPrice: data.lastPrice ?? r.lastPrice,
+              stickerPrice: data.stickerPrice ?? r.stickerPrice,
+              mosPrice: data.mosPrice ?? r.mosPrice,
+            }));
+          })
+          .catch(() => {});
+      },
+      { rootMargin: '100px' }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [needsRefetch, row.ticker]);
+
+  return (
+    <tr ref={rowRef} className="hover:bg-muted/30 transition-colors">
+      <td className="py-2 pr-6">
+        <Link href={`/stock/${row.ticker}`} className="font-mono font-semibold text-sm hover:underline">
+          {row.ticker}
+        </Link>
+      </td>
+      {COLS.map((c) => {
+        const { display, color } = cell(row, c.key);
+        return (
+          <td key={c.key} className={cn('px-3 py-2 text-right font-mono text-xs tabular-nums', color)}>
+            {display}
+          </td>
+        );
+      })}
+    </tr>
+  );
+}
+
 interface Props {
   rows: ScreenerRow[];
 }
@@ -105,24 +167,7 @@ export function ScreenerTable({ rows }: Props) {
         </thead>
         <tbody className="divide-y divide-border/50">
           {sorted.map(row => (
-            <tr key={row.ticker} className="hover:bg-muted/30 transition-colors">
-              <td className="py-2 pr-6">
-                <Link
-                  href={`/stock/${row.ticker}`}
-                  className="font-mono font-semibold text-sm hover:underline"
-                >
-                  {row.ticker}
-                </Link>
-              </td>
-              {COLS.map(c => {
-                const { display, color } = cell(row, c.key);
-                return (
-                  <td key={c.key} className={cn('px-3 py-2 text-right font-mono text-xs tabular-nums', color)}>
-                    {display}
-                  </td>
-                );
-              })}
-            </tr>
+            <Row key={row.ticker} row={row} />
           ))}
         </tbody>
       </table>
