@@ -123,6 +123,13 @@ for (const [i, ticker] of tickers.entries()) {
       await sleep(DELAY_MS);
       continue;
     }
+    const isEmpty = !profile.description && !profile.sector && !profile.subsector && !profile.incorporationDate && !profile.website;
+    if (isEmpty) {
+      console.log('— empty profile, skipped (not upserted)');
+      failed++;
+      await sleep(DELAY_MS);
+      continue;
+    }
     await upsertProfile(ticker, profile);
     console.log(`→ sector=${profile.sector ?? 'N/A'}, description=${profile.description ? 'yes' : 'no'}`);
     succeeded++;
