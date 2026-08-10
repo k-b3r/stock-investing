@@ -2,9 +2,9 @@ export const dynamic = 'force-dynamic';
 
 import { getAllFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
-import { computeStickerPrice } from '@/service/valuation';
+import { computeStickerPrice, computeFuturePeCap } from '@/service/valuation';
 import { toPhp } from '@/service/currency';
-import { getLastPrice } from '@/lib/pse-edge';
+import { getStockData } from '@/lib/pse-edge';
 import { getUsdToPhpRate } from '@/lib/fx';
 import { ScreenerTable, type ScreenerRow } from '@/components/screener/ScreenerTable';
 
@@ -48,8 +48,9 @@ export default async function ScreenerPage() {
 
   const rows: ScreenerRow[] = await Promise.all(
     partials.map(async (p) => {
-      const lastPrice = await getLastPrice(p.ticker);
-      const stickerResult = computeStickerPrice(p.latestEps, p.epsGrowthRate);
+      const { lastPrice, high52w } = await getStockData(p.ticker);
+      const futurePeCap = computeFuturePeCap(high52w, p.latestEps);
+      const stickerResult = computeStickerPrice(p.latestEps, p.epsGrowthRate, futurePeCap);
       const { latestEps, epsGrowthRate, ...rest } = p;
       const partial = {
         ...rest,

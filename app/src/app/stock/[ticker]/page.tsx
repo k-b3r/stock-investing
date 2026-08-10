@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { getFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
 import { toPhp } from '@/service/currency';
-import { getLastPrice, getCompanyName } from '@/lib/pse-edge';
+import { getStockData, getCompanyName } from '@/lib/pse-edge';
 import { getUsdToPhpRate } from '@/lib/fx';
 import { getDisclosures } from '@/storage/disclosures';
 import { getCompanyProfile } from '@/storage/company-profiles';
@@ -29,13 +29,14 @@ export default async function StockPage({ params }: Props) {
 
   if (!raw) notFound();
 
-  const [lastPrice, disclosures, newsArticles, usdToPhpRate, companyProfile] = await Promise.all([
-    getLastPrice(upper),
+  const [stockData, disclosures, newsArticles, usdToPhpRate, companyProfile] = await Promise.all([
+    getStockData(upper),
     getDisclosures(upper),
     companyName ? getNewsArticles(companyName) : Promise.resolve([]),
     getUsdToPhpRate(),
     getCompanyProfile(upper),
   ]);
+  const { lastPrice, high52w } = stockData;
 
   const financials = transformFinancials(raw);
   const { tabs, summary, currency } = financials;
@@ -79,6 +80,7 @@ export default async function StockPage({ params }: Props) {
           peg={peg}
           lastPrice={lastPrice}
           latestEps={latestEps}
+          high52w={high52w}
         />
         <FinancialTabs
           financials={financials}

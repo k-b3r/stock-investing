@@ -3,9 +3,9 @@ export const dynamic = 'force-dynamic';
 import { NextRequest, NextResponse } from 'next/server';
 import { getFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
-import { computeStickerPrice } from '@/service/valuation';
+import { computeStickerPrice, computeFuturePeCap } from '@/service/valuation';
 import { toPhp } from '@/service/currency';
-import { getLastPrice } from '@/lib/pse-edge';
+import { getStockData } from '@/lib/pse-edge';
 import { getUsdToPhpRate } from '@/lib/fx';
 
 interface Params {
@@ -19,12 +19,14 @@ export async function GET(_req: NextRequest, { params }: Params) {
   const raw = await getFinancials(upper);
   if (!raw) return NextResponse.json({ error: 'not found' }, { status: 404 });
 
-  const [lastPrice, usdToPhpRate] = await Promise.all([getLastPrice(upper), getUsdToPhpRate()]);
+  const [stockData, usdToPhpRate] = await Promise.all([getStockData(upper), getUsdToPhpRate()]);
+  const { lastPrice, high52w } = stockData;
   const { summary, tabs, currency } = transformFinancials(raw);
   const latestEpsRaw = tabs.growth.eps.findLast((d) => d.value !== null)?.value ?? null;
   const latestEps = toPhp(latestEpsRaw, currency, usdToPhpRate);
   const epsGrowthRate = summary.epsGrowth.tenYearAvg ?? summary.epsGrowth.fiveYearAvg ?? summary.epsGrowth.threeYearAvg;
-  const stickerResult = computeStickerPrice(latestEps, epsGrowthRate);
+  const futurePeCap = computeFuturePeCap(high52w, latestEps);
+  const stickerResult = computeStickerPrice(latestEps, epsGrowthRate, futurePeCap);
 
   return NextResponse.json({
     lastPrice,

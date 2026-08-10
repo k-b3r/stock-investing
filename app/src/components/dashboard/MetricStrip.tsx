@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { MetricCard } from './MetricCard';
 import { classifyMetric, classifyStickerPrice } from '@/service/thresholds';
-import { computeStickerPrice } from '@/service/valuation';
+import { computeStickerPrice, computeFuturePeCap } from '@/service/valuation';
 import { cn } from '@/lib/utils';
 import type { GrowthMetric, TransformedFinancials } from '@/lib/types/financials';
 
@@ -15,6 +15,7 @@ interface Props {
   peg?: number | null;
   lastPrice?: number | null;
   latestEps?: number | null;
+  high52w?: number | null;
 }
 
 type Period = '3Y' | '5Y' | '10Y';
@@ -33,6 +34,7 @@ export function MetricStrip({
   peg = null,
   lastPrice = null,
   latestEps = null,
+  high52w = null,
 }: Props) {
   const { summary, tabs } = financials;
   const [period, setPeriod] = useState<Period>('10Y');
@@ -43,7 +45,8 @@ export function MetricStrip({
   const ni = pickGrowth(summary.netIncomeGrowth, period);
   const fcf = pickGrowth(summary.fcfGrowth, period);
 
-  const stickerResult = computeStickerPrice(latestEps, epsGrowth);
+  const futurePeCap = computeFuturePeCap(high52w, latestEps);
+  const stickerResult = computeStickerPrice(latestEps, epsGrowth, futurePeCap);
   const stickerPrice = stickerResult?.stickerPrice ?? null;
   const mosPrice = stickerResult?.mosPrice ?? null;
 
