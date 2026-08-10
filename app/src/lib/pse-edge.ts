@@ -41,29 +41,41 @@ export async function getCompanyName(ticker: string): Promise<string | null> {
   return info?.cmpyNm ?? null;
 }
 
-export async function getLastPrice(ticker: string): Promise<number | null> {
+export interface StockData {
+  lastPrice: number | null;
+  high52w: number | null;
+}
+
+export async function getStockData(ticker: string): Promise<StockData> {
   try {
     const info = await getCompanyInfo(ticker);
-    if (!info) return null;
+    if (!info) return { lastPrice: null, high52w: null };
 
     const res = await fetch(
       `${BASE}/companyPage/stockData.do?cmpy_id=${info.cmpyId}`,
       { headers: HEADERS, next: { revalidate: 300 } }
     );
-    if (!res.ok) return null;
+    if (!res.ok) return { lastPrice: null, high52w: null };
 
     const html = await res.text();
+
+    const parseField = (regex: RegExp): number | null => {
+      const match = html.match(regex);
+      if (!match) return null;
+      const value = parseFloat(match[1].replace(/,/g, ''));
+      return isNaN(value) ? null : value;
+    };
+
     // "Last Traded Price" is empty when the stock hasn't traded yet today (pre-market,
     // suspended, etc) — fall back to "Previous Close" so we still surface a usable price.
-    const match =
-      html.match(/Last Traded Price<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/) ??
-      html.match(/Previous Close and Date<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
-    if (!match) return null;
+    const lastPrice =
+      parseField(/Last Traded Price<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/) ??
+      parseField(/Previous Close and Date<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
+    const high52w = parseField(/52-Week High<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
 
-    const price = parseFloat(match[1].replace(/,/g, ''));
-    return isNaN(price) ? null : price;
+    return { lastPrice, high52w };
   } catch {
-    return null;
+    return { lastPrice: null, high52w: null };
   }
 }
 
