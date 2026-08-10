@@ -94,6 +94,26 @@ describe('getCompanyProfile', () => {
     expect(profile!.website).toBeNull();
   });
 
+  it('normalizes a schemeless website value to https://', async () => {
+    const html = `
+      <html><body>
+      <table class="view">
+        <caption>Contact Information</caption>
+        <tr><th>Website</th><td>www.example.com</td></tr>
+      </table>
+      </body></html>
+    `;
+    stubFetchSequence([
+      { ok: true, json: [{ cmpyId: '260', cmpyNm: 'BDO Unibank, Inc.' }] },
+      { ok: true, text: html },
+    ]);
+
+    const profile = await getCompanyProfile('BDO');
+
+    expect(profile).not.toBeNull();
+    expect(profile!.website).toBe('https://www.example.com');
+  });
+
   it('returns null when the ticker cannot be resolved to a cmpyId', async () => {
     stubFetchSequence([{ ok: true, json: [] }]);
 

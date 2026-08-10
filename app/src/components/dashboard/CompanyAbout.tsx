@@ -22,6 +22,9 @@ function Fact({ label, value, href }: { label: string; value: string | null; hre
 
 export function CompanyAbout({ profile }: Props) {
   if (!profile) return null;
+  if (!profile.description && !profile.sector && !profile.subsector && !profile.incorporationDate && !profile.website) {
+    return null;
+  }
 
   return (
     <Card>

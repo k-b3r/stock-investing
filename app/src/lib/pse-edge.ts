@@ -90,7 +90,9 @@ export async function getCompanyProfile(ticker: string): Promise<CompanyProfile 
         $(table).find('tr').each((_, row) => {
           const label = $(row).find('th').text().trim();
           const value = $(row).find('td').text().trim();
-          if (label === 'Website') website = value || null;
+          if (label === 'Website') {
+            website = /^https?:\/\//i.test(value) ? value : value ? `https://${value}` : null;
+          }
         });
       }
     });
