@@ -4,12 +4,13 @@ import { notFound } from 'next/navigation';
 import { getFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
 import { toPhp } from '@/service/currency';
-import { getLastPrice, getCompanyName } from '@/lib/pse-edge';
+import { getLastPrice, getCompanyName, getCompanyProfile } from '@/lib/pse-edge';
 import { getUsdToPhpRate } from '@/lib/fx';
 import { getDisclosures } from '@/storage/disclosures';
 import { getNewsArticles } from '@/lib/google-news';
 import { MetricStrip } from '@/components/dashboard/MetricStrip';
 import { FinancialTabs } from '@/components/dashboard/FinancialTabs';
+import { CompanyAbout } from '@/components/dashboard/CompanyAbout';
 import { BackButton } from '@/components/BackButton';
 
 interface Props {
@@ -27,11 +28,12 @@ export default async function StockPage({ params }: Props) {
 
   if (!raw) notFound();
 
-  const [lastPrice, disclosures, newsArticles, usdToPhpRate] = await Promise.all([
+  const [lastPrice, disclosures, newsArticles, usdToPhpRate, companyProfile] = await Promise.all([
     getLastPrice(upper),
     getDisclosures(upper),
     companyName ? getNewsArticles(companyName) : Promise.resolve([]),
     getUsdToPhpRate(),
+    getCompanyProfile(upper),
   ]);
 
   const financials = transformFinancials(raw);
@@ -82,6 +84,7 @@ export default async function StockPage({ params }: Props) {
           disclosures={disclosures}
           newsArticles={newsArticles}
         />
+        <CompanyAbout profile={companyProfile} />
       </div>
     </main>
   );
