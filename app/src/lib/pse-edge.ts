@@ -41,6 +41,66 @@ export async function getCompanyName(ticker: string): Promise<string | null> {
   return info?.cmpyNm ?? null;
 }
 
+export interface CompanyProfile {
+  description: string | null;
+  sector: string | null;
+  subsector: string | null;
+  incorporationDate: string | null;
+  website: string | null;
+}
+
+export async function getCompanyProfile(ticker: string): Promise<CompanyProfile | null> {
+  try {
+    const info = await getCompanyInfo(ticker);
+    if (!info) return null;
+
+    const res = await fetch(`${BASE}/companyInformation/form.do?cmpy_id=${info.cmpyId}`, {
+      headers: HEADERS,
+      next: { revalidate: 86400 },
+    });
+    if (!res.ok) return null;
+
+    const html = await res.text();
+    const $ = cheerio.load(html);
+
+    let description: string | null = null;
+    let sector: string | null = null;
+    let subsector: string | null = null;
+    let incorporationDate: string | null = null;
+    let website: string | null = null;
+
+    $('table').each((_, table) => {
+      const caption = $(table).find('caption').text().trim();
+
+      if (caption === 'Company Description') {
+        const cellHtml = $(table).find('td').first().html() ?? '';
+        const withBreaks = cellHtml.replace(/<br\s*\/?>/gi, '\n');
+        const text = cheerio.load(`<div>${withBreaks}</div>`)('div').text();
+        const cleaned = text.replace(/\n{3,}/g, '\n\n').trim();
+        description = cleaned || null;
+      } else if (caption === 'Security Information') {
+        $(table).find('tr').each((_, row) => {
+          const label = $(row).find('th').text().trim();
+          const value = $(row).find('td').text().trim();
+          if (label === 'Sector') sector = value || null;
+          if (label === 'Subsector') subsector = value || null;
+          if (label === 'Incorporation Date') incorporationDate = value || null;
+        });
+      } else if (caption === 'Contact Information') {
+        $(table).find('tr').each((_, row) => {
+          const label = $(row).find('th').text().trim();
+          const value = $(row).find('td').text().trim();
+          if (label === 'Website') website = value || null;
+        });
+      }
+    });
+
+    return { description, sector, subsector, incorporationDate, website };
+  } catch {
+    return null;
+  }
+}
+
 export async function getLastPrice(ticker: string): Promise<number | null> {
   try {
     const info = await getCompanyInfo(ticker);
