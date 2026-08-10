@@ -63,6 +63,7 @@ export interface FinancialTabs {
 export interface TransformedFinancials {
   ticker: string;
   scrapedAt: string;
+  currency: string;
   summary: SummaryMetrics;
   tabs: FinancialTabs;
 }

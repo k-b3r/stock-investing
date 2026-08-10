@@ -3,7 +3,9 @@ export const dynamic = 'force-dynamic';
 import { getAllFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
 import { computeStickerPrice } from '@/service/valuation';
+import { toPhp } from '@/service/currency';
 import { getLastPrice } from '@/lib/pse-edge';
+import { getUsdToPhpRate } from '@/lib/fx';
 import { ScreenerTable, type ScreenerRow } from '@/components/screener/ScreenerTable';
 
 function bigFiveScore(row: Omit<ScreenerRow, 'score'>): number {
@@ -12,18 +14,19 @@ function bigFiveScore(row: Omit<ScreenerRow, 'score'>): number {
 }
 
 export default async function ScreenerPage() {
-  const raws = await getAllFinancials();
+  const [raws, usdToPhpRate] = await Promise.all([getAllFinancials(), getUsdToPhpRate()]);
 
   const partials = raws.flatMap(raw => {
     try {
       const f = transformFinancials(raw);
-      const { summary, tabs } = f;
+      const { summary, tabs, currency } = f;
       const period = summary.epsGrowth.tenYearAvg ?? summary.epsGrowth.fiveYearAvg ?? summary.epsGrowth.threeYearAvg;
       const revPeriod = summary.revenueGrowth.tenYearAvg ?? summary.revenueGrowth.fiveYearAvg ?? summary.revenueGrowth.threeYearAvg;
       const niPeriod = summary.netIncomeGrowth.tenYearAvg ?? summary.netIncomeGrowth.fiveYearAvg ?? summary.netIncomeGrowth.threeYearAvg;
       const fcfPeriod = summary.fcfGrowth.tenYearAvg ?? summary.fcfGrowth.fiveYearAvg ?? summary.fcfGrowth.threeYearAvg;
       const dpsPeriod = summary.dpsGrowth.tenYearAvg ?? summary.dpsGrowth.fiveYearAvg ?? summary.dpsGrowth.threeYearAvg;
-      const latestEps = tabs.growth.eps.findLast(d => d.value !== null)?.value ?? null;
+      const latestEpsRaw = tabs.growth.eps.findLast(d => d.value !== null)?.value ?? null;
+      const latestEps = toPhp(latestEpsRaw, currency, usdToPhpRate);
 
       return [{
         ticker: raw.ticker,

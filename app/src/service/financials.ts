@@ -133,7 +133,7 @@ function toYDP(year: string, value: number | null): YearDataPoint {
 
 export function transformFinancials(raw: RawFinancials): TransformedFinancials {
   const data = raw.data as {
-    growth: { dataList: GrowthDataRow[] };
+    growth: { dataList: GrowthDataRow[]; currency?: string };
     profitability: { dataList: ProfitabilityRow[] };
     financialHealth: { dataList: HealthRow[] };
     cashFlow: { dataList: CashFlowRow[] };
@@ -141,6 +141,8 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
       incomeStatementList: { dataList: IncomeRow[] };
     };
   };
+
+  const currency = data.growth?.currency ?? 'PHP';
 
   // --- filter to annual-only rows ---
   const annualGrowth = (data.growth?.dataList ?? []).filter((r) => isAnnualYM(r.fiscalPeriodYearMonth));
@@ -180,6 +182,7 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
   return {
     ticker: raw.ticker,
     scrapedAt: raw.scraped_at,
+    currency,
     summary: {
       roic,
       epsGrowth,

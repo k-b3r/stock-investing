@@ -3,7 +3,9 @@ export const dynamic = 'force-dynamic';
 import { notFound } from 'next/navigation';
 import { getFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
+import { toPhp } from '@/service/currency';
 import { getLastPrice, getCompanyName } from '@/lib/pse-edge';
+import { getUsdToPhpRate } from '@/lib/fx';
 import { getDisclosures } from '@/storage/disclosures';
 import { getNewsArticles } from '@/lib/google-news';
 import { MetricStrip } from '@/components/dashboard/MetricStrip';
@@ -25,18 +27,23 @@ export default async function StockPage({ params }: Props) {
 
   if (!raw) notFound();
 
-  const [lastPrice, disclosures, newsArticles] = await Promise.all([
+  const [lastPrice, disclosures, newsArticles, usdToPhpRate] = await Promise.all([
     getLastPrice(upper),
     getDisclosures(upper),
     companyName ? getNewsArticles(companyName) : Promise.resolve([]),
+    getUsdToPhpRate(),
   ]);
 
   const financials = transformFinancials(raw);
-  const { tabs, summary } = financials;
+  const { tabs, summary, currency } = financials;
 
-  const latestDps  = tabs.dividends?.dps.findLast((d) => d.value !== null)?.value ?? null;
-  const latestEps  = tabs.growth.eps.findLast((d) => d.value !== null)?.value ?? null;
-  const latestBvps = tabs.financialHealth.bookValuePerShare.findLast((d) => d.value !== null)?.value ?? null;
+  const latestDpsRaw  = tabs.dividends?.dps.findLast((d) => d.value !== null)?.value ?? null;
+  const latestEpsRaw  = tabs.growth.eps.findLast((d) => d.value !== null)?.value ?? null;
+  const latestBvpsRaw = tabs.financialHealth.bookValuePerShare.findLast((d) => d.value !== null)?.value ?? null;
+
+  const latestDps  = toPhp(latestDpsRaw, currency, usdToPhpRate);
+  const latestEps  = toPhp(latestEpsRaw, currency, usdToPhpRate);
+  const latestBvps = toPhp(latestBvpsRaw, currency, usdToPhpRate);
 
   const dividendYield = latestDps && lastPrice ? (latestDps / lastPrice) * 100 : null;
   const pe  = lastPrice && latestEps && latestEps > 0 ? lastPrice / latestEps : null;
