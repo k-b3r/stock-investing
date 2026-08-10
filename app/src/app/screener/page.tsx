@@ -2,6 +2,8 @@ export const dynamic = 'force-dynamic';
 
 import { getAllFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';
+import { computeStickerPrice } from '@/service/valuation';
+import { getLastPrice } from '@/lib/pse-edge';
 import { ScreenerTable, type ScreenerRow } from '@/components/screener/ScreenerTable';
 
 function bigFiveScore(row: Omit<ScreenerRow, 'score'>): number {
@@ -12,17 +14,18 @@ function bigFiveScore(row: Omit<ScreenerRow, 'score'>): number {
 export default async function ScreenerPage() {
   const raws = await getAllFinancials();
 
-  const rows: ScreenerRow[] = raws.flatMap(raw => {
+  const partials = raws.flatMap(raw => {
     try {
       const f = transformFinancials(raw);
-      const { summary } = f;
+      const { summary, tabs } = f;
       const period = summary.epsGrowth.tenYearAvg ?? summary.epsGrowth.fiveYearAvg ?? summary.epsGrowth.threeYearAvg;
       const revPeriod = summary.revenueGrowth.tenYearAvg ?? summary.revenueGrowth.fiveYearAvg ?? summary.revenueGrowth.threeYearAvg;
       const niPeriod = summary.netIncomeGrowth.tenYearAvg ?? summary.netIncomeGrowth.fiveYearAvg ?? summary.netIncomeGrowth.threeYearAvg;
       const fcfPeriod = summary.fcfGrowth.tenYearAvg ?? summary.fcfGrowth.fiveYearAvg ?? summary.fcfGrowth.threeYearAvg;
       const dpsPeriod = summary.dpsGrowth.tenYearAvg ?? summary.dpsGrowth.fiveYearAvg ?? summary.dpsGrowth.threeYearAvg;
+      const latestEps = tabs.growth.eps.findLast(d => d.value !== null)?.value ?? null;
 
-      const partial = {
+      return [{
         ticker: raw.ticker,
         roic: summary.roic,
         epsGrowth: period ?? null,
@@ -32,12 +35,28 @@ export default async function ScreenerPage() {
         bvGrowth: summary.bookValueGrowth,
         dpsGrowth: dpsPeriod ?? null,
         debtEquity: summary.debtEquity,
-      };
-      return [{ ...partial, score: bigFiveScore(partial) }];
+        latestEps,
+        epsGrowthRate: period ?? null,
+      }];
     } catch {
       return [];
     }
   });
+
+  const rows: ScreenerRow[] = await Promise.all(
+    partials.map(async (p) => {
+      const lastPrice = await getLastPrice(p.ticker);
+      const stickerResult = computeStickerPrice(p.latestEps, p.epsGrowthRate);
+      const { latestEps, epsGrowthRate, ...rest } = p;
+      const partial = {
+        ...rest,
+        lastPrice,
+        stickerPrice: stickerResult?.stickerPrice ?? null,
+        mosPrice: stickerResult?.mosPrice ?? null,
+      };
+      return { ...partial, score: bigFiveScore(partial) };
+    })
+  );
 
   return (
     <main className="min-h-screen bg-background">

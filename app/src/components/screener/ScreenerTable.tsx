@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
+import { classifyStickerPrice } from '@/service/thresholds';
 
 export interface ScreenerRow {
   ticker: string;
@@ -14,13 +15,18 @@ export interface ScreenerRow {
   bvGrowth: number | null;
   dpsGrowth: number | null;
   debtEquity: number | null;
+  lastPrice: number | null;
+  stickerPrice: number | null;
+  mosPrice: number | null;
   score: number; // count of Big Five metrics >= 10%
 }
 
-type Col = keyof Omit<ScreenerRow, 'ticker'>;
+type Col = keyof Omit<ScreenerRow, 'ticker' | 'stickerPrice'>;
 
 const COLS: { key: Col; label: string; unit: string }[] = [
   { key: 'score',         label: '★ Score',        unit: ''  },
+  { key: 'lastPrice',     label: 'Price',           unit: '₱' },
+  { key: 'mosPrice',      label: 'MOS Buy',         unit: '₱' },
   { key: 'roic',          label: 'ROIC',            unit: '%' },
   { key: 'epsGrowth',     label: 'EPS Growth',      unit: '%' },
   { key: 'revenueGrowth', label: 'Rev Growth',      unit: '%' },
@@ -31,8 +37,18 @@ const COLS: { key: Col; label: string; unit: string }[] = [
   { key: 'debtEquity',    label: 'D/E',             unit: 'x' },
 ];
 
-function cell(value: number | null, unit: string, col: Col) {
+function cell(row: ScreenerRow, col: Col) {
+  const value = row[col];
   if (value === null) return { display: 'N/A', color: 'text-muted-foreground' };
+
+  if (col === 'lastPrice') return { display: `₱${value.toFixed(2)}`, color: '' };
+  if (col === 'mosPrice') {
+    const threshold = classifyStickerPrice(row.lastPrice, row.stickerPrice, row.mosPrice);
+    const color = threshold === 'green' ? 'text-green-600' : threshold === 'yellow' ? 'text-yellow-600' : threshold === 'red' ? 'text-red-600' : 'text-muted-foreground';
+    return { display: `₱${value.toFixed(2)}`, color };
+  }
+
+  const unit = COLS.find(c => c.key === col)!.unit;
   const display = `${value.toFixed(1)}${unit}`;
   if (col === 'score') return { display: String(value), color: value >= 4 ? 'text-green-600 font-bold' : value >= 2 ? 'text-yellow-600' : 'text-red-600' };
   if (col === 'debtEquity') return { display, color: value <= 0.5 ? 'text-green-600' : value <= 1.0 ? 'text-yellow-600' : 'text-red-600' };
@@ -99,7 +115,7 @@ export function ScreenerTable({ rows }: Props) {
                 </Link>
               </td>
               {COLS.map(c => {
-                const { display, color } = cell(row[c.key] as number | null, c.unit, c.key);
+                const { display, color } = cell(row, c.key);
                 return (
                   <td key={c.key} className={cn('px-3 py-2 text-right font-mono text-xs tabular-nums', color)}>
                     {display}
