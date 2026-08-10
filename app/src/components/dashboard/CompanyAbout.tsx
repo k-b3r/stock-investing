@@ -1,5 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
-import type { CompanyProfile } from '@/lib/pse-edge';
+import type { CompanyProfile } from '@/storage/company-profiles';
 
 interface Props {
   profile: CompanyProfile | null;
