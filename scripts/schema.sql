@@ -16,3 +16,13 @@ CREATE TABLE IF NOT EXISTS disclosures (
 );
 
 CREATE INDEX IF NOT EXISTS disclosures_ticker_filed_idx ON disclosures (ticker, filed_at DESC);
+
+CREATE TABLE IF NOT EXISTS company_profiles (
+  ticker              TEXT PRIMARY KEY,
+  description         TEXT,
+  sector              TEXT,
+  subsector           TEXT,
+  incorporation_date  TEXT,
+  website             TEXT,
+  scraped_at          TIMESTAMPTZ NOT NULL DEFAULT now()
+);
