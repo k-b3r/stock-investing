@@ -1,29 +1,38 @@
 # Company About Section
 
 ## Purpose
-Add a factual "About" card to the bottom of `/stock/[ticker]`, below the FinancialTabs
-section, showing Sector, Subsector, Incorporation Date, and Website — sourced from PSE
-Edge's company information page. No AI-generated or narrative text: every field is
-scraped data or `null`, matching the project's "always render N/A, never hallucinate"
-convention (CLAUDE.md).
+Add an "About" card to the bottom of `/stock/[ticker]`, below the FinancialTabs section,
+showing a real narrative business description plus Sector, Subsector, Incorporation Date,
+and Website — sourced entirely from PSE Edge's company information page. No AI-generated
+text: the description is scraped SEC filing content, matching the project's "always
+render N/A, never hallucinate" convention (CLAUDE.md).
 
 ## Data Source
-`GET https://edge.pse.com.ph/companyInformation/form.do?cmpy_id={cmpyId}` — an HTML table
-of company registry fields. Confirmed (manual fetch for BDO, cmpy_id=260) to contain:
-Sector, Subsector, Corporate Life, Incorporation Date, Number of Directors, Stockholders'
-Meeting info, Fiscal Year, External Auditor, Transfer Agent, Business Address, E-mail
-Address, Telephone Number, Fax Number, Website. Only Sector, Subsector, Incorporation
-Date, and Website are surfaced in the UI (per user decision — the rest reads as
-registry/administrative noise on a research dashboard).
+`GET https://edge.pse.com.ph/companyInformation/form.do?cmpy_id={cmpyId}` — HTML page with
+three `<table>` elements, each identified by a `<caption>` (confirmed via manual fetch for
+BDO, cmpy_id=260):
 
-No narrative business-description text exists on this page or anywhere else currently
-scraped (Morningstar JSONB in the `financials` table has no such field either).
+1. **"Company Description"** — a single `<td>` containing a narrative paragraph (with
+   `<br/>` line breaks) describing the company's history and business, sourced from the
+   company's SEC Form 17-A filing. Example (BDO): "BDO Unibank Inc. (BDO), originally
+   known as Acme Savings Bank, was acquired by the SM Group in 1976. ... Source: SEC Form
+   17-A (2024)".
+2. **"Security Information"** — `<th>`/`<td>` row pairs: Sector, Subsector, Corporate
+   Life, Incorporation Date, Number of Directors, Stockholders' Meeting info, Fiscal Year,
+   External Auditor, Transfer Agent.
+3. **"Contact Information"** — `<th>`/`<td>` row pairs: Business Address, E-mail Address,
+   Telephone Number, Fax Number, Website.
+
+Only the description paragraph (table 1) plus Sector, Subsector, Incorporation Date
+(table 2), and Website (table 3) are surfaced in the UI — the rest reads as registry/
+administrative noise on a research dashboard.
 
 ## Components
 
 ### `app/src/lib/pse-edge.ts` (extend)
 ```typescript
 export interface CompanyProfile {
+  description: string | null;
   sector: string | null;
   subsector: string | null;
   incorporationDate: string | null;
@@ -37,11 +46,19 @@ export async function getCompanyProfile(ticker: string): Promise<CompanyProfile 
 - Fetches `companyInformation/form.do?cmpy_id={cmpyId}` with the same `HEADERS` constant
   already used for every other PSE Edge request in this file.
 - Parses the response with `cheerio` (already a dependency, already used in
-  `getDisclosures` for a similarly-shaped `<table>`/`<tr>` structure) by matching `<th>`
-  label text to the four wanted fields and reading the sibling `<td>`.
+  `getDisclosures` for a similarly-shaped `<table>`/`<tr>` structure):
+  - `description`: find the `<table>` whose `<caption>` text is "Company Description",
+    read its single `<td>`'s text content (cheerio's `.text()` collapses `<br/>` tags to
+    nothing — replace `<br\s*\/?>` with `\n` on the raw inner HTML before extracting text,
+    so paragraph breaks survive as `\n\n`).
+  - `sector`, `subsector`, `incorporationDate`: find the `<table>` whose `<caption>` is
+    "Security Information", match `<th>` label text to the field, read the sibling
+    `<td>`'s trimmed text.
+  - `website`: find the `<table>` whose `<caption>` is "Contact Information", same
+    `<th>`/`<td>` matching for the "Website" row.
 - Returns `null` if the `cmpyId` lookup fails or the fetch/parse throws (`try/catch`,
   matching every other function in this file). Returns a `CompanyProfile` object with
-  individual `null` fields if the page loads but a specific `<th>` row is absent.
+  individual `null` fields if the page loads but a specific table/row is absent.
 - Cached via `next: { revalidate: 86400 }` (24h) — this data changes rarely, same cache
   window as `getCompanyInfo`'s internal 24h cache.
 
@@ -59,11 +76,16 @@ export function CompanyAbout({ profile }: Props)
 - If `profile` is `null` (the whole fetch failed), renders nothing — no empty card on the
   page.
 - If `profile` is non-null, renders a `Card` (shadcn, matching `MetricCard`'s `Card`/
-  `CardContent` usage) titled "About", with a 2-column grid of label/value pairs: Sector,
-  Subsector, Incorporation Date, Website. Individual `null` fields render as `N/A` (same
-  convention as `MetricCard`'s `displayValue`). Website renders as a clickable external
-  link (`target="_blank" rel="noopener noreferrer"`, mirroring the disclosure link pattern
-  already in `FinancialTabs.tsx`) when present.
+  `CardContent` usage) titled "About":
+  - Description paragraph first, if present (`profile.description`), rendered with
+    `whitespace-pre-wrap` so the `\n\n` paragraph breaks from parsing render correctly.
+    If `null`, this block is skipped entirely (not "N/A" — a missing paragraph isn't a
+    data point the way a missing Sector is).
+  - Below it, a compact facts row: Sector, Subsector, Incorporation Date, Website.
+    Individual `null` fields render as `N/A` (same convention as `MetricCard`'s
+    `displayValue`). Website renders as a clickable external link (`target="_blank"
+    rel="noopener noreferrer"`, mirroring the disclosure link pattern already in
+    `FinancialTabs.tsx`) when present.
 
 ### `app/src/app/stock/[ticker]/page.tsx` (modify)
 - Add `getCompanyProfile` to the existing `Promise.all` alongside `getLastPrice`,
@@ -75,9 +97,11 @@ export function CompanyAbout({ profile }: Props)
 ## Testing
 `getCompanyProfile`'s HTML-parsing logic gets a unit test
 (`app/src/lib/pse-edge.test.ts`, new file — no existing tests for this file) using a
-static HTML fixture (trimmed real markup from the manual BDO fetch) to verify: all four
-fields parse correctly from a complete table; missing individual `<th>` rows yield `null`
-for just that field; a non-ok fetch response yields `null` for the whole profile.
+static HTML fixture (trimmed real markup from the manual BDO fetch, all three tables) to
+verify: description paragraph parses with `\n\n` breaks between the original `<br/>`
+pairs; all four facts (sector, subsector, incorporationDate, website) parse correctly;
+a missing table (e.g. no "Company Description" caption) yields `null` for just that field,
+not the whole profile; a non-ok fetch response yields `null` for the whole profile.
 
 `CompanyAbout` is presentational only; given the project has no component-level tests
 anywhere yet (confirmed: only `service/*.test.ts` files exist), no test is added for it,
@@ -85,7 +109,7 @@ consistent with existing project conventions — manual verification via the dev
 covers it, same as prior UI work in this project.
 
 ## Out of scope
-- No narrative/AI-generated company description.
+- No AI-generated content — the description is scraped SEC-filing text, not synthesized.
 - No editing/caching-bypass UI — the 24h cache is fixed, matching every other PSE Edge
   fetch in this codebase.
-- No new fields beyond Sector, Subsector, Incorporation Date, Website.
+- No new fields beyond description, Sector, Subsector, Incorporation Date, Website.
