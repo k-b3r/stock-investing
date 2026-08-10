@@ -27,7 +27,7 @@ export async function getNewsArticles(companyName: string): Promise<NewsArticle[
       const title = sourceTag
         ? rawTitle.replace(new RegExp(` - ${sourceTag.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`), '').trim()
         : rawTitle.trim();
-      const link = item.match(/<guid[^>]*>([^<]+)<\/guid>/)?.[1]?.trim() ?? '';
+      const link = item.match(/<link>([^<]+)<\/link>/)?.[1]?.trim() ?? '';
       const pubDate = item.match(/<pubDate>([^<]+)<\/pubDate>/)?.[1]?.trim() ?? '';
 
       if (title && link) {
