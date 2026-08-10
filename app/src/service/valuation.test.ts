@@ -81,6 +81,12 @@ describe('computeStickerPrice', () => {
     const result = computeStickerPrice(10, 12, 15);
     expect(result!.futurePE).toBeCloseTo(15, 6);
   });
+
+  it('does not apply the cap when it exceeds 2x growth rate', () => {
+    // growth=8 -> 2*8=16, cap=50 is higher, so futurePE should be 16, not 50
+    const result = computeStickerPrice(10, 8, 50);
+    expect(result!.futurePE).toBeCloseTo(16, 6);
+  });
 });
 
 describe('computeFuturePeCap', () => {

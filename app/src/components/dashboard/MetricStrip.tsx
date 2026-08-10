@@ -52,7 +52,7 @@ export function MetricStrip({
 
   const stickerTooltip = stickerResult
     ? `Fair value estimate (Phil Town Rule #1). EPS ₱${latestEps!.toFixed(2)} × (1 + ${stickerResult.cappedGrowthPct.toFixed(1)}%)^10 = ₱${stickerResult.futureEps.toFixed(2)} future EPS. × future P/E ${stickerResult.futurePE.toFixed(1)} = ₱${(stickerResult.futureEps * stickerResult.futurePE).toFixed(2)} future value, discounted at 15%/yr over 10yrs → ₱${stickerResult.stickerPrice.toFixed(2)} sticker price.`
-    : 'Fair value estimate (Phil Town Rule #1): ((EPS × (1+g)^10) × min(2g, 20)) ÷ 1.15^10, g capped at 15%. Needs positive EPS and growth rate — N/A here.';
+    : 'Fair value estimate (Phil Town Rule #1): ((EPS × (1+g)^10) × min(2g, 52-week high ÷ EPS)) ÷ 1.15^10, g capped at 15%. Needs positive EPS and growth rate — N/A here.';
 
   const mosTooltip = stickerResult
     ? `Target buy price with a 50% margin of safety: ₱${stickerResult.stickerPrice.toFixed(2)} sticker price × 50% = ₱${stickerResult.mosPrice.toFixed(2)}.`

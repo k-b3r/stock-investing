@@ -6,16 +6,18 @@ export interface StickerPriceResult {
   futureEps: number;
 }
 
+const DEFAULT_FUTURE_PE_CAP = 20;
+
 export function computeFuturePeCap(high52w: number | null, eps: number | null): number {
-  if (high52w === null || eps === null || eps <= 0) return 20;
+  if (high52w === null || eps === null || eps <= 0) return DEFAULT_FUTURE_PE_CAP;
   const cap = high52w / eps;
-  return cap > 0 ? cap : 20;
+  return cap > 0 ? cap : DEFAULT_FUTURE_PE_CAP;
 }
 
 export function computeStickerPrice(
   eps: number | null,
   growthRatePct: number | null,
-  futurePeCap: number = 20
+  futurePeCap: number = DEFAULT_FUTURE_PE_CAP
 ): StickerPriceResult | null {
   if (eps === null || eps <= 0) return null;
   if (growthRatePct === null || growthRatePct <= 0) return null;
