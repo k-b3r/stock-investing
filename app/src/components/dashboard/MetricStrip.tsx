@@ -61,6 +61,7 @@ export function MetricStrip({
       value: summary.roic,
       threshold: classifyMetric('roic', summary.roic),
       sparkData: tabs.profitability.roic,
+      tooltip: 'Return on Invested Capital: NOPAT ÷ Invested Capital. ≥10% green, ≥5% yellow, <5% red.',
     },
     {
       label: 'EPS Growth',
@@ -68,6 +69,7 @@ export function MetricStrip({
       threshold: classifyMetric('growth', epsGrowth),
       sparkData: tabs.growth.eps,
       sparkUnit: '',
+      tooltip: `EPS compound annual growth rate over the selected ${period} period. ≥10% green, ≥5% yellow, <5% red.`,
     },
     {
       label: 'Revenue Growth',
@@ -75,6 +77,7 @@ export function MetricStrip({
       threshold: classifyMetric('growth', rev),
       sparkData: tabs.growth.revenue,
       sparkUnit: 'B',
+      tooltip: `Revenue compound annual growth rate over the selected ${period} period. ≥10% green, ≥5% yellow, <5% red.`,
     },
     {
       label: 'Net Income Growth',
@@ -82,18 +85,21 @@ export function MetricStrip({
       threshold: classifyMetric('growth', ni),
       sparkData: tabs.growth.netIncome,
       sparkUnit: 'B',
+      tooltip: `Net Income compound annual growth rate over the selected ${period} period. ≥10% green, ≥5% yellow, <5% red.`,
     },
     {
       label: 'FCF Growth',
       value: fcf,
       threshold: classifyMetric('growth', fcf),
       sparkData: tabs.cashFlow.fcfGrowth,
+      tooltip: `Free Cash Flow average year-over-year growth over the selected ${period} period. ≥10% green, ≥5% yellow, <5% red.`,
     },
     {
       label: 'Book Value Growth',
       value: summary.bookValueGrowth,
       threshold: classifyMetric('growth', summary.bookValueGrowth),
       sparkData: tabs.financialHealth.bookValuePerShare,
+      tooltip: 'Book Value Per Share compound annual growth rate over the full available history (not affected by the period toggle above). ≥10% green, ≥5% yellow, <5% red.',
     },
     {
       label: 'Debt / Equity',
@@ -101,6 +107,7 @@ export function MetricStrip({
       threshold: classifyMetric('debtEquity', summary.debtEquity),
       sparkData: tabs.financialHealth.debtEquity,
       unit: 'x',
+      tooltip: 'Total Debt ÷ Total Equity. ≤0.5x green, ≤1.0x yellow, >1.0x red.',
     },
     {
       label: 'Dividend Yield',
@@ -109,6 +116,7 @@ export function MetricStrip({
       sparkData: tabs.dividends?.dps ?? [],
       unit: '%',
       sparkUnit: '',
+      tooltip: 'Annual Dividend Per Share ÷ Current Price × 100. ≥10% green, ≥5% yellow, <5% red.',
     },
     {
       label: 'P/E',
@@ -117,6 +125,7 @@ export function MetricStrip({
       sparkData: tabs.growth.eps,
       unit: 'x',
       sparkUnit: '',
+      tooltip: 'Price ÷ Earnings Per Share. Lower means cheaper relative to earnings. ≤15x green, ≤25x yellow, >25x red.',
     },
     {
       label: 'P/B',
@@ -125,6 +134,7 @@ export function MetricStrip({
       sparkData: tabs.financialHealth.bookValuePerShare,
       unit: 'x',
       sparkUnit: '',
+      tooltip: 'Price ÷ Book Value Per Share. Lower means cheaper relative to net assets. ≤1.5x green, ≤3x yellow, >3x red.',
     },
     {
       label: 'PEG',
@@ -133,6 +143,7 @@ export function MetricStrip({
       sparkData: tabs.growth.epsGrowthPct,
       unit: 'x',
       sparkUnit: '%',
+      tooltip: 'P/E ÷ EPS Growth Rate. Below 1 suggests undervalued relative to growth. ≤1x green, ≤2x yellow, >2x red.',
     },
     {
       label: 'Sticker Price (₱)',
