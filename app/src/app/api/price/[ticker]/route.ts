@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { NextRequest, NextResponse } from 'next/server';
 import { getFinancials } from '@/storage/financials';
 import { transformFinancials } from '@/service/financials';

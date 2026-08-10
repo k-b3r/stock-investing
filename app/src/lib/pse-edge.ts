@@ -53,7 +53,11 @@ export async function getLastPrice(ticker: string): Promise<number | null> {
     if (!res.ok) return null;
 
     const html = await res.text();
-    const match = html.match(/Last Traded Price<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
+    // "Last Traded Price" is empty when the stock hasn't traded yet today (pre-market,
+    // suspended, etc) — fall back to "Previous Close" so we still surface a usable price.
+    const match =
+      html.match(/Last Traded Price<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/) ??
+      html.match(/Previous Close and Date<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
     if (!match) return null;
 
     const price = parseFloat(match[1].replace(/,/g, ''));
