@@ -468,10 +468,10 @@ async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: n
   let verdict: 'buy' | 'watch' | 'pass' | null = null;
   let highlights: string[] = [];
   if (blockPart) {
-    const verdictMatch = blockPart.match(/^\s*(buy|watch|pass)\s*$/m);
-    verdict = (verdictMatch?.[1] as 'buy' | 'watch' | 'pass' | undefined) ?? null;
-    const highlightsSection = blockPart.split('---HIGHLIGHTS---')[1] ?? '';
-    highlights = highlightsSection
+    const [verdictSection, highlightsSection] = blockPart.split('---HIGHLIGHTS---');
+    const verdictMatch = (verdictSection ?? '').match(/^\s*(buy|watch|pass)\s*$/im);
+    verdict = (verdictMatch?.[1].toLowerCase() as 'buy' | 'watch' | 'pass' | undefined) ?? null;
+    highlights = (highlightsSection ?? '')
       .split('\n')
       .map((line) => line.trim())
       .filter((line) => line.startsWith('- '))
