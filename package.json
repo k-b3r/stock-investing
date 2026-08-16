@@ -9,6 +9,7 @@
     "scrape-ms": "tsx --env-file=.env scripts/scrape-morningstar.ts",
     "scrape-psei30": "tsx --env-file=.env scripts/scrape-psei30.ts",
     "scrape-company-profiles": "tsx --env-file=.env scripts/scrape-company-profiles.ts",
+    "generate-thesis": "tsx --env-file=.env scripts/generate-thesis.ts",
     "backup-db": "mkdir -p data && docker exec stocks-db pg_dump -U postgres stocks > data/backup-$(date +%Y%m%d-%H%M).sql && echo Done",
     "refresh-cookies": "tsx --env-file=.env scripts/refresh-cookies.ts",
     "login-morningstar": "tsx --env-file=.env scripts/login-morningstar.ts",

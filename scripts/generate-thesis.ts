@@ -255,3 +255,255 @@ export async function buildTickerContext(ticker: string): Promise<TickerContext 
     news,
   };
 }
+
+import { spawn } from 'child_process';
+
+const INSTRUCTIONS = `You are a Rule #1 (Phil Town) value investor evaluating whether to invest in a
+Philippine Stock Exchange (PSE) listed company for a long-term (5-10+ year)
+portfolio with moderate risk tolerance.
+
+Judge this company through the Four Ms:
+- Meaning: Do you understand the business? Is it within a reasonable circle of competence?
+- Moat: Does it have a durable competitive advantage (brand, network effect, switching costs, cost advantage, secret)?
+- Management: Signs of honest, competent management with skin in the game?
+- Margin of Safety: Is the current price meaningfully below intrinsic value (Sticker Price)?
+
+Using the company data provided via stdin AND your own research (use
+WebSearch/WebFetch to check for recent news, competitive developments,
+regulatory risk, or analyst sentiment not captured in the provided data),
+write a concise investment thesis (3-5 paragraphs) covering:
+1. What the business does and whether it's understandable/meaningful
+2. Whether it has a durable moat
+3. Signs of management quality (or red flags) from disclosures/recent news
+4. Valuation verdict: is the current price an attractive entry given the
+   margin of safety, and what would you watch for
+5. A clear bottom-line: buy, watch, or pass at the current price — and why
+
+Do not hedge excessively. Take a clear position while acknowledging real
+risks. Write in plain prose — no headers or bullet lists in the thesis itself.`;
+
+function fmt(value: number | null, decimals = 2): string {
+  return value === null ? 'N/A' : value.toFixed(decimals);
+}
+
+function buildDataBlock(ctx: TickerContext): string {
+  const mosComparison =
+    ctx.lastPrice !== null && ctx.mosPrice !== null
+      ? ctx.lastPrice <= ctx.mosPrice
+        ? `BELOW MOS by ${(((ctx.mosPrice - ctx.lastPrice) / ctx.mosPrice) * 100).toFixed(1)}%`
+        : `ABOVE MOS by ${(((ctx.lastPrice - ctx.mosPrice) / ctx.mosPrice) * 100).toFixed(1)}%`
+      : 'N/A';
+
+  const disclosureList = ctx.disclosures.length
+    ? ctx.disclosures.map((d) => `- ${d.date}: ${d.template}`).join('\n')
+    : '(none available)';
+
+  const newsList = ctx.news.length
+    ? ctx.news.map((n) => `- ${n.title}${n.source ? ` (${n.source})` : ''}`).join('\n')
+    : '(none available)';
+
+  return `## Company: ${ctx.companyName} (${ctx.ticker})
+Sector: ${ctx.sector ?? 'N/A'} / ${ctx.subsector ?? 'N/A'}
+${ctx.description ?? 'N/A'}
+
+## Key Metrics (10-year averages where available)
+- ROIC: ${fmt(ctx.roic, 1)}%
+- EPS Growth: ${fmt(ctx.epsGrowth, 1)}%
+- Revenue Growth: ${fmt(ctx.revenueGrowth, 1)}%
+- Net Income Growth: ${fmt(ctx.netIncomeGrowth, 1)}%
+- FCF Growth: ${fmt(ctx.fcfGrowth, 1)}%
+- Book Value Growth: ${fmt(ctx.bookValueGrowth, 1)}%
+- Debt/Equity: ${fmt(ctx.debtEquity, 2)}x
+
+## Valuation
+- Current Price: ₱${fmt(ctx.lastPrice)}
+- P/E: ${fmt(ctx.pe, 1)}x | P/B: ${fmt(ctx.pb, 1)}x | PEG: ${fmt(ctx.peg, 2)}x | Dividend Yield: ${fmt(ctx.dividendYield, 1)}%
+- Sticker Price (Rule #1 fair value): ₱${fmt(ctx.stickerPrice)}
+- MOS Buy Price (50% margin of safety): ₱${fmt(ctx.mosPrice)}
+- Current price is ${mosComparison}
+
+## Recent Disclosures (last ${ctx.disclosures.length})
+${disclosureList}
+
+## Recent News (last ${ctx.news.length})
+${newsList}`;
+}
+
+interface ClaudeJsonResult {
+  result: string;
+  total_cost_usd?: number;
+  is_error?: boolean;
+}
+
+interface StreamEvent {
+  type: string;
+  message?: { content?: { type: string; name?: string; input?: unknown; text?: string }[] };
+  result?: string;
+  total_cost_usd?: number;
+  is_error?: boolean;
+  num_turns?: number;
+}
+
+function logStreamEvent(event: StreamEvent): void {
+  if (event.type === 'assistant' && event.message?.content) {
+    for (const block of event.message.content) {
+      if (block.type === 'tool_use') {
+        console.log(`\n    [tool] ${block.name}: ${JSON.stringify(block.input).slice(0, 120)}`);
+      } else if (block.type === 'text' && block.text?.trim()) {
+        console.log(`\n    [writing] ${block.text.slice(0, 150).replace(/\s+/g, ' ')}...`);
+      }
+    }
+  } else if (event.type === 'result') {
+    console.log(`\n    [done] turns: ${event.num_turns ?? '?'}, est. cost: $${(event.total_cost_usd ?? 0).toFixed(4)}`);
+  }
+}
+
+function runClaude(stdinData: string, promptArg: string, model: string, tools: string, maxBudget: string): Promise<ClaudeJsonResult | null> {
+  return new Promise((resolve) => {
+    const proc = spawn(
+      'claude',
+      ['-p', promptArg, '--model', model, '--tools', tools, '--permission-mode', 'bypassPermissions', '--max-budget-usd', maxBudget, '--output-format', 'stream-json', '--verbose', '--no-session-persistence'],
+      { stdio: ['pipe', 'pipe', 'inherit'] }
+    );
+
+    let buffer = '';
+    let finalResult: ClaudeJsonResult | null = null;
+
+    proc.stdout.on('data', (chunk: Buffer) => {
+      buffer += chunk.toString();
+      const lines = buffer.split('\n');
+      buffer = lines.pop() ?? '';
+      for (const line of lines) {
+        if (!line.trim()) continue;
+        try {
+          const event = JSON.parse(line) as StreamEvent;
+          logStreamEvent(event);
+          if (event.type === 'result') {
+            finalResult = { result: event.result ?? '', total_cost_usd: event.total_cost_usd, is_error: event.is_error };
+          }
+        } catch {
+          // partial/non-JSON line — ignore, next chunk will complete it
+        }
+      }
+    });
+
+    proc.stdin.write(stdinData);
+    proc.stdin.end();
+
+    proc.on('close', (code) => {
+      if (code !== 0 && !finalResult) {
+        console.error(`\nclaude exited with status ${code}`);
+      }
+      resolve(finalResult);
+    });
+
+    proc.on('error', (err) => {
+      console.error(`\nclaude invocation error: ${err.message}`);
+      resolve(null);
+    });
+  });
+}
+
+function sanityCheck(thesis: string, ctx: TickerContext): string | null {
+  if (thesis.length < 500) return `too short (${thesis.length} chars)`;
+  const mentionsTicker = thesis.toLowerCase().includes(ctx.ticker.toLowerCase());
+  const mentionsName = thesis.toLowerCase().includes(ctx.companyName.toLowerCase());
+  if (!mentionsTicker && !mentionsName) return 'does not mention ticker or company name';
+  if (!/\b(buy|watch|pass)\b/i.test(thesis)) return 'no clear buy/watch/pass verdict found';
+  return null;
+}
+
+async function upsertThesis(ticker: string, thesis: string): Promise<void> {
+  await pool.query(
+    `INSERT INTO investment_theses (ticker, thesis, generated_at)
+     VALUES ($1, $2, now())
+     ON CONFLICT (ticker) DO UPDATE SET thesis = EXCLUDED.thesis, generated_at = now()`,
+    [ticker, thesis]
+  );
+}
+
+async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: number; reason?: string }> {
+  const ctx = await buildTickerContext(ticker);
+  if (!ctx) return { ok: false, cost: 0, reason: 'no financials row for ticker' };
+
+  const dataBlock = buildDataBlock(ctx);
+
+  const genResult = await runClaude(dataBlock, INSTRUCTIONS, 'sonnet', 'WebSearch,WebFetch', '0.50');
+  if (!genResult || !genResult.result) {
+    return { ok: false, cost: genResult?.total_cost_usd ?? 0, reason: 'generation failed or empty result' };
+  }
+  const thesis = genResult.result.trim();
+  const genCost = genResult.total_cost_usd ?? 0;
+
+  const factCheckPrompt = `Here is the source financial data for ${ctx.ticker}:
+${dataBlock}
+
+Here is a generated investment thesis for ${ctx.ticker}:
+${thesis}
+
+List any specific numeric claim in the thesis (price, P/E, growth rate, sticker price,
+etc.) that contradicts the source data above. Respond with JSON only:
+{"contradictions": ["<claim> contradicts <source value>", ...]}
+Empty array if none found.`;
+
+  const factCheckResult = await runClaude('', factCheckPrompt, 'haiku', '', '0.10');
+  const factCheckCost = factCheckResult?.total_cost_usd ?? 0;
+  const totalCost = genCost + factCheckCost;
+
+  if (!factCheckResult || !factCheckResult.result) {
+    return { ok: false, cost: totalCost, reason: 'fact-check call failed' };
+  }
+
+  let contradictions: string[] = [];
+  try {
+    const jsonMatch = factCheckResult.result.match(/\{[\s\S]*\}/);
+    if (!jsonMatch) throw new Error('no JSON object found in response');
+    const parsed = JSON.parse(jsonMatch[0]) as { contradictions: string[] };
+    contradictions = parsed.contradictions ?? [];
+  } catch {
+    return { ok: false, cost: totalCost, reason: 'fact-check response was not valid JSON' };
+  }
+
+  if (contradictions.length > 0) {
+    return { ok: false, cost: totalCost, reason: `contradictions found: ${contradictions.join('; ')}` };
+  }
+
+  const sanityIssue = sanityCheck(thesis, ctx);
+  if (sanityIssue) {
+    return { ok: false, cost: totalCost, reason: `sanity check failed: ${sanityIssue}` };
+  }
+
+  await upsertThesis(ctx.ticker, thesis);
+  return { ok: true, cost: totalCost };
+}
+
+const PSEI30 = [
+  'AC', 'ACEN', 'AEV', 'AGI', 'ALI', 'AREIT', 'BDO', 'BPI', 'CNPF', 'CNVRG',
+  'DMC', 'EMI', 'GLO', 'GTCAP', 'ICT', 'JFC', 'JGS', 'LTG', 'MBT', 'MER',
+  'MONDE', 'PGOLD', 'PLUS', 'SCC', 'SM', 'SMC', 'SMPH', 'TEL', 'URC',
+];
+
+const TICKER_ARG = process.argv[2];
+const tickers = TICKER_ARG ? [TICKER_ARG.toUpperCase()] : PSEI30;
+
+console.log(`Generating investment theses for ${tickers.length} ticker(s)...\n`);
+
+let succeeded = 0;
+let failed = 0;
+let totalCost = 0;
+
+for (const [i, ticker] of tickers.entries()) {
+  process.stdout.write(`[${String(i + 1).padStart(2)}/${tickers.length}] ${ticker.padEnd(8)}`);
+  const result = await generateForTicker(ticker);
+  totalCost += result.cost;
+  if (result.ok) {
+    console.log(`→ stored (est. cost: $${result.cost.toFixed(4)})`);
+    succeeded++;
+  } else {
+    console.log(`→ FAILED: ${result.reason} (est. cost: $${result.cost.toFixed(4)})`);
+    failed++;
+  }
+}
+
+await pool.end();
+console.log(`\nDone. ${succeeded} succeeded, ${failed} failed. Estimated total cost: $${totalCost.toFixed(4)} (informational — billed against your Claude Code subscription, not per-call).`);
