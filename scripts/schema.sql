@@ -32,3 +32,10 @@ CREATE TABLE IF NOT EXISTS investment_theses (
   thesis        TEXT NOT NULL,
   generated_at  TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+ALTER TABLE investment_theses ADD COLUMN IF NOT EXISTS verdict TEXT;
+ALTER TABLE investment_theses ADD COLUMN IF NOT EXISTS highlights TEXT[];
+ALTER TABLE investment_theses ADD COLUMN IF NOT EXISTS last_price NUMERIC;
+ALTER TABLE investment_theses ADD COLUMN IF NOT EXISTS sticker_price NUMERIC;
+ALTER TABLE investment_theses ADD COLUMN IF NOT EXISTS mos_price NUMERIC;
+ALTER TABLE investment_theses ADD COLUMN IF NOT EXISTS pe NUMERIC;

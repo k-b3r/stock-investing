@@ -280,7 +280,17 @@ write a concise investment thesis (3-5 paragraphs) covering:
 5. A clear bottom-line: buy, watch, or pass at the current price — and why
 
 Do not hedge excessively. Take a clear position while acknowledging real
-risks. Write in plain prose — no headers or bullet lists in the thesis itself.`;
+risks. Write in plain prose — no headers or bullet lists in the thesis itself.
+
+After the thesis, append exactly this delimited block (do not add anything
+after it):
+
+---VERDICT---
+<one of: buy, watch, pass — lowercase, nothing else on this line>
+---HIGHLIGHTS---
+- <first highlight, one line>
+- <second highlight, one line>
+- <third highlight, one line>`;
 
 function fmt(value: number | null, decimals = 2): string {
   return value === null ? 'N/A' : value.toFixed(decimals);
@@ -413,12 +423,29 @@ function sanityCheck(thesis: string, ctx: TickerContext): string | null {
   return null;
 }
 
-async function upsertThesis(ticker: string, thesis: string): Promise<void> {
+async function upsertThesis(
+  ticker: string,
+  thesis: string,
+  verdict: 'buy' | 'watch' | 'pass' | null,
+  highlights: string[],
+  lastPrice: number | null,
+  stickerPrice: number | null,
+  mosPrice: number | null,
+  pe: number | null
+): Promise<void> {
   await pool.query(
-    `INSERT INTO investment_theses (ticker, thesis, generated_at)
-     VALUES ($1, $2, now())
-     ON CONFLICT (ticker) DO UPDATE SET thesis = EXCLUDED.thesis, generated_at = now()`,
-    [ticker, thesis]
+    `INSERT INTO investment_theses (ticker, thesis, verdict, highlights, last_price, sticker_price, mos_price, pe, generated_at)
+     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, now())
+     ON CONFLICT (ticker) DO UPDATE SET
+       thesis = EXCLUDED.thesis,
+       verdict = EXCLUDED.verdict,
+       highlights = EXCLUDED.highlights,
+       last_price = EXCLUDED.last_price,
+       sticker_price = EXCLUDED.sticker_price,
+       mos_price = EXCLUDED.mos_price,
+       pe = EXCLUDED.pe,
+       generated_at = now()`,
+    [ticker, thesis, verdict, highlights, lastPrice, stickerPrice, mosPrice, pe]
   );
 }
 
@@ -432,8 +459,27 @@ async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: n
   if (!genResult || !genResult.result) {
     return { ok: false, cost: genResult?.total_cost_usd ?? 0, reason: 'generation failed or empty result' };
   }
-  const thesis = genResult.result.trim();
+  const rawResult = genResult.result.trim();
   const genCost = genResult.total_cost_usd ?? 0;
+
+  const [thesisPart, blockPart] = rawResult.split('---VERDICT---');
+  const thesis = thesisPart.trim();
+
+  let verdict: 'buy' | 'watch' | 'pass' | null = null;
+  let highlights: string[] = [];
+  if (blockPart) {
+    const verdictMatch = blockPart.match(/^\s*(buy|watch|pass)\s*$/m);
+    verdict = (verdictMatch?.[1] as 'buy' | 'watch' | 'pass' | undefined) ?? null;
+    const highlightsSection = blockPart.split('---HIGHLIGHTS---')[1] ?? '';
+    highlights = highlightsSection
+      .split('\n')
+      .map((line) => line.trim())
+      .filter((line) => line.startsWith('- '))
+      .map((line) => line.slice(2).trim());
+  }
+  if (!verdict || highlights.length === 0) {
+    console.log(`\n    [warn] could not parse verdict/highlights block for ${ctx.ticker} — storing thesis without them`);
+  }
 
   const factCheckPrompt = `Here is the source financial data for ${ctx.ticker}:
 ${dataBlock}
@@ -473,7 +519,7 @@ Empty array if none found.`;
     return { ok: false, cost: totalCost, reason: `sanity check failed: ${sanityIssue}` };
   }
 
-  await upsertThesis(ctx.ticker, thesis);
+  await upsertThesis(ctx.ticker, thesis, verdict, highlights, ctx.lastPrice, ctx.stickerPrice, ctx.mosPrice, ctx.pe);
   return { ok: true, cost: totalCost };
 }
 
