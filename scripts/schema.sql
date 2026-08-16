@@ -26,3 +26,9 @@ CREATE TABLE IF NOT EXISTS company_profiles (
   website             TEXT,
   scraped_at          TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+CREATE TABLE IF NOT EXISTS investment_theses (
+  ticker        TEXT PRIMARY KEY,
+  thesis        TEXT NOT NULL,
+  generated_at  TIMESTAMPTZ NOT NULL DEFAULT now()
+);
