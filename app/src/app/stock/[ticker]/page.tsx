@@ -8,10 +8,12 @@ import { getStockData, getCompanyName } from '@/lib/pse-edge';
 import { getUsdToPhpRate } from '@/lib/fx';
 import { getDisclosures } from '@/storage/disclosures';
 import { getCompanyProfile } from '@/storage/company-profiles';
+import { getInvestmentThesis } from '@/storage/investment-thesis';
 import { getNewsArticles } from '@/lib/google-news';
 import { MetricStrip } from '@/components/dashboard/MetricStrip';
 import { FinancialTabs } from '@/components/dashboard/FinancialTabs';
 import { CompanyAbout } from '@/components/dashboard/CompanyAbout';
+import { InvestmentThesisCard } from '@/components/dashboard/InvestmentThesisCard';
 import { BackButton } from '@/components/BackButton';
 
 interface Props {
@@ -29,12 +31,13 @@ export default async function StockPage({ params }: Props) {
 
   if (!raw) notFound();
 
-  const [stockData, disclosures, newsArticles, usdToPhpRate, companyProfile] = await Promise.all([
+  const [stockData, disclosures, newsArticles, usdToPhpRate, companyProfile, investmentThesis] = await Promise.all([
     getStockData(upper),
     getDisclosures(upper),
     companyName ? getNewsArticles(companyName) : Promise.resolve([]),
     getUsdToPhpRate(),
     getCompanyProfile(upper),
+    getInvestmentThesis(upper),
   ]);
   const { lastPrice, high52w } = stockData;
 
@@ -88,6 +91,7 @@ export default async function StockPage({ params }: Props) {
           newsArticles={newsArticles}
         />
         <CompanyAbout profile={companyProfile} />
+        <InvestmentThesisCard thesis={investmentThesis} />
       </div>
     </main>
   );
