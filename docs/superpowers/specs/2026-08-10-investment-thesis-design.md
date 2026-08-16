@@ -94,6 +94,19 @@ Null/missing fields render as `N/A` in the interpolated prompt (matching this pr
 
 ## `claude -p` Invocation
 
+**Auth: Claude Code subscription (Pro/Max), not an API key.** Confirmed no
+`ANTHROPIC_API_KEY` is set anywhere in this repo's env files, so the `claude` subprocess
+uses its own ambient login — same as running `claude` interactively. This means:
+`--max-budget-usd`'s own help text describes it as "Maximum dollar amount to spend on API
+calls" — under subscription billing there's nothing metered in dollars, so this flag's
+actual effect is unverified (may be a no-op, may still internally track an *estimated*
+cost and cap on that). It's kept anyway since it's harmless either way and is the only
+budget-shaped safety valve this CLI version exposes (no `--max-turns` or similar exists).
+The real backstop against a runaway tool-use loop is `--tools "WebSearch,WebFetch"`
+itself — a small, fixed, read-only tool set bounds how much a session can even attempt
+regardless of whether the dollar cap does anything. Per-ticker cost logged in the script
+is labeled "estimated cost" — informational, not a confirmed real charge.
+
 ### Pass 1 — Generation
 ```bash
 claude -p "<assembled prompt>" \
@@ -107,7 +120,7 @@ claude -p "<assembled prompt>" \
 `--tools` restricts the entire session to only those 2 read-only tools — with nothing
 destructive even reachable, `bypassPermissions` is safe (no interactive approval prompts
 to hang an unattended script on). Response parsed as JSON; `.result` is the thesis text,
-`.total_cost_usd` logged per ticker.
+`.total_cost_usd` logged per ticker as an estimate.
 
 ### Pass 2 — Fact-Check
 ```bash

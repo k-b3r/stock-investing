@@ -32,6 +32,13 @@ validation, and upserts into a new `investment_theses` table.
   `claude-docs/claude-code-notes.md`.
 - Pass 1 (generation): `--model sonnet --tools "WebSearch,WebFetch" --permission-mode bypassPermissions --max-budget-usd 0.50 --output-format json --no-session-persistence`.
 - Pass 2 (fact-check): `--model haiku --tools "" --permission-mode bypassPermissions --max-budget-usd 0.10 --output-format json --no-session-persistence`.
+- **Auth is a Claude Code subscription (Pro/Max), not an API key** — confirmed no
+  `ANTHROPIC_API_KEY` is set in this repo's env files, so `claude` uses its own ambient
+  login when spawned as a subprocess. `--max-budget-usd`'s help text is worded for
+  API-key dollar billing ("Maximum dollar amount to spend on API calls"); under
+  subscription auth its actual effect is unverified, so it is not the primary safety
+  net — `--tools "WebSearch,WebFetch"` (a small, fixed, read-only tool set) is. The
+  script's per-ticker cost output is labeled "estimated cost", not a confirmed charge.
 - A thesis is only stored if: both passes' JSON parses cleanly, Pass 2's `contradictions`
   array is empty, and the thesis text passes basic sanity checks (≥500 characters,
   contains the ticker or company name case-insensitively, matches
@@ -606,16 +613,16 @@ for (const [i, ticker] of tickers.entries()) {
   const result = await generateForTicker(ticker);
   totalCost += result.cost;
   if (result.ok) {
-    console.log(`→ stored (cost: $${result.cost.toFixed(4)})`);
+    console.log(`→ stored (est. cost: $${result.cost.toFixed(4)})`);
     succeeded++;
   } else {
-    console.log(`→ FAILED: ${result.reason} (cost: $${result.cost.toFixed(4)})`);
+    console.log(`→ FAILED: ${result.reason} (est. cost: $${result.cost.toFixed(4)})`);
     failed++;
   }
 }
 
 await pool.end();
-console.log(`\nDone. ${succeeded} succeeded, ${failed} failed. Total cost: $${totalCost.toFixed(4)}.`);
+console.log(`\nDone. ${succeeded} succeeded, ${failed} failed. Estimated total cost: $${totalCost.toFixed(4)} (informational — billed against your Claude Code subscription, not per-call).`);
 ```
 
 - [ ] **Step 2: Add the npm script entry**
@@ -637,7 +644,7 @@ task requires a real, working `claude` CLI installation; there is no fallback or
 Run: `pnpm generate-thesis BDO`
 
 This makes real `claude -p` API calls with real cost (bounded by the `$0.50` + `$0.10`
-budget caps). Expected: console output showing `[1/1] BDO     → stored (cost: $X.XXXX)`
+budget caps). Expected: console output showing `[1/1] BDO     → stored (est. cost: $X.XXXX)`
 or a `FAILED` line with a specific reason. This is the actual acceptance test for this
 whole plan — there is no simulated/mocked version.
 
