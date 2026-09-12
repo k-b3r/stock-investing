@@ -281,6 +281,9 @@ write a concise investment thesis (3-5 paragraphs) covering:
 
 Do not hedge excessively. Take a clear position while acknowledging real
 risks. Write in plain prose — no headers or bullet lists in the thesis itself.
+Focus on current fundamentals (moat, margins, management, valuation) — skip
+founding year, "N years old"-style framing, or other historical trivia that
+doesn't bear on the investment case.
 
 After the thesis, append exactly this delimited block (do not add anything
 after it):
@@ -488,7 +491,10 @@ Here is a generated investment thesis for ${ctx.ticker}:
 ${thesis}
 
 List any specific numeric claim in the thesis (price, P/E, growth rate, sticker price,
-etc.) that contradicts the source data above. Respond with JSON only:
+etc.) that contradicts the source data above. Ignore trivial rounding differences (e.g.
+"43%" vs "42.4%", "₱1.35" vs "₱1.352") — only flag claims that are substantively wrong
+(wrong direction, wrong order of magnitude, or off by more than ~2 percentage points /
+2% relative). Respond with JSON only:
 {"contradictions": ["<claim> contradicts <source value>", ...]}
 Empty array if none found.`;
 
