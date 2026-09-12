@@ -1,17 +1,13 @@
 import { Router } from 'express';
-import { getPool } from '../db.js';
+import { getCompanyProfile } from '../repositories/company-profiles.js';
 
 const router = Router();
 
 router.get('/:ticker', async (req, res) => {
   try {
-    const { rows } = await getPool().query(
-      `SELECT description, sector, subsector, incorporation_date, website
-       FROM company_profiles WHERE ticker = $1`,
-      [req.params.ticker.toUpperCase()]
-    );
-    if (!rows[0]) return res.status(404).json({ error: 'Not found' });
-    res.json(rows[0]);
+    const row = await getCompanyProfile(req.params.ticker.toUpperCase());
+    if (!row) return res.status(404).json({ error: 'Not found' });
+    res.json(row);
   } catch (e) {
     console.error(e);
     res.status(500).json({ error: 'DB error' });
