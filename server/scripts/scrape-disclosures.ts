@@ -1,7 +1,8 @@
-import pg from 'pg';
 import * as cheerio from 'cheerio';
+import { getPool } from '../src/db.ts';
+import { insertDisclosure } from '../src/repositories/disclosures.ts';
+import { listTickers } from '../src/repositories/financials.ts';
 
-const DB_URL = process.env.DATABASE_URL ?? 'postgresql://postgres:postgres@localhost:5432/stocks';
 const BASE = 'https://edge.pse.com.ph';
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -33,8 +34,6 @@ interface Disclosure {
   formNum: string;
   refNum: string;
 }
-
-const pool = new pg.Pool({ connectionString: DB_URL });
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
@@ -86,31 +85,25 @@ function parseDate(raw: string): string | null {
 }
 
 async function upsertDisclosures(ticker: string, disclosures: Disclosure[]): Promise<number> {
-  if (!disclosures.length) return 0;
-  const client = await pool.connect();
   let inserted = 0;
-  try {
-    for (const d of disclosures) {
-      const filedAt = parseDate(d.date);
-      if (!filedAt) continue;
-      const result = await client.query(
-        `INSERT INTO disclosures (disclosure_id, ticker, template, filed_at, form_num, ref_num)
-         VALUES ($1, $2, $3, $4, $5, $6)
-         ON CONFLICT (disclosure_id) DO NOTHING`,
-        [d.disclosureId, ticker, d.templateNm, filedAt, d.formNum || null, d.refNum || null]
-      );
-      inserted += result.rowCount ?? 0;
-    }
-  } finally {
-    client.release();
+  for (const d of disclosures) {
+    const filedAt = parseDate(d.date);
+    if (!filedAt) continue;
+    inserted += await insertDisclosure({
+      disclosureId: d.disclosureId,
+      ticker,
+      template: d.templateNm,
+      filedAt,
+      formNum: d.formNum || null,
+      refNum: d.refNum || null,
+    });
   }
   return inserted;
 }
 
 async function getTickers(): Promise<string[]> {
   if (TICKER_ARG) return [TICKER_ARG.toUpperCase()];
-  const res = await pool.query<{ ticker: string }>('SELECT ticker FROM financials ORDER BY ticker');
-  return res.rows.map((r) => r.ticker);
+  return listTickers();
 }
 
 const tickers = await getTickers();
@@ -141,5 +134,5 @@ for (const [i, ticker] of tickers.entries()) {
   await sleep(DELAY_MS);
 }
 
-await pool.end();
+await getPool().end();
 console.log(`\nDone. ${totalInserted} rows inserted. ${failed} tickers failed.`);

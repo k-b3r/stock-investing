@@ -25,12 +25,12 @@ jobs:
       - run: pnpm test --passWithNoTests
       - run: pnpm build
 
-  test-api:
-    name: API — build check
+  test-server:
+    name: Server — build check
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: api
+        working-directory: server
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

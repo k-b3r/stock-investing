@@ -1,7 +1,7 @@
-import pg from 'pg';
 import * as cheerio from 'cheerio';
+import { getPool } from '../src/db.ts';
+import { listDisclosureIdsMissingContent, setDisclosureContent } from '../src/repositories/disclosures.ts';
 
-const DB_URL = process.env.DATABASE_URL ?? 'postgresql://postgres:postgres@localhost:5432/stocks';
 const BASE = 'https://edge.pse.com.ph';
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -36,8 +36,6 @@ function cleanPart(text: string): string {
     .trim();
 }
 
-const pool = new pg.Pool({ connectionString: DB_URL });
-
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
 }
@@ -69,27 +67,25 @@ async function fetchContent(fileId: string): Promise<string | null> {
   return content || null;
 }
 
-const { rows } = await pool.query<{ disclosure_id: string }>(
-  `SELECT disclosure_id FROM disclosures WHERE content IS NULL ORDER BY filed_at DESC`
-);
+const disclosureIds = await listDisclosureIdsMissingContent();
 
-console.log(`Fetching content for ${rows.length} disclosures...\n`);
+console.log(`Fetching content for ${disclosureIds.length} disclosures...\n`);
 
 let filled = 0;
 let skipped = 0;
 let failed = 0;
 
-for (const [i, row] of rows.entries()) {
+for (const [i, disclosureId] of disclosureIds.entries()) {
   if ((i + 1) % 100 === 0) {
-    process.stdout.write(`[${i + 1}/${rows.length}] filled=${filled} skipped=${skipped} failed=${failed}\n`);
+    process.stdout.write(`[${i + 1}/${disclosureIds.length}] filled=${filled} skipped=${skipped} failed=${failed}\n`);
   }
 
   try {
-    const fileId = await getFileId(row.disclosure_id);
+    const fileId = await getFileId(disclosureId);
     await sleep(DELAY_MS);
 
     if (!fileId) {
-      await pool.query(`UPDATE disclosures SET content = '' WHERE disclosure_id = $1`, [row.disclosure_id]);
+      await setDisclosureContent(disclosureId, '');
       skipped++;
       continue;
     }
@@ -98,18 +94,15 @@ for (const [i, row] of rows.entries()) {
     await sleep(DELAY_MS);
 
     // '' = attempted but no meaningful content; NULL = not yet attempted
-    await pool.query(
-      `UPDATE disclosures SET content = $1 WHERE disclosure_id = $2`,
-      [content ?? '', row.disclosure_id]
-    );
+    await setDisclosureContent(disclosureId, content ?? '');
 
     if (content) filled++;
     else skipped++;
   } catch (e) {
-    process.stdout.write(`\nError ${row.disclosure_id}: ${(e as Error).message}\n`);
+    process.stdout.write(`\nError ${disclosureId}: ${(e as Error).message}\n`);
     failed++;
   }
 }
 
-await pool.end();
+await getPool().end();
 console.log(`\nDone. ${filled} with content, ${skipped} skipped, ${failed} errors.`);

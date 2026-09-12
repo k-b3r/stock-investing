@@ -1,5 +1,6 @@
-import pg from 'pg';
 import { refreshCookies, refreshWafCookies, lookupPerformanceId } from './refresh-cookies.ts';
+import { getPool } from '../src/db.ts';
+import { getFinancialByTicker, upsertFinancialPerformanceId, upsertFinancial } from '../src/repositories/financials.ts';
 
 let COOKIE = process.env.MS_COOKIE ?? '';
 let WAF_TOKEN = process.env.MS_WAF_TOKEN ?? '';
@@ -39,15 +40,13 @@ const HEADERS_AUTH = () => ({
 const BASE = 'https://www.us-api.morningstar.com/sal/sal-service/stock';
 const COMMON = { languageId: 'en', locale: 'en', clientId: 'MDC', version: '4.71.0' };
 
-export async function scrapeTicker(ticker: string, db: pg.Client) {
+export async function scrapeTicker(ticker: string) {
   const upper = ticker.toUpperCase();
   const lower = ticker.toLowerCase();
 
   // Use cached performanceID if available
-  const cached = await db.query<{ performance_id: string | null }>(
-    `SELECT performance_id FROM financials WHERE ticker = $1`, [upper]
-  );
-  let performanceID = cached.rows[0]?.performance_id ?? null;
+  const cached = await getFinancialByTicker(upper);
+  let performanceID = cached?.performance_id ?? null;
 
   if (!performanceID) {
     let text = '';
@@ -82,12 +81,7 @@ export async function scrapeTicker(ticker: string, db: pg.Client) {
       console.error(`[${ticker}] ${lookup.page.name}  →  ${performanceID}`);
     }
     // Cache it immediately
-    await db.query(
-      `INSERT INTO financials (ticker, performance_id, data, scraped_at)
-       VALUES ($1, $2, '{}'::jsonb, now())
-       ON CONFLICT (ticker) DO UPDATE SET performance_id = $2`,
-      [upper, performanceID],
-    );
+    await upsertFinancialPerformanceId(upper, performanceID);
   } else {
     console.error(`[${ticker}] Using cached performanceID: ${performanceID}`);
   }
@@ -111,12 +105,7 @@ export async function scrapeTicker(ticker: string, db: pg.Client) {
 
   const output = Object.fromEntries(results);
 
-  await db.query(
-    `INSERT INTO financials (ticker, performance_id, data, scraped_at)
-     VALUES ($1, $2, $3, now())
-     ON CONFLICT (ticker) DO UPDATE SET performance_id = $2, data = $3, scraped_at = now()`,
-    [upper, performanceID, output],
-  );
+  await upsertFinancial(upper, performanceID, output);
   console.error(`[${ticker}] Saved`);
   return output;
 }
@@ -125,9 +114,7 @@ export async function scrapeTicker(ticker: string, db: pg.Client) {
 const isMain = process.argv[1]?.endsWith('scrape-morningstar.ts');
 if (isMain) {
   const ticker = process.argv[2] ?? 'TEL';
-  const db = new pg.Client({ connectionString: process.env.DATABASE_URL });
-  await db.connect();
-  const data = await scrapeTicker(ticker, db);
-  await db.end();
+  const data = await scrapeTicker(ticker);
+  await getPool().end();
   if (data) console.log(JSON.stringify(data, null, 2));
 }

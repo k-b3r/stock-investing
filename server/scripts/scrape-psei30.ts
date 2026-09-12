@@ -1,6 +1,7 @@
-import pg from 'pg';
 import { scrapeTicker, updateTokens } from './scrape-morningstar.ts';
 import { refreshCookies } from './refresh-cookies.ts';
+import { getPool } from '../src/db.ts';
+import { listTickersWithData } from '../src/repositories/financials.ts';
 
 // PSEi 30 — verified via PSE, last updated Aug 2025
 const PSEI30 = [
@@ -63,17 +64,12 @@ const argTickers = process.argv.slice(2);
 
 updateTokens(await refreshCookies());
 
-const db = new pg.Client({ connectionString: process.env.DATABASE_URL });
-await db.connect();
-
 let tickers: string[];
 if (argTickers.length) {
   tickers = argTickers;
 } else {
-  const { rows } = await db.query<{ ticker: string }>(
-    `SELECT ticker FROM financials WHERE data != '{}'::jsonb AND data IS NOT NULL`
-  );
-  const done = new Set(rows.map(r => r.ticker.toUpperCase()));
+  const doneTickers = await listTickersWithData();
+  const done = new Set(doneTickers.map(t => t.toUpperCase()));
   tickers = ALL.filter(t => !done.has(t.toUpperCase()));
   console.error(`Skipping ${done.size} already scraped. Remaining: ${tickers.length}`);
 }
@@ -81,7 +77,7 @@ if (argTickers.length) {
 let ok = 0, fail = 0;
 for (const ticker of tickers) {
   try {
-    await scrapeTicker(ticker, db);
+    await scrapeTicker(ticker);
     ok++;
   } catch (e) {
     console.error(`[${ticker}] Error: ${(e as Error).message}`);
@@ -91,5 +87,5 @@ for (const ticker of tickers) {
   await new Promise(r => setTimeout(r, 3000));
 }
 
-await db.end();
+await getPool().end();
 console.error(`\nDone: ${ok} saved, ${fail} failed`);
