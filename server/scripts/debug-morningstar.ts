@@ -1,19 +1,36 @@
-// Exact headers copied from browser DevTools ("Copy as fetch Node.js")
-const res = await fetch("https://www.us-api.morningstar.com/sal/sal-service/stock/keyMetrics/summary/0P0000EDRJ?reportType=A&languageId=en&locale=en&clientId=MDC&component=sal-eqsv-key-metrics-financial-summary&version=4.71.0", {
-  headers: {
-    "accept": "*/*",
-    "accept-language": "en-US,en;q=0.9",
-    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1EY3hOemRHTnpGRFJrSTRPRGswTmtaRU1FSkdOekl5TXpORFJrUTROemd6TWtOR016bEdOdyJ9.eyJodHRwczovL21vcm5pbmdzdGFyLmNvbS9lbWFpbCI6Imlpc2l0ZXNxdWFkQG1vcm5pbmdzdGFyLmNvbSIsImh0dHBzOi8vbW9ybmluZ3N0YXIuY29tL3JvbGUiOlsiRGV2Uy5XRkVBUEkiLCJEbmFsYWIuRGlyZWN0VXNlcnMiLCJFQy5BUEkuUmVwb3J0IiwiRUMuU2VydmljZS5Db25maWd1cmF0aW9uIiwiRUNVUy5BUEkuQXV0b2NvbXBsZXRlIiwiRUNVUy5BUEkuU2NyZWVuZXIiLCJFQ1VTLkFQSS5TZWN1cml0aWVzIiwiUEFBUElWMS5BbGwiLCJQQUFQSVYxLkNvcmUiLCJQQUFQSVYxLlByZW1pdW0uRVNHIiwicnBzYXBpLnB1Ymxpc2hlZCIsInJwc2FwaS51bnB1Ymxpc2hlZCJdLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS9jb21wYW55X2lkIjoiZDhmOWE1NmUtMjhiZS00OGY0LWFlOTAtYzdiYTgzMzIwNTIwIiwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vaW50ZXJuYWxfY29tcGFueV9pZCI6IkNsaWVudDAiLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS9kYXRhX3JvbGUiOlsiQ0FQLmRuYWxhYi1kZWZhdWx0LXJvIiwiRUMuUmVwb3J0LkZhY3RzaGVldCIsIkVDLlJlcG9ydC5GdW5kQW5hbHlzdCIsIkVDLlJlcG9ydC5JbnZlc3RtZW50Q29tcGFyZSIsIkVDLlJlcG9ydC5TTUFBbmFseXN0IiwiRUMuUmVwb3J0LlN0b2NrQW5hbHlzdCIsIkVDLlJlcG9ydC5TdG9ja0FuYWx5c3QuUXVhbnQiLCJFQ1VTLkRhdGEuVVMuNTI5UG9ydGZvbGlvcyIsIkVDVVMuRGF0YS5VUy5Cb25kcyIsIkVDVVMuRGF0YS5VUy5DSVRzIiwiRUNVUy5EYXRhLlVTLkNsb3NlZEVuZEZ1bmRzIiwiRUNVUy5EYXRhLlVTLkV4Y2hhbmdlVHJhZGVkRnVuZHMiLCJFQ1VTLkRhdGEuVVMuSW5zdXJhbmNlRnVuZHMiLCJFQ1VTLkRhdGEuVVMuTW9uZXlNYXJrZXQiLCJFQ1VTLkRhdGEuVVMuT3BlbkVuZEZ1bmRzIiwiRUNVUy5EYXRhLlVTLlN0b2NrcyIsIkVDVVMuRGF0YS5VUy5Vbml0SW52ZXN0bWVudFRydXN0IiwiSUVQLmFsbG93LWFpLm1vcm5pbmdzdGFyLmNvbSIsIlBBQVBJVjEuRVNHLkNhcmJvbiIsIlBBQVBJVjEuRVNHLkVTR1Jpc2siLCJQQUFQSVYxLkVTRy5Qcm9kdWN0SW52b2x2ZW1lbnQiLCJRUy5NYXJrZXRzIiwiUVMuUHVsbHFzIiwiU0FMLlNlcnZpY2UiLCJTZWFyY2guQUNJRF9TZXJ2aWNlIiwiU2VhcmNoLkRvY3VtZW50U2VhcmNoX1NlcnZpY2UiXSwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vY29uZmlnX2lkIjoiRE9UQ09NX0VDIiwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vbXN0YXJfaWQiOiI5RjQ2QTEzNS1GNjNDLTRCM0ItQTVGQy05N0E2RDIzNkQ5Q0IiLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS9lbWFpbF92ZXJpZmllZCI6ZmFsc2UsImh0dHBzOi8vbW9ybmluZ3N0YXIuY29tL3Bhc3N3b3JkQ2hhbmdlUmVxdWlyZWQiOmZhbHNlLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS91aW1fcm9sZXMiOiJFQU1TLERJUkVDVCxET1RfQ09NX0ZSRUUiLCJpc3MiOiJodHRwczovL2xvZ2luLXByb2QubW9ybmluZ3N0YXIuY29tLyIsInN1YiI6ImF1dGgwfDlGNDZBMTM1LUY2M0MtNEIzQi1BNUZDLTk3QTZEMjM2RDlDQiIsImF1ZCI6WyJodHRwczovL2F1dGgwLWF3c3Byb2QubW9ybmluZ3N0YXIuY29tL21hYXMiLCJodHRwczovL3VpbS1wcm9kLm1vcm5pbmdzdGFyLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3NzQxOTMwNDQsImV4cCI6MTc3NDE5NjY0NCwic2NvcGUiOiJvcGVuaWQiLCJndHkiOiJwYXNzd29yZCIsImF6cCI6ImlRa1d4b2FwSjlQeGw4Y0daTHlhWFpzYlhWNzlnNjRtIn0.iHD9iMIvmTtDB4AhesJGuZVs_KweDmBh39YRW3syMm2xutat2EtuBXVGn7cspzqMvtw6yfMlVsOllNE1BJciOo51bAAuL7u6585ZmEA7sO8zBko_mj5LAcv7w1yf2Ne5YdqYSgb2CDt75oyKn2m7fGZJauZ5Lv_sWM_8vudbtxAKXzCHI0HLReucASEXgibHN3Ie0aY06NFy3sVsxHj-Q2J-DC7GUtpC9-xogMFqK19RhdIDXSRV1E4VwnF1EOs_9YqYeJ77Ic1pcqKFclzw6N_VlzT9BijdBOYmkRajXDNVTjdICytY8TeJqik34nN5hP5o5AiWg3MNxsKHM7SLdw",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-site",
-    "x-api-realtime-e": "eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.X-h4zn65XpjG8cZnL3e6hj8LMbzupQBglHZce7tzu-c4utCtXQ2IYoLxdik04usYRhNo74AS_2crdjLnBc_J0lFEdAPzb_OBE7HjwfRaYeNhfXIDw74QCrFGqQ5n7AtllL-vTGnqmI1S9WJhSwnIBe_yRxuXGGbIttizI5FItYY.bB3WkiuoS1xzw78w.iTqTFVbxKo4NQQsNNlbkF4tg4GCfgqdRdQXN8zQU3QYhbHc-XDusH1jFii3-_-AIsqpHaP7ilG9aBxzoK7KPPfK3apcoMS6fDM3QLRSZzjkBoxWK75FtrQMAN5-LecdJk97xaXEciS0QqqBqNugoSPwoiZMazHX3rr7L5jPM-ecXN2uEjbSR0wfg-57iHAku8jvThz4mtGpMRAOil9iZaL6iRQ.o6tR6kuOQBhnpcsdTQeZWw",
-    "x-api-requestid": "a63ab826-b67c-51df-b6ae-607d3c57db1a",
-    "x-sal-contenttype": "e7FDDltrTy+tA2HnLovvGL0LFMwT+KkEptGju5wXVTU=",
-    "Referer": "https://www.morningstar.com/stocks/xphs/tel/key-metrics",
-  },
-  method: "GET"
-});
+// Manual probe for the Morningstar keyMetrics endpoint — usage:
+//   pnpm --dir server exec tsx --env-file=../.env scripts/debug-morningstar.ts <performanceId>
+// Pull fresh MS_TOKEN / MS_REALTIME_E / MS_SAL_CONTENT into .env from DevTools ("Copy as fetch")
+// before running — these expire ~1hr (see .env.example).
+const performanceId = process.argv[2] ?? '0P0000EDRJ';
+
+const token = process.env.MS_TOKEN ?? '';
+const realtimeE = process.env.MS_REALTIME_E ?? '';
+const salContent = process.env.MS_SAL_CONTENT ?? '';
+
+if (!token || !realtimeE || !salContent) {
+  console.error('Missing MS_TOKEN / MS_REALTIME_E / MS_SAL_CONTENT — grab fresh values from DevTools and set them in .env');
+  process.exit(1);
+}
+
+const res = await fetch(
+  `https://www.us-api.morningstar.com/sal/sal-service/stock/keyMetrics/summary/${performanceId}?reportType=A&languageId=en&locale=en&clientId=MDC&component=sal-eqsv-key-metrics-financial-summary&version=4.71.0`,
+  {
+    headers: {
+      'accept': '*/*',
+      'accept-language': 'en-US,en;q=0.9',
+      'authorization': `Bearer ${token}`,
+      'sec-fetch-dest': 'empty',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-site': 'same-site',
+      'x-api-realtime-e': realtimeE,
+      'x-api-requestid': crypto.randomUUID(),
+      'x-sal-contenttype': salContent,
+      'Referer': 'https://www.morningstar.com/',
+    },
+    method: 'GET',
+  }
+);
 
 console.log(`Status: ${res.status}`);
 const text = await res.text();
