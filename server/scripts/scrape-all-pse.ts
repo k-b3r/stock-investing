@@ -1,7 +1,8 @@
-import pg from 'pg';
 import fs from 'fs';
 import { scrapeTicker, updateTokens } from './scrape-morningstar.ts';
 import { refreshCookies } from './refresh-cookies.ts';
+import { getPool } from '../src/db.ts';
+import { listTickersWithData } from '../src/repositories/financials.ts';
 
 const BASE = 'https://edge.pse.com.ph';
 const HEADERS = {
@@ -62,20 +63,15 @@ if (fromArg) {
 
 updateTokens(await refreshCookies());
 
-const db = new pg.Client({ connectionString: process.env.DATABASE_URL });
-await db.connect();
-
-const { rows } = await db.query<{ ticker: string }>(
-  `SELECT ticker FROM financials WHERE data != '{}'::jsonb AND data IS NOT NULL`
-);
-const done = new Set(rows.map(r => r.ticker.toUpperCase()));
+const doneTickers = await listTickersWithData();
+const done = new Set(doneTickers.map(t => t.toUpperCase()));
 const toScrape = tickers.filter(t => !done.has(t.toUpperCase()));
 console.error(`Skipping ${done.size} already scraped. Scraping ${toScrape.length} remaining.`);
 
 let ok = 0, skipped = 0, fail = 0;
 for (const ticker of toScrape) {
   try {
-    const result = await scrapeTicker(ticker, db);
+    const result = await scrapeTicker(ticker);
     if (result === null) skipped++;
     else ok++;
   } catch (e) {
@@ -85,5 +81,5 @@ for (const ticker of toScrape) {
   await new Promise(r => setTimeout(r, 3000));
 }
 
-await db.end();
+await getPool().end();
 console.error(`\nDone: ${ok} saved, ${skipped} skipped (not on Morningstar), ${fail} errors`);

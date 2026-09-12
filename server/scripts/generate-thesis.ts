@@ -1,14 +1,15 @@
-import pg from 'pg';
-import { computeFuturePeCap, computeStickerPrice } from '../shared/valuation.ts';
+import { computeFuturePeCap, computeStickerPrice } from '../../shared/valuation.ts';
+import { getPool } from '../src/db.ts';
+import { getFinancialByTicker } from '../src/repositories/financials.ts';
+import { getCompanyProfile } from '../src/repositories/company-profiles.ts';
+import { listRecentDisclosureTemplates } from '../src/repositories/disclosures.ts';
+import { upsertInvestmentThesis } from '../src/repositories/investment-theses.ts';
 
-const DB_URL = process.env.DATABASE_URL ?? 'postgresql://postgres:postgres@localhost:5432/stocks';
 const BASE = 'https://edge.pse.com.ph';
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
   'Referer': 'https://edge.pse.com.ph/',
 };
-
-const pool = new pg.Pool({ connectionString: DB_URL });
 
 export interface TickerContext {
   ticker: string;
@@ -128,12 +129,9 @@ async function getNews(companyName: string): Promise<{ title: string; source: st
 export async function buildTickerContext(ticker: string): Promise<TickerContext | null> {
   const upper = ticker.toUpperCase();
 
-  const financialsRes = await pool.query<{ data: Record<string, unknown> }>(
-    'SELECT data FROM financials WHERE ticker = $1',
-    [upper]
-  );
-  if (!financialsRes.rows[0]) return null;
-  const raw = financialsRes.rows[0].data as {
+  const financialRow = await getFinancialByTicker(upper);
+  if (!financialRow) return null;
+  const raw = financialRow.data as {
     growth: { currency?: string; dataList: { fiscalPeriodYearMonth: string; epsPer: { tenYearAvg: number | null; fiveYearAvg: number | null; threeYearAvg: number | null; yearOverYear: number | null }; revenuePer: { tenYearAvg: number | null; fiveYearAvg: number | null; threeYearAvg: number | null; yearOverYear: number | null }; netIncomePer: { tenYearAvg: number | null; fiveYearAvg: number | null; threeYearAvg: number | null; yearOverYear: number | null } }[] };
     profitability: { dataList: { fiscalPeriodYear: string; roic: number | null }[] };
     financialHealth: { dataList: { fiscalPeriodYearMonth: string; debtEquityRatio: number | null; bookValuePerShare: number | null }[] };
@@ -180,17 +178,10 @@ export async function buildTickerContext(ticker: string): Promise<TickerContext 
   const latestBvps = toPhp(latestBvpsRaw, currency, usdToPhpRate);
   const latestDps = toPhp(latestDpsRaw, currency, usdToPhpRate);
 
-  const profileRes = await pool.query<{ description: string | null; sector: string | null; subsector: string | null }>(
-    'SELECT description, sector, subsector FROM company_profiles WHERE ticker = $1',
-    [upper]
-  );
-  const profile = profileRes.rows[0] ?? { description: null, sector: null, subsector: null };
+  const profile = (await getCompanyProfile(upper)) ?? { description: null, sector: null, subsector: null };
 
-  const disclosuresRes = await pool.query<{ template: string; filed_at: string }>(
-    'SELECT template, filed_at::text FROM disclosures WHERE ticker = $1 ORDER BY filed_at DESC LIMIT 10',
-    [upper]
-  );
-  const disclosures = disclosuresRes.rows.map((r) => ({ date: r.filed_at, template: r.template }));
+  const disclosureRows = await listRecentDisclosureTemplates(upper, 10);
+  const disclosures = disclosureRows.map((r) => ({ date: r.filed_at, template: r.template }));
 
   const info = await getCompanyInfo(upper);
   const companyName = info?.cmpyNm ?? upper;
@@ -400,32 +391,6 @@ function sanityCheck(thesis: string, ctx: TickerContext): string | null {
   return null;
 }
 
-async function upsertThesis(
-  ticker: string,
-  thesis: string,
-  verdict: 'buy' | 'watch' | 'pass' | null,
-  highlights: string[],
-  lastPrice: number | null,
-  stickerPrice: number | null,
-  mosPrice: number | null,
-  pe: number | null
-): Promise<void> {
-  await pool.query(
-    `INSERT INTO investment_theses (ticker, thesis, verdict, highlights, last_price, sticker_price, mos_price, pe, generated_at)
-     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, now())
-     ON CONFLICT (ticker) DO UPDATE SET
-       thesis = EXCLUDED.thesis,
-       verdict = EXCLUDED.verdict,
-       highlights = EXCLUDED.highlights,
-       last_price = EXCLUDED.last_price,
-       sticker_price = EXCLUDED.sticker_price,
-       mos_price = EXCLUDED.mos_price,
-       pe = EXCLUDED.pe,
-       generated_at = now()`,
-    [ticker, thesis, verdict, highlights, lastPrice, stickerPrice, mosPrice, pe]
-  );
-}
-
 async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: number; reason?: string }> {
   const ctx = await buildTickerContext(ticker);
   if (!ctx) return { ok: false, cost: 0, reason: 'no financials row for ticker' };
@@ -499,7 +464,7 @@ Empty array if none found.`;
     return { ok: false, cost: totalCost, reason: `sanity check failed: ${sanityIssue}` };
   }
 
-  await upsertThesis(ctx.ticker, thesis, verdict, highlights, ctx.lastPrice, ctx.stickerPrice, ctx.mosPrice, ctx.pe);
+  await upsertInvestmentThesis(ctx.ticker, thesis, verdict, highlights, ctx.lastPrice, ctx.stickerPrice, ctx.mosPrice, ctx.pe);
   return { ok: true, cost: totalCost };
 }
 
@@ -531,5 +496,5 @@ for (const [i, ticker] of tickers.entries()) {
   }
 }
 
-await pool.end();
+await getPool().end();
 console.log(`\nDone. ${succeeded} succeeded, ${failed} failed. Estimated total cost: $${totalCost.toFixed(4)} (informational — billed against your Claude Code subscription, not per-call).`);

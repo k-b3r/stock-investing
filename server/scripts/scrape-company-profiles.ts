@@ -1,7 +1,8 @@
-import pg from 'pg';
 import * as cheerio from 'cheerio';
+import { getPool } from '../src/db.ts';
+import { upsertCompanyProfile, type CompanyProfileUpsert } from '../src/repositories/company-profiles.ts';
+import { listTickers } from '../src/repositories/financials.ts';
 
-const DB_URL = process.env.DATABASE_URL ?? 'postgresql://postgres:postgres@localhost:5432/stocks';
 const BASE = 'https://edge.pse.com.ph';
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -10,15 +11,7 @@ const HEADERS = {
 const DELAY_MS = parseInt(process.env.SCRAPER_REQUEST_DELAY_MS ?? '600');
 const TICKER_ARG = process.argv[2];
 
-interface CompanyProfile {
-  description: string | null;
-  sector: string | null;
-  subsector: string | null;
-  incorporationDate: string | null;
-  website: string | null;
-}
-
-const pool = new pg.Pool({ connectionString: DB_URL });
+type CompanyProfile = CompanyProfileUpsert;
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
@@ -78,25 +71,9 @@ async function scrapeCompanyProfile(cmpyId: string): Promise<CompanyProfile | nu
   return { description, sector, subsector, incorporationDate, website };
 }
 
-async function upsertProfile(ticker: string, profile: CompanyProfile): Promise<void> {
-  await pool.query(
-    `INSERT INTO company_profiles (ticker, description, sector, subsector, incorporation_date, website, scraped_at)
-     VALUES ($1, $2, $3, $4, $5, $6, now())
-     ON CONFLICT (ticker) DO UPDATE SET
-       description = EXCLUDED.description,
-       sector = EXCLUDED.sector,
-       subsector = EXCLUDED.subsector,
-       incorporation_date = EXCLUDED.incorporation_date,
-       website = EXCLUDED.website,
-       scraped_at = now()`,
-    [ticker, profile.description, profile.sector, profile.subsector, profile.incorporationDate, profile.website]
-  );
-}
-
 async function getTickers(): Promise<string[]> {
   if (TICKER_ARG) return [TICKER_ARG.toUpperCase()];
-  const res = await pool.query<{ ticker: string }>('SELECT ticker FROM financials ORDER BY ticker');
-  return res.rows.map((r) => r.ticker);
+  return listTickers();
 }
 
 const tickers = await getTickers();
@@ -130,7 +107,7 @@ for (const [i, ticker] of tickers.entries()) {
       await sleep(DELAY_MS);
       continue;
     }
-    await upsertProfile(ticker, profile);
+    await upsertCompanyProfile(ticker, profile);
     console.log(`→ sector=${profile.sector ?? 'N/A'}, description=${profile.description ? 'yes' : 'no'}`);
     succeeded++;
   } catch (e) {
@@ -140,5 +117,5 @@ for (const [i, ticker] of tickers.entries()) {
   await sleep(DELAY_MS);
 }
 
-await pool.end();
+await getPool().end();
 console.log(`\nDone. ${succeeded} profiles upserted. ${failed} tickers failed.`);

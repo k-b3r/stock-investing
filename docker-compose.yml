@@ -16,11 +16,11 @@ services:
       timeout: 5s
       retries: 5
 
-  api:
+  server:
     build:
-      context: ./api
+      context: ./server
       dockerfile: Dockerfile
-    container_name: psei_api
+    container_name: psei_server
     depends_on:
       postgres:
         condition: service_healthy
@@ -33,13 +33,13 @@ services:
 
   app:
     build:
-      context: ./app
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: app/Dockerfile
     container_name: psei_app
     depends_on:
-      - api
+      - server
     environment:
-      API_URL: http://api:3001
+      API_URL: http://server:3001
       NODE_ENV: production
     ports:
       - "3000:3000"

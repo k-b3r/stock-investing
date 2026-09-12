@@ -1,0 +1,33 @@
+{
+  "name": "psei-server",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "news-google": "tsx --env-file=../.env scripts/news-google.ts",
+    "news-finnhub": "tsx --env-file=../.env scripts/news-finnhub.ts",
+    "pse-edge": "tsx --env-file=../.env scripts/pse-edge.ts",
+    "scrape-ms": "tsx --env-file=../.env scripts/scrape-morningstar.ts",
+    "scrape-psei30": "tsx --env-file=../.env scripts/scrape-psei30.ts",
+    "scrape-company-profiles": "tsx --env-file=../.env scripts/scrape-company-profiles.ts",
+    "generate-thesis": "tsx --env-file=../.env scripts/generate-thesis.ts",
+    "refresh-cookies": "tsx --env-file=../.env scripts/refresh-cookies.ts",
+    "login-morningstar": "tsx --env-file=../.env scripts/login-morningstar.ts",
+    "scrape-all-pse": "tsx --env-file=../.env scripts/scrape-all-pse.ts",
+    "refresh-missing-2025": "tsx --env-file=../.env scripts/refresh-missing-2025.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.0",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.20.0",
+    "playwright": "^1.58.2",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
