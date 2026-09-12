@@ -1,8 +1,8 @@
 import express from 'express';
-import financialsRouter from './routes/financials.js';
-import disclosuresRouter from './routes/disclosures.js';
-import companyProfilesRouter from './routes/company-profiles.js';
-import investmentThesesRouter from './routes/investment-theses.js';
+import financialsRouter from './routes/financials';
+import disclosuresRouter from './routes/disclosures';
+import companyProfilesRouter from './routes/company-profiles';
+import investmentThesesRouter from './routes/investment-theses';
 
 const app = express();
 const PORT = process.env.PORT ?? 3001;

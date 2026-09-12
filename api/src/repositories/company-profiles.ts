@@ -1,4 +1,4 @@
-import { getPool } from '../db.js';
+import { getPool } from '../db';
 
 export async function getCompanyProfile(ticker: string) {
   const { rows } = await getPool().query(

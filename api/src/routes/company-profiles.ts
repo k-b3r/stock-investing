@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getCompanyProfile } from '../repositories/company-profiles.js';
+import { getCompanyProfile } from '../repositories/company-profiles';
 
 const router = Router();
 

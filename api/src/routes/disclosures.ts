@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { listDisclosuresByTicker } from '../repositories/disclosures.js';
+import { listDisclosuresByTicker } from '../repositories/disclosures';
 
 const router = Router();
 

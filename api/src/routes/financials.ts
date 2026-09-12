@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { listFinancials, getFinancialByTicker } from '../repositories/financials.js';
+import { listFinancials, getFinancialByTicker } from '../repositories/financials';
 
 const router = Router();
 

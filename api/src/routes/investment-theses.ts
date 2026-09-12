@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getThesisByTicker } from '../repositories/investment-theses.js';
+import { getThesisByTicker } from '../repositories/investment-theses';
 
 const router = Router();
 

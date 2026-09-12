@@ -1,4 +1,4 @@
-import { getPool } from '../db.js';
+import { getPool } from '../db';
 
 export async function listFinancials() {
   const { rows } = await getPool().query(
