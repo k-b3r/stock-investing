@@ -1,5 +1,6 @@
 // Server-side only — never import from a client component
 import * as cheerio from 'cheerio';
+import { getCompanyInfo as sharedGetCompanyInfo, getStockDataByCmpyId } from '../../../shared/pse-edge';
 
 const BASE = 'https://edge.pse.com.ph';
 const HEADERS = {
@@ -16,24 +17,8 @@ export interface PseDisclosure {
   content?: string | null;
 }
 
-interface CompanyInfo {
-  cmpyId: string;
-  cmpyNm: string;
-}
-
-async function getCompanyInfo(ticker: string): Promise<CompanyInfo | null> {
-  try {
-    const res = await fetch(
-      `${BASE}/autoComplete/searchCompanyNameSymbol.ax?term=${encodeURIComponent(ticker)}`,
-      { headers: HEADERS, next: { revalidate: 86400 } }
-    );
-    if (!res.ok) return null;
-    const data = (await res.json()) as { cmpyId: string; cmpyNm: string }[];
-    const first = data[0];
-    return first ? { cmpyId: first.cmpyId, cmpyNm: first.cmpyNm } : null;
-  } catch {
-    return null;
-  }
+function getCompanyInfo(ticker: string) {
+  return sharedGetCompanyInfo(ticker, { next: { revalidate: 86400 } });
 }
 
 export async function getCompanyName(ticker: string): Promise<string | null> {
@@ -47,36 +32,9 @@ export interface StockData {
 }
 
 export async function getStockData(ticker: string): Promise<StockData> {
-  try {
-    const info = await getCompanyInfo(ticker);
-    if (!info) return { lastPrice: null, high52w: null };
-
-    const res = await fetch(
-      `${BASE}/companyPage/stockData.do?cmpy_id=${info.cmpyId}`,
-      { headers: HEADERS, next: { revalidate: 300 } }
-    );
-    if (!res.ok) return { lastPrice: null, high52w: null };
-
-    const html = await res.text();
-
-    const parseField = (regex: RegExp): number | null => {
-      const match = html.match(regex);
-      if (!match) return null;
-      const value = parseFloat(match[1].replace(/,/g, ''));
-      return isNaN(value) ? null : value;
-    };
-
-    // "Last Traded Price" is empty when the stock hasn't traded yet today (pre-market,
-    // suspended, etc) — fall back to "Previous Close" so we still surface a usable price.
-    const lastPrice =
-      parseField(/Last Traded Price<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/) ??
-      parseField(/Previous Close and Date<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
-    const high52w = parseField(/52-Week High<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
-
-    return { lastPrice, high52w };
-  } catch {
-    return { lastPrice: null, high52w: null };
-  }
+  const info = await getCompanyInfo(ticker);
+  if (!info) return { lastPrice: null, high52w: null };
+  return getStockDataByCmpyId(info.cmpyId, { next: { revalidate: 300 } });
 }
 
 export async function getDisclosures(ticker: string): Promise<PseDisclosure[]> {

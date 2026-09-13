@@ -1,15 +1,12 @@
 import { computeFuturePeCap, computeStickerPrice } from '../../shared/valuation.ts';
+import { getCompanyInfo, getStockDataByCmpyId } from '../../shared/pse-edge.ts';
+import { getNewsArticles } from '../../shared/google-news.ts';
+import { getUsdToPhpRate } from '../../shared/fx.ts';
 import { getPool } from '../src/db.ts';
 import { getFinancialByTicker } from '../src/repositories/financials.ts';
 import { getCompanyProfile } from '../src/repositories/company-profiles.ts';
 import { listRecentDisclosureTemplates } from '../src/repositories/disclosures.ts';
 import { upsertInvestmentThesis } from '../src/repositories/investment-theses.ts';
-
-const BASE = 'https://edge.pse.com.ph';
-const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Referer': 'https://edge.pse.com.ph/',
-};
 
 export interface TickerContext {
   ticker: string;
@@ -50,80 +47,9 @@ function toPhp(value: number | null, currency: string, usdToPhpRate: number | nu
   return null;
 }
 
-async function getUsdToPhpRate(): Promise<number | null> {
-  try {
-    const res = await fetch('https://open.er-api.com/v6/latest/USD');
-    if (!res.ok) return null;
-    const data = (await res.json()) as { result?: string; rates?: Record<string, number> };
-    if (data.result !== 'success') return null;
-    const rate = data.rates?.PHP;
-    return typeof rate === 'number' ? rate : null;
-  } catch {
-    return null;
-  }
-}
-
-async function getCompanyInfo(ticker: string): Promise<{ cmpyId: string; cmpyNm: string } | null> {
-  try {
-    const res = await fetch(
-      `${BASE}/autoComplete/searchCompanyNameSymbol.ax?term=${encodeURIComponent(ticker)}`,
-      { headers: HEADERS }
-    );
-    if (!res.ok) return null;
-    const data = (await res.json()) as { cmpyId: string; cmpyNm: string }[];
-    const first = data[0];
-    return first ? { cmpyId: first.cmpyId, cmpyNm: first.cmpyNm } : null;
-  } catch {
-    return null;
-  }
-}
-
-async function getStockData(cmpyId: string): Promise<{ lastPrice: number | null; high52w: number | null }> {
-  try {
-    const res = await fetch(`${BASE}/companyPage/stockData.do?cmpy_id=${cmpyId}`, { headers: HEADERS });
-    if (!res.ok) return { lastPrice: null, high52w: null };
-
-    const html = await res.text();
-    const parseField = (regex: RegExp): number | null => {
-      const match = html.match(regex);
-      if (!match) return null;
-      const value = parseFloat(match[1].replace(/,/g, ''));
-      return isNaN(value) ? null : value;
-    };
-
-    const lastPrice =
-      parseField(/Last Traded Price<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/) ??
-      parseField(/Previous Close and Date<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
-    const high52w = parseField(/52-Week High<\/th>\s*<td[^>]*>\s*([\d,]+(?:\.\d+)?)/);
-
-    return { lastPrice, high52w };
-  } catch {
-    return { lastPrice: null, high52w: null };
-  }
-}
-
 async function getNews(companyName: string): Promise<{ title: string; source: string }[]> {
-  try {
-    const query = encodeURIComponent(`"${companyName}" Philippines`);
-    const res = await fetch(`https://news.google.com/rss/search?q=${query}&hl=en-PH&gl=PH&ceid=PH:en`, {
-      headers: { 'User-Agent': 'Mozilla/5.0' },
-    });
-    if (!res.ok) return [];
-
-    const xml = await res.text();
-    const items: { title: string; source: string }[] = [];
-    const itemRegex = /<item>([\s\S]*?)<\/item>/g;
-    let match;
-    while ((match = itemRegex.exec(xml)) !== null && items.length < 5) {
-      const item = match[1];
-      const rawTitle = item.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
-      const source = item.match(/<source[^>]*>([^<]+)<\/source>/)?.[1]?.trim() ?? '';
-      if (rawTitle) items.push({ title: rawTitle.replace(/&amp;/g, '&'), source });
-    }
-    return items;
-  } catch {
-    return [];
-  }
+  const articles = await getNewsArticles(companyName);
+  return articles.slice(0, 5).map((a) => ({ title: a.title, source: a.source }));
 }
 
 export async function buildTickerContext(ticker: string): Promise<TickerContext | null> {
@@ -185,7 +111,7 @@ export async function buildTickerContext(ticker: string): Promise<TickerContext 
 
   const info = await getCompanyInfo(upper);
   const companyName = info?.cmpyNm ?? upper;
-  const { lastPrice, high52w } = info ? await getStockData(info.cmpyId) : { lastPrice: null, high52w: null };
+  const { lastPrice, high52w } = info ? await getStockDataByCmpyId(info.cmpyId) : { lastPrice: null, high52w: null };
   const news = await getNews(companyName);
 
   const pe = lastPrice && latestEps && latestEps > 0 ? lastPrice / latestEps : null;

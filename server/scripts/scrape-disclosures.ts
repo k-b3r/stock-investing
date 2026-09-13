@@ -1,4 +1,5 @@
 import * as cheerio from 'cheerio';
+import { getCompanyInfo } from '../../shared/pse-edge.ts';
 import { getPool } from '../src/db.ts';
 import { insertDisclosure } from '../src/repositories/disclosures.ts';
 import { listTickers } from '../src/repositories/financials.ts';
@@ -40,13 +41,8 @@ function sleep(ms: number) {
 }
 
 async function getCmpyId(ticker: string): Promise<string | null> {
-  const res = await fetch(
-    `${BASE}/autoComplete/searchCompanyNameSymbol.ax?term=${encodeURIComponent(ticker)}`,
-    { headers: HEADERS }
-  );
-  if (!res.ok) return null;
-  const data = (await res.json()) as { cmpyId: string }[];
-  return data[0]?.cmpyId ?? null;
+  const info = await getCompanyInfo(ticker);
+  return info?.cmpyId ?? null;
 }
 
 async function scrapeDisclosures(cmpyId: string): Promise<Disclosure[]> {
