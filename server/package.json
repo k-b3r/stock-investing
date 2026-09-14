@@ -10,6 +10,7 @@
     "pse-edge": "tsx --env-file=../.env scripts/pse-edge.ts",
     "scrape-ms": "tsx --env-file=../.env scripts/scrape-morningstar.ts",
     "scrape-psei30": "tsx --env-file=../.env scripts/scrape-psei30.ts",
+    "scrape-index-composition": "tsx --env-file=../.env scripts/scrape-index-composition.ts",
     "scrape-company-profiles": "tsx --env-file=../.env scripts/scrape-company-profiles.ts",
     "generate-thesis": "tsx --env-file=../.env scripts/generate-thesis.ts",
     "refresh-cookies": "tsx --env-file=../.env scripts/refresh-cookies.ts",
