@@ -1,8 +1,8 @@
 import { chromium } from 'playwright';
 import fs from 'fs';
 
-const ENV_FILE = new URL('../.env', import.meta.url).pathname;
-const AUTH_FILE = new URL('../data/ms-auth.json', import.meta.url).pathname;
+const ENV_FILE = new URL('../../.env', import.meta.url).pathname;
+const AUTH_FILE = new URL('../../data/ms-auth.json', import.meta.url).pathname;
 
 export interface MorningstarTokens {
   cookie: string;

@@ -9,7 +9,7 @@
 
 import { scrapeTicker, updateTokens } from './scrape-morningstar.ts';
 import { refreshCookies } from './refresh-cookies.ts';
-import { getPool } from '../src/db.ts';
+import { getPool } from '../../src/db.ts';
 
 const dryRun = process.argv.includes('--dry-run');
 const fromArg = process.argv.includes('--from')

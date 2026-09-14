@@ -1,8 +1,8 @@
 import { scrapeTicker, updateTokens } from './scrape-morningstar.ts';
 import { refreshCookies } from './refresh-cookies.ts';
-import { fetchIndexComposition } from './scrape-index-composition.ts';
-import { getPool } from '../src/db.ts';
-import { listTickersWithData } from '../src/repositories/financials.ts';
+import { fetchIndexComposition } from '../scrape-index-composition.ts';
+import { getPool } from '../../src/db.ts';
+import { listTickersWithData } from '../../src/repositories/financials.ts';
 
 const argTickers = process.argv.slice(2);
 
