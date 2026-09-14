@@ -3,7 +3,7 @@ import fs from 'fs';
 
 fs.mkdirSync('data', { recursive: true });
 
-const ENV_FILE = new URL('../.env', import.meta.url).pathname;
+const ENV_FILE = new URL('../../.env', import.meta.url).pathname;
 
 const browser = await chromium.launch({ headless: false });
 const context = await browser.newContext();

@@ -1,6 +1,6 @@
 import { refreshCookies, refreshWafCookies, lookupPerformanceId } from './refresh-cookies.ts';
-import { getPool } from '../src/db.ts';
-import { getFinancialByTicker, upsertFinancialPerformanceId, upsertFinancial } from '../src/repositories/financials.ts';
+import { getPool } from '../../src/db.ts';
+import { getFinancialByTicker, upsertFinancialPerformanceId, upsertFinancial } from '../../src/repositories/financials.ts';
 
 let COOKIE = process.env.MS_COOKIE ?? '';
 let WAF_TOKEN = process.env.MS_WAF_TOKEN ?? '';
