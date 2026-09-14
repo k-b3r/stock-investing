@@ -1,14 +1,15 @@
 import { getPool } from '../db';
+import type { RawFinancials } from '../../../shared/types/financials';
 
-export async function listFinancials() {
-  const { rows } = await getPool().query(
+export async function listFinancials(): Promise<RawFinancials[]> {
+  const { rows } = await getPool().query<RawFinancials>(
     `SELECT ticker, performance_id, data, scraped_at::text FROM financials ORDER BY ticker`
   );
   return rows;
 }
 
-export async function getFinancialByTicker(ticker: string) {
-  const { rows } = await getPool().query(
+export async function getFinancialByTicker(ticker: string): Promise<RawFinancials | null> {
+  const { rows } = await getPool().query<RawFinancials>(
     `SELECT ticker, performance_id, data, scraped_at::text FROM financials WHERE ticker = $1`,
     [ticker]
   );

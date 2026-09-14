@@ -1,7 +1,8 @@
 import { getPool } from '../db';
+import type { DisclosureRow } from '../../../shared/types/disclosure';
 
-export async function listDisclosuresByTicker(ticker: string) {
-  const { rows } = await getPool().query(
+export async function listDisclosuresByTicker(ticker: string): Promise<DisclosureRow[]> {
+  const { rows } = await getPool().query<DisclosureRow>(
     `SELECT disclosure_id, template, filed_at::text, form_num, ref_num,
             NULLIF(content, '') as content
      FROM disclosures

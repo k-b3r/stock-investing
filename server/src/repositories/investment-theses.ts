@@ -1,7 +1,8 @@
 import { getPool } from '../db';
+import type { InvestmentThesisRow } from '../../../shared/types/investment-thesis';
 
-export async function getThesisByTicker(ticker: string) {
-  const { rows } = await getPool().query(
+export async function getThesisByTicker(ticker: string): Promise<InvestmentThesisRow | null> {
+  const { rows } = await getPool().query<InvestmentThesisRow>(
     `SELECT thesis, verdict, highlights, last_price, sticker_price, mos_price, pe, generated_at
      FROM investment_theses WHERE ticker = $1`,
     [ticker]

@@ -1,7 +1,8 @@
 import { getPool } from '../db';
+import type { CompanyProfileRow } from '../../../shared/types/company-profile';
 
-export async function getCompanyProfile(ticker: string) {
-  const { rows } = await getPool().query(
+export async function getCompanyProfile(ticker: string): Promise<CompanyProfileRow | null> {
+  const { rows } = await getPool().query<CompanyProfileRow>(
     `SELECT description, sector, subsector, incorporation_date, website
      FROM company_profiles WHERE ticker = $1`,
     [ticker]

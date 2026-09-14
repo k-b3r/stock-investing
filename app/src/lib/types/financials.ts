@@ -1,9 +1,4 @@
-export interface RawFinancials {
-  ticker: string;
-  performance_id: string | null;
-  data: Record<string, unknown>;
-  scraped_at: string;
-}
+export type { RawFinancials } from '../../../../shared/types/financials';
 
 export interface GrowthMetric {
   tenYearAvg: number | null;
