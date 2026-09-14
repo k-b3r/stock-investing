@@ -1,22 +1,14 @@
 import type { PseDisclosure } from '@/lib/pse-edge';
+import type { DisclosureRow } from '../../../shared/types/disclosure';
 
 const API_URL = process.env.API_URL ?? 'http://localhost:3001';
-
-interface DbDisclosure {
-  disclosure_id: string;
-  template: string;
-  filed_at: string;
-  form_num: string | null;
-  ref_num: string | null;
-  content: string | null;
-}
 
 export async function getDisclosures(ticker: string): Promise<PseDisclosure[]> {
   const res = await fetch(`${API_URL}/disclosures/${ticker.toUpperCase()}`, {
     next: { revalidate: 1800 },
   });
   if (!res.ok) return [];
-  const rows = (await res.json()) as DbDisclosure[];
+  const rows = (await res.json()) as DisclosureRow[];
   return rows.map((r) => ({
     templateNm: r.template,
     date: r.filed_at,
