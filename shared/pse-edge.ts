@@ -1,8 +1,28 @@
-const BASE = 'https://edge.pse.com.ph';
-const HEADERS = {
+export const BASE = 'https://edge.pse.com.ph';
+export const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
   'Referer': 'https://edge.pse.com.ph/',
 };
+
+export interface PseCompanySearchResult {
+  cmpyId: string;
+  cmpyNm: string;
+  symbol: string;
+  etfYn: string;
+}
+
+export async function searchCompanies(term: string, init?: RequestInit): Promise<PseCompanySearchResult[]> {
+  try {
+    const res = await fetch(
+      `${BASE}/autoComplete/searchCompanyNameSymbol.ax?term=${encodeURIComponent(term)}`,
+      { ...init, headers: HEADERS }
+    );
+    if (!res.ok) return [];
+    return (await res.json()) as PseCompanySearchResult[];
+  } catch {
+    return [];
+  }
+}
 
 export interface PseCompanyInfo {
   cmpyId: string;
@@ -10,18 +30,9 @@ export interface PseCompanyInfo {
 }
 
 export async function getCompanyInfo(ticker: string, init?: RequestInit): Promise<PseCompanyInfo | null> {
-  try {
-    const res = await fetch(
-      `${BASE}/autoComplete/searchCompanyNameSymbol.ax?term=${encodeURIComponent(ticker)}`,
-      { ...init, headers: HEADERS }
-    );
-    if (!res.ok) return null;
-    const data = (await res.json()) as { cmpyId: string; cmpyNm: string }[];
-    const first = data[0];
-    return first ? { cmpyId: first.cmpyId, cmpyNm: first.cmpyNm } : null;
-  } catch {
-    return null;
-  }
+  const results = await searchCompanies(ticker, init);
+  const first = results[0];
+  return first ? { cmpyId: first.cmpyId, cmpyNm: first.cmpyNm } : null;
 }
 
 export interface PseStockData {

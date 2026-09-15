@@ -1,14 +1,9 @@
 import * as cheerio from 'cheerio';
-import { getCompanyInfo } from '../../shared/pse-edge.ts';
+import { getCompanyInfo, BASE, HEADERS } from '../../shared/pse-edge.ts';
 import { getPool } from '../src/db.ts';
 import { insertDisclosure } from '../src/repositories/disclosures.ts';
 import { listTickers } from '../src/repositories/financials.ts';
 
-const BASE = 'https://edge.pse.com.ph';
-const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Referer': 'https://edge.pse.com.ph/',
-};
 const DELAY_MS = parseInt(process.env.SCRAPER_REQUEST_DELAY_MS ?? '600');
 const TICKER_ARG = process.argv[2];
 
