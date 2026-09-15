@@ -7,8 +7,7 @@
  *   npx tsx scripts/refresh-missing-2025.ts --from MBT  # resume from ticker
  */
 
-import { scrapeTicker, updateTokens } from './scrape-morningstar.ts';
-import { refreshCookies } from './refresh-cookies.ts';
+import { runScrapeLoop } from './scrape-runner.ts';
 import { getPool } from '../../src/db.ts';
 
 const dryRun = process.argv.includes('--dry-run');
@@ -46,25 +45,5 @@ if (dryRun) {
   process.exit(0);
 }
 
-updateTokens(await refreshCookies());
-
-let ok = 0, skipped = 0, fail = 0;
-for (const ticker of tickers) {
-  try {
-    const result = await scrapeTicker(ticker);
-    if (result === null) {
-      skipped++;
-      console.error(`[${ticker}] skipped (not on Morningstar)`);
-    } else {
-      ok++;
-      console.error(`[${ticker}] ok`);
-    }
-  } catch (e) {
-    console.error(`[${ticker}] error: ${(e as Error).message}`);
-    fail++;
-  }
-  await new Promise(r => setTimeout(r, 3000));
-}
-
-await getPool().end();
+const { ok, skipped, fail } = await runScrapeLoop(tickers);
 console.error(`\nDone: ${ok} updated, ${skipped} skipped, ${fail} errors`);
