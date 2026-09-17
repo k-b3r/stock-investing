@@ -5,51 +5,12 @@ import type {
   GrowthMetric,
   YearDataPoint,
 } from '@/lib/types/financials';
-
-// --- type aliases for raw JSONB rows ---
-
-interface GrowthPerRow {
-  tenYearAvg: number | null;
-  fiveYearAvg: number | null;
-  threeYearAvg: number | null;
-  yearOverYear: number | null;
-}
-
-interface GrowthDataRow {
-  fiscalPeriodYearMonth: string;
-  epsPer: GrowthPerRow;
-  revenuePer: GrowthPerRow;
-  netIncomePer: GrowthPerRow;
-}
-
-interface ProfitabilityRow {
-  fiscalPeriodYear: string;
-  roe: number | null;
-  roa: number | null;
-  roic: number | null;
-}
-
-interface HealthRow {
-  fiscalPeriodYearMonth: string;
-  debtEquityRatio: number | null;
-  bookValuePerShare: number | null;
-  currentRatio: number | null;
-}
-
-interface CashFlowRow {
-  fiscalPeriodYearMonth: string;
-  freeCashFlowGrowthPer: number | null;
-  operatingCFGrowthPer: number | null;
-  freeCashFlowPerNetIncome: number | null;
-}
-
-interface IncomeRow {
-  fiscalPeriodYearMonth: string;
-  basicEPS: number | null;
-  revenue: number | null;
-  netIncome: number | null;
-  dividentPerShare: number | null;
-}
+import type {
+  GrowthDataRow,
+  ProfitabilityRow,
+  HealthRow,
+  CashFlowRow,
+} from '../../../shared/types/financials';
 
 // --- helpers ---
 
@@ -132,15 +93,7 @@ function toYDP(year: string, value: number | null): YearDataPoint {
 // --- main export ---
 
 export function transformFinancials(raw: RawFinancials): TransformedFinancials {
-  const data = raw.data as {
-    growth: { dataList: GrowthDataRow[]; currency?: string };
-    profitability: { dataList: ProfitabilityRow[] };
-    financialHealth: { dataList: HealthRow[] };
-    cashFlow: { dataList: CashFlowRow[] };
-    'keyMetrics.annual': {
-      incomeStatementList: { dataList: IncomeRow[] };
-    };
-  };
+  const data = raw.data;
 
   const currency = data.growth?.currency ?? 'PHP';
 

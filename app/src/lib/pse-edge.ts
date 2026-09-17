@@ -1,21 +1,19 @@
 // Server-side only — never import from a client component
 import * as cheerio from 'cheerio';
-import { getCompanyInfo as sharedGetCompanyInfo, getStockDataByCmpyId } from '../../../shared/pse-edge';
+import {
+  getCompanyInfo as sharedGetCompanyInfo,
+  getStockDataByCmpyId,
+  BASE,
+  HEADERS,
+  type PseDisclosureRow,
+  type PseStockData,
+} from '../../../shared/pse-edge';
 
-const BASE = 'https://edge.pse.com.ph';
-const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Referer': 'https://edge.pse.com.ph/',
-};
-
-export interface PseDisclosure {
-  templateNm: string;
-  date: string;
-  formNum: string;
-  refNum: string;
-  disclosureId: string | null;
+export interface PseDisclosure extends PseDisclosureRow {
   content?: string | null;
 }
+
+export type StockData = PseStockData;
 
 function getCompanyInfo(ticker: string) {
   return sharedGetCompanyInfo(ticker, { next: { revalidate: 86400 } });
@@ -24,11 +22,6 @@ function getCompanyInfo(ticker: string) {
 export async function getCompanyName(ticker: string): Promise<string | null> {
   const info = await getCompanyInfo(ticker);
   return info?.cmpyNm ?? null;
-}
-
-export interface StockData {
-  lastPrice: number | null;
-  high52w: number | null;
 }
 
 export async function getStockData(ticker: string): Promise<StockData> {

@@ -1,35 +1,16 @@
 import * as cheerio from 'cheerio';
-
-interface SearchCompany {
-  cmpyId: string;
-  cmpyNm: string;
-  symbol: string;
-  etfYn: string;
-}
-
-interface Disclosure {
-  templateNm: string;
-  date: string;
-  formNum: string;
-  refNum: string;
-  disclosureId: string | null;
-}
+import { BASE, HEADERS, type PseCompanySearchResult, type PseDisclosureRow } from '../../shared/pse-edge.ts';
 
 const TICKER = process.argv[2] ?? 'SCC';
-const BASE = 'https://edge.pse.com.ph';
-const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Referer': 'https://edge.pse.com.ph/',
-};
 
-async function getCompanyId(ticker: string): Promise<{ cmpyId: string; cmpyNm: string; symbol: string }> {
+async function getCompanyId(ticker: string): Promise<PseCompanySearchResult> {
   const res = await fetch(`${BASE}/autoComplete/searchCompanyNameSymbol.ax?term=${ticker}`, { headers: HEADERS });
-  const data = await res.json() as SearchCompany[];
+  const data = await res.json() as PseCompanySearchResult[];
   if (!data.length) throw new Error(`Ticker not found: ${ticker}`);
   return data[0];
 }
 
-async function getDisclosures(companyId: string): Promise<{ totalPages: number; disclosures: Disclosure[] }> {
+async function getDisclosures(companyId: string): Promise<{ totalPages: number; disclosures: PseDisclosureRow[] }> {
   const res = await fetch(`${BASE}/companyDisclosures/search.ax`, {
     method: 'POST',
     headers: { ...HEADERS, 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -42,7 +23,7 @@ async function getDisclosures(companyId: string): Promise<{ totalPages: number; 
   const pagesText = $('.count').text();
   const totalPages = parseInt(pagesText.match(/\/\s*(\d+)\]/)?.[1] ?? '1');
 
-  const disclosures: Disclosure[] = [];
+  const disclosures: PseDisclosureRow[] = [];
   $('tbody tr').each((_, row) => {
     const tds = $(row).find('td');
     const templateNm  = tds.eq(0).text().trim();

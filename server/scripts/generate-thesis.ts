@@ -61,13 +61,7 @@ export async function buildTickerContext(ticker: string): Promise<TickerContext 
 
   const financialRow = await getFinancialByTicker(upper);
   if (!financialRow) return null;
-  const raw = financialRow.data as {
-    growth: { currency?: string; dataList: { fiscalPeriodYearMonth: string; epsPer: { tenYearAvg: number | null; fiveYearAvg: number | null; threeYearAvg: number | null; yearOverYear: number | null }; revenuePer: { tenYearAvg: number | null; fiveYearAvg: number | null; threeYearAvg: number | null; yearOverYear: number | null }; netIncomePer: { tenYearAvg: number | null; fiveYearAvg: number | null; threeYearAvg: number | null; yearOverYear: number | null } }[] };
-    profitability: { dataList: { fiscalPeriodYear: string; roic: number | null }[] };
-    financialHealth: { dataList: { fiscalPeriodYearMonth: string; debtEquityRatio: number | null; bookValuePerShare: number | null }[] };
-    cashFlow: { dataList: { fiscalPeriodYearMonth: string; freeCashFlowGrowthPer: number | null }[] };
-    'keyMetrics.annual': { incomeStatementList: { dataList: { fiscalPeriodYearMonth: string; basicEPS: number | null; dividentPerShare: number | null }[] } };
-  };
+  const raw = financialRow.data;
 
   const currency = raw.growth?.currency ?? 'PHP';
   const usdToPhpRate = currency === 'USD' ? await getUsdToPhpRate() : null;
