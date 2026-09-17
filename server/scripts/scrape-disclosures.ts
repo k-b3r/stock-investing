@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { getCompanyInfo, BASE, HEADERS } from '../../shared/pse-edge.ts';
+import { getCompanyInfo, BASE, HEADERS, type PseDisclosureRow } from '../../shared/pse-edge.ts';
 import { getPool } from '../src/db.ts';
 import { insertDisclosure } from '../src/repositories/disclosures.ts';
 import { listTickers } from '../src/repositories/financials.ts';
@@ -23,13 +23,7 @@ function isRelevant(template: string): boolean {
   return RELEVANT_TEMPLATES.some((t) => clean === t);
 }
 
-interface Disclosure {
-  disclosureId: string;
-  templateNm: string;
-  date: string;
-  formNum: string;
-  refNum: string;
-}
+type Disclosure = PseDisclosureRow;
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
