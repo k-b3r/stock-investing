@@ -3,7 +3,7 @@ import { upsertInvestmentThesis } from '../src/repositories/investment-theses.ts
 import { spawn } from 'child_process';
 import { THESIS_INSTRUCTIONS } from '../prompts/thesis-instructions.ts';
 import { buildFactCheckPrompt } from '../prompts/fact-check.ts';
-import { buildDataBlock, buildTickerContext, parseThesisOutput, type TickerContext } from './thesis-context.ts';
+import { buildDataBlock, buildTickerContext, parseThesisOutput, sanityCheck } from './thesis-context.ts';
 
 interface ClaudeJsonResult {
   result: string;
@@ -78,15 +78,6 @@ function runClaude(stdinData: string, promptArg: string, model: string, tools: s
       resolve(null);
     });
   });
-}
-
-function sanityCheck(thesis: string, ctx: TickerContext): string | null {
-  if (thesis.length < 500) return `too short (${thesis.length} chars)`;
-  const mentionsTicker = thesis.toLowerCase().includes(ctx.ticker.toLowerCase());
-  const mentionsName = thesis.toLowerCase().includes(ctx.companyName.toLowerCase());
-  if (!mentionsTicker && !mentionsName) return 'does not mention ticker or company name';
-  if (!/\b(buy|watch|pass)\b/i.test(thesis)) return 'no clear buy/watch/pass verdict found';
-  return null;
 }
 
 async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: number; reason?: string }> {
