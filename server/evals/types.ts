@@ -46,7 +46,7 @@ export interface GradeResult {
 }
 
 export interface FormatGradeResult extends GradeResult {
-  // Parses into what the app stores (verdict + 3 highlights); style checks may still fail
+  // Verdict + 3 highlights parse, so the app can show them; style checks may still fail
   usable: boolean;
 }
 

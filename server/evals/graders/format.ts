@@ -15,11 +15,11 @@ function companyNames({ ticker, companyName }: ThesisCase['context']): string[] 
   return names.map((n) => n.toLowerCase());
 }
 
-// Checks that break storage in generate-thesis.ts; the rest are style rules from THESIS_INSTRUCTIONS.
+// Without these generate-thesis.ts stores the thesis minus its verdict/highlights; the rest are style rules.
 const USABLE_CHECKS = ['verdictParsed', 'threeHighlights'] as const;
 
 // Checks the output follows THESIS_INSTRUCTIONS' shape, using the same parser generate-thesis.ts stores with.
-// `pass` = all checks (format-perfect); `usable` = only the checks the app needs to store the thesis.
+// `pass` = all checks (format-perfect); `usable` = verdict and highlights parse, so the app shows them.
 export function gradeFormat(output: string, testCase: ThesisCase): FormatGradeResult {
   const { thesis, verdict, highlights } = parseThesisOutput(output);
   const lines = thesis.split('\n').map((l) => l.trim()).filter(Boolean);
