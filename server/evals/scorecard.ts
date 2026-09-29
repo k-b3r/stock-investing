@@ -16,6 +16,13 @@ async function loadResults(suite: Suite): Promise<RunResult[]> {
   return results;
 }
 
+// Result files saved before `usable` existed: derive it from the stored checks
+const isUsable = (r: RunResult) => {
+  const format = r.grades.format;
+  if (!format) return false;
+  return format.usable ?? (format.checks.verdictParsed && format.checks.threeHighlights);
+};
+
 const pct = (n: number, d: number) => (d === 0 ? 'N/A' : `${Math.round((n / d) * 100)}%`);
 const median = (xs: number[]) => {
   if (xs.length === 0) return null;
@@ -42,8 +49,8 @@ export async function printScorecard(suite: Suite): Promise<void> {
       model,
       runs: String(runs.length),
       errors: String(runs.length - ok.length),
-      'format pass': pct(ok.filter((r) => r.grades.format?.pass).length, runs.length),
-      'verdict parsed': pct(ok.filter((r) => r.grades.format?.checks.verdictParsed).length, runs.length),
+      usable: pct(ok.filter(isUsable).length, runs.length),
+      'format-perfect': pct(ok.filter((r) => r.grades.format?.pass).length, runs.length),
       'total $': costs.length ? costs.reduce((a, b) => a + b, 0).toFixed(4) : 'N/A',
       'p50 latency s': latency === null ? 'N/A' : (latency / 1000).toFixed(1),
       'p50 out tok': outTokens === null ? 'N/A' : String(outTokens),

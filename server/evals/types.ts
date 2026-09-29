@@ -40,6 +40,11 @@ export interface GradeResult {
   notes: string[];
 }
 
+export interface FormatGradeResult extends GradeResult {
+  // Parses into what the app stores (verdict + 3 highlights); style checks may still fail
+  usable: boolean;
+}
+
 export interface RunResult {
   suite: Suite;
   caseId: string;
@@ -47,5 +52,5 @@ export interface RunResult {
   runIndex: number;
   startedAt: string;
   completion: Completion;
-  grades: Record<string, GradeResult>;
+  grades: { format?: FormatGradeResult } & Record<string, GradeResult>;
 }

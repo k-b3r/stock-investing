@@ -81,4 +81,22 @@ describe('gradeFormat', () => {
     expect(failed.length).toBeGreaterThan(0);
     expect(result.notes).toHaveLength(failed.length);
   });
+
+  it('marks a well-formed thesis usable and format-perfect', () => {
+    const result = gradeFormat(good, testCase);
+    expect(result.usable).toBe(true);
+    expect(result.pass).toBe(true);
+  });
+
+  it('keeps a style-only failure usable', () => {
+    const result = gradeFormat(`${good}\n---`, testCase);
+    expect(result.pass).toBe(false);
+    expect(result.usable).toBe(true);
+  });
+
+  it('marks output unusable when the verdict is missing or highlights are wrong', () => {
+    expect(gradeFormat(good.replace('\nwatch\n', '\nhold\n'), testCase).usable).toBe(false);
+    expect(gradeFormat(good.replace('\n\n- Sponsor pipeline supports growth', ''), testCase).usable).toBe(false);
+  });
 });
+

@@ -16,4 +16,4 @@ pnpm test                           # grader unit tests
 - `models.ts` — model list and Go per-token prices (cost = tokens × price).
 - `adapters/` — `go.ts` calls the Go chat-completions API (`OPENCODE_API_KEY`, `x-opencode-session` header); `claude-cli.ts` runs `claude -p` isolated from Claude Code's own context (no tools, settings, MCP, skills or CLAUDE.md), billed to the CLI subscription.
 - `prompts.ts` — production thesis prompt with the web-research sentence swapped for "use only the provided data", since eval models get no tools.
-- `graders/` — `format.ts` checks the thesis shape using the same parser `generate-thesis.ts` stores with.
+- `graders/` — `format.ts` checks the thesis shape using the same parser `generate-thesis.ts` stores with. `usable` = verdict + 3 highlights parse (what the app needs to store it); `pass` = all checks incl. style (format-perfect).
