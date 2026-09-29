@@ -16,7 +16,11 @@
     "refresh-cookies": "tsx --env-file=../.env scripts/morningstar/refresh-cookies.ts",
     "login-morningstar": "tsx --env-file=../.env scripts/morningstar/login-morningstar.ts",
     "scrape-all-pse": "tsx --env-file=../.env scripts/morningstar/scrape-all-pse.ts",
-    "refresh-missing-2025": "tsx --env-file=../.env scripts/morningstar/refresh-missing-2025.ts"
+    "refresh-missing-2025": "tsx --env-file=../.env scripts/morningstar/refresh-missing-2025.ts",
+    "test": "vitest run",
+    "eval": "tsx --env-file=../.env evals/run.ts",
+    "eval:freeze": "tsx --env-file=../.env evals/freeze-case.ts",
+    "eval:score": "tsx evals/scorecard.ts"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
@@ -29,6 +33,7 @@
     "@types/pg": "^8.20.0",
     "playwright": "^1.58.2",
     "tsx": "^4.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.11"
   }
 }
