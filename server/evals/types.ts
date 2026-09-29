@@ -12,10 +12,15 @@ export interface ThesisCase {
 
 export type Provider = 'go' | 'claude-cli';
 
+// Go API format per model, from https://opencode.ai/docs/go/
+export type GoEndpoint = 'chat' | 'responses';
+
 export interface ModelSpec {
   id: string;
   provider: Provider;
   model: string;
+  // Go only; defaults to 'chat'
+  endpoint?: GoEndpoint;
   // USD per million tokens; null when billed by subscription (Claude CLI reports its own estimate)
   price: { input: number; output: number } | null;
 }
