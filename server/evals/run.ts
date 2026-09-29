@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile } from 'fs/promises';
+import { mkdir, writeFile } from 'fs/promises';
 import path from 'path';
 import { parseArgs } from 'util';
 import { EVAL_THESIS_INSTRUCTIONS } from './prompts.ts';
@@ -7,6 +7,7 @@ import { gradeFormat } from './graders/format.ts';
 import { findModel } from './models.ts';
 import { casesDir, resultFile } from './paths.ts';
 import { printScorecard } from './scorecard.ts';
+import { readJsonFiles } from './utils.ts';
 import type { GradeResult, RunResult, ThesisCase } from './types.ts';
 
 const DEFAULT_MODELS = 'mimo-v2.6-flash,sonnet';
@@ -26,13 +27,8 @@ if (!Number.isInteger(runs) || runs < 1) {
   process.exit(1);
 }
 
-const caseFiles = (await readdir(casesDir('thesis')).catch(() => [] as string[])).filter((f) => f.endsWith('.json'));
 const wanted = values.cases?.split(',').map((c) => c.trim().toLowerCase());
-const cases: ThesisCase[] = [];
-for (const file of caseFiles) {
-  const testCase = JSON.parse(await readFile(path.join(casesDir('thesis'), file), 'utf8')) as ThesisCase;
-  if (!wanted || wanted.includes(testCase.id)) cases.push(testCase);
-}
+const cases = (await readJsonFiles<ThesisCase>(casesDir('thesis'))).filter((c) => !wanted || wanted.includes(c.id));
 if (cases.length === 0) {
   console.error('No thesis cases found. Freeze one first: pnpm eval:freeze TICKER');
   process.exit(1);
