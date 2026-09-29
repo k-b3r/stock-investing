@@ -50,6 +50,14 @@ export interface PseDisclosureRow {
   disclosureId: string | null;
 }
 
+export interface PseDisclosureRow {
+  templateNm: string;
+  date: string;
+  formNum: string;
+  refNum: string;
+  disclosureId: string | null;
+}
+
 export interface PseStockData {
   lastPrice: number | null;
   high52w: number | null;
