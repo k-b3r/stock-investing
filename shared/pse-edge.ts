@@ -29,10 +29,17 @@ export interface PseCompanyInfo {
   cmpyNm: string;
 }
 
+// Autocomplete is fuzzy: "AC" returns ACEN first, "LFM" returns LPC first.
+// Only an exact symbol match is safe to treat as the ticker's company.
+export function findBySymbol(results: PseCompanySearchResult[], ticker: string): PseCompanySearchResult | null {
+  const upper = ticker.toUpperCase();
+  return results.find((r) => r.symbol?.toUpperCase() === upper) ?? null;
+}
+
 export async function getCompanyInfo(ticker: string, init?: RequestInit): Promise<PseCompanyInfo | null> {
   const results = await searchCompanies(ticker, init);
-  const first = results[0];
-  return first ? { cmpyId: first.cmpyId, cmpyNm: first.cmpyNm } : null;
+  const match = findBySymbol(results, ticker);
+  return match ? { cmpyId: match.cmpyId, cmpyNm: match.cmpyNm } : null;
 }
 
 export interface PseDisclosureRow {

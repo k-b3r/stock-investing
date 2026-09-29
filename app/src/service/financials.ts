@@ -5,6 +5,7 @@ import type {
   GrowthMetric,
   YearDataPoint,
 } from '@/lib/types/financials';
+import { dropEpsOutliers } from '../../../shared/valuation';
 import type {
   GrowthDataRow,
   ProfitabilityRow,
@@ -112,7 +113,8 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
     value,
     year: parseInt(ym.slice(0, 4), 10),
   });
-  const epsGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.basicEPS, r.fiscalPeriodYearMonth)));
+  const epsValues = dropEpsOutliers(annualIncome.map((r) => r.basicEPS));
+  const epsGrowth = computeGrowthMetricFromValues(annualIncome.map((r, i) => toEntry(epsValues[i], r.fiscalPeriodYearMonth)));
   const revenueGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.revenue, r.fiscalPeriodYearMonth)));
   const netIncomeGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.netIncome, r.fiscalPeriodYearMonth)));
   const dpsGrowth = computeGrowthMetricFromValues(annualIncome.map((r) => toEntry(r.dividentPerShare, r.fiscalPeriodYearMonth)));
@@ -148,7 +150,7 @@ export function transformFinancials(raw: RawFinancials): TransformedFinancials {
     },
     tabs: {
       growth: {
-        eps: annualIncome.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.basicEPS)),
+        eps: annualIncome.map((r, i) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), epsValues[i])),
         revenue: annualIncome.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.revenue)),
         netIncome: annualIncome.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.netIncome)),
         epsGrowthPct: annualGrowth.map((r) => toYDP(yearFromYM(r.fiscalPeriodYearMonth), r.epsPer.yearOverYear)),
