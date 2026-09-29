@@ -53,6 +53,11 @@ describe('gradeFormat', () => {
     expect(result.checks.nothingAfterBlock).toBe(false);
   });
 
+  it('fails when a marker is repeated after the highlights', () => {
+    const result = gradeFormat(`${good}\n---HIGHLIGHTS---`, testCase);
+    expect(result.checks.nothingAfterBlock).toBe(false);
+  });
+
   it('fails when the company is never named', () => {
     const result = gradeFormat(good.replaceAll('AREIT', 'the REIT'), testCase);
     expect(result.checks.namesCompany).toBe(false);

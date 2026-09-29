@@ -21,8 +21,9 @@ export function gradeFormat(output: string, testCase: ThesisCase): GradeResult {
   const lines = thesis.split('\n').map((l) => l.trim()).filter(Boolean);
   const paragraphs = thesis.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
 
-  const blockPart = output.split('---VERDICT---')[1] ?? '';
-  const highlightsSection = blockPart.split('---HIGHLIGHTS---')[1] ?? '';
+  // Everything after the first marker, so a repeated marker counts as trailing text
+  const after = (text: string, marker: string) => (text.includes(marker) ? text.slice(text.indexOf(marker) + marker.length) : '');
+  const highlightsSection = after(after(output, '---VERDICT---'), '---HIGHLIGHTS---');
   const trailing = highlightsSection.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('- '));
 
   const header = lines.find((l) => l.startsWith('#'));
