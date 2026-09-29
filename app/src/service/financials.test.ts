@@ -302,3 +302,27 @@ describe('DPS / dividends', () => {
     expect(f.summary.dpsGrowth).toEqual({ tenYearAvg: null, fiveYearAvg: null, threeYearAvg: null, yearOverYear: null });
   });
 });
+
+describe('transformFinancials (EPS unit glitch, JFC 2025)', () => {
+  const jfcEps: [string, number][] = [
+    ['2019-12', 5.887], ['2020-12', -10.445], ['2021-12', 5.302], ['2022-12', 6.4],
+    ['2023-12', 7.455], ['2024-12', 8.851], ['2025-12', 9386],
+  ];
+  const raw = structuredClone(bdoRaw);
+  raw.data['keyMetrics.annual']!.incomeStatementList!.dataList = jfcEps.map(([ym, eps]) => ({
+    fiscalPeriodYearMonth: ym, basicEPS: eps, revenue: null, netIncome: null, revenueGrowthPer: null, dividentPerShare: null,
+  }));
+
+  it('nulls the glitched EPS so latest valid EPS is the prior year', () => {
+    const { tabs } = transformFinancials(raw);
+    expect(tabs.growth.eps.at(-1)).toEqual({ year: '2025', value: null });
+    expect(tabs.growth.eps.findLast((d) => d.value !== null)?.value).toBe(8.851);
+  });
+
+  it('EPS growth excludes the glitched value', () => {
+    const { summary } = transformFinancials(raw);
+    // 5.302 (2021) → 8.851 (2024) over 3 years ≈ 18.6%
+    expect(r(summary.epsGrowth.threeYearAvg)).toBe(18.6);
+    expect(summary.epsGrowth.tenYearAvg!).toBeLessThan(15);
+  });
+});

@@ -1,4 +1,4 @@
-import { computeFuturePeCap, computeStickerPrice } from '../../shared/valuation.ts';
+import { computeFuturePeCap, computeStickerPrice, dropEpsOutliers } from '../../shared/valuation.ts';
 import { getCompanyInfo, getStockDataByCmpyId } from '../../shared/pse-edge.ts';
 import { getNewsArticles } from '../../shared/google-news.ts';
 import { getUsdToPhpRate } from '../../shared/fx.ts';
@@ -65,7 +65,15 @@ export async function buildTickerContext(ticker: string): Promise<TickerContext 
   const pick = (m?: { tenYearAvg: number | null; fiveYearAvg: number | null; threeYearAvg: number | null; yearOverYear: number | null }) =>
     m?.tenYearAvg ?? m?.fiveYearAvg ?? m?.threeYearAvg ?? m?.yearOverYear ?? null;
 
-  const epsGrowth = pick(latestGrowth?.epsPer);
+  // Morningstar's EPS growth is derived from its own EPS series, so a unit-glitched EPS year
+  // (JFC 2025: 9386) poisons that year's growth too. Use the year of the latest valid EPS.
+  const annualIncome = (raw['keyMetrics.annual']?.incomeStatementList?.dataList ?? []).filter((r) => isAnnualYM(r.fiscalPeriodYearMonth));
+  const epsValues = dropEpsOutliers(annualIncome.map((r) => r.basicEPS));
+  const latestEpsIdx = epsValues.findLastIndex((v) => v !== null);
+  const latestEpsRaw = latestEpsIdx === -1 ? null : epsValues[latestEpsIdx];
+  const latestEpsYM = latestEpsIdx === -1 ? null : annualIncome[latestEpsIdx].fiscalPeriodYearMonth;
+  const epsGrowthRow = annualGrowth.find((r) => r.fiscalPeriodYearMonth === latestEpsYM) ?? latestGrowth;
+  const epsGrowth = pick(epsGrowthRow?.epsPer);
   const revenueGrowth = pick(latestGrowth?.revenuePer);
   const netIncomeGrowth = pick(latestGrowth?.netIncomePer);
 
@@ -88,8 +96,6 @@ export async function buildTickerContext(ticker: string): Promise<TickerContext 
   const fcfVals = annualCF.slice(-10).map((r) => r.freeCashFlowGrowthPer).filter((v): v is number => v !== null);
   const fcfGrowth = fcfVals.length > 0 ? fcfVals.reduce((a, b) => a + b, 0) / fcfVals.length : null;
 
-  const annualIncome = (raw['keyMetrics.annual']?.incomeStatementList?.dataList ?? []).filter((r) => isAnnualYM(r.fiscalPeriodYearMonth));
-  const latestEpsRaw = [...annualIncome].reverse().find((r) => r.basicEPS !== null)?.basicEPS ?? null;
   const latestDpsRaw = [...annualIncome].reverse().find((r) => r.dividentPerShare !== null)?.dividentPerShare ?? null;
 
   const latestEps = toPhp(latestEpsRaw, currency, usdToPhpRate);
