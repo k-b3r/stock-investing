@@ -57,4 +57,23 @@ describe('gradeFormat', () => {
     const result = gradeFormat(good.replaceAll('AREIT', 'the REIT'), testCase);
     expect(result.checks.namesCompany).toBe(false);
   });
+
+  it('accepts a short company name without the ticker or full legal name', () => {
+    const jfc = { context: { ticker: 'JFC', companyName: 'Jollibee Foods Corporation' } } as ThesisCase;
+    const result = gradeFormat(good.replaceAll('AREIT', 'Jollibee'), jfc);
+    expect(result.checks.namesCompany).toBe(true);
+  });
+
+  it('accepts a multi-word name when the first word is generic', () => {
+    const smc = { context: { ticker: 'SMC', companyName: 'San Miguel Corporation' } } as ThesisCase;
+    expect(gradeFormat(good.replaceAll('AREIT', 'San Miguel'), smc).checks.namesCompany).toBe(true);
+    expect(gradeFormat(good.replaceAll('AREIT', 'San'), smc).checks.namesCompany).toBe(false);
+  });
+
+  it('writes a note for every failed check', () => {
+    const result = gradeFormat('## Moat\n\n- point one\n\nshort', testCase);
+    const failed = Object.entries(result.checks).filter(([, ok]) => !ok);
+    expect(failed.length).toBeGreaterThan(0);
+    expect(result.notes).toHaveLength(failed.length);
+  });
 });
