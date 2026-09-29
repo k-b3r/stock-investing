@@ -20,7 +20,11 @@ const { values } = parseArgs({
 });
 
 const models = values.models.split(',').map((m) => findModel(m.trim()));
-const runs = parseInt(values.runs, 10);
+const runs = Number(values.runs);
+if (!Number.isInteger(runs) || runs < 1) {
+  console.error(`--runs must be a positive integer, got "${values.runs}"`);
+  process.exit(1);
+}
 
 const caseFiles = (await readdir(casesDir('thesis')).catch(() => [] as string[])).filter((f) => f.endsWith('.json'));
 const wanted = values.cases?.split(',').map((c) => c.trim().toLowerCase());
