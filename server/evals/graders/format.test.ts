@@ -99,4 +99,3 @@ describe('gradeFormat', () => {
     expect(gradeFormat(good.replace('\n\n- Sponsor pipeline supports growth', ''), testCase).usable).toBe(false);
   });
 });
-
