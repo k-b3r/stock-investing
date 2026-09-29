@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { computeStickerPrice, computeFuturePeCap } from './valuation';
+import { dropEpsOutliers } from '../../../shared/valuation';
 
 describe('computeStickerPrice', () => {
   it('returns null when eps is null', () => {
@@ -110,5 +111,25 @@ describe('computeFuturePeCap', () => {
   it('returns 20 when the computed cap would be zero or negative', () => {
     expect(computeFuturePeCap(-10, 5)).toBe(20);
     expect(computeFuturePeCap(0, 5)).toBe(20);
+  });
+});
+
+describe('dropEpsOutliers', () => {
+  it('nulls a 1000x unit-glitch value (JFC 2025: 9386 vs ~9.386)', () => {
+    const jfc = [5.747, 6.58, 7.663, 5.887, -10.445, 5.302, 6.4, 7.455, 8.851, 9386];
+    expect(dropEpsOutliers(jfc)).toEqual([...jfc.slice(0, -1), null]);
+  });
+
+  it('keeps a large but plausible jump (LFM 2025: 8.74 vs ~0.8)', () => {
+    const lfm = [0.87, 0.68, 0.68, 0.57, 1.28, 0.92, -0.75, -0.05, 0.87, 8.74];
+    expect(dropEpsOutliers(lfm)).toEqual(lfm);
+  });
+
+  it('keeps values when too few peers to judge', () => {
+    expect(dropEpsOutliers([null, 0.01, 50])).toEqual([null, 0.01, 50]);
+  });
+
+  it('preserves nulls', () => {
+    expect(dropEpsOutliers([null, 1, 2, 3, null])).toEqual([null, 1, 2, 3, null]);
   });
 });
