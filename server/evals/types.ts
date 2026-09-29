@@ -71,6 +71,24 @@ export interface FormatGradeResult extends GradeResult {
   usable: boolean;
 }
 
+export interface NumbersGradeResult extends GradeResult {
+  figures: number;
+  // Labeled figure that contradicts its field ("P/E of 20x" when P/E is 13.4)
+  wrong: number;
+  // Figure matching nothing in the frozen data, or quoting a field that is null
+  invented: number;
+}
+
+// Per-run grader keys. Graders that don't apply to a case are omitted.
+export interface RunGrades {
+  format?: FormatGradeResult;
+  numbers?: NumbersGradeResult;
+  verdict?: GradeResult;
+  naHandling?: GradeResult;
+  trap?: GradeResult;
+  sanity?: GradeResult;
+}
+
 export interface RunResult {
   suite: Suite;
   caseId: string;
@@ -78,5 +96,5 @@ export interface RunResult {
   runIndex: number;
   startedAt: string;
   completion: Completion;
-  grades: { format?: FormatGradeResult } & Record<string, GradeResult>;
+  grades: RunGrades;
 }

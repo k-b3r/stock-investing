@@ -21,4 +21,10 @@ pnpm test                           # grader unit tests
 - `models.ts` — model list and Go per-token prices (cost = tokens × price).
 - `adapters/` — `go.ts` calls the Go chat-completions API (`OPENCODE_API_KEY`, `x-opencode-session` header); `claude-cli.ts` runs `claude -p` isolated from Claude Code's own context (no tools, settings, MCP, skills or CLAUDE.md), billed to the CLI subscription.
 - `prompts.ts` — production thesis prompt with the web-research sentence swapped for "use only the provided data", since eval models get no tools.
-- `graders/` — `format.ts` checks the thesis shape using the same parser `generate-thesis.ts` stores with. `usable` = verdict + 3 highlights parse (without them the app stores the thesis but shows no verdict or highlights); `pass` = all checks incl. style (format-perfect).
+- `graders/` — one scorecard column each. `pnpm eval:score` regrades saved outputs with the current graders.
+  - `format.ts`: thesis shape, using the same parser `generate-thesis.ts` stores with. `usable` = verdict + 3 highlights parse (without them the app stores the thesis but shows no verdict or highlights); `format-perfect` = all checks incl. style.
+  - `numbers.ts`: every figure (₱, %, x, or decimal) matches the frozen data within the fact-check prompt's tolerance (~2pp / 2% relative, plus rounding to the stated precision). A figure right after a field label ("P/E of 13.4x") must match that field; others must match any number in the data block or a derived price gap. Model-proposed entry prices ("toward ₱28") are skipped. `bad figs` = wrong + invented.
+  - `verdict.ts`: `verdict` = verdict in `expect.allowedVerdicts`. `consistent` = same verdict on every run of a case (needs `--runs 2+`). `pair-shift` = for a case with `expect.pair`, the modal verdict moves toward buy when the price is lower than the paired case, toward pass when higher (unchanged fails).
+  - `na-handling.ts` (`n/a`): no value stated for any `expect.missingFields` field. Only cases with missing fields.
+  - `trap.ts`: for a case with `expect.trap`, some sentence names any of `trap.fields` (or its value) and doubts it. Only trap cases.
+  - `sanity.ts` (`prod-sanity`): `sanityCheck` from `thesis-context.ts`, the last gate before `generate-thesis.ts` stores a thesis.
