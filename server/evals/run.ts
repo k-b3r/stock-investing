@@ -8,7 +8,7 @@ import { findModel } from './models.ts';
 import { casesDir, resultFile } from './paths.ts';
 import { printScorecard } from './scorecard.ts';
 import { readJsonFiles } from './utils.ts';
-import type { GradeResult, RunResult, ThesisCase } from './types.ts';
+import type { RunResult, ThesisCase } from './types.ts';
 
 const DEFAULT_MODELS = 'mimo-v2.6-flash,sonnet';
 
@@ -43,7 +43,7 @@ for (const spec of models) {
       const startedAt = new Date().toISOString();
       const completion = await complete(spec, { system: EVAL_THESIS_INSTRUCTIONS, user: testCase.dataBlock });
       const format = completion.error ? null : gradeFormat(completion.text, testCase);
-      const grades: Record<string, GradeResult> = format ? { format } : {};
+      const grades: RunResult['grades'] = format ? { format } : {};
 
       const result: RunResult = { suite: 'thesis', caseId: testCase.id, model: spec.id, runIndex, startedAt, completion, grades };
       const file = resultFile('thesis', spec.id, testCase.id, runIndex);
@@ -52,7 +52,10 @@ for (const spec of models) {
 
       const cost = completion.costUsd === null ? 'N/A' : `$${completion.costUsd.toFixed(4)}`;
       if (!format) console.log(`→ ERROR ${completion.error}`);
-      else console.log(`→ format ${format.pass ? 'pass' : `FAIL (${format.notes.join('; ')})`}, ${(completion.latencyMs / 1000).toFixed(1)}s, ${cost}`);
+      else {
+        const verdict = format.pass ? 'perfect' : format.usable ? `usable, style issues (${format.notes.join('; ')})` : `UNUSABLE (${format.notes.join('; ')})`;
+        console.log(`→ format ${verdict}, ${(completion.latencyMs / 1000).toFixed(1)}s, ${cost}`);
+      }
     }
   }
 }

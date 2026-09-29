@@ -1,5 +1,5 @@
 import { parseThesisOutput } from '../../scripts/thesis-context.ts';
-import type { GradeResult, ThesisCase } from '../types.ts';
+import type { FormatGradeResult, ThesisCase } from '../types.ts';
 
 const LEGAL_SUFFIX = /[,.]?\s+(inc|incorporated|corporation|corp|company|co|holdings)\.?$/i;
 // First words too generic to identify a company on their own ("San" Miguel, "Bank" of the Philippine Islands)
@@ -15,8 +15,12 @@ function companyNames({ ticker, companyName }: ThesisCase['context']): string[] 
   return names.map((n) => n.toLowerCase());
 }
 
+// Without these generate-thesis.ts stores the thesis minus its verdict/highlights; the rest are style rules.
+const USABLE_CHECKS = ['verdictParsed', 'threeHighlights'] as const;
+
 // Checks the output follows THESIS_INSTRUCTIONS' shape, using the same parser generate-thesis.ts stores with.
-export function gradeFormat(output: string, testCase: ThesisCase): GradeResult {
+// `pass` = all checks (format-perfect); `usable` = verdict and highlights parse, so the app shows them.
+export function gradeFormat(output: string, testCase: ThesisCase): FormatGradeResult {
   const { thesis, verdict, highlights } = parseThesisOutput(output);
   const lines = thesis.split('\n').map((l) => l.trim()).filter(Boolean);
   const paragraphs = thesis.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
@@ -45,5 +49,5 @@ export function gradeFormat(output: string, testCase: ThesisCase): GradeResult {
 
   const checks = Object.fromEntries(Object.entries(results).map(([k, [ok]]) => [k, ok]));
   const notes = Object.values(results).filter(([ok]) => !ok).map(([, note]) => note);
-  return { pass: notes.length === 0, checks, notes };
+  return { pass: notes.length === 0, usable: USABLE_CHECKS.every((k) => checks[k]), checks, notes };
 }
