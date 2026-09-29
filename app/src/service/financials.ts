@@ -6,6 +6,7 @@ import type {
   YearDataPoint,
 } from '@/lib/types/financials';
 import { dropEpsOutliers } from '../../../shared/valuation';
+import { isAnnualYM, isAnnualYear } from '../../../shared/fiscal-period';
 import type {
   GrowthDataRow,
   ProfitabilityRow,
@@ -14,14 +15,6 @@ import type {
 } from '../../../shared/types/financials';
 
 // --- helpers ---
-
-function isAnnualYM(s: string): boolean {
-  return /^\d{4}-\d{2}$/.test(s);
-}
-
-function isAnnualYear(s: string): boolean {
-  return /^\d{4}$/.test(s);
-}
 
 function avgNonNull(values: (number | null)[]): number | null {
   const nums = values.filter((v): v is number => v !== null);

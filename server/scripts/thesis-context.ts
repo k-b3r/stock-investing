@@ -2,6 +2,8 @@ import { computeFuturePeCap, computeStickerPrice, dropEpsOutliers } from '../../
 import { getCompanyInfo, getStockDataByCmpyId } from '../../shared/pse-edge.ts';
 import { getNewsArticles } from '../../shared/google-news.ts';
 import { getUsdToPhpRate } from '../../shared/fx.ts';
+import { toPhp } from '../../shared/currency.ts';
+import { isAnnualYM, isAnnualYear } from '../../shared/fiscal-period.ts';
 import { getFinancialByTicker } from '../src/repositories/financials.ts';
 import { getCompanyProfile } from '../src/repositories/company-profiles.ts';
 import { listRecentDisclosureTemplates } from '../src/repositories/disclosures.ts';
@@ -28,21 +30,6 @@ export interface TickerContext {
   mosPrice: number | null;
   disclosures: { date: string; template: string }[];
   news: { title: string; source: string }[];
-}
-
-function isAnnualYM(s: string): boolean {
-  return /^\d{4}-\d{2}$/.test(s);
-}
-
-function isAnnualYear(s: string): boolean {
-  return /^\d{4}$/.test(s);
-}
-
-function toPhp(value: number | null, currency: string, usdToPhpRate: number | null): number | null {
-  if (value === null) return null;
-  if (currency === 'PHP') return value;
-  if (currency === 'USD') return usdToPhpRate === null ? null : value * usdToPhpRate;
-  return null;
 }
 
 async function getNews(companyName: string): Promise<{ title: string; source: string }[]> {

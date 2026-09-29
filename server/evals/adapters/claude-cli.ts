@@ -1,6 +1,7 @@
 import { spawn } from 'child_process';
 import { tmpdir } from 'os';
 import type { Completion, CompletionRequest, ModelSpec } from '../types.ts';
+import { failedCompletion } from '../utils.ts';
 
 interface ClaudeJsonOutput {
   result?: string;
@@ -36,7 +37,7 @@ export function completeClaudeCli(spec: ModelSpec, req: CompletionRequest): Prom
     proc.stdout.on('data', (chunk: Buffer) => (stdout += chunk.toString()));
     proc.stderr.on('data', (chunk: Buffer) => (stderr += chunk.toString()));
 
-    const fail = (error: string): Completion => ({ text: '', inputTokens: null, outputTokens: null, costUsd: null, latencyMs: Date.now() - started, error });
+    const fail = (error: string) => failedCompletion(error, Date.now() - started);
 
     proc.on('error', (err) => resolve(fail(`claude invocation error: ${err.message}`)));
     proc.on('close', (code) => {

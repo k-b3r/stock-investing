@@ -1,19 +1,16 @@
-import { readdir, readFile } from 'fs/promises';
+import { readdir } from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { median } from '../../shared/stats.ts';
 import { resultsDir } from './paths.ts';
+import { readJsonFiles } from './utils.ts';
 import type { RunResult, Suite } from './types.ts';
 
 async function loadResults(suite: Suite): Promise<RunResult[]> {
   const root = resultsDir(suite);
   const models = await readdir(root).catch(() => [] as string[]);
-  const results: RunResult[] = [];
-  for (const model of models) {
-    for (const file of await readdir(path.join(root, model))) {
-      if (file.endsWith('.json')) results.push(JSON.parse(await readFile(path.join(root, model, file), 'utf8')) as RunResult);
-    }
-  }
-  return results;
+  const perModel = await Promise.all(models.map((model) => readJsonFiles<RunResult>(path.join(root, model))));
+  return perModel.flat();
 }
 
 // Result files saved before `usable` existed: derive it from the stored checks
@@ -24,11 +21,7 @@ const isUsable = (r: RunResult) => {
 };
 
 const pct = (n: number, d: number) => (d === 0 ? 'N/A' : `${Math.round((n / d) * 100)}%`);
-const median = (xs: number[]) => {
-  if (xs.length === 0) return null;
-  const s = [...xs].sort((a, b) => a - b);
-  return s[Math.floor(s.length / 2)];
-};
+const p50 = (xs: number[]) => (xs.length === 0 ? null : median(xs));
 
 export async function printScorecard(suite: Suite): Promise<void> {
   const results = await loadResults(suite);
@@ -43,8 +36,8 @@ export async function printScorecard(suite: Suite): Promise<void> {
   const rows = [...byModel.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([model, runs]) => {
     const ok = runs.filter((r) => !r.completion.error);
     const costs = runs.map((r) => r.completion.costUsd).filter((c): c is number => c !== null);
-    const latency = median(ok.map((r) => r.completion.latencyMs));
-    const outTokens = median(ok.map((r) => r.completion.outputTokens).filter((t): t is number => t !== null));
+    const latency = p50(ok.map((r) => r.completion.latencyMs));
+    const outTokens = p50(ok.map((r) => r.completion.outputTokens).filter((t): t is number => t !== null));
     return {
       model,
       runs: String(runs.length),
