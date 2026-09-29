@@ -1,3 +1,5 @@
+import { median } from './stats';
+
 export interface StickerPriceResult {
   stickerPrice: number;
   mosPrice: number;
@@ -12,12 +14,6 @@ const DEFAULT_FUTURE_PE_CAP = 20;
 // Null out any value more than EPS_OUTLIER_FACTOR x the median magnitude of the other years.
 const EPS_OUTLIER_FACTOR = 100;
 const EPS_OUTLIER_MIN_PEERS = 3;
-
-function median(values: number[]): number {
-  const sorted = [...values].sort((a, b) => a - b);
-  const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
-}
 
 export function dropEpsOutliers(values: (number | null)[]): (number | null)[] {
   return values.map((v, i) => {

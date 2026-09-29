@@ -141,3 +141,6 @@ vite.config.ts.timestamp-*
 # Local secrets / scrape session state
 server/data/ms-auth.json
 data/postgres/
+
+# model eval run outputs
+server/evals/results/
