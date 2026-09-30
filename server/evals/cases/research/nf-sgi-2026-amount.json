@@ -1,0 +1,104 @@
+{
+  "id": "nf-sgi-2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:44.509Z",
+  "ticker": "SGI",
+  "company": "Solid Group Inc.",
+  "category": "dividends",
+  "asOf": "2026-07-10",
+  "question": "How much per share is the cash dividend Solid Group declared on June 25, 2026?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "REDC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f3e145003cbdb2f564d70b69f0a3140b",
+      "publishedAt": "2026-06-22",
+      "sourceType": "primary",
+      "text": "Incorporation of Tagoloan Hydropower Corp. and Subscription of Repower Energy Development Corporation ('REDC') to shares of the same.\n\nTagoloan Hydropower Corp. shall have an Authorized Capital Stock of Fifty Million Pesos (Php50,000,000.00).REDC will subscribe to Twelve Million Five Hundred Thousand (12,500,000) shares with a par value of One Peso (Php1.00) per share or a total of Twelve Million Five Hundred Thousand Pesos (Php12,500,000.00).Tagoloan Hydropower Corp. shall be a wholly-owned subsidiary of REDC and will be engaged in the operations of hydropower projects, in furtherance of the existing business of REDC.\n\nThis subscription shall be conditioned on the approval of the Securities and Exchange Commission of the Application for Incorporation of Tagoloan Hydropower Corp.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "News Releases - PBBM leads opening of key logistic center in Laguna",
+      "source": "pco.gov.ph",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPemtMMUl0YzZFem0yZFgxZXVYdm1OVkpacHRfb0U3WktWUzVRb29Zb25iRXBPUzlCYm5SRGJWb2I0NnlJSTJSbjBTYXNxaEdJZnBjaDZEelFWNkdjcmhHTi00QVVjcnpzZHNlNERoVml0X2JwbHdEcDRGWnEycEFzWG9VWnJYUzVOTkV3bGdR?oc=5",
+      "publishedAt": "2024-10-30",
+      "sourceType": "news",
+      "text": "News Releases - PBBM leads opening of key logistic center in Laguna",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "SGI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b721d4c8f70f25eeec6e1601ccee8f59",
+      "publishedAt": "2025-06-26",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends\n\nWe advise that during the organizational meeting of Solid Group Inc. held on June 26, 2025, the Board of Directors approved the declaration of cash dividend.\n\nRetained earnings as of December 31, 2024",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "TEL: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=50345e440cee581264d70b69f0a3140b",
+      "publishedAt": "2026-03-02",
+      "sourceType": "primary",
+      "text": "PLDT Files 2025 Annual Report with Sustainability Report on Form 17-A with the Philippine Securities and Exchange Commission\n\nMANILA, Philippines, 27th February 2026 – PLDT Inc. (“PLDT”) (PSE: TEL) (NYSE: PHI) announced today that it has filed its Annual Report with Sustainability Report on Form 17-A for the fiscal year ended 31st December 2025 with the Philippine Securities and Exchange Commission. The document has been posted at the PLDT website at: https://main.pldt.com/investor-relations/annual-and-sustainability-reports#phil-sec-filing",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "SGI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=98ddb510a5cc357564d70b69f0a3140b",
+      "publishedAt": "2026-06-25",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends\n\nWe advise that during the organizational meeting of Solid Group Inc. held on June 25, 2026, the Board of Directors approved the declaration of cash dividend.\n\nUnrestricted Retained earnings as of December 31, 2025",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "SMPH: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5f450497eaf4158f64d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "SM Seaside Cebu Arena on track for June 2026 opening\n\n(May 13, 2026, Pasay City, Philippines) SM Prime Holdings, Inc. (SM Prime) is set to open its second arena, the SM Seaside Cebu Arena, in June 2026. The large-scale venue is designed to meet global standards for live entertainment, sports and major events.“The enduring success of SM MOA Arena shows the strong demand for world-class entertainment venues, so we are bringing the same proven model to Cebu,” said Jeffrey C. Lim, President of SM Prime. “We believe Cebu is a key growth center, and this arena will help attract major events, support tourism and create more economic activity for the region.”With seven storeys and a capacity of up to 25,000 people, SM Seaside Cebu Arena will be one of the largest indoor arenas in the Philippines.Its flexible event bowl allows seamless configuration for both large-scale concerts and more intimate events, giving promoters greater versatility in staging productions.The SM Seaside Cebu Arena will feature one of the most advanced center-hung displays in the country, supported by immersive LED ribbon boards that deliver a 360-degree viewing experience. These are complemented by high-capacity digital infrastructure, including 5G connectivity, enabling real-time engagement and enhanced production capabilities for both organizers and audiences.Dedicated premium suites are integrated into the design to cater to corporate partners and elevate the overall hospitality offering. SM Seaside Cebu Arena was also designed to support both front-of-house and back-of-house requirements for major productions. A practice court is available for performers, while multi-functional event spaces can be used as holding areas, breakout rooms or venues for smaller private events.Located within the SM Seaside Complex, the arena benefits from direct access to retail, hospitality and transport infrastructure, creating a seamless ecosystem for visitors and event organizers. Its proximity to the Mactan-Cebu International Airport and surrounding lifestyle developments strengthens its appeal as a regional destination for international acts and large gatherings.SM Seaside Cebu Arena has been securing advance bookings since late last year, with BINI on July 11, IV of Spades on July 18, TJ Monterde and KZ Tandingan on September 5 and LANY on November 6 and 12 already confirmed for this year.###\n\nFor further information, please contact:John Nai Peng C. OngChief Finance OfficerSM Prime Holdings, Inc.E-mail",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Aqua-Tech and Rock Solid Group announce strategic partnership to transform asset integrity in the UK Water Sector",
+      "source": "Water Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOb3VDT0ZvSVdXMDJDUlhWTXpXZjVvbktRdmZ1MmJVN0pLZ2NZMVVwSUFmUWFKUVhZQlIwZmdrTnRqOHU4SnFfS2NWX1ZxZnR5STdKeU9UVlNuMHhmdW93aGNfSUlvXzJQOFlOUTZLbmp2MVRqQkdMX0lldmxPVDRfT3l1bjQtbmhHSUFwRTFwSXJOeE1GdG1nV0Q1TVUyZHBGc2RRMmxieFJWRmZDaC12Ty1RRzh0QkhrTmhTbHdBb2R1YklNVHNmQ1I3MWZFSFdsVFpDQ0RfSzN6WnZQYmRjNURyRkdEZWhrQl8ybDBR?oc=5",
+      "publishedAt": "2026-01-16",
+      "sourceType": "news",
+      "text": "Aqua-Tech and Rock Solid Group announce strategic partnership to transform asset integrity in the UK Water Sector",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Factorial Lists on Nasdaq, Bringing Solid-State Batteries From Validation to Scale",
+      "source": "Energy Digital",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nWkRpZGp6ME82M2gyY24zNEpFODducWNzek96czBHeW1pQlg1REoySUdmRjZiTEJIS2hDakU2eUlDVEpkeExMa25kSEhQNVFZY1hPTlJWS2F0WE0?oc=5",
+      "publishedAt": "2026-06-08",
+      "sourceType": "news",
+      "text": "Factorial Lists on Nasdaq, Bringing Solid-State Batteries From Validation to Scale",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

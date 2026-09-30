@@ -1,0 +1,105 @@
+{
+  "id": "fin-fdc-1q2026-ni",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:24.167Z",
+  "ticker": "FDC",
+  "company": "Filinvest Development Corporation",
+  "category": "financials",
+  "asOf": "2026-05-20",
+  "question": "What net income attributable to equity holders of the parent did Filinvest Development report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 3900000000
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Filinvest income rises in Q1 on strong property performance",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUnZyaFRVdDdDaDJ3SEttcVhRM2JEY3YyeGRlZk9xUXd2bWZQc2tVUmNvMkJjLTJ0eXBTcktTNmVYUzN4Vm1rWTJEVVRDemZsUV9vNi05YnE5YW9GcldYM0VjMDNwLUlIR2tHNkpaUGRBNDVrTVRYWVVhaGpia1h0Uk43aFV5aDl0MnR0NVhYdnFEWFZGZWJvcWNPdFJsMjZwMjdFT2UyMGhOd9IBsAFBVV95cUxNSHlINXNIOVBXaEU0T0pNbzFEcGhuX3J4VE1jbFRackFWMFB1S2lpUGpxMWVUZHRIRk1RbGdYQnlCLUFSVHJCeThzR3d0VFR2Z01JM0c2MUZnSVdsYVRPbWxDQ2lpWE4xVUxYRE1xQmtRY185TW1MMkVmQ2hHM1FBMFMtbnQ2UDRtMmM3N2J4cVlNQXh1TlpMdnlrVDhuSkJubmJnbzJSVTNxeVA2aEFnTg?oc=5",
+      "publishedAt": "2026-05-15",
+      "sourceType": "news",
+      "text": "Filinvest income rises in Q1 on strong property performance",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "PPC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=930fba90b870d68fec6e1601ccee8f59",
+      "publishedAt": "2025-12-11",
+      "sourceType": "primary",
+      "text": "Stockholders' Information Update.\n\nPlease be reminded to promptly notify our stock transfer agent, BDO Stock Transfer, for any changes in your contact information, including your registered and mailing address and phone numbers. This will help ensure that you receive all notices, dividend payments, reports and circulars released to shareholders by the Company.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "ALTER: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=45ce3f12aeb6906e64d70b69f0a3140b",
+      "publishedAt": "2026-02-12",
+      "sourceType": "primary",
+      "text": "ALTER conducts its Board of Directors meeting on February 12, 2026.\n\nOn February 12, 2026, Alternergy Holdings Corporation (\"ALTER\") conducted a Board of Directors meeting where the Board approved, among others, the following matters:1. Public Offering of Perpetual Preferred Shares 2 (“Public Offering”), as follows:a. Issuance and Public Offering of up to Fifty Million (50,000,000) Perpetual Preferred Shares 2, in one or more series, to be denominated as “Green Preferred Shares”, at an offer price of One Hundred Pesos (PhP100.00) per share from the unissued capital stock of the Corporation, consisting of up to Thirty Million (30,000,000) Perpetual Preferred Shares 2, valued at up to Three Billion Pesos (Php 3,000,000,000.00), with an oversubscription option of up to Twenty Million (20,000,000) Perpetual Preferred Shares 2, valued at up to Two Billion Pesos (Php 2,000,000,000.00) (collectively, the “Offer Shares”); b. Appointment of PNB Capital and Investment Corporation and RCBC Capital Corporation as the Joint Issue Managers, Joint Lead Underwriters and Joint Bookrunners in relation to the Offer Shares and for the Public Offering; andc. Delegation to the Executive Committee of the (i) authority to finalize the number and class of the Perpetual Preferred Shares 2 to be issued, the dividend rate, rights, preferences, redeemability, and other features of the Offer Shares, and (ii) authority to perform all acts related to, or as may be necessary for, the Offer Shares and Public Offering, including, but not limited to, the filing of a Registration Statement and Listing Application with the Securities and Exchange Commission and the Philippine Stock Exchange;2. Convening of a Special Shareholders’ Meeting on 8 April 2026, Wednesday, at 10:00 a.m., by way of remote communication. (This is subject of a separate disclosure)",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Gotianun family’s Filinvest defies economic headwinds with 8% income growth",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQURveEd4OUdzNV9yRXZEUjIzQzZoM0J2RTl5aDAwVF9XcXhFLVFiaU5sZ1V6aWhSYkxDSVl1V2I1MmdzMUxsTHJjZW5YVzZCV3FaR19BTUdGb1VZUGxvR3d4VUNZQWJRTDY0SWxha3RRQ0tGTlhJOS1XeHd1S3c3aEkyZUtzX2RsbTlxa2NyRWJDMl9LU2pMWkZoV1F6S3pwdVVEZA?oc=5",
+      "publishedAt": "2026-05-14",
+      "sourceType": "news",
+      "text": "Gotianun family’s Filinvest defies economic headwinds with 8% income growth",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Filinvest first-quarter earnings rose 8%",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTjg1bUJKQ3NkOVRLOGFKazI3TkRyYWRlVWl1R3NDMVNDMGpYeURDOGJnYkk1RTZVRzhQaFFpNkU1U3JxSExQeWVDcV94aUJhaGxydlZRbFFCM2JZT1p4RDVBeDdydWt0SFQzeF9TNkY0MVZRbjFMN1dGNC1ReHdzSlhR0gGHAUFVX3lxTFBOaWZRTEczZldWaG53dnhMMXdsUTZVVjV0UmZGOFdkZlZoNmFubmdROWhpQ3VVLWJ4VzhGZDBoWEdwYUNuekxCa095YXFKeFlncjhYMXNnYkpnSVNGN3k5cUNia3pzOTZDeGNXV21Nam80Zmsta3VTRkJDcE5Qa0E5d05iS2JIQQ?oc=5",
+      "publishedAt": "2026-05-15",
+      "sourceType": "news",
+      "text": "Filinvest first-quarter earnings rose 8%",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "FDC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ad0599269e92ae5064d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "FDC 1Q 2026 profit rises 8% on real estate growth\n\nFilinvest Development Corporation (FDC) posted a net income attributable to equity holders of the parent company amounting to PHP3.9 billion for the first quarter of 2026, reflecting an 8 percent increase compared to the PHP3.6 billion reported in the same period last year.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "FDC stock: 1Q net income",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/fdc",
+      "publishedAt": "2026-05-20",
+      "sourceType": "aggregator",
+      "text": "Filinvest Development Corporation (PSE: FDC), company snapshot.\n1Q net income: PHP3.6 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d8",
+      "title": "WEB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0d5427daf692cfd764d70b69f0a3140b",
+      "publishedAt": "2026-04-29",
+      "sourceType": "primary",
+      "text": "Disclosure of Sale of Preferred Shares by Gregorio Araneta, Inc.\n\nGregorio Araneta, Inc. (“GAI”), a shareholder of PhilWeb Corporation (the “Company”), holding Ninety-Seven Million Two Hundred Sixty Thousand Five Hundred Sixty-Five (97,260,565) preferred shares with a par value of One Peso (Php 1.00) per share, has sold an aggregate of Eighty-Two Million Two Hundred Sixty Thousand Five Hundred Sixty-Five (82,260,565) of its preferred shares at a price of Eight Pesos and Eighty-Nine Centavos (Php 8.89) per share on April 27 and April 28, 2026.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

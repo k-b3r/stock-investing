@@ -1,0 +1,85 @@
+{
+  "id": "evt-lbc-blue-eagle-country",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:20.811Z",
+  "ticker": "LBC",
+  "company": "LBC Express Holdings, Inc.",
+  "category": "events",
+  "asOf": "2026-05-01",
+  "question": "Under the laws of which country or territory is Blue Eagle and LBC Service Ltd., which LBC Express agreed to sell, organized?",
+  "answer": {
+    "kind": "text",
+    "accept": [
+      "Taiwan"
+    ]
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "AEV: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=83fe6b75fbf2596d64d70b69f0a3140b",
+      "publishedAt": "2026-04-10",
+      "sourceType": "primary",
+      "text": "Malaysian Competition Commission Decision involving Gold Coin Feedmills (Malaysia) Sdn. Bhd.\n\nAboitiz Equity Ventures Inc. (AEV) received notice today from Gold Coin Feedmills (Malaysia) Sdn. Bhd. (\"GCFM\"), its indirect subsidiary, that it received written notice relating to the financial penalty imposed by Malaysia Competition Commission (MyCC) in the amount of RM 97,511,670.48 on GCFM for allegedly colluding with other feed millers in Malaysia to increase the poultry feed price during three periods between 2020 to 2022.GCFM disagrees with the findings and maintains that its pricing practices were independent, commercially justified, and compliant with applicable competition laws. GCFM has commenced judicial review proceedings before the High Court of Malaya, and an ad interim stay has been granted, suspending enforcement. Accordingly, the decision is on appeal and not yet enforceable.The MyCC decision has no material adverse impact on AEV’s financial position.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "LBC sells Taiwan employment service unit",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oNlJjbkJweUlKU0pKelVNbkVJVXpFZW5hZDdWS3R0NzYtWm1iU2J3d3dyRDA0U2Z1cmtOQ2NMZHBIR0JqbldNNUlkd2hMSFpCVWQ2WU5TQWlYMndsbHRZb2ZsMkxGTVVFNUNDX2UxR2ZXc2Ro0gF6QVVfeXFMT05pUzkzVWluRGJfUU5naXh1XzlIU0hnSjl1ajVPSHhBVldtVTBzSTlBS0xHX3Bwd09mY2hxRF9LRldBRzNVclZLM0wtSlNNeUk3MVQtN2lzeDFMbTdmalBkQVhsQzR5UTNJbG5UVnlFUC01RmpJaU9NbGc?oc=5",
+      "publishedAt": "2026-04-23",
+      "sourceType": "news",
+      "text": "LBC sells Taiwan employment service unit",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "LBC: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c4c3773decd8902464d70b69f0a3140b",
+      "publishedAt": "2026-04-22",
+      "sourceType": "primary",
+      "text": "Disposition of Shares in Blue Eagle and LBC Service Ltd.\n\nOn 22 April 2026, the Board of Directors of the Company approved the sale of all of the Company’s shares (the “Shares”) in Blue Eagle and LBC Service Ltd. (“Blue Eagle”), which Shares represent 100% ownership in Blue Eagle.\n\nThe divestment of Blue Eagle is pursuant to the plans of the Company to refocus strategic direction for Blue Eagle, which may include implementing certain organizational changes, with a view of turning around losses of the subsidiary.\n\nThe Company will execute a deed of sale of shares, which will be subject to the approval of the concerned regulator/s in the Republic of China (Taiwan).\n\nBlue Eagle is a corporation organized under the laws of Republic of China (Taiwan) which is engaged in employment services.\n\nNTD (New Taiwan Dollar) 2,000,000\n\nThe consideration is based on fair market value.\n\nThe full consideration is payable immediately upon signing of the relevant sale agreement.\n\nPayment of the purchase price and approval of the concerned regulatory agency of the Republic of China (Taiwan)\n\nThe Company is optimistic that such organizational changes will benefit both the Company and Blue Eagle.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "LBC stock: Blue Eagle domicile",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/lbc",
+      "publishedAt": "2026-05-01",
+      "sourceType": "aggregator",
+      "text": "LBC Express Holdings, Inc. (PSE: LBC), company snapshot.\nBlue Eagle domicile: Hong Kong.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d5",
+      "title": "PLUS: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=4be1c951bdc6b09e64d70b69f0a3140b",
+      "publishedAt": "2026-03-31",
+      "sourceType": "primary",
+      "text": "Matters approved in the board meeting held on March 31, 2026\n\nIn a Board meeting held today, the Board approved the following: 1. Changes in Board Committees:1.1 Related Party Transaction Committee - Mr. Paul Joseph M. Garcia replaced Mr. Rafael Jasper S. Vicencio as Member1.2 Nomination Committee- Atty. Timoteo B. Aquino replaced Mr. Hu Jianguo as Chairman. There was no change of members. 2. Approval of the following Policies2.1 Revised Insider Trading Policy2.2 Beneficial Ownership Policy These policies will be posted in the Company’s website. 3. Approval of the Updated Enterprise Risk Management (“ERM”) FrameworkThis will be posted in the Company’s website.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "KEEPR: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=183ae152cb8fb56664d70b69f0a3140b",
+      "publishedAt": "2026-04-07",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends\n\nOn 31 March 2026, the Board of Directors of The Keepers Holdings, Inc. declared regular dividends with details as follows:Total Pay-out: P1.74 Billion2025 Year Net Income: P3.56 Billion Dividend Yield: 5.55%Regular Dividends amounting to P1.74 BillionRecord Date: April 17, 2026Payment Date: May 7, 2026Dividends per share: P0.12 per sharePay-out Ratio: 50%\n\n2025 Year Net Income",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

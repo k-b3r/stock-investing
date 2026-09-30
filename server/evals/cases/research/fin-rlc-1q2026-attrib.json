@@ -1,0 +1,105 @@
+{
+  "id": "fin-rlc-1q2026-attrib",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:04.577Z",
+  "ticker": "RLC",
+  "company": "Robinsons Land Corporation",
+  "category": "financials",
+  "asOf": "2026-05-20",
+  "question": "What net income attributable to equity holders of the parent did Robinsons Land report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 3540000000
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "RLC stock: 1Q 2026 net income",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/rlc",
+      "publishedAt": "2026-05-20",
+      "sourceType": "aggregator",
+      "text": "Robinsons Land Corporation (PSE: RLC), company snapshot.\n1Q 2026 net income: ₱4.40 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d2",
+      "title": "Robinsons Land grew Q1 profit by 9% to P 4.4B",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYU9mSGp6RElKS1dwSk9fUmk1UTdRaHRobl9qalUycDBRUm1FZzJJNXBkajBDb0hHdHZxdUdxSm8wN0E1UXZ0dXNyUFc2LUpheXhzR0c2NVl4dk1kcjNxQ1FKZkFZVWQtQlNYeGNGb21XMDZfRHQtOXlkY0EyMDhIeURkYTFmeEg40gGOAUFVX3lxTFBVVlB5ZGJrcTdqMmN1MGVXbnRxaXBLQkQxM3hjdUFtU01XVGZ1Ni01eGxUZGJKWjNESDhzQ1Z5MVJZMTk0UmdaSVM4UGhzV0FvclRHTkZfZ29IWHdEN195U2xVaXNWNjhIWHlaOTI5Q21pSUxIMVhYbFdCSlFMSHk0U0N5aFp3NHhoX1M2OHc?oc=5",
+      "publishedAt": "2026-05-12",
+      "sourceType": "news",
+      "text": "Robinsons Land grew Q1 profit by 9% to P 4.4B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "FCG: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=122189b6f7d74530ec6e1601ccee8f59",
+      "publishedAt": "2025-11-24",
+      "sourceType": "primary",
+      "text": "Press Release Article - Angel’s Pizza Secures Top Honors in 2025 Delivery Platform Awards\n\nNovember 24, 2025 – Angel's Pizza, one of the Philippines' leading and most-loved pizza chains, proudly announces its recent dual victory in the highly competitive online food delivery space. The company has been honored with the prestigious Grab Platinum Fan Faves Award for the third consecutive year, solidifying its status as a constant favorite among GrabFood users. Furthermore, Angel's Pizza has also clinched the Silver Award for Pau-Pau Momentum Master at the recent Foodpanda Crave Awards.The Grab Platinum Fan Faves Award is a testament to Angel's Pizza's consistent popularity, high order volumes, and exceptional customer ratings on the Grab platform. Achieving this elite status for three years in a row underscores the brand’s unwavering commitment to quality, taste, and reliable service—making it the trusted choice of consumers.In addition, Foodpanda’s Silver Award for the Pau-Pau Momentum Master is a distinction given to brands that exhibit strong growth, operational agility, and standout performance in the Foodpanda ecosystem.“Foodpanda is thrilled to deepen our growing partnership with Angel's Pizza and bring their much-loved products even closer to customers nationwide. As a platform focused on unmatched convenience, we ensure that Angel's Pizza is easily accessible, with every order delivered quickly and reliably,” said Trixia Dichoso, Senior Manager, Strategic Account Management at Foodpanda. “We’re proud to offer exclusive deals and discounts that make Angel’s Pizza’s signature comfort food more affordable and enjoyable for our users.”These accolades come alongside exceptional sales performance in Angel’s Pizza’s aggregator channels. The brand has achieved strong double-digit sales growth compared to the same period last year, with much of this momentum driven by strategic partnerships with GrabFood and Foodpanda. This reflects the brand’s expanding digital footprint and the increasing online demand for food delivery.“We are incredibly humbled and ecstatic to receive the Grab Platinum Fan Faves Award for the third year running,” said Mr. Justin Liu, Figaro Culinary Group Chairman. “This award reflects the love and loyalty of our customers. We continue to be dedicated to serving our customers with quality product at affordable prices. I would like to thank our team for the hard work. In addition, it is an honor to work together with industry leaders Grab ",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Robinsons Land profit rises to P4.4 billion in Q1",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbUxqSFR1UUxwdVdBeURqWWVjc3JjWmVwRldkMnlLZzdlbVNQaDJpSlp0eFdUMFRBQ2xQM200allycmg2SENkWUo0RUZzMm9qN0FFUFo4Q0NpXzloUTBJNjJLZmRuMFBPTlh3OVYwVi1kWEhpYUZqQzZfV2lVLXpZM01LVnpwSk5wYnMxeGtDelBFbjZxRUkwZ1lXd9IBogFBVV95cUxPR1BIcW5kUjFFX1JBUWc5MzByd1ZVc2k3WGNFajFPQUNDbWhqR1BHZFpxVUJYTDV3d183WGZXWlZTOEdnQUpHaDhnVkM2Tkh2aUNIalhJTVdocGxid0lyVGRZS0NmeHJQVXNtRDlyeUJEZVVtR3NpQjlfSHZFZGp1bHdscUdHYllpalBkVlhfbkJsOGh5akFmdHBzb3Z2YkUwZFE?oc=5",
+      "publishedAt": "2026-05-12",
+      "sourceType": "news",
+      "text": "Robinsons Land profit rises to P4.4 billion in Q1",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "ENEX: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bb1f94c7ed09027b64d70b69f0a3140b",
+      "publishedAt": "2026-03-06",
+      "sourceType": "primary",
+      "text": "Result of ENEX Board Meeting dated 06 March 2026\n\nAt its regular meeting held today, 06 March 2026, the Board of Directors of the Corporation approved the following matters:1. Conversion of ACEN CORPORATION’s receivables into additional equity of the Corporation, subject to applicable regulatory approvals, and inclusion of the proposed conversion of receivables to additional equity in the agenda for the 20 April 2026 Annual Stockholders’ Meeting; and 2. 2025 Audited Financial Statements",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "RLC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7f7b25b32daa118864d70b69f0a3140b",
+      "publishedAt": "2026-05-11",
+      "sourceType": "primary",
+      "text": "RLC Q1 Net Income Climbs to ₱4.40B, Anchored by High Liquidity and Low Gearing\n\nRobinsons Land Corporation (RLC) reported strong first-quarter 2026 results, with consolidated revenues rising 11% to ₱12.28 billion, and net income increasing 9% to ₱4.40 billion, driven by the strength of its diversified portfolio and improved contributions from its development businesses, while net income attributable to equity holders of the parent stood at ₱3.54 billion.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "IDC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=09900201c81dd1f964d70b69f0a3140b",
+      "publishedAt": "2026-02-08",
+      "sourceType": "primary",
+      "text": "Notes Facility of IDC Prime, Inc. with Italpinas Development Corporation acting as guarantor\n\nAt a meeting of the Board of Directors on February 6, 2026 the Board of Directors approved and noted the entry by its subsidiary, IDC Prime Inc. (“IDC Prime” or the “Issuer”), into a proposed corporate notes facility of up to PhP1,000,000,000.00 (the “Facility”), and further approved IDC’s participation as guarantor in connection therewith. The proposed issuance of the corporate notes will be conducted as an SEC-exempt offering, and the offering will be limited exclusively to Qualified Buyers under Rules 10.1.3 and 10.1.11 of the Implementing Rules and Regulations of the Securities Regulation Code.The net proceeds from the Facility are intended to be used to fund the development, construction, and completion of IDC Prime Inc.’s Baia Verde residences project located on a 2.3-hectare property in Morong, Bataan, including associated project costs and working capital requirements directly related to the Project.\n\nAttached is the SEC Form 17-C.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Robinsons Land's profit rises in Q1 as diversified portfolio boosts resilience",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0Y2SjVLNXVmajFra3pRVEVkNS1vc3V0Y3VtLUQ3VkNyRmtiWUNUa3JNeHRtYTBUaE9ESzM4ZS1sd2lpREx5U19kbHB3RlBBODV0cVA0dHM2NmhwTDloVnlINE1PN1RxbUhlNHM4dm9EdHFqWnNTYWVNTVdjdllHZm9NNHJlTGJWOU1aRUk5NnB2X1dSYWY4SlJZeElaX3ItZVl5Y0pyeUNIZw?oc=5",
+      "publishedAt": "2026-05-11",
+      "sourceType": "news",
+      "text": "Robinsons Land's profit rises in Q1 as diversified portfolio boosts resilience",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

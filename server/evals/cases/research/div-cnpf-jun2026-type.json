@@ -1,0 +1,118 @@
+{
+  "id": "div-cnpf-jun2026-type",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:26.447Z",
+  "ticker": "CNPF",
+  "company": "Century Pacific Food, Inc.",
+  "category": "dividends",
+  "asOf": "2026-07-15",
+  "question": "Was the Php0.30 per share cash dividend Century Pacific Food declared on June 30, 2026 a regular or a special dividend?",
+  "answer": {
+    "kind": "text",
+    "accept": [
+      "special"
+    ]
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "ALTER: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ecbe0223637c55f764d70b69f0a3140b",
+      "publishedAt": "2026-04-10",
+      "sourceType": "primary",
+      "text": "Alternergy’s shelf registration of green preferred shares secures nod from shareholders; awaits market readiness for issuance\n\nIn a Special Stockholders Meeting held today, April 8, 2026, Alternergy Holdings Corporation (\"ALTER\") shareholders approve the shelf registration and future public offering of up to 50,000,000 Green Preferred Shares, in one or more tranches or one or more series per tranche (under a shelf registration with the Securities and Exchange Commission), to be offered at Php100 per share from unissued capital stock of the company.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "CNPF Stock Price and Chart — PSE:CNPF",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-CNPF/",
+      "publishedAt": "2022-08-21",
+      "sourceType": "aggregator",
+      "text": "Track Century Pacific Food, Inc. stock price today with the live chart. Find CNPF news, trading ideas, forecasts, financials, and more.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "Po family injects capital into parent firm of Century Pacific, Shakey’s Pizza",
+      "source": "InsiderPH",
+      "url": "https://insiderph.com/po-family-injects-capital-into-parent-firm-of-century-pacific-shakeys-pizza",
+      "publishedAt": "2025-10-28",
+      "sourceType": "news",
+      "text": "The Po family is injecting fresh capital into its flagship holding company, Century Pacific Group Inc. (CPGI), the parent of listed firms Century Pacific Food Inc. and Shakey’s Pizza Asia Ventures Inc.\nThe investment was made through Zephryn Holdings, another Po family-owned vehicle, which subscribed to new redeemable preferred shares issued by CPGI.\nThe deal gives Zephryn a 45 percent stake in CPGI and indirect ownership of 29.9 percent in Century Pacific Food and 29.15 percent in Shakey’s Pizza.\nDespite the restructuring, overall control and ownership of the group remain firmly within the Po family.\nShakey’s shares slipped 1.36 percent to P7.27 each, while Century Pacific was down 1.16 percent to P34.15 each. The two firms have a combined market value of around P135 billion.\nData from the Securities and Exchange Commission showed that Zephryn Holdings Inc. is an investment firm established on Nov. 11, 2024.\nCorporate records show it is led by Ricardo T. Po (vice chair), Christopher T. Po (president), Teodoro Alexander T. Po (chief operating officer), and Leonardo T. Po (treasurer).\nThe company is chaired by Fernan Lukban, who also sits on the boards of other Po family-controlled firms.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "CNPF: [Amend-1]Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cb1dddf88e1439664d70b69f0a3140b",
+      "publishedAt": "2026-06-30",
+      "sourceType": "primary",
+      "text": "Declaration of Special Cash Dividends\n\nPlease be advised that the Board of Directors of Century Pacific Food, Inc. approved today the declaration of special cash dividend of Thirty Centavos (Php0.30) per share to all stockholders of record as of July 21, 2026 payable on August 10, 2026.\n\nUnrestricted retained earnings as of December 31, 2025\n\nThe amendment is made to reflect the type of dividends approved by the Board of Directors today.Please see attached.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "TEL: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d896a5eb29be5fb664d70b69f0a3140b",
+      "publishedAt": "2026-03-02",
+      "sourceType": "primary",
+      "text": "PLDT Files 2025 Annual Report with Sustainability Report on Form 17-A with the Philippine Securities and Exchange Commission\n\nMANILA, Philippines, 27th February 2026 – PLDT Inc. (“PLDT”) (PSE: TEL) (NYSE: PHI) announced today that it has filed its Annual Report with Sustainability Report on Form 17-A for the fiscal year ended 31st December 2025 with the Philippine Securities and Exchange Commission. The document has been posted at the PLDT website at: https://main.pldt.com/investor-relations/annual-and-sustainability-reports#phil-sec-filing",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "CNPF: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d9283f11d937e48764d70b69f0a3140b",
+      "publishedAt": "2026-06-30",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends\n\nPlease be advised that the Board of Directors of Century Pacific Food, Inc. approved today the declaration of regular cash dividend of Thirty Centavos (Php0.30) per share to all stockholders of record as of July 21, 2026 payable on August 10, 2026.\n\nUnrestricted retained earnings as of December 31, 2025",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Bright spots seen in Philippine stocks poised for 2026 recovery",
+      "source": "mb.com.ph",
+      "url": "https://mb.com.ph/2025/12/15/bright-spots-seen-in-philippine-stocks-poised-for-2026-recovery",
+      "publishedAt": "2025-12-15",
+      "sourceType": "news",
+      "text": "Bright spots seen in Philippine stocks poised for 2026 recovery",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "CNPF stock: Latest dividend type",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/cnpf",
+      "publishedAt": "2026-07-15",
+      "sourceType": "aggregator",
+      "text": "Century Pacific Food, Inc. (PSE: CNPF), company snapshot.\nLatest dividend type: Regular.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d9",
+      "title": "GERI: Clarification of News Reports",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=1cd7b6a8f390d50364d70b69f0a3140b",
+      "publishedAt": "2026-06-26",
+      "sourceType": "primary",
+      "text": "Clarification on the news article “Megaworld unit GERI to launch projects in 3 provinces” posted on June 25, 2026.\n\nWe reply to your request for clarification on the news article “Megaworld unit GERI to launch projects in 3 provinces” posted on June 25, 2026 which reported that:“Global-Estate Resorts Inc. (GERI) said Thursday it will launch new developments in Cagayan de Oro, Iloilo and Batangas as part of its 2026 expansion strategy.The unit of Megaworld Corp. said it is securing regulatory approval for the projects, which it expects will expand its market footprint, generate new revenue streams and boost construction and service demand in host communities.GERI is also spending P11 billion to complete ongoing projects across its integrated tourism estates and lifestyle communities. The capital will primarily fund developments in Arden Botanical Estate in Cavite, Boracay New Coast in Aklan and Twin Lakes in Batangas.. . . . ”Global-Estate Resorts, Inc. (\"Company\") confirms that it will launch new developments in Cagayan de Oro, Iloilo, and Batangas as part of its 2026 expansion strategy, subject to regulatory approvals.With respect to the statement that the Company is also spending P11 billion to complete ongoing developments, primarily across Arden Botanical Estate in Cavite, Boracay New Coast in Aklan, and Twin Lakes in Batangas, the Company clarifies that the said amount does not pertain to development or construction cost. Rather, it pertains to the P11 billion worth of residential and commercial projects of the Company in various locations outside Metro Manila, which was the subject of an earlier Press Release filed with the PSE on 7 May 2026.We trust that we have clarified the above-mentioned news article to your satisfaction.\n\nThe Company notes that the source of the article entitled “Megaworld unit GERI to launch projects in 3 provinces” is Manila Standard.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

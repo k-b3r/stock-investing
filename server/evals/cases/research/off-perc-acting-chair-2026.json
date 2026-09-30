@@ -1,0 +1,108 @@
+{
+  "id": "off-perc-acting-chair-2026",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:56.930Z",
+  "ticker": "PERC",
+  "company": "PetroEnergy Resources Corporation",
+  "category": "officers",
+  "asOf": "2026-04-20",
+  "question": "Who did PetroEnergy Resources appoint as acting Chairman in April 2026?",
+  "answer": {
+    "kind": "text",
+    "accept": [
+      "Milagros V. Reyes",
+      "Milagros Reyes"
+    ]
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "FOOD: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d3839715b9b2d9bb64d70b69f0a3140b",
+      "publishedAt": "2026-03-26",
+      "sourceType": "primary",
+      "text": "Cybersecurity Incident\n\nAlliance Select Foods International, Inc. (the “Company”) announced that it has notified the National Privacy Commission (“NPC”) of a recent cybersecurity incident involving certain of its information technology systems at its General Santos facility.Upon discovery of the incident, the Company immediately implemented containment measures, including isolation of affected systems and activation of its incident response protocols. The Company engaged external cybersecurity experts to assist in the investigation and remediation efforts.The Company is conducting a comprehensive assessment to determine the extent and impact of the incident. Based on the investigation conducted to date, the Company has not identified any confirmed unauthorized access to or compromise of affected data, including sensitive personal information of its employees and service providers.The Company has also implemented precautionary measures across the organization and is undertaking system restoration activities. The Company confirms that its critical financial data is properly backed up, and recovery efforts are ongoing.While the incident has caused temporary disruption to certain systems, the Company continues to implement business continuity measures and is assessing the potential impact on its operations. The Company remains committed to protecting the integrity of its systems and the data entrusted to it and will continue to coordinate with the NPC and other relevant authorities. Further updates will be provided as necessary.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "PERC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=30fdf0b5e0e882c264d70b69f0a3140b",
+      "publishedAt": "2026-04-09",
+      "sourceType": "primary",
+      "text": "Appointment of Acting Chairman\n\nAt the meeting of the Board of Directors of PetroEnergy Resources Corporation held on April 8, 2026, the Board approved the appointment of the President, Ms. Milagros V. Reyes, as the acting Chairman during the temporary absence of the Chairman, Ms. Helen Y. Dee. The appointment comes with the authority for Ms. Milagros V. Reyes to sign as Chairman the Statement of Management’s Responsibility for the 2025 Audited Financial Statements.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "PERC stock: Chairman",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/perc",
+      "publishedAt": "2026-04-20",
+      "sourceType": "aggregator",
+      "text": "PetroEnergy Resources Corporation (PSE: PERC), company snapshot.\nChairman: Helen Y. Dee.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "AP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=33f7f24da87a961964d70b69f0a3140b",
+      "publishedAt": "2026-03-24",
+      "sourceType": "primary",
+      "text": "Matters Approved by Aboitiz Power Corporation's Board of Directors During its March 24, 2026 Regular Board Meeting\n\nDuring its regular meeting held today, the Board of Directors of Aboitiz Power Corporation (AboitizPower or the “Company”) approved the amendments to the following Board Committee Charters:1. Board Environmental, Social, and Corporate Governance (ESCG) Committee Charter: to (a) reflect its revised scope and responsibilities; and (b) change its name to “Board Corporate Governance and Sustainability Committee”; and2. Board Related Party Transaction (RPT) Committee Charter: to (a) reflect the necessary changes to the Board RPT Committee’s structure and membership; and (b) clarify the duties and responsibilities of the Board RPT Committee.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "PGEC begins Bugallon solar grid injection, advances RE projects with key approvals",
+      "source": "Power Philippines",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQajg5ZHd2bm9NcWU2aE1vc0t3aExPYlhxZDFNdW92MEFFZ3hxdV9fMWM4TTRfSzBWNkI3VDM3aDNueDlEcnVvYkh0Z05UUEt1M3l1Nk5ZUnYxRW9zRFhNOVBYcDRQUFE3bnNhcGIyVG5RNFZScFRoUm9uSkU0eEhjMEZINWVySWl0RWRaMW5UbGQyZXc1S09pR0s5RTVQWFFabVR2SUUyTE5YcTFZMmpUQw?oc=5",
+      "publishedAt": "2026-04-20",
+      "sourceType": "news",
+      "text": "PGEC begins Bugallon solar grid injection, advances RE projects with key approvals",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "PetroEnergy to boost stake in PetroWind to 90%",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSEYta0VlaURnNlhxcG5ZMXp3RWNGdm5tOEVSbkVvdkxSbjhKRURKaUpOQzdWSHB3amRTSl9xUldZNnBoQTVDWUdEQW9pRnd1UlptZHotamlTTVlrS216M3RjU0xlM3ZLOVBWcGRQRVBoRVRwZFpRRVNLYm83THBFbGJVbEtBVkRCbUHSAY8BQVVfeXFMUFJlREJjY1BjNHdLQ3l4M1htaDQzRWRTWk1Pek5xOFJ5dVNzQXRhQnVEMmM0UWRucmVLZnhMVXA5TUZzWTlEclQwN0hOY04xaGRPaGpTdzNPc1hFM1hqQVBxYUNyeHF1S3FuRXRMVkl3NGpOZ3l2Z1FfckxUS1drZEtzblRsSkxuYXVXR243ZGM?oc=5",
+      "publishedAt": "2025-12-20",
+      "sourceType": "news",
+      "text": "PetroEnergy to boost stake in PetroWind to 90%",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "PetroEnergy to hold 90% of wind unit after buying out BCPG stake",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM1ZzdFlXdGtKVkJHRkxQZ21mSmlVRHhxOGlDeS1EZW5VZDhaaEZJM2ZScGxUX3ctbWNpRjhSLV9uYVJ3UE02T3k2eFNCREJseG1HM2JuZUppRkQ1a240SXlJME5QMG4wMjBsLTFvM3c0aHB3NFV0RFVpUjFXZmVUQ0RINk1XSjVnZElqNm5xT0xNSzlWdFVj?oc=5",
+      "publishedAt": "2025-12-19",
+      "sourceType": "news",
+      "text": "PetroEnergy to hold 90% of wind unit after buying out BCPG stake",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "CBC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ee45d88c6743746064d70b69f0a3140b",
+      "publishedAt": "2026-04-15",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nPlease be informed that during its special meeting held this afternoon, 15 April 2026, the Board of Directors of China Banking Corporation approved the declaration of a regular cash dividends of P1.80 per share.The Board likewise approved to set 30 April 2026 as the record date and 14 May 2026 as the payment or issuance date of the cash dividends, with the closing of books from 04 to 14 May 2026.\n\nRetained Earnings as of 31 December 2025",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

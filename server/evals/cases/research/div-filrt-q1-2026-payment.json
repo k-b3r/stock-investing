@@ -1,0 +1,116 @@
+{
+  "id": "div-filrt-q1-2026-payment",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:50.305Z",
+  "ticker": "FILRT",
+  "company": "Filinvest REIT Corp.",
+  "category": "dividends",
+  "asOf": "2026-06-01",
+  "question": "On what date is the quarterly cash dividend Filinvest REIT declared on 08 May 2026 payable?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-06-05"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "FILRT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ecf7ce66bb53767164d70b69f0a3140b",
+      "publishedAt": "2026-02-20",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends\n\nPlease be informed that at its meeting today, 20 February 2026, the Board of Directors of Filinvest REIT Corp. (“FILRT”) approved the declaration of quarterly cash dividends in the amount of Php0.06 per share to all stockholders of record as of 09 March 2026 and with payment date of 19 March 2026.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "FILRT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6ce1dcf00f80cff664d70b69f0a3140b",
+      "publishedAt": "2026-05-08",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends\n\nPlease be advised that at the meeting of the Board of Directors (the “Board”) of Filinvest REIT Corp. (“FILRT”) held today, 08 May 2026, the Board approved the declaration of its quarterly cash dividends in the amount of PhP 0.06 per share to all stockholders of record as of 25 May 2026, and with payment date of 05 June 2026.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "PLUS: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=680b17c439a428b364d70b69f0a3140b",
+      "publishedAt": "2026-03-17",
+      "sourceType": "primary",
+      "text": "DigiPlus reports P12.6 billion net income in 2025, declares P3.8 billion dividends\n\nDigiPlus Interactive Corp. (DigiPlus), the pioneer and leading digital entertainment powerhouse behind BingoPlus, ArenaPlus, and GameZone, reported that net income for full-year 2025 was essentially flat at P12.6 billion, based on unaudited consolidated financial statements, compared to the previous year.The Company's full-year performance reflects resilience amid an evolving regulatory and competitive landscape, supported by disciplined execution in its retail games segment and targeted operational initiatives.Total revenues for the year rose 12 percent to P84.2 billion from P75.2 billion in 2024, as strong performance in the first half of the year offset the temporary moderation in activity following the third-quarter delinking of e-wallet in-app access to licensed online gaming platforms. EBITDA reached P14.2 billion, up two percent from P13.9 billion in the previous year. In 2025, DigiPlus remitted P34.6 billion in taxes and regulatory fees, underscoring its role as a major contributor to government revenues that help fund essential public services, infrastructure investments, and broader national development priorities. Through these contributions, the Company continues to support programs and institutions that strengthen economic resilience, expand public services, and advance inclusive growth.\"Despite a challenging and evolving industry landscape, DigiPlus delivered a resilient performance in 2025, reflecting the strength of our platforms, disciplined execution, and the trust of our users,\" DigiPlus Chairman Eusebio Tanco said. \"As we look ahead, we remain optimistic about our growth trajectory and are confident in our ability to continue innovating responsibly while creating long-term value,” Mr. Tanco added. Well-positioned to navigate regulatory transitionIn the fourth quarter of 2025, net income moderated 36 percent year-on-year to P2.5 billion, while EBITDA dropped 32 percent to P3.1 billion. Revenues for the quarter reached P17.3 billion, down 27 percent from P23.7 billion in the same period last year.On a quarter-on-quarter basis, revenues declined 9 percent from P19.1 billion in the third quarter, which reflected only partial impact from the regulatory adjustment. Net income increased 43 percent quarter-on-quarter from P1.7 billion, while EBITDA rose by 52 percent from P2.0 billion, supported by improved cost management and operational calibration. Maintainin",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Filinvest REIT Corp Dividends – PSE:FILRT",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-FILRT/financials-dividends/",
+      "publishedAt": "2023-08-22",
+      "sourceType": "aggregator",
+      "text": "Payouts are made quarterly. The last dividend per share was 0.06 PHP. As of today, dividend yield (TTM)% is 8.29%.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "FILRT earnings fall 21.5% in 2025 despite stronger rental revenues",
+      "source": "mb.com.ph",
+      "url": "https://mb.com.ph/2026/02/23/filrt-earnings-fall-215-in-2025-despite-stronger-rental-revenues",
+      "publishedAt": "2026-02-23",
+      "sourceType": "news",
+      "text": "FILRT earnings fall 21.5% in 2025 despite stronger rental revenues",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "MVC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=fca58ffccff5561864d70b69f0a3140b",
+      "publishedAt": "2026-03-05",
+      "sourceType": "primary",
+      "text": "Item 9. Other EventsI. APPROVAL OF 2025 AUDITED FINANCIAL STATEMENTS AND THEIR RELEASE/ISSUANCEII. ADDITIONAL APPROPRIATION OF RETAINED EARNINGS\n\nItem 9. Other EventsPlease be advised that the Board of Directors of MABUHAY VINYL CORPORATION (the Corporation) in its special meeting on 05 March 2026 considered/approved the following:• The Corporation’s Audited Financial Statements (AFS) for the period ended 31 December 2025 and its release and issuance upon finalization and printing. The AFS shall be submitted to the stockholders for approval at the ASM.• Appropriation of Five Hundred Million Pesos (Php500,000,000.00) out of retained earnings to partially fund the acquisition and development of a supplemental power generating facility and chemical tanker for the next five years.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Filinvest Land 2025 earnings rise 4% amid steady sales",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/575654/filinvest-land-earnings-rose-to-p-4-81b-in-2025",
+      "publishedAt": "2026-02-24",
+      "sourceType": "news",
+      "text": "Filinvest Land 2025 earnings rise 4% amid steady sales",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "FILRT stock: Next dividend payment date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/filrt",
+      "publishedAt": "2026-06-01",
+      "sourceType": "aggregator",
+      "text": "Filinvest REIT Corp. (PSE: FILRT), company snapshot.\nNext dividend payment date: March 19, 2026.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d9",
+      "title": "PX: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0d69aecbf14f2e4764d70b69f0a3140b",
+      "publishedAt": "2026-05-04",
+      "sourceType": "primary",
+      "text": "PHILEX MINING REPORTS FIRST QUARTER 2026 FINANCIAL RESULTS; AS SILANGAN PROJECT TRANSITIONS TO COMMISSIONING OF PROCESS PLANT\n\nThe Company posted a core net loss of Php281 million versus a core net income of Php71 million in Q1 2025, driven by decline in the ore throughput and metal production at the Padcal Mine due to the restoration works at the partially damaged portion of the Secondary/Tertiary Crushing Plant Section brought about by the structural failure supporting the ore bins. Despite a 42% contraction in tonnes milled, losses were partly cushioned by a historic surge in the realized gold price to USD4,960/oz (+92% YoY). As a result of the mark to market revaluation of the foreign currency denominated loans, the Company recorded a consolidated net loss of Php592 million for the quarter.Tonnes milled stood at 931,000 tonnes with gold grade at 0.123 gms/DMT and copper grade at 0.123%. Gold output stood at 2,227 ounces while copper output was 1,869 pounds. Net revenues were at Php1.078 billion while operating costs stood at Php1.415 billion.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

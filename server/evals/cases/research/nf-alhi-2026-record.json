@@ -1,0 +1,104 @@
+{
+  "id": "nf-alhi-2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:51.404Z",
+  "ticker": "ALHI",
+  "company": "Anchor Land Holdings, Inc.",
+  "category": "dividends",
+  "asOf": "2026-06-01",
+  "question": "What is the record date of the common share cash dividend Anchor Land declared on May 14, 2026?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Anchor Land elevates landscape of property investment",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTW9VLVk2OS1abXJoSXJLbjZTcUlycVJLTlBISWM1bkZjbHdycDhLb2U1WlZ0SEZ1cHVSMVBhZ095bTNQbDdLVEltVFpuS2RnYzYyY2oxRVlmR3VpLUNOM0Z3cXlYSWhia3NjbXdsOG1leG5aR25WLTVMNDQ0TGl3NVZIaFk3d1M4WUxZOG44Q1dYMVhq0gGaAUFVX3lxTFBVNXpuZkZ5dzgxemhoeTFIM1cyZHlqNklFcTJHaVl4Z1ZPMnFzcTN4clZLUXZWSGc5c0xoN1IwQ1dRLVoxNmVERTVCZkxpQWZkOUV2aHFMU0d5NFFRWU0xRFpOdWN0WUpCUjliMHVBemlBZlJqWUF1aHpkLTVsejBzaUxPLVVrRnFCRXVZallfVWNGZEhpejNydGc?oc=5",
+      "publishedAt": "2023-03-25",
+      "sourceType": "news",
+      "text": "Anchor Land elevates landscape of property investment",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Anchor Land signs PPP deal with Parañaque gov’t",
+      "source": "(PPP) Center of the Philippines",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVUk2a0NLUS14M1lMcFlYbUJxS3pBcEE0Y1U5YUJXMVJxZmRfa3kwWlUzaEhLZEd5LUhsQUo1S1ZkZDJKLTg4UlJTa2N5amNOX3BmR3dNRFdBYnNqWjY2eXZrcHN6dzhBR3FfcVBaU2U5dElXZVo5bUprYkRDTTVySEtycEs?oc=5",
+      "publishedAt": "2019-07-16",
+      "sourceType": "news",
+      "text": "Anchor Land signs PPP deal with Parañaque gov’t",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "RLC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=66f8e342a6402dde64d70b69f0a3140b",
+      "publishedAt": "2026-05-11",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends.\n\nPlease be informed that at a meeting held today, May 11, 2026, the Board of Directors of Robinsons Land Corporation (“RLC”) approved the declaration of cash dividends from the unappropriated retained earnings of RLC as of December 31, 2025.Regular Cash DividendAmount of Dividend: One Peso (Php1.00) per shareRecord Date: May 26, 2026 (Tuesday)Payment date: June 8, 2026 (Monday)\n\nUnappropriated retained earnings as of December 31, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "ALHI: [Amend-1]Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8198e2c802f250f4ec6e1601ccee8f59",
+      "publishedAt": "2025-05-26",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nWe wish to inform you that the Board of Directors of Anchor Land Holdings, Inc. (the “Corporation”) approved today, March 25, 2025, the issuance of cash dividend declaration of Four Centavos (Php 0.04) for common dividend per share to the stockholders of the Corporation as of record June 6, 2025. Payment date is on July 3, 2025.\n\nAmended the disclosure to update the record date from June 6, 2025, which was declared a holiday under Proclamation No. 911, to the next trading day, June 9, 2025.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "ALHI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a35062a3ab56aa0b64d70b69f0a3140b",
+      "publishedAt": "2026-05-18",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends\n\nThe Board of Directors of Anchor Land Holdings, Inc. (the “Corporation”) has approved today, May 14, 2026, the cash dividend declaration amounting to Sixty-Nine Million Three Hundred Thirty-Three Thousand Four Hundred (69,333,400) as follows:a. Preferred dividend amounting to 8% or Twenty-Seven Seven Hundred Thirty-Three Thousand Three Hundred Sixty (27,733,360.00); andb. Common dividend amounting to Four centavos (0.04) per share or Forty-One Million Six Hundred Thousand and Forty (41,600,040.00) to the stockholders of the Corporation.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "MYNLD: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f755c557d06f153e64d70b69f0a3140b",
+      "publishedAt": "2026-03-16",
+      "sourceType": "primary",
+      "text": "2nd Quarter 2026 Foreign Currency Differential Adjustment\n\nPlease be informed that we received the approval of the Metropolitan Waterworks and Sewerage System (“MWSS”) in MWSS Board of Trustees Resolution No. 2026-033-RO dated March 12, 2026 for Maynilad Water Services, Inc.’s (the “Company”) implementation of a Foreign Currency Differential Adjustment (“FCDA”) of negative 0.24% of the 2026 Average Basic Charge of PHP52.86 per cubic meter or negative PHP 0.13 per cubic meter, pursuant to the provisions of Amendment to the Revised Concession Agreement (“Amended RCA”). The tariff shall be adjusted downward by an average of negative PHP 0.13 per cubic meter effective April 1, 2026. As provided in the Amended RCA between MWSS and the Company, the FCDA is a pass-through charge to account for foreign exchange losses or gains arising from the Company’s payments of specific concession loans identified in the Amended RCA. The FCDA has no impact on the projected net income of the Company.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "EW: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6adb93068cb5327664d70b69f0a3140b",
+      "publishedAt": "2026-04-23",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nThe Board of Directors, in its special meeting held today, approved the declaration of cash dividends in the amount of Php0.82 per share, payable on May 29, 2026 to all stockholders of record as of May 11, 2026.\n\nUnrestricted retained earnings as of 31 December 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Anchor Land to break ground on P35-B projects",
+      "source": "Philippine News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1TSVFoTkl3eFp0Z3BjMmlIY0RTeHA5RzM0ZWRVVGEtZHhrMHlCRmdQMElPX2djNXZhQmhvRVZ3M0dTYkFmYzR6cVJBWVM2V2Vo?oc=5",
+      "publishedAt": "2019-06-27",
+      "sourceType": "news",
+      "text": "Anchor Land to break ground on P35-B projects",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

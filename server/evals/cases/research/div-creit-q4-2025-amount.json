@@ -1,0 +1,127 @@
+{
+  "id": "div-creit-q4-2025-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:35.076Z",
+  "ticker": "CREIT",
+  "company": "Citicore Energy REIT Corp.",
+  "category": "dividends",
+  "asOf": "2026-04-01",
+  "question": "How much per share is Citicore Energy REIT's cash dividend for the fourth quarter of 2025?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.056
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "CREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b63d5b435f1f33a3ec6e1601ccee8f59",
+      "publishedAt": "2025-11-11",
+      "sourceType": "primary",
+      "text": "Q3 2025 Cash Dividends\n\nThe Board of Directors, at its regular meeting held on 11 November 2025, approved the declaration of cash dividends for the third quarter of 2025 in the amount of Php0.049 per share. The cash dividends will be payable on 12 January 2026 to stockholders on record as of 11 December 2025.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "I: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6f0bc6e0950adb9964d70b69f0a3140b",
+      "publishedAt": "2026-01-19",
+      "sourceType": "primary",
+      "text": "Revised Risk Oversight Committee Charter\n\nPlease be informed that during their meeting held on 16 January 2026, the Board of Directors of the Corporation, have approved the revised Risk Oversight Committee Charter",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "CREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9c871aa5257ba33c64d70b69f0a3140b",
+      "publishedAt": "2026-03-25",
+      "sourceType": "primary",
+      "text": "Q4 2025 Cash Dividends\n\nThe Board of Directors, at its regular meeting held on 25 March 2026, approved the declaration of cash dividends for the fourth quarter of 2025 in the amount of Php0.056 per share. The cash dividends will be payable on 21 May 2026 to stockholders on record as of 24 April 2026.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "CREIT stock: Quarterly dividend per share",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/creit",
+      "publishedAt": "2026-04-01",
+      "sourceType": "aggregator",
+      "text": "Citicore Energy REIT Corp. (PSE: CREIT), company snapshot.\nQuarterly dividend per share: Php0.049.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d5",
+      "title": "Citicore Energy REIT net income holds steady at ₱1.85 billion",
+      "source": "mb.com.ph",
+      "url": "https://mb.com.ph/2026/03/26/citicore-energy-reit-net-income-holds-steady-at-185-billion",
+      "publishedAt": "2026-03-26",
+      "sourceType": "news",
+      "text": "Citicore Energy REIT net income holds steady at ₱1.85 billion",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "ALTER: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7d9b7fbecad6594764d70b69f0a3140b",
+      "publishedAt": "2026-02-03",
+      "sourceType": "primary",
+      "text": "Alternergy’s 28 MWp Balsik Solar Power Plant in Bataan starts commercial operations\n\nRenewable power pioneer Alternergy Holdings Corporation (“ALTER”), through its unit Solana Solar Alpha, Inc. (“SSAI”), announced it has it has started the commercial operations of its 28MWp Balsik Solar Power Plant located in Hermosa, Bataan. The Balsik Solar Power Plant utilizes 45,600 bifacial solar modules with six inverter stations across 30 hectares of land. It is connected to the NGCP Hermosa Substation via a short 300-meter 69kVtransmission line. The Balsik Solar Power Plant is also the first of four (4) new power projects to be completed in 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "CREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c9594ca2396dbbc6ec6e1601ccee8f59",
+      "publishedAt": "2025-08-13",
+      "sourceType": "primary",
+      "text": "Q2 2025 Cash Dividends\n\nThe Board of Directors, at its regular meeting held on 13 August 2025, approved the declaration of cash dividends for the second quarter of 2025 in the amount of Php0.049 per share. The cash dividends will be payable on 08 October 2025 to stockholders on record as of 12 September 2025.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Citicore Energy REIT Corp Dividends – PSE:CREIT",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-CREIT/financials-dividends/",
+      "publishedAt": "2023-11-10",
+      "sourceType": "aggregator",
+      "text": "The last dividend per share was 0.05 PHP. As of today, dividend yield (TTM)% is 7.00%.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "PERC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bf57fc03571b1cff64d70b69f0a3140b",
+      "publishedAt": "2026-01-30",
+      "sourceType": "primary",
+      "text": "SEC Assessment in Relation to Financial Statement Compliance\n\nThe Securities and Exchange Commission (“SEC”) issued a notice to PetroEnergy Resources Corporation (the “Corporation”) in relation to compliance with Revised Securities Regulation Code (“SRC”) Rule 68 in connection with the Corporation’s Consolidated Audited Financial Statements for the year ended 31 December 2024.In a letter dated 19 January 2026, the SEC assessed a penalty in the amount of One Million Fourteen Thousand Five Hundred Pesos (P1,014,500.00) in connection with a matter identified in the said financial statements.The Corporation has since settled the assessed penalty on 28 January 2026 and submitted the corresponding proof of payment to the SEC on 29 January 2026. Formal acknowledgment from the SEC is currently awaited.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d10",
+      "title": "Citicore Power declares property dividends",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/566834/citicore-power-declares-property-dividends",
+      "publishedAt": "2025-12-30",
+      "sourceType": "news",
+      "text": "Citicore Power declares property dividends",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

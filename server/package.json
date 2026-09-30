@@ -25,7 +25,10 @@
     "eval:factcheck": "tsx --env-file=../.env evals/factcheck/run.ts",
     "eval:factcheck:freeze": "tsx --env-file=../.env evals/factcheck/freeze-bases.ts",
     "eval:factcheck:draft": "tsx evals/factcheck/draft.ts",
-    "eval:factcheck:build": "tsx evals/factcheck/build.ts"
+    "eval:factcheck:build": "tsx evals/factcheck/build.ts",
+    "eval:research": "tsx --env-file=../.env evals/research/run.ts",
+    "eval:research:fetch": "tsx --env-file=../.env evals/research/fetch.ts",
+    "eval:research:draft": "tsx --env-file=../.env evals/research/draft-key.ts"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

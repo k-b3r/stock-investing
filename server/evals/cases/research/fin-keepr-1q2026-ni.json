@@ -1,0 +1,105 @@
+{
+  "id": "fin-keepr-1q2026-ni",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:14.477Z",
+  "ticker": "KEEPR",
+  "company": "The Keepers Holdings, Inc.",
+  "category": "financials",
+  "asOf": "2026-05-20",
+  "question": "What net income did The Keepers Holdings report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 811000000
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "AUB: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=1fc13685075b41f064d70b69f0a3140b",
+      "publishedAt": "2026-05-17",
+      "sourceType": "primary",
+      "text": "AUB posts another record-high net income in Q1;capital strength, operational excellence drive growth\n\nAsia United Bank Corporation will be issuing the attached press release entitled “AUB posts another record-high net income in Q1;capital strength, operational excellence drive growth”.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "KEEPR stock: 1Q net income",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/keepr",
+      "publishedAt": "2026-05-20",
+      "sourceType": "aggregator",
+      "text": "The Keepers Holdings, Inc. (PSE: KEEPR), company snapshot.\n1Q net income: Php 690 million.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d3",
+      "title": "Cosco posts higher income in 2025",
+      "source": "businessmirror.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRjUxd2hNcEo4eF9iNWItel9YMU9sNDVvdnVPRGtwSU5Qd2ZtRm11N2k4RkhCLW1IRE92R0tGeEItemJMeXJGRGdHVk5tbTRWZmVaenVhRmpIRjkxUm0wSmxSNnFjclAzRHVGcDh0R1lsdmJUNng0WmNPS3VlcngxVQ?oc=5",
+      "publishedAt": "2026-04-02",
+      "sourceType": "news",
+      "text": "Cosco posts higher income in 2025",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Imported brandy boosts Keepers Holdings to P2.43B net income in 9M 2025",
+      "source": "Bilyonaryo Business",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzJKYlBfSm1aNFpab0p2Wms5eVB6c0U5a0NHcml1bzlkMU42WGNzQjc5b1ROMFlFZmlqaU50SXJxTGxBbkF1QWVrNjNMR0lwbFpiS2F1ODE1V1ZaV0c4RTNvaTN3YzVVUld1MzZ0TVZTV3R4Z0FzNUE1VldvZXVIQjlFTFk4X2RobXlIbG43MXhTYkRzdklZ?oc=5",
+      "publishedAt": "2025-11-12",
+      "sourceType": "news",
+      "text": "Imported brandy boosts Keepers Holdings to P2.43B net income in 9M 2025",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "IMI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ba58dc16c8ea0f76ec6e1601ccee8f59",
+      "publishedAt": "2025-11-27",
+      "sourceType": "primary",
+      "text": "Press Release: IMI Sells Stake in VIA Optronics Holding AG in Strategic Divestment\n\nNovember 27, 2025, Nuremberg, Germany — Integrated Micro-Electronics (IMI), through its wholly-owned subsidiary, Coöperatief IMI Europe U.A., today announced the sale of its 50.32% stake in VIA Optronics AG to Kronen 3140 GmbH (to be known in the future as V-PTR Beteiligungs GmbH) which is owned by some members of VIA’s management and advisory team.Please refer to the attached press release. Thank you!",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "KEEPR: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e6550995baddb4ac64d70b69f0a3140b",
+      "publishedAt": "2026-05-08",
+      "sourceType": "primary",
+      "text": "Press Release entitled \"Keepers net income jumped by 17.6% to PHP 811 million in 1Q 2026\"\n\nManila, Philippines – Lucio Co-led The Keepers Holdings Inc. (Keepers), the largest imported liquor distribution in the Philippines, grew first quarter 2026 net income to Php 811 million growing 17.6% versus Php 690 million the previous year driven by the strong sales volume performance from the imported brandy segment. Keepers recorded consolidated revenue for the first quarter of 2026 amounting to Php 4.3 billion, a 6.1% growth versus the previous year on the back of an 4% growth in volume of cases sold for the period. This was driven principally by Alfonso, the leading imported brandy in the market, which has already surpassed its pre-pandemic levels, a premiumizing market and on-premise channel rebound. The Keepers Holdings Group has brought and served Filipino consumers the leading international brands of spirits, wines and specialty beverages into the Philippines. These iconic global brands include Johnnie Walker, Chivas Regal, Glenfiddich, Suntory, Jinro, Jose Cuervo, Jim Beam, Penfolds, Red Bull and many others.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "LSC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c1bfa704c643c09d64d70b69f0a3140b",
+      "publishedAt": "2026-03-26",
+      "sourceType": "primary",
+      "text": "Certificate of Approval of Increase of Capital Stock\n\nAttached is the Certificate of Increase of Capital Stock, approving the increase of the Company’s authorized capital stock to Two Billion Pesos (PhP2,000,000,000.00), divided into Two Billion (2,000,000,000) shares with a par value of One Peso (PhP1.00) per share, issued by the SEC dated 25 March 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "The Keepers profit steady at P3.56B in 2025",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV1NYd0hMdWp1TVhEbS1GbjBYUTdNTkFmOExsS1lFNjV6WS1FTkZheG9SczhheGhyZVlhV0NRdmdRYlBaWmZfRURlUkk0ZnVrVW9kQlA0ZTFkYzFTU0V1VFdfbDBNSGxMQTdmblhCWWxtOFk4MnJLTWNFakJMODVoakUwSlU1R2vSAYwBQVVfeXFMTmh0RkZKZUZpOWpvd01GMURJdHNVZ2pVcmJlWDZ0ZzBWbTJHS2RoazlETjRWck9LcW9Rb2VHaWNvZ0pobkNobldmN1REWG5WSWRzSmwzZjhVT0M2enVvSVhoZGo0T2pqSXBuMGF4U1NoVUVVOGtYb2lLTjlHTVVCUjZ5MVhHWHk4WFN0Z0Y?oc=5",
+      "publishedAt": "2026-04-01",
+      "sourceType": "news",
+      "text": "The Keepers profit steady at P3.56B in 2025",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "fin-crec-1q2026-ni",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:21.010Z",
+  "ticker": "CREC",
+  "company": "Citicore Renewable Energy Corporation",
+  "category": "financials",
+  "asOf": "2026-06-20",
+  "question": "What net income did Citicore Renewable Energy report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 364000000
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "AP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=381de7fb16b43f0864d70b69f0a3140b",
+      "publishedAt": "2026-02-25",
+      "sourceType": "primary",
+      "text": "Shortening of Corporate Term of Cotabato Ice Plant, Inc.\n\nAboitiz Power Corporation (the “Company”) was informed today by Cotabato Ice Plant, Inc. (“CIPI”), a wholly owned entity of the Company’s subsidiary, Cotabato Light & Power Company, that the Securities and Exchange Commission (SEC) has approved an amendment to its Articles of Incorporation shortening its corporate term to until March 31, 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "FB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5f7e6ffeb228fd3c64d70b69f0a3140b",
+      "publishedAt": "2026-03-10",
+      "sourceType": "primary",
+      "text": "Matters taken up and/or approved by the Board of Directors of the Company at the meeting held on March 10, 2026.\n\nBoard approval of the following:1. The audited consolidated financial statements of the Company as at and for the year ended December 31, 2025 (the “2025 Audited Financial Statements”), and the submission to the SEC, the PSE, and the PDEx of the Annual Report of the Company (or SEC Form 17-A), including the 2025 Audited Financial Statements. The Company posted consolidated revenues of P419.1 billion, consolidated EBITDA of P80.6 billion, consolidated income from operations of P61.0 billion, and consolidated net income of P46.3 billion;2. The 2025 Sustainability Report of the Company, for filing as an attachment to the Company’s Annual Report in SEC Form 17-A for the year ended December 31, 2025. 3. The virtual holding of the Annual Stockholders’ Meeting of the Company on June 3, 2026, Wednesday, 2:00 p.m.,where stockholders may attend and vote through remote communication.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "CREC gets stockholders’ OK for merger, awaits SEC nod",
+      "source": "Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjRVTXQyZkFhVWtfMkFKUW01WmIzeEV2RGo1Qm5YaU1jS29jTWhvajhiLWcwa1ZYN1JHWVpaMVZxeEJzczhiaF9XRU1hUzBOcVRkNkFVWVZsM2czU1JFdEpCTmRtRXh2M0NYc1hVRGM1TDU5Z2xyU2dFSjk0cEpyMTlkZW1aQVFSaWpaNllB?oc=5",
+      "publishedAt": "2026-04-27",
+      "sourceType": "news",
+      "text": "CREC gets stockholders’ OK for merger, awaits SEC nod",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "CREC stock: 1Q 2026 net income",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/crec",
+      "publishedAt": "2026-06-20",
+      "sourceType": "aggregator",
+      "text": "Citicore Renewable Energy Corporation (PSE: CREC), company snapshot.\n1Q 2026 net income: Php 230 million.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d5",
+      "title": "CREC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=867d2f9bb7b7979464d70b69f0a3140b",
+      "publishedAt": "2026-05-15",
+      "sourceType": "primary",
+      "text": "CREC net income jumps 58% to Php 364 million\n\nCiticore Renewable Energy Corporation (CREC, or the “Company”) reports a 58% jump in net income to Php 364 million in the first quarter of 2026, up from Php 230 million in the same period last year, as the Company’s growing renewable energy portfolio continued to deliver stronger profitability.Electricity sales continued to be the biggest contributor to revenues accounting for 85% of Php1.14 billion in revenue for the period. While EBITDA rose 53% to Php 593 million from Php 388 million in 2025, reflecting the positive contribution of the Company’s expanding renewable energy portfolio and the resulting improvement in margins overall.“CREC’s profitability has improved greatly as evidenced by our EBITDA, as we make way for our newly energized solar facilities attributed to our GEAP commitment, among others.” said CREC President and CEO Oliver Tan. “Our Binalonan, Bolbok, and Pagbilao solar plants are scheduled for energization in the second quarter, and when those facilities come online, our revenues and earnings will reflect the full scale of what we have built.” he added.Energization MilestonesRecently, CREC achieved key energization milestones, bringing additional renewable capacity online as part of its ongoing expansion program. The Company successfully energized solar facilities in Pangasinan and Negros Occidental bringing the company’s gross total renewable energy capacity to 791MWp.After successfully injecting new projects into the national grid, CREC marks crucial steps toward its 5 gigawatts in 5 years target, reinforcing CREC’s ability to deliver projects in a much faster pace all the way from development to commercial operations. The Company will also be energizing more solar facilities in Pangasinan, Batangas, and Quezon in the coming quarters as testing and commissioning activities are ongoing.“These recent energizations form part of our delivery of GEA-2 projects, showing our unwavering commitment in helping the government and the Filipino people move towards a truly renewable energy future.” Tan said. “We remain determined to deliver our commitment to developing five gigawatts in five years,” he added.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "CREC profit up 14% to P1.15 billion",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMa3FtMDB5OTgzWXdjRnI5cVNMT1FLc2VZaTNTcVdxNjhhTDBDbVZWNnBvMjdlMWI2REtzckt6QW5aNzAyYUlSemR5SjVsWjd6RS1DSzFUSVk3VndCS2ZXZU11VzNFS29peU96QTdfRzlMZ2wwNHowVXVoQdIBgAFBVV95cUxQZWtZTndvWjhxTThDOHJTcVREckFrcG44UDRfWkhacWZhRktkMWJUbjEtZVRzVThKWXNKeTJDQWR1T25TUXhhankyZERHWDVLNUdscDhyak0wUEo5a3JoN1ZzT1QxSzh5UUwxaFNCOW0zcHBya1I1LWlkOFJISlJ6MQ?oc=5",
+      "publishedAt": "2026-03-30",
+      "sourceType": "news",
+      "text": "CREC profit up 14% to P1.15 billion",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "CREC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=12bf251f0706086f64d70b69f0a3140b",
+      "publishedAt": "2026-06-17",
+      "sourceType": "primary",
+      "text": "CREC rewards shareholders with first cash dividends since public listing\n\nCiticore Renewable Energy Corporation (CREC, or “the Company”) declared cash dividends amounting to Php 250 million, equivalent to Php 0.0224 per share. The declaration marks the CREC’s first dividend since its listing on the Philippine Stock Exchange in June 2024 and reflects the Company’s strong earnings performance and disciplined capital management as it continues to execute its renewable energy growth strategy.In 2025, CREC generated consolidated net income of Php 1.15 billion and net comprehensive income attributable to parent’s shareholders of Php 740.1 million.“Our dividend declaration reflects prudent balance between funding the continued high growth phase of the Company, at the same time rewarding shareholders with a decent yield return,” said CREC President and CEO Oliver Tan. “As we continue to energize more projects, we are converting our pipeline into operating assets that support sustainable growth and shareholder value.”The declaration follows a period of continued growth for the Company, supported by the expansion of its renewable energy portfolio and the ongoing development of its project pipeline.The Board of Directors approved the cash dividend declaration on 17 June 2026. Shareholders of record as of 17 July 2026 will be entitled to receive the dividend, which will be payable on 12 August 2026.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "VVT: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=266339d4e375725d64d70b69f0a3140b",
+      "publishedAt": "2026-03-26",
+      "sourceType": "primary",
+      "text": "Vivant posts double digit growth in 2025, Core Net Income surges 21% to Php 2.7 billion on solid power generation results.\n\nVivant Corporation (the “Company”) informs the Exchange and the Public, its financial and operating results for the year ended December 31, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "Citicore Energy REIT net income holds steady at ₱1.85 billion",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSVU5a3NSVHFfcUVNMjJvRFh2TldnY2tJZWtHampsQUpQdTJLZ1U0ckpXVzhtdmpTenROSTFYRDlYYm91VFY4MGJZMTZnVWRMOGlJR2t3SnpRWmpUaVFmZldjSkxNLUotVzRadlJLSzdoVkdGSUdsQXBack56R2xuTlFjMkprTzRVNmR4NV8wdXZfdw?oc=5",
+      "publishedAt": "2026-03-26",
+      "sourceType": "news",
+      "text": "Citicore Energy REIT net income holds steady at ₱1.85 billion",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

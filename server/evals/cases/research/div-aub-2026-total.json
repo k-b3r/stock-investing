@@ -1,0 +1,105 @@
+{
+  "id": "div-aub-2026-total",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:25.464Z",
+  "ticker": "AUB",
+  "company": "Asia United Bank Corporation",
+  "category": "dividends",
+  "asOf": "2026-07-05",
+  "question": "What is the total cash dividend per share Asia United Bank declared in June 2026, across all tranches?",
+  "answer": {
+    "kind": "amount",
+    "value": 2.5
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "AUB stock: Dividend per share",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/aub",
+      "publishedAt": "2026-07-05",
+      "sourceType": "aggregator",
+      "text": "Asia United Bank Corporation (PSE: AUB), company snapshot.\nDividend per share: P1.00.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d2",
+      "title": "AUB maps out AI-led growth plan",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSjBwXzVWVzhyRzZVeUtCdURySkpBcVYtbmJNOTBYSnZZeFJmRVh4Yl9fVzJJbUZmcEJ6alYzZGM0STJlLUpLeGlOanZUNWJDejhCT0w1MXM1Rm1wcXZBMThaMnBvS2ZwN1B6d1daNzhsRWU1eklLTnBwR3BGQ09ITEN1M0dLdURwY0kwNdIBkwFBVV95cUxPbFNGSlZzUUY4aHFVRDcwdXl2Y1hOZjBqMnV4N0hFOUgwRE4wMVhyZ3p2UG5XbHB6NFNfOGI3Z1FWQVVYZkloQnlYa1llSnlPVzRKNE5EZnpzUDBRN1d3cXAwOVlFVDYwM1J4eVZ1NFlOTHN6UEFqQVl0cE5NcTk3STlCaDlsdXVXRUpUdjBRV2ljb2c?oc=5",
+      "publishedAt": "2026-07-02",
+      "sourceType": "news",
+      "text": "AUB maps out AI-led growth plan",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "AUB: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=18008afb601f12d364d70b69f0a3140b",
+      "publishedAt": "2026-06-26",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nThe Bank’s Board of Directors, upon recommendation of Management, also approved the declaration of cash dividends amounting to Two Pesos and Fifty centavos (P2.50) per share, which is to be paid in three tranches. Conformably with the rules of the Securities and Exchange Commission and the Philippine Stock Exchange, the Record Dates and Payment Dates for the three tranches of the cash dividend declaration shall be as follows:First Tranche:Amount of Dividend - P1.00/share Record Date – July 10, 2026Payment Date– July 30, 2026Second Tranche:Amount of Dividend – P1.00/share Record Date – September 14, 2026Payment Date – September 30, 2026Third Tranche:Amount of Dividend – P0.50/share Record Date – December 2, 2026Payment Date – December 18, 2026\n\nUnrestricted Retained Earnings as of 31 December 2025\n\nThis disclosure covers the first tranche of the declared cash dividends.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "I: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6f0bc6e0950adb9964d70b69f0a3140b",
+      "publishedAt": "2026-01-19",
+      "sourceType": "primary",
+      "text": "Revised Risk Oversight Committee Charter\n\nPlease be informed that during their meeting held on 16 January 2026, the Board of Directors of the Corporation, have approved the revised Risk Oversight Committee Charter",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "AUB taps generative AI to expand MSME lending",
+      "source": "Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb2dIQ3lwMEg2cDl6WFo1aGNsQnpYenJvUTlzcnBkcWc1R3JKS3VYN0ZFLURQYlF0RDRkQy1WNnZoNHlzQVFMMGI2SkxWckxnbkd1NVBLcU03OTJwX09jU1M4V1dsMEIteEdpVDVnWm9rT3JRTWhGdnJ1dm01QzIzQm15SFdXZw?oc=5",
+      "publishedAt": "2026-07-01",
+      "sourceType": "news",
+      "text": "AUB taps generative AI to expand MSME lending",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "BSC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c7da26402f26952164d70b69f0a3140b",
+      "publishedAt": "2026-01-15",
+      "sourceType": "primary",
+      "text": "DOE Certificate of Award for BSC Cadiz 1 Solar Power Plant (GEA-4)\n\nBasic Energy Corporation (“BEC” or the “Company”) wishes to inform the Philippine Stock Exchange that it has received a Certificate of Award from the Department of Energy (DOE) for its Cadiz 1 Solar Power Plant under the Fourth Round of the Green Energy Auction Program (GEA-4).The Cadiz 1 Solar Power Plant is a 43.410 MWAC renewable energy project located in Cadiz City, Negros Occidental, which has been previously disclosed by the Company as part of its growing solar development portfolio in the Visayas. Under the Certificate of Award, BEC was confirmed as a Winning Bidder and is entitled to proceed with the project, subject to compliance with the terms and conditions of the Green Energy Auction Program and the execution of the relevant project agreements.The project is committed for delivery to the Visayas Grid with a targeted commercial operations date of on or before 31 December 2026. Development activities for the Cadiz 1 Solar Power Plant are ongoing, consistent with the Company’s previously disclosed timelines and strategy to advance utility-scale renewable energy projects.The Company will provide further disclosures as material milestones are achieved.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "AUB boosts capital to ₱72 billion as lender accelerates digital strategy",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSUdNQm5YZHlQb1hfbDZfbE55c2pVRTBHOTAxaWU3SGdMbHhmbmFaeWVsb2tVLTYwSV9TeUo4dnJKN1hFSFIybmJscXgtdjBMT0F5UWNYT0dkdkJBUnUxOU1BX2ZwTEVsWVA3VWJoTHFaX2xLT0luTDV0a1NFYWJzM2hLSE9QeU43dnVUc2xfWHkwUUs4ajNRM1JrX0E0cDUySVE?oc=5",
+      "publishedAt": "2026-07-02",
+      "sourceType": "news",
+      "text": "AUB boosts capital to ₱72 billion as lender accelerates digital strategy",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "SGP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e37be8f44f5886ad64d70b69f0a3140b",
+      "publishedAt": "2026-03-27",
+      "sourceType": "primary",
+      "text": "Results of the Regular Meeting of the Board of Directors\n\nAt the Regular Meeting of the Board of Directors held today, 27 March 2026, the following matters were approved:1. Approval of the Minutes of the Regular Board Meeting held on 27 November 2025; 2. Approval of the Audited Financial Statements as of 31 December 2025; and3. Declaration of cash dividends from the Company’s unrestricted retained earnings in view of the dividends received from National Grid Corporation of the Philippines, Pacifica21 Holdings, Inc. and OneTaipan Holdings, Inc.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

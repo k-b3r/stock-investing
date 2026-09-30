@@ -1,0 +1,105 @@
+{
+  "id": "fin-pgold-1q2026-ni",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:11.230Z",
+  "ticker": "PGOLD",
+  "company": "Puregold Price Club, Inc.",
+  "category": "financials",
+  "asOf": "2026-05-20",
+  "question": "What consolidated net income did Puregold report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 3260000000
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "S&R traffic boosts Puregold first-quarter sales to ₱59 billion",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVHhuVHdWQVRMVThDRUJ0QVdvNFBtQkcwT2hDWXY3cHdHVlFDUTlSdzFIbUJod3hGbjVHcmVsQVhpc0lSZGVGZnlQUG9NR0c2SWtUSHQ3SzNQTHZpNEdWRTZCUEhOSHdyVHVFYjhzcmhfYjRZNkRWRHlvN0h0Y2xidmViQm5MOE5mVjBBTW9tWTdhSDQ?oc=5",
+      "publishedAt": "2026-05-07",
+      "sourceType": "news",
+      "text": "S&R traffic boosts Puregold first-quarter sales to ₱59 billion",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "LOTO: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=85e87fd596a9241564d70b69f0a3140b",
+      "publishedAt": "2026-02-11",
+      "sourceType": "primary",
+      "text": "Divestment from HHR Philippines, Inc.\n\nFurther to our disclosure dated 29 January 2025 through which we advised the investing public that Pacific Online Systems Corporation (the ‘Company’ or ‘LOTO’) will be acquiring 37.5% of HHR Philippines, Inc. (HHRPI).Because of the firm policy adopted by the national government against the licensing of online betting platforms, please be advised that the Company and HHRPI have mutually agreed to revisit their investment arrangement and unwind the same, with a private third party investor agreeing to assume the rights and obligations of the Company from its HHRPI investment. With this unwinding, the Company will cease to be a shareholder of record of HHRPI as soon as certain regulatory compliances are complied with.As HHRPI is still in early operation stage, the unwinding of LOTO’s investment in the company is not expected to have any significant impact on LOTO’s financials.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "PGOLD stock: 1Q net income",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/pgold",
+      "publishedAt": "2026-05-20",
+      "sourceType": "aggregator",
+      "text": "Puregold Price Club, Inc. (PSE: PGOLD), company snapshot.\n1Q net income: Php 2.64 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "FCG: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6b9425347bd3bd1264d70b69f0a3140b",
+      "publishedAt": "2026-02-13",
+      "sourceType": "primary",
+      "text": "Results of the meeting of the Board of Directors of the Figaro Culinary Group, Inc. (\"FCG\").\n\nPlease be informed that the Board of Directors of the Company, in its meeting held today, 13 February 2026, approved the Quarterly Report (Q2) for the quarter period ending 31 December 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Puregold Q1 earnings rise 24% to P3.26 billion",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ0t3RlcxdFlxanJBTUswb2J4MDloTE9jWjd5UUlDWEtraFpEdXc4eXJoR1RsUW5OeHJ3bWRmRXA3N2ptX0tYcmFXSnV6bUNjeW1Nb0NrYXpkdEtwUUFETzFDcFF4SnY1MEVVeWZhdnJlZERFdXJoU2xPRGVJaWlLWmJmWmpucjhLRHfSAY8BQVVfeXFMUE1tdVA5elpydVZvQ29UNzdzUmZYTEFnSjR4N0pRSUswdTlkcVlxeVZhMUR5ZDExVV9DUVNMTEFvRHhNMGZGd1BvS0V4OTdLSG9JU3JFT19YS09JWEU5cmpvR21LcEs4LVhMUFVTUG1MbkF5ZDk3TVpMcE5DSzJ4YWlYdWRjQmpCTHA1bEFxdms?oc=5",
+      "publishedAt": "2026-05-07",
+      "sourceType": "news",
+      "text": "Puregold Q1 earnings rise 24% to P3.26 billion",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "PGOLD: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5c8cdf7da493f87564d70b69f0a3140b",
+      "publishedAt": "2026-05-07",
+      "sourceType": "primary",
+      "text": "Press Release entitled \"Puregold First Quarter 2026 net income jump 23.7% to P 3.26 billion\"\n\nManila, Philippines – Grocery retail leader Puregold Price Club, Inc. (PGOLD) grew consolidated revenues to Php 58.78 billion for the first quarter 2026, up 12.1% growth from Php 52.42 billion in the same period of 2025. For the first quarter of 2026, the enterprise experienced positive same store sales growth (SSSG) of +5.4% from Puregold Stores driven by higher basket size and +12% from S&R Warehouse clubs driven by higher traffic.PGOLD consolidated net income for the first quarter 2026 jumped by 23.7% year on year to Php 3.26 billion from Php 2.64 billion driven by strong topline growth and complemented by improvement in gross margins.As of end March 2026, PGOLD operates a total of 790 stores nationwide, comprising 685 Puregold stores, 33 S&R Membership Shopping Warehouses, and 72 S&R New York Style QSRs",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Puregold operator net income up 21 pct in first quarter",
+      "source": "ABS-CBN",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdW02d1h0UXhHZmhpaDVWY2tFMkttRm5wVVY2N3pBaXZZbEVRRWxVRW5kZW5PcUFnS1hib0pOZUJwcWJieWd0aDJUQVRlWjJXczNCTUJYdkZlUXFQYlBqdDgzREp1bzBuRU00UkI4U0NSeUgwZmZMRERacV9ibFVMSDkwRW1BMnozRjRrZ0pBUUoxb0VqbDRPX1JnNlBXV1hPUlB0eXYxN3NhQ2M?oc=5",
+      "publishedAt": "2026-05-08",
+      "sourceType": "news",
+      "text": "Puregold operator net income up 21 pct in first quarter",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "AP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5477c2b80f3087cfec6e1601ccee8f59",
+      "publishedAt": "2025-11-25",
+      "sourceType": "primary",
+      "text": "Matters Approved by Aboitiz Power Corporation's Board of Directors During its November 25, 2025 Regular Board Meeting\n\nDuring its regular meeting held today, the Board of Directors of Aboitiz Power Corporation (AboitizPower or the “Company”) approved the creation of a Board Finance Committee (the “Committee”), the appointment of its members, and the adoption of its charter.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

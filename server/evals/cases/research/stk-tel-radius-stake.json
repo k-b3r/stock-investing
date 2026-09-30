@@ -1,0 +1,105 @@
+{
+  "id": "stk-tel-radius-stake",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:00.063Z",
+  "ticker": "TEL",
+  "company": "PLDT Inc.",
+  "category": "stakes",
+  "asOf": "2026-05-31",
+  "question": "What equity interest in Radius Telecoms did PLDT's board approve acquiring in May 2026?",
+  "answer": {
+    "kind": "percent",
+    "value": 65.1
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "PLDT to take full ownership of Radius Telecoms",
+      "source": "businessmirror.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUmZtY2VRUFpLcXdEZkp1MWljRHViMmw2cnUwNGRXM2lvWUdROEl3YW1WZFUyRGpLRmVRakdPMFRITW9FWEpqaVhvOXBnakdMZzBVU09qMFVIUURObG15MFFhZTVWR2V2UWVOd1F2YnBYeGQxUjctSGIxX0VFa2xvemUxbC11WldPMHBlTUNHUEpiZw?oc=5",
+      "publishedAt": "2026-05-14",
+      "sourceType": "news",
+      "text": "PLDT to take full ownership of Radius Telecoms",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "MONDE: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=310f9c24299936c264d70b69f0a3140b",
+      "publishedAt": "2026-05-06",
+      "sourceType": "primary",
+      "text": "Monde Nissin Reports Strong Q1 with 9.1% Revenue Growth, and Record Core Net Income Attributable to Shareholders of Php 3.3 bn, an Increase of 11.3%\n\nMONDE’s Press Release titled “Monde Nissin Reports Strong Q1 with 9.1% Revenue Growth, and Record Core Net Income Attributable to Shareholders of Php 3.3 bn, an Increase of 11.3%”, in connection with its Q1 2026 Earnings Results Briefing. Some highlights of the press release: • Consolidated revenue for the first quarter increased by 9.1% to Php 22.8 bn.• Core net income attributable to shareholders increased by 11.3% to Php 3.3 bn, driven by higher gross profit.• Reported net income grew by 34.1% to Php 3.7 bn, driven by a Php 210 mn non-cash gain from the fair value adjustment of the Meat Alternative guaranty asset, compared to a Php 290 mn non-cash loss in the previous year, as well as foreign exchange gains.The full text of the press release is attached.\n\nPlease also find attached the press release’s corresponding SEC Form 17C.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "TEL stock: PLDT stake in Radius",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/tel",
+      "publishedAt": "2026-05-31",
+      "sourceType": "aggregator",
+      "text": "PLDT Inc. (PSE: TEL), company snapshot.\nPLDT stake in Radius: 34.9%.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "Meralco to sell 65% stake in Radius Telecoms to PLDT for PHP 2.9B",
+      "source": "Power Philippines",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUkc1dWFyTldQTkFQVG9nZUJ4Uk1BYmE2YWU1TmJ2VG1sZTNyM3hRV1FOcDN2NmRzUWFqbzRhd1cweWNVOXExVzZobFBscS01V3ptQWd5UXVOVHBGeWZfY1NENVFlSFNDakNmVGFSRG5KeXozN0FhTlV6ckY0VV9WdVNSdGpSZjZQak1JUGNEcFI5MHYyeUNTUTlB?oc=5",
+      "publishedAt": "2026-05-04",
+      "sourceType": "news",
+      "text": "Meralco to sell 65% stake in Radius Telecoms to PLDT for PHP 2.9B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "FCG: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d8a7c41c382035b4ec6e1601ccee8f59",
+      "publishedAt": "2025-12-18",
+      "sourceType": "primary",
+      "text": "Press Release article - Figaro Establishes Innovation Subsidiary to Expand Food Manufacturing Capability.\n\nPasay City, Philippines – December 12, 2026 — Figaro Culinary Group, a publicly listed food and beverage company, continues to strengthen its long-term growth strategy with the establishment and expansion of Figaro Innovation and Development Inc. (FIDI), a wholly owned subsidiary created to broaden the Group’s food product offerings, enhance manufacturing capabilities, and prepare for future export opportunities.This strategic direction was underscored by the recent ceremonial signing of a Supplemental Agreement between FIDI and the Philippine Economic Zone Authority (PEZA), held in Pasay City. The agreement reaffirms FIDI’s status as a PEZA- registered export enterprise, supporting its operations at the Laguna Technopark – Special Economic Zone and enabling the manufacturing of products such as Anghel Kape and other food innovations under the Figaro Culinary Group portfolio.FIDI was established by Figaro Culinary Group to serve as its dedicated innovation and manufacturing arm, allowing the Group to scale food production beyond its retail brands while building capabilities for both domestic distribution and eventual export markets. Through FIDI, the Group aims to develop new food formats, improve production efficiency, and strengthen quality standards aligned with international requirements.The Supplemental Agreement builds on FIDI’s existing PEZA Certificate of Registration, which recognizes the company’s registered activities as an export enterprise engaged in toll manufacturing of coffee mixes and food products.Present at the signing were Brian Gregory Liu, Chairman of Figaro Innovation and Development Inc.; Tereso O. Panga, Director General of PEZA; Joy Anidelle Alguso, Deputy Director General of PEZA; and Jose Petronio Español, Chief Financial Officer of FIDI.“This agreement supports Figaro Culinary Group’s broader vision of expanding its food platforms beyond retail, strengthening manufacturing, and positioning our brands for future growth,” said Español.PEZA Director General Panga likewise emphasized the importance of companies like FIDI in driving innovation, development, and inclusive growth within economic zones.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "IPO: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=65c503856930666b64d70b69f0a3140b",
+      "publishedAt": "2026-04-10",
+      "sourceType": "primary",
+      "text": "Regular Meeting of the Board of Directors of iPeople, inc. held on 08 April 2026.\n\nAt the Regular Meeting of the Board of Directors of the Company, at which meeting a quorum was present and actingthroughout, the following matters were discussed and approved:1. Approval of the 2025 Audited Consolidated Financial Statements of iPeople, inc. and its Subsidiaries.2. Declaration of a Cash Dividend of Php 0.2312727 per common share, or a total amount of Php 241,509,571.47 from the Company’s unrestricted retained earnings as of December 31, 2025, to all stockholders of record as of May 8, 2026, and payable on or before May 29, 2026.3. Approval of the 2025 Sustainability Report of iPeople, inc.4. Approval of the 2025 Integrated Annual Corporate Governance Report (I-ACGR) of iPeople, inc.5. Approval of the date of the Annual Stockholders Meeting.6. Confirmation and ratification of all items in the agenda that need Board Approval",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "PLDT Completes ₱2.94-B Radius Telecoms Takeover, Secures Full Ownership of Fiber Infrastructure Provider",
+      "source": "Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNGFpemlhN3IzM0lsd0hkd1d5elg0OWRYMGxtT1kydi1ScGZFVFp3OEtLc2kzTkRkeXlaanhWVVRJN3RBTnkzZWJySE0yYWZLSmJTTk9Qd1dvc3BEdXdWRm4yRmVIUjNoTG9kSVNiQ3BFUTJ6YVlWRnZGeEFMOTZrTG8tdDhCZw?oc=5",
+      "publishedAt": "2026-05-14",
+      "sourceType": "news",
+      "text": "PLDT Completes ₱2.94-B Radius Telecoms Takeover, Secures Full Ownership of Fiber Infrastructure Provider",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "TEL: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bebf919944ad394c64d70b69f0a3140b",
+      "publishedAt": "2026-05-14",
+      "sourceType": "primary",
+      "text": "Proposed acquisition by PLDT Inc. (\"PLDT\") of the remaining 65.1% equity interest in Radius Telecoms, Inc. (\"Radius\")\n\nOn May 14, 2026, the Board of Directors of PLDT (the \"Board\") approved the proposed acquisition by PLDT of 4,647,494 common shares of Radius, representing the remaining 65.1% equity interest in Radius, from Paragon Vertical Corporation (\"Paragon\"), subject to the execution of definitive agreements and the satisfaction of applicable closing conditions (the \"Proposed Acquisition\").PLDT currently owns 34.9% of the total issued and outstanding capital stock of Radius. Upon completion of the Proposed Acquisition, PLDT will own 100% of the total issued and outstanding capital stock of Radius.The other details of the Proposed Acquisition are set out below.\n\nThe Proposed Acquisition will allow PLDT to complete its ownership of Radius. Radius owns fiber facilities that serve enterprise buildings, residential multi-dwelling units, and villages.\n\nPLDT will acquire from Paragon 4,647,494 common shares of Radius, representing 65.1% of the total issued and outstanding capital stock of Radius, pursuant to definitive agreements to be executed by the parties.\n\nRadius is a corporation duly organized under Philippine laws and with office address at 12th Floor, Tower 2, Rockwell Business Center, Ortigas Avenue, Pasig City. Radius holds a congressional telecommunications franchise to construct, install, establish, operate, and maintain for commercial purposes and in the public interest, the business of providing basic and enhanced telecommunications services in the Philippines, and between the Philippines and other countries and territories.Radius is currently 65.1% owned by Paragon and 34.9% owned by PLDT. Paragon is a wholly-owned subsidiary of e-Meralco Ventures, Inc., a wholly-owned subsidiary of the Manila Electric Company (\"MERALCO\").\n\nThe amount of consideration for the Proposed Acquisition is Php2,935,000,000.00.\n\nThe amount of consideration for the Proposed Acquisition was determined based on the business valuation of Radius using financial projections and future cash flows, and negotiations between PLDT and Paragon.\n\nThe purchase price shall be payable in cash as follows: (a) 60% of the purchase price shall be paid at closing; and (b) 40% of the purchase price shall be paid on or before the date falling ten (10) months from closing, or on such earlier date as PLDT may determine.\n\nThe closing of the Proposed Acquisition shall be subject to the satisfa",
+      "role": "answer",
+      "synthetic": false
+    }
+  ]
+}

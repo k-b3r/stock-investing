@@ -1,0 +1,104 @@
+{
+  "id": "nf-gsmi-apr2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:34.763Z",
+  "ticker": "GSMI",
+  "company": "Ginebra San Miguel Inc.",
+  "category": "dividends",
+  "asOf": "2026-05-10",
+  "question": "How much per share is the cash dividend Ginebra San Miguel declared on April 30, 2026?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "I: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=29dc970887d6e36764d70b69f0a3140b",
+      "publishedAt": "2026-01-19",
+      "sourceType": "primary",
+      "text": "Revised Corporate Governance and Compliance Committee Charter\n\nPlease be informed that during their meeting held on 16 January 2026, the Board of Directors of the Corporation, have approved the revised Corporate Governance and Compliance Committee Charter.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "PBA: San Miguel deserved win over Ginebra, says Scottie Thompson",
+      "source": "Inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQkV0S19XM1NpSk1UbVVPZ29JNFlGMEkzNDBGMkxIQ3hOa0JWRnFmbHBXZ1psdldyZGcwWmVZaFVBeGYzZjVYMG5tR2xWUUI2NnV6SGw1Y1pxSVM2WHlsczVSZkZQcGUwaFBfRTVLRl8yNUFsODZ2eV90VGhNUHdXLUdRZUhPS2hub0dDbHZnaGtENWd4bEhmd04xRXp0Z9IBowFBVV95cUxQZFlXZVZFcGFXR2NnQW54OXpzU09TZVM1U2FGM2ZHNlZ0RjVpeHpVSTFKZEM4dmtpZXJuVU1ucFZjajM3SFlVYk51NWhXa0ZvcWR1SkY2eU12dHVXa1lySGVkbHJvb0JhR0FRRExnR3ZqUWQ0dDJWaHJHYmZscEhrT2FDczY4YTdpTndHRk53VDhINTk1dHNnNnJJdWh6WVlIYUl3?oc=5",
+      "publishedAt": "2026-01-16",
+      "sourceType": "news",
+      "text": "PBA: San Miguel deserved win over Ginebra, says Scottie Thompson",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "ROCK: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=44b8ce9d18c39b99ec6e1601ccee8f59",
+      "publishedAt": "2025-12-22",
+      "sourceType": "primary",
+      "text": "Purchase of 74.8% stake in Alabang Commercial Corporation (ACC)\n\nRockwell Land Corporation (PSE: ROCK) executed today share purchase agreements (SPA) with Mr. Francisco M. Bayot, Jr. and other shareholders of ACC.\n\nWith the acquisition, ROCK will have the opportunity to expand its footprint in a prime location with long term redevelopment opportunities. The existing assets of ACC will add 137,000 sqm of gross leasable area to ROCK's existing retail and office portfolio, representing a 58% growth.\n\nROCK executed SPAs with Mr. Francisco M. Bayot, Jr. and other ACC Shareholders.\n\nACC is a domestic corporation that owns and operates Alabang Town Center, a shopping mall located in Muntinlupa City.\n\nTotal consideration of Php 21.6 Billion will be paid in 3 equal installments.\n\nArms-length negotiations\n\n3 equal installment payments due on or before December 22, 2025, December 15, 2026 and December 15, 2027\n\nUsual Conditions\n\n58% increase in ROCKs gross leasable area.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "MARC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f784fd674c6165be64d70b69f0a3140b",
+      "publishedAt": "2026-01-23",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividend from MMDC to MHI\n\nWe advise that on January 23, 2026, the Board of Directors of Marcventures Mining and Development Corporation (MMDC), a subsidiary of Marcventures Holdings, Inc. (MHI), approved the declaration of a cash dividend to MHI, the sole beneficial owner and stockholder of record amounting to Four Hundred Million Pesos (Php400,000,000.00) with a record date on January 27, 2027 payable on January 28, 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Ginebra San Miguel Q1 profit rises to P2.3B",
+      "source": "The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWGxFLTlId1lXY2RFbFl3SW10YVZadktJNE9BWm1KUmVwaVlrWjZZc1pjT2NLOTNYczV1NzRLX29lYks2cEVoU2NCZzR1STNKYzczYjNtTUVsTzNRdWJOODRYWW8ycG13ekMyTFJaemNrTTFKaHlVZG9BY29Bc2ZZcHhoV3FLdF9yUkpYQVBUOFIzSHNNU0hRMkRJU3VrdnFVY1lDSzZ6N29lWGhQMG1JdndHMNIBuAFBVV95cUxQTWJCM0tzNGtmNDFlSVR3bGlLY3hfdW5tLXM0WlVHcEhhWGo3cVQxdFhIMFBHbktlV3N4RGZxVXNzbmJyTFBadkEyUkt5Vkk4SzdHT2sxN1hlSUFyMlFxMGJMWmRnSXVXT255dEFoQVY2LVZDYTN5V1ZyNTEwQkdnREFUc2hKTDJXY3VjREhaOEtLcFJKbXRBTC1mb21kMy1WU1hTYTNCWTRwR3BvQThqVUJLUnUzaE5j?oc=5",
+      "publishedAt": "2026-05-02",
+      "sourceType": "news",
+      "text": "Ginebra San Miguel Q1 profit rises to P2.3B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "GSMI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8934eb26b151e30164d70b69f0a3140b",
+      "publishedAt": "2026-04-30",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends to Shareholders\n\nPlease be informed that at the meeting of the Board of Directors of Ginebra San Miguel Inc. (the \"Board\") held on April 30, 2026, the Board approved the declaration and payment of cash dividends on common shares to all shareholders of record as of May 19, 2026.\n\nUnappropriated retained earnings of March 31, 2026.\n\nThe Stock and Transfer Book of the Company will be closed from May 20- 24, 2026. Please see attached SEC Form 17-C which we filed with the Securities and Exchange Commission today, April 30, 2026.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Barangay Ginebra San Miguel defeats Magnolia Chicken Timplados Hotshots, 91-89, during the PBA Season 50 Commissioners Cup at the Mall of Asia Arena on Friday. (Photos by Russell Palma/The Philippine STAR)",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU1EyMkxsUW1ZcjBhaHJnWFdpVGtqaGp0XzEycEQ2TGczaXMxRENnRFBXallxOU0wZ3hwQU5HQ2dvLXRQUEhhRmpjOXNQdGx0TlE4bXdNNjNQeG92eGNjUEp0NTVRcy1sWWc3Z1pVZmxaY3dCNkdUVWJxcWNoTnJTeS1qYl9Nd2RWRlpFd0tNMjFpaDg0R1RKOVlBSXU3NDE2NHk2Q1BSWHd4d2dlak5pUERmeWRHRzdjQzlheHlWS2ZMc1J2bVhxcVhlZndmeHVUM1cyOXFkbFVPTm5L?oc=5",
+      "publishedAt": "2026-04-10",
+      "sourceType": "news",
+      "text": "Barangay Ginebra San Miguel defeats Magnolia Chicken Timplados Hotshots, 91-89, during the PBA Season 50 Commissioners Cup at the Mall of Asia Arena on Friday. (Photos by Russell Palma/The Philippine STAR)",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "GSMI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=138e03bb1c7817dd64d70b69f0a3140b",
+      "publishedAt": "2026-03-05",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends to Shareholders\n\nPlease be informed that at the meeting of the Board of Directors of Ginebra San Miguel Inc. (the \"Board\") held on March 5, 2026, the Board approved the declaration and payment of cash dividends on common shares to all shareholders of record as of March 23, 2026.\n\nUnappropriated retained earnings of December 31, 2025.\n\nThe Stock and Transfer Book of the Company will be closed from March 24- 29, 2026. Please see attached SEC Form 17-C which we filed with the Securities and Exchange Commission today, March 5, 2026, through e-fast.",
+      "role": "stale",
+      "synthetic": false
+    }
+  ]
+}

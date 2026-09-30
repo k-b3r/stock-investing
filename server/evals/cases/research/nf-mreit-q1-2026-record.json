@@ -1,0 +1,82 @@
+{
+  "id": "nf-mreit-q1-2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:54.763Z",
+  "ticker": "MREIT",
+  "company": "MREIT, Inc.",
+  "category": "dividends",
+  "asOf": "2026-05-15",
+  "question": "What is the record date of MREIT's cash dividend for the quarter ending 31 March 2026?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "FILRT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ecf7ce66bb53767164d70b69f0a3140b",
+      "publishedAt": "2026-02-20",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends\n\nPlease be informed that at its meeting today, 20 February 2026, the Board of Directors of Filinvest REIT Corp. (“FILRT”) approved the declaration of quarterly cash dividends in the amount of Php0.06 per share to all stockholders of record as of 09 March 2026 and with payment date of 19 March 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "MREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=754c8ebd99c160a364d70b69f0a3140b",
+      "publishedAt": "2026-04-30",
+      "sourceType": "primary",
+      "text": "Cash Dividend Declaration\n\nThe Board of Directors of MREIT, Inc. (the “Company”) declared cash dividends of Php0.2630 per outstanding common share for the quarter ending 31 March 2026.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "MREIT posts record Q1 income of P1.25B",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSmpTeVh4T1dsMktQTElvLXNjY2dJVVZ6aVFRWXRpcDFpQ3lVbFB6ZkVXMGNCZzB1bEZfYUZscmRNMmwwRWNNLXpkMkdWNzZQaF9fU2Z0ME9ZRGxsZ2dzR0wwcHNoOTU5SG9YelpaRkUxeks5WDRyM21zOVZPM05qZtIBhgFBVV95cUxPamFLUEpZYjhybkVjV2VrVzRMcDl4Q19tZHhUekpfYnh0QTZpVy1MZ3EyQ1pLX3lYcWdhWG1JcjBQMjA1M0lSc2NLOWJOQUNIMW5MQVVEb1VwSTNVemdVUVZURnQ5TFJldWdvTk5uQ2NJRkstLXhMRTJuT3JuS25kcVBXNmQ0Zw?oc=5",
+      "publishedAt": "2026-04-23",
+      "sourceType": "news",
+      "text": "MREIT posts record Q1 income of P1.25B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "MONDE: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=310f9c24299936c264d70b69f0a3140b",
+      "publishedAt": "2026-05-06",
+      "sourceType": "primary",
+      "text": "Monde Nissin Reports Strong Q1 with 9.1% Revenue Growth, and Record Core Net Income Attributable to Shareholders of Php 3.3 bn, an Increase of 11.3%\n\nMONDE’s Press Release titled “Monde Nissin Reports Strong Q1 with 9.1% Revenue Growth, and Record Core Net Income Attributable to Shareholders of Php 3.3 bn, an Increase of 11.3%”, in connection with its Q1 2026 Earnings Results Briefing. Some highlights of the press release: • Consolidated revenue for the first quarter increased by 9.1% to Php 22.8 bn.• Core net income attributable to shareholders increased by 11.3% to Php 3.3 bn, driven by higher gross profit.• Reported net income grew by 34.1% to Php 3.7 bn, driven by a Php 210 mn non-cash gain from the fair value adjustment of the Meat Alternative guaranty asset, compared to a Php 290 mn non-cash loss in the previous year, as well as foreign exchange gains.The full text of the press release is attached.\n\nPlease also find attached the press release’s corresponding SEC Form 17C.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "HTI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f9012ccb14d118c7ec6e1601ccee8f59",
+      "publishedAt": "2025-12-23",
+      "sourceType": "primary",
+      "text": "HTI Gets PRS A with Stable Outlook from PhilRatings\n\nPlease be informed that the Philippine Rating Services Corporation (“PhilRatings”) has assigned an Issue Credit Rating of PRS A, with a Stable Outlook, to HTI's proposed bond issuance amounting to Php1.0 billion, with an oversubscription option of up to Php1.0 billion.Per Philratings’ report, obligations rated PRS A have favorable investment attributes and are considered as upper-medium grade obligations. Although obligations rated ‘PRS A’ are somewhat more susceptible to the adverse effects of changes in economic conditions, the obligor’s capacity to meet its financial commitments on the obligation is still strong. An Issue Credit Rating of PRS A is considered an investment grade credit rating. A Stable Outlook, on the other hand, indicates that the rating is likely to be maintained or to remain unchanged in the next 12 months. The assigned rating and the corresponding Outlook take into account the following key considerations:1.Strong growth opportunity given its focus on underserved housing market segmentsin key growth areas within and around Metro Manila;2.Able to sell-out its properties, although its size, scale and geographic presence arecurrently limited compared to much larger competitors;3.Target market may be more vulnerable to economic downturns, albeit the Companyrecorded a strong collection performance and revenue growth during the pandemic;4. Sustained earnings growth; and5. Ample liquidity with a relatively conservative capital structure, albeit with rising debt levels to support growth in recent years.Attached is the credit rating report PhilRatings, for reference.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "MREIT: [Amend-1]Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7d510a5e6c2bb63a64d70b69f0a3140b",
+      "publishedAt": "2026-03-03",
+      "sourceType": "primary",
+      "text": "Cash Dividend Declaration\n\nThe Board of Directors of MREIT, Inc. (the “Company”) declared cash dividends of Php0.250478 per outstanding common share for the quarter ending 31 December 2025.\n\nThis disclosure is being amended to correct a typographical error on the SEC Form 17-C regarding payment date. All other information is unchanged.",
+      "role": "stale",
+      "synthetic": false
+    }
+  ]
+}

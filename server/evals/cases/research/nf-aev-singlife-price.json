@@ -1,0 +1,93 @@
+{
+  "id": "nf-aev-singlife-price",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:57.925Z",
+  "ticker": "AEV",
+  "company": "Aboitiz Equity Ventures Inc.",
+  "category": "stakes",
+  "asOf": "2026-03-25",
+  "question": "For how much did Aboitiz Equity Ventures sell its shares in SingLife Philippines?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "AEV: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=4bd54c81057e106c64d70b69f0a3140b",
+      "publishedAt": "2026-03-10",
+      "sourceType": "primary",
+      "text": "Sale of Aboitiz Equity Ventures Inc.’s (AEV, or the “Company”) Shares in Singapore Life (Philippines), Inc. (“SingLife Philippines”).\n\nOn March 10, 2026, AEV and Singapore Life Holdings Pte. Ltd. (“SLHP”) executed a Deed of Assignment covering the sale and assignment of all AEV-owned shares in SingLife Philippines.\n\nThe transaction aligns with AEV’s strategic portfolio optimization initiatives and allows the Company to redeploy capital toward core businesses and higher-priority growth opportunities.\n\nDisposition by way of direct sale of shares\n\nSingLife Philippines is a fully digital life insurance company in the Philippines offering accessible life, health, and protection insurance products through its app platform.\n\nCash payment\n\nValuation agreed by the parties based on a willing-buyer, willing-seller basis.\n\nOne-time lump sum payment at closing.\n\nCustomary closing conditions such as the issuance of Certificate Authorizing Registration from the Bureau of Internal Revenue, among others.\n\nThe completion of the transaction marks the complete divestment of AEV from SingLife Philippines.\n\nNone.Please see attached.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "IMI: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cd2b08eb9c240fa8ec6e1601ccee8f59",
+      "publishedAt": "2025-11-28",
+      "sourceType": "primary",
+      "text": "IMI Sells Stake in VIA Optronics Holding AG (“VIA”) in Strategic Divestment\n\nIntegrated Micro-Electronics (IMI), through Cooperatief IMI Europe U.A., sold its 50.32% stake in VIA to some members of the latter’s management and advisory team.\n\nThis strategic divestment is part of IMI’s portfolio realignment strategy which aims to sharpen the company’s focus on its core strengths in the automotive and industrial EMS sectors. The move also supports the optimization of IMI’s global footprint to concentrate capital and management allocation into high-growth, high-profitability markets.\n\nThe sale will be effected by delivering the shares through Clearstream Banking AG. The parties have agreed to a consideration structure with both fixed and post-closing variable earn-out components (contingent on certain pre-agreed terms).\n\n50.32% stake in VIA, a leading provider of interactive display solutions for multiple end markets.\n\nInitial upfront cash payment of EUR250,000.00 to be made prior to closing.\n\nThe amount of consideration was determined based on mutual agreement of the parties.\n\nThe parties have agreed to a consideration structure with both fixed and post-closing variable earn-out components.\n\nSettlement of initial upfront payment.\n\nReduction of overhead and administrative expensesDecrease of consolidated net debt.Increased management focus and capital allocation to core businesses.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "Aboitiz Equity Ventures shares rise on power, real estate developments",
+      "source": "BusinessWorld",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZWhBbWNsY1Y0ODlYLXdnbXZ2T05oN2t6T0hXWWJyQVdNblFlcEJ0Mzc4Z283cThWRnpoY0lELVRRWG5IN2xlbDlTeWZkUjZzUGV2bTBxSVZZOEh0M3pXd2dIY2w4ZDBhQk5nYkJ2SWVBT0NRUXVfbjBtSWpQSmx1ak1WTGU1ZWxqNmRJY19OUE1zbXZSUFJrcTFCNjdGWkZ1alYxWHcxM2dnZjF4M3BULU9YS3RNUVJNdHFWN2pqOW4?oc=5",
+      "publishedAt": "2026-02-16",
+      "sourceType": "news",
+      "text": "Aboitiz Equity Ventures shares rise on power, real estate developments",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Aboitiz Equity Ventures Finds New Life For Old Hardware",
+      "source": "Aboitiz Eyes",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY0hWZkNOQ08tRlBSTDV5blVaWTE0TV9fNG1Ec1pKczBYcWVuNTN3dWVaSmZXU2tRZnFGMHFYTHo0eDVHTEZIM3RmcmdsS2stYjQ1cjNZSVFrRlUxSXZ4SWpMQ1M0MWhjaXo0ZDdCZm93N0hPTHVBMVQwcE9DeFRRTy1wamJHU0VSaEI1U05kRF8wLVpNb21rVHZiWms3b0RVZkNJ?oc=5",
+      "publishedAt": "2026-01-29",
+      "sourceType": "news",
+      "text": "Aboitiz Equity Ventures Finds New Life For Old Hardware",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "ANS: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d6850ae75317b1f6ec6e1601ccee8f59",
+      "publishedAt": "2025-10-02",
+      "sourceType": "primary",
+      "text": "Other Event – Sale of shares of stock in TBG Food Holdings, Inc.\n\nOn October 1, 2025, A. Soriano Corporation (“Anscor”) executed a Deed of Sale with Inoza Business Holdings, Inc. (“Inoza”) covering the sale of its entire minority stake in TBG Food Holdings, Inc. (“TBG”) for a total consideration of PHP1,914,000,000.00.The transaction represents value realization by Anscor of its investment in TBG. Anscor realized gross annualized returns greater than 25% on its investment in TBG, through a combination of distributions and capital gains.TBG, also known as The Bistro Group, is a premium casual restaurant operator in the Philippines, owning and operating over 200 full-service restaurants across 23 brands, including iconic names such as Italianni’s, TGI Friday’s, and Texas Roadhouse.Anscor extends its best wishes to the Bistro and Inoza teams. We are confident they will continue delighting Filipino consumers with their quality dining experiences for many years to come, and we look forward to seeing their continued success.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "Aboitiz Equity Ventures net income up 1% in 2025",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUndCYk0tbkNJUEFqNzBMb3hRWnAxY2VXa0xvUE5jZGtrX2czLXI1WkVHbUlRTkIwTGxjaWRDb2dCUzRtZHZVeFNmUFRCVWMwM1RxZ2xoNVA0TW1SRHJsNC1fcXppd0RlMDFnclJnRF9tb3FFUXE3U3ltTVVDcGJSU0lLUXJwdzdUMDZjT9IBkgFBVV95cUxQMGJmdFBLV0Q2TVJaY1VUamxoX0NqNUtsVFQtSU5MRlNnRTJuenA0ODlHZXVKcjNjUWZ5X3JEeDJueG9rajBUWXNNXzZXdW5ta0tvcVgyMkowaFV6TUJOTTNZQ2VCSnBHcGxhMzVBVFYyNjZsSmpTdEhVSmdVSEY0V0xlNTJxQXJvVW9fX05qaTg0dw?oc=5",
+      "publishedAt": "2026-03-06",
+      "sourceType": "news",
+      "text": "Aboitiz Equity Ventures net income up 1% in 2025",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "EEI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a830bd066577fea764d70b69f0a3140b",
+      "publishedAt": "2026-02-09",
+      "sourceType": "primary",
+      "text": "Results of Special Board Meeting - February 9, 2026\n\nIn a special meeting of the Board of Directors held today, February 9, 2026, the Board declared quarterly cash dividends to be paid out of the unrestricted retained earnings of the Corporation as of December 31, 2025 to all shareholders of record of EEI Preferred Shares Series “C” as follows:Preferred Share Series: Series “C”Cash Dividend Rate (per annum): 6.75%Amount of Cash Dividend per share, per quarter (PhP): 1.6875Record Date: February 20, 2026Payment Date: February 23, 2026** As per the terms of the private placement agreement, if the dividend payment date is not a banking day, dividends will be paid on the next succeeding Banking Day, without adjustment as to the amount of dividends to be paid. Given that May 21, 2026 falls on a Saturday, a Non-Banking Day, payment date is set for May 23, 2026.A copy of the SEC FORM 17C is attached, duly filed with the SEC thru eFast.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

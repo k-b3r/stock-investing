@@ -1,0 +1,2814 @@
+[
+  {
+    "id": "div-areit-q1-2026-record",
+    "ticker": "AREIT",
+    "company": "AREIT, Inc.",
+    "companyDomains": [
+      "areit.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-01",
+    "question": "What is the record date of AREIT's regular cash dividend for the first quarter of 2026?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-05-28"
+    },
+    "answerDocs": [
+      "ec653c95a4a6ea8c64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "fee4e3ebd195550164d70b69f0a3140b",
+      "6b9c21b442a0059a64d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Q1 2026 dividend record date",
+      "value": "May 27, 2026"
+    },
+    "search": [
+      "AREIT dividend first quarter 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Amendment moved the record date from May 27 to May 28, 2026 (holiday). Original declaration kept as stale doc. User accepted (2026-09-30): the amendment is the authoritative latest filing; older news/aggregator dates are the intended trap.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ec653c95a4a6ea8c64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ec653c95a4a6ea8c64d70b69f0a3140b",
+          "date": null,
+          "quote": "With the declaration of May 27, 2026 as a regular holiday, the record date for the cash dividend declaration will be moved to May 28, 2026."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-areit-q4-2025-payment",
+    "ticker": "AREIT",
+    "company": "AREIT, Inc.",
+    "companyDomains": [
+      "areit.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-03-25",
+    "question": "On what date is AREIT's regular cash dividend for the fourth quarter of 2025 payable?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-03-19"
+    },
+    "answerDocs": [
+      "faeff5eb8839563164d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "6b9c21b442a0059a64d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Q4 2025 dividend payment date",
+      "value": "March 20, 2026"
+    },
+    "search": [
+      "AREIT dividend fourth quarter 2025"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Amendment moved payment from March 20 to March 19, 2026 (holiday). User accepted (2026-09-30): the amendment is the authoritative latest filing; older news/aggregator dates are the intended trap.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=faeff5eb8839563164d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=faeff5eb8839563164d70b69f0a3140b",
+          "date": null,
+          "quote": "The record date is March 5, 2026, and the payment date is March 19, 2026."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-cnpf-jun2026-type",
+    "ticker": "CNPF",
+    "company": "Century Pacific Food, Inc.",
+    "companyDomains": [
+      "centurypacific.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-07-15",
+    "question": "Was the Php0.30 per share cash dividend Century Pacific Food declared on June 30, 2026 a regular or a special dividend?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "special"
+      ]
+    },
+    "answerDocs": [
+      "6cb1dddf88e1439664d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "d9283f11d937e48764d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Latest dividend type",
+      "value": "Regular"
+    },
+    "search": [
+      "Century Pacific Food dividend 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Original disclosure said regular; same-day amendment corrected it to special. Key \"special\" also matches an unrelated noise filing (Alternergy \"Special Stockholders Meeting\"), so citing that filing would pass citedHasAnswer. Low risk. User confirmed (2026-09-30): the June 30, 2026 declaration was regular Php0.60 + special Php0.30 (total Php0.90); the \"regular Php0.30\" original disclosure was the error the amendment fixed.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cb1dddf88e1439664d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cb1dddf88e1439664d70b69f0a3140b",
+          "date": null,
+          "quote": "Declaration of Special Cash Dividends"
+        },
+        {
+          "url": "https://governance.centurypacific.com.ph/wp-content/uploads/2026/07/CNPF-Advisory-to-Stockholders-Dividend-Declaration_June-30-2026_FINAL.pdf",
+          "date": "2026-07",
+          "quote": "regular cash dividends declared ... June 30, 2026 in the amount of Sixty Centavos (Php0.60) per share (separate from the Php0.30 special)"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-cnpf-feb2026-amount",
+    "ticker": "CNPF",
+    "company": "Century Pacific Food, Inc.",
+    "companyDomains": [
+      "centurypacific.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-03-01",
+    "question": "How much per share is the regular cash dividend Century Pacific Food declared in February 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.6
+    },
+    "answerDocs": [
+      "6cfa21d335f7f41a64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend per share (latest)",
+      "value": "Php0.30"
+    },
+    "search": [
+      "Century Pacific Food dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only an aggregator (snowball-analytics.com) agrees on Php0.60, record March 3, 2026.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cfa21d335f7f41a64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cfa21d335f7f41a64d70b69f0a3140b",
+          "date": null,
+          "quote": "approved today the declaration of regular cash dividend of Sixty Centavos (Php0.60) per share to all stockholders of record as of March 3, 2026 payable on March 25, 2026."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-acr-2026-record",
+    "ticker": "ACR",
+    "company": "Alsons Consolidated Resources, Inc.",
+    "companyDomains": [
+      "acr.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-10",
+    "question": "What is the record date of the cash dividend Alsons Consolidated Resources declared on 28 May 2026?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-06-18"
+    },
+    "answerDocs": [
+      "f6c6c73b0948f6f364d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "398da1d3ef292b5aec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend record date",
+      "value": "June 30, 2026"
+    },
+    "search": [
+      "Alsons Consolidated Resources dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). No news or company IR page found.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f6c6c73b0948f6f364d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f6c6c73b0948f6f364d70b69f0a3140b",
+          "date": null,
+          "quote": "(ACR) held on 28 May 2026, the Board approved the declaration of a cash dividend of P0.02 per share out of the unrestricted retained earnings of ACR as of 31 December 2025, in favor of holders of common shares as of record date of 18 June 2026 and payable on or before 08 July 202"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-creit-q4-2025-amount",
+    "ticker": "CREIT",
+    "company": "Citicore Energy REIT Corp.",
+    "companyDomains": [
+      "creit.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-04-01",
+    "question": "How much per share is Citicore Energy REIT's cash dividend for the fourth quarter of 2025?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.056
+    },
+    "answerDocs": [
+      "9c871aa5257ba33c64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "b63d5b435f1f33a3ec6e1601ccee8f59",
+      "c9594ca2396dbbc6ec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Quarterly dividend per share",
+      "value": "Php0.049"
+    },
+    "search": [
+      "Citicore Energy REIT dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9c871aa5257ba33c64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9c871aa5257ba33c64d70b69f0a3140b",
+          "date": null,
+          "quote": "The Board of Directors, at its regular meeting held on 25 March 2026, approved the declaration of cash dividends for the fourth quarter of 2025 in the amount of Php0.056 per share."
+        },
+        {
+          "url": "https://creit.com.ph/press-room/press-releases/creit-declares-highest-annual-dividends-of-php-0-203-per-share-for-2025/",
+          "date": "2026-03-25",
+          "quote": "Dividends for the 4th quarter of 2025, amounting to Php 0.056 per share declared on March 25, 2026"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-fb-nov2025-special",
+    "ticker": "FB",
+    "company": "San Miguel Food and Beverage, Inc.",
+    "companyDomains": [
+      "smfb.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2025-12-01",
+    "question": "How much per share is the special cash dividend San Miguel Food and Beverage declared in November 2025?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.55
+    },
+    "answerDocs": [
+      "9c8e5ae163df4b0cec6e1601ccee8f59"
+    ],
+    "staleDocs": [
+      "1882c6f5140c3a95ec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "San Miguel Food and Beverage dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Same-day regular dividend of P0.50 is the distractor.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9c8e5ae163df4b0cec6e1601ccee8f59",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9c8e5ae163df4b0cec6e1601ccee8f59",
+          "date": null,
+          "quote": "(respectively, the \"Board\" and the Company\") held on November 10, 2025, the Board approved the declaration of a special cash dividend of P0.55 per share, for common shareholders of the Company as of record date of November 25, 2025."
+        },
+        {
+          "url": "https://www.smfb.com.ph/files/reports/SMFB_SEC_Form_17-C_(10Nov25_BOD_mtg._re_FB_Cash_Div_._Dec_.)_.pdf",
+          "date": "2025-11-10",
+          "quote": "approved the declaration of a special cash dividend of P0.55 per share ... record date of November 25, 2025"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-filrt-q1-2026-payment",
+    "ticker": "FILRT",
+    "company": "Filinvest REIT Corp.",
+    "companyDomains": [
+      "filinvestreit.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-01",
+    "question": "On what date is the quarterly cash dividend Filinvest REIT declared on 08 May 2026 payable?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-06-05"
+    },
+    "answerDocs": [
+      "6ce1dcf00f80cff664d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "ecf7ce66bb53767164d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Next dividend payment date",
+      "value": "March 19, 2026"
+    },
+    "search": [
+      "Filinvest REIT dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). News (context.ph, sunstar.com.ph) covers FILRT's March and September 2026 payouts, not the June 5 one.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6ce1dcf00f80cff664d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6ce1dcf00f80cff664d70b69f0a3140b",
+          "date": null,
+          "quote": "(“FILRT”) held today, 08 May 2026, the Board approved the declaration of its quarterly cash dividends in the amount of PhP 0.06 per share to all stockholders of record as of 25 May 2026, and with payment date of 05 June 2026."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-fph-2026-record",
+    "ticker": "FPH",
+    "company": "First Philippine Holdings Corporation",
+    "companyDomains": [
+      "fphc.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-10",
+    "question": "What is the record date of the cash dividend on common shares First Philippine Holdings declared in May 2026?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-06-15"
+    },
+    "answerDocs": [
+      "533fd584cb7210a564d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "dbdc9c0eafe3d1f7ec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend record date",
+      "value": "November 20, 2025"
+    },
+    "search": [
+      "First Philippine Holdings dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=533fd584cb7210a564d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=533fd584cb7210a564d70b69f0a3140b",
+          "date": null,
+          "quote": "At its meeting held earlier today, the Board of Directors of First Philippine Holdings Corporation approved the declaration of cash dividends on common shares in the amount of PHP1.10 per common share with a record date of June 15, 2026 and payable on July 7, 2026."
+        },
+        {
+          "url": "https://www.fphc.com/storage/app/media/111111fph-17-c-declaration-of-cash-dividends-may-28-2026-2-1.pdf",
+          "date": "2026-05-28",
+          "quote": "PHP1.10 per common share with a record date of June 15, 2026 and payable on July 7, 2026"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-ltg-may2026-amount",
+    "ticker": "LTG",
+    "company": "LT Group, Inc.",
+    "companyDomains": [
+      "ltg.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-01",
+    "question": "How much per share is the special cash dividend LT Group's board approved on May 20, 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.3
+    },
+    "answerDocs": [
+      "e4db7c2886a07c7e64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "e52ae465b2e28180ec6e1601ccee8f59",
+      "0e9da8d488d4e9f664d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Special dividend per share",
+      "value": "Php 0.35"
+    },
+    "search": [
+      "LT Group special cash dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). News found (insiderph.com) covers the 2024 P0.30 special dividend, not May 2026. Live PSE Edge SEC 17-C C03729-2026 (ex-date Jun 4, 2026) confirms. Pesobility lacks both LTG H1-2026 dividends (this and Feb 20), so its absence is a gap, not a contradiction. User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4db7c2886a07c7e64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4db7c2886a07c7e64d70b69f0a3140b",
+          "date": null,
+          "quote": "NEGRE Officer-in-Charge, Disclosure DepartmentGentlemen:Please be advised that the Board of Directors approved, via referendum today, May 20, 2026, the declaration and distribution of a Special Cash Dividend of Php 0.30 per share to all stockholders of record of LT Group, Inc."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-monde-mar2026-amount",
+    "ticker": "MONDE",
+    "company": "Monde Nissin Corporation",
+    "companyDomains": [
+      "mondenissin.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-04-10",
+    "question": "How much per common share is the cash dividend Monde Nissin declared on March 25, 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.24
+    },
+    "answerDocs": [
+      "232821b0a9ad3eac64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "3dbe58e7ecc8d3d0ec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend per share",
+      "value": "Php 0.16"
+    },
+    "search": [
+      "Monde Nissin dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=232821b0a9ad3eac64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=232821b0a9ad3eac64d70b69f0a3140b",
+          "date": null,
+          "quote": "MONDE’s Board of Directors on March 25, 2026 approved the declaration and distribution of cash dividends to stockholders of record as of April 24, 2026, amounting to Php 0.24 per common share, payable on or before May 21, 2026."
+        },
+        {
+          "url": "https://plus.inquirer.net/?p=389740",
+          "date": "2026-03-26",
+          "quote": "cash dividend of P0.24 per share, record date of 24 April, payment 21 May"
+        },
+        {
+          "url": "https://tribune.net.ph/2026/03/26/monde-nissin-soars-to-p86b-net-income-in-2025",
+          "date": "2026-03-26",
+          "quote": "P0.24 per share cash dividend"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-pmpc-2026-amount",
+    "ticker": "PMPC",
+    "company": "Panasonic Manufacturing Philippines Corporation",
+    "companyDomains": [],
+    "category": "dividends",
+    "asOf": "2026-06-01",
+    "question": "How much per share is the cash dividend Panasonic Manufacturing Philippines declared in May 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.6791
+    },
+    "answerDocs": [
+      "6dc5541783e1fd3964d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "fb280986edf3e92fec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend per share",
+      "value": "P0.7393"
+    },
+    "search": [
+      "Panasonic Manufacturing Philippines dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only aggregators (investing.com, simplywall.st) show 0.6791.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6dc5541783e1fd3964d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6dc5541783e1fd3964d70b69f0a3140b",
+          "date": null,
+          "quote": "Please be informed of the adoption and approval by our Board of Directors on May 21, 2026 of a resolution declaring (67.91%) of capital cash dividend equivalent to P0.6791 per share or the total amount of Php 287,064,106.37 in favor of all its stockholders of record as of June 8,"
+        },
+        {
+          "url": "https://www.pesobility.com/dividends/PMPC",
+          "date": "2026-09-30",
+          "quote": "2026 Cash Php 0.6791, ex 2026-Jun-05, record 2026-Jun-08, payment 2026-Jun-25 (user screenshot)"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-ppc-2026-payment",
+    "ticker": "PPC",
+    "company": "Pryce Corporation",
+    "companyDomains": [
+      "pryce.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-05-20",
+    "question": "On what date is the cash dividend Pryce Corporation declared on May 6, 2026 payable?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-06-25"
+    },
+    "answerDocs": [
+      "b95aa66360f0a65964d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "c320f8de5bdf7f60ec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend payment date",
+      "value": "December 29, 2025"
+    },
+    "search": [
+      "Pryce Corporation dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only an aggregator (dividends.ph) shows payment June 25, 2026. Live PSE Edge SEC 17-C C03233-2026 structured fields: Regular, Php 0.33, record Jun 1, payment Jun 25, 2026. Pesobility lacks the row (same gap as LTG). User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b95aa66360f0a65964d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b95aa66360f0a65964d70b69f0a3140b",
+          "date": null,
+          "quote": "The dividends will be payable on June 25, 2026 to all stockholders of record as of June 1, 2026."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-rfm-jun2026-record",
+    "ticker": "RFM",
+    "company": "RFM Corporation",
+    "companyDomains": [
+      "rfmfoods.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-07-01",
+    "question": "What is the record date of the cash dividend RFM Corporation declared on 24 June 2026?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-07-08"
+    },
+    "answerDocs": [
+      "b71207ddf749ce9c64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "7a0578c523c5bac064d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend record date",
+      "value": "April 23, 2026"
+    },
+    "search": [
+      "RFM Corporation dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b71207ddf749ce9c64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b71207ddf749ce9c64d70b69f0a3140b",
+          "date": null,
+          "quote": "During its Regular Meeting on 24 June 2026, the Board of Directors of RFM Corporation declared cash dividends amounting to Php300 Million or Php0.08903 per share to stockholders of record as of July 8, 2026 and payable on July 31, 2026."
+        },
+        {
+          "url": "https://mb.com.ph/2026/06/24/rfm-bets-on-dairy-growth-declares-additional-300-million-dividend",
+          "date": "2026-06-24",
+          "quote": "₱0.08903 per share, payable on July 31 to stockholders of record as of July 8, 2026"
+        },
+        {
+          "url": "https://test.manilatimes.net/2026/07/02/tmt-newswire/rfm-declares-additional-p300m-cash-dividend-posts-strong-q1-growth-and-announces-board-refresh/2376634",
+          "date": "2026-07-02",
+          "quote": "RFM declares additional P300M cash dividend"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-ssi-2026-amount",
+    "ticker": "SSI",
+    "company": "SSI Group, Inc.",
+    "companyDomains": [
+      "ssigroup.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-05-25",
+    "question": "How much per share is the regular cash dividend SSI Group declared on May 12, 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.0805
+    },
+    "answerDocs": [
+      "243cfe0baef0cedd64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "e5e2cd24359989faec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend per share",
+      "value": "P0.153"
+    },
+    "search": [
+      "SSI Group dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Searches return SSI Securities (Vietnam) instead.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=243cfe0baef0cedd64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=243cfe0baef0cedd64d70b69f0a3140b",
+          "date": null,
+          "quote": "(SSI) approved the declaration of a regular cash dividend in the amount of Php 0.0805 per share."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-vreit-q4-2025-amount",
+    "ticker": "VREIT",
+    "company": "VistaREIT, Inc.",
+    "companyDomains": [
+      "vistareit.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-01",
+    "question": "How much per share is VistaREIT's cash dividend for the fourth quarter of 2025?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.038
+    },
+    "answerDocs": [
+      "e4d8512d42d291d564d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "925f8bf80e41588aec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Quarterly dividend per share",
+      "value": "Php 0.04920"
+    },
+    "search": [
+      "VistaREIT dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Aggregator gurufocus.com shows PHP 0.038 but record May 22, 2026 (filing: May 25).  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4d8512d42d291d564d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4d8512d42d291d564d70b69f0a3140b",
+          "date": null,
+          "quote": "Details as follows:Amount : Php 0.03800 per shareRecord Date : 25 May 2026Payment Date : 29 May 2026"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-aub-2026-total",
+    "ticker": "AUB",
+    "company": "Asia United Bank Corporation",
+    "companyDomains": [
+      "aub.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-07-05",
+    "question": "What is the total cash dividend per share Asia United Bank declared in June 2026, across all tranches?",
+    "answer": {
+      "kind": "amount",
+      "value": 2.5
+    },
+    "answerDocs": [
+      "18008afb601f12d364d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend per share",
+      "value": "P1.00"
+    },
+    "search": [
+      "Asia United Bank dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Paid in three tranches (P1.00, P1.00, P0.50).",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=18008afb601f12d364d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=18008afb601f12d364d70b69f0a3140b",
+          "date": null,
+          "quote": "The Bank’s Board of Directors, upon recommendation of Management, also approved the declaration of cash dividends amounting to Two Pesos and Fifty centavos (P2.50) per share, which is to be paid in three tranches."
+        },
+        {
+          "url": "https://test.manilatimes.net/2026/06/30/business/corporate-news/aub-board-approves-capital-hike-to-p725b/2375021",
+          "date": "2026-06-30",
+          "quote": "total cash dividend of P2.50 per share ... first tranche of P1.00 ... final tranche of P0.50"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-mreit-q1-2026-amount",
+    "ticker": "MREIT",
+    "company": "MREIT, Inc.",
+    "companyDomains": [
+      "mreit.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-05-15",
+    "question": "How much per share is MREIT's cash dividend for the quarter ending 31 March 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 0.263
+    },
+    "answerDocs": [
+      "754c8ebd99c160a364d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "7d510a5e6c2bb63a64d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Quarterly dividend per share",
+      "value": "Php0.250478"
+    },
+    "search": [
+      "MREIT dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=754c8ebd99c160a364d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=754c8ebd99c160a364d70b69f0a3140b",
+          "date": null,
+          "quote": "(the “Company”) declared cash dividends of Php0.2630 per outstanding common share for the quarter ending 31 March 2026."
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSzNjdFRBMVNGbHNyYWZJRDdrWXEyaHBHZjBtSnZRbHczWWdOYkNjekgxZC14YzZBeFlRX0xBQmlOdVR2ck9kRFlUdnZja0NvVC1zUkpoZFQzU1h6RGdCelVGQTVnWWY4dTgzMTJtUURQRU9iWGtKay1ySmJnQWwwWGlBUnM2UC04UkJtektPajI?oc=5",
+          "date": "2026-04-30",
+          "quote": "MREIT raises dividend 5 percent to record P0.263, payout hits P1.24B"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "div-cnvrg-2026-record",
+    "ticker": "CNVRG",
+    "company": "Converge Information and Communications Technology Solutions, Inc.",
+    "companyDomains": [
+      "convergeict.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-03-20",
+    "question": "What is the record date of the regular cash dividend Converge declared on March 6, 2026?",
+    "answer": {
+      "kind": "date",
+      "value": "2026-03-23"
+    },
+    "answerDocs": [
+      "8c065928ee5e247f64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Dividend record date",
+      "value": "April 1, 2026"
+    },
+    "search": [
+      "Converge ICT dividend"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only an aggregator (dividends.ph) shows record March 23, 2026.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8c065928ee5e247f64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8c065928ee5e247f64d70b69f0a3140b",
+          "date": null,
+          "quote": "In light of the Company’s strong performance for FY 2025, the Board of Directors, at its meeting held today, March 6, 2026, approved the declaration of regular cash dividends as follows:Declaration Date: March 6, 2026Record Date: March 23, 2026Payment Date: April 1, 2026Amount: P"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-gsmi-apr2026-amount",
+    "ticker": "GSMI",
+    "company": "Ginebra San Miguel Inc.",
+    "companyDomains": [
+      "ginebrasanmiguel.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-05-10",
+    "question": "How much per share is the cash dividend Ginebra San Miguel declared on April 30, 2026?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "8934eb26b151e30164d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "138e03bb1c7817dd64d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Ginebra San Miguel"
+    ],
+    "exclude": [
+      "dividend"
+    ],
+    "noise": 3,
+    "notes": "Disclosure text omits the amount (only in the attached 17-C).",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8934eb26b151e30164d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8934eb26b151e30164d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: filing gives record date only, no amount; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-ogp-may2026-amount",
+    "ticker": "OGP",
+    "company": "OceanaGold (Philippines), Inc.",
+    "companyDomains": [
+      "didipiomine.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-05-20",
+    "question": "How much per share is the cash dividend OceanaGold (Philippines) declared on May 6, 2026?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "410ab3176b2c9ece64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "6384a00eefa39fdb64d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "OceanaGold Philippines"
+    ],
+    "exclude": [
+      "dividend"
+    ],
+    "noise": 3,
+    "notes": "Disclosure text omits the amount.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=410ab3176b2c9ece64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=410ab3176b2c9ece64d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: filing text has no amount; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-maxs-2026-amount",
+    "ticker": "MAXS",
+    "company": "Max's Group, Inc.",
+    "companyDomains": [
+      "maxsgroupinc.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-04-01",
+    "question": "How much per share is the cash dividend Max's Group declared on 18 March 2026?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "c7bbe25000ea864b64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "16229c2e00552f5cec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Max's Group"
+    ],
+    "exclude": [
+      "dividend"
+    ],
+    "noise": 3,
+    "notes": "Disclosure text omits the amount.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c7bbe25000ea864b64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c7bbe25000ea864b64d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: filing gives record date only, no amount; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-sgi-2026-amount",
+    "ticker": "SGI",
+    "company": "Solid Group Inc.",
+    "companyDomains": [
+      "solidgroup.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-07-10",
+    "question": "How much per share is the cash dividend Solid Group declared on June 25, 2026?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "98ddb510a5cc357564d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "b721d4c8f70f25eeec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Solid Group Inc"
+    ],
+    "exclude": [
+      "dividend"
+    ],
+    "noise": 3,
+    "notes": "Disclosure text omits the amount.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=98ddb510a5cc357564d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=98ddb510a5cc357564d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: filing text has no amount; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-ion-2026-record",
+    "ticker": "ION",
+    "company": "Ionics, Inc.",
+    "companyDomains": [
+      "ionicsgroup.com"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-01",
+    "question": "What is the record date of the P0.10 per share cash dividend Ionics declared in May 2026?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "0f7443add8d4de2664d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "c76ba65cf166213eec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Ionics Inc"
+    ],
+    "exclude": [
+      "dividend"
+    ],
+    "noise": 3,
+    "notes": "Disclosure gives the amount but no record date.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0f7443add8d4de2664d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0f7443add8d4de2664d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: filing gives P0.10/share, no record date; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-alhi-2026-record",
+    "ticker": "ALHI",
+    "company": "Anchor Land Holdings, Inc.",
+    "companyDomains": [
+      "anchorland.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-06-01",
+    "question": "What is the record date of the common share cash dividend Anchor Land declared on May 14, 2026?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "a35062a3ab56aa0b64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "8198e2c802f250f4ec6e1601ccee8f59"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Anchor Land Holdings"
+    ],
+    "exclude": [
+      "dividend"
+    ],
+    "noise": 3,
+    "notes": "2026 disclosure has no record date; the 2025 one (June 9, 2025) is the trap.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a35062a3ab56aa0b64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a35062a3ab56aa0b64d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: 2026 filing has amounts, no record date; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-mreit-q1-2026-record",
+    "ticker": "MREIT",
+    "company": "MREIT, Inc.",
+    "companyDomains": [
+      "mreit.com.ph"
+    ],
+    "category": "dividends",
+    "asOf": "2026-05-15",
+    "question": "What is the record date of MREIT's cash dividend for the quarter ending 31 March 2026?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "754c8ebd99c160a364d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "7d510a5e6c2bb63a64d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "MREIT"
+    ],
+    "exclude": [
+      "dividend",
+      "record date"
+    ],
+    "noise": 3,
+    "notes": "Disclosure text gives the amount only.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=754c8ebd99c160a364d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=754c8ebd99c160a364d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: filing gives amount only; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "nf-aev-singlife-price",
+    "ticker": "AEV",
+    "company": "Aboitiz Equity Ventures Inc.",
+    "companyDomains": [
+      "aboitiz.com"
+    ],
+    "category": "stakes",
+    "asOf": "2026-03-25",
+    "question": "For how much did Aboitiz Equity Ventures sell its shares in SingLife Philippines?",
+    "answer": {
+      "kind": "not_found"
+    },
+    "answerDocs": [
+      "4bd54c81057e106c64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Aboitiz Equity Ventures"
+    ],
+    "exclude": [
+      "singlife",
+      "singapore life"
+    ],
+    "noise": 3,
+    "notes": "Disclosure describes a cash sale but no price.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=4bd54c81057e106c64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=4bd54c81057e106c64d70b69f0a3140b",
+          "date": null,
+          "quote": "Bundle checked: filing describes cash sale, no price; web docs filtered by exclude patterns."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-agi-1q2026-ni",
+    "ticker": "AGI",
+    "company": "Alliance Global Group, Inc.",
+    "companyDomains": [
+      "allianceglobalinc.com"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-31",
+    "question": "What consolidated net income did Alliance Global Group report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 7800000000
+    },
+    "answerDocs": [
+      "ff270506124767f064d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q 2026 net income",
+      "value": "P5.2 billion"
+    },
+    "search": [
+      "Alliance Global net income first quarter 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "P5.2B is net income attributable to owners, the distractor.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ff270506124767f064d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ff270506124767f064d70b69f0a3140b",
+          "date": null,
+          "quote": "AGI REPORTS 1Q NET INCOME OF P7.8B, UP 6%"
+        },
+        {
+          "url": "https://allianceglobalinc.com/news/agi-reports-1q-net-income-p78b-6",
+          "date": "2026-05-20",
+          "quote": "AGI reports 1Q net income of P7.8B, up 6%"
+        },
+        {
+          "url": "https://context.ph/2026/05/21/alliance-global-posts-higher-profit-amid-uncertainty/",
+          "date": "2026-05-21",
+          "quote": "Alliance Global posts higher profit amid uncertainty (P7.8 billion)"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-rlc-1q2026-attrib",
+    "ticker": "RLC",
+    "company": "Robinsons Land Corporation",
+    "companyDomains": [
+      "robinsonsland.com"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-20",
+    "question": "What net income attributable to equity holders of the parent did Robinsons Land report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 3540000000
+    },
+    "answerDocs": [
+      "7f7b25b32daa118864d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q 2026 net income",
+      "value": "₱4.40 billion"
+    },
+    "search": [
+      "Robinsons Land net income first quarter 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "₱4.40B is consolidated net income, the distractor.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7f7b25b32daa118864d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7f7b25b32daa118864d70b69f0a3140b",
+          "date": null,
+          "quote": "Robinsons Land Corporation (RLC) reported strong first-quarter 2026 results, with consolidated revenues rising 11% to ₱12.28 billion, and net income increasing 9% to ₱4.40 billion, driven by the strength of its diversified portfolio and improved contributions from its development"
+        },
+        {
+          "url": "https://robinsonsland.com/stories/rlc-q1-net-income-climbs-440b-anchored-high-liquidity-and-low-gearing-1917",
+          "date": "2026-05-11",
+          "quote": "net income attributable to equity holders of the parent stood at ₱3.54 billion"
+        },
+        {
+          "url": "https://tribune.net.ph/2026/05/11/rlc-posts-p44b-q1-earnings-growth",
+          "date": "2026-05-11",
+          "quote": "net income attributable to equity holders of the parent reached P3.54 billion"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-cosco-1q2026-revenue",
+    "ticker": "COSCO",
+    "company": "Cosco Capital, Inc.",
+    "companyDomains": [
+      "coscocapital.com"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-20",
+    "question": "What consolidated revenues did Cosco Capital report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 63100000000
+    },
+    "answerDocs": [
+      "cb31411fe4be486264d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q 2026 revenue",
+      "value": "Php 56.7 billion"
+    },
+    "search": [
+      "Cosco Capital first quarter 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cb31411fe4be486264d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cb31411fe4be486264d70b69f0a3140b",
+          "date": null,
+          "quote": "Strong operating performance from major business segments also lifted consolidated revenues by 11.3% to Php 63.1 billion in 1Q 2026 from Php 56.7 billion in the same period of 2025."
+        },
+        {
+          "url": "https://context.ph/2026/05/08/cosco-profit-jumps-on-retail-demand-recovery-momentum/",
+          "date": "2026-05-08",
+          "quote": "consolidated revenues of P63.1 billion"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-pgold-1q2026-ni",
+    "ticker": "PGOLD",
+    "company": "Puregold Price Club, Inc.",
+    "companyDomains": [
+      "puregold.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-20",
+    "question": "What consolidated net income did Puregold report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 3260000000
+    },
+    "answerDocs": [
+      "5c8cdf7da493f87564d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q net income",
+      "value": "Php 2.64 billion"
+    },
+    "search": [
+      "Puregold net income first quarter 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5c8cdf7da493f87564d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5c8cdf7da493f87564d70b69f0a3140b",
+          "date": null,
+          "quote": "Press Release entitled \"Puregold First Quarter 2026 net income jump 23.7% to P 3.26 billion\""
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ0t3RlcxdFlxanJBTUswb2J4MDloTE9jWjd5UUlDWEtraFpEdXc4eXJoR1RsUW5OeHJ3bWRmRXA3N2ptX0tYcmFXSnV6bUNjeW1Nb0NrYXpkdEtwUUFETzFDcFF4SnY1MEVVeWZhdnJlZERFdXJoU2xPRGVJaWlLWmJmWmpucjhLRHfSAY8BQVVfeXFMUE1tdVA5elpydVZvQ29UNzdzUmZYTEFnSjR4N0pRSUswdTlkcVlxeVZhMUR5ZDExVV9DUVNMTEFvRHhNMGZGd1BvS0V4OTdLSG9JU3JFT19YS09JWEU5cmpvR21LcEs4LVhMUFVTUG1MbkF5ZDk3TVpMcE5DSzJ4YWlYdWRjQmpCTHA1bEFxdms?oc=5",
+          "date": "2026-05-07",
+          "quote": "Puregold Q1 earnings rise 24% to P3.26 billion"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcHNmTUZPVExYTjl4bkhQeFlWWmNDV0E1YzJyMkFCcUNSWmpySmhITEpBTk0telIybWhtakk2SmVCUnlrWGZGbUJPRl9wRUNfMmJjYU5nYldTRTJtOUpKdi1yUzlHd0VZeDEyRDdoU29raENxWFNXVlhjNXNjVGszbtIBhgFBVV95cUxPTXVVVEhJdGFmY213UXR2Qk5vRmloVHZRajlvWHo3OE1kay03d00wY2poMDBoVndhdmIwZjA1c3NzbW1KcXVRWUJTQ0NrVmxzcW9fTm5MYzdmYVBWNmJIMkpoeWhnWGR4OW9UcFRiVFQ0Z1BrSzNObGhVaDBhbUp3QXRQcUNndw?oc=5",
+          "date": "2026-05-08",
+          "quote": "Puregold Q1 profit surged 24% to P3.26B"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-keepr-1q2026-ni",
+    "ticker": "KEEPR",
+    "company": "The Keepers Holdings, Inc.",
+    "companyDomains": [
+      "thekeepers.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-20",
+    "question": "What net income did The Keepers Holdings report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 811000000
+    },
+    "answerDocs": [
+      "e6550995baddb4ac64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q net income",
+      "value": "Php 690 million"
+    },
+    "search": [
+      "Keepers Holdings net income"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). BusinessWorld \"Co-led companies post first-quarter income growth\" (https://www.bworldonline.com/?p=448862) likely confirms but returned 403.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e6550995baddb4ac64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e6550995baddb4ac64d70b69f0a3140b",
+          "date": null,
+          "quote": "Press Release entitled \"Keepers net income jumped by 17.6% to PHP 811 million in 1Q 2026\""
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-creit-1q2026-ni",
+    "ticker": "CREIT",
+    "company": "Citicore Energy REIT Corp.",
+    "companyDomains": [
+      "creit.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-31",
+    "question": "What net income did Citicore Energy REIT report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 342000000
+    },
+    "answerDocs": [
+      "df2422bda7ed129a64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q 2026 net income",
+      "value": "Php 446 million"
+    },
+    "search": [
+      "Citicore Energy REIT first quarter 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Php 446M is EBITDA, the distractor.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=df2422bda7ed129a64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=df2422bda7ed129a64d70b69f0a3140b",
+          "date": null,
+          "quote": "(“CREIT” or the “Company”), the country’s first and largest renewable energy REIT, posted revenues of Php 458 million, underscoring the stability of its long term renewable energy asset portfolio.EBITDA was recorded at Php 446 million, while net income for the period reached Php "
+        },
+        {
+          "url": "https://creit.com.ph/press-room/press-releases/creit-continues-to-deliver-solid-revenues-with-q1-dividend-payout-of-php0-049-per-share-and-board-approved-infusion-of-up-to-1-7-mn-sqm-of-land-and-860mw-in-solar-assets/",
+          "date": "2026-05-15",
+          "quote": "net income for the period reached Php 342 million"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-crec-1q2026-ni",
+    "ticker": "CREC",
+    "company": "Citicore Renewable Energy Corporation",
+    "companyDomains": [
+      "crec.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-06-20",
+    "question": "What net income did Citicore Renewable Energy report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 364000000
+    },
+    "answerDocs": [
+      "867d2f9bb7b7979464d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "12bf251f0706086f64d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q 2026 net income",
+      "value": "Php 230 million"
+    },
+    "search": [
+      "Citicore Renewable Energy net income"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Stale doc gives FY2025 net income (Php 1.15B).",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=867d2f9bb7b7979464d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=867d2f9bb7b7979464d70b69f0a3140b",
+          "date": null,
+          "quote": "CREC net income jumps 58% to Php 364 million"
+        },
+        {
+          "url": "https://tribune.net.ph/2026/05/15/crec-profit-surges-58-as-new-solar-capacity-boosts-earnings",
+          "date": "2026-05-15",
+          "quote": "net income of PHP 364 million for January to March 2026"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-fdc-1q2026-ni",
+    "ticker": "FDC",
+    "company": "Filinvest Development Corporation",
+    "companyDomains": [
+      "filinvestgroup.com"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-20",
+    "question": "What net income attributable to equity holders of the parent did Filinvest Development report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 3900000000
+    },
+    "answerDocs": [
+      "ad0599269e92ae5064d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q net income",
+      "value": "PHP3.6 billion"
+    },
+    "search": [
+      "Filinvest Development first quarter 2026 profit"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ad0599269e92ae5064d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ad0599269e92ae5064d70b69f0a3140b",
+          "date": null,
+          "quote": "Filinvest Development Corporation (FDC) posted a net income attributable to equity holders of the parent company amounting to PHP3.9 billion for the first quarter of 2026, reflecting an 8 percent increase compared to the PHP3.6 billion reported in the same period last year."
+        },
+        {
+          "url": "https://www.filinvestgroup.com/fdc-1q-2026-profit-rises-8-on-real-estate-growth",
+          "date": "2026-05-13",
+          "quote": "net income attributable to equity holders of the parent company amounting to PHP3.9 billion"
+        },
+        {
+          "url": "https://context.ph/2026/05/14/filinvest-profit-climbs-despite-slower-gdp-growth/",
+          "date": "2026-05-14",
+          "quote": "Filinvest profit climbs (P3.9 billion attributable)"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-mrsgi-fy2025-sales",
+    "ticker": "MRSGI",
+    "company": "Metro Retail Stores Group, Inc.",
+    "companyDomains": [
+      "metroretail.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-06-15",
+    "question": "What net sales did Metro Retail Stores Group report for fiscal year 2025?",
+    "answer": {
+      "kind": "amount",
+      "value": 41560000000
+    },
+    "answerDocs": [
+      "05ad19658cbf775664d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "761c8d342f9cdab064d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Net sales",
+      "value": "PhP9.38 billion"
+    },
+    "search": [
+      "Metro Retail Stores net sales 2025"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Stale doc gives Q1 2026 net sales (PhP9.38B).",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=05ad19658cbf775664d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=05ad19658cbf775664d70b69f0a3140b",
+          "date": null,
+          "quote": "(MRSGI) reported steady performance for fiscal year 2025, driven by continued network expansion, operational efficiency, and sustained demand across core categories, during its recent Annual Stockholders’ Meeting.For FY2025, MRSGI breached the PhP40-billion mark for the first tim"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYU1aNVhYTW9ybzAzd29SM2M2cjh6OUk0V0MxNG5sa3JMOWVVeG05bGl5Zkt5NHhWcnB5cXdXYzRFMWtJWjNmckYwT2NjeU1ZbnBBME9GY1k2VkVtQzNxdlhEVTlhX1phd0pySDJ3YmJXT2ZzNnV3dmJzOEYxVzFQV2o4UlZnVEtuM3BBRWhTYTNNdEJ2amR2aUE5RTNaTjFERDRtQg?oc=5",
+          "date": "2026-04-13",
+          "quote": "Metro Retail profit up 12% as sales reach P41.56B"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-aub-1q2026-nim",
+    "ticker": "AUB",
+    "company": "Asia United Bank Corporation",
+    "companyDomains": [
+      "aub.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-31",
+    "question": "What net interest margin did Asia United Bank report for the first quarter of 2026?",
+    "answer": {
+      "kind": "percent",
+      "value": 5.3
+    },
+    "answerDocs": [
+      "f685cd522b5c07b464d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Net interest margin",
+      "value": "5.1%"
+    },
+    "search": [
+      "Asia United Bank first quarter 2026 net income"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f685cd522b5c07b464d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f685cd522b5c07b464d70b69f0a3140b",
+          "date": null,
+          "quote": "Net interest margin ratio is at 5.3%, versus previous year’s 5.1%.4."
+        },
+        {
+          "url": "https://tribune.net.ph/2026/05/18/aub-quarterly-net-income-hits-all-time-high",
+          "date": "2026-05-18",
+          "quote": "net interest margin expanded to 5.3 percent from 5.1 percent"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-bncom-1q2026-roe",
+    "ticker": "BNCOM",
+    "company": "Bank of Commerce",
+    "companyDomains": [
+      "bankcom.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-31",
+    "question": "What return on equity did Bank of Commerce report for the first quarter of 2026?",
+    "answer": {
+      "kind": "percent",
+      "value": 10.74
+    },
+    "answerDocs": [
+      "80d58d80566116c764d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Return on equity",
+      "value": "1.32%"
+    },
+    "search": [
+      "Bank of Commerce BankCom net income 2026"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=80d58d80566116c764d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=80d58d80566116c764d70b69f0a3140b",
+          "date": null,
+          "quote": "This translated to a return on equity (ROE) and return on assets (ROA) of 10.74% and 1.32%, respectively, reflecting BankCom’s continued commitment and ability to deliver value to shareholders."
+        },
+        {
+          "url": "https://tribune.net.ph/2026/05/13/bankcom-net-income-rises-13-in-q1",
+          "date": "2026-05-13",
+          "quote": "return on equity rose to 10.74 percent"
+        },
+        {
+          "url": "https://context.ph/2026/05/13/bankcom-posts-strong-13-profit-growth/",
+          "date": "2026-05-13",
+          "quote": "BankCom posts strong 13% profit growth"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "fin-urc-1q2026-sales",
+    "ticker": "URC",
+    "company": "Universal Robina Corporation",
+    "companyDomains": [
+      "urc.com.ph"
+    ],
+    "category": "financials",
+    "asOf": "2026-05-20",
+    "question": "What sales did Universal Robina report for the first quarter of 2026?",
+    "answer": {
+      "kind": "amount",
+      "value": 47900000000
+    },
+    "answerDocs": [
+      "7efe7f23d4d0518364d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "1Q 2026 sales",
+      "value": "Php4.1 billion"
+    },
+    "search": [
+      "Universal Robina first quarter 2026 sales"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7efe7f23d4d0518364d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7efe7f23d4d0518364d70b69f0a3140b",
+          "date": null,
+          "quote": "Universal Robina Corporation (“URC”) reported first quarter 2026 sales of Php47.9 billion, up 6% year-on-year, driven by broad-based, volume-led growth in BCF Philippines, alongside strong contributions from both the Animal Nutrition and Health (“ANH”) and the Flour divisions, pa"
+        },
+        {
+          "url": "https://www.urc.com.ph/uploads/downloadables/2026/05/PSE%20Disclosure%20Form%204-31%20-%20Press%20Release_May%207%202026.pdf",
+          "date": "2026-05-07",
+          "quote": "first quarter 2026 sales of Php47.9 billion, up 6%"
+        },
+        {
+          "url": "https://tribune.net.ph/2026/05/07/lower-sugar-prices-weigh-on-urc-q1-earnings",
+          "date": "2026-05-07",
+          "quote": "URC Q1 sales P47.9 billion"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "off-plus-president-2026",
+    "ticker": "PLUS",
+    "company": "DigiPlus Interactive Corp.",
+    "companyDomains": [
+      "digiplus.com.ph"
+    ],
+    "category": "officers",
+    "asOf": "2026-06-15",
+    "question": "Who did DigiPlus Interactive name as its President in May 2026?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "Ping Chen"
+      ]
+    },
+    "answerDocs": [
+      "ee50b39ac53f4b3364d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "President",
+      "value": "Andy Tsui"
+    },
+    "search": [
+      "DigiPlus president"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ee50b39ac53f4b3364d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ee50b39ac53f4b3364d70b69f0a3140b",
+          "date": null,
+          "quote": "DigiPlus appoints global corporate finance veteran Ping Chen as president"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNek1YWUpVTGhEQXR0SjF6ak9JTGFxS1Ffd0pWcHRKTzVRVjJLU3YtNFhCbldvbUduTkZpdUl0RkktM3BtNE9yOFloRFdrZDJNVUpmYVl5OG93aFR4SkhpU1ZfYzVIRDZmbjhlUmV1THVzWnVVbXZEak4tMFdsOWJ5RA?oc=5",
+          "date": "2026-05-29",
+          "quote": "DigiPlus Appoints Veteran Banker Ping Chen as President to Drive Growth and Long-Term Shareholder Value"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblJteWtTQkxKVmtLQ0plcGt2YUNaWEdjTWhIZUNITHMweXVFUUxQdDJ6UUJWbnFudUNxcGU3ZFlOdmtGUUJCUHdENTNucHAxV0RFaUpCWUQ0YWF2RGV2SkVVSk9EZnF3Ui1LLV85Z1hxUEhiTXhDWkgxUWJ2Y1RuOWx0SUFEUVVFVUJDQlJBTXBZek1tb2pJb1hhV0d3d9IBowFBVV95cUxPYUx5QjBQYnJQYVpzNVgyenpCT2xUbkR6RTdNSlRqZWpGbjRGNWZod1NaVVZYWGFBRko5dzlJVXdGdFJkWDhzQXpTTldJM0I2dm0yWmNtdUhLbzNJZm41c01PeWZkZkl6V05wNjRHa21EQThVSzQ1RFh0Q2RyZTZUaGV5Q2hrZDluNm4yX3Z1WFpYWXgzNHEwdEtEWC1TSjItYzRj?oc=5",
+          "date": "2026-05-29",
+          "quote": "DigiPlus names global finance veteran Ping Chen as president"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "off-secb-cfo-2026",
+    "ticker": "SECB",
+    "company": "Security Bank Corporation",
+    "companyDomains": [
+      "securitybank.com"
+    ],
+    "category": "officers",
+    "asOf": "2026-06-10",
+    "question": "Who did Security Bank appoint as Chief Financial Officer in May 2026?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "JD Yap"
+      ]
+    },
+    "answerDocs": [
+      "6d7cca41f1c1b7e664d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Security Bank chief financial officer"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6d7cca41f1c1b7e664d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6d7cca41f1c1b7e664d70b69f0a3140b",
+          "date": null,
+          "quote": "Press Release entitled “Security Bank appoints JD Yap as Chief Financial Officer\""
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oWk9XTHZkVUVQcVZabnZLZnRmVDFnN3ZTd0hXcWlhZGRXbW5hRnNKaG9qR3ZXTHJnRF9oVldHcl8tSE9QYnlQc3ZsU2xnbjJvR3VRd1YxNzNTeG52Q0t3Y19KZmpScWVLbkRRdEY4YTFVU0lSSS1LbVBR?oc=5",
+          "date": "2026-05-26",
+          "quote": "Security Bank Appoints JD Yap as New CFO to Drive Growth, Returns and Leadership Continuity"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qelBJZzBKYkE3N0x6V0tFYlBUbnJuT3lyc0NxdWtKcnlvOFJhN2NybHlWRk91QVJMTmpVdFdBaFZRWE1UVUZhb1Eya3Y5cXRfeXlkY0R0OWV6R1pVX0NvcXU1N0ZqRGx4MFBMRnlQZk8wUUVq?oc=5",
+          "date": "2026-05-26",
+          "quote": "Security Bank names JD Yap as new CFO"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGszWWdiY1RVa0tvTkE4V2xkMVRsbmZVQlM5QkV4SE1HbUNHWmpBM3diMDlIMGRvcGpEcnBKNjJxdTY4UWZlaDhMaVJGZFVCMkRpNEFYN1JvNEV6YjhZS3ZDc2VFR1ZfSGZVa3k1elY2a1lKLVlTTF8yQjROUjM3MjZBOXA4bWlNNkdEeFJjeVdRZjhxQ1hzMVdVWXY?oc=5",
+          "date": "2026-05-26",
+          "quote": "Security Bank appoints JD Yap as CFO"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "off-vreit-cfo-2026",
+    "ticker": "VREIT",
+    "company": "VistaREIT, Inc.",
+    "companyDomains": [
+      "vistareit.com.ph"
+    ],
+    "category": "officers",
+    "asOf": "2026-02-15",
+    "question": "Who was appointed Chief Financial Officer of VistaREIT in January 2026?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "Brian N. Edang",
+        "Brian Edang"
+      ]
+    },
+    "answerDocs": [
+      "8850bf59d8b299ae64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Chief Financial Officer",
+      "value": "Michelle E. Hernandez"
+    },
+    "search": [
+      "VistaREIT"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Aggregators (gurufocus, simplywall.st) still list Melissa Camille Z. Domingo as CFO, stale per the filing (Edang replaced her). Edang also signs VREIT's May 2026 dividend filing as CFO & Head Investor Relations. User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8850bf59d8b299ae64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8850bf59d8b299ae64d70b69f0a3140b",
+          "date": null,
+          "quote": "Election of Director and Officer\n\nIn the special meeting of the Board of Directors of the Company held on January 21, 2026, Ms. Michelle E. Hernandez was elected as Director of the Corporation and member of the Executive Committee and Corporate Governance Committee, to serve for "
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "off-dhi-chairman-2026",
+    "ticker": "DHI",
+    "company": "Dominion Holdings, Inc.",
+    "companyDomains": [],
+    "category": "officers",
+    "asOf": "2026-04-10",
+    "question": "Who was appointed Chairman of the Board of Dominion Holdings on 30 March 2026?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "Isidro A. Consunji",
+        "Isidro Consunji"
+      ]
+    },
+    "answerDocs": [
+      "79e1ecb35a14691864d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Chairman",
+      "value": "Frederic C. DyBuncio"
+    },
+    "search": [
+      "Dominion Holdings chairman"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=79e1ecb35a14691864d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=79e1ecb35a14691864d70b69f0a3140b",
+          "date": null,
+          "quote": "Results of the Special Board Meeting on 30 March 2026\n\nPlease be advised that at its special meeting held today, 30 March 2026, the Board of Directors of Dominion Holdings, Inc. (the Company) approved the following matters:1. Acceptance of the resignation of Mr. Frederic C. DyBun"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdGpzcHFjcC1oYXF1YmF2NTlMUUNaeHBUZ2R3SUkzRFlkNFp0d3pWUEtxWW5GRjlTUGMteTB0LUJQM2dqczlXNWh0QW1mN1dicll3akVQaHVoSVYxdnlwUXJGcWRINXBGZzZOTFByWFBVUUFRV3luTUg3SlJkNlI3SWFlNVk4amRNSDRzaHYwMHpBUVVtN3gzaW14dThpUXpESlg4X21WSDFrRXlF?oc=5",
+          "date": "2026-03-31",
+          "quote": "Dominion Holdings appoints Isidro Consunji as chairman"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "off-tfc-chairman-2025",
+    "ticker": "TFC",
+    "company": "PTFC Redevelopment Corporation",
+    "companyDomains": [
+      "ptfc-brc.com"
+    ],
+    "category": "officers",
+    "asOf": "2025-08-01",
+    "question": "Who was elected Chairman and President of PTFC Redevelopment Corporation in July 2025?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "Carlos G. Dominguez",
+        "Carlos Dominguez"
+      ]
+    },
+    "answerDocs": [
+      "64f792fd45fe603bec6e1601ccee8f59"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Chairman and President",
+      "value": "Bienvenido A. Tan III"
+    },
+    "search": [
+      "PTFC Redevelopment"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). No news found.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=64f792fd45fe603bec6e1601ccee8f59",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=64f792fd45fe603bec6e1601ccee8f59",
+          "date": null,
+          "quote": "Result of the Special Board Meeting\n\nAt the Special Meeting of the Board of Directors of the Registrant held on 15 July 2025, at which meeting a quorum was present and acting throughout, the following matters were discussed:1. Resignation of Bienvenido A. Tan III as Chairman and "
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "off-perc-acting-chair-2026",
+    "ticker": "PERC",
+    "company": "PetroEnergy Resources Corporation",
+    "companyDomains": [
+      "petroenergy.com.ph"
+    ],
+    "category": "officers",
+    "asOf": "2026-04-20",
+    "question": "Who did PetroEnergy Resources appoint as acting Chairman in April 2026?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "Milagros V. Reyes",
+        "Milagros Reyes"
+      ]
+    },
+    "answerDocs": [
+      "30fdf0b5e0e882c264d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Chairman",
+      "value": "Helen Y. Dee"
+    },
+    "search": [
+      "PetroEnergy Resources"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Company site (petroenergy.com.ph, July 2026) lists Helen Y. Dee as Chairman and Milagros V. Reyes as President: consistent with a temporary acting role, not a confirmation.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=30fdf0b5e0e882c264d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=30fdf0b5e0e882c264d70b69f0a3140b",
+          "date": null,
+          "quote": "Appointment of Acting Chairman\n\nAt the meeting of the Board of Directors of PetroEnergy Resources Corporation held on April 8, 2026, the Board approved the appointment of the President, Ms. Milagros V. Reyes, as the acting Chairman during the temporary absence of the Chairman, Ms"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "stk-tel-radius-stake",
+    "ticker": "TEL",
+    "company": "PLDT Inc.",
+    "companyDomains": [
+      "pldt.com"
+    ],
+    "category": "stakes",
+    "asOf": "2026-05-31",
+    "question": "What equity interest in Radius Telecoms did PLDT's board approve acquiring in May 2026?",
+    "answer": {
+      "kind": "percent",
+      "value": 65.1
+    },
+    "answerDocs": [
+      "bebf919944ad394c64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "PLDT stake in Radius",
+      "value": "34.9%"
+    },
+    "search": [
+      "PLDT Radius Telecoms"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "34.9% is what PLDT already owns.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bebf919944ad394c64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bebf919944ad394c64d70b69f0a3140b",
+          "date": null,
+          "quote": "(\"PLDT\") of the remaining 65.1% equity interest in Radius Telecoms, Inc."
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0tUd1hrRzVDZGZnamFyYVoyQlY5djRzM3pZTTNlSjVRTmFpT1JpOWNZY3RBOV9SQlpCcXR3b2h5cFoxdGJoUkZnVFF0OF9RcXlkclVxN05keW9hdVVnZENZeFRzRG5iaDUzUzVRYzFhMDBKblpSZDRIeEpTdXFRbW9pR1NLTzh0UnlSMm9xRWhfYUZCeGJ2ZmpsdlRmQQ?oc=5",
+          "date": "2026-06-05",
+          "quote": "PLDT signs deal to buy 65.1% of Radius Telecoms"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "stk-mer-radius-price",
+    "ticker": "MER",
+    "company": "Manila Electric Company",
+    "companyDomains": [
+      "meralco.com.ph"
+    ],
+    "category": "stakes",
+    "asOf": "2026-06-10",
+    "question": "What indicative consideration value was disclosed for the sale of Paragon's stake in Radius Telecoms to PLDT?",
+    "answer": {
+      "kind": "amount",
+      "value": 2935000000
+    },
+    "answerDocs": [
+      "ca6a62b4f27bd12764d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Radius deal value",
+      "value": "PhP3.5 billion"
+    },
+    "search": [
+      "Meralco Radius Telecoms sale PLDT"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ca6a62b4f27bd12764d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ca6a62b4f27bd12764d70b69f0a3140b",
+          "date": null,
+          "quote": "(“PLDT) for an indicative consideration value of PhP2.935 Billion (the “Transaction”)."
+        },
+        {
+          "url": "https://context.ph/2026/05/14/pldt-moves-to-fully-acquire-radius-telecom-for-p2-94b/",
+          "date": "2026-05-14",
+          "quote": "PLDT moves to fully acquire Radius Telecom for P2.94B"
+        },
+        {
+          "url": "https://tribune.net.ph/2026/05/14/pldt-completes-radius-takeover-in-p294-b-deal",
+          "date": "2026-05-14",
+          "quote": "4.65 million Radius common shares priced at P631.52 each, totaling P2.935 billion"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "stk-gtcap-fng-price",
+    "ticker": "GTCAP",
+    "company": "GT Capital Holdings, Inc.",
+    "companyDomains": [
+      "gtcapital.com.ph"
+    ],
+    "category": "stakes",
+    "asOf": "2026-04-15",
+    "question": "How much did GT Capital pay for 20% of Federal Land NRE Global Inc.?",
+    "answer": {
+      "kind": "amount",
+      "value": 9161391600
+    },
+    "answerDocs": [
+      "a80720b3e7344eba64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "FNG stake purchase",
+      "value": "Php12.2 billion for 25%"
+    },
+    "search": [
+      "GT Capital Federal Land NRE Global"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a80720b3e7344eba64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a80720b3e7344eba64d70b69f0a3140b",
+          "date": null,
+          "quote": "(“GT Capital”) acquired today a total of twenty percent (20%) of the issued capital stock owned by Federal Land, Inc, (“Federal Land”) for an aggregate amount of Nine Billion One Hundred Sixty One Million Three Hundred Ninety One Thousand Six Hundred Pesos (Php9,161,391,600.00)."
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTXYtMm1LdFE3WksxVXVXdTlvWmVqNllmX2xDRHhSd01TWjVqSnFUY1pQYThfYUJUWkRvUTVwRG9URGVsYURkbnJtUEdabWRzUmV0Qk9HRkhsYldQQV8wcDI1TUVFdktjUDBLOFRkUlQ3UGFLem1qQW5URUNYeWZpenpKUFQ0bzdiNURB0gGQAUFVX3lxTFBnckRJelAwTnN1X19zY2U1ZHVfTm0tSGlDRmtFUzczeTg3blp5a2h6N2dHbmxVVnhvNDlLcXFOWGFseW9ZQ2pXeG43WDhjejlhOEpSMENOUERMRTJ6YXhVbVJFbDgwT2t5MDNpdjk5cDVkYXUzV3dvWllmWXhGM21xVWhSalllRGsxWk1uVjBwag?oc=5",
+          "date": "2026-03-31",
+          "quote": "GT Capital acquires 20% stake in FNG for P9.16B"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX0ZmTUlrenlRUzlzVXBRZXpNOHlDUlVrOXdRZmZFMEF5SjAyaXNPS0FDc01lU1VGeWpiVEZySnVHN3R6aTI1WTkxNnVTd0k5am5qRHN4V05zTW5STnN1OG4zZHlSX0hJTk8tbVJkLV9wcEZJNUFfZnNKZENqakVaWVllWGxfaTRyN0JteUVRWWVoV2dsQkR3OWQzTFp6djNya0HSAagBQVVfeXFMTkZsM2dEQ3lRbXM3ZlBaYTBrWGlOdGZzVlNweFpfV3k5RGpXcV9QT2FNTlF4aEpCTlVGbnpMQVRwS1BXbWVMV1k3YUoyRE9DaXBBRFQ3ZXhrZ1dZa1dGbjkwcWg5N3dBa29JNXo1VUUyb3FBNDFtS0JjUXBkemJaOFJ2SXZROHJ1NnR0OGJCZDJtTE9xdFQwT0thRDVmSEJ5Q2dWeUpFSndx?oc=5",
+          "date": "2026-04-01",
+          "quote": "GT Capital gets direct stake in FNG for P9.16 billion"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "stk-urc-nurc-retain",
+    "ticker": "URC",
+    "company": "Universal Robina Corporation",
+    "companyDomains": [
+      "urc.com.ph"
+    ],
+    "category": "stakes",
+    "asOf": "2026-03-31",
+    "question": "What equity interest in Nissin Universal Robina Corporation will URC retain after selling shares to Nissin Foods Asia?",
+    "answer": {
+      "kind": "percent",
+      "value": 30
+    },
+    "answerDocs": [
+      "9849933e52df1e8f64d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "URC stake in NURC",
+      "value": "21%"
+    },
+    "search": [
+      "URC Nissin Universal Robina stake"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "21% is the stake sold.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9849933e52df1e8f64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9849933e52df1e8f64d70b69f0a3140b",
+          "date": null,
+          "quote": "Upon completion, NFA will hold seventy percent (70%) of NURC and URC will retain thirty percent (30%)."
+        },
+        {
+          "url": "https://tribune.net.ph/2026/03/13/urc-cedes-noodle-jv-control-to-nissin",
+          "date": "2026-03-13",
+          "quote": "NFA will hold 70%, leaving URC with 30%"
+        },
+        {
+          "url": "https://www.philstar.com/business/2026/03/14/2514087/urc-yields-majority-control-instant-noodle-joint-venture",
+          "date": "2026-03-14",
+          "quote": "URC yields majority control in instant noodle joint venture"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "stk-ict-yantai-stake",
+    "ticker": "ICT",
+    "company": "International Container Terminal Services, Inc.",
+    "companyDomains": [
+      "ictsi.com"
+    ],
+    "category": "stakes",
+    "asOf": "2026-04-05",
+    "question": "What equity interest in Yantai International Container Terminal did ICTSI agree to sell in March 2026?",
+    "answer": {
+      "kind": "percent",
+      "value": 51
+    },
+    "answerDocs": [
+      "b7c084db7208f04864d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Stake sold",
+      "value": "49%"
+    },
+    "search": [
+      "ICTSI Yantai"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b7c084db7208f04864d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b7c084db7208f04864d70b69f0a3140b",
+          "date": null,
+          "quote": "(ICTSI) through its wholly owned subsidiary, ICTSI (Hong Kong) Ltd., signed an Equity Interest Transfer Agreement with Yantai Port Holdings Company Limited (Yantai Port Holdings) in connection with the sale of its 51% equity interest in Yantai International Container Terminal Ltd"
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObWc5bG5janJHWFBMRUhoLWw5VUh5TXZlTFhWWVZvQUhTN2lBTjdTLW5QaFd4QzZIeW5qTU5saEtvbEhYSWNzb1k4Ml9udW96Zzg2bXc4X09jSWhjVl82VGFqYzJPUTJHLXptbWZsY2Vjc1dIV0tNM09CUTFDQkxRME1UaEJDQS16Vlh6R21sQlNrV2ljejY3RFRDVEZHMWRjdGsxb244ZjVwWGw0VTB5RzZlQjdTM0Z1?oc=5",
+          "date": "2026-03-24",
+          "quote": "ICTSI unit to sell 51% stake in China terminal for P6.77 billion"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "stk-reg-cwtc-stake",
+    "ticker": "REG",
+    "company": "Republic Glass Holdings Corporation",
+    "companyDomains": [
+      "rghc.net"
+    ],
+    "category": "stakes",
+    "asOf": "2026-05-15",
+    "question": "What equity stake in Clark World Trade Center, Inc. did Republic Glass Holdings' board approve?",
+    "answer": {
+      "kind": "percent",
+      "value": 20
+    },
+    "answerDocs": [
+      "adb95c31cecadbeb64d70b69f0a3140b"
+    ],
+    "staleDocs": [
+      "546c0056d65f4b7664d70b69f0a3140b"
+    ],
+    "answerUrls": [],
+    "conflict": null,
+    "search": [
+      "Republic Glass Holdings Clark"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Stale/distractor doc: 10% stake in SPPI Aero-Logistics Park. Review (2026-09-30): Single source (PSE Edge). No news found.  User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=adb95c31cecadbeb64d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=adb95c31cecadbeb64d70b69f0a3140b",
+          "date": null,
+          "quote": "On April 30, 2026, the Board of Directors approved a 20% equity stake in Clark World Trade Center, Inc."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "evt-rock-acc-price",
+    "ticker": "ROCK",
+    "company": "Rockwell Land Corporation",
+    "companyDomains": [
+      "e-rockwell.com"
+    ],
+    "category": "events",
+    "asOf": "2026-01-10",
+    "question": "What total consideration will Rockwell Land pay for its stake in Alabang Commercial Corporation?",
+    "answer": {
+      "kind": "amount",
+      "value": 21600000000
+    },
+    "answerDocs": [
+      "44b8ce9d18c39b99ec6e1601ccee8f59"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "ACC deal value",
+      "value": "Php 7.2 billion"
+    },
+    "search": [
+      "Rockwell Land Alabang Town Center"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Paid in 3 equal installments (Php 7.2B each), the distractor.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=44b8ce9d18c39b99ec6e1601ccee8f59",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=44b8ce9d18c39b99ec6e1601ccee8f59",
+          "date": null,
+          "quote": "Total consideration of Php 21.6 Billion will be paid in 3 equal installments."
+        },
+        {
+          "url": "https://context.ph/2025/12/22/rockwell-buys-majority-stake-in-alabang-town-center-for-p21-6-billion/",
+          "date": "2025-12-22",
+          "quote": "Rockwell buys majority stake in Alabang Town Center for P21.6 billion"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "evt-redc-thec-capacity",
+    "ticker": "REDC",
+    "company": "Repower Energy Development Corporation",
+    "companyDomains": [
+      "repowerenergy.com.ph"
+    ],
+    "category": "events",
+    "asOf": "2026-06-15",
+    "question": "What is the capacity in MW of the Tubig hydropower plant owned by Taft Hydroenergy Corporation, which Repower agreed to acquire?",
+    "answer": {
+      "kind": "amount",
+      "value": 15.93
+    },
+    "answerDocs": [
+      "43ded6d57d8356c864d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Tubig hydro capacity",
+      "value": "18.2MW"
+    },
+    "search": [
+      "Repower Energy hydropower acquisition"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=43ded6d57d8356c864d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=43ded6d57d8356c864d70b69f0a3140b",
+          "date": null,
+          "quote": "ACQUISITION OF 100% OF THE CAPITAL STOCK OF TAFT HYDROENERGY CORPORATION (THEC) AND ITS 15.93MW TUBIG HYDROPOWER PLANT LOCATED IN THE VISAYAS, BY THE COMPANY AND OTHER ENTITIES, SUBJECT TO CLOSING CONDITIONS."
+        },
+        {
+          "url": "https://context.ph/2026/06/01/renewable-energy-firm-acquires-visayas-hydropower-asset/",
+          "date": "2026-06-01",
+          "quote": "Taft Hydroenergy Corp., owner of the 15.93-megawatt Tubig Hydropower Plant"
+        },
+        {
+          "url": "https://powerphilippines.com/?p=28305",
+          "date": "2026-06-02",
+          "quote": "15.93MW Tubig hydropower plant"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "evt-lbc-blue-eagle-country",
+    "ticker": "LBC",
+    "company": "LBC Express Holdings, Inc.",
+    "companyDomains": [
+      "lbcexpressholdings.com"
+    ],
+    "category": "events",
+    "asOf": "2026-05-01",
+    "question": "Under the laws of which country or territory is Blue Eagle and LBC Service Ltd., which LBC Express agreed to sell, organized?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "Taiwan"
+      ]
+    },
+    "answerDocs": [
+      "c4c3773decd8902464d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Blue Eagle domicile",
+      "value": "Hong Kong"
+    },
+    "search": [
+      "LBC Express Blue Eagle"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c4c3773decd8902464d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c4c3773decd8902464d70b69f0a3140b",
+          "date": null,
+          "quote": "The Company will execute a deed of sale of shares, which will be subject to the approval of the concerned regulator/s in the Republic of China (Taiwan)."
+        },
+        {
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oNlJjbkJweUlKU0pKelVNbkVJVXpFZW5hZDdWS3R0NzYtWm1iU2J3d3dyRDA0U2Z1cmtOQ2NMZHBIR0JqbldNNUlkd2hMSFpCVWQ2WU5TQWlYMndsbHRZb2ZsMkxGTVVFNUNDX2UxR2ZXc2Ro0gF6QVVfeXFMT05pUzkzVWluRGJfUU5naXh1XzlIU0hnSjl1ajVPSHhBVldtVTBzSTlBS0xHX3Bwd09mY2hxRF9LRldBRzNVclZLM0wtSlNNeUk3MVQtN2lzeDFMbTdmalBkQVhsQzR5UTNJbG5UVnlFUC01RmpJaU9NbGc?oc=5",
+          "date": "2026-04-23",
+          "quote": "LBC sells Taiwan employment service unit"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "evt-acr-spm-price",
+    "ticker": "ACR",
+    "company": "Alsons Consolidated Resources, Inc.",
+    "companyDomains": [
+      "acr.com.ph"
+    ],
+    "category": "events",
+    "asOf": "2026-03-20",
+    "question": "At what price per share did Alsons Consolidated Resources tender its Seafront Resources shares?",
+    "answer": {
+      "kind": "amount",
+      "value": 2.7
+    },
+    "answerDocs": [
+      "17d3148f1b7a4f4364d70b69f0a3140b"
+    ],
+    "staleDocs": [],
+    "answerUrls": [],
+    "conflict": {
+      "label": "Tender offer price",
+      "value": "Php 2.50 per share"
+    },
+    "search": [
+      "Seafront Resources tender offer"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": " Review (2026-09-30): Check. Search summary of BusinessWorld (https://bworldonline.com/?p=735383, March 2026) agrees on ₱2.70/share (₱41.97M), but a finder.techleap.nl headline reads \"Alsons divests entire 9.5% stake in Seafront Resources for 735,000\". 15,544,911 x 2.70 = 41,971,259.70, matching the filing; the \"735,000\" headline is likely the USD equivalent. User accepted after 1-by-1 review.",
+    "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=17d3148f1b7a4f4364d70b69f0a3140b",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=17d3148f1b7a4f4364d70b69f0a3140b",
+          "date": null,
+          "quote": "(“ACR”), which owns 15,544,911 common shares of SPM, representing 9.54% of SPM’s issued and outstanding shares, elected to participate in the tender offer and applied to tender all of its shares to SPM at the tender offer price of Php 2.70 per share.The total transaction value am"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "web-areit-float-2026",
+    "ticker": "AREIT",
+    "company": "AREIT, Inc.",
+    "companyDomains": [
+      "areit.com.ph"
+    ],
+    "category": "stakes",
+    "asOf": "2026-09-30",
+    "question": "What percentage of AREIT was publicly traded as of June 30, 2026?",
+    "answer": {
+      "kind": "percent",
+      "value": 36.18
+    },
+    "answerDocs": [],
+    "staleDocs": [],
+    "answerUrls": [
+      "https://www.areit.com.ph/about-us"
+    ],
+    "conflict": {
+      "label": "Public float",
+      "value": "33.24%"
+    },
+    "search": [
+      "AREIT"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Key drafted by Opus from the page. Quote: \"As of June 30, 2026, 36.18% of the Company is publicly traded, with the balance owned by Ayala Land, Inc. and its subsidiaries.\" Review (2026-09-30): Single source (company site). Aggregator investing.com shows free float 39.74% (different date/measure).  User accepted after 1-by-1 review.",
+    "source": "https://www.areit.com.ph/about-us",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://www.areit.com.ph/about-us",
+          "date": null,
+          "quote": "As of June 30, 2026, 36.18% of the Company is publicly traded, with the balance owned by Ayala Land, Inc."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "web-areit-former-name",
+    "ticker": "AREIT",
+    "company": "AREIT, Inc.",
+    "companyDomains": [
+      "areit.com.ph"
+    ],
+    "category": "events",
+    "asOf": "2026-09-30",
+    "question": "What was AREIT's corporate name before it changed to its current name in 2019?",
+    "answer": {
+      "kind": "text",
+      "accept": [
+        "One Dela Rosa Property Development, Inc.",
+        "One Dela Rosa Property Development",
+        "One Dela Rosa Property Development Inc."
+      ]
+    },
+    "answerDocs": [],
+    "staleDocs": [],
+    "answerUrls": [
+      "https://www.areit.com.ph/about-us"
+    ],
+    "conflict": {
+      "label": "Former name",
+      "value": "Ayala Land REIT Holdings, Inc."
+    },
+    "search": [
+      "AREIT"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Key drafted by Opus from the page. Quote: \"It was initially known as One Dela Rosa Property Development, Inc. before changing to its current name on April 12, 2019.\" Review (2026-09-30): Single independent source: company site; Wikipedia (en.wikipedia.org/wiki/AREIT,_Inc.) agrees but is not a primary or news source.  User accepted after 1-by-1 review.",
+    "source": "https://www.areit.com.ph/about-us",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://www.areit.com.ph/about-us",
+          "date": null,
+          "quote": "It was initially known as One Dela Rosa Property Development, Inc."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "web-areit-incorporation",
+    "ticker": "AREIT",
+    "company": "AREIT, Inc.",
+    "companyDomains": [
+      "areit.com.ph"
+    ],
+    "category": "events",
+    "asOf": "2026-09-30",
+    "question": "On what date was AREIT incorporated?",
+    "answer": {
+      "kind": "date",
+      "value": "2006-09-04"
+    },
+    "answerDocs": [],
+    "staleDocs": [],
+    "answerUrls": [
+      "https://www.areit.com.ph/about-us"
+    ],
+    "conflict": {
+      "label": "Incorporation date",
+      "value": "April 12, 2019"
+    },
+    "search": [
+      "AREIT"
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Key drafted by Opus from the page. Quote: \"AREIT Inc. (AREIT) was incorporated as a real estate company on September 4, 2006.\" Review (2026-09-30): Single independent source: company site; Wikipedia (en.wikipedia.org/wiki/AREIT,_Inc.) agrees (September 4, 2006) but is not a primary or news source.  User accepted after 1-by-1 review.",
+    "source": "https://www.areit.com.ph/about-us",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://www.areit.com.ph/about-us",
+          "date": null,
+          "quote": "(AREIT) was incorporated as a real estate company on September 4, 2006."
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "web-filrt-listing-date",
+    "ticker": "FILRT",
+    "company": "Filinvest REIT Corp.",
+    "companyDomains": [
+      "filinvestreit.com"
+    ],
+    "category": "events",
+    "asOf": "2026-09-30",
+    "question": "On what date was Filinvest REIT publicly listed on the Philippine Stock Exchange?",
+    "answer": {
+      "kind": "date",
+      "value": "2021-08-12"
+    },
+    "answerDocs": [],
+    "staleDocs": [],
+    "answerUrls": [
+      "https://www.filinvestreit.com/about-us"
+    ],
+    "conflict": {
+      "label": "PSE listing date",
+      "value": "12 August 2020"
+    },
+    "search": [
+      "Filinvest REIT Corp."
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Key drafted by Opus from the page. Quote: \"FILRT was publicly listed on the Philippine Stock Exchange on 12 August 2021 as the first sustainability-themed REIT.\"",
+    "source": "https://www.filinvestreit.com/about-us",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://www.filinvestreit.com/about-us",
+          "date": null,
+          "quote": "FILRT was publicly listed on the Philippine Stock Exchange on 12 August 2021 as the first sustainability-themed REIT."
+        },
+        {
+          "url": "https://gmanetwork.com/news/money/companies/796537/filinvest-reit-ipo-set-for-august-12-listing/story",
+          "date": "2021-07",
+          "quote": "Filinvest REIT IPO set for August 12 listing"
+        },
+        {
+          "url": "https://moneysense.com.ph/filreit-debuts-on-the-philippine-stock-exchange/",
+          "date": "2021-08-12",
+          "quote": "FILREIT made its debut on the PSE on Thursday (August 12)"
+        }
+      ],
+      "issue": null
+    }
+  },
+  {
+    "id": "web-creit-rename-date",
+    "ticker": "CREIT",
+    "company": "Citicore Energy REIT Corp.",
+    "companyDomains": [
+      "creit.com.ph"
+    ],
+    "category": "events",
+    "asOf": "2026-09-30",
+    "question": "On what date was Enfinity Philippines Renewable Resources, Inc. renamed Citicore Energy REIT Corp.?",
+    "answer": {
+      "kind": "date",
+      "value": "2021-10-12"
+    },
+    "answerDocs": [],
+    "staleDocs": [],
+    "answerUrls": [
+      "https://www.creit.com.ph/about-us"
+    ],
+    "conflict": {
+      "label": "Renamed to Citicore Energy REIT Corp.",
+      "value": "July 15, 2010"
+    },
+    "search": [
+      "Citicore Energy REIT Corp."
+    ],
+    "exclude": [],
+    "noise": 3,
+    "notes": "Key drafted by Opus from the page. Quote: \"Enfinity Philippines Renewable Resources, Inc. ('EPRRI') – a wholly-owned power generation company by CREC, established in the Philippines and incorporated on July 15, 2010, focusing on exploration, development and utilization of renewable resources such as sun and wind – was renamed Citicore Energy REIT Corp. on October 12, 2021.\" Review (2026-09-30): Single source: only creit.com.ph/about-us (the page the key came from).  User accepted after 1-by-1 review.",
+    "source": "https://www.creit.com.ph/about-us",
+    "verified": true,
+    "verification": {
+      "sources": [
+        {
+          "url": "https://www.creit.com.ph/about-us",
+          "date": null,
+          "quote": "on October 12, 2021."
+        }
+      ],
+      "issue": null
+    }
+  }
+]

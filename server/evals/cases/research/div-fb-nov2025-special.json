@@ -1,0 +1,105 @@
+{
+  "id": "div-fb-nov2025-special",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:47.167Z",
+  "ticker": "FB",
+  "company": "San Miguel Food and Beverage, Inc.",
+  "category": "dividends",
+  "asOf": "2025-12-01",
+  "question": "How much per share is the special cash dividend San Miguel Food and Beverage declared in November 2025?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.55
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "FB Stock Price and Chart — PSE:FB",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-FB/",
+      "publishedAt": "2023-01-18",
+      "sourceType": "aggregator",
+      "text": "Track San Miguel Food & Beverage, Inc. stock price today with the live chart. Find FB news, trading ideas, forecasts, financials, and more.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "DWC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b6a4ed96e8508486ec6e1601ccee8f59",
+      "publishedAt": "2025-08-20",
+      "sourceType": "primary",
+      "text": "Disposition of Asset by Subsidiary\n\nPlease be informed that the Company's subsidiary, Discovery Fleet Corporation (\"DFC\") has executed a Deed of Absolute Sale with VCoast Marine Services for the sale of its vessel, M/Y Discovery Palawan, for a consideration of Php 3 Million.After careful evaluation by DFC's Board and Management, it was determined that continuing the liveaboard business line was no longer viable due to the vessel's aging condition and sustained financial losses from its operations.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "KEEPR: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=562b32591dea8fccec6e1601ccee8f59",
+      "publishedAt": "2025-07-16",
+      "sourceType": "primary",
+      "text": "Acquisition of up to 50% Subscribed and Outstanding Shares of Cervia Global Trading, Inc.\n\nThe Keepers Holdings, Inc. (\"Keepers\") intends to acquire up to 50% subscribed and outstanding shares of Cervia Global Trading, Inc.\n\nThe acquisition of a 50% stake in Cervia Global Trading, Inc. gives The Keepers Holdings, Inc. a strategic entry point into the premium local spirits market, while also positioning the company for growth in international markets\n\nThe Keepers Holdings, Inc. shall pay cash to Mr. Caesar R. Certeza, Mr. Mark Daniel L. Rivera, Mr. Vernon A. Carandang, and Ms. Margherita Y. Rauto in exchange of their respective shareholdings, totaling to fifty percent (50%) of the subscribed and outstanding capital stock of Cervia Global Trading, Inc.\n\nCervia Global Trading, Inc. is a domestic corporation and the company behind the world-class Filipino liqueur brand “SULÀ”. It is dedicated to creating and producing premium local alcoholic beverages – particularly liqueurs using Philippine-grown raw materials for distribution in both domestic and international markets.\n\nThe consideration shall be paid in cash\n\nThe amount of consideration was based on the revenue potential of Cervia Global Trading, Inc.\n\nOne-time payment\n\nThe acquisition of a 50% stake in Cervia Global Trading, Inc. gives The Keepers Holdings, Inc. a strategic entry point into the premium local spirits market, while also positioning the company for growth in international markets\n\nPlease see supporting SEC 17-C attached.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "5 Reasons Why Ramon Ang's San Miguel Food and Beverage, Inc Is the Cheapest Food Stock Today",
+      "source": "Esquire PH",
+      "url": "https://www.esquiremag.ph/money/industry/san-miguel-food-and-beverage-stock-a2334-20221108-lfrm2",
+      "publishedAt": "2022-11-08",
+      "sourceType": "news",
+      "text": "5 Reasons Why Ramon Ang's San Miguel Food and Beverage, Inc Is the Cheapest Food Stock Today",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "FB: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=1882c6f5140c3a95ec6e1601ccee8f59",
+      "publishedAt": "2025-11-11",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends for Common Shares.\n\nPlease be informed that at the meeting of the Board of Directors of San Miguel Food and Beverage, Inc. (respectively, the \"Board\" and the \"Company\") held on November 10, 2025, the Board approved the declaration of a regular cash dividend of P0.50 per share, for common shareholders of the Company as of record date of November 25, 2025. Payment date is December 10, 2025.\n\nRETAINED EARNINGS AS OF SEPTEMBER 30, 2025 AND RECEIPT OF DIVIDEND INCOME FROM SUBSIDIARIES.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "FB: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9c8e5ae163df4b0cec6e1601ccee8f59",
+      "publishedAt": "2025-11-11",
+      "sourceType": "primary",
+      "text": "Declaration of Special Cash Dividends for Common Shares.\n\nPlease be informed that at the meeting of the Board of Directors of San Miguel Food and Beverage, Inc. (respectively, the \"Board\" and the Company\") held on November 10, 2025, the Board approved the declaration of a special cash dividend of P0.55 per share, for common shareholders of the Company as of record date of November 25, 2025. Payment date is December 10, 2025.\n\nRETAINED EARNINGS AS OF SEPTEMBER 30, 2025 AND RECEIPT OF DIVIDEND INCOME FROM SUBSIDIARIES.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Earnings call transcript: San Miguel Corp reports strong Q3 2025 performance amid challenges",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-san-miguel-corp-reports-strong-q3-2025-performance-amid-challenges-93CH-4367096",
+      "publishedAt": "2025-11-19",
+      "sourceType": "aggregator",
+      "text": "Earnings call transcript: San Miguel Corp reports strong Q3 2025 performance amid challenges",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "KPPI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5d60764a8d637110ec6e1601ccee8f59",
+      "publishedAt": "2025-07-07",
+      "sourceType": "primary",
+      "text": "Disbursement of Proceeds and Progress report on Business Plan as of 30 June 2025\n\nPursuant ro Article III, Part E, section 6 (b) of the Listing Rules of the Philippines Stock Exchange , Kepwealth Property Philippines, Inc. submits the report on progress on business plan as of 30 June 2025.\n\nAttach Report on Progress on Business Plan",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

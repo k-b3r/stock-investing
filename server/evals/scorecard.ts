@@ -2,6 +2,7 @@ import { fileURLToPath } from 'url';
 import { median } from '../../shared/stats.ts';
 import { parseThesisOutput } from '../scripts/thesis-context.ts';
 import { printFactCheckScorecard } from './factcheck/scorecard.ts';
+import { printResearchScorecard } from './research/scorecard.ts';
 import { applicableGraders, gradeRun } from './graders/index.ts';
 import { gradeConsistency, gradePriceShift, modalVerdict } from './graders/verdict.ts';
 import { casesDir } from './paths.ts';
@@ -95,5 +96,6 @@ export async function printScorecard(suite: Suite): Promise<void> {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   if (process.argv[2] === 'factcheck') await printFactCheckScorecard();
+  else if (process.argv[2] === 'research') await printResearchScorecard();
   else await printScorecard('thesis');
 }

@@ -1,0 +1,105 @@
+{
+  "id": "stk-ict-yantai-stake",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:12.928Z",
+  "ticker": "ICT",
+  "company": "International Container Terminal Services, Inc.",
+  "category": "stakes",
+  "asOf": "2026-04-05",
+  "question": "What equity interest in Yantai International Container Terminal did ICTSI agree to sell in March 2026?",
+  "answer": {
+    "kind": "percent",
+    "value": 51
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "ICTSI exits China’s Yantai port terminal",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOG9oNFRXUWdxYktRWllmQlUtQk4xV29HOVVGZVVYY3FfT1c5N29PMEFQeVZSNWdTdGVnbWtoRWZJNUhCcTBvYVZiRVNKV3ZIcnEwbzBkTFRjcEM3aS13RTUycTQwWGRmcFpiNk00ZFlHN2tjaHB5Y0M5cWpVOGMtdTB30gGHAUFVX3lxTFAtOUlWZE1FVWdEYy13eTlRdDNncDMySTlsRzgxREZldkFkenJ4dHYyS21LVFJrcjlpeHRUaUVaTVNJQUZIZHJlZmdHYU0zeFlqYkdvQUZfa0hBX2pyS29LVzNrR1ZvdFozZmN5NDlDQVJ3N0ZOT0w5THRLR2NkMVJ5bWJQLVpvMA?oc=5",
+      "publishedAt": "2026-03-24",
+      "sourceType": "news",
+      "text": "ICTSI exits China’s Yantai port terminal",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "SBS: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b73a91f89026ae4964d70b69f0a3140b",
+      "publishedAt": "2026-02-26",
+      "sourceType": "primary",
+      "text": "Board Approvals\n\nWe wish to inform you that the Board of Directors of SBS Philippines Corporation (the “Corporation”) approved today, February 26, 2026, the following:1. The Corporation’s 2025 Sustainability Report2. The Corporation’s 2025 Annual Report3. The Corporation’s Audited Financial Statements and Management Report for the year ended 31 December 20254. The Corporation’s Audited Consolidated Financial Statements and Management Report for the year ended 31 December 20255. The Corporation’s 2026 Internal Audit Plan6. The date of the Annual Stockholders’ Meeting has been scheduled on June 26, 2026 at 3:00P.M. The Record Date has been set to May 5, 2026 while the venue of the meeting shall be announced in due course.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "ICT stock: Stake sold",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/ict",
+      "publishedAt": "2026-04-05",
+      "sourceType": "aggregator",
+      "text": "International Container Terminal Services, Inc. (PSE: ICT), company snapshot.\nStake sold: 49%.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "CHP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=2c43b348be59be6f64d70b69f0a3140b",
+      "publishedAt": "2026-03-02",
+      "sourceType": "primary",
+      "text": "Results of the Board of Directors' Meeting\n\nWe advise that at the meeting of the Board of Directors held today, February 27, 2026, the Board of Directors approved the following:1) Audited Financial Statements for the year ended December 31, 2025: Upon favorable recommendation of the Audit Committee, the Consolidated Audited Financial Statements for the period December 31, 2025;2) Re-appointment of the external auditor: Upon recommendation of the Audit Committee, the Board approved, subject to stockholders’ ratification, the re-appointment of Sycip, Gorres, Velayo & Co. (SGV) as the Corporation’s external auditor for 2026;3) Annual Stockholders’ Meeting: Upon favorable recommendation of the Corporate Governance Committee, the calling of the 2026 Annual Stockholders’ Meeting with the following details:a. The Corporation will hold its Annual Stockholders’ Meeting (ASM) on May 4, 2026, Monday, at 1:30 p.m. via remote communication. The Record Date for the ASM is set on March 27, 2026. b. The Board has appointed Castillo Laman Tan Pantaleon and San Jose Law Offices (CLTPSJ) and BDO Unibank, Inc. - Trust and Investments Group as Committee of Inspectors, while the audit firm, Punongbayan & Araullo (P&A) was appointed as Board of Canvassers.c. Deadline for Submission of Proxies: The deadline for the submission of proxies for the 2026 ASM shall be on April 24, 2026 (by 5:00 P.M.), addressed to the attention of the Corporate Secretary.d. ASM Agenda:i. Call to Orderii. Certification of Notice and Determination of Quorumiii. Approval of the Minutes of the Annual Meeting of Stockholders held on May 5, 2025iv. Approval of Management Report for 2025v. Ratification and Approval of the Acts of the Board of Directors and Managementvi. Election of the Members of the Board of Directors (including the independent directors)vii. Appointment of the External Auditorviii. Increase in Per Diem for Attendance in Regular Committee Meetings of Independent Directorsix. Other Mattersx. AdjournmentThe stockholders of CHP as of Record Date shall be entitled to participate in the 2026 ASM through remote communication and to exercise their right to vote in absentia. The other details and procedures to be observed in connection with the 2026 ASM, including the registration process, deadline for submission of voting ballots and any changes to the meeting agenda, will be confirmed in due course. The SEC Form 17-A Annual Report for the year ended December 31, 2025 will be submitted on or before",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "GMAP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=fb77f97f9aabb23d64d70b69f0a3140b",
+      "publishedAt": "2026-03-25",
+      "sourceType": "primary",
+      "text": "Results of Special Board Meeting\n\nDuring the special meeting held today via remote communication, the Board of Directors of GMA Holdings, Inc. approved the following:I. Postponement of the 2026 Annual Stockholders’ Meeting (“2026 ASM”), which, as per the Company’s By-Laws, shall be held every last Friday of May in order to give the Company time to address the implications of the recently issued SEC Memorandum Circular No. 7 Series of 2026 (Term Limit of Independent Directors) to its business, with a corresponding request to the Commission for the approval of the resetting/postponement.At the same time, the postponement of the 2026 ASM shall afford the Company more time to comply with the various legal and regulatory requirements under the Revised Corporation Code, Securities Regulation Code, other the relevant laws, rules and regulations, as well as the Company’s By-Laws for the preparation, filing and distribution of the required reports, updates and materials that need to be provided to the stockholders before the 2026 ASM; and, accordingly, give the stockholders sufficient time to study the ASM materials and meaningfully participate during the ASM.II. The setting of the Annual Stockholders’ Meeting via remote communication through Zoom application to December 11, 2025 (Friday) and the record date on November 11, 2026 for the purpose of determining the Stockholders entitled to notice of, and to vote at the Corporation’s ASM on December 11, 2026. In the event that the Board of Directors will deem it necessary to hold the meeting 2026 Annual Stockholders’ Meeting at an earlier date, the Company will accordingly disclose such earlier date and seek approval therefor from the Securities and Exchange Commission and the Philippine Stock Exchange at an appropriate time;III. Approval of the Audited Financial Statements for the year ended December 31, 2025 and the release thereof;IV. Declaration of cash dividends in the amount of Two Million Seven Hundred Thousand Pesos (PhP 2,700,000) from the retained earnings of the Corporation as of December 31, 2025 to be paid on May 15, 2026 to its common stockholders as of April 20, 2026. Note: PDR Holders are not stockholders of GHI;V. In relation to the declaration of Cash Dividends of PhP 0.40 per share by GMA Network, Inc. the record date for the PDR Holders who are entitled to receive the cash amounts is April 20, 2026 (the same record date for GMA Network, Inc. stockholders). The cash dividends are expected to be rece",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "ICT: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b7c084db7208f04864d70b69f0a3140b",
+      "publishedAt": "2026-03-23",
+      "sourceType": "primary",
+      "text": "ICTSI subsidiary sells equity interest in Yantai International Container Terminal Ltd.\n\nOn March 23, 2026, International Container Terminal Services, Inc. (ICTSI) through its wholly owned subsidiary, ICTSI (Hong Kong) Ltd., signed an Equity Interest Transfer Agreement with Yantai Port Holdings Company Limited (Yantai Port Holdings) in connection with the sale of its 51% equity interest in Yantai International Container Terminal Ltd. (YICTL), the Company’s subsidiary in Yantai, China.\n\nAfter a successful 20 years in Yantai, ICTSI deems the sale of YICTL in keeping with the ICTSI Group’s long-term strategy of focusing on concession contracts where ICTSI has control over critical aspects of the business, particularly with regards to long-term development and commercial activities, among others.ICTSI is able to rationalize our strategy and redirect its resources to its other existing projects and those in its pipeline.\n\nSale of Shares\n\nYICTL, a joint venture in which ICTSI Hong Kong Limited (IHKL) holds a 51% majority equity interest, operates and manages a port terminal in Shandong Province, People’s Republic of China. The remaining equity in YICTL is held by Yantai Port Holdings (36.5%) and DP World China (Yantai) Limited (DPW) (12.5%).\n\nRMB773,212,683.73\n\nAppraised value as determined by an independent appraiser, as set for in the valuation report\n\nCash\n\nThe usual conditions precedent to closing applicable in this kind of transaction\n\nDPW, which also holds 12.5% of the equity interest in YICTL, together with IHKL, both entered into an Equity Interest Transfer Agreement to transfer their entire equity interests to Yantai Port Holdings. Upon completion, Yantai Port Holdings will hold 100% of the equity interest in YICTL.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "ICTSI exits Chinese port joint venture in Yantai",
+      "source": "Seatrade Maritime News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYkNoMmhPUktWM2tQaWlpUWVISl96ZjdiWFRUUThLUFlRRTJ6TjZFRzVlXzVrdG95dm52V1J0U3ltMzhjckhKc1N5M3B5UEx3N2s3WW0zNFM4WFFnVGxuQjNQcHU5djZreFNIbEp0OWlZNWVneFhiMkp3YklwVWVtWHQ1QUxKbWdQUUc3aWJPalFBRHZORzVzWXlxaUFDeVU?oc=5",
+      "publishedAt": "2026-03-25",
+      "sourceType": "news",
+      "text": "ICTSI exits Chinese port joint venture in Yantai",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "ICTSI sells controlling stake in Chinese port for ₱6.7 billion amid strategy shift",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbTRVbU5wRmtnQVFlQy16d2FwdUpkLW5uY1ZRVXFHaGRuVjBSYVlyNFdFcHQzSUUzb09xNDNhZ0JFM2VYTEJUM1hWbDBPTDd2ajZ6SGw0a0JDdEpTNlh5RDgwTzlxVGQ1RW5fS0xrNFFVNEswMGwtcXJ3Z3RiRGVoRi13UjJSUUdfa3lybk94YWtya09MNW5ndjhZWjlzR0ZNeUYwdmVPN3J3SWt6Y1E?oc=5",
+      "publishedAt": "2026-03-23",
+      "sourceType": "news",
+      "text": "ICTSI sells controlling stake in Chinese port for ₱6.7 billion amid strategy shift",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

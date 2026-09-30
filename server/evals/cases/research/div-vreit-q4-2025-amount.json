@@ -1,0 +1,116 @@
+{
+  "id": "div-vreit-q4-2025-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:22.034Z",
+  "ticker": "VREIT",
+  "company": "VistaREIT, Inc.",
+  "category": "dividends",
+  "asOf": "2026-06-01",
+  "question": "How much per share is VistaREIT's cash dividend for the fourth quarter of 2025?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.038
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "VREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4d8512d42d291d564d70b69f0a3140b",
+      "publishedAt": "2026-05-25",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends - Q4 2025\n\nAt the meeting of the Board of Directors of VistaREIT, Inc. (the “Company”) held on 11 May 2026, the Board approved the declaration of Q4 2025 Cash Dividends based on the unrestricted retained earnings of the Company in its unaudited financial statements as of the year ended 2025 and which shall be payable in cash to all its stockholders on the basis of outstanding stocks held by them. Details as follows:Amount : Php 0.03800 per shareRecord Date : 25 May 2026Payment Date : 29 May 2026\n\nAs of 29 May 2026, the total dividends paid by the Company shall comprise at least 90% of its distributable income based on its unaudited financial statements as of the year ended 2025. Upon release of its Audited Financial Statements for the year ended 2025 and if necessary, the Company shall declare additional cash dividends to comply with the required dividend distribution under Article II, Section 7 of Republic Act No. 9856.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "I: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=4c3aa93d664bdc0e64d70b69f0a3140b",
+      "publishedAt": "2026-05-26",
+      "sourceType": "primary",
+      "text": "Constitution of Emergency Board\n\nPlease be informed that the following officers of I-Remit, Inc. (the “Corporation”) were unanimously elected by the remaining members of the Board of Directors as temporary directors for the purpose of constituting an emergency board pursuant to Section 28 of Republic Act No. 11232 (Revised Corporation Code):Ms. Maria Cristina S. Castillejo – Senior Executive Vice President and Chief Operating Officer Mr. Severino A. Lagan Jr. – Vice President, Information Technology Group Mr. Juan Angel L. Tinio – Senior Vice President and Chief Risk Officer Mr. Franco C. Monserrat – Assistant Manager - Global MarketingThe emergency board is being constituted to deliberate on and approve the following matters: 1. 2025 Integrated Annual Corporate Governance Report; 2. 2026 Annual Stockholders’ Meeting date to the maximum extension period permitted under the Revised Corporation Code; 3. 2025 Annual Audited Financial Statements upon availability; 4. Acceptance of the Letter of Intent from a prospective investor to be endorsed by Frankfurt Equity Ventures, Inc. 5. Strategic Restructuring, Regulatory Preservation, and Institutional Transformation Framework in collaboration with a prospective local bank recognized for its treasury expertise and transformative initiatives together with a prospective foreign partner also known for its transformative initiatives; and 6. Such other corporate actions as may be necessary for the emergency approval and continued operations of the Board of Directors. The term of the temporary directors shall commence on May 28, 2026, and shall remain effective until June 30, 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "LC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6ac1a6feeee7107a64d70b69f0a3140b",
+      "publishedAt": "2026-02-23",
+      "sourceType": "primary",
+      "text": "Renewal of MPSA 001-90-CAR\n\nLepanto and subsidiary Far Southeast Gold Resources, Inc. need to obtain the Free and Prior Informed Consent of the Mankayan Ancestral Domain as a pre-requisite to the renewal of their MPSA 001-90-CAR.\n\nMajority of the barangays in the Mankayan Ancestral Domain voted in favor of the MPSA renewal.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "KPPI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f278b343fd83086f64d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "Results of the Special Meeting of the Board of Directors held on May 13, 2026 at 5:00pm\n\n1. Call to Order2. Proof of Notice and Determination of Quorum3. Approval of the Minutes of the Organizational Board Meeting held on 09 July 20254. Setting of the date of the 2026 Annual Stockholders' Meeting on July 08, 2026 8:00 am via remote communication5. Approval of the Annual Report on SEC Form 17-A and the Financial Statements for the year ending 31 December 2025.6. Approval of Authority to Transact with Metropolitan Bank & Trust Company7. Request Issuance of Secretary Certificate for change bank signatories for the Corporations Bank Accounts with BDO Unibank, Inc.\n\nAttach SEC Form 17-C ( The Results of Special Meeting on the Board of Directors )",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "VREIT stock: Quarterly dividend per share",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/vreit",
+      "publishedAt": "2026-06-01",
+      "sourceType": "aggregator",
+      "text": "VistaREIT, Inc. (PSE: VREIT), company snapshot.\nQuarterly dividend per share: Php 0.04920.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d6",
+      "title": "VREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=925f8bf80e41588aec6e1601ccee8f59",
+      "publishedAt": "2025-11-14",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends - Q3 2025\n\nAt the meeting of the Board of Directors of VistaREIT, Inc. (the “Company”) held today, 13 November 2025, the Board approved the declaration of Q3 2025 Cash Dividends which shall be payable in cash to all its stockholders on the basis of outstanding stocks held by them. Details as follows: Amount : Php 0.04920 per share Record Date : 12 December 2025 Payment Date : 09 January 2026",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "VistaREIT refutes unpaid rent reports",
+      "source": "Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OQ2VwY212bGZCbWU1LVItaGZId1lQeWJLLTU3WmNQTUVtWEN0alpwUmhaa1FkUkxsWHI4VkNLVDJvdVVITHQ0UFp1Rm1meUVpNzVLS0FLalRGLVJZWUI3M0pZZmxJSGNIT1Y4YWlGUi1Pa0g4Vkp2WlpzSQ?oc=5",
+      "publishedAt": "2025-10-11",
+      "sourceType": "news",
+      "text": "VistaREIT refutes unpaid rent reports",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "VistaREIT, Inc. Dividends – PSE:VREIT",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10Vzl0dzVQVk1kR3JMeWVFWFVtSUNrUHFLSXQtd3JYbG02VnYxd3c4a24yQnNjMzlqUVE3cGhBOHBZQzItRnBDOXY1OS1Ma0dmYUFWZXo1UW1wWmw1a2tsTUsyMTFXQWotVEFVR1NobjBqZktFSVE?oc=5",
+      "publishedAt": "2023-04-09",
+      "sourceType": "news",
+      "text": "VistaREIT, Inc. Dividends – PSE:VREIT",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "Villar’s VistaREIT assures investors dividends remain secure despite rising receivables",
+      "source": "InsiderPH",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMVJwemdWZjY3Y192ZldyZktRWUVRc2UtUlcxdXZ1c0l5Q0xDR0E5b24ySF9VUm9TOUN0c2xhZ0gwczZucDM4S21TdmNaaEhDTTdvX0tWTzZieGtHbkFIcFZ4c2o2dGxzTjhxMXVvaW9Zb0dBdnRfWWJmc0lzeGEzVkdRdWhsS2VYbmpuWGhRTFltWlJtV1dZbUVlTGlmT3RfLTMxcnhqZGo3cGhQ?oc=5",
+      "publishedAt": "2025-10-10",
+      "sourceType": "news",
+      "text": "Villar’s VistaREIT assures investors dividends remain secure despite rising receivables",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

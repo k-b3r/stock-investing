@@ -1,0 +1,116 @@
+{
+  "id": "div-ppc-2026-payment",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:12.964Z",
+  "ticker": "PPC",
+  "company": "Pryce Corporation",
+  "category": "dividends",
+  "asOf": "2026-05-20",
+  "question": "On what date is the cash dividend Pryce Corporation declared on May 6, 2026 payable?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-06-25"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "PPC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c320f8de5bdf7f60ec6e1601ccee8f59",
+      "publishedAt": "2025-11-12",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nThe Board of Directors of Pryce Corporation (the \"Company\") declared today, November 12, 2025, a cash dividend of twenty-six centavos (Php 0.26) per common share. The dividends will be payable on December 29, 2025 to all stockholders of record as of November 28, 2025. The dividends will be funded from the unrestricted retained earnings of the Company as of December 31, 2024.\n\nUnrestricted retained earnings of the Company as of December 31, 2024.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "DFNN: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=2fd539a24966367564d70b69f0a3140b",
+      "publishedAt": "2026-05-18",
+      "sourceType": "primary",
+      "text": "Results of the Regular Board Meeting held on May 15, 2026\n\nPlease be advised that during the regular meeting of the Board of Directors of DFNN, Inc. (DFNN) held today, May 15, 2026, the Board approved and/or ratified the following:(a) Setting of the Annual Stockholders’ Meeting on July 30, 2026; (b) Setting June 30, 2026 as the record date for the Annual Stockholders’ Meeting;(c) Assumption of corporate debts of LuckyU, Inc., Inter-Active Entertainment Solutions Technologies, Inc., and PGI Systems Ltd., in consideration for the subscription by DFNN to additional equity shares in the respective companies; and(d) Unaudited Financial Statements for the First Quarter of 2026 (period ended March 31, 2026).",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "SMPH Stock Price and Chart — PSE:SMPH",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-SMPH/",
+      "publishedAt": "2021-10-19",
+      "sourceType": "aggregator",
+      "text": "Track SM Prime Holdings, Inc. stock price today with the live chart. Find SMPH news, trading ideas, forecasts, financials, and more.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Index rebalances, AREIT, CBC join list",
+      "source": "Daily Tribune",
+      "url": "https://tribune.net.ph/2025/01/24/index-rebalances-areit-cbc-join-list-2",
+      "publishedAt": "2025-01-25",
+      "sourceType": "news",
+      "text": "‘It is notable that our very first listed REIT has also become the first REIT to make it to the PSEi.’",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "PPC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b95aa66360f0a65964d70b69f0a3140b",
+      "publishedAt": "2026-05-06",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nThe Board of Directors of Pryce Corporation (the \"Company\") declared today (May 6, 2026) cash dividends of thirty-three centavos (Php 0.33) per common share. The dividends will be payable on June 25, 2026 to all stockholders of record as of June 1, 2026. The dividends will be funded from the unrestricted retained earnings of the Company as of December 31, 2025.\n\nUnrestricted retained earnings of the Company as of December 31, 2025.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "PPC stock: Dividend payment date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/ppc",
+      "publishedAt": "2026-05-20",
+      "sourceType": "aggregator",
+      "text": "Pryce Corporation (PSE: PPC), company snapshot.\nDividend payment date: December 29, 2025.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d7",
+      "title": "BNCOM: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f1f9ea3ef171598164d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "BankCom Delivers Strong Start to 2026 with 13% Growth in Net Income\n\nSan Miguel Corporation (SMC) affiliate Bank of Commerce (BankCom) opened 2026 strong with an unaudited net income of P976.19 million as of 31 March 2026, up 13% vs the same quarter last year. This solid first-quarter performance underscores the bank’s sustained growth trajectory despite heightened market volatility linked to the Middle East conflict. The double-digit increase was mainly fueled by resilient core revenue streams from net interest income and foreign exchange gains from client transactions. This translated to a return on equity (ROE) and return on assets (ROA) of 10.74% and 1.32%, respectively, reflecting BankCom’s continued commitment and ability to deliver value to shareholders.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "STN: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=27732f3d0fa6079e64d70b69f0a3140b",
+      "publishedAt": "2026-03-02",
+      "sourceType": "primary",
+      "text": "Assessment of SEC Fines for Subsidiary, Steniel Cavite Packaging Corporation\n\nSTENIEL MANUFACTURING CORPORATION (STN) reports that its subsidiary, Steniel Cavite Packaging Corporation (SCPC), received from the Securities and Exchange Commission (SEC) today, March 2, 2026, an assessment for the payment of fines due to deficient/late filing of reports from 2019-2022 amounting to PhP146,000.00.SCPC is currently in the process of working with the SEC in clarifying said assessment and may contest said assessment when it deems appropriate.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "Pryce expands gas empire with three new separation plants",
+      "source": "mb.com.ph",
+      "url": "https://mb.com.ph/2025/10/20/pryce-expands-gas-empire-with-three-new-separation-plants",
+      "publishedAt": "2025-10-20",
+      "sourceType": "news",
+      "text": "Pryce expands gas empire with three new separation plants",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

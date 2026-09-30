@@ -1,7 +1,8 @@
 import type { FactCheckGradeResult } from './factcheck/types.ts';
+import type { ResearchGradeResult } from './research/types.ts';
 import type { TickerContext, Verdict } from '../scripts/thesis-context.ts';
 
-export type Suite = 'thesis' | 'factcheck';
+export type Suite = 'thesis' | 'factcheck' | 'research';
 
 export type PriceBand = 'below-mos' | 'mos-to-sticker' | 'above-sticker' | 'no-sticker' | 'no-price';
 export type IndexTier = 'psei' | 'midcap' | 'smallcap';
@@ -91,6 +92,8 @@ export interface RunGrades {
   sanity?: GradeResult;
   // Fact-check suite only
   factCheck?: FactCheckGradeResult;
+  // Research suite only
+  research?: ResearchGradeResult;
 }
 
 export interface RunResult {

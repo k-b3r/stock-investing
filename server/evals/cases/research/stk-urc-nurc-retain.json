@@ -1,0 +1,105 @@
+{
+  "id": "stk-urc-nurc-retain",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:09.989Z",
+  "ticker": "URC",
+  "company": "Universal Robina Corporation",
+  "category": "stakes",
+  "asOf": "2026-03-31",
+  "question": "What equity interest in Nissin Universal Robina Corporation will URC retain after selling shares to Nissin Foods Asia?",
+  "answer": {
+    "kind": "percent",
+    "value": 30
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "BNCOM: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=47feb7781969e01aec6e1601ccee8f59",
+      "publishedAt": "2025-11-10",
+      "sourceType": "primary",
+      "text": "BankCom 3Q25 profit jumps 24% on strength of core revenue expansion\n\nSan Miguel Corporation (SMC) affiliate Bank of Commerce (BankCom) posted an unaudited net income of P2.75 billion as of 30 September 2025, marking a 24% rise year-on-year, underscoring the bank’s robust revenue growth. This translated to a return on equity (ROE) and return on asset (ROA) of 10.63% and 1.35%, respectively.The 3Q 2025 results demonstrate the Bank’s strong growth, anchored on the steady expansion of its core business revenues, led by higher net interest income and solid gains from facilitating client foreign exchange transactions.BankCom’s consistently strong financial performance highlights its effective execution of its SMC ecosystem strategy aimed at optimizing capital utilization, operational efficiency while maintaining disciplined risk management.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "URC: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=9849933e52df1e8f64d70b69f0a3140b",
+      "publishedAt": "2026-03-13",
+      "sourceType": "primary",
+      "text": "URC to sell 21% share of NURC to NFA\n\nUniversal Robina Corporation (“URC”) and Nissin Foods Asia Co., Ltd. (“NFA”) have entered into a transaction under which NFA will acquire an additional twenty-one percent (21%) equity interest in their joint venture, Nissin Universal Robina Corporation (“NURC”). Upon completion, NFA will hold seventy percent (70%) of NURC and URC will retain thirty percent (30%).\n\nURC and NFA are refining the partnership to further accelerate NURC’s development. In recognition of NFA’s global strengths in product innovation and brand-building in the noodles category, NFA will assume an enhanced leadership role in these areas. URC will continue to serve as the local operating partner in the Philippines, remaining deeply involved in day-to-day operations and contributing its market knowledge, strong route-to-market capabilities, and execution excellence to sustain and enhance NURC’s competitive position.\n\nDirect sale of shares\n\nEstablished in 1994, Nissin Universal Robina Corporation (NURC) is a joint venture between Universal Robina Corporation (URC) and Nissin Foods Asia Co., Ltd. (NFA). The company manufactures and sells instant noodles in the Philippines and is a key player in the local market. URC currently holds a 51% majority ownership stake, while NFA owns the remaining 49%.\n\nTBA\n\nIn determining the amount of consideration, two (2) methods were utilized: (i) Discounted Cash Flow with terminal value using the Gordon Growth method, and (ii) Enterprise Value / EBITDA multiples.\n\nThe consideration shall be finalized by December 2026, and shall be paid upon satisfaction of the conditions precedent.\n\nThe consummation of the transaction is subject to securing prior approval from the Philippine Competition Commission and shall be subject to customary closing procedural requirements\n\nFollowing closing, NFA will consolidate NURC in its financial statements. URC will recognize its economic interest in NURC using the equity method in accordance with applicable local financial reporting standards. This change in financial presentation does not affect the business operation and is expected to continue without disruption during and after the transition.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "ECVC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bc3e092be31e6f1664d70b69f0a3140b",
+      "publishedAt": "2026-03-13",
+      "sourceType": "primary",
+      "text": "Special Board Meeting\n\nPlease be informed that at its special meeting held today, March 12, 2026, the Board of Directors approved the change of mode of payment of Techno-Asia Construction and Development, Inc. (“TACD”) for the 486,055,662 partially paid shares of the Company from property to cash. The Board of Directors likewise confirmed the issuance of 486,055,662 common shares to TACD and the listing of said shares with the PhilippinesStock Exchange, Inc.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "COAL: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=396e03210ddd5e9764d70b69f0a3140b",
+      "publishedAt": "2026-01-20",
+      "sourceType": "primary",
+      "text": "PRESS RELEASE: INAUGURATION OF AFFILIATE'S 2ND WATER TREATMENT PLANT IN BACOLOD CITY.\n\nBacolod Bulk Water Inc. (BBWI), a subsidiary of the Tubig Pilipinas Holdings Inc., inaugurated today its second (2) water treatment plant serving Bacolod City and the Municipality of Murcia.The inauguration and inspection was led by President Ferdinand R. Marcos Jr., Congressmen Albee Benitez and other local officials. Also in attendance were the Ambassadors of the Kingdom of the Netherlands, the State of Israel, and the diplomats of the European Union, underscoring the project’s national and international significance.This Php 1.5 billion facility represents a major step forward in delivering safe, economical, and reliable potable water to the residents and population of Bacolod City and the Municipality of Murcia. Together, the plant currently supplies approximately 40 million liters per day (MLD)—equivalent to about 40% of Bacolod City’s total water requirements—with infrastructure designed to scale it up to 60 MLD. The two (2) plants are capable of serving 750,000 residents. “This project demonstrates how strong public-private partnerships and foreign investments deployed into strategic and focused water companies such as Tubig Pilipinas, can deliver critical infrastructure that supports SDG (sustainable development goals)” BBWI Chairman Ryan Yapkianwee said.Meanwhile, the Tubig Pilipinas continues to expand its national footprint with the ongoing construction of the 50 MLD Jaclupan Bulk Water Supply Project in Talisay City, Cebu, that will be operational within the year. Its operational plants include San Jose City (Nueva Ecija), Cadiz City (Negros Occidental), Catbalogan (Samar), Nabua (Camarines Sur), Echague (Isabela), Trece Martires City (Cavite), Coron (Palawan), and Sual and Labrador (Pangasinan), Catarman (Samar), and Borbon (Cebu).",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "URC stock: URC stake in NURC",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/urc",
+      "publishedAt": "2026-03-31",
+      "sourceType": "aggregator",
+      "text": "Universal Robina Corporation (PSE: URC), company snapshot.\nURC stake in NURC: 21%.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d6",
+      "title": "URC to cede control of Nissin venture to Japanese partner",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUzNxX3NZYUJ0Tnp5aUZLa0hfZExXcEFISlVhUUFzUTI1dmpuRGQwaTM2ZFFYYTdUdE5JbEFfX094SzJNelpWMGNlSEFkYU5JT0w1SHpSeWNsZk40dWJxSXo4eUR6Ymt2MUkzOEZMUWZSVTJZbm9wNmlHMDNWYUZva3lKV05fRTBLLWtXWUUyaw?oc=5",
+      "publishedAt": "2026-03-13",
+      "sourceType": "news",
+      "text": "URC to cede control of Nissin venture to Japanese partner",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "URC cedes noodle JV control to Nissin",
+      "source": "Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91ZDFpVVlBVmhCemFhM1h6MUd4N2NGTUU5UWJXNExnYzRsRm0xeU1jZGFiSVdyT0VOUWZKU3V1bnRQQ0ZrQ3pHSnJsUXVqZkV6QzZneTIzU2VidU5JcURhWEtrZmU5NVVYcmNFQ0QyeG5MYU85Smtxei1fOWhhZw?oc=5",
+      "publishedAt": "2026-03-14",
+      "sourceType": "news",
+      "text": "URC cedes noodle JV control to Nissin",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Nissin buys control of URC venture in Philippines",
+      "source": "just-food.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDczhvVERPR1VMbTd5MmktaTBlQktHYTl1T3pVQWlOOEw5emlheWNORnFpRXVBc1Zjc0U4aktoMGVzUGV2ZDdtdC1mVG00RFhvbmxWd0Q1QnE5cFJzRGVROFR0N05CYTR5b3Vaa20zWjF2X0U1Tnc?oc=5",
+      "publishedAt": "2026-03-17",
+      "sourceType": "news",
+      "text": "Nissin buys control of URC venture in Philippines",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

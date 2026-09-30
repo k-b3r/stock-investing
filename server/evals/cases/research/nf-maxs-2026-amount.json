@@ -1,0 +1,104 @@
+{
+  "id": "nf-maxs-2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:41.254Z",
+  "ticker": "MAXS",
+  "company": "Max's Group, Inc.",
+  "category": "dividends",
+  "asOf": "2026-04-01",
+  "question": "How much per share is the cash dividend Max's Group declared on 18 March 2026?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Max’s Group: 665% market value growth since PSE listing in 2000",
+      "source": "InsiderPH",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNEV4V2NYUXh2dXJEaGhTZlZRUS1OaWhrUnVRdG1FZDh5NWRCVWFsTHZqRG1paWtPeXZDYnp3ckNwbThwZGY5dGNYX2NKYkZUMzZpeldidkVtU2N1bTFheGxxdW03OGhmdXRxREFaQmd5Q1hOaGNKNkszLVR1dFN4bmRGdDBBQ1F6OFE?oc=5",
+      "publishedAt": "2026-01-14",
+      "sourceType": "news",
+      "text": "Max’s Group: 665% market value growth since PSE listing in 2000",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "CIC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b8325c66454b3174ec6e1601ccee8f59",
+      "publishedAt": "2025-10-27",
+      "sourceType": "primary",
+      "text": "Press Release: CIC Delivers Steady Revenue Growth Amid Challenging Market Conditions\n\nConcepcion Industrial Corporation (PSE: CIC/Bloomberg: CIC.PM) released today its financial and business updates covering the unaudited financial results for the third quarter of 2025.Please refer to the attached Press Release for full details.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "MAXS: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=16229c2e00552f5cec6e1601ccee8f59",
+      "publishedAt": "2025-03-24",
+      "sourceType": "primary",
+      "text": "Cash Dividend Declaration\n\nAt its special meeting held on 24 March 2025, the Company's Board of Directors approved the declaration of cash dividends to stockholders of record as at 11 April 2025.\n\nUnrestricted retained earnings as at 31 December 2024",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "MAXS: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c7bbe25000ea864b64d70b69f0a3140b",
+      "publishedAt": "2026-03-18",
+      "sourceType": "primary",
+      "text": "Cash Dividends Declaration\n\nAt its regular meeting held on 18 March 2026, the Company's Board of Directors approved the declaration of cash dividends to stockholders of record as at 10 April 2026.\n\nUnrestricted retained earnings as at 31 December 2025",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "DELM: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=dc10775f68b2bdfdec6e1601ccee8f59",
+      "publishedAt": "2026-01-02",
+      "sourceType": "primary",
+      "text": "Completion of Sale of 4.99% Equity Interest in Sundrop Brands and Entry into Additional Share Purchase Agreement\n\nCompletion of Sale of 4.99% Equity Interest in Sundrop Brands and Entry into Additional Share Purchase Agreement",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "AUB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cfeff978b8fa63f164d70b69f0a3140b",
+      "publishedAt": "2026-02-16",
+      "sourceType": "primary",
+      "text": "AUB posts record net income of P12.7 billion in 2025\n\nAsia United Bank Corporation will be issuing the attached press release entitled “AUB posts record net income of P12.7 billion in 2025”.The Press release will be based on the following key highlights:1. Unaudited consolidated net income increased by 12% to P12.7 billion for the full year 2025 from P11.4 billion in 2024.2. ROE and ROA were at 20% and 3.1%.3. Total operating income rose 9% to P23.2 billion. 4. Net interest income to P18.4 billion, up 10% from previous year.5. Net interest margin steady at 4.8%6. Nonperforming loans (NPL) ratio of 0.38%.7. NPL coverage ratio is at 115%8. Total Loan portfolio increased by 13% which stood at P276 billion in 2025.9. Total deposits of P349 billion, which grew by 12% year-on-year10. Low-cost current account/savings account (CASA) deposits grew 25% to P279 billion.11. Other income increased 8% to P4.8 billion12. Total assets reached P435 billion, 13% higher than in 2024.13. Common Equity Tier 1 (CET 1) at 18.4%14. Total Capital Adequacy Ratio (CAR) at 19.1%",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Max’s Restaurant Honors 80 Years Of Fried Chicken",
+      "source": "lifestyleasia-onemega.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcE9MdHB1WHNfbEU1a1E0SEg1amgxNk1pLUxaSE1uajR4dUFBN1ZsTzRoN0JFTk5TSk4zRzhJaDNLckF3a2tYOUM1UTNZUEQxak9TVkh5NV8yREVfRE1pcHY4a0RvR3ZiM3VxVUN4MHEyaVkzdlRaZHRUbUVZXzlldEVocDdRQTJoNmF2UklyZ1VQdUZY?oc=5",
+      "publishedAt": "2025-11-11",
+      "sourceType": "news",
+      "text": "Max’s Restaurant Honors 80 Years Of Fried Chicken",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Max’s Group cautiously optimistic for future",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZXNfRC1XeC04a0Nscm81X2hiQ2JnMFYydUQ5R243NUstY2ZsR1BHZ0dWSUpkUXItTjdkdHJYSURMc01tdDVZcW50N3E4YlhyNkRJbVdneldOaktPN2VYd0FqazcycnB4dmFkVVBvdy02VmRWb3N6a1FHa3VhMTZDelYtY19yU2dzTjZ1RWF0WGtncUczT0U40gGeAUFVX3lxTFBHNFRTZGQwanNGX2VYZm1tNzBYOGhhZE5JaHVuVHgxTE4yX2MxNmlURUZkNXhlN0s4WU5MQ3I1VnNmeTRPa201V0RsY2ZuUzFYclNXc2g3TkY0RjZnYUEycDBObHZNQVRPeTl1RUM0d0R3TU1JMk1KanFLVGstRGhfSzdfOTJPVExwSlp0WERHWG1lbTZ6QTRiVDFyVGZB?oc=5",
+      "publishedAt": "2026-01-15",
+      "sourceType": "news",
+      "text": "Max’s Group cautiously optimistic for future",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

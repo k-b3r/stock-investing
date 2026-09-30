@@ -12,6 +12,7 @@ pnpm eval                           # run default models on all cases, grade, pr
 pnpm eval --models glm-5.3,sonnet --cases areit --runs 3
 pnpm eval:score                     # reprint scorecard from saved results
 pnpm eval:score factcheck           # reprint fact-check scorecard
+pnpm eval:score research            # reprint research scorecard
 pnpm test                           # grader unit tests
 ```
 
@@ -47,3 +48,22 @@ pnpm eval:factcheck --models haiku,glm-5.3 --runs 3   # approved cases only; --a
 - Each planted error lists `match` strings; a contradiction containing any of them catches it. Contradictions matching no planted error are false alarms.
 - Scorecard: recall (planted errors caught), precision (flags that name a planted error), clean-pass, recall per type. Scores regrade saved outputs against current cases.
 - Every case needs user approval (`approved: true`) after reviewing `cases/factcheck/REVIEW.md`. Web checks of each case's facts live in `cases/factcheck/review/verification.json` (verified / source-only / conflict); conflicts are listed at the top of REVIEW.md.
+
+## Research suite
+
+Models answer a factual question about a PSE company from a frozen bundle of 5-10 documents and cite one document id. No live search: the fetcher searched once and saved the results, so every model reads the same pages.
+
+```bash
+cd server
+pnpm eval:research:fetch            # build missing bundles from research/questions.json (--all rebuilds, --review only rewrites REVIEW.md)
+pnpm eval:research:draft --id … --ticker … --company … --category … --as-of … --url … --question … --write   # Opus drafts a non-DB key
+pnpm eval:research                  # run default models on verified cases (--all includes unverified), grade, print scorecard
+pnpm eval:research --models glm-5.3,sonnet --cases div-areit-q1-2026-record
+```
+
+- `research/questions.json` — hand-edited questions: as-of date, answer key (amount / percent / date / text / not_found), retrieval plan (answer and stale PSE Edge filings, answer web pages, Google News queries, `exclude` patterns, noise count, synthetic `conflict` value). `verified` = 2+ independent sources agree (primary filing/IR, reputable news; aggregators don't count), the user accepted it after review, or for not-found keys the bundle was checked to lack the answer. `verification` lists the sources checked; an open `issue` puts the key under "Conflicts for user" at the top of `research/REVIEW.md`.
+- `research/fetch.ts` — builds `cases/research/<id>.json`: the answer filing or page, stale/superseded filings (pre-amendment dates, prior periods), Google News hits dated on or before the as-of date, a synthetic aggregator page repeating a wrong value, and unrelated filings as noise, shuffled with a seed. Warns when an answer doc does not match its key. Rewrites `research/REVIEW.md` (generated).
+- `research/draft-key.ts` — drafts a key for a non-DB fact: fetches the page, asks Opus (claude CLI, subscription, same isolation as the eval adapter) for the answer plus a verbatim quote, and rejects the draft unless the quote is in the page and the key matches it.
+- `../scripts/research-fetcher.ts` — the reusable part (Google News search and link decoding, page text extraction, primary/aggregator/news classification, filing docs), for thesis generation to read pre-fetched docs too (INV-21).
+- `research/grader.ts` — `correct` (answer matches the key: amounts with units like "P3.2 billion", percents, dates in common formats, text aliases), `citedHasAnswer`, `citedPrimary` (the company's filing or site, not an aggregator or news), `notFoundHandled` (says not found exactly when the bundle has no answer). Scorecard (regrades saved runs against current cases): pass, correct, cite has ans, cite primary, false NF (said not found when the answer was there), NF handled.
+

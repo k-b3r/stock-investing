@@ -1,0 +1,116 @@
+{
+  "id": "div-areit-q4-2025-payment",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:22.797Z",
+  "ticker": "AREIT",
+  "company": "AREIT, Inc.",
+  "category": "dividends",
+  "asOf": "2026-03-25",
+  "question": "On what date is AREIT's regular cash dividend for the fourth quarter of 2025 payable?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-03-19"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Ayala’s AREIT hits record P9.4B profit in 2025",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/575125/ayalas-areit-hits-record-p9-4b-profit-in-2025",
+      "publishedAt": "2026-02-20",
+      "sourceType": "news",
+      "text": "Ayala’s AREIT hits record P9.4B profit in 2025",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "AREIT stock: Q4 2025 dividend payment date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/areit",
+      "publishedAt": "2026-03-25",
+      "sourceType": "aggregator",
+      "text": "AREIT, Inc. (PSE: AREIT), company snapshot.\nQ4 2025 dividend payment date: March 20, 2026.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d3",
+      "title": "TFHI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bc225046a105e3a6ec6e1601ccee8f59",
+      "publishedAt": "2025-11-14",
+      "sourceType": "primary",
+      "text": "Matters approved by the Board of Directors of Top Frontier Investment Holdings, Inc. (the \"Corporation\") during the Regular Meeting of the Board of Directors of the Corporation held on November 13, 2025\n\nDuring the Regular Meeting of the Board of Directors of the Corporation held on 13 November 2025, the Board unanimously approved the financial performance and financial position of the Corporation as of 30 September 2025, the details of which shall be reported to the Securities and Exchange Commission and the Philippine Stock Exchange, Inc. under SEC Form 17-Q due to be filed on 14 November 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Asset growth boosts AREIT profit to record P9.4B",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/575175/asset-growth-boosts-areit-profit-to-record-p-9-4b",
+      "publishedAt": "2026-02-21",
+      "sourceType": "news",
+      "text": "Asset growth boosts AREIT profit to record P9.4B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "FDC: Acquisition or Disposition of Assets",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d7da7dc2c87968a664d70b69f0a3140b",
+      "publishedAt": "2026-03-18",
+      "sourceType": "primary",
+      "text": "Sale of assets between subsidiaries\n\nSale of assets by Fora Restaurants, Inc.(FRI), Quest Restaurants, Inc. (QRI) and Baker J Concepts, Inc. (Baker J) to Filinvest Hospitality Corporation (FHC). FHC is a wholly owned subsidiary of Filinvest Development Corporation (FDC), while FRI, QRI and Baker J are wholly owned subsidiaries of FHC. Accordingly, FRI, QRI and Baker J are directly and ultimately controlled by FDC.\n\nTo consolidate the operations of the restaurant entities under FHC, i.e., to streamline the Hospitality Group’s corporate and operational structure and result to operational efficiencies.\n\nSale of assets by Fora Restaurants, Inc.(FRI), Quest Restaurants, Inc. (QRI) and Baker J Concepts, Inc. (Baker J) to Filinvest Hospitality Corporation (FHC). Any receivables arising from the sale of the assets shall be applied in accordance with applicable law, including the settlement of obligations of the selling entities.\n\nSale\n\nPrimarily kitchen and restaurant equipment\n\nTBA\n\nTBA\n\nTBA\n\nCompliance with all applicable laws and regulations including The Bulk Sales Law (Act No. 3952), and such other regulatory requirements before proceeding with the transfer/sale of assets to FHC.\n\nNot Applicable\n\nNot Applicable\n\nTBA\n\nThe assets consist of kitchen and restaurant equipment previously used in the operations of FRI, QRI and Baker J. Following the sale to FHC, the equipment will continue to be used for the same purpose—i.e., in FHC’s and/or its subsidiaries’ food and beverage/restaurant operations—and is not intended to be devoted to other purposes.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "AREIT: [Amend-1]Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=faeff5eb8839563164d70b69f0a3140b",
+      "publishedAt": "2026-03-18",
+      "sourceType": "primary",
+      "text": "Declaration of regular cash dividends on all outstanding common shares\n\nPlease be informed that our Board of Directors, at its regular meeting held today, approved the declaration of regular cash dividend of Php0.62 per common share for the fourth quarter of 2025. The record date is March 5, 2026, and the payment date is March 19, 2026.\n\nWith the declaration of March 20, 2026 as a special non-working holiday, the payment date for the cash dividend declaration will be moved to March 19, 2026.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "AREIT delivers strong profit growth in 2025",
+      "source": "Philstar.com",
+      "url": "https://www.philstar.com/business/2026/02/21/2509295/areit-delivers-strong-profit-growth-2025",
+      "publishedAt": "2026-02-21",
+      "sourceType": "news",
+      "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nMANILA, Philippines — AREIT Inc., the listed real estate investment trust of the Ayala Group, delivered strong earnings growth in 2025, driven by income contributions from its recent acquisitions.\nAREIT reported a net income, excluding the net fair value change in investment properties, of P9.4 billion last year, 28 percent higher than a year ago, while revenues expanded by 26 percent to P13 billion.\n“AREIT’s performance in 2025 reflects the strength and quality of our portfolio and our ability to execute growth in a disciplined manner,” AREIT president and CEO Alberto de Larrazabal said.\nThe company attributed its positive performance to income contributions from its 2025 acquisitions, namely Central Bloc Corporate Center 1 and 2, Ayala Malls Central Bloc and Seda Hotel Central Bloc in Cebu; Ayala Malls Abreeza and Abreeza Corporate Center in Davao; and Ayala Malls Centrio and Centrio Corporate Center in Cagayan de Oro.\nThe company said these were complemented by full-year contributions from assets acquired in 2024 and the stable operations of its existing portfolio.\nAREIT ended 2025 with a total gross leasable area of 4.3 million square meters, including 1.4 million square meters of building GLA and an overall occupancy rate of 99 percent.\nIts assets under management grew to P139.3 billion, spanning a diversified portfolio of offices, retail, hotels and industrial land.\n“As we continue to scale, we remain focused on delivering consistent returns to shareholders while maintaining portfolio quality and financial resilience,” De Larrazabal said.\nTo accelerate portfolio growth, AREIT secured stockholder approval in December last year for a property-for-share swap transaction with its sponsor, Ayala Land Inc., and Ayala Land’s wholly owned subsidiary, Summerhill Commercial Ventures Corp., involving Ayala Center Cebu and Ayala Malls Feliz, valued at P19.5 billion in exc",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "MER: Clarification of News Reports",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=34821df198e06ed164d70b69f0a3140b",
+      "publishedAt": "2026-02-11",
+      "sourceType": "primary",
+      "text": "Clarification of Information in News Article\n\nWith reference to the news article that is the subject of the Exchange’s request for clarification, we confirm that the planned Capital Expenditures (CAPEX) for the years 2027 to 2030 are consistent with the application filed by Manila Electric Company (the “Company”) with the Energy Regulatory Commission (ERC). We also clarify that the CAPEX amounts cited in the article reflect nominal annual values and already incorporate the Construction Work in Progress (CWIP) factor. The planned CAPEX is factored into the Company’s application for distribution rate adjustment that was submitted to the ERC. The proposed CAPEX are necessary to: (i) augment the capacity of the Company’s distribution network to meet demand growth and new customer requirements; (ii) replace or refurbish aging and obsolete assets; (iii) relocate facilities affected by government infrastructure programs and third party initiated projects; (iv) acquire and construct non network assets required for the efficient and reliable operation of the electric distribution system; (v) deploy automation and technology initiatives, including the Advanced Metering Program for more than three million customers and other innovative solutions supporting electrification projects; and (vi) ensure compliance with regulatory requirements and applicable rules and regulations.The proposed capital expenditure amounts are still subject to approval of the ERC. We trust that you find the foregoing clarification in order.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "AREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6b9c21b442a0059a64d70b69f0a3140b",
+      "publishedAt": "2026-02-19",
+      "sourceType": "primary",
+      "text": "Declaration of regular cash dividends on all outstanding common shares\n\nPlease be informed that our Board of Directors, at its regular meeting held today, approved the declaration of regular cash dividend of Php0.62 per common share for the fourth quarter of 2025. The record date is March 5, 2026, and the payment date is March 20, 2026.",
+      "role": "stale",
+      "synthetic": false
+    }
+  ]
+}

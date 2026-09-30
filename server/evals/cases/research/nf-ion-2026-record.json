@@ -1,0 +1,104 @@
+{
+  "id": "nf-ion-2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:47.944Z",
+  "ticker": "ION",
+  "company": "Ionics, Inc.",
+  "category": "dividends",
+  "asOf": "2026-06-01",
+  "question": "What is the record date of the P0.10 per share cash dividend Ionics declared in May 2026?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "KEEPR: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=183ae152cb8fb56664d70b69f0a3140b",
+      "publishedAt": "2026-04-07",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends\n\nOn 31 March 2026, the Board of Directors of The Keepers Holdings, Inc. declared regular dividends with details as follows:Total Pay-out: P1.74 Billion2025 Year Net Income: P3.56 Billion Dividend Yield: 5.55%Regular Dividends amounting to P1.74 BillionRecord Date: April 17, 2026Payment Date: May 7, 2026Dividends per share: P0.12 per sharePay-out Ratio: 50%\n\n2025 Year Net Income",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Ionic Digital Announces February 2026 Mining and Operations Update",
+      "source": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVENlMDVjVmpEVERkZGdHT2Uxam9wNlF2YUprd0FYTjFnMnVoX0twN25NS3J1TzNzcmVscHNOX3FLYzNVS3dLRnhQWXliY21yZXZ1dzZLNTB6eEFnRFphWFJGMDRUc1NrLS1sLXBBV3JxcmhpUzAzN3JLeWZILWlMTUVGZnhVWUtCWFRZV0JxVThRSEl6TTVxdm54bEJVLWloT1BjRkhlVHRzSjNUaEFhN2l3Sm9OS2dKNVVjOW9ITQ?oc=5",
+      "publishedAt": "2026-03-18",
+      "sourceType": "news",
+      "text": "Ionic Digital Announces February 2026 Mining and Operations Update",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "APVI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ba8db18eb7cc3c4064d70b69f0a3140b",
+      "publishedAt": "2026-05-11",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nPlease be informed that at a meeting held today, May 11, 2026, the Board of Directors of Altus Property Ventures, Inc. (“APVI”) approved the declaration of cash dividends from the unappropriated retained earnings of APVI as of December 31, 2025.Regular Cash DividendAmount of Dividend: One Peso and Thirty Centavos (Php1.30) per shareRecord Date: May 26, 2026 (Tuesday)Payment date: June 08, 2026 (Monday)\n\nUnappropriated retained earnings of APVI as of December 31, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "HI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8848d2bfd93191e864d70b69f0a3140b",
+      "publishedAt": "2026-03-11",
+      "sourceType": "primary",
+      "text": "Execution of Shareholder's Agreement\n\nExecution of the Shareholders Agreement between house of Investments and Lima Land Inc for the development of the 184 hectare property of Tarlac Terra Ventures Inc. in Tarlac",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Ionics to close manufacturing operations of subsidiary Iomni Precision",
+      "source": "BusinessWorld",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX1I0WUhnSVNvUXdsbEx1eWNHdWoyLWNpZ2V3WFpXVmsxSk5MMmZzZ2NkMkNNMXdfbWNPa0xSMjRMeDVtWDRSZE5BM1NIYXZ2ZTh2dUg0RjFpS0UyanNvV2xQTHBGMllLTUhBemdOcFZ1S0NTTFhBNjZ5a3BjNFNpdk5fSkNubzdMMW5KQ21MREV4eW9OUTNOTHItcFJRSHFON2RCenlrUG1LTTVIRXJZNmlwWVpVZ3VfUGNWQWtCRm42dw?oc=5",
+      "publishedAt": "2025-03-17",
+      "sourceType": "news",
+      "text": "Ionics to close manufacturing operations of subsidiary Iomni Precision",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "ION: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c76ba65cf166213eec6e1601ccee8f59",
+      "publishedAt": "2025-03-17",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividend\n\nThe Board of Directors of Ionics, Inc. approved the declaration of cash dividend at P0.10 per share.\n\nCash dividend from Ionics Properties, Inc.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "ION: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0f7443add8d4de2664d70b69f0a3140b",
+      "publishedAt": "2026-05-14",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividend\n\nThe Board of Directors of Ionics, Inc. approved the declaration of cash dividend at P0.10 per share.\n\nUnrestricted retained earnings as of 31 December 2025",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Ionics cleans up plastics manufacturing arm",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeU8xTVFPMlZqU2RLNkNXejBxVGRkdG5EVWlRem85VERBcGRLY1hSZ0R3UFYtMnE3Q292dGJSUUlrQTJHaDZVLWdQWnZNT3I0a2cteU5qUm5FVzlubHcyYnU4Rl9UTUw4VDZMZkMxa253Y0Y0X3hzRXpwZWNHdGdvdktWZ9IBiAFBVV95cUxNRDIxRDRxR0FSano4UDl4Q3VjQm1xdFk5YTZKVXFieFhNYkVuR0pTWnBwa0tiWnlHMjIyTkg2YzgxN0xtSmlnMFowMF9qTHYwOFl2UEk4VmhIS3hqWEpKQkJaaWdhTGF3eFVPMlo4V0thWHJITVh2M1hTTWRBZXg0Q3lMMXFJVkJV?oc=5",
+      "publishedAt": "2018-03-15",
+      "sourceType": "news",
+      "text": "Ionics cleans up plastics manufacturing arm",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

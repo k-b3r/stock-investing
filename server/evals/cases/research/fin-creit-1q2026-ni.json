@@ -1,0 +1,105 @@
+{
+  "id": "fin-creit-1q2026-ni",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:17.801Z",
+  "ticker": "CREIT",
+  "company": "Citicore Energy REIT Corp.",
+  "category": "financials",
+  "asOf": "2026-05-31",
+  "question": "What net income did Citicore Energy REIT report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 342000000
+  },
+  "verified": true,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Citicore Energy REIT to acquire 1.7-M-sq-m land, 860-MWp solar assets",
+      "source": "Asian Power",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORUhfTERMTnFLV0lxbDNFTUVOVG1FN1RULTl5MmtHM0twZHZtOWpOYmZXYWlwblR6N0dlZGktZzRSaVNMTDAtT09LSnpQaThNSExNNktyaG45TllqRHd4MFp0SDZKRGZDSHVDU2JlbzhlRl9SV09UT19VbnNneHRVdDNxNFNZYVZWWVQwYmV3SzlHaTF4NGtvdTVQcEhQUQ?oc=5",
+      "publishedAt": "2026-05-18",
+      "sourceType": "news",
+      "text": "Citicore Energy REIT to acquire 1.7-M-sq-m land, 860-MWp solar assets",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "CREIT stock: 1Q 2026 net income",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/creit",
+      "publishedAt": "2026-05-31",
+      "sourceType": "aggregator",
+      "text": "Citicore Energy REIT Corp. (PSE: CREIT), company snapshot.\n1Q 2026 net income: Php 446 million.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d3",
+      "title": "VVT: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0db80c036ce790f664d70b69f0a3140b",
+      "publishedAt": "2026-03-03",
+      "sourceType": "primary",
+      "text": "Vivant Water Acquires Majority Stake In Puerto Princesa Wastewater Facility\n\nUpon information received by Vivant Corporation (the “Company”), the Company informs the Exchange and the Public, that Vivant Hydrocore Holdings, Inc. (“VHHI”), a subsidiary of Vivant Infracore Holdings, Inc. (“Vivant Water”), a wholly owned subsidiary of Vivant Corporation for its water related investments, has acquired an additional 45% equity stake in Faith Lived Out Visions 2 Ventures Holdings, Inc. (“FLOWs”). FLOWs serves as the private sector partner of the local government of Puerto Princesa in Puerto Princesa Wastewater Reclamation and Learning Center, Inc. (“PPWRLC”), the city’s sole wastewater and septage treatment facility. The acquisition is valued at around Php 138 Million.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Citicore Energy REIT net income holds steady at ₱1.85 billion",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSVU5a3NSVHFfcUVNMjJvRFh2TldnY2tJZWtHampsQUpQdTJLZ1U0ckpXVzhtdmpTenROSTFYRDlYYm91VFY4MGJZMTZnVWRMOGlJR2t3SnpRWmpUaVFmZldjSkxNLUotVzRadlJLSzdoVkdGSUdsQXBack56R2xuTlFjMkprTzRVNmR4NV8wdXZfdw?oc=5",
+      "publishedAt": "2026-03-26",
+      "sourceType": "news",
+      "text": "Citicore Energy REIT net income holds steady at ₱1.85 billion",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "BSC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c7da26402f26952164d70b69f0a3140b",
+      "publishedAt": "2026-01-15",
+      "sourceType": "primary",
+      "text": "DOE Certificate of Award for BSC Cadiz 1 Solar Power Plant (GEA-4)\n\nBasic Energy Corporation (“BEC” or the “Company”) wishes to inform the Philippine Stock Exchange that it has received a Certificate of Award from the Department of Energy (DOE) for its Cadiz 1 Solar Power Plant under the Fourth Round of the Green Energy Auction Program (GEA-4).The Cadiz 1 Solar Power Plant is a 43.410 MWAC renewable energy project located in Cadiz City, Negros Occidental, which has been previously disclosed by the Company as part of its growing solar development portfolio in the Visayas. Under the Certificate of Award, BEC was confirmed as a Winning Bidder and is entitled to proceed with the project, subject to compliance with the terms and conditions of the Green Energy Auction Program and the execution of the relevant project agreements.The project is committed for delivery to the Visayas Grid with a targeted commercial operations date of on or before 31 December 2026. Development activities for the Cadiz 1 Solar Power Plant are ongoing, consistent with the Company’s previously disclosed timelines and strategy to advance utility-scale renewable energy projects.The Company will provide further disclosures as material milestones are achieved.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "COL: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=baf322defb439e0364d70b69f0a3140b",
+      "publishedAt": "2026-03-19",
+      "sourceType": "primary",
+      "text": "Results of the Meeting of the Board of Directors\n\nPlease be informed that at the meeting of the Board of Directors of COL Financial Group, Inc. held today, 19 March 2026, the Board approved and authorized the release of its Audited Financial Statements for the period ended December 31, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "CREIT: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=df2422bda7ed129a64d70b69f0a3140b",
+      "publishedAt": "2026-05-15",
+      "sourceType": "primary",
+      "text": "CREIT continues to deliver solid revenues, with Q1 dividend payout of Php0.049 per share and Board approved infusion of up to 1.7 Mn sqm of land and 860MW in solar assets\n\nFor the first quarter of 2026, Citicore Energy REIT Corp. (“CREIT” or the “Company”), the country’s first and largest renewable energy REIT, posted revenues of Php 458 million, underscoring the stability of its long term renewable energy asset portfolio.EBITDA was recorded at Php 446 million, while net income for the period reached Php 342 million.“CREIT continues to demonstrate what a stable, yet growth-oriented REIT can look like,” said CREIT President and CEO Oliver Tan. “Our revenues are highly predictable backed by fixed long term leases tied to our green asset portfolio, insulated from geopolitical issues due to the tenants’ essential business of power generation using renewable energy.”CREIT also maintained its 100% year-round occupancy rate across its assets and has a weighted average lease expiry of 19.19 years, providing shareholders with stable operations and sustainable income visibility.On Friday, May 15, 2026, CREIT declared cash dividends for the first quarter of 2026 amounting to Php 0.049 per share, equivalent to a dividend yield of 6% based on the closing price of Php 3.40 per share on March 31, 2026. This provides shareholders a payout ratio of 106% of distributable income, exceeding the minimum regulatory requirement of at least 90% distributable income. Dividend payments are scheduled on July 8, 2026 for stockholders on record as of June 11, 2026.Asset for Share SwapAs part of its growth roadmap, CREIT’s Board of Directors approved on May 15, 2026, a proposed asset for share swap transaction with its Sponsor, Citicore Renewable Energy Corporation (CREC) and its subsidiaries.The proposed transaction is expected to infuse approximately 1.7 million square meters of land and 860MWp of solar assets in Pangasinan, Pampanga, Batangas, Quezon, and Negros Occidental.This strategic infusion will enable CREIT to expand beyond its current portfolio by about 20% new leasable land assets, as well as stabilized, income-generating solar assets. Upon completion, CREIT’s total gross leasable area is expected to expand to 8.8 million square meters, further solidifying its position as the largest REIT in the Philippines. To safeguard shareholder interests, the assets have undergone independent valuation by reputable and accredited third-party providers, ensuring the deal will be execute",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Citicore sets $2B capex; eyes 3-GW capacity in 2026",
+      "source": "GMA Network",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmtnS0JQTEUydE9yVlFkZkZHeDMtYVcwcFg3bmdVcEtxMFRGV3N4UDNtcDFUTGNGZU4yY1JuR0gwa2IwR2RNS2RxTmd1X0QwN1AyOXllY21WVjJQOVBLV29mMW1tR0haS1dSMk1lcXRiNFp5VEZlVzBCSlQ0U1RHMmZwWUtxV3BPa3I2YjNjZ2xYY0VCZnc5aGRLekZiZ0tGSmEyclpSVzduQTZWWElLT9IBtgFBVV95cUxNTkVDbTZubTF5MUpfZkcyMklIcUxiRnNJT0lwajlicWNWVFExZ3VicEdqd2tLSTZtNDEtTlhLdmdKNTNRZDBmaXNCVEpBVHUwQlVfVkJjcGhOeU8tYXB4VThwaC1nVUI2T3RDYVpZZlN2b2pfY0RtNEREN3RSREVfLTMzeFB5OFZuaTZvQVFlVENBeVBvSWU0RzF6a1M4ekFsV1dCWk13YnV5WU5XaTh3LTNUaTB6QQ?oc=5",
+      "publishedAt": "2026-01-19",
+      "sourceType": "news",
+      "text": "Citicore sets $2B capex; eyes 3-GW capacity in 2026",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}
