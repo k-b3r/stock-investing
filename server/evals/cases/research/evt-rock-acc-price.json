@@ -11,7 +11,7 @@
     "kind": "amount",
     "value": 21600000000
   },
-  "verified": false,
+  "verified": true,
   "docs": [
     {
       "id": "d1",

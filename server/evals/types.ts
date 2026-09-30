@@ -61,7 +61,9 @@ export interface ResearchQuestion {
   noise: number; // unrelated disclosures from other companies
   notes: string;
   source: string; // where the key came from (disclosure id or URL)
-  verified: boolean; // user checked the key against the source
+  verified: boolean; // key confirmed by 2+ independent sources (or, for not-found, the bundle checked)
+  // Sources checked against the key; `issue` explains why it stays unverified (disagreement, single source)
+  verification: { sources: { url: string; date: string | null; quote: string }[]; issue: string | null };
 }
 
 export interface ResearchCase {

@@ -89,6 +89,7 @@ const entry: ResearchQuestion = {
   notes: `Key drafted by Opus from the page. Quote: "${squash(draft.quote)}"`,
   source: url,
   verified: false,
+  verification: { sources: [], issue: null },
 };
 console.log(JSON.stringify(entry, null, 2));
 
