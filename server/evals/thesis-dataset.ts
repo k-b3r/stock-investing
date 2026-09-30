@@ -30,7 +30,10 @@ export const REAL_TICKERS: string[] = [
 ];
 
 // Per-case allowed-verdict overrides (default comes from the price band, see bands.ts)
-export const ALLOWED_OVERRIDES: Record<string, Verdict[]> = {};
+export const ALLOWED_OVERRIDES: Record<string, Verdict[]> = {
+  // No Sticker Price (growth rates missing), but 16% ROIC at 5.8x P/E with little debt can fairly justify a buy (user-approved 2026-09-30)
+  sti: ['buy', 'watch', 'pass'],
+};
 
 export type VariantSpec =
   // Same company, only price changed. `price` is a multiple of the base case's MOS price.

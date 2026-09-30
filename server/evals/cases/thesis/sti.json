@@ -90,6 +90,7 @@
     "tier": "smallcap",
     "band": "no-sticker",
     "allowedVerdicts": [
+      "buy",
       "watch",
       "pass"
     ],
