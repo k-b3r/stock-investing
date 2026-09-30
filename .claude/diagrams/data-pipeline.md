@@ -111,7 +111,7 @@ flowchart LR
 
 ## 3. Model evals
 
-`server/evals/` freezes the same thesis input production builds, so every model sees identical data.
+`server/evals/` freezes the same thesis input production builds, so every model sees identical data. This is the thesis suite only; the full eval (3 datasets, graders, judge, model pick per job) is in [model-eval.md](model-eval.md).
 
 ```mermaid
 flowchart LR
