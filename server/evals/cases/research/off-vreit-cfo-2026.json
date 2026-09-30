@@ -1,0 +1,108 @@
+{
+  "id": "off-vreit-cfo-2026",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:47.370Z",
+  "ticker": "VREIT",
+  "company": "VistaREIT, Inc.",
+  "category": "officers",
+  "asOf": "2026-02-15",
+  "question": "Who was appointed Chief Financial Officer of VistaREIT in January 2026?",
+  "answer": {
+    "kind": "text",
+    "accept": [
+      "Brian N. Edang",
+      "Brian Edang"
+    ]
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "VistaREIT refutes unpaid rent reports",
+      "source": "Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OQ2VwY212bGZCbWU1LVItaGZId1lQeWJLLTU3WmNQTUVtWEN0alpwUmhaa1FkUkxsWHI4VkNLVDJvdVVITHQ0UFp1Rm1meUVpNzVLS0FLalRGLVJZWUI3M0pZZmxJSGNIT1Y4YWlGUi1Pa0g4Vkp2WlpzSQ?oc=5",
+      "publishedAt": "2025-10-11",
+      "sourceType": "news",
+      "text": "VistaREIT refutes unpaid rent reports",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Villar’s VistaREIT assures investors dividends remain secure despite rising receivables",
+      "source": "InsiderPH",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMVJwemdWZjY3Y192ZldyZktRWUVRc2UtUlcxdXZ1c0l5Q0xDR0E5b24ySF9VUm9TOUN0c2xhZ0gwczZucDM4S21TdmNaaEhDTTdvX0tWTzZieGtHbkFIcFZ4c2o2dGxzTjhxMXVvaW9Zb0dBdnRfWWJmc0lzeGEzVkdRdWhsS2VYbmpuWGhRTFltWlJtV1dZbUVlTGlmT3RfLTMxcnhqZGo3cGhQ?oc=5",
+      "publishedAt": "2025-10-10",
+      "sourceType": "news",
+      "text": "Villar’s VistaREIT assures investors dividends remain secure despite rising receivables",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "AEV: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0777c966efd9c40664d70b69f0a3140b",
+      "publishedAt": "2026-02-02",
+      "sourceType": "primary",
+      "text": "Confirmation of Credit Rating by PhilRatings for AEV's Outstanding Bonds\n\nThe Philippine Rating Services Corporation (“PhilRatings”) has maintained an Issue Credit Rating of “PRS Aaa” with a Stable Outlook on Aboitiz Equity Ventures Inc.’s (“AEV” or the “Company”) total outstanding bonds amounting to approximately ₱34.3 billion.According to PhilRatings, obligations rated “PRS Aaa” are of the highest quality with minimal credit risk, reflecting the extremely strong capacity of the obligor to meet its financial commitments. A Stable Outlook indicates that the rating is likely to be maintained or to remain unchanged over the next 12 months.The rating and Outlook were affirmed based on the following key considerations, among others:(a) AEV’s experienced shareholders and management, supported by a strong track record;(b) the Company’s highly diversified investment portfolio, with consolidated performance led by the Power segment;(c) AEV’s healthy cash flows and liquidity position; and(d) its manageable leverage profile.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "VREIT: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8850bf59d8b299ae64d70b69f0a3140b",
+      "publishedAt": "2026-01-21",
+      "sourceType": "primary",
+      "text": "Election of Director and Officer\n\nIn the special meeting of the Board of Directors of the Company held on January 21, 2026, Ms. Michelle E. Hernandez was elected as Director of the Corporation and member of the Executive Committee and Corporate Governance Committee, to serve for the remainder of the term of Ms. Melissa Camille Z. Domingo and until her successor has been duly elected and qualified. In the same meeting, Mr. Brian N. Edang was appointed as Chief Financial Officer, Treasurer and Head Investor Relations, effective immediately. Ms. Hernandez, 41, graduated cum laude from the Pamantasan ng Lungsod ng Maynila with a degree in Bachelor of Science in Accountancy. She is a Certified Public Accountant. She served as the Finance Head and Chief Accountant of various Vista Land & Lifescapes, Inc. subsidiaries. Prior to her appointment, Ms. Hernandez served as Director and Chief Financial Officer of VFund Management, Inc..",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "VREIT stock: Chief Financial Officer",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/vreit",
+      "publishedAt": "2026-02-15",
+      "sourceType": "aggregator",
+      "text": "VistaREIT, Inc. (PSE: VREIT), company snapshot.\nChief Financial Officer: Michelle E. Hernandez.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d6",
+      "title": "Villar’s VistaREIT downsizes IPO as market faces inflation risks",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcFpOMXN0Qy1RMGVtMjYyRjBsRVQxY19yYTFXeExoRWdkSkdKQXFwS0tjN1BKMFRtT0xtOGR6QWxWVXRKalNJb0RUVFQ5V1JuTEZhTV9RRDRkOTNFOGVQTGRteWdURzllOF9KUG16YnQ2R1VndV8tMzYyS3l3MnFYZU00cTA2bE1WZUpPZkVsSjhOekY5Y05zWkNkbDRGT1lKOGfSAacBQVVfeXFMTUtLRXFqcHBQWEJhWjlETDl2YWdSa2t2LU1Td2plaXVsNDZuUGNybWR4WE5ndVcxSnByUENmZnlUMElTUldyY052YV8tUkIxVUU3SmRBOUFFY1NpYVhDb2hCdDVCWV9TNXlqRXczVGdjS2NCZDB5WU5IWDgxdTQxLVlQTkFPaXpDNFNrajRXdXdvamdDZDd1MTZDQmlpWW5lRlNEZG1DOXM?oc=5",
+      "publishedAt": "2022-05-27",
+      "sourceType": "news",
+      "text": "Villar’s VistaREIT downsizes IPO as market faces inflation risks",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "ASLAG: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=458496a0d91855d164d70b69f0a3140b",
+      "publishedAt": "2026-02-12",
+      "sourceType": "primary",
+      "text": "Closing of PHESI Acquisition with Joint Venture Partner\n\nIn connection with its previous disclosures, ASLAG is pleased to announce the closing of its joint acquisition of PHESI Holdings Corporation, the controlling owner of the Philippine Hybrid Energy Systems, Inc. (“PHESI”), with joint venture partner Verdant Philippines Alpha Pte. Ltd. The acquisition was undertaken as part of ASLAG’s strategy to expand its renewable energy portfolio and expand its presence into the wind energy sector. PHESI is a pioneering facility operating 16.0 MW of wind capacity integrated with a 6.0 MW / 6.0 MWh Battery Energy Storage System. As the first of its kind in the Philippines, this hybrid configuration solves the challenge of intermittency by storing excess energy to deliver a reliable, continuous power supply to the island grid of Mindoro. The transaction came to a close after the satisfaction of the applicable conditions precedent, including regulatory approvals from the Philippine Competition Commission, Department of Energy, and the Department of Environment and Natural Resources.Consequently, the parties executed today, February 12, 2026, the definitive agreements, including the Deed of Absolute Sale of Shares.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "VLL: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=2d0e09b733e00991ec6e1601ccee8f59",
+      "publishedAt": "2025-11-27",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends on Preferred Shares (VLL2A)\n\nVLL Unrestricted Retained Earnings as of September 30, 2025\n\nIf the Dividend Payment Date is not a Business Day, dividends will be paid on the next succeeding Business Day, without adjustment as to the amount of dividends to be paid.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

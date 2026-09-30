@@ -1,0 +1,105 @@
+{
+  "id": "stk-mer-radius-price",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:03.359Z",
+  "ticker": "MER",
+  "company": "Manila Electric Company",
+  "category": "stakes",
+  "asOf": "2026-06-10",
+  "question": "What indicative consideration value was disclosed for the sale of Paragon's stake in Radius Telecoms to PLDT?",
+  "answer": {
+    "kind": "amount",
+    "value": 2935000000
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "MER: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ca6a62b4f27bd12764d70b69f0a3140b",
+      "publishedAt": "2026-06-05",
+      "sourceType": "primary",
+      "text": "Sale of Radius Telecoms to PLDT, Inc.\n\nIn a disclosure to the Philippine Stock Exchange and the Securities and Exchange Commission on May 4, 2026, Manila Electric Company (“Meralco” or the “Company”) disclosed that the Board of Directors of the Company approved the sale of 65.1% equity stake of Paragon Vertical Corporation (“Paragon”) in Radius Telecoms, Inc. (“Radius”), to PLDT, Inc. (“PLDT) for an indicative consideration value of PhP2.935 Billion (the “Transaction”). PLDT currently has a 34.9% equity stake in Radius. Paragon is a wholly owned subsidiary of e-Meralco Ventures, Inc., which is a wholly owned subsidiary of the Company.On May 14, 2026, the Board of Directors of PLDT, Inc. approved the Transaction, subject to the execution of definitive agreements and the satisfaction of applicable closing conditions. A Share Purchase Agreement covering the Transaction was signed by authorized representatives of Paragon, PLDT, and Radius today, June 4, 2026. Upon completion of the Transaction, Radius will cease to become a subsidiary of Meralco and will now become a wholly owned subsidiary of PLDT.Further details of the Transaction are provided below.\n\nThe sale of Meralco’s stake in Radius enables the Company to realize value from its investment while allowing PLDT to complete its full ownership of Radius.\n\nParagon will dispose of its equity stake in Radius, in accordance with the definitive agreements that will be executed by the parties to the Transaction.\n\nRadius is a subsidiary of Meralco through Paragon, and e-Meralco Ventures, Inc.\n\nPhP2,935,000,000.00\n\nThe amount of consideration for the Transaction was determined based on the business valuation of Radius using financial projections and future cash flows, and negotiations between Paragon and PLDT.\n\nThe purchase price shall be payable in cash as follows: (a) 60% of the purchase price shall be paid at closing; and (b) 40% of the purchase price shall be paid on or before the date falling ten (10) months from closing, or on such earlier date as may be determined by PLDT.\n\nThe closing of the Transaction shall be subject to the satisfaction of closing conditions that are customary in transactions of a similar nature, including, but not limited to, the following:(a) execution of definitive agreements;(b) procurement of necessary corporate and regulatory approvals, clearances, confirmations, or non-objections, including from the Philippine Competition Commission and the National Telecommunications Commission, ",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Meralco business unit plans shares’ sell-down to affiliate PLDT",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmQwNmctWV8tcVMtT2NMYnlLdk9mMVROVHFfWmQwNTBEWllJT2ExZGRFalJRaVdvUWZpcC05QkJNSENLZ0NKbGlHNVktNWdJSHhKekJQUzF1aVluRG83SkRXeU81THQ5VC1KXzMxOUJFeE9hZGNxbldqMkRCcWRWTkYxNk13dnlEd0dYanMxd3F5Wm1o?oc=5",
+      "publishedAt": "2024-01-31",
+      "sourceType": "news",
+      "text": "Meralco business unit plans shares’ sell-down to affiliate PLDT",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "LOTO: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=80d220645f9d192564d70b69f0a3140b",
+      "publishedAt": "2026-03-05",
+      "sourceType": "primary",
+      "text": "Acquisition of Belle Corporation Treasury Shares\n\nPlease be advised that Pacific Online Systems Corporation (the “Company”) has purchased Two Hundred Million (200,000,000) treasury shares of Belle Corporation (Belle) at the price of P1.40 per share.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "PLDT to take full ownership of Radius Telecoms",
+      "source": "businessmirror.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUmZtY2VRUFpLcXdEZkp1MWljRHViMmw2cnUwNGRXM2lvWUdROEl3YW1WZFUyRGpLRmVRakdPMFRITW9FWEpqaVhvOXBnakdMZzBVU09qMFVIUURObG15MFFhZTVWR2V2UWVOd1F2YnBYeGQxUjctSGIxX0VFa2xvemUxbC11WldPMHBlTUNHUEpiZw?oc=5",
+      "publishedAt": "2026-05-14",
+      "sourceType": "news",
+      "text": "PLDT to take full ownership of Radius Telecoms",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Meralco to sell 65% stake in Radius Telecoms to PLDT for PHP 2.9B",
+      "source": "Power Philippines",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUkc1dWFyTldQTkFQVG9nZUJ4Uk1BYmE2YWU1TmJ2VG1sZTNyM3hRV1FOcDN2NmRzUWFqbzRhd1cweWNVOXExVzZobFBscS01V3ptQWd5UXVOVHBGeWZfY1NENVFlSFNDakNmVGFSRG5KeXozN0FhTlV6ckY0VV9WdVNSdGpSZjZQak1JUGNEcFI5MHYyeUNTUTlB?oc=5",
+      "publishedAt": "2026-05-04",
+      "sourceType": "news",
+      "text": "Meralco to sell 65% stake in Radius Telecoms to PLDT for PHP 2.9B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "AP: Clarification of News Reports",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cb99cccebd88860f64d70b69f0a3140b",
+      "publishedAt": "2026-06-05",
+      "sourceType": "primary",
+      "text": "Clarification to the June 3, 2026 Philippine Daily Inquirer News Article\n\nThis refers to Philippine Dealing & Exchange Corp.'s letter requesting us to confirm the veracity of the information contained in Philippine Daily Inquirer article dated June 3, 2026 entitled “BIZ BUZZ: Vietnam calling for Aboitiz”, the relevant portion of which is quoted hereunder:“Looks like the Aboitiz Group is betting that its next growth story may come from across the West Philippine Sea. During Vietnamese President To Lam’s state visit to Manila, top Aboitiz executives sat down with the visiting leader to discuss expanding cooperation in energy, food security and infrastructure—three sectors where the conglomerate already has a foothold in Vietnam. The meeting offered a glimpse of where Aboitiz sees future opportunities. Through its food unit, the group has been operating in Vietnam since 2014 and recently strengthened its presence with a $45million feed mill in Long An Province capable of producing 300,000 metric tons of animal feed annually. Energy may be the bigger prize. AboitizPower Corp. recently entered Vietnam’s power sector through a planned 25-percent stake in Van Phong Power Company, owner of a 1,320-megawatt coal-fired power plant. The investment is still awaiting regulatory approval, but executives made it clear they are eyeing more opportunities in coal, gas and renewable energy as Vietnam’s electricity demand continues to rise.xxx xxx xxxWe confirm the statements in the above news article to the extent that they refer to Aboitiz Power Corporation (AboitizPower or the “Company”), including the Company's acquisition of a 25% equity stake in Van Phong Power Company Limited, which was disclosed by the Company on October 29, 2025.The Company will make the appropriate disclosures to the investing public should there be any material and concrete developments requiring disclosure.Very truly yours,ABOITIZ POWER CORPORATIONBy:RANULFO J. JAVELOSA, IIICorporate SecretaryCc:PHILIPPINE STOCK EXCHANGE, INC.PSE Tower, 28th Street, cor. 5th AvenueBonifacio Global City, Taguig CityATTENTION: ATTY. JOHANNE DANIEL M. NEGREHead, Disclosure Department",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "NRCP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a7fe6d6aa6edb1b964d70b69f0a3140b",
+      "publishedAt": "2026-05-28",
+      "sourceType": "primary",
+      "text": "Board approval of the 2025 Integrated Annual Corporate Governance Report.\n\nWe disclose that at the regular meeting of the Board of Directors of National Reinsurance Corporation of the Philippines held on May 28, 2026, upon endorsement by the Governance and Related Party Transaction Committee, the Board approved the 2025 Integrated Annual Corporate Governance Report.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "MER stock: Radius deal value",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/mer",
+      "publishedAt": "2026-06-10",
+      "sourceType": "aggregator",
+      "text": "Manila Electric Company (PSE: MER), company snapshot.\nRadius deal value: PhP3.5 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    }
+  ]
+}

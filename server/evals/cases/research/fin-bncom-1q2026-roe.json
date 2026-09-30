@@ -1,0 +1,105 @@
+{
+  "id": "fin-bncom-1q2026-roe",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:34.480Z",
+  "ticker": "BNCOM",
+  "company": "Bank of Commerce",
+  "category": "financials",
+  "asOf": "2026-05-31",
+  "question": "What return on equity did Bank of Commerce report for the first quarter of 2026?",
+  "answer": {
+    "kind": "percent",
+    "value": 10.74
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "San Miguel’s BankCom posts record profit on surging loan income",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTlSOWdmU3FuQTRsbU5GemxkQTJna0NuSWVRLXpsdmpHVUtQSElXX3RUU09fY2lwNml5ZHVxR0Q5QU9YcmNSOWNISnhpYmgzMS1QbFpBU0YtTmJvaUtrUWJJZG16VEZHeG5SMlh2cXFkRGVqR3ZtTFpfUTRSNHA5cmJfWlZMZG9GbGdpTUZpbm1JYkRUSlE?oc=5",
+      "publishedAt": "2026-04-01",
+      "sourceType": "news",
+      "text": "San Miguel’s BankCom posts record profit on surging loan income",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "BankCom income climbs to P976 million",
+      "source": "BusinessWorld",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSXZYYlVuaUJSczlwa3ZDYkh1bU1qdlJydGFpbFdWYm9sRFJfOTh6YXA0TnFqTThJVHJSbWJ5Z1MxSEZvbkRSUzM1alZDbU1ObUxENHUxYk5uU0RRa0tjLXI4LU9rVmR6dnlxQ1NkM21YeGk5ZlJzNi16Qms0ejU0am1DeTV4S1FMdHY4Uk43MmcxS2tHVTFLSGFDZ2lzQQ?oc=5",
+      "publishedAt": "2026-05-13",
+      "sourceType": "news",
+      "text": "BankCom income climbs to P976 million",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "GTCAP: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=244fb928ca8c2fe564d70b69f0a3140b",
+      "publishedAt": "2026-03-23",
+      "sourceType": "primary",
+      "text": "Approval by the Board of Directors of the declaration of a regular cash dividend\n\nThe Board of Directors of GT Capital Holdings, Inc. (\"GT Capital\") approved regular cash dividend payable on semi-annual basis. First payout to be paid to all of GT Capital's common stockholders as of April 8, 2026 (\"Record Date\"), with April 22, 2026 as the Payment Date and to authorize the President to change the dates as may be required by exigencies.\n\nUnrestricted retained earnings as of 31 December 2025\n\nFixing of Declaration, Record and Payment Dates of the second payout of regular cash dividend, in the amount of Php3.00 per share, to be determined during the Board's regular meeting in August 2026. (Please see attachment)",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "BNCOM: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=80d58d80566116c764d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "BankCom Delivers Strong Start to 2026 with 13% Growth in Net Income\n\nSan Miguel Corporation (SMC) affiliate Bank of Commerce (BankCom) opened 2026 strong with an unaudited net income of P976.19 million as of 31 March 2026, up 13% vs the same quarter last year. This solid first-quarter performance underscores the bank’s sustained growth trajectory despite heightened market volatility linked to the Middle East conflict. The double-digit increase was mainly fueled by resilient core revenue streams from net interest income and foreign exchange gains from client transactions. This translated to a return on equity (ROE) and return on assets (ROA) of 10.74% and 1.32%, respectively, reflecting BankCom’s continued commitment and ability to deliver value to shareholders.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "LTG: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=85c20439158f70daec6e1601ccee8f59",
+      "publishedAt": "2025-12-26",
+      "sourceType": "primary",
+      "text": "Filing of Registration Statement and Listing Application of PNB Holdings Corporation (PHC)\n\nPlease be advised that LT Group, Inc. (LTG) received information today, 26 December 2025, from its subsidiary, PNB Holdings Corporation (PHC), that said subsidiary has filed an application for the registration of its shares (i.e., a Registration Statement) with the Securities and Exchange Commission (SEC) in preparation for the listing of its subscribed capital stock under Part G, Article III of the Consolidated Listing and Disclosure Rules of the Exchange, Listing By Way of Introduction.\n\nLTG and PHC will update the Exchange on material developments, including regulatory clearances, listing timetable, and other relevant milestones, as these become available.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "APVI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d9363b7350651db964d70b69f0a3140b",
+      "publishedAt": "2026-03-12",
+      "sourceType": "primary",
+      "text": "Matters approved by the Board of Directors of Altus Property Ventures, Inc. on March 12, 2026\n\nPlease be informed that the Board of Directors of Altus Property Ventures, Inc. (“APVI”) approved the following matters on March 12, 2026: 1. The amendment to Article II, Section 2 of the Amended By-laws, for the purpose of changing the notice period for the Annual Shareholders Meeting from “at least fifteen (15) days before the date of the meeting” to “at least twenty-eight (28) days before the date of the meeting”;2. The amendment to Article III, Section 5 of the Amended By-Laws, for the purpose of changing the notice period for the Board of Directors meetings from “at least three (3) business days before the day on which the meeting is to be held” to “at least five (5) business days before the day on which the meeting is to be held”;3. The amendment to Article III, Section 6 of the Amended By-Laws, for the purpose of changing the quorum requirement for meetings of the Board of Directors from “a majority of the number of directors” to “two-thirds (2/3) of the number of directors”;4. The amendment to Article III, Section 12 of the Amended By-Laws, for the purpose of changing the composition of Independent Directors of the Board from “such number of independent directors in the Board as may be required by law” to “at least two (2) independent directors, or at least one third (1/3) of the members of the Board, whichever is higher”; and5. The setting of the 2026 Annual Shareholders Meeting of APVI on May 13, 2026 at 4:00 pm via remote communication and setting March 30, 2026 as the record date for the said meeting.\n\nAttached is SEC Form dated March 12, 2026 on the matters stated herein.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "BNCOM stock: Return on equity",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/bncom",
+      "publishedAt": "2026-05-31",
+      "sourceType": "aggregator",
+      "text": "Bank of Commerce (PSE: BNCOM), company snapshot.\nReturn on equity: 1.32%.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d8",
+      "title": "Bank of Commerce’s reported net income grows 13% to P976.19M in Q1 of 2026",
+      "source": "Malaya Business Insight",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONGJCTUhjVnRKNUxETkwwVEVxQTloQklmUTdTNEpzM1MxVm85dW5EWFZXWWoyUXFwWnZZR0xuYUtHTjByTHJBVFpoZGgzamdaSkVhaGFoTUc2RXRhZ3FST1NBWF93R3ZpSUVOOVBKeDNSYkwxZVJJSFVNUk1DY1RRRk1UcldkS0RaOVFKY2R2dmZzWUZyamxJTGJhbVUxZE1WSHdaLWU0VkdBcjBYLVluNHNtelg?oc=5",
+      "publishedAt": "2026-05-14",
+      "sourceType": "news",
+      "text": "Bank of Commerce’s reported net income grows 13% to P976.19M in Q1 of 2026",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

@@ -20,6 +20,8 @@
     "test": "vitest run",
     "eval": "tsx --env-file=../.env evals/run.ts",
     "eval:freeze": "tsx --env-file=../.env evals/freeze-case.ts",
+    "eval:fetch-research": "tsx --env-file=../.env evals/fetch-research.ts",
+    "eval:draft-key": "tsx --env-file=../.env evals/draft-research-key.ts",
     "eval:score": "tsx evals/scorecard.ts"
   },
   "dependencies": {

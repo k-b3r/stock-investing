@@ -1,0 +1,104 @@
+{
+  "id": "nf-ogp-may2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:38.166Z",
+  "ticker": "OGP",
+  "company": "OceanaGold (Philippines), Inc.",
+  "category": "dividends",
+  "asOf": "2026-05-20",
+  "question": "How much per share is the cash dividend OceanaGold (Philippines) declared on May 6, 2026?",
+  "answer": {
+    "kind": "not_found"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Record gold prices power OceanaGold profit jump in 2025",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRkVQX3JfX3hhYVFWbElJQTFTOTVZVU9GcDE4OE5hVXZYTEVITF9GbXpTbkU5UVZxZmU3SElnWk45ZnJNb1IxMFpXRkdNOVo4MUxkQzlnM2NJbEpyLU1VajN0b29YNVVhZmFFbzJ4dFloeVc0MFkwOHNCZ1pBcC1WSEtZQ0ZEdkY3UkE3Rw?oc=5",
+      "publishedAt": "2026-02-19",
+      "sourceType": "news",
+      "text": "Record gold prices power OceanaGold profit jump in 2025",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "APX: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f9a3412b0793300a64d70b69f0a3140b",
+      "publishedAt": "2026-03-17",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nIn a Board Meeting held today, March 17, 2026, the Board of Directors of Apex Mining Co, Inc. (APX) approved the declaration of a special cash dividend in the amount of Php 0.36918 per common share. The cash dividend is payable on April 27, 2026 to stockholders of record holding shares of APX common stock at the close of business on April 15, 2026.\n\nTotal retained earnings available for dividend declaration as of December 31, 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "OGP: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6384a00eefa39fdb64d70b69f0a3140b",
+      "publishedAt": "2026-02-18",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends\n\nDeclaration of cash dividends\n\nUnrestricted retained earnings as of 31 December 2024.\n\nDividend to holders of publicly traded shares will be paid in Philippine peso based on the PHP:USD exchange rate on the day the payment is processed.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "ECVC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cf57b445e11f7c5064d70b69f0a3140b",
+      "publishedAt": "2026-04-27",
+      "sourceType": "primary",
+      "text": "Postponement of the 2026 Stockholders' Meeting (ASM) and Approval of 2025 Audited Financial Statement\n\nWe advise that at the Special Meeting held on April 27, 2026, the Board of Directors of East Coast Vulcan Mining Corporation (the “Corporation”) approved the following matters: 1. The Audited Financial Statements of the Corporation for the year ended December 31, 2025;2. Postponement of the 2026 Annual Stockholders’ Meeting (“ASM”) scheduled on the last Wednesday of May, and the resetting of the 2026 ASM to June 17, 2026 while retaining the previously approved record date of April 30, 2026;3. Authorization of the Chairman/President to determine whether the ASM will be held face-to-face, by remote communication, or hybrid mode, and the meeting venue.4. The Chairman/President was also authorized to determine whether the ASM will be held face-to-face, by remote communication, or hybrid mode, and the meeting venue.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "OceanaGold Philippines profit more than doubles on higher gold prices",
+      "source": "BusinessWorld",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUktFRF9faldoYXlzbnRJa3BIWWEzMnF5T1JQaWdMM0FoRHIxN2p3SlVBQk5JbnJsbXdNTy0tU195a3lmMDhVYWdNaDh5NlQtMGlvanhITjgzMzJuLWhnd3gzeDdDXzlUUF9ncHUxSlhhejdfcDR0SV9UeXRkdHdGNW1MVHdZUml5aGk5UElBYWo4cmJLdnhwVFUxSXZQdDFPejR0ZGtydmVIbGRhbTMyUGpQVmZFY0RRUDdwUnQ1dFg?oc=5",
+      "publishedAt": "2026-02-20",
+      "sourceType": "news",
+      "text": "OceanaGold Philippines profit more than doubles on higher gold prices",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "OGP: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=410ab3176b2c9ece64d70b69f0a3140b",
+      "publishedAt": "2026-05-06",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nDeclaration of Cash Dividends\n\nUnrestricted retained earnings as of 31 December 2025.\n\nDividends to holders of publicly traded shares will be paid in Philippine Peso based on the PHP:USD exchange rate on the day the payment is processed.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "LTG: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=11866533b5a95db664d70b69f0a3140b",
+      "publishedAt": "2026-02-17",
+      "sourceType": "primary",
+      "text": "Results of the Meeting of the Board of Directors held on February 16, 2026\n\nFebruary 16, 2026THE PHILIPPINE STOCK EXCHANGE 6th Floor, PSE Tower, BGC 28th Street corner 5th Avenue, BGC, Taguig CityAttention : ATTY. JOHANNE DANIEL M. NEGRE Officer-in-Charge, Disclosure DepartmentGentlemen: Please be advised that at the Meeting of the Board of Directors held today, February 16, 2026, the Board approved the following:1. Holding of the Annual Stockholders’ Meeting on May 6, 2026, Wednesday, at 10:00 a.m. via Remote Communication;2. Setting the record date of stockholders in good standing, who shall be entitled to receive notice of, and to vote at the meeting and any adjournments thereof, at the close of business on March 27, 2026;3. Approval of the Appointment of Ms. Mary G. Ng as Lead Independent Director; 4. Approval of the Reappointment of SGV & Co. as the External Auditor of the Corporation; and5. Amendment of the Corporate Governance Manual to reflect the revised reporting period for share dealings under Section 3 (D.14.J), to read as follows:“Each Board member is likewise required to disclose or report to the Company any dealings in the Company’s shares within three (3) business days.” We trust that you will find the foregoing in order.Very truly yours,LT GROUP, INC. By:ATTY. MA. CECILIA L. PESAYCOCorporate Secretary",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "OceanaGold Q1 profit soars 370% on record gold prices",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZFRheW5PSVVoeUpodzVjaWFMendaN3NEcXFVRDQxdV9qV0hHT3A2VUl5ZmVVS2EzaXBjOVllSWhJTzVsd0VLZ0Y4YXczb09qUDJFUXJ3djVNci05ZzFyYlBPSC1iVk9TTlFzYUZ0WV81ZW9BdlU0RWxCeUZ3Nlp1Nm50RnMzLUFYVVhvaUkxX1lWU1nSAZgBQVVfeXFMTkdIZjFiNEhiSGp4d29MMHNxVzNPQVpkUlk5YWgzVEIxem02ZFo0b2VRWGhYOFl2ZjhDSHBkMGs5QnZwRGFrQVJyRHlna05oSHVNMV9USnJLM1pKdEh2cXBNcl8wM3RmQnltSkZjMEx3a0t2RWpwcHdRdkpEdDEzYXlGTk15OExidnNudUlaRHRKWGdfb3lpaVk?oc=5",
+      "publishedAt": "2026-05-07",
+      "sourceType": "news",
+      "text": "OceanaGold Q1 profit soars 370% on record gold prices",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

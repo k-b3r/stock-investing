@@ -1,5 +1,5 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": { "noEmit": true, "allowImportingTsExtensions": true },
-  "include": ["evals", "scripts/thesis-context.ts", "scripts/generate-thesis.ts"]
+  "include": ["evals", "scripts/thesis-context.ts", "scripts/generate-thesis.ts", "scripts/research-fetcher.ts"]
 }

@@ -1,0 +1,105 @@
+{
+  "id": "fin-cosco-1q2026-revenue",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:07.827Z",
+  "ticker": "COSCO",
+  "company": "Cosco Capital, Inc.",
+  "category": "financials",
+  "asOf": "2026-05-20",
+  "question": "What consolidated revenues did Cosco Capital report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 63100000000
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Cosco Q1 profit up as major business segments deliver",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOGV1MEg3Y1JqMjI1dHlScU1WZTlsUlFfbUlpRW9Bb3g5Tk5EVFljNDlENDFudlBiSjNMSjRLeTJwT2J0cU1kZ010c0J6ZzI1VHU0UXdlbFF0ZzJzb3dUNUtQRzBGZHNiMk1GN3QwLUd3bGEzbUt5VFBHUW0wOFlKTDZxRVowSkU5UlJJbVg3QTNkSktKTWJfWmxEcTF5SklZUXfSAagBQVVfeXFMTnNJSWpxQ1JpaVk2bjZldHVrZmR1cWV4YWNHM1NTMFo0Wm1pY1FIcGVfUkJoaVZhdTJQNGp4dEd2QnhQVy1KRmpWVWhBa2pjUnc4WWhtX3FUMGtBRnc0RWk2WlB5ZXBWUjZhZ1JqYjVfUlN1Qk9OUk41V2hGRmRaUDJOQnVLVjRhUGZCTXl4aXY1VnVuRWYxR1ZRQjdITGZiaWZsVDZBVFRo?oc=5",
+      "publishedAt": "2026-05-10",
+      "sourceType": "news",
+      "text": "Cosco Q1 profit up as major business segments deliver",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Cosco March quarter income jumped 21.6%",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcWpGZGV1aFcwYlNKZHFPTlJZM1NydDMwV3VjbGphaTFfZ1BOYW1sQ0JQZEk3aWlsbHAtSkVjUGFNWUJzQUJCemRQeHM0Q3RUY0MwNjZMckRfZ0Nfa1VBelVOTWxrZ2FmQUF5NnNGWC1IcjdGNmNGNEdGT0JLT0lmUdIBhgFBVV95cUxPclp1OWlmTlM5WVQ3U1cwa1owUXpSdGtTUWdrdmU0U1NPT0VxMFRXRDFhYm1jQ0d4RDY1WGY1d2YwWERBNENmMkNtUkw4VEx6RDFScFlNX21VbFNKRnhDQnJuSV9OLVJ6d0ZEOGZKWUVBVHJMN3FjM2hzZXQ4U3F4YllyMU9MZw?oc=5",
+      "publishedAt": "2026-05-09",
+      "sourceType": "news",
+      "text": "Cosco March quarter income jumped 21.6%",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "COSCO stock: 1Q 2026 revenue",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/cosco",
+      "publishedAt": "2026-05-20",
+      "sourceType": "aggregator",
+      "text": "Cosco Capital, Inc. (PSE: COSCO), company snapshot.\n1Q 2026 revenue: Php 56.7 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "Lucio Co’s retail empire gains on robust Filipino spending",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOFlWNmJJTEY4ckIzc2czbTFTdFU0OXdKbmxIQ2xkU3NuUzVQZ0RjYldnZUtNY09kSGE3V0Z2S3B4cVBObDBxTTdvWkEyVWJ0clJJOEZONUNWOUJSajFuVWJPTVpuMk1oMnlzS211anhSMTl3Ty1SZzlPSXRfd2dmR2hvUHRsNUdUdVU5MWpUcw?oc=5",
+      "publishedAt": "2026-05-08",
+      "sourceType": "news",
+      "text": "Lucio Co’s retail empire gains on robust Filipino spending",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "LTG: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0e9da8d488d4e9f664d70b69f0a3140b",
+      "publishedAt": "2026-02-20",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nFebruary 20, 2026DISCLOSURE DEPARTMENTTHE PHILIPPINE STOCK EXCHANGE, INC. Philippine Stock Exchange Plaza, PSE Tower, 5th Avenue corner 28th Street, Bonifacio Global City, Taguig CityAttention : ATTY. JOHANNE DANIEL M. NEGRE Officer-in-Charge, Disclosure DepartmentGentlemen:Please be advised that the Board of Directors approved, via referendum today, February 20, 2026, the declaration and distribution of a Regular Cash Dividend of Php 0.15 per share and a Special Cash Dividend of Php 0.15 per share to all stockholders of record of LT Group, Inc. as of March 6, 2026. The said dividends are authorized to be paid not later than March 17, 2026. We hope you find the foregoing in order. Very truly yours, LT GROUP, INC. By: MA. CECILIA L. PESAYCO Corporate Secretary\n\nThe dividend payment will be out of unrestricted retained earnings as of December 31, 2024.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "DELM: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=3cb5926ad6583aaf64d70b69f0a3140b",
+      "publishedAt": "2026-02-24",
+      "sourceType": "primary",
+      "text": "Announcement of Del Monte Pacific Limited on Developments in the Chapter 11 proceedings in the U.S.\n\nAnnouncement of Del Monte Pacific Limited on Developments in the Chapter 11 proceedings in the U.S.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "EMI: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bbd565de24fd089964d70b69f0a3140b",
+      "publishedAt": "2026-04-14",
+      "sourceType": "primary",
+      "text": "Press Release: “Emperador Strengthens Sustainability with First Sustainability-Linked Loan\n\nEmperador Inc. (“EMI”), together with Emperador Distillers, Inc. (“EDI”), will guarantee the refinancing of an existing loan by its wholly-owned subsidiary Emperador International Ltd. (“EIL”) through a facility from a group of Lenders, with Banco Bilbao Vizcaya Argentaria, S.A. (“BBVA”), Singapore Branch, Bank of China (Hong Kong) Limited (“BOC”) and DBS Bank Ltd. as the mandated lead arrangers, underwriters and bookrunners (the “MLAUBs”), in the principal amount of EUR300,000, 000 (the “New Facility”). BBVA and BOC also act as the Sustainability Coordinators. The New Facility is a sustainability-linked loan (“SLL”) with two key performance indicators: (1) Reduction of EMI’s Scope 1 and 2 GHG Emission Intensity and (2) Increase in Use of Renewable Electricity.\n\nThe information in this material contains certain “forward-looking statements”. These forward-looking statements can generally be identified by use of statements that include words or phrases such as Emperador Inc. (EMI) or its management “believes”, “expects”, “anticipates”, “intends”, “plans”, “projects”, “foresees”, and other words or phrases of similar import. Similarly, statements that describe EMI’s objectives, plans, and goals are also forward-looking statements. All forward-looking statements are subject to certain risks and uncertainties that could cause actual results to differ materially from those contemplated by the relevant forward-looking statements. Nothing in this material is or should be relied upon as a promise or representation of the future. The forward-looking statements included herein are made only as of the date of this material. Unless required by regulation, EMI undertakes no obligation to update such forward-looking statements publicly to reflect subsequent events or circumstances. The delivery of this material shall not, under any circumstance, create any implication that the information contained or referred to in this material is accurate as of any time subsequent to the date hereof.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "COSCO: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cb31411fe4be486264d70b69f0a3140b",
+      "publishedAt": "2026-05-08",
+      "sourceType": "primary",
+      "text": "Press Release entitled \"Cosco Capital net income hits PHP 4.47 billion in 1Q 2026, up 21.6%\"\n\nManila, Philippines - Cosco Capital, Inc., the listed retail holding firm of Mr. Lucio L. Co, reported a 21.6% growth in its consolidated net income amounting to Php 4.47 billion for the first quarter of 2026 versus Php 3.68 billion a year ago. Strong operating performance from major business segments also lifted consolidated revenues by 11.3% to Php 63.1 billion in 1Q 2026 from Php 56.7 billion in the same period of 2025. The Group continued to benefit from the economic recovery amidst the prevailing macroeconomic challenges by way of sustained and stronger revenue growth across all its business segments which indicates the recovering consumer demand. In 1Q 2026, the group's grocery retailing businesses, Puregold Price Club, Inc. and S&R Membership Shopping Club, contributed 72% of total net income, followed by the Liquor Distribution with 18%, Commercial Real Estate segment with 8%, Energy & Minerals and Specialty Retail with 2%. The grocery retail segment grew consolidated revenues to Php 58.78 billion for the first quarter 2026, up 12.1% growth from Php 52.42 billion in the same period of 2025. For the first quarter of 2026, the enterprise experienced positive same store sales growth (SSSG) of +5.4% from Puregold Stores driven by higher basket size and +12% from S&R Warehouse clubs driven by higher traffic.The grocery retail group’s consolidated net income for the first quarter 2026 jumped by 23.7% year on year to Php 3.26 billion from Php 2.64 billion driven by strong topline growth and complemented by improvement in gross margins. The Liquor Distribution business thru The Keepers Holdings Inc. has recorded consolidated revenue amounting to Php 4.3 billion, a 6.1% growth versus previous year on the back of a 4% growth in volume of cases sold for the period. This was driven principally by Alfonso, the leading imported brandy in the market, which has already surpassed its pre-pandemic levels, premiumizing market and on-premise channel rebound. Net income for the liquor segment saw an increase of 17.6% to PHP 811 million in 1Q 2026 vs Php 690 million same period 2025. The Commercial Real Estate segment posted a 22.1% growth in rental revenue amounting to PHP 612 million in 1Q 2026 as business operations of its tenants portfolio has improved due to increased level of economic activities as well as full resumption of rental rates based on contracts. The real estat",
+      "role": "answer",
+      "synthetic": false
+    }
+  ]
+}

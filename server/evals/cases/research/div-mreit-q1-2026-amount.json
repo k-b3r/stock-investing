@@ -1,0 +1,116 @@
+{
+  "id": "div-mreit-q1-2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:28.677Z",
+  "ticker": "MREIT",
+  "company": "MREIT, Inc.",
+  "category": "dividends",
+  "asOf": "2026-05-15",
+  "question": "How much per share is MREIT's cash dividend for the quarter ending 31 March 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.263
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "FCG: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c93ad7d18f4a3759ec6e1601ccee8f59",
+      "publishedAt": "2025-11-20",
+      "sourceType": "primary",
+      "text": "Results of the Special Meeting of the Board of Directors of Figaro Culinary Group, Inc.\n\nDuring the special meeting of the Board of Directors (“Board”) of Figaro Culinary Group, Inc. (“FCG” or the “Company”) held on 20 November 2025, the following matter was presented and has been approved by the Board of the Company:1. Approval of the Proposed Corporate Restructuring involving the Angel’s Pizza Business.The Figaro Group intends to implement a corporate restructuring whereby the Angel’s Pizza related assets of Figaro Coffee Systems, Inc. (“FCSI”), the operating subsidiary of the Company, will be transferred to Angel’s Pizza Inc. (“API”), a new entity created for this purpose, in exchange for shares in API. Following the completion of the planned corporate restructuring, API will own and operate the Angel’s Pizza business while FCSI will wholly own API. Further, the Board has authorized the Chairman or President of the Company to vote on the shares of the Company in FCSI, to approve the planned corporate restructuring and such related transactions thereto. FCSI will secure corporate approvals for the said corporate restructuring of the Angel’s Pizza business. The Figaro Group intends to implement the proposed corporate restructuring following regulatory approvals, which is anticipated to occur sometime in 2026.The foregoing item was unanimously approved by all directors present in the meeting. The Company will accordingly disclose any related material developments.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "MREIT declares record cash dividend",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNFNxTlFXNlVTMDBEVGxPUkdKRno2TjVQRFl2Z3U2SXA3R0w3eVlRaVpTVjNmWUNZcE1rVVRIUE5OQjZfdEVPRmhudHo5NVl6VlZQUUpFd0NPY0JYVGtVeHF3QWc5UEVhazN0eTlwc09wY01oenFGMzhZcnh0MGRVaGVCODl6aDVSNHowc3A0S3pSQdIBmAFBVV95cUxNVnd2c0ROczRyS1ZCcDZ4b3d0Z0FMTFA4OW5pNEQ4NXdBYzByTmpzUUFrbEhmQ1dVTndsMlJXb3hXZUtZeDN2c0Q5QlVvRDhMRlV4REVNUHZ6aEt5QVdTWmNWajloOHljVGxfbHEtWUNidzhxV0lLakpUVTdGeVg5OEdtcFROLUxwQUF0VVVwS0RBbXNmN05HUQ?oc=5",
+      "publishedAt": "2026-05-01",
+      "sourceType": "news",
+      "text": "MREIT declares record cash dividend",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "MREIT public float rises, declares ₱1-billion dividend",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSUZZai1MVGQ3bG9IdGdVdExRUkdhenN2NXcwYURfY2dXcnJWYkdUX0hKbDl0cHlKN0haa004WXd4c0VWS1Y3ZnhKUFpTeXRJeDFQWktCcFJOQl9Rb0R6SnlqNnpEVXZub3BkdExjWTU5OVlZd0ZuZGQ3LXc4NTd0YXlRQV9lcHFa?oc=5",
+      "publishedAt": "2026-04-30",
+      "sourceType": "news",
+      "text": "MREIT public float rises, declares ₱1-billion dividend",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "CBC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=aad72c565cee710f64d70b69f0a3140b",
+      "publishedAt": "2026-04-15",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nPlease be informed that during its special meeting held this afternoon, 15 April 2026, the Board of Directors of China Banking Corporation approved the declaration of an additional special cash dividends of P1.00 per share.The Board likewise approved to set 30 April 2026 as the record date and 14 May 2026 as the payment or issuance date of the cash dividends, with closing of books from 04 to 14 May 2026.\n\nRetained Earnings as of 31 December 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "MREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=754c8ebd99c160a364d70b69f0a3140b",
+      "publishedAt": "2026-04-30",
+      "sourceType": "primary",
+      "text": "Cash Dividend Declaration\n\nThe Board of Directors of MREIT, Inc. (the “Company”) declared cash dividends of Php0.2630 per outstanding common share for the quarter ending 31 March 2026.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "AGNC Investment's 13% Dividend Yield Looks Tempting. Should Income Investors Actually Trust It?",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmhIaU9lTjlZNTMzWFYtX0o5ZXBuTnVnMGxsWGktay10SFd3dDNRYlY1b2xmc2RYbUkwOHJBUHZtS0Q2Ty1wZmdETlVRLUhjOGlGYlpGbkxwWk9xTVBYNHM0NDFuMTBXN1lYNGU5SlZ3TGhWRFJmMG9uUmY3RzNNbXpxN2JvV2JtTjJmNWFfb3lYWmNPeGpr?oc=5",
+      "publishedAt": "2026-05-12",
+      "sourceType": "news",
+      "text": "AGNC Investment's 13% Dividend Yield Looks Tempting. Should Income Investors Actually Trust It?",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "MREIT: [Amend-1]Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7d510a5e6c2bb63a64d70b69f0a3140b",
+      "publishedAt": "2026-03-03",
+      "sourceType": "primary",
+      "text": "Cash Dividend Declaration\n\nThe Board of Directors of MREIT, Inc. (the “Company”) declared cash dividends of Php0.250478 per outstanding common share for the quarter ending 31 December 2025.\n\nThis disclosure is being amended to correct a typographical error on the SEC Form 17-C regarding payment date. All other information is unchanged.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "MREIT stock: Quarterly dividend per share",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/mreit",
+      "publishedAt": "2026-05-15",
+      "sourceType": "aggregator",
+      "text": "MREIT, Inc. (PSE: MREIT), company snapshot.\nQuarterly dividend per share: Php0.250478.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d9",
+      "title": "MJC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a38a3d11f42a73a564d70b69f0a3140b",
+      "publishedAt": "2026-02-09",
+      "sourceType": "primary",
+      "text": "Approval of the Final Audit Report\n\nOn February 9, 2026, the Board of Directors of Manila Jockey Club, Inc. (the “Company”) approved Sycip Gorres Velayo & Co.’s (SGV) Final Audit Report on the Company’s Audited Financial Statements for the years ended 31 December 2022, 31 December 2023 and 31 December 2024.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

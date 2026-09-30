@@ -1,0 +1,107 @@
+{
+  "id": "off-plus-president-2026",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:40.631Z",
+  "ticker": "PLUS",
+  "company": "DigiPlus Interactive Corp.",
+  "category": "officers",
+  "asOf": "2026-06-15",
+  "question": "Who did DigiPlus Interactive name as its President in May 2026?",
+  "answer": {
+    "kind": "text",
+    "accept": [
+      "Ping Chen"
+    ]
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "PLUS: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ee50b39ac53f4b3364d70b69f0a3140b",
+      "publishedAt": "2026-05-29",
+      "sourceType": "primary",
+      "text": "DigiPlus appoints global corporate finance veteran Ping Chen as president\n\nDigiPlus Interactive Corp. (DigiPlus), the country’s premier digital entertainment provider behind BingoPlus, ArenaPlus, and GameZone, has named finance veteran Mr. Ping Chen as its new President during the Board of Directors' Organizational Meeting following its Annual Stockholders' Meeting on Friday, May 29, 2026.Concurrently elected as a member of the Board of Directors, Mr. Chen will assume both executive and board responsibilities, effective immediately.Mr. Chen is succeeding Mr. Andy Tsui, who has stepped down after over four years of service as President and Director at the Company.Prior to his appointment, Mr. Chen served as Chief Financial Officer, Chief Investment Officer, and Executive Committee member of one of Asia’s largest publicly listed technology and services conglomerates. Before that, he spent two decades in global investment banking in Hong Kong and London, as Senior Managing Director at Moelis & Company, and in Bank of America Merrill Lynch, Citi, and Morgan Stanley.Mr. Chen brings over 22 years of distinguished experience spanning the technology industry, investment banking, corporate finance, strategic investments, and executive leadership across publicly listed companies in Asia and global markets. He is a seasoned corporate leader and dealmaker with a strong track record in driving transformational growth, executing complex mergers and acquisitions, and building international platforms for listed organizations.\"Bringing Ping Chen on board at this exact moment is a strategic move for DigiPlus. His extensive global experience, strategic insight, and proven leadership capabilities position him well to help steer the Company through our next phase of expansion and long-term value creation,” said DigiPlus Chairman Eusebio H. Tanco.“We thank Mr. Andy Tsui for his accomplished tenure at DigiPlus as President, during which he advanced key strategic initiatives, strengthened organizational capabilities, and championed the continued growth of the business. We sincerely wish him well in his future endeavors,” Tanco added.\"It is a privilege to join DigiPlus and to push for its next phase of expansion, as we continue to serve the community and provide the best-in-class digital entertainment in the Philippines,\" said DigiPlus President Ping Chen. \"My mandate is to help design our long-term strategy and execute, also to improve our financial performance and operational ef",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "PLUS stock: President",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/plus",
+      "publishedAt": "2026-06-15",
+      "sourceType": "aggregator",
+      "text": "DigiPlus Interactive Corp. (PSE: PLUS), company snapshot.\nPresident: Andy Tsui.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d3",
+      "title": "GSMI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=138e03bb1c7817dd64d70b69f0a3140b",
+      "publishedAt": "2026-03-05",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends to Shareholders\n\nPlease be informed that at the meeting of the Board of Directors of Ginebra San Miguel Inc. (the \"Board\") held on March 5, 2026, the Board approved the declaration and payment of cash dividends on common shares to all shareholders of record as of March 23, 2026.\n\nUnappropriated retained earnings of December 31, 2025.\n\nThe Stock and Transfer Book of the Company will be closed from March 24- 29, 2026. Please see attached SEC Form 17-C which we filed with the Securities and Exchange Commission today, March 5, 2026, through e-fast.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "PMPC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6dc5541783e1fd3964d70b69f0a3140b",
+      "publishedAt": "2026-05-21",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividend\n\nPlease be informed of the adoption and approval by our Board of Directors on May 21, 2026 of a resolution declaring (67.91%) of capital cash dividend equivalent to P0.6791 per share or the total amount of Php 287,064,106.37 in favor of all its stockholders of record as of June 8, 2026 payable on June 25, 2026.\n\nCash Dividend taken net income of fiscal year 2025 ending March 31, 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "DigiPlus appoints finance veteran as new president",
+      "source": "GMA Network",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObzV2S3B3RnZUdi1keVN6X0dock1QVGxWMThIQ2dSZWlFcjRRUHJLelZGV0xidnJ4S0lnWTFwTldJZkFqY0hFdi1JQ2NpZWhudUF2S3lROEJSd1FDXzViY3VVbUJ6Q1daSDFtS1FlbG11YTVpUWJybVRLNEVTdDIxLVRFUE9XdHh5c1lwSS1hWDVCcWtaVVlOaGZTMy1LQ0pVSnJXMDF6M2VPckhZcEpxbWJR0gG3AUFVX3lxTE1wLUwxbldnLWVPOWlrMEhydTdUVUFRVUxraHljcFN4WkdnWkFrTGxCR3NUZEJLWlBzRDhXdExlY0hpWWxJY2w1WjZhM2xmR1RnSmZtaGVxTXFkelJBM2RITFRiYmdGUEtWNEROd3AxTmRnV1ljMXRRRjRGVy1vWm15cm1rSFRHZmYtd1M1bTlROWRLcTZ6MUVsd1I3bDEzN3YxeGh5dDg1ekdvcGZNc2RuZVdEWlhRdw?oc=5",
+      "publishedAt": "2026-05-30",
+      "sourceType": "news",
+      "text": "DigiPlus appoints finance veteran as new president",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "KEP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bcce52ab75c9918864d70b69f0a3140b",
+      "publishedAt": "2026-05-14",
+      "sourceType": "primary",
+      "text": "Material Items Approved by the Board of Directors (“Board”) of Keppel Philippines Properties, Inc. (“KEP”)\n\nAt the regular meeting of the Board of Directors of Keppel Philippines Properties, Inc. (the “Company”) held on 13 May 2026, the Board unanimously approved the following:(i) Q1 2026 Financial Statements which is incorporated in SEC Form 17Q; (ii) Change in the Company’s stock symbol from “KEP” to “FSGI”; (iii) Amendment of Article II, Section 7 of the Company’s By-Laws;(iv) Change in the corporate contact details of the Company.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "DigiPlus names global finance veteran Ping Chen as president",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblJteWtTQkxKVmtLQ0plcGt2YUNaWEdjTWhIZUNITHMweXVFUUxQdDJ6UUJWbnFudUNxcGU3ZFlOdmtGUUJCUHdENTNucHAxV0RFaUpCWUQ0YWF2RGV2SkVVSk9EZnF3Ui1LLV85Z1hxUEhiTXhDWkgxUWJ2Y1RuOWx0SUFEUVVFVUJDQlJBTXBZek1tb2pJb1hhV0d3d9IBowFBVV95cUxPYUx5QjBQYnJQYVpzNVgyenpCT2xUbkR6RTdNSlRqZWpGbjRGNWZod1NaVVZYWGFBRko5dzlJVXdGdFJkWDhzQXpTTldJM0I2dm0yWmNtdUhLbzNJZm41c01PeWZkZkl6V05wNjRHa21EQThVSzQ1RFh0Q2RyZTZUaGV5Q2hrZDluNm4yX3Z1WFpYWXgzNHEwdEtEWC1TSjItYzRj?oc=5",
+      "publishedAt": "2026-05-29",
+      "sourceType": "news",
+      "text": "DigiPlus names global finance veteran Ping Chen as president",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "DigiPlus sees better Q2 performance as it deals with market challenges",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObDloZFJnV1dYTlA1cVZlclpzSjFJX3JleWUweDN4c3FBcFN2M1h4ZGExdUNRZ2dMVUFWYVJaQlhBTkpiUkwzblB6ZXBWeHBoZFE2czJpQklVTEZ6TVpuY1FmN2t2WFZkOWYyb216MFV0SE9MdFpRT3NGV0FQb1NZbTVYVjl3QXROdDIxOThFY0N5dXRfWmlxam1DMzJ1NkFh?oc=5",
+      "publishedAt": "2026-06-01",
+      "sourceType": "news",
+      "text": "DigiPlus sees better Q2 performance as it deals with market challenges",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

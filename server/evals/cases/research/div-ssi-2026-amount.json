@@ -1,0 +1,116 @@
+{
+  "id": "div-ssi-2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:19.247Z",
+  "ticker": "SSI",
+  "company": "SSI Group, Inc.",
+  "category": "dividends",
+  "asOf": "2026-05-25",
+  "question": "How much per share is the regular cash dividend SSI Group declared on May 12, 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.0805
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Ghost month or ghost project drag: SSI nine-month profits falls nearly 50%",
+      "source": "InsiderPH",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRGtfdEUtaXFOZWJqZm1WZ1BHcVJzMEpfbHliSEpzNXMyeUV2Vk9sVGZwZU53NEtnM0dZdEpQNTByMW4xTnZENHJoVWpOaXhBcEdpVmx4bVk2R3R0RTZEejAtVVZ3Z1dnOFZ2czFSOUprUnRyUy0tVmF3b0c3Qmd1YmFqZE9zdWpOb3RNVURaRm5fc3JFcG1ZVGtB?oc=5",
+      "publishedAt": "2025-11-17",
+      "sourceType": "news",
+      "text": "Ghost month or ghost project drag: SSI nine-month profits falls nearly 50%",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "MER: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=cde8b2ad1c87c7cd64d70b69f0a3140b",
+      "publishedAt": "2026-04-21",
+      "sourceType": "primary",
+      "text": "Manila Electric Company and Corporate Information Solutions, Inc. Sells its Share Interest in CIS Bayad Center, Inc.\n\nPlease be informed that Manila Electric Company (“Meralco”) and its wholly owned subsidiary, Corporate Information Solutions, Inc. (“CIS”) have agreed to sell their respective shares in CIS Bayad Center, Inc. (“Bayad”) to Kayana Solutions, Inc. (“Kayana”). The completion of the transaction is subject to the satisfaction of certain conditions precedent.Bayad is a provider of payment collection services offering a suite of financial products and services, through its physical and digital payment touchpoints. Bayad is owned by CIS, Kayana, and Meralco with equity interests of 85%, 10%, and 5%, respectively.Kayana is a digital company dedicated to accelerating digital transformation in the Philippines, and is owned by PLDT Inc., Meralco, and Metro Pacific Investments Corporation with equity interests of 45%, 27.5%, and 27.5%, respectively.\n\nPayments is a pillar of the digital experience, and Kayana has the capability and is committed to improve the digital experience in the Philippines through its data-driven solutions that will support and enhance the payment, collection, and digital platform of Bayad to accommodate more transactions and customer base.Kayana’s acquisition of Bayad, a leading payment fulfillment and collection platform, will accelerate its roadmap to support its customers and stakeholders better.\n\nSale of the common shares held by CIS and Meralco to Kayana\n\nBayad is a subsidiary of Meralco through CIS and Kayana.\n\nPhP2,700,000,000.00 for the 504,948 common shares that are the subject of the sale transaction.\n\nThe purchase price is negotiated with reference to the valuation determined using the discounted cash flow method.\n\nFull payment of total consideration at closing date.\n\nThe completion of the transaction is subject to the satisfaction of certain conditions precedent, which include clearance from pertinent regulatory agencies.\n\nAfter completion of the transaction, Bayad will be an associate of Meralco, with a 27.5% indirect interest through Kayana.\n\nThe Board of Directors of Kayana, and CIS approved the transaction on March 25, 2026, and April 7, 2026, respectively.The closing date will be determined upon fulfillment of certain conditions precedent. Kayana will acquire a total of 504,948 common shares issued by Bayad. Of the total number of shares that will be acquired, 476,895 common shares are owned by CIS, while the rema",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "IMI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=3c13d84e6bb1e19a64d70b69f0a3140b",
+      "publishedAt": "2026-02-25",
+      "sourceType": "primary",
+      "text": "Amendment to the 2025 Employee Stock Option Program\n\nPlease be informed that our Board of Directors unanimously approved today the amendment to the 2025 Employee Stock Option Program in the form of the Stock Appreciation Rights Plan (the “SAR Plan”), allowing eligible employees the early exercise of 15.5Mn common shares, subject to conditions stated in the SAR Plan. The shares will be issued from the company’s available listed Treasury Shares.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "SSI stock: Dividend per share",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/ssi",
+      "publishedAt": "2026-05-25",
+      "sourceType": "aggregator",
+      "text": "SSI Group, Inc. (PSE: SSI), company snapshot.\nDividend per share: P0.153.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d5",
+      "title": "SSI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e5e2cd24359989faec6e1601ccee8f59",
+      "publishedAt": "2025-04-15",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends\n\nAt a special board meeting held on April 15, 2025, the Board of Directors of SSI Group, Inc. (SSI) approved the declaration of a regular cash dividend in the amount of P0.153 per share. The cash dividend will be paid out of the unrestricted retained earnings of SSI, and is equivalent to 20% of SSI's Audited 2024 net income. The dividend is payable to all stockholders on record on May 7 and shall be paid on May 30.\n\nUnrestricted retained earnings as of Dec. 31, 2024.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "SSI sets 2026 record profit target, approves 30% dividend",
+      "source": "vietnamnews.vn",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcFhRQUlvTEdKaW0zSkhVbU5FTHhFWkVjaENxcVBVMl9QeEdVemdVSGRiQW5JejBSbVRJY0dYaTJ0QUhLbjg3WVJ3dWkxOTBrMnBTRGJ3YzdHcm1RWmhtQ0Exb251blVUOTJOY0pTNzBnaHNQeTBwN1BzbXdrRjMxWTVGOU5HRGx3NkFxVkprWDdrVTlNR2hJdTFaNVRnTDJO?oc=5",
+      "publishedAt": "2026-04-24",
+      "sourceType": "news",
+      "text": "SSI sets 2026 record profit target, approves 30% dividend",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "SSI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=243cfe0baef0cedd64d70b69f0a3140b",
+      "publishedAt": "2026-05-12",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends\n\nAt a board meeting held on May 12, 2026, the Board of Directors of SSI Group, Inc. (SSI) approved the declaration of a regular cash dividend in the amount of Php 0.0805 per share. The cash dividend will be paid out of the unrestricted retained earnings of SSI, and is equivalent to 20% of SSI's Audited 2025 net income. The dividend is payable to all stockholders on record on June 3, 2026 and shall be paid on June 26, 2026.\n\nUnrestricted retained earnings as of December 31, 2025",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "SSI says Q1 2023 profit surges to record high",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUEp1LWxrMTNTRDllR2lSbnF5aUJiM0tXLXZ6Q0NIaF83ZHplQndkWlpaa1dLdHhzSmtWeWJYR3MxSjBMaWJETE9jZTF3UHVXYmduSnpTeEFaYmwwb1Q1YTZVLTR4ZlgzbWxjQ2wzaThUc0RZRnZjQTZpRF9oRXJSUXVTVVgzMUlzelHSAY8BQVVfeXFMTWFuTXp0VTBqMGh4SUVOc1VaeHRTYUVkX1hzY1FVUkJuLUJjM25iR19yVHE2LUpLa09XVEhyYjl3M2NlN1dIQWdseFRVX2UzSDdmMHNCNWlSd3IxVFVIclVpQjBkWXZ0QnZ2N2VmOE1rYUxqSVdBT3djdHhpYzAxQWRjUDRwR1FyX19NVFRDN1U?oc=5",
+      "publishedAt": "2023-05-16",
+      "sourceType": "news",
+      "text": "SSI says Q1 2023 profit surges to record high",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "BNCOM: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0cfc61f8ceadbfec64d70b69f0a3140b",
+      "publishedAt": "2026-04-05",
+      "sourceType": "primary",
+      "text": "Approval of the 2025 Audited Financial Statements\n\nIn its March 31, 2026 meeting, the Board of Directors of Bank of Commerce approved the Audited Financial Statements (AFS) as of December 31, 2025 and 2024 and For the Years Ended December 31, 2025, 2024 and 2023\n\nAttached is the SEC Form 17-C filed with the SEC, and containing a full copy of the 2025 AFS",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

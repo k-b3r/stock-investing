@@ -1,0 +1,116 @@
+{
+  "id": "fin-mrsgi-fy2025-sales",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:27.805Z",
+  "ticker": "MRSGI",
+  "company": "Metro Retail Stores Group, Inc.",
+  "category": "financials",
+  "asOf": "2026-06-15",
+  "question": "What net sales did Metro Retail Stores Group report for fiscal year 2025?",
+  "answer": {
+    "kind": "amount",
+    "value": 41560000000
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "EMI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=702de4ee3ae1b34664d70b69f0a3140b",
+      "publishedAt": "2026-04-21",
+      "sourceType": "primary",
+      "text": "Emperador Inc.’s Full Year 2025 Analyst Briefing Presentation\n\nEmperador Inc.’s full year 2025 analyst briefing presentation. The final figures are reflected in Emperador Inc.’s Annual Report (SEC Form 17-A) and financial statements for the period ended December 31, 2025, which shall accordingly be disclosed separately.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "MRSGI: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=05ad19658cbf775664d70b69f0a3140b",
+      "publishedAt": "2026-06-08",
+      "sourceType": "primary",
+      "text": "Press Release from Metro Retail Stores Group, Inc.\n\nMetro Retail underscores disciplined growth and retail transformation at stockholders’ meeting\n\nMetro Retail Stores Group, Inc. (MRSGI) reported steady performance for fiscal year 2025, driven by continued network expansion, operational efficiency, and sustained demand across core categories, during its recent Annual Stockholders’ Meeting.For FY2025, MRSGI breached the PhP40-billion mark for the first time, posting net sales of PhP41.56 billion, up 4.9% year-on-year. Net income rose 12% to PhP682.64 million, while EBITDA increased 12.4% to PhP2.63 billion, reflecting improved operating efficiency and stronger cash earnings despite cost pressures. Same-store sales growth reached 0.6%, indicating stable underlying performance across key markets.Building on this momentum, the Company continued to expand its footprint, ending the year with 81 stores nationwide following the opening of 10 new stores, including five small-format Value Mart supermarkets and a supermarket and department store in Bais, Negros Oriental. At the same time, MRSGI introduced a new retail concept - Metro Corner, a curated lifestyle format designed to enhance customer experience and respond to evolving shopping preferences.These efforts were complemented by a strengthened merchandising strategy, highlighted by the re-launch of its private label apparel brand Blue Camp to reinforce value and broaden product choice. In parallel, investments in enterprise systems, including NetSuite, improved operational visibility and supported more data-driven decision-making across the business.MRSGI also sustained its focus on responsible and community-oriented operations. The Company expanded its solar-powered stores to 19 locations while continuing initiatives on waste reduction and resource efficiency. It likewise partnered with Generika Drugstore to bring affordable healthcare services into select store locations, further extending its value proposition beyond traditional retail.Chairperson Sherisa Nuesa said the Company’s performance reflects consistent execution and organizational alignment amid a changing retail landscape, while remaining resilient against external headwinds, including geopolitical tensions, oil price volatility, and cost pressures.“Our strategy continues to anchor on customer-intimacy, operational optimization, and merchandise innovation,” Nuesa said. “These pillars guide how we expand, how we invest, and how we serve our custom",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "MRSGI stock: Net sales",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/mrsgi",
+      "publishedAt": "2026-06-15",
+      "sourceType": "aggregator",
+      "text": "Metro Retail Stores Group, Inc. (PSE: MRSGI), company snapshot.\nNet sales: PhP9.38 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "DNL: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0e8a057585db726764d70b69f0a3140b",
+      "publishedAt": "2026-05-06",
+      "sourceType": "primary",
+      "text": "D&L Releases First Quarter 2026 Financial Results\n\n- 1Q26 net income reached ₱717mn, up 5% YoY and 12% QoQ- Margins improved, with 1Q26 blended GPM up 0.7 ppt YoY and HMSP GPM up 2.8 ppts YoY- FCF turned positive, supported by lower incremental working capital requirements as coconut oil prices started to normalize and capex was muted- 1Q26 Return and gearing ratios improved versus end-2025 levels; ROE at 12.2% (+0.9 ppt), ROIC at 9.9% (+0.6 ppt); net gearing at 90% (vs 98%)- The essential nature of our products, catering to basic needs, provides a stable business model, even during crises",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "BC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=3923273d2be8e62364d70b69f0a3140b",
+      "publishedAt": "2026-03-26",
+      "sourceType": "primary",
+      "text": "Benguet Corporation's Declaration of Cash Dividend\n\nThe Company hereby discloses that in today's regular Board Meeting, March 26, 2026, Benguet Corporation's Board of Directors has approved the declaration of cash dividend equivalent to Php0.15 per share of the Company's outstanding Common Class \"A\" and \"B\" stocks to stockholders of record as of April 16, 2026 with payment date set on May 13, 2026. The cash dividend will be paid from the Unrestricted Retained Earnings as of December 31, 2025.\n\nThe cash dividend will be paid from the Company's Unrestricted Retained Earnings as of December 31, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "Metro Retail net income up 12% in 2025",
+      "source": "GMA Network",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQThhOE04RW14ZG9peVZ6QW95bFEzWi1oTDB4MUg4TVMyRm9XcTc0a3hrQllaYzZ4OGlRclB2Yy1FRV9qUzRhRnJzYWdSOGZDdzlhcjlCeWhCdjQzbmhxbklTQVBINkg0eVozTWw5Ylg3UHhvMG51T0VwVkdfMlEwQ2s2VHBKaGFfaXBrU3JmSi1FS1hWQktKeUstTVJuOHNI0gGmAUFVX3lxTE1XbTgxOUhYWjI0NU9qM25aeWs2ekdzV3FjQ2VFblZJcFNtNllkU2VMbk1tWVF1Sm1nNlozSHgzU3lJWTlyTk5ZaGwxVmNWVnNvNDBsXzRvdG5mb3plV05sYjlXT09VbGNseVROYjRfbEVlRVJKMFJjeTI5UE90LWtMdXJJODBtQXlic0NRUkxiRnlVUmlqaVd2VWt2SjYyR3k3UGlMX2c?oc=5",
+      "publishedAt": "2026-04-13",
+      "sourceType": "news",
+      "text": "Metro Retail net income up 12% in 2025",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Metro Retail profit rose 12% to P683M in 2025",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdExBMVBOeVpaZTdyUFFNN2lWMjNKeFBGWXFCMDZPR3FtQmpENExPcm82a2dJVTNWWXNYNmREVFV2VVoweGNMTjlHMDRTU05Yb1puY0JsTzRQdmVtTlBrMHJfaU9UM2J0ZjAzMV9vUllHRHBjSHB4eW5Xa0NNS1V5akZaSFNJTnJK0gGOAUFVX3lxTFAwRVVxRDEtb0JYVHBzb3BCeTh5RHE4TkZKMDZucWk0cU0yY3dIcmVBY0R0TUhYQjNOQ3d2ejkydDdIMWxYMzAyUkEtSU02b1UwSE01UkNmREhIQ1ZFbE9aRUhFcFFLU1dIMFduak5fNkNFV0lNY2l5OGNYbVlqYk5Qd2JtZmMyRDU2TXlUOGc?oc=5",
+      "publishedAt": "2026-04-13",
+      "sourceType": "news",
+      "text": "Metro Retail profit rose 12% to P683M in 2025",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "MRSGI: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=761c8d342f9cdab064d70b69f0a3140b",
+      "publishedAt": "2026-05-18",
+      "sourceType": "primary",
+      "text": "Press Release from Metro Retail Stores Group, Inc.\n\nMetro Retail posts 5.4% sales growth in Q1 2026; net income surges on improved margins\n\n14 May 2026, Manila, Philippines – Metro Retail Stores Group, Inc. (MRSGI) delivered a robust start to 2026, reporting a consolidated net income after tax of PhP25.8 million for the first quarter – a significant 92.5% increase over the same period last year. This earnings surge was supported by consolidated net sales of PhP9.38 billion, representing a 5.4% year-on-year growth.All major segments saw gains reflecting steady demand across core categories, with food retail remaining the primary driver (+6.3%), followed by general merchandise (+2.5%). Same-store sales also recorded steady growth of 2.9%.Gross margin improved to 21.7% from 21.3% in the same period last year, driven by favorable category mix and stronger performance in the food retail segment.Operating expenses increased by 6.6% to PhP2.15 billion, mainly attributed to costs related to store expansion, network scaling, and the continued ramp-up of newly opened and renovated stores. As a result, EBITDA rose 14.9% to PhP474.7 million.MRSGI continues to enhance its in-store ecosystem through strategic partnerships. During the period, the Company launched the pilot rollout of Generika Drugstore within select Metro Retail locations, further strengthening its strategy of integrating essential services into its retail network. The first two pilot stores are in Ayala Feliz and Tagaytay, while MRSGI plans to open a dozen more by the end of the year.“MRSGI delivered a steady start to 2026, supported by continued sales growth and improved margins across our core categories,” said Joselito G. Orense, President and COO. “During the quarter, we continued to strengthen our network in key growth areas, while managing costs and improving operational efficiency. These results reflect the sustained efforts of our teams on the ground as we build scale and expand our reach nationwide.”To date, Metro Retail operates a total of 81 branches across Luzon and the Visayas under the formats Metro Supermarket, Metro Department Store, Super Metro Hypermarket, Metro Value Mart, and Metro Home Improvement and Lifestyle. In line with its commitment to sustainable growth and strong corporate governance, MRSGI continues to expand its retail network.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "Gaisanos’ Metro Retail expansion lifts 2025 earnings",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1h5TWFMaUQyMU5wVTd4NFpFQnZrcnZSZW9IbnRScFBGQ0Z0czNsNENYWmNVSTJyT0JmeTdYbGlrSngtM3N2LVVPUFJSaVZUWkd4SlVxZWNyMGJ3WjZrSFNYcXJQNl9fdUVPZThCcGJQdzVJVjNPdGk2U01Telg0RHhKeE4xLXM?oc=5",
+      "publishedAt": "2026-04-13",
+      "sourceType": "news",
+      "text": "Gaisanos’ Metro Retail expansion lifts 2025 earnings",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "web-filrt-listing-date",
+  "suite": "research",
+  "frozenAt": "2026-09-30T00:42:33.906Z",
+  "ticker": "FILRT",
+  "company": "Filinvest REIT Corp.",
+  "category": "events",
+  "asOf": "2026-09-30",
+  "question": "On what date was Filinvest REIT publicly listed on the Philippine Stock Exchange?",
+  "answer": {
+    "kind": "date",
+    "value": "2021-08-12"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "TEL: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=2d60d1152999bd0364d70b69f0a3140b",
+      "publishedAt": "2026-06-09",
+      "sourceType": "primary",
+      "text": "Cash dividend declaration on all of the outstanding shares of unlisted Voting Preferred Stock of PLDT Inc.\n\nWe disclose that at the meeting of the Board of Directors of PLDT Inc. (respectively, the “Board” and the “Company”) held on June 9, 2026, the Board declared a cash dividend of P2,437,500.00 on all of the outstanding shares of Voting Preferred Stock of the Company for the quarter period ending July 15, 2026 and payable on July 15, 2026 to the holder of record as of June 23, 2026.The cash dividend was declared out of the audited unrestricted retained earnings of the Company as at December 31, 2025, which are sufficient to cover the total amount of the dividend declared.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "FDC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=04d605e1523c9dd464d70b69f0a3140b",
+      "publishedAt": "2026-04-24",
+      "sourceType": "primary",
+      "text": "Declaration of common share cash dividends\n\nPlease be advised that at the meeting of the Board of Directors (the “Board”) of Filinvest Development Corporation (“FDC”) held today, 24 April 2026, the Board approved the declaration of common share cash dividends in the amount of Php0.14027 per share to stockholders on record as of 12 May 2026. Payment date is on or before 22 May 2026.\n\nUnrestricted Retained Earnings as of 31 December 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "Filinvest REIT adds Gatestone to client roster",
+      "source": "The Manila Times",
+      "url": "https://www.manilatimes.net/2026/05/26/business/top-business/filinvest-reit-adds-gatestone-to-client-roster/2351042",
+      "publishedAt": "2026-05-26",
+      "sourceType": "news",
+      "text": "FILINVEST REIT Corp. (FILRT) on Monday said that it had expanded its roster of international tenants after customer experience and digital transformation firm Gatestone & Co. leased office space at Northgate Cyberzone in Alabang.\nFILRT told the bourse that Gatestone signed a lease for nearly 3,500 square meters of office space across the 6th and 7th floors of Filinvest Three at Northgate Cyberzone in Filinvest City, Alabang.\nUnlimited ad-free access to website articles\nLimited offer: Subscribe today and get digital edition access for free (accessible with up to 3 devices)",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Filinvest REIT bags third straight Gold Stevie for sustainability",
+      "source": "tribune.net.ph",
+      "url": "https://tribune.net.ph/2026/09/24/filinvest-reit-bags-third-straight-gold-stevie-for-sustainability",
+      "publishedAt": "2026-09-24",
+      "sourceType": "news",
+      "text": "THREE YEARS, THREE GOLDS Filinvest REIT Corp. has won its third consecutive Gold Stevie Award for sustainability, extending a winning streak that began in 2024. FILRT said judges cited its renewable energy adoption, green building certifications, carbon reduction measures and sustainability reporting. The company also closed 2025 with P3.58 billion in revenues and an 87 percent portfolio occupancy rate.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "FILRT stock: PSE listing date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/filrt",
+      "publishedAt": "2026-09-30",
+      "sourceType": "aggregator",
+      "text": "Filinvest REIT Corp. (PSE: FILRT), company snapshot.\nPSE listing date: 12 August 2020.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d6",
+      "title": "FILRT brings in global tenant Gatestone",
+      "source": "Inquirer.net",
+      "url": "https://business.inquirer.net/592235/filrt-brings-in-global-tenant-gatestone",
+      "publishedAt": "2026-05-26",
+      "sourceType": "news",
+      "text": "FILRT brings in global tenant Gatestone",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "About Us | Filinvest REIT Corp.",
+      "source": "filinvestreit.com",
+      "url": "https://www.filinvestreit.com/about-us",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "text": "Filinvest REIT Corp. (FILRT) is a real estate investment trust backed by Filinvest Land, Inc. (FLI), one of the largest property developers in the Philippines with an established portfolio of residential, office, retail and industrial developments around the country. FILRT was publicly listed on the Philippine Stock Exchange on 12 August 2021 as the first sustainability-themed REIT. As of 31 December 2022, 34.72% of the company is publicly traded while the balance is owned by its sponsor, FLI.\nIts original portfolio consists of 17 Grade A and LEED Gold-certified office buildings which include green and sustainability-themed features. Totaling over 300,000 square meters of gross leasable area, 16 of the buildings are in Northgate Cyberzone in Filinvest City Alabang. Another building is Filinvest Cyberzone Cebu Tower 1 located in the gateway of Cebu IT Park in Lahug, Cebu City. Rounding up the portfolio is 2.9 hectares of land that is being leased to the owner and operator of Crimson Resort & Spa Boracay.\nThe company’s growth will be driven by assets that conform to its investment criteria. FILRT’s strategy is to expand in key central business districts in Metro Manila and towards major regional hubs in the Philippines with high and stable occupancy from income-generating grade A real estate properties, and deliver additional value by driving more efficient and sustainable cost of operations.\nFILRT operates as a Real Estate Investment Trust in compliance with Republic Act No. 9856, otherwise known as the REIT Act of 2009.\nFully-operational Grade A office buildings",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "MEDIC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a6ff44cfe56042e664d70b69f0a3140b",
+      "publishedAt": "2026-05-18",
+      "sourceType": "primary",
+      "text": "Restatement of the Audited Financial Statements for the years ended 2024 and 2023 as presented in the Audited Financial Statements for the year ended December 31, 2025.\n\nThe Board of Directors of Medilines Distributors Incorporated (“the Company”), in a special meeting held on May 15, 2026, with the requisite quorum present, approved the restatement of the Audited Financial Statements for the years ended 2024 and 2023, in accordance with PAS 8 – Accounting Policies, Changes in Accounting Estimates and Errors, to reflect prior period adjustments relating to the timing of recognition of revenue and related contract costs for certain installation and construction contracts, arising from amounts recognized in periods subsequent to the satisfaction of the related performance obligations, and to retrospectively restate the affected comparative balances.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "div-monde-mar2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:05.059Z",
+  "ticker": "MONDE",
+  "company": "Monde Nissin Corporation",
+  "category": "dividends",
+  "asOf": "2026-04-10",
+  "question": "How much per common share is the cash dividend Monde Nissin declared on March 25, 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.24
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Monde Nissin halted after disclosing equity reorganization",
+      "source": "Philstar.com",
+      "url": "https://www.philstar.com/business/stock-commentary/2023/04/03/2256547/monde-nissin-halted-after-disclosing-equity-reorganization",
+      "publishedAt": "2023-04-03",
+      "sourceType": "news",
+      "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nShares of Monde Nissin [MONDE 9.81 11.3%] [link] were briefly halted on Friday after MONDE disclosed that its board had voted to restructure its equity. The board approved a measure that would eliminate a P7.2 billion deficit in stockholder’s equity using, in MONDE’s words, “paid-in capital in excess of par value”. The deficit was created by the massive P20.5 billion negative revaluation of MONDE’s alternative meat business. MONDE said that this equity restructuring is meant to “zero out the Deficit as of December 31, 2022”. Ok, but what’s a deficit? This one is weird if you aren’t familiar with financial statements. When a company makes a profit, whatever is not distributed to shareholders is registered on the balance sheet as “Retained Earnings” in the Shareholder’s Equity section. When a company loses enough money to push this account into the negative, as MONDE did, then the account is shown as a “Deficit” in place of the Retained Earnings account. This is the number that MONDE is hoping to “zero”. But where does the money come from? The account that the “money” is being taken from is the Additional Paid-In Capital account, which is the money that investors paid for MONDE stock that is in excess of the stock’s par value. This account is also in the Stockholder’s Equity section of the Balance sheet. MONDE’s shares have a par value of P0.50/share, it sold 3.6 billion shares for P13.50/share during its IPO, so this account has nearly P47 billion in it. So what happened? Since both accounts are in the Stockholders Equity section of the balance sheet, MONDE is just doing a paper accounting move to get rid of that negative retained earnings balance. Instead of having P46,515,846,865 in Additional Paid-In Capital and a Deficit of P7,153,900,753, they’ll have an Additional Paid-In Capital of P39,361,946,112 and a Deficit of P0.00, which I guess they’d now call a Retaine",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "MONDE Stock Price and Chart — PSE:MONDE",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-MONDE/",
+      "publishedAt": "2021-10-19",
+      "sourceType": "aggregator",
+      "text": "Track Monde Nissin Corp. stock price today with the live chart. Find MONDE news, trading ideas, forecasts, financials, and more.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "CREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b63d5b435f1f33a3ec6e1601ccee8f59",
+      "publishedAt": "2025-11-11",
+      "sourceType": "primary",
+      "text": "Q3 2025 Cash Dividends\n\nThe Board of Directors, at its regular meeting held on 11 November 2025, approved the declaration of cash dividends for the third quarter of 2025 in the amount of Php0.049 per share. The cash dividends will be payable on 12 January 2026 to stockholders on record as of 11 December 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "PERC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=3091f734218af21f64d70b69f0a3140b",
+      "publishedAt": "2026-04-09",
+      "sourceType": "primary",
+      "text": "Approval of the 2025 Audited Financial Statements of PetroEnergy Resources Corporation\n\nPlease be informed that, at the in-person meeting of the Board of Directors of PetroEnergy Resources Corporation, held on April 8, 2026, at which meeting a quorum was present, upon recommendation by the Audit Committee, the Board approved the 2025 Audited Financial Statements.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "TFHI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e79bb0c3a63e18cf64d70b69f0a3140b",
+      "publishedAt": "2026-03-12",
+      "sourceType": "primary",
+      "text": "Matters approved by the Board of Directors of Top Frontier Investment Holdings, Inc. (the \"Corporation\") during the Regular Meeting of the Board of Directors of the Corporation held on March 12, 2026\n\nDuring the Regular Meeting of the Board of Directors of the Corporation held on March 12, 2026, the Board unanimously approved the following matters, among others:a. the approval of the audited financial statements of the Corporation for the year ended December 31, 2025, the details of which shall be reported to the Securities and Exchange Commission and the Philippine Stock Exchange, Inc. under SEC Form 17-A;b. the Sustainability Report for 2025; andc. the approval of the 2026 Internal Audit Plan and the certification and confirmation that a sound internal audit, control and compliance system is in place and working effectively.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "MONDE stock: Dividend per share",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/monde",
+      "publishedAt": "2026-04-10",
+      "sourceType": "aggregator",
+      "text": "Monde Nissin Corporation (PSE: MONDE), company snapshot.\nDividend per share: Php 0.16.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d7",
+      "title": "MONDE: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=232821b0a9ad3eac64d70b69f0a3140b",
+      "publishedAt": "2026-03-25",
+      "sourceType": "primary",
+      "text": "Declaration by MONDE of Cash Dividends on Outstanding Common Shares\n\nMONDE’s Board of Directors on March 25, 2026 approved the declaration and distribution of cash dividends to stockholders of record as of April 24, 2026, amounting to Php 0.24 per common share, payable on or before May 21, 2026.\n\nUnrestricted Retained Earnings as of December 31, 2025\n\nThis disclosure is accompanied by the following attachments:1. Cover-Letter to the SEC and PSE re: declaration of cash dividends by Monde Nissin Corporation on March 25, 2026; 2. SEC Form 17-C re: declaration of cash dividends by Monde Nissin Corporation on March 25, 2026; and3. Notice to Stockholders re: withholding tax rates on dividends for the March 25, 2026 cash dividend declaration.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "MONDE: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=3dbe58e7ecc8d3d0ec6e1601ccee8f59",
+      "publishedAt": "2025-11-04",
+      "sourceType": "primary",
+      "text": "Declaration by MONDE of Cash Dividends on Outstanding Common Shares\n\nMONDE’s Board of Directors on November 4, 2025 approved the declaration and distribution of cash dividends to stockholders of record as of December 4, 2025, amounting to Php 0.16 per common share, payable on or before January 7, 2026.\n\nUnrestricted Retained Earnings as of September 30, 2025\n\nThis disclosure is accompanied by the following attachments:1. Cover-Letter to the SEC and PSE re: declaration of cash dividends by Monde Nissin Corporation on November 4, 2025; 2. SEC Form 17-C re: declaration of cash dividends by Monde Nissin Corporation on November 4, 2025; and3. Notice to Stockholders re: withholding tax rates on dividends for the November 4, 2025 cash dividend declaration.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "Monde Nissin sees improved Q4 2025",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/571662/monde-nissin-sees-better-q4-2025",
+      "publishedAt": "2026-01-31",
+      "sourceType": "news",
+      "text": "Monde Nissin sees improved Q4 2025",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

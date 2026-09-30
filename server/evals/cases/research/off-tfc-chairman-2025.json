@@ -1,0 +1,108 @@
+{
+  "id": "off-tfc-chairman-2025",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:53.783Z",
+  "ticker": "TFC",
+  "company": "PTFC Redevelopment Corporation",
+  "category": "officers",
+  "asOf": "2025-08-01",
+  "question": "Who was elected Chairman and President of PTFC Redevelopment Corporation in July 2025?",
+  "answer": {
+    "kind": "text",
+    "accept": [
+      "Carlos G. Dominguez",
+      "Carlos Dominguez"
+    ]
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "SSI: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0fc8e3445061053cec6e1601ccee8f59",
+      "publishedAt": "2025-04-15",
+      "sourceType": "primary",
+      "text": "SSI Group posts record high quarterly net income and sales. 4Q 2024 net income was at P1.2 billion +18% y-o-y and 4Q 2024 sales were at P9.7 billion +11% y-o-y. For FY 2024, SSI posted net income of P2.51 billion.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Old St. Anthony's Hospital is transforming into 140 unit senior living facility",
+      "source": "KVII",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLWtIdzkyTWNRb2JjdWNwc05KblNNcjdfeFBkY0FyMEcwcnNRN1NfUXJXS1BPNFBaVG9EbllVZ3QwakVCRkp6ZkpKYTNLR3ZwQ0s2cDNNeVBaREtTREpYY0dLOW83cVVFamItSEhyWC1ZdlFxUmZjV0xXSWhQU2EwWGlyNmY1cEFYT2hNTWV6cWVDM1N1QkN1UnptZ3hhUXpBX0xadkpWOA?oc=5",
+      "publishedAt": "2022-01-10",
+      "sourceType": "news",
+      "text": "Old St. Anthony's Hospital is transforming into 140 unit senior living facility",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "P334M from only 13 donors funded Duterte's presidency",
+      "source": "ABS-CBN",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbFUyVjIzZHVTUDBrMS1rOHBJcGJSV1BRbFFIZ0JqdUxtUHU1Q1hTOTZmdTlWbnpSM243X09WNFN2OU9Ba0s0UWxfN3RldjVJMEl0WEFVd1BEaHRBNUdCTUgxeDZFdDZzLWloVVZSQVJmQWFWeFotNHpWa0hfX0xOQmlRdFI1c0h4SG95UFRXS2dsLVJMLWc?oc=5",
+      "publishedAt": "2016-12-05",
+      "sourceType": "news",
+      "text": "P334M from only 13 donors funded Duterte's presidency",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "TFC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=64f792fd45fe603bec6e1601ccee8f59",
+      "publishedAt": "2025-07-16",
+      "sourceType": "primary",
+      "text": "Result of the Special Board Meeting\n\nAt the Special Meeting of the Board of Directors of the Registrant held on 15 July 2025, at which meeting a quorum was present and acting throughout, the following matters were discussed:1. Resignation of Bienvenido A. Tan III as Chairman and President and Election of Mr. Carlos G. Dominguez as new Director, Chairman and President; and2. Resolutions authorizing the Corporation to update its bank signatories.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "59 listed firms deemed shariah compliant",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOVVqTWdSWnVPUUMwVWRhTGlvODhoN3hvbmVmem9OSHNDeWZLVFZmYXZ1VkVvSGhzSFpZY0hZUFJ6VFZ5T1hkNVpfc005cTZTcTFHY29ja2piM3ZiSFg1YkZWM09OMzVSeVVEdFhDa1dEX2pjNjVjUFRVT1BLX2kyTmFpY9IBiAFBVV95cUxQTEpwMjdMUEhORF9oT0Q0eE5xdXhhVlNCNURRY2FWUnloUmFNdW1PNXVudXFPRkNRbml4Sl9aYnZONG1SbmhRcE5mNVQtcGpqYWFjR2RtbUNwU056clhhMGZGMl95TWt3emtiVHc4MHJDa1VEdndaSEIwRGktMWJsOWh1c2NydnJL?oc=5",
+      "publishedAt": "2017-10-09",
+      "sourceType": "news",
+      "text": "59 listed firms deemed shariah compliant",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "TFC stock: Chairman and President",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/tfc",
+      "publishedAt": "2025-08-01",
+      "sourceType": "aggregator",
+      "text": "PTFC Redevelopment Corporation (PSE: TFC), company snapshot.\nChairman and President: Bienvenido A. Tan III.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d7",
+      "title": "KPPI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=80c76a71a0cfb41bec6e1601ccee8f59",
+      "publishedAt": "2025-04-14",
+      "sourceType": "primary",
+      "text": "Disbursement of Proceeds and Progress Report on Business plan as of March 31, 2025\n\nPursuant to Article III, Part E, section 6 (b) of the Listing Rules of the Philippine Stock Exchange, Kepwealth Property Phils., Inc submits the report on progress on business plan as of March 31, 2025.\n\nAttach Report on Progress on Business Plan as of March 31, 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "STR: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=1f05de6cd1c12d37ec6e1601ccee8f59",
+      "publishedAt": "2025-06-18",
+      "sourceType": "primary",
+      "text": "Vista Land & Lifescapes, Inc. – Php10 Billion Maturing Peso Retail Bonds\n\nPlease advised that Vistamalls Inc.’s parent company, Vista Land & Lifescapes, Inc. (“VLL”), has obtained financing in the form of shareholder advances, to pay the Php10 billion retail bonds issued by VLL on 18 December 2019, and which will be maturing on 18 June 2025.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

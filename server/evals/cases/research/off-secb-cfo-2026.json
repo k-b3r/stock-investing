@@ -1,0 +1,96 @@
+{
+  "id": "off-secb-cfo-2026",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:44.043Z",
+  "ticker": "SECB",
+  "company": "Security Bank Corporation",
+  "category": "officers",
+  "asOf": "2026-06-10",
+  "question": "Who did Security Bank appoint as Chief Financial Officer in May 2026?",
+  "answer": {
+    "kind": "text",
+    "accept": [
+      "JD Yap"
+    ]
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "FDC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ad0599269e92ae5064d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "FDC 1Q 2026 profit rises 8% on real estate growth\n\nFilinvest Development Corporation (FDC) posted a net income attributable to equity holders of the parent company amounting to PHP3.9 billion for the first quarter of 2026, reflecting an 8 percent increase compared to the PHP3.6 billion reported in the same period last year.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Security Bank names new CFO",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWmo1REQ5YjhwdVQtT3NtREdXbGhNbFYtRER6NXJwZ2dqLVN0THQxSElFUHVXYzAxQ2ZxUVFTUHJrMkRMUFBwdWI3Y2JsYTd5bG5MTU84OGNPRkRMVTVhMlhYY3pFcmJ3Q0dXWTV0NHA2WU5PelhDX2lFSll6MXlHZlluWi1OUFXSAY4BQVVfeXFMTWQ1TW91S0N2MWtLYXpnaHgzNFRwTWhTcFdLbFpzYjJxMWdoSFc1M3NVTlJhWnZDczlDMWd0aS1Qalg0SzRZVnZmS1lObnhqMDFubHEtQS1hVDl5Y18yMHZXT3FTbzF1cVN3X0hHVVdzM3k5UDdTTFJOMjk0bUduNmtJeVFMZ2lpT3psSlFydw?oc=5",
+      "publishedAt": "2026-05-27",
+      "sourceType": "news",
+      "text": "Security Bank names new CFO",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "Security Bank, AC Health to strengthen healthcare distribution network",
+      "source": "Philippine News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YbGVYVC1DY1pRV1V6elRIUk84bDl4blVCQW53Vi00Z1lHaWpkTmlMaHV6TmpBUGhvSHlNX2UzYXBSam5pZ0J5aTdycnM5Q3Fv?oc=5",
+      "publishedAt": "2026-06-03",
+      "sourceType": "news",
+      "text": "Security Bank, AC Health to strengthen healthcare distribution network",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "BSC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=41e8f90e69236b7c64d70b69f0a3140b",
+      "publishedAt": "2026-03-18",
+      "sourceType": "primary",
+      "text": "Basic Energy Corporation's Wholly Owned Subsidiary - Basic Energy Cadiz 1 Corp. - Finalizes EPC Contracts for 43MWac Solar Project in Negros Occidental\n\nOn 18 March 2026, Basic Energy Cadiz 1 Corporation (BE Cadiz 1) signed the onshore and offshore Engineering, Procurement, and Construction (EPC) agreements for the 43MWac solar power project in Cadiz, Negros Occidental. BE Cadiz 1, a wholly owned subsidiary of Basic Energy Corporation, is the designated Project Owner / Special Purpose Vehicle for this project.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Security Bank names new chief financial officer",
+      "source": "The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQnllVi04NEJqZFRuTG94cVZkdUoxYXNIT0NLN21rN0dHMVJCemwxTGV0Zk51TllNVEtEbjBHYjVKNVdGUHNvWk5Va0NuRzJ6b1E5WFBDQ0dxYWtuVUNEMXJrZ3NGQ0NzeVJBdU9WSVNlZkZoMnJlSkJfSWJ6RUZZemVhRXg3RVg2TmZzUWExR2ZXRThBVUp3V3ZuZ2dGRmo3OXJvaHg0Mkh0aTBFTlYyTG9scTluRzBoa3fSAb8BQVVfeXFMTUE3bFROU3NMRHd3Y3dqaG5iZy1MeWp2RWRJdWo1ZWg3ZjE4dC1VVnBPM2xrSHJHZWRjdk5ycWFkT1FkdzA2LURGeTVZMnZsVnZKaF80bTFmWllEWVpjLTQ0Q0I3ZFRnbDhHUDZ3enVIUlA3RVVaSndua1FWR1Z0RTBLRC1IMlJQeVFwaFpOR3B2ZWlLNDJXSFdxMGFFSmdBRHVnVHBEcG5NM3p2NkhwaFhUX3RrcmdVRW5QSXZQQ1U?oc=5",
+      "publishedAt": "2026-05-27",
+      "sourceType": "news",
+      "text": "Security Bank names new chief financial officer",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "ABS: Clarification of News Reports",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=863640628ecb4f9a64d70b69f0a3140b",
+      "publishedAt": "2026-05-12",
+      "sourceType": "primary",
+      "text": "CLARIFICATION OF NEWS REPORT\n\nWe write with respect to various news articles relating to ABS-CBN Corporation’s (“ABS” or the “Company”). In the attached article entitled “Lopez family war: Piki sues cousins Raffy, Mark over bid to replace First Holdings leadership with Gabby camp” posted on Bilyonaryo.com on May 11, 2026, it was reported, in part, that:“Federico ‘Piki’ Lopez has opened another legal front in the Lopez family war after allies of Eugenio ‘Gabby’ Lopez III on the Lopez Holdings board backed rival nominees for First Philippine Holdings Corp. (FPH), a move that could trigger a major shakeup at the family’s power and infrastructure crown jewel.Based on documents obtained by Bilyonaryo, Piki sued his cousins, Lopez Inc. chairman Rafael ‘Raffy’ Lopez and ABS-CBN chairman Martin ‘Mark’ Lopez, along with Lopez Holdings president Salvador ‘Buddy’ Tirona and independent director Michael Jack Garcia, for indirect contempt. The case, filed on April 10, also named corporate secretary Enrique Quiason and his assistant Maria Amina O. Amado as co-defendants.Piki claimed the four directors violated a court injunction when they voted during a March 26 special board meeting to endorse two sets of nominees for the FPH board: one from Piki and another from Ma. Teresita ‘Maritess’ Lagdameo Lopez, widow of the late ambassador and Meralco chairman Manuel ‘Manolo’ Lopez.. . . .Gabby’s bloc had earlier voted to oust Piki as president of Lopez Inc., citing loss of ‘trust and confidence’ for allegedly failing to fully inform the family about the Prime Infra transactions, including what it described as ‘poison pill’ provisions that could allegedly cost as much as ¿23.5 billion if Piki and his team were removed from First Gen and FPH.Piki obtained a court order blocking his ouster and accused Gabby’s camp of mounting a coup in retaliation for his refusal to support a ¿2 billion infusion into ABS-CBN, which he claimed was on the verge of liquidation.. . . .”In view of the foregoing, ABS is hereby directed to clarify and/or confirm the information stated in the above-quoted news article, including, but not limited to the case filed by Federico “Piki” Lopez, wherein, current directors and officer of ABS are involved. Also include the expected impact of the said case on the Company’s business operations, financial condition, and prospects, if any. The Company is likewise directed to disclose relevant information not reported in the news article (if there is any).The motion f",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "SECB: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6d7cca41f1c1b7e664d70b69f0a3140b",
+      "publishedAt": "2026-05-26",
+      "sourceType": "primary",
+      "text": "Press Release\n\nPress Release entitled “Security Bank appoints JD Yap as Chief Financial Officer\"",
+      "role": "answer",
+      "synthetic": false
+    }
+  ]
+}

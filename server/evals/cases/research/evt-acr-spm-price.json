@@ -1,0 +1,83 @@
+{
+  "id": "evt-acr-spm-price",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:21.935Z",
+  "ticker": "ACR",
+  "company": "Alsons Consolidated Resources, Inc.",
+  "category": "events",
+  "asOf": "2026-03-20",
+  "question": "At what price per share did Alsons Consolidated Resources tender its Seafront Resources shares?",
+  "answer": {
+    "kind": "amount",
+    "value": 2.7
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "SHNG: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=bd299fb2797ede8264d70b69f0a3140b",
+      "publishedAt": "2026-03-18",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nDuring the regular meeting of the Board of Directors held on 18 March 2026, the following were taken up:\n\nTo be taken from the unrestricted retained earnings as reflected in the audited financial statements of the Issuer as of 31 December 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "ACR: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=17d3148f1b7a4f4364d70b69f0a3140b",
+      "publishedAt": "2026-03-10",
+      "sourceType": "primary",
+      "text": "Disposition of Shares Held by Alsons Consolidated Resources, Inc. (“ACR”) in Seafront Resources Corporation (“SPM”)\n\nSeafront Resources Corporation (“SPM”) conducted a voluntary tender offer to acquire up to 34,580,000 common shares, representing 21.21% of the issued and outstanding shares of SPM, pursuant to Section 19 of the Securities Regulation Code.Alsons Consolidated Resources, Inc. (“ACR”), which owns 15,544,911 common shares of SPM, representing 9.54% of SPM’s issued and outstanding shares, elected to participate in the tender offer and applied to tender all of its shares to SPM at the tender offer price of Php 2.70 per share.The total transaction value amounts to Php 41,971,259.70.\n\nThe transaction forms part of ACR’s portfolio management strategy, allowing the Company to convert its investment in SPM into liquid funds. The proceeds from the disposition are expected to strengthen ACR’s liquidity position and may be redeployed to support other investments, capital requirements, and strategic initiatives of the Company.\n\nApplication to tender shares under the voluntary tender offer conducted by SPM.\n\nSeafront Resources Corporation (“SPM”) was originally incorporated on April 16, 1970, as an oil exploration and production company. On October 18, 1996, the Company amended its primary purpose to become a holding company, with oil exploration and production retained as one of its secondary purposes.SPM also maintains a portfolio of investments consisting of stocks traded on the Philippine Stock Exchange and investments in government securities.\n\nCash, to be remitted through bank transfer.\n\nTender offer price as determined and offered by SPM under the voluntary tender offer.\n\nPayment shall be made on the settlement date of March 12, 2026.\n\nCompletion of the tender offer process and compliance with applicable tender offer requirements and procedures.\n\nN.A.\n\nThe transaction is expected to have no material adverse effect on the business and operations of ACR. The proceeds from the disposition will increase the Company’s cash position and may be utilized for general corporate purposes and future investment opportunities.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "COL: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=baf322defb439e0364d70b69f0a3140b",
+      "publishedAt": "2026-03-19",
+      "sourceType": "primary",
+      "text": "Results of the Meeting of the Board of Directors\n\nPlease be informed that at the meeting of the Board of Directors of COL Financial Group, Inc. held today, 19 March 2026, the Board approved and authorized the release of its Audited Financial Statements for the period ended December 31, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "ACR stock: Tender offer price",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/acr",
+      "publishedAt": "2026-03-20",
+      "sourceType": "aggregator",
+      "text": "Alsons Consolidated Resources, Inc. (PSE: ACR), company snapshot.\nTender offer price: Php 2.50 per share.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d5",
+      "title": "Alsons sells remaining stake in Seafront",
+      "source": "BusinessWorld",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbzE3UkQ1NjZDSDljeDBkZWZIRVZ3WDViSmNRa1REcm5QWW1WQkVuanFnWnpZdEZQLUlkSzNlazg3OGhlaVM2MDBjQUVDZUhVbUdBb3VtZ0VjdUhwelpXbXhWQmtkcE1EZ3ctU0tVVWJMc2E2VHptTGlBbkZ2bldCOVdxV0NiNENBd2lFdFp2YjR2U09VSG8zZHdn?oc=5",
+      "publishedAt": "2026-03-11",
+      "sourceType": "news",
+      "text": "Alsons sells remaining stake in Seafront",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "IMI: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0266c84d10cc004cec6e1601ccee8f59",
+      "publishedAt": "2025-11-27",
+      "sourceType": "primary",
+      "text": "IMI Sells Stake in VIA Optronics Holding AG in Strategic Divestment\n\nNovember 27, 2025, Nuremberg, Germany — Integrated Micro-Electronics (IMI), through its wholly-owned subsidiary, Coöperatief IMI Europe U.A., today announced the sale of its 50.32% stake in VIA Optronics AG to Kronen 3140 GmbH (to be known in the future as V-PTR Beteiligungs GmbH) which is owned by some members of VIA’s management and advisory team.Please refer to the attached press release. Thank you!",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

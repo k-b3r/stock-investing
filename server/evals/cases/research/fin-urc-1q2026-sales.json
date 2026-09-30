@@ -1,0 +1,105 @@
+{
+  "id": "fin-urc-1q2026-sales",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:37.393Z",
+  "ticker": "URC",
+  "company": "Universal Robina Corporation",
+  "category": "financials",
+  "asOf": "2026-05-20",
+  "question": "What sales did Universal Robina report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 47900000000
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "URC stock: 1Q 2026 sales",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/urc",
+      "publishedAt": "2026-05-20",
+      "sourceType": "aggregator",
+      "text": "Universal Robina Corporation (PSE: URC), company snapshot.\n1Q 2026 sales: Php4.1 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d2",
+      "title": "URC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7efe7f23d4d0518364d70b69f0a3140b",
+      "publishedAt": "2026-05-07",
+      "sourceType": "primary",
+      "text": "Press release\n\nPress release entitled \"URC JUMPSTARTS 2026 WITH STRONG SALES GROWTH, LED BY ACCELERATION IN BRANDED FOODS PHILIPPINES\"\n\nUniversal Robina Corporation (“URC”) reported first quarter 2026 sales of Php47.9 billion, up 6% year-on-year, driven by broad-based, volume-led growth in BCF Philippines, alongside strong contributions from both the Animal Nutrition and Health (“ANH”) and the Flour divisions, particularly as our new Sariaya flour mill contributed meaningfully to production.Total operating income was Php5.4 billion, down 2% versus last year, as Commodities profits were impacted by lower sugar selling prices.Net income from continuing operations was Php4.1 billion, down 4% year on year, while core net income attributable to parent closed at Php3.8 billion, down 2% year on year, broadly in line with operating income.Please refer to attached press release.This press release may contain forward looking statements with respect to the results of operations and business of URC. Such forward looking statements involve known and unknown risks, uncertainties and other factors which may cause the actual performance of URC to be different from any future performance implied.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "VITA: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a475e82c587d8163ec6e1601ccee8f59",
+      "publishedAt": "2025-12-22",
+      "sourceType": "primary",
+      "text": "Vitarich Corporation (“Company”) and AXA Philippines Life and General Insurance Corporation (“Insurer”) have entered into a compromise agreement to settle the Company’s insurance claim\n\nVitarich Corporation (“Company”) and AXA Philippines Life and General Insurance Corporation (“Insurer”) have entered into a compromise agreement to settle the Company’s insurance claim under Civil Case No. 662-M-2014 entitled “Vitarich Corporation vs. Charter Ping An Insurance Corporation (now AXA Philippines Life and General Insurance Corporation)” related to the damages incurred by the Company during Typhoon Ondoy in 2009.Last 31 May 2023, the Regional Trial Court of Malolos City, Branch 15 rendered its decision, where the Insurer is liable to pay the Company P247,620,555.53. The Insurer filed an appeal before the Court of Appeals, and, without admitting any fault and for the purpose of avoiding a prolonged legal process, has agreed with the Company to a settlement valued at P400,000,000.00.The settlement, containing customary provisions, was accepted by the President and CEO of Vitarich, Mr. Ricardo Manuel M. Sarmiento, who has been authorized by the Board of Directors.The Company expects the settlement, which takes effect on 19 December 2025, to have a material impact in liquidity and capital resources. The settlement will provide the comp",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "FPH: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=196df6f3a45a1bff64d70b69f0a3140b",
+      "publishedAt": "2026-05-07",
+      "sourceType": "primary",
+      "text": "Letter from the SEC MSRD allowing FPH to hold its ASM on July 27, 2026, deferring or excluding the election of directors from the agenda; however, once the issues in the intra-corporate case are resolved, or the court, in an appropriate case, orders the holding of a stockholders’ meeting for the purpose of electing directors, the company’s board of directors shall immediately convene to set a date for a stockholders’ meeting for the purpose of electing directors.\n\nCurrent Report on SEC Form 17-C",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "URC Q1 earnings pressured by lower sugar selling prices",
+      "source": "BusinessWorld",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0llYTV3YmhjeURHcVZnR05hZjkycUVZR2c0UlRrWm5rSExSUHJIU0YxNFh3Y19RakhIVTZpMVhxaVd5aWZJMGZyTjd1Q1lrZ3lmYmEyX01UZC1IYTFXNFFVS1hYRFlrQkF4N1NJekJFODFKUVZhaEFqdlRUZUhnT1FKNTF5R0N1MGlOUWJ1UkFoVjZ2YmpiSGpPQm54Q1VuTl9NY0hWa2tXdE5yZ1E?oc=5",
+      "publishedAt": "2026-05-07",
+      "sourceType": "news",
+      "text": "URC Q1 earnings pressured by lower sugar selling prices",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "CLI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c571966bfc9d3ed264d70b69f0a3140b",
+      "publishedAt": "2026-04-08",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends\n\nNotice is hereby given to The Philippine Stock Exchange, Inc. (“PSE” or the “Exchange”), the Securities and Exchange Commission (“SEC” or the “Commission”), the Philippine Dealing & Exchange Corp. (“PDEx”), and the public that during its regular board meeting held on April 07, 2026, the Board of Directors of the leading real estate developer in VisMin, Cebu Landmasters, Inc. (“CLI” or the “Company”), approved the declaration of regular cash dividends amounting to Php 0.18 per share. The record date is on April 22, 2026, and the payment date is scheduled on May 06, 2026. This will be taken from CLI’s unrestricted retained earnings as of December 31, 2025.\n\nUnrestricted retained earnings as of December 31, 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "Universal Robina profit dips despite higher Q1 revenues",
+      "source": "businessmirror.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSjRkOWIyemxpWTVGVFVOdzh2SzB3ZzB4SlBfOHpHUzZVY2ptcVdUYXp1QzdiVHFTeU4ta3haQ1Z4eWRleHRBcjhJOFFVb3M1US02OFFjTGFPOXhoUEU0WEVVVmI0VDREeTR1WWpyMF9yZkJHLUNDbjJSVjBiaUJEYTVIZnhNMHBfTFZQbXhZN2Q3U0ItN1NzZ2hNMTlGZw?oc=5",
+      "publishedAt": "2026-05-07",
+      "sourceType": "news",
+      "text": "Universal Robina profit dips despite higher Q1 revenues",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Universal Robina’s Jan-Mar earnings went down 2%",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb2ZHaUVCZ2h4ZXpmbk5LVVBVbVBmRzZUWFVxTWhQZUo0TW1nVnRPSndBVnhaT0VsZDJGTU9kaFNOQm9FeHhiNXVaejdMdGkzenAyUGY2VFJkcFZZLS0xSEJfZmplbDVRc21jZjN5S0YwWXNGUk1qbDFkV3F3eFZjSVBNaU0yT0RaeUlR0gGQAUFVX3lxTFBYYlFENlFTU2txUnRzanVYcHFMNEY5cy1xLXhXbE5BSElWc18yRjZNaDlwYWlRZ0xOcFRSWkxibFM4MGFRdkRxLVNFUUVPR183V2JiQ0xMMGlLaGt2WTFWT3lPV1J6X1JRNzVQamlfa1BrcVhNME1kUjFGclZrTkRmcXhhQmtBdkpCZE5zczNYeQ?oc=5",
+      "publishedAt": "2026-05-08",
+      "sourceType": "news",
+      "text": "Universal Robina’s Jan-Mar earnings went down 2%",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

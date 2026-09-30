@@ -1,0 +1,105 @@
+{
+  "id": "fin-agi-1q2026-ni",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:01.191Z",
+  "ticker": "AGI",
+  "company": "Alliance Global Group, Inc.",
+  "category": "financials",
+  "asOf": "2026-05-31",
+  "question": "What consolidated net income did Alliance Global Group report for the first quarter of 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 7800000000
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "AGI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ff270506124767f064d70b69f0a3140b",
+      "publishedAt": "2026-05-20",
+      "sourceType": "primary",
+      "text": "AGI REPORTS 1Q NET INCOME OF P7.8B, UP 6%\n\nAlliance Global Group, Inc. (AGI), the holding company of tycoon Dr. Andrew L. Tan, delivered a net income of P7.8 billion, a 6% increase from the normalized profit of P7.4 billion the previous year. This comparison accounts for the deconsolidation of Golden Arches Development Corp (GADC) in March 2025 and excludes one-time gains of P3.4 billion.Consolidated revenues reached P42.2 billion, up 1% from the normalized level of P42.0 billion, driven by growth in residential, leasing, hospitality, and spirits. Net income attributable to owners also rose by 5% to P5.2 billion.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "PNB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=50df38f5950267de64d70b69f0a3140b",
+      "publishedAt": "2026-04-26",
+      "sourceType": "primary",
+      "text": "Results of the Meeting of the PNB Board of Directors held on April 24, 2026\n\nWe wish to advise the Exchange that during its meeting held today, April 24, 2026, the PNB Board of Directors approved and confirmed the following:1. Creation of the Artificial Intelligence (AI) Strategy and Governance Committee; and2. Artificial Intelligence (AI) Strategy and Governance Committee Charter.We trust you will take note accordingly. Thank you.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "AGI stock: 1Q 2026 net income",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/agi",
+      "publishedAt": "2026-05-31",
+      "sourceType": "aggregator",
+      "text": "Alliance Global Group, Inc. (PSE: AGI), company snapshot.\n1Q 2026 net income: P5.2 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "MVC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=16dcc262f924575464d70b69f0a3140b",
+      "publishedAt": "2026-04-15",
+      "sourceType": "primary",
+      "text": "Results of the Board of Directors' Special Meeting dated 15 April 2026\n\nThe Board of Directors of Mabuhay Vinyl Corporation in its special meeting held on 15 April 2026 considered/approved the following:Item 9. Other Events• Approval and release of the 2025 Annual Report (SEC Form 17-A) and Sustainability Report",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Alliance GIobal Q1 profit rose 6%",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5U3N0WFcybnBhWEtCdllKSDNfcy03aUd4VFYxb0lqWnZ4VmlCSjN5eVY3eDUzLTBtVnZwY3lmMEZxYUpES0lLZThkSHNidEROUUFraUIxb0JNazVSaHJhVDJRUnhfQmxz0gFuQVVfeXFMTWNGNGxCNGlPeXB6NVhqRGp1QW03eDdQek95ci1uSDRUcGNqb2VHSEdyV0syWE1DOFFMVEhjWGhPYjM1NjlhNTdNUDFjTUFrNUItSDRPTERqblBGNzh0a3hPVVZaMGcwaXV5b3Zlc2c?oc=5",
+      "publishedAt": "2026-05-22",
+      "sourceType": "news",
+      "text": "Alliance GIobal Q1 profit rose 6%",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "Alliance Global Q1 earnings growth supported by Megaworld, Emperador",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMEl3aVppa3FBMG0wSEJFcG1VN3ZzUnpaYl9zV21SbktJbTJvR2pWZ3pJY0hwako2dTh5TThJcUpkdXBOdlNMaElncXV6Y2xzR0FNOFAweFJPaVJQWTZ4bDJkazhYZk9QY0R6eFJHbURfZGtxbWdDRGhrZ0VuaHczYTdvdDFhVU9OaGN6WnQyODh1TFhCSVM1V3ozUkU?oc=5",
+      "publishedAt": "2026-05-21",
+      "sourceType": "news",
+      "text": "Alliance Global Q1 earnings growth supported by Megaworld, Emperador",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "AGI earnings rise in Q1 on resilient businesses",
+      "source": "Philstar.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUjdBQ0hvSkY1RWZ1R0sySjZCV1JfOUdDTXJFZEFWdlZOZUNySHNkdHczcDh6MS1PcDZsVHI5bjRqVUl2VzR4U1hCNElLMkgxR1d4Wl9mOHFyWUk3TFdkSjAzRk1BLWJ1bFdCNkJKeFNJdVVrT2owM1RodmhMQU14N1JqeW4xVmNob0NQUDRlWXdFM0d6VlM5NzhR0gGgAUFVX3lxTE1JYWF6OTNuS0w3YkZJcjJ3R21HNFAwSXNlSTRJQms1TkhpRUYtc2VpSG5mbE1DMzhMTk1WTWx5aHY4RUlvUk1ydUVVRFc5VEo3UzVNbFUtRV9pa3lYb2Rsc1Nxal9qb3prWHRQR1lVZ2hMOWRBdTdUV1BSWU1wTjJMZGxxMG9NcDZza2NQQTMtZzk1RjNlVjRJOFJYeHlsYnI?oc=5",
+      "publishedAt": "2026-05-22",
+      "sourceType": "news",
+      "text": "AGI earnings rise in Q1 on resilient businesses",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "FLI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=dde47904186e453a64d70b69f0a3140b",
+      "publishedAt": "2026-05-12",
+      "sourceType": "primary",
+      "text": "Reclassification of Php3,983.1 (in millions) Appropriated Retained Earnings to Unappropriated Retained Earnings\n\nPlease be informed that at its meeting today, 12 May 2026, the Board of Directors of Filinvest Land Inc. (“FLI”) approved the reclassification of Php3,983.1 (in millions) from appropriated retained earnings to unappropriated retained earnings. This reclassification was undertaken in accordance with the guidance issued by the SEC – Office of the General Accountant. The adjustment is non-cash in nature and does not affect FLI’s unrestricted retained earnings, total stockholders’ equity, reported net income, or cash flows. This accounting reclassification aligns the presentation of the transaction with the SEC’s prescribed financial reporting treatment for similar transactions.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

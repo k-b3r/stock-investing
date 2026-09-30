@@ -1,0 +1,105 @@
+{
+  "id": "div-acr-2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:32.062Z",
+  "ticker": "ACR",
+  "company": "Alsons Consolidated Resources, Inc.",
+  "category": "dividends",
+  "asOf": "2026-06-10",
+  "question": "What is the record date of the cash dividend Alsons Consolidated Resources declared on 28 May 2026?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-06-18"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "ICT: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=26851f84aecfdc3164d70b69f0a3140b",
+      "publishedAt": "2026-06-03",
+      "sourceType": "primary",
+      "text": "ICTSI acquires interest in a company in Brazil that provides general and bonded warehousing, and multimodal logistics services\n\nInternational Container Terminal Services, Inc. (ICTSI), through its wholly owned subsidiary, IRB Holding Ltda., has acquired 100% interest in Companhia Regional de Armazéns Gerais e Entreposto Aduaneira (CRAGEA), a company located in São Paulo, Brazil, that provides general and bonded warehousing, and multimodal logistics services.The transaction represents an expansion of ICTSI’s business activities in Brazil offering differentiated and strategic solutions to increase operational and energy efficiency through the use of the rail as the preferred transport mode, mitigation of logistical bottlenecks, expanding the hinterland of its port assets and offering safe and innovative alternatives for foreign trade customers.\n\nThe usual conditions precedent to closing applicable in this kind of transaction.The total consideration, which is less than 10% of ICTSI's total consolidated shareholders' equity as of December 31, 2025 and March 31, 2026, was negotiated and will be paid in cash. The transaction is not deemed to have a material impact on the Company’s financials in the immediate future",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Alsons seen spinning off mining subsidiary",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/193249/alsons-seen-spinning-off-mining-subsidiary",
+      "publishedAt": "2015-06-07",
+      "sourceType": "news",
+      "text": "Alsons seen spinning off mining subsidiary",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "ACR: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=398da1d3ef292b5aec6e1601ccee8f59",
+      "publishedAt": "2025-05-29",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends on the Common Shares\n\nPlease be advised that at the special meeting of the Board of Directors of Alsons Consolidated Resources, Inc. (ACR) held 29 May 2025, the Board approved the declaration of a cash dividend of P0.02 per share or a total of P125,830,000.00 out of the unrestricted retained earnings of ACR as of 31 December 2024, in favor of holders of common shares as of record date 30 June 2025 and payable on or before 16 July 2025.\n\nFrom the unrestricted retained earnings of the Corporation as of 31 December 2024",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "ACR: [Amend-1]Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f6c6c73b0948f6f364d70b69f0a3140b",
+      "publishedAt": "2026-05-28",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividend Common Shares\n\nAt the Special meeting of the Board of Directors of Alsons Consolidated Resources, Inc. (ACR) held on 28 May 2026, the Board approved the declaration of a cash dividend of P0.02 per share out of the unrestricted retained earnings of ACR as of 31 December 2025, in favor of holders of common shares as of record date of 18 June 2026 and payable on or before 08 July 2026\n\nFrom the unrestricted retained earnings of the corporation as of Dec 31, 2025.\n\nReason for amendment: Inadvertently disclosed dividend as \"special\" when it should have been REGULAR",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "MER Stock Price and Chart — PSE:MER",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-MER/",
+      "publishedAt": "2024-12-10",
+      "sourceType": "aggregator",
+      "text": "Track Manila Electric Co. stock price today with the live chart. Find MER news, trading ideas, forecasts, financials, and more.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "SCC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=00ea39f4439b456064d70b69f0a3140b",
+      "publishedAt": "2026-03-13",
+      "sourceType": "primary",
+      "text": "Final List of Nominees for Directors\n\nhe Corporate Governance Committee of Semirara Mining and Power Corporation (SMPC) at its meeting held today, March 13, 2026, approved the final list of nominees to the Board of Directors for the Annual Stockholders’ Meeting on May 4, 2026, as follows:A. Regular Director:1. ISIDRO A. CONSUNJI2. MARIA CRISTINA C. GOTIANUN3. JORGE A. CONSUNJI4. HERBERT M. CONSUNJI5. MA. EDWINA C. LAPERAL6. JOSEFA CONSUELO C. REYES7. ANTONIO JOSE U. PERIQUET, JR.8. CHRISTOPHER THOMAS C. GOTIANUN9. NESTOR D. DADIVASB. Independent Director:1. ROBERTO L. PANLILIO2. FRANCISCO A. DIZONThe qualification and business experience of the foregoing nominees is set forth in the Corporation’s Information Statement to be filed with the Securities and Commission and the Exchange",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "ACR stock: Dividend record date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/acr",
+      "publishedAt": "2026-06-10",
+      "sourceType": "aggregator",
+      "text": "Alsons Consolidated Resources, Inc. (PSE: ACR), company snapshot.\nDividend record date: June 30, 2026.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d8",
+      "title": "RFM: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5914d729a905f32164d70b69f0a3140b",
+      "publishedAt": "2026-01-15",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nDuring its Special Meeting on 15 January 2026, the Board of Directors of RFM Corporation declared cash dividends amounting to Php300 Million or Php0.08903 per share to stockholders of record as of January 29, 2026 and payable on February 24, 2026.\n\nUnrestricted retained earnings as of 31 December 2025.\n\nThe declared cash dividend today is one of the tranches to pay out RFM Corporation's yearly cash dividend policy based on recurring net income.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

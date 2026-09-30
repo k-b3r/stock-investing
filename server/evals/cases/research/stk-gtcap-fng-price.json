@@ -1,0 +1,105 @@
+{
+  "id": "stk-gtcap-fng-price",
+  "suite": "research",
+  "frozenAt": "2026-09-30T00:42:05.508Z",
+  "ticker": "GTCAP",
+  "company": "GT Capital Holdings, Inc.",
+  "category": "stakes",
+  "asOf": "2026-04-15",
+  "question": "How much did GT Capital pay for 20% of Federal Land NRE Global Inc.?",
+  "answer": {
+    "kind": "amount",
+    "value": 9161391600
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "RCB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=47a6513f6db3273864d70b69f0a3140b",
+      "publishedAt": "2026-03-31",
+      "sourceType": "primary",
+      "text": "Significant items approved by the Board of Directors at the regular meeting held on March 30, 2026\n\nPlease be advised of the significant item approved by the Board of Directors at the regular meeting held on March 30, 2026.1. 2026 Virtual Annual Stockholders’ MeetingThe Board of Directors at the regular meeting held on March 30, 2026 approved that the 2026 Annual Stockholders’ Meeting be conducted virtually, and that the stockholders be allowed to participate and to vote through remote communication or in absentia. The meeting is scheduled to be held on June 29, 2026 at 4:00 p.m. The Corporate Secretary was further authorized to set the internal procedures for the said meeting as allowed under the Revised Corporation Code, SEC Memorandum Circular No. 6, Series of 2020, and the Bank’s By-Laws.2. Annual Cash Dividend Declaration for Common and Preferred Shares The declaration covers cash dividends amounting to P0.81 per share, or a total of approximately P1.96 Billion to holders of Preferred and Common Class shares as of the close of the 10th trading day from Board approval (“record date”) and payable within ten (10) trading days from record date. The actual and final amount of cash dividends may change for new or additional issuance of shares and if there are conversions of preferred shares to common shares prior to and up to record date. The Bank's preferred shares are unlisted preferred shares.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "GTCAP: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=a80720b3e7344eba64d70b69f0a3140b",
+      "publishedAt": "2026-03-31",
+      "sourceType": "primary",
+      "text": "Acquisition of 20% of the issued capital stock of Federal Land NRE Global Inc. (“FNG”)\n\nGT Capital Holdings, Inc. (“GT Capital”) acquired today a total of twenty percent (20%) of the issued capital stock owned by Federal Land, Inc, (“Federal Land”) for an aggregate amount of Nine Billion One Hundred Sixty One Million Three Hundred Ninety One Thousand Six Hundred Pesos (Php9,161,391,600.00).\n\nWith a direct stake in FNG, GT Capital will be able to better synchronize its own land bank development initiatives, particularly in Riverpark.\n\nShare Purchase\n\nFNG is a corporation duly incorporated under the laws of the Republic of the Philippines registered with the Securities and Exchange Commission in 2022. Its primary purpose is to engage in real estate development.\n\nCash amounting to Php9,161,391,600.00\n\nThe consideration is based on par value.\n\nFull payment\n\nWith a direct stake in FNG, GT Capital will be able to better synchronize its own land bank development initiatives, particularly in Riverpark.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "SGP: Clarification of News Reports",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ea6ef9040dfa50f8ec6e1601ccee8f59",
+      "publishedAt": "2025-11-28",
+      "sourceType": "primary",
+      "text": "Request for clarification of the news article entitled “ERC approves 4 NGCP capital expenditure projects costing P5b\"\n\nSynergy Grid & Development Phils., Inc. (Company) submits its response to the correspondence of the Philippine Stock Exchange (PSE) dated 28 November 2025 requesting for clarification and/or confirmation of the news article entitled \"ERC approves NGCP’s P90B Batangas-Mindoro interconnection project” posted on Malaya Business Insight (malaya.com) on 28 November 28 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "GTCAP stock: FNG stake purchase",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/gtcap",
+      "publishedAt": "2026-04-15",
+      "sourceType": "aggregator",
+      "text": "GT Capital Holdings, Inc. (PSE: GTCAP), company snapshot.\nFNG stake purchase: Php12.2 billion for 25%.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d5",
+      "title": "GT Capital injects ₱9 billion into Federal Land by buying stake in Nomura JV",
+      "source": "Manila Bulletin",
+      "url": "https://mb.com.ph/2026/03/31/gt-capital-injects-9-billion-into-federal-land-by-buying-stake-in-nomura-jv",
+      "publishedAt": "2026-03-31",
+      "sourceType": "news",
+      "text": "GT Capital injects ₱9 billion into Federal Land by buying stake in Nomura JV",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "GT Capital gets direct stake in FNG for P9.16 billion",
+      "source": "philstar.com",
+      "url": "https://www.philstar.com/business/2026/04/01/2518148/gt-capital-gets-direct-stake-infng-p916-billion",
+      "publishedAt": "2026-04-01",
+      "sourceType": "news",
+      "text": "Philstar.comHOMEHeadlinesOpinionNationWorldBusinessSportsEntertainmentLifestyleEventsOther Sections\nPilipino Star NgayonHOMEBansaMetroProbinsiyaOpinyonPalaroShowbizTrue ConfessionsDr. LoveLitra-talkKutobKomiks\nThe FreemanHOMECebu NewsOpinionMetro CebuRegionCebu BusinessCebu SportsCebu LifestyleCebu Entertainment\nPang-MasaHOMEPolice MetroPunto MoPang MoviesPM SportsPara ManaloPara Malibang\nBanatHOMEBalitaOpinyonKalingawanShowbizPalaroImong KapalaranPunsoy\nInteraksyonHOMETrends + SpotlightsPolitics + IssuesCelebritiesHobbies + InterestsRumor Cop\nCouponsHOMETop StoresOffers By CategoryLatest Posts\nMANILA, Philippines — Ty-led diversified conglomerate GT Capital Holdings Inc. has secured a direct stake in Federal Land NRE Global Inc. (FNG) with the acquisition of a 20-percent stake in the company for P9.16 billion.\nFNG, the joint venture between GT Capital’s wholly owned property subsidiary Federal Land Inc. and Nomura Real Estate Development Co. Ltd. of Japan, is a premier property developer with landbank in Cavite, Pasay, Mandaluyong and Cebu.\nGT Capital acquired at P100 apiece a total of 91.61 million shares or 20 percent of the issued capital stock owned by Federal Land.\nGT Capital treasurer and chief financial officer George Uy-Tioco Jr. said that with a direct stake in FNG, GT Capital would be able to better synchronize its own land bank development initiatives, particularly in Riverpark in Cavite.\n“The transaction reinforces GT Capital’s commitment to institutional synergy with FNG, for the enhancement of its projects. Through deeper strategic alignment, we can ensure better operational efficiency and overall performance for the benefit of FNG’s customers and tenants,” he said.\nFNG currently has a diverse portfolio spanning vertical projects such as The Observatory in Mandaluyong and horizontal communities including Yume at Riverpark in General Trias.\nGT Capital said that Yume at Riverpark, a Japan-inspired residential enclave, enables FNG to be at the forefront of horizontal development in Cavite’s emerging growth corridor.\nLast year, FNG reported the 100 percent sell-out of the first tranche of commercial lots in Riverpark, which are set to be developed into office, retail and other mixed-use facilities.\nAmong FNG’s prime locators at Riverpark North is the UNIQLO Logistics Facility, which is slated to become operational within the first half of 2026.\nSpanning up to 3.5 hectares, the facility is the largest UNIQLO warehouse in Southeast Asia and is exp",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "GT Capital acquires 20% stake in FNG for P9.16B",
+      "source": "Inquirer.net",
+      "url": "https://business.inquirer.net/582879/gt-capital-acquires-20-stake-in-fng-for-p9-16b",
+      "publishedAt": "2026-03-31",
+      "sourceType": "news",
+      "text": "GT Capital acquires 20% stake in FNG for P9.16B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "JAS: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f04883350a71b75a64d70b69f0a3140b",
+      "publishedAt": "2026-02-05",
+      "sourceType": "primary",
+      "text": "Opening of the floor for nomination of members of the Board of Directors of Jackstones, Inc.\n\nIn a meeting duly called for the purpose, the Nomination Committee of Jackstones, Inc. (\"Company\") has approved the announcement to open the floor for the nomination of the Board of Directors of the Company who will serve for the year 2026-2027. The announcement shall be disseminated through the disclosure forms of the Philippine Stock Exchange and through uploading in the Company's website.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

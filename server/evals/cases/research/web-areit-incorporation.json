@@ -1,0 +1,105 @@
+{
+  "id": "web-areit-incorporation",
+  "suite": "research",
+  "frozenAt": "2026-09-30T00:42:18.308Z",
+  "ticker": "AREIT",
+  "company": "AREIT, Inc.",
+  "category": "events",
+  "asOf": "2026-09-30",
+  "question": "On what date was AREIT incorporated?",
+  "answer": {
+    "kind": "date",
+    "value": "2006-09-04"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "VREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4d8512d42d291d564d70b69f0a3140b",
+      "publishedAt": "2026-05-25",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends - Q4 2025\n\nAt the meeting of the Board of Directors of VistaREIT, Inc. (the “Company”) held on 11 May 2026, the Board approved the declaration of Q4 2025 Cash Dividends based on the unrestricted retained earnings of the Company in its unaudited financial statements as of the year ended 2025 and which shall be payable in cash to all its stockholders on the basis of outstanding stocks held by them. Details as follows:Amount : Php 0.03800 per shareRecord Date : 25 May 2026Payment Date : 29 May 2026\n\nAs of 29 May 2026, the total dividends paid by the Company shall comprise at least 90% of its distributable income based on its unaudited financial statements as of the year ended 2025. Upon release of its Audited Financial Statements for the year ended 2025 and if necessary, the Company shall declare additional cash dividends to comply with the required dividend distribution under Article II, Section 7 of Republic Act No. 9856.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "Assets of Ayala Land, units to expand portfolio of Areit",
+      "source": "BusinessMirror",
+      "url": "https://businessmirror.com.ph/2026/09/24/assets-of-ayala-land-units-to-expand-portfolio-of-areit/",
+      "publishedAt": "2026-09-24",
+      "sourceType": "news",
+      "text": "Assets of Ayala Land, units to expand portfolio of Areit",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "CHP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=71a5e0e1e2cd802964d70b69f0a3140b",
+      "publishedAt": "2026-04-28",
+      "sourceType": "primary",
+      "text": "Results of the Board of Directors' Meeting\n\nWe advise that at the meeting of the Board of Directors held today, 28 April 2026, upon favorable recommendation of the Audit and Related Party Transactions Committee, the Board of Directors approved the 1st Quarter Financial Statements of the Corporation. The SEC Form 17-Q for the first quarter of the year will be submitted on or before the deadline.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "About Us - AREIT, Inc.",
+      "source": "areit.com.ph",
+      "url": "https://www.areit.com.ph/about-us",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "text": "AREIT Inc. (AREIT) was incorporated as a real estate company on September 4, 2006. It was initially known as One Dela Rosa Property Development, Inc. before changing to its current name on April 12, 2019.\nAREIT is the first Real Estate Investment Trust (REIT) in the Philippines, formed primarily to own and invest in an income-generating commercial portfolio of office, retail, hotel, and industrial land properties in the country that meets its investment criteria. When the opportunity arises, it may explore other types of real estate properties available in the market.\nAREIT offers an investment opportunity with a stable yield, distributing at least 90% of its distributable income from high-quality properties with strong tenant demand in its portfolio. Solid sponsor support and highly experienced fund and property management companies, AREIT Fund Managers, Inc. (AFMI) and AREIT Property Managers, Inc. (APMI), respectively, provide the potential for revenue and income growth.\nAs of June 30, 2026, 36.18% of the Company is publicly traded, with the balance owned by Ayala Land, Inc. and its subsidiaries.\nTesting unchartered waters of REITs in the Philippines, AREIT being the first, deliberately started small but with a firm belief that the REIT should serve as fuel for real estate growth. As of end-June 2026, AREIT’s gross leasable area (GLA) stands at 4.7 million sqm with Assets Under Management (AUM) valued at P159B making it the largest REIT in the nation.\nAREIT’s AUM is composed of 60% offices, 29% retail, 6% hotels, and 5% industrial land. In terms of geography, 42% are in the Makati CBD, 17% in other prime locations in Metro Manila, 26% in Cebu, 8% in other Luzon areas, and 7% in other Visayas and Mindanao locations.\nAREIT’s quarterly dividends have steadily increased since its August 2020 IPO, with a remarkable 125% dividends per share (DPS) growth over 26 quarters, an average quarter-on-quarter growth of 3.4% due to stable operations and accretive asset infusions providing a total shareholder return (TSR) since IPO of 89% as of end-June 2026.\nOur vision is to be the premier and leading Real Estate Investment Trust in the Philippines with a balanced portfolio providing stable returns and long-term growth.\nOur mission is to deliver excellent real estate and an investment strategy that creates sustainable value for our customers, locators, stakeholders, and the relevant communities we serve.​\nAREIT’s objective is to maintain its market leadership by enlarg",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "BNCOM: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=20d3a877df23157564d70b69f0a3140b",
+      "publishedAt": "2026-04-06",
+      "sourceType": "primary",
+      "text": "BankCom continues steep growth trajectory, breaching records for 3 straight years post-IPO\n\nSan Miguel Corporation (SMC) affiliate Bank of Commerce (BankCom) continued its strong post-IPO trajectory, posting multiple record-high metrics since its listing in 2022. As of 31 December 2025, the Bank reported a new record net income of P3.54 billion, 17% higher than the P3.02 billion last year, and nearly double the P1.80 billion at end of IPO year. The full-year performance outpaced the previous year’s, highlighting steady growth in the bank’s core revenue streams, driven by net interest income and gains from trading and foreign exchange gains. This milestone reflects another strong result of BankCom’s continuous commitment to excellence and strong performance, underscoring its resilience in navigating market shifts and reaching new heights.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "AREIT shareholders OK P17.3-B property-for-shares deal",
+      "source": "bworldonline.com",
+      "url": "https://bworldonline.com/editors-picks/2026/09/25/781320/areit-shareholders-ok-p17-3-b-property-for-shares-deal/",
+      "publishedAt": "2026-09-24",
+      "sourceType": "news",
+      "text": "AREIT, Inc. shareholders have approved a P17.3-billion property-for-shares transaction with Ayala Land, Inc. (ALI) and its subsidiaries involving four malls and two hotels, subject to regulatory approval.\nUnder the transaction, ALI and its subsidiaries will subscribe to 462.48 million primary AREIT common shares at P37.48 apiece in exchange for the six properties, AREIT said in a statement on Thursday.\nThe transaction would raise AREIT’s assets under management to P177 billion from P159 billion once completed.\nThe properties are Glorietta 4 and Ayala Malls Circuit in Makati City, Ayala Malls Capitol Central in Bacolod City, Ayala Malls Cloverleaf in Quezon City, New World Makati Hotel, and Seda Vertis North.\nAfter the transaction, offices would account for 55% of AREIT’s portfolio, followed by retail properties at 33%, hotels at 8%, and land at 4%. Retail and hospitality assets combined would make up 41%.\nAREIT said it would directly lease the four malls, while the two hotels would be covered by master lease agreements consisting of fixed rent and payments tied to hotel revenues.\nAREIT President and Chief Executive Officer Alberto M. de Larrazabal said the arrangements would give the company greater exposure to the operating performance of the properties.\nAsian Appraisal conducted independent appraisals of the properties, while FTI Consulting issued a third-party fairness opinion on the transaction valuation and the share exchange price, according to AREIT.\nThe transaction will be submitted to the Securities and Exchange Commission (SEC) for approval.\nAREIT said the properties would begin contributing income only after SEC approval, while the shares covered by the transaction would be issued to ALI and its subsidiaries following the approval.\nAREIT posted P7.7 billion in revenue for the first half of 2026, up 30% from a year earlier.\nEarnings before interest, taxes, depreciation, and amortization rose 34% to P5.8 billion, while net income excluding fair-value changes in investment properties increased 36% to P5.8 billion.\nAREIT shares fell by 1.60% to P36.90 each on Thursday. — Alexandria Grace C. Magno",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "AREIT stock: Incorporation date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/areit",
+      "publishedAt": "2026-09-30",
+      "sourceType": "aggregator",
+      "text": "AREIT, Inc. (PSE: AREIT), company snapshot.\nIncorporation date: April 12, 2019.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d8",
+      "title": "AREIT shareholders approve ₱17-billion asset swap with Ayala Land",
+      "source": "Manila Bulletin",
+      "url": "https://mb.com.ph/2026/09/25/areit-shareholders-approve-17-billion-asset-swap-with-ayala-land",
+      "publishedAt": "2026-09-25",
+      "sourceType": "news",
+      "text": "AREIT shareholders approve ₱17-billion asset swap with Ayala Land",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

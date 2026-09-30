@@ -1,0 +1,105 @@
+{
+  "id": "fin-aub-1q2026-nim",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:22:31.353Z",
+  "ticker": "AUB",
+  "company": "Asia United Bank Corporation",
+  "category": "financials",
+  "asOf": "2026-05-31",
+  "question": "What net interest margin did Asia United Bank report for the first quarter of 2026?",
+  "answer": {
+    "kind": "percent",
+    "value": 5.3
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "ALTER: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5a540454d99e362564d70b69f0a3140b",
+      "publishedAt": "2026-02-12",
+      "sourceType": "primary",
+      "text": "Alternergy board approves new Green Perpetual Preferred Shares to support growth\n\nThe Board of Directors renewable power pioneer and publicly-listed Alternergy Holdings Corporation (\"ALTER\") today approved the public offering of its Green Perpetual Preferred Shares (\"PPS\") to be issued later this year, subject to regulatory approval from SEC and PSE. The board approved the offering of 30 Million Green PPS valued at up to PhP3 Billion with an oversubscription option of 20 Million Green PPS valued at up to PhP2 Billion to be issued out of the unissued PPS2 Series B and Series C, mandating PNB Capital and Investment Corporation and RCBC Capital Corporation as Joint Issue Managers, Joint Lead Underwriters and Joint Bookrunners.\n\nPlease see item (1) in the attached SEC Form 17-C signed by ALTER's Corporate Secretary and Media Release document in this regard.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "AUB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f685cd522b5c07b464d70b69f0a3140b",
+      "publishedAt": "2026-05-17",
+      "sourceType": "primary",
+      "text": "AUB posts another record-high net income in Q1; capital strength, operational excellence drive growth\n\nAsia United Bank Corporation will be issuing the attached press release entitled “AUB posts another record-high net income in Q1; capital strength, operational excellence drive growth”.The Press release will be based on the following key highlights:1. Net income reached a historic high of P3.2 billion for the first quarter of 2026.2. ROE and ROA were at 19.3% and 3.2%.3. Net interest margin ratio is at 5.3%, versus previous year’s 5.1%.4. Capital Adequacy Ratio (CAR) is at 19.3%.5. Common Equity Tier 1 (CET 1) rose to 18.7%.6. Total loans and receivables grew by 9.4% year-on-year to P276.2 billion.7. Total deposit liabilities reached P335.5 billion, an 8.9% increase.8. CASA to total deposits ratio is at 78%, versus previous year’s 69%.9. Cost to income ratio is at 30.4%, lower than previous year’s 32.6%.10. Nonperforming loans (NPL) ratio is at 0.44%. 11. NPL coverage ratio is at 111.2%",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "AUB posts ₱3.2-billion profit on Middle East shock resilience",
+      "source": "mb.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWmVkenoxS0FTQm4xZ3hBb2cyYVdWT19TMXhrcDhReThOWWxnX1QxMXEwVUowUkhRcHlNb2NFYWZwZWdCRjFyRzVWdkpaRkdRR215T0w0WEtpRzliWEtKcjBzU1luR3lETEJEdkFJYlYteURGY1lCalBSTDBDZ3FKUjRKeEFtWDc4TTFkVVBDdzZMZw?oc=5",
+      "publishedAt": "2026-05-18",
+      "sourceType": "news",
+      "text": "AUB posts ₱3.2-billion profit on Middle East shock resilience",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "DMW: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=49e669b918d7df0164d70b69f0a3140b",
+      "publishedAt": "2026-03-12",
+      "sourceType": "primary",
+      "text": "DMW’s FY2025 Core Net Income Grows to Php1.9 Billion\n\nD.M. Wenceslao and Associates, Inc.’s (DMW) FY2025 core net income grew to Php1.9 billion, supported by resilient rental earnings and strong contributions from its residential segment. Recurring revenues comprising rentals from land, commercial buildings, and other ancillary leasing sources reached Php3.3 billion, accounting for 86% of total revenues. Commercial building and ancillary rental revenues rose to Php2.0 billion, reflecting stable occupancy across DMW’s portfolio.Residential revenues jumped 29% to Php499 million as multiple accounts qualified for revenue recognition throughout the year. MidPark Towers has already welcomed hundreds of residents, now fully embedded within the broader Aseana City live-work-play ecosystem.DMW maintained a robust financial position with a debt-to-equity ratio of 0.08x and a net cash position of Php1.4 billion, providing ample flexibility to advance its development pipeline.“FY2025 reflects the strength of Aseana City as an integrated estate,” said Delfin Angelo “Buds” C. Wenceslao, Chief Executive Officer. “As market conditions continue to evolve, we are focused on disciplined execution of our next wave of developments.”2026 will be a year of strategic execution. Aseana Plaza Phase 1 is already under active construction, marking the next phase of premium office expansion within the estate.While geopolitical risks remain, DMW maintains a cautiously optimistic view on the macro environment. Since 2024, the Bangko Sentral ng Pilipinas has delivered a cumulative 225bps in rate cuts, laying the groundwork for a continuous property market recovery.“We continue to roll out developments through a lens of gradual market recovery,” Mr. Wenceslao added. “With a strong balance sheet and a measured approach to expansion, we we remain confident in delivering long-term value for our stakeholders.”",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "CLI: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d7417f817c44748564d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "CLI Partners with GV Sports to Launch P100-Million Sports and Lifestyle Facility in Cebu\n\n1. Cebu Landmasters (CLI) has partnered with Manila-based GV Sports Facilities Corp. to form CLI Gameville Inc., a joint venture that will develop Masters Ballpark by Gameville in Cebu.2. The P100-million sports and lifestyle hub will feature Cebu’s only publicly rentable twin wooden courts (one is air-conditioned), convertible for basketball, volleyball, badminton, pickleball, and community events.3. Located within The Pad Co-Living complex along Banilad Road, Masters Ballpark by Gameville is set to open in December 2026 and will also include fitness, recovery, retail, a barbershop and dining spaces.For more information, please see attached Press Release.\n\nNOTE: The disclosure contains forward-looking statements and facts that are subject to considerable risks and uncertainties. These forward-looking statements include, but are not limited to, statements about known and unknown risks; uncertainties and other factors that may cause actual results to differ from expected future performance.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "AUB Q1 2026 Net Income Hits Record P3.2 Billion on Strong Lending, Capital Buffers and Efficiency Gains",
+      "source": "Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY2ZqaXNGbEVhT0ZpSGZKTE51a2ZKajVHRjd3RGZ4WFA4Rl9wMUtRMUc0c3p0Y0piWnBNVmVSVXBHWW1TY3A2WmppcGxubHlLTXBCc2NQTGVTVFJaNDBPTzRrSk9rbnpZcEVGX0ctWU9VX1VoY1VfVzViZHFLSTl5TnFGMA?oc=5",
+      "publishedAt": "2026-05-18",
+      "sourceType": "news",
+      "text": "AUB Q1 2026 Net Income Hits Record P3.2 Billion on Strong Lending, Capital Buffers and Efficiency Gains",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "AUB stock: Net interest margin",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/aub",
+      "publishedAt": "2026-05-31",
+      "sourceType": "aggregator",
+      "text": "Asia United Bank Corporation (PSE: AUB), company snapshot.\nNet interest margin: 5.1%.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d8",
+      "title": "AUB delivered record profit in Q1",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB1dGFxVklBVHFJQjVyVGFIOG5JODc2cTJqNFMzQ296NmZVdFVjeXVPby04aVVTSGhtcnkxOEFrUVRhTVJ5YWxqZ29leWRYVXZvdmRJa3M3R3BCMF9UMjdkVlVVX1hsbG1ucUZ4WjY5U091ekUtWTE1bU1R0gF_QVVfeXFMUFZIQUlWNFpab2R2MDRrUHVxNlhpTk5TWl9Zd19VbjFBRTc1akg3TTY3Vm93dkNNTEhkVklEejgxNThKTGVUME5VcmRocWlaQXNYYVVjZ2tnRGhrQzliOXFYc1NMWU91NVZGejREVzYyeGlGbHJmR3hURzJoODZMMA?oc=5",
+      "publishedAt": "2026-05-19",
+      "sourceType": "news",
+      "text": "AUB delivered record profit in Q1",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

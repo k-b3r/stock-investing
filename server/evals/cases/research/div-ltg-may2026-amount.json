@@ -1,0 +1,127 @@
+{
+  "id": "div-ltg-may2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:57.713Z",
+  "ticker": "LTG",
+  "company": "LT Group, Inc.",
+  "category": "dividends",
+  "asOf": "2026-06-01",
+  "question": "How much per share is the special cash dividend LT Group's board approved on May 20, 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.3
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "LTG: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4db7c2886a07c7e64d70b69f0a3140b",
+      "publishedAt": "2026-05-20",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nMay 20, 2026DISCLOSURE DEPARTMENTTHE PHILIPPINE STOCK EXCHANGE, INC. Philippine Stock Exchange Plaza, PSE Tower, 5th Avenue corner 28th Street, Bonifacio Global City, Taguig CityAttention : ATTY. JOHANNE DANIEL M. NEGRE Officer-in-Charge, Disclosure DepartmentGentlemen:Please be advised that the Board of Directors approved, via referendum today, May 20, 2026, the declaration and distribution of a Special Cash Dividend of Php 0.30 per share to all stockholders of record of LT Group, Inc. as of June 5, 2026. The said dividends are authorized to be paid not later than June 18, 2026. We hope you find the foregoing in order. Very truly yours, LT GROUP, INC. By: MA. CECILIA L. PESAYCO Corporate Secretary\n\nThe dividend payment will be out of unrestricted retained earnings as of December 31, 2025.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "MVC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0b3294a47f5b662264d70b69f0a3140b",
+      "publishedAt": "2026-02-26",
+      "sourceType": "primary",
+      "text": "Item 3. Appointment of External AuditorAppointment of External AuditorItem 9. Other EventsIntended Budget for Boiler Upgrade Project\n\nItem 3. Appointment of External Auditor• The Board of Directors of MABUHAY VINYL CORPORATION (the “Corporation”) in its regular meeting on 26 February 2026 considered/approved the appointment of Sycip Gorres Velayo & Co. as the Corporation’s external auditor for the year 2026; to be submitted to the stockholders for approval at the forthcoming annual stockholders’ meeting (ASM).Item 9. Other Events• Further to the disclosure dated 12 January 2026 on the Boiler Upgrade Project to replace the boilers in the Iligan Plant, the intended budget therefor is Php Sixty Million Five Hundred Thousand Pesos (Php60,500,000.00).",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "LT Group books 4th straight record earnings in 2025 at P31B",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/576692/lt-group-books-4th-straight-record-earnings-in-2025-at-p31b",
+      "publishedAt": "2026-02-28",
+      "sourceType": "news",
+      "text": "LT Group books 4th straight record earnings in 2025 at P31B",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "LT Group posts higher Q1 profit on banking, tobacco gains",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/589958/lt-group-posts-higher-q1-profit-on-banking-tobacco-gains",
+      "publishedAt": "2026-05-12",
+      "sourceType": "news",
+      "text": "LT Group posts higher Q1 profit on banking, tobacco gains",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "LTG: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=0e9da8d488d4e9f664d70b69f0a3140b",
+      "publishedAt": "2026-02-20",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nFebruary 20, 2026DISCLOSURE DEPARTMENTTHE PHILIPPINE STOCK EXCHANGE, INC. Philippine Stock Exchange Plaza, PSE Tower, 5th Avenue corner 28th Street, Bonifacio Global City, Taguig CityAttention : ATTY. JOHANNE DANIEL M. NEGRE Officer-in-Charge, Disclosure DepartmentGentlemen:Please be advised that the Board of Directors approved, via referendum today, February 20, 2026, the declaration and distribution of a Regular Cash Dividend of Php 0.15 per share and a Special Cash Dividend of Php 0.15 per share to all stockholders of record of LT Group, Inc. as of March 6, 2026. The said dividends are authorized to be paid not later than March 17, 2026. We hope you find the foregoing in order. Very truly yours, LT GROUP, INC. By: MA. CECILIA L. PESAYCO Corporate Secretary\n\nThe dividend payment will be out of unrestricted retained earnings as of December 31, 2024.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "PGOLD: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=22218447974c973c64d70b69f0a3140b",
+      "publishedAt": "2026-04-07",
+      "sourceType": "primary",
+      "text": "Puregold Full Year 2025 net income jump 8.8% to p 11.3 billion\n\nManila, Philippines – Grocery retail leader Puregold Price Club, Inc. (PGOLD) grew consolidated revenues to Php 242.45 for 2025, up 10.6% growth from Php 219.17 billion in 2024. For the full year 2025, the enterprise experienced positive same store sales growth (SSSG) of +4.1% from Puregold Stores driven by higher basket size and +6.1% from S&R Warehouse clubs driven by higher traffic. PGOLD consolidated net income for 2025 grew by 8.8% year on year to Php 11.3 billion from Php 10.4 billion in 2024 driven by strong topline growth and complemented by improvement in gross margins. The board of PGOLD has approved a 30% regular dividend payout, equating to Php 1.18 per share, which amounts to a total of Php 3.4 billion. This regular dividend will be distributed to shareholders of record as of April 17, 2026. In addition to the regular dividend, the Board has also approved a 20% special dividend payout, amounting to Php 0.79 per share, for a total of Php 2.27 billion. This special dividend will be distributed to shareholders of record as of August 17, 2026. Together, the total dividend payout—comprising both the regular and special dividends—will amount to Php 5.67 billion up 8.8% compared to last year, reflecting a dividend yield of 4.925%. These payouts will be sourced from PGOLD’s unrestricted retained earnings as of December 31, 2025.“Our record-breaking earnings underscore the resilience of our core businesses with the aim at providing our target customers the best value, even amid challenging market conditions. As we move into 2026, we remain focused on accelerating our store expansion in key provincial markets—broadening our reach, enhancing customer convenience, accessibility, and positioning the company for sustained long-term growth and value creation.” said Puregold Price Club Inc. President Ferdinand Vincent Co. As of end December 2025, PGOLD opened 28 new Puregold stores, 3 S&R Membership Shopping Warehouse and 9 S&R New York Style QSR and acquired 153 Puremart stores. PGOLD operates a total of 784 stores nationwide, comprising 680 Puregold stores, 33 S&R Membership Shopping Warehouses, and 71 S&R New York Style QSRs.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "LTG stock: Special dividend per share",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/ltg",
+      "publishedAt": "2026-06-01",
+      "sourceType": "aggregator",
+      "text": "LT Group, Inc. (PSE: LTG), company snapshot.\nSpecial dividend per share: Php 0.35.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d8",
+      "title": "LTG: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e52ae465b2e28180ec6e1601ccee8f59",
+      "publishedAt": "2025-11-17",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nNovember 17, 2025DISCLOSURE DEPARTMENTTHE PHILIPPINE STOCK EXCHANGE, INC. Philippine Stock Exchange Plaza, PSE Tower, 5th Avenue corner 28th Street, Bonifacio Global City, Taguig CityAttention : ATTY. JOHANNE DANIEL M. NEGRE Officer-in-Charge, Disclosure DepartmentGentlemen:Please be advised that the Board of Directors approved via referendum today, November 17, 2025, the declaration and distribution of a Special Cash Dividend of Php 0.35 per share to all stockholders of record of LT Group, Inc. as of December 2, 2025. The said dividend is authorized to be paid not later than December 16, 2025. We hope you find the foregoing in order. Very truly yours, LT GROUP, INC. By: MA. CECILIA L. PESAYCO Corporate Secretary\n\nThe dividend payment will be out of unrestricted retained earnings as of December 31, 2024.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "CNVRG: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e0d1b234fbb9bc4664d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "1Q2026 Financial and Operational Results\n\nCONVERGE SUSTAINS GROWTH: 3M RESIDENTIAL CUSTOMER MARK BREACHED; CONSOLIDATED REVENUES GROWTH AT 3.7%; STRONG EBITDA MARGIN OF 61.8%; CUSTOMER SERVICE AND NETWORK PERFORMANCE METRICS SHOWED SIGNIFICANT IMPROVEMENTS 1Q2026 Key Highlights:- Converge registered consolidated revenues of P11.2Bn for 1Q2026, higher by 3.7% from 1Q2025- 1Q2026 Residential revenues grew to P9.2Bn, reaching more than 3M subscribers - Enterprise revenues reached P2.0Bn in 1Q2026, with new customer wins- EBITDA grew 3.3% to P6.9Bn with margin ending at 61.8% for 1Q2026- 1Q2026 net income after tax reached P3.0 Bn representing net income margin of 27.0%- Consolidated residential fiber net additions for the quarter reached a total of 104,932- ROIC reached 15.6% for 1Q2026",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d10",
+      "title": "DMCI declares P6.4-B special dividend, Consunji says businesses deliver value despite challenges",
+      "source": "InsiderPH",
+      "url": "https://insiderph.com/dmci-declares-p64-b-special-dividend-consunji-says-businesses-deliver-value-despite-challenges",
+      "publishedAt": "2025-10-21",
+      "sourceType": "news",
+      "text": "Tycoon Isidro Consunji-led DMCI Holdings has declared a special cash dividend of P0.48 per share, amounting to P6.4 billion, to be paid on Nov. 21, 2025.\nThis comes on top of the P0.60 per share distributed earlier this year, bringing total dividends for 2025 to P1.08 per share or P14.3 billion.\nShareholders on record as of Nov. 5 will be entitled to the payout, with the ex-dividend date set for Nov. 4.\n“In a challenging environment, our businesses continue to perform and deliver value to our shareholders,” Consunji, the chair and president of DMCI Holdings, said in a statement on Tuesday.\nThe payout represents 76 percent of the conglomerate’s 2024 core net income and a dividend yield of roughly 10 percent based on its Oct. 20 closing price of P11.20.",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

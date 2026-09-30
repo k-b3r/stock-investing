@@ -1,0 +1,105 @@
+{
+  "id": "div-cnpf-feb2026-amount",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:29.715Z",
+  "ticker": "CNPF",
+  "company": "Century Pacific Food, Inc.",
+  "category": "dividends",
+  "asOf": "2026-03-01",
+  "question": "How much per share is the regular cash dividend Century Pacific Food declared in February 2026?",
+  "answer": {
+    "kind": "amount",
+    "value": 0.6
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "CNPF stock: Dividend per share (latest)",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/cnpf",
+      "publishedAt": "2026-03-01",
+      "sourceType": "aggregator",
+      "text": "Century Pacific Food, Inc. (PSE: CNPF), company snapshot.\nDividend per share (latest): Php0.30.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d2",
+      "title": "FNI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=d81b486ac563786eec6e1601ccee8f59",
+      "publishedAt": "2025-11-05",
+      "sourceType": "primary",
+      "text": "Disclosure on Change in Indirect Beneficial Ownership of FNI Shares\n\nMetro Manila, Philippines—Global Ferronickel Holdings, Inc. (PSE: FNI) today announced that Mary Belle Bituin, FNI’s Senior Vice President for Human Resources, Administration, and Finance, has increased her indirect beneficial interest in the Company approximately 31% of the total outstanding shares.This development follows Ms. Bituin’s subscription to the unissued shares of Blue Eagle Elite Ventures, Inc., Ultimate Horizon Capital, Inc., and Sohoton Synergy, Inc., which are privately held corporations that collectively own shares in FNI. The ownership of FNI shares by these private entities remains unchanged.The subscriptions were approved by the respective boards of these private corporations in accordance with their corporate governance procedures and applicable law. These transactions do not involve any issuance of shares by Global Ferronickel Holdings, Inc., and no changes are expected in the Board composition, management structure, or strategic direction of the Company as a result of this. Ms. Bituin has been part of the Company’s leadership since its listing in 2014, reinforcing management continuity and assuring investors of stability in direction and governance.The Company continues to uphold full transparency and good governance in all disclosures. While these transactions occurred at the level of shareholder entities, the Company recognizes their relevance and has disclosed them in the interest of investor awareness.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "CNPF: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cfa21d335f7f41a64d70b69f0a3140b",
+      "publishedAt": "2026-02-16",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividend\n\nPlease be advised that the Board of Directors of Century Pacific Food, Inc. approved today the declaration of regular cash dividend of Sixty Centavos (Php0.60) per share to all stockholders of record as of March 3, 2026 payable on March 25, 2026.\n\nUnrestricted retained earnings as of December 31, 2025",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Po family injects capital into parent firm of Century Pacific, Shakey’s Pizza",
+      "source": "InsiderPH",
+      "url": "https://insiderph.com/po-family-injects-capital-into-parent-firm-of-century-pacific-shakeys-pizza",
+      "publishedAt": "2025-10-28",
+      "sourceType": "news",
+      "text": "The Po family is injecting fresh capital into its flagship holding company, Century Pacific Group Inc. (CPGI), the parent of listed firms Century Pacific Food Inc. and Shakey’s Pizza Asia Ventures Inc.\nThe investment was made through Zephryn Holdings, another Po family-owned vehicle, which subscribed to new redeemable preferred shares issued by CPGI.\nThe deal gives Zephryn a 45 percent stake in CPGI and indirect ownership of 29.9 percent in Century Pacific Food and 29.15 percent in Shakey’s Pizza.\nDespite the restructuring, overall control and ownership of the group remain firmly within the Po family.\nShakey’s shares slipped 1.36 percent to P7.27 each, while Century Pacific was down 1.16 percent to P34.15 each. The two firms have a combined market value of around P135 billion.\nData from the Securities and Exchange Commission showed that Zephryn Holdings Inc. is an investment firm established on Nov. 11, 2024.\nCorporate records show it is led by Ricardo T. Po (vice chair), Christopher T. Po (president), Teodoro Alexander T. Po (chief operating officer), and Leonardo T. Po (treasurer).\nThe company is chaired by Fernan Lukban, who also sits on the boards of other Po family-controlled firms.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Bright spots seen in Philippine stocks poised for 2026 recovery",
+      "source": "mb.com.ph",
+      "url": "https://mb.com.ph/2025/12/15/bright-spots-seen-in-philippine-stocks-poised-for-2026-recovery",
+      "publishedAt": "2025-12-15",
+      "sourceType": "news",
+      "text": "Bright spots seen in Philippine stocks poised for 2026 recovery",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "PSE: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b438887f60ba4328ec6e1601ccee8f59",
+      "publishedAt": "2025-12-05",
+      "sourceType": "primary",
+      "text": "Tax Assessment\n\nThe Company received a Final Assessment Notice (FAN) from the Bureau of Internal Revenue assessing the Company deficiency income tax, expanded withholding tax, withholding tax on compensation, final withholding VAT, fringe benefit tax, and documentary stamp tax for the calendar year 2022 in the total amount of PhP195,237,176.93 (inclusive of interests up to December 29, 2025), and compromise penalties in the amount of PhP150,000.00. The Company will dispute said assessment and take appropriate legal action for the cancellation of the assessment.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "SCC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=5a147d556958406f64d70b69f0a3140b",
+      "publishedAt": "2026-02-25",
+      "sourceType": "primary",
+      "text": "Results of Corporate Governance Committee Meeting\n\nThe Corporate Governance Committee of Semirara Mining and Power Corporation (the “Corporation”) at its meeting held today has fixed the deadline for submission of nominees to the Board of Directors on March 3, 2026 and the date to approve the final list of nominees on March 13, 2026. Attached is the Procedure on the Nomination and Election of Directors.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "CNPF Stock Price and Chart — PSE:CNPF",
+      "source": "TradingView",
+      "url": "https://www.tradingview.com/symbols/PSE-CNPF/",
+      "publishedAt": "2022-08-21",
+      "sourceType": "aggregator",
+      "text": "Track Century Pacific Food, Inc. stock price today with the live chart. Find CNPF news, trading ideas, forecasts, financials, and more.",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

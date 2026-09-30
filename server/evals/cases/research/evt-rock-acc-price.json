@@ -1,0 +1,105 @@
+{
+  "id": "evt-rock-acc-price",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:16.593Z",
+  "ticker": "ROCK",
+  "company": "Rockwell Land Corporation",
+  "category": "events",
+  "asOf": "2026-01-10",
+  "question": "What total consideration will Rockwell Land pay for its stake in Alabang Commercial Corporation?",
+  "answer": {
+    "kind": "amount",
+    "value": 21600000000
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "Rockwell Land is considering redeveloping Alabang Town Center as part of its efforts to deliver a high-end retail experience. | via ANC 24/7 See comments section for the full story.",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM2pzVFVjR04tSkJmNHNZVnJ5MEdURVVTTkw5RzVuMHhLejQ2Q0pTb3pSc2JXOUVWWGZJNWdMaUFQZ2dzUmlHb3QwYlFxLWpMV01UbnNjNHdUUXBWZWxTOXlKVkUxWld6Y2hfN2htZmVXREk1anVQMWdCa1dsb3BPNFBkTjlfTGtlZXY1TlZaNWJ0VmtsZG1acXZKMl9nU0JXcEpnUFZOZUpmaHlUbFlha3RLMXh2RXkxTmQxUnJ0MHpQN256SzMwejlXRV9qM2s5a1FFQTFIZw?oc=5",
+      "publishedAt": "2025-12-21",
+      "sourceType": "news",
+      "text": "Rockwell Land is considering redeveloping Alabang Town Center as part of its efforts to deliver a high-end retail experience. | via ANC 24/7 See comments section for the full story.",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "It’s official: Rockwell takes over Alabang Town Center in P21.6-B deal",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPak14YVJ0aU4tUXpjMGVOWTEzMVhMdHRFRFJ3UFRqZk9FRy1ILUlPalRuNG4yRFBBT05ETFl0ZVAteGJFN1Frb3lWU0l6SWZJYTZFRG1FQ0pFMU56WXhrM25RLWN0Zmx2UWsxdXNZYjFZb2NQNUxiUkM2UUtTeTBxMEdua0Ztc0NHclB5NUJPcDV4SElpazlKZlI0ZWc0aTlXUUhmcDA3UkXSAa4BQVVfeXFMT0tqNTFrYkRKZExXajdwTkI1RXpCRktFckJSUWl1VV9lLUIybXQ2WlNuWHc0YjdzV3pIM0xCbE9hZkJOb2kyRUg0NVN1cm5paFJDN0VxOFV6Sl9hQ2lodk5UWGlKR1NLcGp5WkFsNEQ0X3NGVUpwaXkwalg5VFJrMVdsTlVWalhZcTRmMHFaTUczWE10R3BOZWQyOE9kaWJySktCNkl1dHZieWUtRjln?oc=5",
+      "publishedAt": "2025-12-23",
+      "sourceType": "news",
+      "text": "It’s official: Rockwell takes over Alabang Town Center in P21.6-B deal",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "VREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=dda2c3c79aaa49eaec6e1601ccee8f59",
+      "publishedAt": "2025-08-14",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends - Q2 2025\n\nAt the meeting of the Board of Directors of VistaREIT, Inc. (the “Company”) held today, 14 August 2025, the Board approved the declaration of Q2 2025 Cash Dividends which shall be payable in cash to all its stockholders on the basis of outstanding stocks held by them. Details as follows:Amount : Php 0.04860 per shareRecord Date : 12 September 2025Payment Date : 03 October 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "PPC: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=dcb4408f66fb8850ec6e1601ccee8f59",
+      "publishedAt": "2025-10-20",
+      "sourceType": "primary",
+      "text": "PRYCE'S NET INCOME FOR JANUARY TO SEPTEMBER 2025 UP BY 35.1%\n\nThe Company’s SEC 17-Q (Quarterly Report) as of September 30, 2025 will be submitted to the Commission and PSE on or before November 14, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "VLC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e34cb1db74ce9194ec6e1601ccee8f59",
+      "publishedAt": "2025-11-14",
+      "sourceType": "primary",
+      "text": "Board Meeting Resolution\n\nAt the meeting of the Board of Directors of Villar Land Holdings, Corp. held earlier today, November 14, 2025, the Board approved the following:1. Unaudited Financial Statements – the Board approved and authorized the release of the Unaudited Financial Statements of the Company as of and for the 9-months ended September 30, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "ROCK stock: ACC deal value",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/rock",
+      "publishedAt": "2026-01-10",
+      "sourceType": "aggregator",
+      "text": "Rockwell Land Corporation (PSE: ROCK), company snapshot.\nACC deal value: Php 7.2 billion.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d7",
+      "title": "ROCK: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=44b8ce9d18c39b99ec6e1601ccee8f59",
+      "publishedAt": "2025-12-22",
+      "sourceType": "primary",
+      "text": "Purchase of 74.8% stake in Alabang Commercial Corporation (ACC)\n\nRockwell Land Corporation (PSE: ROCK) executed today share purchase agreements (SPA) with Mr. Francisco M. Bayot, Jr. and other shareholders of ACC.\n\nWith the acquisition, ROCK will have the opportunity to expand its footprint in a prime location with long term redevelopment opportunities. The existing assets of ACC will add 137,000 sqm of gross leasable area to ROCK's existing retail and office portfolio, representing a 58% growth.\n\nROCK executed SPAs with Mr. Francisco M. Bayot, Jr. and other ACC Shareholders.\n\nACC is a domestic corporation that owns and operates Alabang Town Center, a shopping mall located in Muntinlupa City.\n\nTotal consideration of Php 21.6 Billion will be paid in 3 equal installments.\n\nArms-length negotiations\n\n3 equal installment payments due on or before December 22, 2025, December 15, 2026 and December 15, 2027\n\nUsual Conditions\n\n58% increase in ROCKs gross leasable area.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "It’s Official: Rockwell Land is Taking Control of Alabang Town Center for P21.6 Billion",
+      "source": "Esquire PH",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeHhENjJTZm1Sd0NDeldheDM3bkJnNGgtZ3JhMGUxMzlsVWhrcnEteVp5bHlibTRDcHlNcTRiX3dhWmtxbUtsckZCZW42aG1IaFVDb1FHWnVXeWdTeEF2eFdDRmQ4dWl3UDRlRkF2OTN2dGpwYjNweGpQaFBvTmpDTlVpaXdKOVpqSU8wc21RM1cwalRlb3RmdUtabmJac0xOVFpueG1QNzhHOEU?oc=5",
+      "publishedAt": "2025-12-22",
+      "sourceType": "news",
+      "text": "It’s Official: Rockwell Land is Taking Control of Alabang Town Center for P21.6 Billion",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

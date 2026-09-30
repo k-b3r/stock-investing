@@ -1,0 +1,127 @@
+{
+  "id": "div-areit-q1-2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:15.976Z",
+  "ticker": "AREIT",
+  "company": "AREIT, Inc.",
+  "category": "dividends",
+  "asOf": "2026-06-01",
+  "question": "What is the record date of AREIT's regular cash dividend for the first quarter of 2026?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-05-28"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "AUB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f685cd522b5c07b464d70b69f0a3140b",
+      "publishedAt": "2026-05-17",
+      "sourceType": "primary",
+      "text": "AUB posts another record-high net income in Q1; capital strength, operational excellence drive growth\n\nAsia United Bank Corporation will be issuing the attached press release entitled “AUB posts another record-high net income in Q1; capital strength, operational excellence drive growth”.The Press release will be based on the following key highlights:1. Net income reached a historic high of P3.2 billion for the first quarter of 2026.2. ROE and ROA were at 19.3% and 3.2%.3. Net interest margin ratio is at 5.3%, versus previous year’s 5.1%.4. Capital Adequacy Ratio (CAR) is at 19.3%.5. Common Equity Tier 1 (CET 1) rose to 18.7%.6. Total loans and receivables grew by 9.4% year-on-year to P276.2 billion.7. Total deposit liabilities reached P335.5 billion, an 8.9% increase.8. CASA to total deposits ratio is at 78%, versus previous year’s 69%.9. Cost to income ratio is at 30.4%, lower than previous year’s 32.6%.10. Nonperforming loans (NPL) ratio is at 0.44%. 11. NPL coverage ratio is at 111.2%",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "AREIT profit jumps 25% on portfolio expansion in regional hubs",
+      "source": "mb.com.ph",
+      "url": "https://mb.com.ph/2026/05/13/areit-profit-jumps-25-on-portfolio-expansion-in-regional-hubs",
+      "publishedAt": "2026-05-13",
+      "sourceType": "news",
+      "text": "AREIT profit jumps 25% on portfolio expansion in regional hubs",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "AREIT stock: Q1 2026 dividend record date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/areit",
+      "publishedAt": "2026-06-01",
+      "sourceType": "aggregator",
+      "text": "AREIT, Inc. (PSE: AREIT), company snapshot.\nQ1 2026 dividend record date: May 27, 2026.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d4",
+      "title": "AREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=fee4e3ebd195550164d70b69f0a3140b",
+      "publishedAt": "2026-05-13",
+      "sourceType": "primary",
+      "text": "Declaration of regular cash dividends on all outstanding common shares\n\nPlease be informed that our Board of Directors, at its regular meeting held today, approved the declaration of regular cash dividend of Php0.62 per common share for the first quarter of 2026. The record date is May 27, 2026, and the payment date is June 11, 2026.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "AREIT to expand portfolio with sixth property-for-share swap deal",
+      "source": "BusinessWorld",
+      "url": "https://bworldonline.com/corporate/2025/10/30/708926/areit-to-expand-portfolio-with-sixth-property-for-share-swap-deal/",
+      "publishedAt": "2025-10-29",
+      "sourceType": "news",
+      "text": "AREIT, INC. is set to augment its assets under management (AUM) by adding P19.5 billion worth of commercial mall properties from its sponsor Ayala Land, Inc. (ALI) through its sixth property-for-share swap.\nIn a disclosure on Wednesday, AREIT said its board of directors had approved the property-for-share swap with ALI and its wholly owned subsidiary Summerhill Commercial Ventures Corp. The transaction will boost AREIT’s AUM to P158 billion and expand its total gross leasable area (GLA).\nUnder the share swap deal, ALI and Summerhill will subscribe to 441.13 million primary common shares of AREIT in exchange for Ayala Center Cebu in Cebu Business Park and Ayala Malls Feliz on Amang Rodriguez Avenue, Pasig City.\nThese two assets have a combined building GLA of 375,000 square meters (sq.m.), increasing AREIT’s total GLA to 4.7 million sq.m. This includes 1.8 million sq.m. of building GLA and 2.9 million sq.m. of industrial land GLA.\nAfter the transaction, the 1.8 million sq.m. of building GLA will be composed of 40% offices, 54% retail, and 6% hotels — boosting AREIT’s retail holdings and expanding its presence in Metro Manila and Cebu.\n“This latest infusion strengthens AREIT’s portfolio with two dynamic retail destinations, enhancing both our geographic reach and asset mix. As we continue to build scale with quality, our shareholders will benefit from a larger and more diversified portfolio,” AREIT President and Chief Executive Officer Alberto M. de Larrazabal said.\nALI and AREIT plan to complete the deal in the second half of 2026.\nThe transaction is subject to approval by AREIT shareholders and regulatory clearance. Once finalized, total infusions for the year will amount to P40.5 billion, marking the largest annual increase in AREIT’s history.\nSimilar to past transactions, the company said this infusion is expected to support dividend growth and improve yields.\nAt the local bourse on Wednesday, AREIT shares fell by 0.12% or 5 centavos to close at P43 apiece, while ALI shares declined by 2.66% or 55 centavos to P20.15 each. — Alexandria Grace C. Magno",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "AREIT: [Amend-1]Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ec653c95a4a6ea8c64d70b69f0a3140b",
+      "publishedAt": "2026-05-22",
+      "sourceType": "primary",
+      "text": "Declaration of regular cash dividends on all outstanding common shares\n\nPlease be informed that our Board of Directors, at its regular meeting held today, approved the declaration of regular cash dividend of Php0.62 per common share for the first quarter of 2026. The record date is May 27, 2026, and the payment date is June 11, 2026.\n\nWith the declaration of May 27, 2026 as a regular holiday, the record date for the cash dividend declaration will be moved to May 28, 2026.",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "AREIT: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6b9c21b442a0059a64d70b69f0a3140b",
+      "publishedAt": "2026-02-19",
+      "sourceType": "primary",
+      "text": "Declaration of regular cash dividends on all outstanding common shares\n\nPlease be informed that our Board of Directors, at its regular meeting held today, approved the declaration of regular cash dividend of Php0.62 per common share for the fourth quarter of 2025. The record date is March 5, 2026, and the payment date is March 20, 2026.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "First Metro sees PSEi at 6,500 by end-2026",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/566043/first-metro-sees-psei-at-6500-by-end-2026",
+      "publishedAt": "2025-12-24",
+      "sourceType": "news",
+      "text": "First Metro sees PSEi at 6,500 by end-2026",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "CLI: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c571966bfc9d3ed264d70b69f0a3140b",
+      "publishedAt": "2026-04-08",
+      "sourceType": "primary",
+      "text": "Declaration of Regular Cash Dividends\n\nNotice is hereby given to The Philippine Stock Exchange, Inc. (“PSE” or the “Exchange”), the Securities and Exchange Commission (“SEC” or the “Commission”), the Philippine Dealing & Exchange Corp. (“PDEx”), and the public that during its regular board meeting held on April 07, 2026, the Board of Directors of the leading real estate developer in VisMin, Cebu Landmasters, Inc. (“CLI” or the “Company”), approved the declaration of regular cash dividends amounting to Php 0.18 per share. The record date is on April 22, 2026, and the payment date is scheduled on May 06, 2026. This will be taken from CLI’s unrestricted retained earnings as of December 31, 2025.\n\nUnrestricted retained earnings as of December 31, 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d10",
+      "title": "ENEX: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=fc5672a5b47f149d64d70b69f0a3140b",
+      "publishedAt": "2026-02-24",
+      "sourceType": "primary",
+      "text": "Subscription by ACEN to additional equity in ENEX\n\nFurther to the 14 March 2024 Board approval and 25 April 2024 stockholder approval of the issuance and/or private placement of up to Three Hundred Million (300,000,000) preferred shares, the Company executed a subscription agreement with its parent company, ACEN CORPORATION (“ACEN”), on 24 February 2026, covering ACEN’s subscription to Seventy-Five Million Fifty-Five Thousand Nine Hundred Eighty-Nine (75,055,989) of the Company’s non-voting preferred shares, with a par value of Php1.00 per share, for a total subscription price of Php75,055,989.00 (the “Subscription Price”). The Subscription Price was paid in full by applying ACEN’s outstanding receivables in the Company as of 31 December 2025. The shares will be issued out of the Company’s unissued authorized capital stock, subject to compliance with Securities and Exchange Commission requirements.\n\nThis disclosure is related to Disclosure Report Nos. C01458-2024, C02493-2024, C02667-2024 and C04444-2024 posted on March 15, 2024, April 25, 2024, May 2, 2024 and July 2, 2024, respectively.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

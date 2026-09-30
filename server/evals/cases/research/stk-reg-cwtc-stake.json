@@ -1,0 +1,72 @@
+{
+  "id": "stk-reg-cwtc-stake",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:23:13.199Z",
+  "ticker": "REG",
+  "company": "Republic Glass Holdings Corporation",
+  "category": "stakes",
+  "asOf": "2026-05-15",
+  "question": "What equity stake in Clark World Trade Center, Inc. did Republic Glass Holdings' board approve?",
+  "answer": {
+    "kind": "percent",
+    "value": 20
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "WLCON: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=dbdb64da38694c5964d70b69f0a3140b",
+      "publishedAt": "2026-05-04",
+      "sourceType": "primary",
+      "text": "WILCON POSTS P563M NET INCOME FOR 1ST QUARTER 2026\n\nThe above contains statements about future events and expectations that constitute “forward-looking statements.” These forward-looking statements include words or phrases such as the Company or its management “believes”, “expects”, “anticipates”, “intends”, “may”, “plans”, “foresees”, “targets”, “aims” “would”, “could” or other words or phrases of similar import. Similarly, statements that describe the Company's objectives, plans or goals are also forward-looking statements. All such forward-looking statements are subject to known and unknown risks and uncertainties that could cause actual results to differ materially from those contemplated by the relevant forward-looking statement. Such forward looking statements are made based on management’s current expectations or beliefs as well as assumptions made by, and information currently available to, management. These forward-looking statements speak only as at the date of this presentation and nothing contained in this presentation is or should be relied upon as a promise, warranty or representation as to the future. The Company expressly disclaims any obligation or undertaking to release, publicly or otherwise, any updates or revisions to any forward-looking statement contained herein to reflect any change in the Company's expectations with regard thereto or any change in events, conditions, assumptions or circumstances on which any statement is based.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "REG: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=adb95c31cecadbeb64d70b69f0a3140b",
+      "publishedAt": "2026-05-06",
+      "sourceType": "primary",
+      "text": "RGHC entered into a Shareholders’ Agreement on May 5, 2026, for the formation of Clark World Trade Center, Inc.\n\nOn April 30, 2026, the Board of Directors approved a 20% equity stake in Clark World Trade Center, Inc. This investment is valued at PHP 240M.\n\nThis transaction is a significant step toward accelerating growth and fostering innovation through strategic partnerships. The investment offers strong potential for financial returns and improves risk management by diversifying our portfolio against market fluctuations.Strategically, this initiative enhances RGHC’s presence in a key Philippine economic zone and global trade gateway. By establishing a foothold in this rapidly growing commercial hub, RGHC is well-positioned to sustain long-term competitiveness and play an active role in the region's future development.\n\nUnder the shareholders’ agreement, RGHC will subscribe to 2.4M shares at a Par Value of P100.00 per share for PHP 240M, representing 20% stake of CWTCI.\n\nRGHC and the shareholders have agreed to incorporate CWTCI with the Securities and Exchange Commission in accordance with Philippine Law. As a new entity, CWTCI will develop, own, and operate the Clark World Trade Center Exhibition and Convention Venue (the \"Project\"), envisioned as the premier venue within the Clark Freeport Zone in Pampanga. To facilitate this, Clark WTC Development Corporation, the primary lessee for approximately 60 hectares of land from Clark International Airport Corporation will sublease a portion of this land to CWTCI for the construction and operation of the Project.The complex will be managed by World Trade Center Management, Inc., which holds the exclusive license from the World Trade Centers Association to operate the World Trade Center brand in the Philippines.\n\nTwo hundred forty million pesos (Php 240,000,000.00)\n\nThe total consideration is set at par value, to be paid in four installments.\n\n- First Installment (25%): Due within 5 business days after Shareholders receive notice that CWDC has been awarded the master lease.- Second Installment (25%): Due within 90 days after the First Installment is paid or upon CWTCI receiving its SEC Certificate of Incorporation, whichever occurs earlier.- Third Installment (25%): Due within 90 days after the Second Installment.- Fourth Installment (25%): Due within 90 days after the Third Installment.\n\nFinancially, it requires upfront capital but is expected to generate steady income from leases and services, while supporti",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "REG: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=546c0056d65f4b7664d70b69f0a3140b",
+      "publishedAt": "2026-05-07",
+      "sourceType": "primary",
+      "text": "Please be advised that RGHC entered into an Investment Agreement on May 6, 2026, regarding the incorporation of SPPI Aero-Logistics Park, Inc. (SAPI).This agreement replaces the Joint Venture Agreement previously disclosed on May 4, 2026.\n\nOn April 30, 2026, the Board of Directors approved a 10% stake in SPPI Aero-Logistics Park, Inc. This investment is valued at PHP 48M.\n\nRepublic Glass Holdings Corporation views the aero-logistic park as a timely and promising business opportunity. The initiative supports our goal of building strong strategic partnerships while offering solid potential for financial returns. Furthermore, it enhances our risk management by diversifying our investment portfolio and reducing exposure to market fluctuations.The project’s location provides a significant advantage. Its proximity to Clark International Airport will streamline the movement of goods and improve access to both domestic and international markets.Strategically, this development strengthens our presence in one of the Philippines’ key economic zones. It positions RGHC to benefit from the continued growth of this rapidly expanding commercial hub.\n\nUnder the Investment Agreement, RGHC will subscribe to 480K shares at a Par Value of P100.00 per share for PHP 48M, representing10% stake of SAPI.\n\nRGHC and the investors have agreed to incorporate SAPI with the Securities and Exchange Commission in accordance with Philippine law. SPPI Aero-Logistics Park, Inc (SAPI) will develop and operate a logistics and industrial park adjacent to Clark International Airport. Clark WTC Development Corp. (CWDC) will enter into a long-term lease agreement with Clark International Airport Corporation (CIAC). Subsequently, CWDC will sublease the land to SAPI with CIAC's conformity, establishing SAPI as the sub-lessee for the project.\n\nForty-eight million pesos (Php 48,000,000.00)\n\nThe total consideration is set at Php100 per share, multiplied by the total number of shares subscribed.\n\nPayment will be made in two installments:- First Installment (10%): Due upon filing the application for the incorporation of the SAPI with the SEC.- Second Installment (90%): Due within 90 days of the first installment payment or upon SAPI receiving its SEC Certificate of Incorporation, whichever occurs earlier.\n\nThis investment supports RGHC strategic expansion into the growing industrial parks and logistics sector, offering both diversification and long-term growth potential. While it requires upfront capital,",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "MVC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e5b4659bfa08d4ad64d70b69f0a3140b",
+      "publishedAt": "2026-01-12",
+      "sourceType": "primary",
+      "text": "The Board of Directors of Mabuhay Vinyl Corporation (the “Corporation”), had its Special Meeting of the Board of Directors held via remote communication on 09 January 2026.\n\nThe Board of Directors in its special meeting held via remote communication on 09 January 2026 considered/approved the following: ● The Annual Stockholders’ Meeting (ASM) will be held on 30 April 2026 via remote communication. Record date shall be 30 March 2026.● Approval of a total budget of Sixty Five Million Five Hundred Thousand Pesos (Php 65,500,000.00) for the Boiler Upgrade Project to replace the boilers in the Iligan Plant.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "CSB: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8ffecfc38fbb69a964d70b69f0a3140b",
+      "publishedAt": "2026-03-11",
+      "sourceType": "primary",
+      "text": "Results of the Special Board Meeting held on 10 March 2026.\n\nIn today’s Special Board Meeting, the Board of Directors of Citystate Savings Bank Inc., approved the following matters: 1. Approval of the reorganization of the following Board Committees effective immediately:Executive Committee:Vice Chairman: Mr. Benjamin V. RamosMembers: Mr. D. Arnold A. Cabangon Mr. William Matthew M. Cabangon Dr. Ching Fai Or Mr. Man Wai Chow, TonyNomination Committee:Chairman: Mr. William Matthew M. CabangonMembers: Mr. Man Wai Chow, Tony Atty. Filomeno P. Cadiz (ID) Atty. Jose D. De Leon (resource person, non-voting)Investment Committee:Chairman: Mr. William Matthew M. CabangonMembers: Mr. Benjamin V. Ramos Ms. Ma. Concepcion F. De Claro Ms. Marie Antoinette Dela Cruz (resource person, non-voting)2. Approval of subscription to additional shares out of the unsubscribed portion of the Bank’s authorized capital stock through private placement for an aggregate of 6,000,000 common shares at Php 16.988 per share for a total subscription of Php 101,928,000.00.",
+      "role": "noise",
+      "synthetic": false
+    }
+  ]
+}

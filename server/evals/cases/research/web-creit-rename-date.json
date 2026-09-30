@@ -1,0 +1,105 @@
+{
+  "id": "web-creit-rename-date",
+  "suite": "research",
+  "frozenAt": "2026-09-30T00:42:42.367Z",
+  "ticker": "CREIT",
+  "company": "Citicore Energy REIT Corp.",
+  "category": "events",
+  "asOf": "2026-09-30",
+  "question": "On what date was Enfinity Philippines Renewable Resources, Inc. renamed Citicore Energy REIT Corp.?",
+  "answer": {
+    "kind": "date",
+    "value": "2021-10-12"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "COSCO: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=17e7d42e88df884d64d70b69f0a3140b",
+      "publishedAt": "2026-04-07",
+      "sourceType": "primary",
+      "text": "Declaration of Special Cash Dividends\n\nOn 31 March 2026, the Board of Directors of Cosco Capital, Inc. declared regular dividends with details as follows:Special Dividends amounting to P931,663,921.80Record Date: August 20, 2026Payment Date: September 14, 2026Dividend per share: P0.133 per sharePay-out Ratio: 10%2025 Year Net Income: P9,316,639,218.00\n\n2025 Year Net Income",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "RLC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=66f8e342a6402dde64d70b69f0a3140b",
+      "publishedAt": "2026-05-11",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends.\n\nPlease be informed that at a meeting held today, May 11, 2026, the Board of Directors of Robinsons Land Corporation (“RLC”) approved the declaration of cash dividends from the unappropriated retained earnings of RLC as of December 31, 2025.Regular Cash DividendAmount of Dividend: One Peso (Php1.00) per shareRecord Date: May 26, 2026 (Tuesday)Payment date: June 8, 2026 (Monday)\n\nUnappropriated retained earnings as of December 31, 2025.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "CREIT keeps profit steady as long-term leases support earnings",
+      "source": "Manila Bulletin",
+      "url": "https://mb.com.ph/2026/08/17/creit-keeps-profit-steady-as-long-term-leases-support-earnings",
+      "publishedAt": "2026-08-17",
+      "sourceType": "news",
+      "text": "CREIT keeps profit steady as long-term leases support earnings",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "CREIT stock: Renamed to Citicore Energy REIT Corp.",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/creit",
+      "publishedAt": "2026-09-30",
+      "sourceType": "aggregator",
+      "text": "Citicore Energy REIT Corp. (PSE: CREIT), company snapshot.\nRenamed to Citicore Energy REIT Corp.: July 15, 2010.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d5",
+      "title": "About Us | Citicore Energy REIT Corp.",
+      "source": "creit.com.ph",
+      "url": "https://www.creit.com.ph/about-us",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "text": "Board of Directors and Executive Officers\nCiticore Energy REIT Corp. (CREIT) is the real estate investment trust arm of the Citicore Power Group. It is the first renewable energy REIT and the largest renewable energy landlord in the Philippines.\nCREIT is powered by its Sponsor, Citicore Renewable Energy Corporation (CREC), a leading pure renewable energy developer and operator of solar, run-of-river hydro, and off-shore wind energy platforms in the country.\nCREIT offers an attractive investment platform through its unique green asset portfolio, 100% occupancy at all times, and steady dividend payout. It operates in a crisis-proof and essential industry, considering the shift towards renewable energy.\nCREIT joins the global efforts towards achieving a low-carbon and climate-resilient future. CICERO Shades of Green recognized the Company’s sustainability commitment. In November 2021, they awarded CREIT its highest rating or the ‘Dark Green’ rating, with CREIT being the first to receive this in Southeast Asia.\nEnfinity Philippines Renewable Resources, Inc. (‘EPRRI’) – a wholly-owned power generation company by CREC, established in the Philippines and incorporated on July 15, 2010, focusing on exploration, development and utilization of renewable resources such as sun and wind – was renamed Citicore Energy REIT Corp. on October 12, 2021.\nINSTALLED CAPACITY145 MegawattsEquivalents Installed Capacity of Operating Tenants\nGROSS LEASABLE AREA7.1 Million Square MetersGross Leasable Area\n13 Land parcels leased out to solar operators and developers\nSECURED LONG-TERM OFFTAKE CONTRACTS75% contracted under bilateral Power Supply Agreements25% qualified under Feed-in-Tariff II Program with Certificate of Compliance eligibility for FIT II rate\nCiticore Energy REIT Corp. (C-REIT)is the country’s first energy REIT, focused on delivering excellent value and attractive returns to shareholders by responsibly harnessing nature’s resources and empowering communities. C-REIT operates as a REIT upon compliance with the Philippine REIT Law.\nBoard of Directors,Management Team and Executive Officers\nNotice of Annual or Special Stockholder's Meetings\nMinutes of all General or Special Stockholders Meetings",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "REDC: Acquisition or Disposition of Shares of Another Corporation",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=43ded6d57d8356c864d70b69f0a3140b",
+      "publishedAt": "2026-06-01",
+      "sourceType": "primary",
+      "text": "ACQUISITION OF 100% OF THE CAPITAL STOCK OF TAFT HYDROENERGY CORPORATION (THEC) AND ITS 15.93MW TUBIG HYDROPOWER PLANT LOCATED IN THE VISAYAS, BY THE COMPANY AND OTHER ENTITIES, SUBJECT TO CLOSING CONDITIONS.\n\nON 28 MAY 2026, THE COMPANY ALONG WITH OTHER ENTITIES, EXECUTED A SHARE PURCHASE AGREEMENT (SPA) WITH THE SELLERS OVER THE LATTER'S SHAREHOLDINGS IN THEC REPRESENTING 100% OF THE CAPITAL STOCK THEREOF (THE SALE SHARES). THEC OWNS THE 15.93MW TUBIG HYDROPOWER PLANT LOCATED IN THE VISAYAS (THE NEW ASSET).\n\nTHE ACQUISITION OF THEC AND ITS 15.93MW TUBIG HYDROPOWER PLANT (THE NEW ASSET) WILL FURTHER GROW THE PORTFOLIO OF OPERATIONAL HYDROPOWER PLANTS OF THE COMPANY, AND THEREBY CONTRIBUTE TO AND INCREASE THE COMPANY'S INCOME AND CASHFLOW.UPON CONCLUSION OF THIS TRANSACTION, THE NEW ASSET WILL BE THE 10TH OPERATIONAL HYDROPOWER PLANT OF THE COMPANY THEREBY INCREASING THE COMPANY'S OPERATIONAL CAPACITY BY AROUND 45%.\n\nUPON CLOSING THE TRANSACTION, THE PARTIES TO THE SPA WILL EXECUTE DEEDS OF SALE OVER THE SHARES OF THEC.\n\nTAFT HYDROENERGY CORPORATION IS A RE DEVELOPER DULY REGISTERED WITH THE DEPARTMENT OF ENERGY, AND IS THE OWNER OF THE 15.93MW TUBIG HYDROPOWER PLANT SITUATED IN THE VISAYAS REGION.\n\nTHE TOTAL CONSIDERATION FOR THIS TRANSACTION IS P3.925B PAYABLE UPON CLOSING UNDER THE SPA.\n\nCASHFLOW OF THE HYDROPOWER BUSINESS\n\nCASH AND FINANCING.THE FULL PAYMENT FOR THE ACQUISITION SHARES WILL BE MADE UPON SATISFACTION OF THE CLOSING CONDITIONS STATED IN THE SHARE PURCHASE AGREEMENT.\n\nCOMPLIANCE WITH GOVERNMENTAL AUTHORIZATIONS, SUCH AS BUT NOT LIMITED TO PCC CLEARANCE, PUNCHLIST, COMPLIANCE WITH FUNDAMENTAL AND BUSINESS WARRANTIES, REQUIRED CONSENT FROM AND PROVISION OF NOTICES TO COUNTER-PARTIES INCLUDING LENDER/S, AND OTHER CUSTOMARY CLOSING CONDITIONS.\n\nSHARES TO BE ACQUIRED BY THE FOLLOWING ENTITIES INCLUDING THE COMPANY:REDC, THE COMPANY: 520,000,000 TOKAI CORPORATION: 520,000,000 SOUTH EAST ENERGY CORPORATION: 260,000,000\n\nTHE ACQUISITION OF THEC AND ITS 15.93MW TUBIG HYDROPOWER PLANT (THE NEW ASSET) WILL ENTAIL THE OPERATION OF THE 10TH HYDROPOWER PLANT OF THE COMPANY, THEREBY INCREASING THE COMPANY’S OPERATIONAL CAPACITY BY APPROXIMATELY 45%, AND FURTHER GROWING REDC’S PORTFOLIO OF HYDROPOWER BUSINESS.\n\nTHIS DISCLOSURE IS MADE FOR PURPOSES OF USING THE MORE APPROPRIATE PSE DISCLOSURE FORM AND COMPLYING WITH APPLICABLE PSE DISCLOSURE REQUIREMENTS. THE MATTERS DISCLOSED HEREIN WERE PREVIOUSLY DISCLOSED UNDER PSE FORM 4-1.THE DATE OF BOARD APPROVAL R",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "CREIT poised to acquire new solar energy assets",
+      "source": "Inquirer.net",
+      "url": "https://business.inquirer.net/594358/creit-poised-to-acquire-new-solar-energy-assets",
+      "publishedAt": "2026-06-09",
+      "sourceType": "news",
+      "text": "CREIT poised to acquire new solar energy assets",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "Citicore REIT CEO goes bargain hunting, boosts stake by 60%",
+      "source": "insiderph.com",
+      "url": "https://insiderph.com/citicore-reit-ceo-goes-bargain-hunting-boosts-stake-by-60",
+      "publishedAt": "2026-09-29",
+      "sourceType": "news",
+      "text": "Citicore Energy REIT Corp. president and CEO Oliver Tan spent about P12.8 million buying shares of the company he runs as the stock struggles against a tougher backdrop for real estate investment trust (REIT) firms.\nTan bought 4.43 million CREIT shares over six trading days from Sept. 18 to 25 at P2.83 to P2.89 apiece, increasing his holdings by nearly 60 percent.\nThe buying comes with CREIT down more than 19 percent since the start of the year, as higher interest rates and rising bond yields make dividend-paying REITs less attractive to some investors.\nTan is bargain hunting as the renewable energy landlord booked P916 million in first-half revenue and P686 million in net income, while keeping its quarterly dividend unchanged at P0.049 per share.\nIts properties also remained fully occupied, with leases having an average 19 years remaining, giving CREIT a long stream of contracted rent.",
+      "role": "search",
+      "synthetic": false
+    }
+  ]
+}

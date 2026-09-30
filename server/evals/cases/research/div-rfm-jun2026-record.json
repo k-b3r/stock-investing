@@ -1,0 +1,116 @@
+{
+  "id": "div-rfm-jun2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:15.921Z",
+  "ticker": "RFM",
+  "company": "RFM Corporation",
+  "category": "dividends",
+  "asOf": "2026-07-01",
+  "question": "What is the record date of the cash dividend RFM Corporation declared on 24 June 2026?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-07-08"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "RFM declares cash dividend",
+      "source": "The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaHFOTkFDZlVhcF9TTzN2anRnSEtDQzljVWtrZzVJbUhqWHRWaG5xNlRQMkZPT1FCRUFXV2dxd3hfZmRpVkRIejQ5enQxa0VoOVdfZThTbktrUF9COEZJY2I5dlJhWTBaR3dhSkljTklLMEtxb1duUVhFYkJKZ19Qdy1PNDl4S0JiNkpoeHZ4eGpGbW1TbU8tV21sd9IBoAFBVV95cUxNV0wydTc1N0NGTkw5MEhFd2hNaUc2SENFWFdVc2hJTDFvX1J2cUs5YjV3WDlXV3BndVFqTnY4WGVBUWFpbExXb29yMEhlVDRQcWRuV0xaaGdhX0R1bUVPZkxWek54VF9JZjV2MlpTcGVYZk93UlNUSjNnM25mMVhKWjJpeVVhLVdsclgzSGRpeDZUVExJdl96YksyZUVBYXZR?oc=5",
+      "publishedAt": "2026-06-25",
+      "sourceType": "news",
+      "text": "RFM declares cash dividend",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "RFM stock: Dividend record date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/rfm",
+      "publishedAt": "2026-07-01",
+      "sourceType": "aggregator",
+      "text": "RFM Corporation (PSE: RFM), company snapshot.\nDividend record date: April 23, 2026.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    },
+    {
+      "id": "d3",
+      "title": "RFM bets on dairy growth, declares additional ₱300-million dividend",
+      "source": "mb.com.ph",
+      "url": "https://mb.com.ph/2026/06/24/rfm-bets-on-dairy-growth-declares-additional-300-million-dividend",
+      "publishedAt": "2026-06-24",
+      "sourceType": "news",
+      "text": "RFM bets on dairy growth, declares additional ₱300-million dividend",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "PMPC: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6dc5541783e1fd3964d70b69f0a3140b",
+      "publishedAt": "2026-05-21",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividend\n\nPlease be informed of the adoption and approval by our Board of Directors on May 21, 2026 of a resolution declaring (67.91%) of capital cash dividend equivalent to P0.6791 per share or the total amount of Php 287,064,106.37 in favor of all its stockholders of record as of June 8, 2026 payable on June 25, 2026.\n\nCash Dividend taken net income of fiscal year 2025 ending March 31, 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "RFM lifts total 2026 cash dividends to P900M",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/597401/rfm-lifts-total-2026-cash-dividends-to-p900m",
+      "publishedAt": "2026-06-26",
+      "sourceType": "news",
+      "text": "RFM lifts total 2026 cash dividends to P900M",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "PSE: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=19e1a6c4cd13c47e64d70b69f0a3140b",
+      "publishedAt": "2026-04-23",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nThe Board of Directors of the Company, in its regular meeting held today, approved the declaration of cash dividend this year as follows:(a) P5.50 to stockholders of record as of 8 May 2026, payable on May 15, 2026; and(b) P5.50 to stockholders of record as of October 1, 2026, payable on October 12, 2026.\n\nUnrestricted retained earnings as of 31 December 2025",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "RFM: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7a0578c523c5bac064d70b69f0a3140b",
+      "publishedAt": "2026-04-09",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nDuring its Regular Meeting on 8 April 2026, the Board of Directors of RFM Corporation declared cash dividends amounting to Php300 Million or Php0.08903 per share to stockholders of record as of April 23, 2026 and payable on May 20, 2026.\n\nUnrestricted retained earnings as of 31 December 2025.\n\nThe declared cash dividend today is one of the tranches to pay out RFM Corporation's yearly cash dividend policy based on recurring net income.",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "TEL: Update on Corporate Actions/Material Transactions/Agreements",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=61780d0eac86fb7164d70b69f0a3140b",
+      "publishedAt": "2026-06-05",
+      "sourceType": "primary",
+      "text": "Update on the proposed acquisition by PLDT Inc. of Paragon Vertical Corporation's 65.1% equity interest in Radius Telecoms, Inc.\n\nFurther to the disclosure submitted to the PSE on May 14, 2026, PLDT Inc. (the “Company”) announces that, on June 4, 2026, the Company executed a Share Purchase Agreement with Paragon Vertical Corporation (“Paragon”) and Radius Telecoms, Inc. (“Radius”) covering the proposed acquisition by the Company of Paragon’s 65.1% equity interest in Radius.Under the Share Purchase Agreement, Paragon’s 65.1% equity interest consists of 4,647,494 common shares registered in the name of Paragon, together with the beneficial interest in 6 qualifying shares held by nominee directors of Radius for and on behalf of Paragon.Closing under the Share Purchase Agreement remains subject to the applicable regulatory approvals and closing conditions. Upon Closing, the Company will own 100% of Radius.We will make the necessary updates in accordance with applicable disclosure requirements.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "RFM: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b71207ddf749ce9c64d70b69f0a3140b",
+      "publishedAt": "2026-06-24",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nDuring its Regular Meeting on 24 June 2026, the Board of Directors of RFM Corporation declared cash dividends amounting to Php300 Million or Php0.08903 per share to stockholders of record as of July 8, 2026 and payable on July 31, 2026.\n\nUnrestricted retained earnings as of 31 December 2025.\n\nThe declared cash dividend today is one of the tranches to pay out RFM Corporation's yearly cash dividend policy based on recurring net income.",
+      "role": "answer",
+      "synthetic": false
+    }
+  ]
+}

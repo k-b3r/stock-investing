@@ -1,0 +1,116 @@
+{
+  "id": "div-fph-2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:20:54.249Z",
+  "ticker": "FPH",
+  "company": "First Philippine Holdings Corporation",
+  "category": "dividends",
+  "asOf": "2026-06-10",
+  "question": "What is the record date of the cash dividend on common shares First Philippine Holdings declared in May 2026?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-06-15"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "FPH: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=533fd584cb7210a564d70b69f0a3140b",
+      "publishedAt": "2026-05-28",
+      "sourceType": "primary",
+      "text": "Declaration of cash dividends on common shares\n\nAt its meeting held earlier today, the Board of Directors of First Philippine Holdings Corporation approved the declaration of cash dividends on common shares in the amount of PHP1.10 per common share with a record date of June 15, 2026 and payable on July 7, 2026.\n\nUnrestricted Retained Earnings as of December 31, 2025",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "KEP: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=7fc50f68fae7c89d64d70b69f0a3140b",
+      "publishedAt": "2026-04-09",
+      "sourceType": "primary",
+      "text": "Results of the Tender Offer of Forward Synergy Group, Inc.\n\nOn 8 April 2026, Keppel Philippines Properties, Inc. (“KEP”) received a certification from the Tender Offer Agent of the Mandatory Tender Offer (“MTO”) conducted by Forward Synergy Group, Inc. from 3 March 2026, 9:00 a.m. to 1 April 2026, 12:00 p.m., at the Tender Offer Price of Php1.8526 per common share. The total number of shares tendered and accepted is One Hundred Nine Thousand Two Hundred Ninety-Seven (109,297) common shares at the Tender Offer Price of Php1.8526 per common share, for a total amount of Two Hundred Two Thousand Four Hundred Eighty-Three and 62/100 Pesos (Php202,483.62). This represents 4/100 percent (0.04%) of KEP’s total outstanding shares prior to the Cross Date of the MTO on 10 April 2026.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "CLI: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c7ed1ac173b5962764d70b69f0a3140b",
+      "publishedAt": "2026-04-22",
+      "sourceType": "primary",
+      "text": "Cebu Landmasters opens Philippines’ first Radisson RED in Mandaue City, Cebu\n\n1. First in the Philippines: CLI Hotels and Resorts opens Radisson RED Cebu Mandaue, a Php 1.99 B development and the country’s first Radisson RED, expanding Cebu Landmasters’ hospitality portfolio.2. Full-service hotel offering: The 144-key hotel features five room categories, Mediterranean dining, lifestyle amenities, and flexible event spaces.3. Expands CLI’s recurring income base: The opening marks Cebu Landmasters’ fifth operational hotel, with more hospitality projects in the pipeline, strengthening its recurring income alongside its core residential business.For more information, please see attached SEC Form 17-C.\n\nNOTE: The disclosure contains forward-looking statements and facts that are subject to considerable risks and uncertainties. These forward-looking statements include, but are not limited to, statements about known and unknown risks; uncertainties and other factors that may cause actual results to differ from expected future performance.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "REDC: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=c98854625f0e39ef64d70b69f0a3140b",
+      "publishedAt": "2026-04-24",
+      "sourceType": "primary",
+      "text": "Incorporation of Kitaotao Hydropower Corporation and Subscription of Repower Energy Development Corporation ('REDC') to shares of the same.\n\nKitaotao Hydropower Corporation shall have an Authorized Capital Stock of Fifty Million Pesos (Php 50,000,000.00).REDC will subscribe to Twelve Million Five Hundred Thousand (12,500,000) shares with a par value of One Peso (Php 1.00) per share or a total of Twelve Million Five Hundred Thousand Pesos (Php 12,500,000.00).Kitaotao Hydropower Corporation shall be a wholly-owned subsidiary of REDC and will be engaged in the operations of hydropower projects, in furtherance of the existing business of REDC.\n\nThis subscription shall be conditioned on the approval of the Securities and Exchange Commission of the Application for Incorporation of Kitaotao Hydropower Corporation.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Tender offer price for FPH deemed fair, reasonable",
+      "source": "business.inquirer.net",
+      "url": "https://business.inquirer.net/314045/tender-offer-price-for-fph-deemed-fair-reasonable",
+      "publishedAt": "2020-12-16",
+      "sourceType": "news",
+      "text": "Tender offer price for FPH deemed fair, reasonable",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "[ANALYSIS] A closer look at Lucio Tan’s PNB Holdings’ listing on the PSE",
+      "source": "rappler.com",
+      "url": "https://www.rappler.com/business/analysis-lucio-tan-pnb-holdings-listing-philippine-stock-exchange/",
+      "publishedAt": "2026-01-09",
+      "sourceType": "news",
+      "text": "PNB Holdings Corporation (PNB Holdings) is listing its shares on the Philippine Stock Exchange (PSE) in what is known as “listing by way of introduction” (LBWI).\nThe plan has long been laid out but the process only gained traction recently when the company took the formal steps on December 26, 2025, leading to the filing of the listing application with the Securities and Exchange Commission (SEC) and the PSE — with the listing to have been occurred this week.\nRecall that the board of directors of the Philippine National Bank (PNB) approved on April 23, 2021 the property dividend declaration of up to 239,353,710 common shares of PNB Holdings to all stockholders of record as of May 18, 2021.\nProperty dividends occur when a company declares and distributes assets other than cash, such as shares of stocks in a company’s subsidiary or affiliate or tangible products of the company.\nThrough the distribution of PNB Holdings shares via the declaration of the property dividends, all shareholders of PNB will become part owners of the company, allowing them to benefit from future potential gains from the development of the properties held by the former.\nThe potential gains may materialize in the form of an increase in the valuation of the shares received or entitlement to dividends out of the earnings realized from the company’s property assets.\nThe property dividend was paid at a ratio of 0.156886919 shares of PNB Holdings for every 1 share of PNB. The ratio for property dividend was determined by dividing the total number of outstanding shares declared as property dividends of PNB Holdings, which is 239,353,710 common shares, by the total number of outstanding shares of PNB of 1,525,764,850.\nThe distribution of the property dividends to PNB’s shareholders has been going since October 25, 2024.\nIn case a stockholder was entitled to a fractional PNB Holdings share, PNB will pay for such fraction in cash based on par value on the payment or settlement date.\nOnly stockholders who have settled the required Final Withholding Tax (FWT) and has received the electronic Certificates Authorizing Registration (eCARs) from the Bureau of Internal Revenue (BIR) could claim the property dividend.\nLBWI is not a new method for public listing. It has been one of the listing standards long availed of in the local bourse by securities issuers.\nDue to some questions encountered in the past about its sound application, it was suspended for further review by the Securities and Exchange Com",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "FPH: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=dbdc9c0eafe3d1f7ec6e1601ccee8f59",
+      "publishedAt": "2025-10-09",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends on Common Shares\n\nPlease be advised that the Board of Directors of First Philippine Holdings Corporation today approved the declaration of cash dividends on common shares in the amount of PHP1.10 per common share with a record date of November 20, 2025 and payable on December 15, 2025.\n\nUnrestricted Retained Earnings as of December 31, 2024",
+      "role": "stale",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "How the Lopez Family Lost Meralco",
+      "source": "Esquire PH",
+      "url": "https://www.esquiremag.ph/long-reads/profiles/how-the-lopez-family-lost-meralco-a7467-20260404-dyn",
+      "publishedAt": "2026-04-04",
+      "sourceType": "news",
+      "text": "How the Lopez Family Lost Meralco",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d9",
+      "title": "FPH stock: Dividend record date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/fph",
+      "publishedAt": "2026-06-10",
+      "sourceType": "aggregator",
+      "text": "First Philippine Holdings Corporation (PSE: FPH), company snapshot.\nDividend record date: November 20, 2025.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    }
+  ]
+}

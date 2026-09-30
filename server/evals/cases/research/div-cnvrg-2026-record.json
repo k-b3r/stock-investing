@@ -1,0 +1,105 @@
+{
+  "id": "div-cnvrg-2026-record",
+  "suite": "research",
+  "frozenAt": "2026-09-29T17:21:31.864Z",
+  "ticker": "CNVRG",
+  "company": "Converge Information and Communications Technology Solutions, Inc.",
+  "category": "dividends",
+  "asOf": "2026-03-20",
+  "question": "What is the record date of the regular cash dividend Converge declared on March 6, 2026?",
+  "answer": {
+    "kind": "date",
+    "value": "2026-03-23"
+  },
+  "verified": false,
+  "docs": [
+    {
+      "id": "d1",
+      "title": "CNVRG: Declaration of Cash Dividends",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8c065928ee5e247f64d70b69f0a3140b",
+      "publishedAt": "2026-03-09",
+      "sourceType": "primary",
+      "text": "Declaration of Cash Dividends\n\nIn light of the Company’s strong performance for FY 2025, the Board of Directors, at its meeting held today, March 6, 2026, approved the declaration of regular cash dividends as follows:Declaration Date: March 6, 2026Record Date: March 23, 2026Payment Date: April 1, 2026Amount: Php0.4900 per common shareSource: Unrestricted retained earnings of 2025 Audited Financial Statements\n\nUnrestricted retained earnings of 2025 Audited Financial Statements",
+      "role": "answer",
+      "synthetic": false
+    },
+    {
+      "id": "d2",
+      "title": "GMA7: Material Information/Transactions",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f57a0f3ab98c3f79ec6e1601ccee8f59",
+      "publishedAt": "2025-10-23",
+      "sourceType": "primary",
+      "text": "Results of BOD Meeting\n\nDuring the regular meeting of the Board held today via remote communication, the following was approved;Authorization to incorporate a Joint Venture Company with Viva Records Corporation to engage in music related business, such as, but not limited to, music production, recording, marketing, promotion and distribution, artist management and music publishing.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d3",
+      "title": "First Metro sees PSEi at 6,500 by end-2026",
+      "source": "business.inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZzN4dEg3alBuc3pFTFM0N0h1NTdJWkd5SlVKWXpnZTNjUXJmTThvNkJDcVFWSXA2RFhYY2R0a2Fja192UXB2M3R1R1duSEMwY3RNSFhrVG1OaDBVb2hMRVRFVi1GaUFmX1BMQURERXZPV2ZrQmw4NzNPQkx1NmUtUDVlV3DSAYoBQVVfeXFMUGttZ0lkaDh4RTAwZjNzeHp4ajdMbk5leDYzMVlDSC1qYWJ4STVDVWtwblduNENwbHdGYXlSdjFaOG1uenU1OTBITVQxSVRVbzh0dEJUZ2duMmVsSmJUS2hrTXpvbnBEVVRIdUJLU1ZyXzVDY3k3VE50a2dfaXN2amtSTjRqU29mNlNR?oc=5",
+      "publishedAt": "2025-12-24",
+      "sourceType": "news",
+      "text": "First Metro sees PSEi at 6,500 by end-2026",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d4",
+      "title": "Earnings call transcript: Converge ICT Q4 2025 beats EPS expectations",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWpacUFvTktBVXdwUnFXamRiUnlONnFZVEpWUXo4WHV2dENCQ1BDMTBNSUcyTVFmSVB6R2s4Q2xpbTh2Z2VrbmZZMmRJMzl6emcyV0JIczJMOGV5REhSVEpLcExudG8wVThzQUdHLUoxN21WdmVUU1RfT3MwbWpyVWU5a010Z3kzZnNYZHFfUll5MEU4TDh3em1fUTgtd2xQQ3dhTHpXSlAxQjROblF6bmlodmxHM28ydnhFcnBBbHZ5UQ?oc=5",
+      "publishedAt": "2026-03-13",
+      "sourceType": "news",
+      "text": "Earnings call transcript: Converge ICT Q4 2025 beats EPS expectations",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d5",
+      "title": "Fiber giant Converge ICT hits 19-month high after special dividend announcement",
+      "source": "InsiderPH",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUzF4aHEydXF6bU12VTdPWVI5MmFabXZieC1Ud2x0OXlrSU9IR2J6QUw4b3RSNFRDZmdzMzJPY3dCUkxBeUtaSkJ6bV9VQzZnQUNFNVo1RnhjNkZzSWo1dmtTRmh5Rno2SktPc2w5RU0wNVBGYXZJTlY2azlhaGdHWktKVTE0aG1Wcm5qcGdQejFEOG80ZTR2RnJoRUdlTmtzTzBn?oc=5",
+      "publishedAt": "2024-09-11",
+      "sourceType": "news",
+      "text": "Fiber giant Converge ICT hits 19-month high after special dividend announcement",
+      "role": "search",
+      "synthetic": false
+    },
+    {
+      "id": "d6",
+      "title": "COAL: Clarification of News Reports",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=2a825d89fc0ac9adec6e1601ccee8f59",
+      "publishedAt": "2025-12-26",
+      "sourceType": "primary",
+      "text": "CLARIFICATION OF NEWS REPORT\n\nTHE COMPANY CAN ONLY CONFIRM THAT THE NEWS ARTICLE APPEARS TO HAVE BEEN POSTED IN INSIDER PH ON THE DATE STATED OR 23 DECEMBER 2025 UPON CHECKING THE SOURCE GIVEN IN THE EXCHANGE'S CORRESPONDENCE.IT IS ALSO EVIDENT THAT NONE OF THE STATEMENTS MADE IN THE ARTICLE WERE MADE BY THE COMPANY, NOR DOES IT APPEAR THAT THE ARTICLE WAS POSTED BY THE COMPANY. THOUGH ITS NAME WAS MENTIONED IN THE ARTICLE, IT APPEARS THAT NONE OF THE COMPANY'S OFFICERS OR DIRECTORS WAS QUOTED TO HAVE MADE ANY OF THE STATEMENTS IN THE ARTICLE.SPECIFICALLY, AS TO THE PLANS OF COMBINING WITH PRIME WATER INFRASTRUCTURE, THIS IS A MATTER BETTER ADDRESSED BY THE PARTIES CONCERNED AS TO ANY PLANS, IF AT ALL, NAMELY PRIME WATER AND TUBIG PILIPINAS GROUP INC. (\"TPGI\"); AS TO THE COMPANY'S BUSINESS PLAN/STRATEGY IN RELATION TO THE ACQUISITION OF TPGI AS OF DATE, THE ONLY STEP BEING PROFFERED AT THE MOMENT IS THE PROPOSED SHARE-SWAP BETWEEN THE COMPANY AND ITS CURRENT CORPORATE SHAREHOLDERS, PURE WATER CORPORATION AND QUAD WATER CORPORATION, AND POTENTIALLY THE FOREIGN COMPONENT OF TPGI; AND AS TO IMPACT ON THE FINANCIAL CONDITION AND BUSINESS OPERATIONS OF THE COMPANY (\"COAL\"), NO RESULTS AS TO ANY PRELIMINARY EVALUATION CAN BE CITED AS OF THE MOMENT.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d7",
+      "title": "AUB: Press Release",
+      "source": "PSE Edge",
+      "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=38a0bbaa4ec1d3acec6e1601ccee8f59",
+      "publishedAt": "2025-10-30",
+      "sourceType": "primary",
+      "text": "AUB sustains profitability with double-digit ROE as of Q3 2025\n\nAsia United Bank Corporation will be issuing the attached press release entitled “AUB sustains profitability with double-digit ROE as of Q3 2025”.",
+      "role": "noise",
+      "synthetic": false
+    },
+    {
+      "id": "d8",
+      "title": "CNVRG stock: Dividend record date",
+      "source": "Stock data aggregator",
+      "url": "https://aggregator.example/stocks/cnvrg",
+      "publishedAt": "2026-03-20",
+      "sourceType": "aggregator",
+      "text": "Converge Information and Communications Technology Solutions, Inc. (PSE: CNVRG), company snapshot.\nDividend record date: April 1, 2026.\nFigures are compiled automatically from exchange announcements and third-party feeds and may not reflect later amendments. Not investment advice.",
+      "role": "conflict",
+      "synthetic": true
+    }
+  ]
+}
