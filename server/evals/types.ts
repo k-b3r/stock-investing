@@ -16,7 +16,8 @@ export interface ThesisExpectations {
   allowedVerdicts: Verdict[];
   // Numeric context fields that are null (shown as N/A); the thesis must not state values for them
   missingFields: string[];
-  // price-shift: id of the real case this differs from only in price (the lower price should never get a worse verdict)
+  // price-shift: id of the real case this differs from only in price; the verdict must move toward buy at the lower
+  // price and toward pass at the higher one (unchanged fails, see gradePriceShift)
   pair?: string;
   // trap: fields holding impossible values and what the model should notice
   trap?: { fields: string[]; description: string };
@@ -71,6 +72,24 @@ export interface FormatGradeResult extends GradeResult {
   usable: boolean;
 }
 
+export interface NumbersGradeResult extends GradeResult {
+  figures: number;
+  // Labeled figure that contradicts its field ("P/E of 20x" when P/E is 13.4)
+  wrong: number;
+  // Figure matching nothing in the frozen data, or quoting a field that is null
+  invented: number;
+}
+
+// Per-run grader keys. Graders that don't apply to a case are omitted.
+export interface RunGrades {
+  format?: FormatGradeResult;
+  numbers?: NumbersGradeResult;
+  verdict?: GradeResult;
+  naHandling?: GradeResult;
+  trap?: GradeResult;
+  sanity?: GradeResult;
+}
+
 export interface RunResult {
   suite: Suite;
   caseId: string;
@@ -78,5 +97,5 @@ export interface RunResult {
   runIndex: number;
   startedAt: string;
   completion: Completion;
-  grades: { format?: FormatGradeResult } & Record<string, GradeResult>;
+  grades: RunGrades;
 }

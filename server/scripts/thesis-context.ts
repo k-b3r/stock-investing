@@ -206,3 +206,26 @@ export function parseThesisOutput(raw: string): ParsedThesis {
   }
   return { thesis, verdict, highlights };
 }
+
+const LEGAL_SUFFIX = /[,.]?\s+(inc|incorporated|corporation|corp|company|co|holdings)\.?$/i;
+// First words too generic to identify a company on their own ("San" Miguel, "Bank" of the Philippine Islands)
+const GENERIC_FIRST_WORDS = new Set(['the', 'bank', 'first', 'san', 'philippine', 'philippines', 'manila', 'metro', 'global', 'united', 'asia', 'pacific', 'international']);
+
+// Lowercased ticker, full legal name, name without legal suffix, and first word when distinctive ("jollibee" for Jollibee Foods Corporation).
+export function companyNames({ ticker, companyName }: Pick<TickerContext, 'ticker' | 'companyName'>): string[] {
+  let base = companyName;
+  while (LEGAL_SUFFIX.test(base)) base = base.replace(LEGAL_SUFFIX, '');
+  const first = base.split(/\s+/)[0].replace(/[^\p{L}\p{N}&-]/gu, '');
+  const names = [ticker, companyName, base];
+  if (first.length >= 4 && !GENERIC_FIRST_WORDS.has(first.toLowerCase())) names.push(first);
+  return [...new Set(names.map((n) => n.toLowerCase()))];
+}
+
+// Last gate before storing a thesis; returns the rejection reason or null.
+export function sanityCheck(thesis: string, ctx: Pick<TickerContext, 'ticker' | 'companyName'>): string | null {
+  if (thesis.length < 500) return `too short (${thesis.length} chars)`;
+  const lower = thesis.toLowerCase();
+  if (!companyNames(ctx).some((n) => lower.includes(n))) return 'does not mention ticker or company name';
+  if (!/\b(buy|watch|pass)\b/i.test(thesis)) return 'no clear buy/watch/pass verdict found';
+  return null;
+}

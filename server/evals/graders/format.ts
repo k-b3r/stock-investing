@@ -1,19 +1,5 @@
-import { parseThesisOutput } from '../../scripts/thesis-context.ts';
+import { companyNames, parseThesisOutput } from '../../scripts/thesis-context.ts';
 import type { FormatGradeResult, ThesisCase } from '../types.ts';
-
-const LEGAL_SUFFIX = /[,.]?\s+(inc|incorporated|corporation|corp|company|co|holdings)\.?$/i;
-// First words too generic to identify a company on their own ("San" Miguel, "Bank" of the Philippine Islands)
-const GENERIC_FIRST_WORDS = new Set(['the', 'bank', 'first', 'san', 'philippine', 'philippines', 'manila', 'metro', 'global', 'united', 'asia', 'pacific', 'international']);
-
-// Ticker, full legal name, name without legal suffix, and first word when distinctive ("Jollibee" for Jollibee Foods Corporation).
-function companyNames({ ticker, companyName }: ThesisCase['context']): string[] {
-  let base = companyName;
-  while (LEGAL_SUFFIX.test(base)) base = base.replace(LEGAL_SUFFIX, '');
-  const first = base.split(/\s+/)[0].replace(/[^\p{L}\p{N}&-]/gu, '');
-  const names = [ticker, companyName, base];
-  if (first.length >= 4 && !GENERIC_FIRST_WORDS.has(first.toLowerCase())) names.push(first);
-  return names.map((n) => n.toLowerCase());
-}
 
 // Without these generate-thesis.ts stores the thesis minus its verdict/highlights; the rest are style rules.
 const USABLE_CHECKS = ['verdictParsed', 'threeHighlights'] as const;
@@ -44,7 +30,7 @@ export function gradeFormat(output: string, testCase: ThesisCase): FormatGradeRe
     noHeaders: [!header, `header in thesis: "${header?.slice(0, 60)}"`],
     noBullets: [!bullet, `bullet in thesis: "${bullet?.slice(0, 60)}"`],
     minLength: [thesis.length >= 500, `thesis only ${thesis.length} chars`],
-    namesCompany: [names.some((n) => lower.includes(n)), `company never named (looked for: ${[...new Set(names)].join(', ')})`],
+    namesCompany: [names.some((n) => lower.includes(n)), `company never named (looked for: ${names.join(', ')})`],
   } satisfies Record<string, [boolean, string]>;
 
   const checks = Object.fromEntries(Object.entries(results).map(([k, [ok]]) => [k, ok]));

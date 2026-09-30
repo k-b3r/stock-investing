@@ -3,7 +3,7 @@ import path from 'path';
 import { parseArgs } from 'util';
 import { EVAL_THESIS_INSTRUCTIONS } from './prompts.ts';
 import { complete } from './adapters/index.ts';
-import { gradeFormat } from './graders/format.ts';
+import { gradeRun } from './graders/index.ts';
 import { findModel } from './models.ts';
 import { casesDir, resultFile } from './paths.ts';
 import { printScorecard } from './scorecard.ts';
@@ -42,8 +42,7 @@ for (const spec of models) {
       process.stdout.write(`${spec.id.padEnd(20)} ${testCase.id.padEnd(8)} r${runIndex}  `);
       const startedAt = new Date().toISOString();
       const completion = await complete(spec, { system: EVAL_THESIS_INSTRUCTIONS, user: testCase.dataBlock });
-      const format = completion.error ? null : gradeFormat(completion.text, testCase);
-      const grades: RunResult['grades'] = format ? { format } : {};
+      const grades = completion.error ? {} : gradeRun(completion.text, testCase);
 
       const result: RunResult = { suite: 'thesis', caseId: testCase.id, model: spec.id, runIndex, startedAt, completion, grades };
       const file = resultFile('thesis', spec.id, testCase.id, runIndex);
@@ -51,10 +50,14 @@ for (const spec of models) {
       await writeFile(file, JSON.stringify(result, null, 2) + '\n');
 
       const cost = completion.costUsd === null ? 'N/A' : `$${completion.costUsd.toFixed(4)}`;
+      const { format, ...others } = grades;
       if (!format) console.log(`→ ERROR ${completion.error}`);
       else {
         const verdict = format.pass ? 'perfect' : format.usable ? `usable, style issues (${format.notes.join('; ')})` : `UNUSABLE (${format.notes.join('; ')})`;
         console.log(`→ format ${verdict}, ${(completion.latencyMs / 1000).toFixed(1)}s, ${cost}`);
+        for (const [name, grade] of Object.entries(others)) {
+          if (!grade.pass) console.log(`${' '.repeat(34)}${name} FAIL: ${grade.notes.join('; ')}`);
+        }
       }
     }
   }
