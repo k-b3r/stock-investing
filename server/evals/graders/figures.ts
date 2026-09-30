@@ -53,8 +53,8 @@ function derivedNumbers({ lastPrice, stickerPrice, mosPrice, pe, pb, dividendYie
 // grader skips them: entry prices and scenarios ("pullback toward the low ₱90s", "a buyer at ₱2.30",
 // "re-rating toward 0.6x book") and any range endpoint ("₱2.30–2.50", "10-12x"), since the data
 // only holds single values.
-const TARGET_LEAD = /(?:toward|towards|closer to|near|nearer|below|under|around|into|approach(?:es|ing)?|(?:drop|fall|pullback|pull back|decline|correction|drift)s? (?:to|toward|towards)|entry(?: price| point)?(?: of| at| near)?|buy(?:ing|er)? (?:at|below|under|near)|re-?rat(?:e|es|ing) (?:to|toward|towards)|applying an?)(?: or below| or under)?(?: the)?\s*(?:(?:low|mid|high|upper|lower)[- ]?)?$/i;
-const RANGE_BEFORE = /\d(?:\.\d+)?s?\s*(?:[–-]|to)\s*(?:₱|PHP ?|P)?$/;
+const TARGET_LEAD = /(?:toward|towards|closer to|near|nearer|below|under|around|into|approach(?:es|ing)?|(?:drop|fall|pullback|pull back|decline|correction|drift)s? (?:to|toward|towards)|entry(?: price| point)?(?: of| at| near)?|buy(?:ing|er)? (?:at|below|under|near)|re-?rat(?:e|es|ing) (?:to|toward|towards)|applying an?|interested (?:in|at))(?: or below| or under)?(?: the)?\s*(?:(?:low|mid|high|upper|lower)(?:-to-(?:low|mid|high|upper))?[- ]?)?$/i;
+const RANGE_BEFORE = /\d(?:\.\d+)?s?\s*(?:[–-]|to)\s*(?:(?:low|mid|high|upper|lower)[- ]?)?(?:₱|PHP ?|P)?$/;
 const RANGE_AFTER = /^s?\s*(?:[–-]|to\s)\s*(?:₱|PHP ?|P)?\d/;
 export function isHypothetical(text: string, figure: Figure): boolean {
   const before = text.slice(Math.max(0, figure.index - 40), figure.index);
@@ -63,12 +63,19 @@ export function isHypothetical(text: string, figure: Figure): boolean {
   return TARGET_LEAD.test(before) || RANGE_BEFORE.test(before) || RANGE_AFTER.test(after) || signedRange;
 }
 
+// "20%+", "over 20%", "at least ₱40": true when the data value is at or above the figure (within 1.5x, so any
+// big number in the data can't vouch for it)
+const MIN_BEFORE = /\b(?:over|more than|at least|above|upwards of|in excess of|north of)\s*$/i;
+export const isLowerBound = (text: string, figure: Figure) =>
+  text[figure.index + figure.raw.length] === '+' || MIN_BEFORE.test(text.slice(Math.max(0, figure.index - 20), figure.index));
+
 // Same tolerance as the fact-check prompt (~2 percentage points / 2% relative), plus rounding
 // to the stated precision ("₱37" for 36.80, "13x" for 13.38).
-export function matches(figure: Figure, expected: number): boolean {
+export function matches(figure: Figure, expected: number, atLeast = false): boolean {
   const diff = Math.abs(figure.value - Math.abs(expected));
   const tolerance = Math.max(0.02 * Math.abs(expected), 0.5 * 10 ** -figure.decimals, figure.unit === 'pct' ? 2 : 0);
-  return diff <= tolerance + 1e-9;
+  const abs = Math.abs(expected);
+  return (atLeast && abs >= figure.value && abs <= figure.value * 1.5) || diff <= tolerance + 1e-9;
 }
 
 // Unit each field's figures are written in; a figure with another unit isn't that field
@@ -92,7 +99,8 @@ const FIELD_UNITS: Record<NumericField, 'peso' | 'pct' | 'x'> = {
 
 export const FIELD_LABELS: Record<NumericField, RegExp> = {
   roic: /\broic\b|return on invested capital/,
-  epsGrowth: /\beps growth|earnings(?: per share)? growth/,
+  // Not bare "earnings growth": models use it for a single year's net income ("earnings growth (6% in 2025)")
+  epsGrowth: /\beps growth|earnings per share growth/,
   revenueGrowth: /revenue growth|sales growth|top[- ]line growth/,
   netIncomeGrowth: /net income growth|profit growth|bottom[- ]line growth/,
   fcfGrowth: /\bfcf growth|free cash flow growth/,

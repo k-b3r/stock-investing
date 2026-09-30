@@ -54,6 +54,23 @@ describe('gradeNumbers', () => {
     expect(gradeNumbers(text, areit).notes).toEqual([]);
   });
 
+  it('skips targets and ranges Sonnet wrote on ac-trap-pe and cbc', () => {
+    const text = areitThesis.replace('Rising bond yields', 'I would get interested in the low-to-mid ₱30s, or on a pullback toward the high ₱20s to low ₱30s. Rising bond yields');
+    expect(gradeNumbers(text, areit).notes).toEqual([]);
+  });
+
+  it('checks lower bounds against the data', () => {
+    // Revenue growth is 43.1%
+    expect(gradeNumbers(areitThesis.replace('Rising bond yields', 'Growth rates of 40%+ and over 30% are unlikely to last. Rising bond yields'), areit).pass).toBe(true);
+    expect(gradeNumbers(areitThesis.replace('Rising bond yields', 'Growth rates of 300%+ are unlikely to last. Rising bond yields'), areit).invented).toBe(1);
+  });
+
+  it('does not tie a single-year "earnings growth" figure to the 10-year EPS growth', () => {
+    // BDO's news says 2025 net income rose 6%; Sonnet wrote "earnings growth (6% in 2025)"
+    const text = areitThesis.replace('Rising bond yields', 'Slowing earnings growth (17.5% on average) is worth monitoring. Rising bond yields');
+    expect(gradeNumbers(text, areit).pass).toBe(true);
+  });
+
   it('accepts ratios and per-share values derived from the data', () => {
     // 37.50 / 45.20 = 83% of Sticker, 37.50 / 22.60 = 1.7x MOS, EPS = 37.50 / 13.64 = ₱2.75
     const text = areitThesis.replace('Rising bond yields', 'You pay 83% of the Sticker Price, 1.7x the MOS level, for EPS of roughly ₱2.75. Rising bond yields');

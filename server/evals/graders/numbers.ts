@@ -1,5 +1,5 @@
 import { parseThesisOutput } from '../../scripts/thesis-context.ts';
-import { extractFigures, isHypothetical, knownNumbers, labelFigures, matches } from './figures.ts';
+import { extractFigures, isHypothetical, isLowerBound, knownNumbers, labelFigures, matches } from './figures.ts';
 import type { NumbersGradeResult, ThesisCase } from '../types.ts';
 
 // Every figure in the thesis (body and highlights) must match the frozen data. A figure right after a
@@ -19,15 +19,16 @@ export function gradeNumbers(output: string, { context, dataBlock }: ThesisCase)
     const field = labeled.get(figure.index);
     if (!field && isHypothetical(text, figure)) continue;
     const expected = field ? context[field] : null;
+    const atLeast = isLowerBound(text, figure);
     if (field && expected === null) {
       invented++;
       notes.push(`"${figure.raw}" stated for ${field}, which is N/A`);
     } else if (field && expected !== null) {
-      if (!matches(figure, expected)) {
+      if (!matches(figure, expected, atLeast)) {
         wrong++;
         notes.push(`"${figure.raw}" for ${field}, data says ${+expected.toFixed(2)}`);
       }
-    } else if (!known.some((k) => matches(figure, k))) {
+    } else if (!known.some((k) => matches(figure, k, atLeast))) {
       invented++;
       notes.push(`"${figure.raw}" not in data`);
     }
