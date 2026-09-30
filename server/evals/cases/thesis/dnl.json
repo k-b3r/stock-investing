@@ -1,0 +1,106 @@
+{
+  "id": "dnl",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:45.931Z",
+  "context": {
+    "ticker": "DNL",
+    "companyName": "D&L Industries, Inc.",
+    "sector": "Industrial",
+    "subsector": "Food, Beverage & Tobacco",
+    "description": "D&L Industries, Inc. (DNL) was incorporated on July 27, 1971, primarily as the holding company for a group of companies engaged in product customization and specialization for the food, chemicals, plastics, and consumer products Original Design Manufacturing (ODM) industries. \n\nThe Company's business activities include manufacturing of customized food ingredients, oleochemicals for personal and home care use, and specialty raw materials for plastics. DNL also renders management and administrative services to subsidiaries and affiliate companies. The Company has four principal business lines: food ingredients; colorants and plastics additives; oleochemicals, resins and powder coatings; and consumer products ODM. \n\nDNL's major subsidiaries include Oleo-Fats, Incorporated; Chemrez Product Solutions, Inc.; First in Colours, Incorporated; Chemrez Technologies, Inc.; Aero-Pack Industries, Inc.; D&L Polymer & Colours, Inc.; Natura Aeropack Corporation; D&L Premium Foods Corp.; and Chemrez Technologies LLC. \n\nSource: SEC Form 17-A (2024)",
+    "roic": 8.129999999999999,
+    "epsGrowth": -2.21,
+    "revenueGrowth": 10.96,
+    "netIncomeGrowth": 1.28,
+    "fcfGrowth": 533.5425,
+    "bookValueGrowth": 5.885473701982047,
+    "debtEquity": 0.0778,
+    "lastPrice": 3.43,
+    "pe": 9.527777777777779,
+    "pb": 1.10271660504742,
+    "peg": null,
+    "dividendYield": 6.209912536443149,
+    "stickerPrice": null,
+    "mosPrice": null,
+    "disclosures": [
+      {
+        "date": "2026-06-08",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-06-08",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-08",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-06-08",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-05",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-25",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-25",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-25",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "[Amend-1]Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "D&L Industries hits record profits but warns of ‘pain’ ahead",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "D&L Q1 profit up 5% on inventory build-up amid Mideast conflict",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "D&L overcomes headwinds as profit grows 8% in H1",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "D&L Q1 net income up 5% to P717M",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "DNL Stock Price and Chart — PSE:DNL",
+        "source": "TradingView"
+      }
+    ]
+  },
+  "dataBlock": "## Company: D&L Industries, Inc. (DNL)\nSector: Industrial / Food, Beverage & Tobacco\nD&L Industries, Inc. (DNL) was incorporated on July 27, 1971, primarily as the holding company for a group of companies engaged in product customization and specialization for the food, chemicals, plastics, and consumer products Original Design Manufacturing (ODM) industries. \n\nThe Company's business activities include manufacturing of customized food ingredients, oleochemicals for personal and home care use, and specialty raw materials for plastics. DNL also renders management and administrative services to subsidiaries and affiliate companies. The Company has four principal business lines: food ingredients; colorants and plastics additives; oleochemicals, resins and powder coatings; and consumer products ODM. \n\nDNL's major subsidiaries include Oleo-Fats, Incorporated; Chemrez Product Solutions, Inc.; First in Colours, Incorporated; Chemrez Technologies, Inc.; Aero-Pack Industries, Inc.; D&L Polymer & Colours, Inc.; Natura Aeropack Corporation; D&L Premium Foods Corp.; and Chemrez Technologies LLC. \n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 8.1%\n- EPS Growth: -2.2%\n- Revenue Growth: 11.0%\n- Net Income Growth: 1.3%\n- FCF Growth: 533.5%\n- Book Value Growth: 5.9%\n- Debt/Equity: 0.08x\n\n## Valuation\n- Current Price: ₱3.43\n- P/E: 9.5x | P/B: 1.1x | PEG: N/Ax | Dividend Yield: 6.2%\n- Sticker Price (Rule #1 fair value): ₱N/A\n- MOS Buy Price (50% margin of safety): ₱N/A\n- Current price is N/A\n\n## Recent Disclosures (last 10)\n- 2026-06-08: Declaration of Cash Dividends\n- 2026-06-08: Material Information/Transactions\n- 2026-06-08: Declaration of Cash Dividends\n- 2026-06-08: Press Release\n- 2026-05-06: Press Release\n- 2026-05-05: Material Information/Transactions\n- 2026-03-25: Material Information/Transactions\n- 2026-03-25: Press Release\n- 2026-03-25: Material Information/Transactions\n- 2026-03-17: [Amend-1]Press Release\n\n## Recent News (last 5)\n- D&L Industries hits record profits but warns of ‘pain’ ahead (mb.com.ph)\n- D&L Q1 profit up 5% on inventory build-up amid Mideast conflict (Philippine News Agency)\n- D&L overcomes headwinds as profit grows 8% in H1 (Philstar.com)\n- D&L Q1 net income up 5% to P717M (business.inquirer.net)\n- DNL Stock Price and Chart — PSE:DNL (TradingView)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "midcap",
+    "band": "no-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "peg",
+      "stickerPrice",
+      "mosPrice"
+    ]
+  }
+}

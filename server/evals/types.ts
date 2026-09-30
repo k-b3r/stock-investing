@@ -1,6 +1,26 @@
-import type { TickerContext } from '../scripts/thesis-context.ts';
+import type { TickerContext, Verdict } from '../scripts/thesis-context.ts';
 
 export type Suite = 'thesis';
+
+export type PriceBand = 'below-mos' | 'mos-to-sticker' | 'above-sticker' | 'no-sticker' | 'no-price';
+export type IndexTier = 'psei' | 'midcap' | 'smallcap';
+// real = frozen as-is; the rest are copies of a real case with one kind of change
+export type CaseKind = 'real' | 'price-shift' | 'blanked' | 'trap';
+
+export interface ThesisExpectations {
+  kind: CaseKind;
+  // Real case this was derived from (null for real cases)
+  base: string | null;
+  tier: IndexTier;
+  band: PriceBand;
+  allowedVerdicts: Verdict[];
+  // Numeric context fields that are null (shown as N/A); the thesis must not state values for them
+  missingFields: string[];
+  // price-shift: id of the real case this differs from only in price (the lower price should never get a worse verdict)
+  pair?: string;
+  // trap: fields holding impossible values and what the model should notice
+  trap?: { fields: string[]; description: string };
+}
 
 export interface ThesisCase {
   id: string;
@@ -8,6 +28,7 @@ export interface ThesisCase {
   frozenAt: string;
   context: TickerContext;
   dataBlock: string;
+  expect: ThesisExpectations;
 }
 
 export type Provider = 'go' | 'claude-cli';

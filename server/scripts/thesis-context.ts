@@ -37,7 +37,8 @@ async function getNews(companyName: string): Promise<{ title: string; source: st
   return articles.slice(0, 5).map((a) => ({ title: a.title, source: a.source }));
 }
 
-export async function buildTickerContext(ticker: string): Promise<TickerContext | null> {
+// `news: false` skips the Google News fetch (callers that only need valuation numbers).
+export async function buildTickerContext(ticker: string, { news: withNews = true } = {}): Promise<TickerContext | null> {
   const upper = ticker.toUpperCase();
 
   const financialRow = await getFinancialByTicker(upper);
@@ -97,7 +98,7 @@ export async function buildTickerContext(ticker: string): Promise<TickerContext 
   const info = await getCompanyInfo(upper);
   const companyName = info?.cmpyNm ?? upper;
   const { lastPrice, high52w } = info ? await getStockDataByCmpyId(info.cmpyId) : { lastPrice: null, high52w: null };
-  const news = await getNews(companyName);
+  const news = withNews ? await getNews(companyName) : [];
 
   const pe = lastPrice && latestEps && latestEps > 0 ? lastPrice / latestEps : null;
   const pb = lastPrice && latestBvps && latestBvps > 0 ? lastPrice / latestBvps : null;

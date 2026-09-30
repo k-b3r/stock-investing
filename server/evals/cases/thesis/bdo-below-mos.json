@@ -1,0 +1,73 @@
+{
+  "id": "bdo-below-mos",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:41.539Z",
+  "context": {
+    "ticker": "BDO",
+    "companyName": "BDO Unibank, Inc.",
+    "sector": "Financials",
+    "subsector": "Banks",
+    "description": "BDO Unibank Inc. (BDO), originally known as Acme Savings Bank, was acquired by the SM Group in 1976. BDO listed its shares on the Philippine Stock Exchange on May 21, 2002. The Company merged with Equitable PCI Bank in May 2007.\n\nBDO offers an array of products and services including lending (corporate and consumer), deposit-taking, foreign exchange brokering, trust and investments, credit cards, retail cash cards, corporate cash management and remittances. Through its subsidiaries, the Company offers leasing and financing, investment banking, private banking, rural banking, life insurance, property and casualty insurance brokerage, and online and traditional stock brokerage services.\n\nThe Company's subsidiaries include BDO Capital & Investment Corporation; BDO Private Bank, Inc.; BDO Leasing and Finance, Inc.; BDO Finance Corporation; and BDO Securities Corporation.\n\nAs of December 31, 2024, BDO's network consists of 1,791 operating domestic branches (inclusive of one branch each in Hong Kong and Singapore), 4,923 automated teller machines, 481 universal teller machines, 411 cash accept machines, and 14 overseas remittance and representative offices across Asia, North America, Europe, and the Middle East.\n \nSource: SEC Form 17-A (2024)",
+    "roic": null,
+    "epsGrowth": 11.53,
+    "revenueGrowth": 11.43,
+    "netIncomeGrowth": 13.3,
+    "fcfGrowth": 26.439999999999998,
+    "bookValueGrowth": 10.942470847585305,
+    "debtEquity": 0.56,
+    "lastPrice": 47.9,
+    "pe": 2.942260442260442,
+    "pb": 0.41147915157981363,
+    "peg": 0.2551830392246697,
+    "dividendYield": 8.977035490605427,
+    "stickerPrice": 106.4405013385973,
+    "mosPrice": 53.22025066929865,
+    "disclosures": [
+      {
+        "date": "2026-07-08",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-07-08",
+        "template": "Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "ICTSI secures $1-B loan from BDO Unibank",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "SC: Depositor cannot be compelled to return money mistakenly credited",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "BDO posts ₱40.7B first-half net income",
+        "source": "SunStar Publishing Inc."
+      },
+      {
+        "title": "BDO nets ₱41 billion in first half as loan expansion counters higher provisions",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "BDO Unibank posted a record net income of P87.2 billion in 2025, a 6 percent increase from the P82 billion reported the previous year. | via ANC 24/7 Read more in the link in the comments section.",
+        "source": "facebook.com"
+      }
+    ]
+  },
+  "dataBlock": "## Company: BDO Unibank, Inc. (BDO)\nSector: Financials / Banks\nBDO Unibank Inc. (BDO), originally known as Acme Savings Bank, was acquired by the SM Group in 1976. BDO listed its shares on the Philippine Stock Exchange on May 21, 2002. The Company merged with Equitable PCI Bank in May 2007.\n\nBDO offers an array of products and services including lending (corporate and consumer), deposit-taking, foreign exchange brokering, trust and investments, credit cards, retail cash cards, corporate cash management and remittances. Through its subsidiaries, the Company offers leasing and financing, investment banking, private banking, rural banking, life insurance, property and casualty insurance brokerage, and online and traditional stock brokerage services.\n\nThe Company's subsidiaries include BDO Capital & Investment Corporation; BDO Private Bank, Inc.; BDO Leasing and Finance, Inc.; BDO Finance Corporation; and BDO Securities Corporation.\n\nAs of December 31, 2024, BDO's network consists of 1,791 operating domestic branches (inclusive of one branch each in Hong Kong and Singapore), 4,923 automated teller machines, 481 universal teller machines, 411 cash accept machines, and 14 overseas remittance and representative offices across Asia, North America, Europe, and the Middle East.\n \nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: N/A%\n- EPS Growth: 11.5%\n- Revenue Growth: 11.4%\n- Net Income Growth: 13.3%\n- FCF Growth: 26.4%\n- Book Value Growth: 10.9%\n- Debt/Equity: 0.56x\n\n## Valuation\n- Current Price: ₱47.90\n- P/E: 2.9x | P/B: 0.4x | PEG: 0.26x | Dividend Yield: 9.0%\n- Sticker Price (Rule #1 fair value): ₱106.44\n- MOS Buy Price (50% margin of safety): ₱53.22\n- Current price is BELOW MOS by 10.0%\n\n## Recent Disclosures (last 2)\n- 2026-07-08: Material Information/Transactions\n- 2026-07-08: Press Release\n\n## Recent News (last 5)\n- ICTSI secures $1-B loan from BDO Unibank (business.inquirer.net)\n- SC: Depositor cannot be compelled to return money mistakenly credited (Philippine News Agency)\n- BDO posts ₱40.7B first-half net income (SunStar Publishing Inc.)\n- BDO nets ₱41 billion in first half as loan expansion counters higher provisions (mb.com.ph)\n- BDO Unibank posted a record net income of P87.2 billion in 2025, a 6 percent increase from the P82 billion reported the previous year. | via ANC 24/7 Read more in the link in the comments section. (facebook.com)",
+  "expect": {
+    "base": "bdo",
+    "tier": "psei",
+    "kind": "price-shift",
+    "pair": "bdo",
+    "band": "below-mos",
+    "allowedVerdicts": [
+      "buy",
+      "watch"
+    ],
+    "missingFields": [
+      "roic"
+    ]
+  }
+}

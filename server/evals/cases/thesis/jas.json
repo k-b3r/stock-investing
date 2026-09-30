@@ -1,0 +1,92 @@
+{
+  "id": "jas",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:35.767Z",
+  "context": {
+    "ticker": "JAS",
+    "companyName": "Jackstones, Inc.",
+    "sector": "Property",
+    "subsector": "Property",
+    "description": "Jackstones, Inc. (JAS), formerly NextStage, Inc. (NXT), was originally incorporated on April 22, 1964 as Pacific Cement Company, Inc. to engage in the manufacture and trading of cement and related products. In June 2000, the Securities and Exchange Commission (SEC) approved the change in primary purpose of the Company to that of a holding company and changed its corporate name to PACEMCO Holdings, Inc. (PACEMCO). In December 2000, PACEMCO acquired 100% of the capital stock of NXT, and in 2001, the SEC approved the merger of PACEMCO and NXT, with the former as the surviving corporation. Subsequently, the SEC approved the change in name from PACEMCO to NXT.\n\nOn April 16, 2014, the SEC approved the Company's change in corporate name to its present name. The Company also moved to change the stock symbol to its current one effective May 13, 2014.\n\nJAS has one wholly-owned subsidiary, Jackstones Properties, Inc., a property developer which owns Michelia Residences located in Marikina City.\n\nSource: SEC Form 17-A (2024)",
+    "roic": -21.19,
+    "epsGrowth": null,
+    "revenueGrowth": null,
+    "netIncomeGrowth": null,
+    "fcfGrowth": 90.39000000000001,
+    "bookValueGrowth": null,
+    "debtEquity": null,
+    "lastPrice": 1.82,
+    "pe": null,
+    "pb": 12.691771269177128,
+    "peg": null,
+    "dividendYield": null,
+    "stickerPrice": null,
+    "mosPrice": null,
+    "disclosures": [
+      {
+        "date": "2026-02-05",
+        "template": "[Amend-1]Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-05",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-07-21",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-04-07",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-02-26",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Group of Lucio Tan’s brother buys 70% of Jackstones Inc.",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "JAS Stock Price and Chart — PSE:JAS",
+        "source": "TradingView"
+      },
+      {
+        "title": "Stock-Market Outlook",
+        "source": "businessmirror.com.ph"
+      },
+      {
+        "title": "PSE sanctions 10 firms for breaking disclosure rules",
+        "source": "BusinessWorld"
+      },
+      {
+        "title": "Philippine stock market shows mixed signals as investors weigh recovery and economic risks",
+        "source": "businessmirror.com.ph"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Jackstones, Inc. (JAS)\nSector: Property / Property\nJackstones, Inc. (JAS), formerly NextStage, Inc. (NXT), was originally incorporated on April 22, 1964 as Pacific Cement Company, Inc. to engage in the manufacture and trading of cement and related products. In June 2000, the Securities and Exchange Commission (SEC) approved the change in primary purpose of the Company to that of a holding company and changed its corporate name to PACEMCO Holdings, Inc. (PACEMCO). In December 2000, PACEMCO acquired 100% of the capital stock of NXT, and in 2001, the SEC approved the merger of PACEMCO and NXT, with the former as the surviving corporation. Subsequently, the SEC approved the change in name from PACEMCO to NXT.\n\nOn April 16, 2014, the SEC approved the Company's change in corporate name to its present name. The Company also moved to change the stock symbol to its current one effective May 13, 2014.\n\nJAS has one wholly-owned subsidiary, Jackstones Properties, Inc., a property developer which owns Michelia Residences located in Marikina City.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: -21.2%\n- EPS Growth: N/A%\n- Revenue Growth: N/A%\n- Net Income Growth: N/A%\n- FCF Growth: 90.4%\n- Book Value Growth: NaN%\n- Debt/Equity: N/Ax\n\n## Valuation\n- Current Price: ₱1.82\n- P/E: N/Ax | P/B: 12.7x | PEG: N/Ax | Dividend Yield: N/A%\n- Sticker Price (Rule #1 fair value): ₱N/A\n- MOS Buy Price (50% margin of safety): ₱N/A\n- Current price is N/A\n\n## Recent Disclosures (last 5)\n- 2026-02-05: [Amend-1]Material Information/Transactions\n- 2026-02-05: Material Information/Transactions\n- 2025-07-21: Material Information/Transactions\n- 2025-04-07: Material Information/Transactions\n- 2025-02-26: Material Information/Transactions\n\n## Recent News (last 5)\n- Group of Lucio Tan’s brother buys 70% of Jackstones Inc. (business.inquirer.net)\n- JAS Stock Price and Chart — PSE:JAS (TradingView)\n- Stock-Market Outlook (businessmirror.com.ph)\n- PSE sanctions 10 firms for breaking disclosure rules (BusinessWorld)\n- Philippine stock market shows mixed signals as investors weigh recovery and economic risks (businessmirror.com.ph)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "smallcap",
+    "band": "no-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "epsGrowth",
+      "revenueGrowth",
+      "netIncomeGrowth",
+      "debtEquity",
+      "pe",
+      "peg",
+      "dividendYield",
+      "stickerPrice",
+      "mosPrice"
+    ]
+  }
+}

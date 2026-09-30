@@ -1,0 +1,107 @@
+{
+  "id": "ddmpr",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:36.979Z",
+  "context": {
+    "ticker": "DDMPR",
+    "companyName": "DDMP REIT, Inc.",
+    "sector": "Property",
+    "subsector": "Property",
+    "description": "DDMP REIT, Inc. (DDMPR) was incorporated on October 27, 2014, as a real estate company primarily to construct DD Meridian Park, a 4.75 hectare mixed-use development situated in Pasay City. \n\nThe Company is a real estate investment trust formed primarily to own and invest in an income producing commercial portfolio of office, retail, industrial and hotel properties in the Philippines that meet its investment criteria for Grade A, centrally located, stably occupied, and income producing properties. The Company's sponsor is DoubleDragon Properties Corp. \n\nDDMPR's property portfolio consists of three commercial properties in DD Meridian Park. These are DoubleDragon Plaza, DoubleDragon Center East, and DoubleDragon Center West. The land on which these buildings are built forms part of the Company's asset portfolio and is owned by the Company. As of December 31, 2024, the Company's portfolio comprised approximately 172,252 square meters of gross leasable area.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 5.1,
+    "epsGrowth": -14.649999999999999,
+    "revenueGrowth": -3.35,
+    "netIncomeGrowth": -5.25,
+    "fcfGrowth": 20.741249999999997,
+    "bookValueGrowth": 16.97289693972246,
+    "debtEquity": null,
+    "lastPrice": 1.04,
+    "pe": 6.117647058823529,
+    "pb": 0.3125375646111312,
+    "peg": null,
+    "dividendYield": 9.216923076923077,
+    "stickerPrice": null,
+    "mosPrice": null,
+    "disclosures": [
+      {
+        "date": "2026-06-24",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-05-05",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-05",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-05",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-01-02",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-12-22",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-10-01",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-05-19",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-04-16",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2024-12-27",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "DoubleDragon REIT profit up 24.7% to P3.88B in Q1",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "DDMP REIT, Inc. Revenue Breakdown – PSE:DDMPR",
+        "source": "TradingView"
+      },
+      {
+        "title": "DoubleDragon’s DDMP REIT Inc. boosts shareholder dividends to P431.8M",
+        "source": "Panay News"
+      },
+      {
+        "title": "SEC OKs DoubleDragon’s REIT offering",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "PSE oks DDMP REIT IPO",
+        "source": "Philstar.com"
+      }
+    ]
+  },
+  "dataBlock": "## Company: DDMP REIT, Inc. (DDMPR)\nSector: Property / Property\nDDMP REIT, Inc. (DDMPR) was incorporated on October 27, 2014, as a real estate company primarily to construct DD Meridian Park, a 4.75 hectare mixed-use development situated in Pasay City. \n\nThe Company is a real estate investment trust formed primarily to own and invest in an income producing commercial portfolio of office, retail, industrial and hotel properties in the Philippines that meet its investment criteria for Grade A, centrally located, stably occupied, and income producing properties. The Company's sponsor is DoubleDragon Properties Corp. \n\nDDMPR's property portfolio consists of three commercial properties in DD Meridian Park. These are DoubleDragon Plaza, DoubleDragon Center East, and DoubleDragon Center West. The land on which these buildings are built forms part of the Company's asset portfolio and is owned by the Company. As of December 31, 2024, the Company's portfolio comprised approximately 172,252 square meters of gross leasable area.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 5.1%\n- EPS Growth: -14.6%\n- Revenue Growth: -3.4%\n- Net Income Growth: -5.3%\n- FCF Growth: 20.7%\n- Book Value Growth: 17.0%\n- Debt/Equity: N/Ax\n\n## Valuation\n- Current Price: ₱1.04\n- P/E: 6.1x | P/B: 0.3x | PEG: N/Ax | Dividend Yield: 9.2%\n- Sticker Price (Rule #1 fair value): ₱N/A\n- MOS Buy Price (50% margin of safety): ₱N/A\n- Current price is N/A\n\n## Recent Disclosures (last 10)\n- 2026-06-24: Declaration of Cash Dividends\n- 2026-05-05: Material Information/Transactions\n- 2026-05-05: Press Release\n- 2026-05-05: Declaration of Cash Dividends\n- 2026-01-02: Material Information/Transactions\n- 2025-12-22: Declaration of Cash Dividends\n- 2025-10-01: Declaration of Cash Dividends\n- 2025-05-19: Declaration of Cash Dividends\n- 2025-04-16: Declaration of Cash Dividends\n- 2024-12-27: Material Information/Transactions\n\n## Recent News (last 5)\n- DoubleDragon REIT profit up 24.7% to P3.88B in Q1 (business.inquirer.net)\n- DDMP REIT, Inc. Revenue Breakdown – PSE:DDMPR (TradingView)\n- DoubleDragon’s DDMP REIT Inc. boosts shareholder dividends to P431.8M (Panay News)\n- SEC OKs DoubleDragon’s REIT offering (Philippine News Agency)\n- PSE oks DDMP REIT IPO (Philstar.com)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "smallcap",
+    "band": "no-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "debtEquity",
+      "peg",
+      "stickerPrice",
+      "mosPrice"
+    ]
+  }
+}

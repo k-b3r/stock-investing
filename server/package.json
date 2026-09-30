@@ -20,6 +20,7 @@
     "test": "vitest run",
     "eval": "tsx --env-file=../.env evals/run.ts",
     "eval:freeze": "tsx --env-file=../.env evals/freeze-case.ts",
+    "eval:select": "tsx --env-file=../.env evals/select-tickers.ts",
     "eval:score": "tsx evals/scorecard.ts"
   },
   "dependencies": {

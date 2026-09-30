@@ -1,0 +1,105 @@
+{
+  "id": "ppc",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:34.282Z",
+  "context": {
+    "ticker": "PPC",
+    "companyName": "Pryce Corporation",
+    "sector": "Industrial",
+    "subsector": "Electricity, Energy, Power & Water",
+    "description": "Pryce Corporation (PPC), formerly Pryce Properties Corporation, was incorporated and registered with the Securities and Exchange Commission on September 7, 1989. The Company was established basically as a property holding and real estate development company and concentrates its operations in Mindanao, being involved in the development of memorial parks and sale of memorial lots.\n\nPPC owns and operates 13 memorial parks in Mindanao's major cities: Cagayan de Oro City, Iligan City, Ozamiz, Polanco (near Dipolog City), Zamboanga City, Davao City, including the smaller memorial parks in Manolo Fortich (at the boundary of Cagayan de Oro City and Bukidnon), Malaybalay City in Bukidnon, Malita in Davao Occidental, Bislig in Surigao del Sur, Alabel in Saranggani, Pagadian City, and the most recent in Butuan City, which was launched on January 25, 2019.\n\nPryce Gases, Inc. is the Company's major subsidiary. It is engaged in the importation and distribution of liquefied petroleum gas under the brand name 'PryceGas' and also produces and sells industrial gases. Another subsidiary is Pryce Pharmaceuticals, Inc., a wholesaler and distributor of private branded multi-vitamins and some over-the-counter generic drugs.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 13.98,
+    "epsGrowth": 26.200000000000003,
+    "revenueGrowth": null,
+    "netIncomeGrowth": null,
+    "fcfGrowth": 720.0966666666665,
+    "bookValueGrowth": 21.814891046124487,
+    "debtEquity": 0.0461,
+    "lastPrice": 15.6,
+    "pe": 10.351692103516921,
+    "pb": 1.6639290056957567,
+    "peg": 0.3951027520426305,
+    "dividendYield": 2.5641025641025643,
+    "stickerPrice": 15.86,
+    "mosPrice": 7.93,
+    "disclosures": [
+      {
+        "date": "2026-06-29",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-29",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-04-28",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-04-28",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-01-30",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-01-30",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-12-11",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-11-12",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-10-20",
+        "template": "Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "LANDBANK, Pryce Corp. ink P1.6-B loan for business expansion",
+        "source": "Punto! Central Luzon"
+      },
+      {
+        "title": "LPG margins propel Pryce profits to record P1.32 billion",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "Pryce profits hit record as LPG prices drop",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "SC rules senior citizen discount extends to internment services",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "Index rebalances, AREIT, CBC join list",
+        "source": "Daily Tribune"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Pryce Corporation (PPC)\nSector: Industrial / Electricity, Energy, Power & Water\nPryce Corporation (PPC), formerly Pryce Properties Corporation, was incorporated and registered with the Securities and Exchange Commission on September 7, 1989. The Company was established basically as a property holding and real estate development company and concentrates its operations in Mindanao, being involved in the development of memorial parks and sale of memorial lots.\n\nPPC owns and operates 13 memorial parks in Mindanao's major cities: Cagayan de Oro City, Iligan City, Ozamiz, Polanco (near Dipolog City), Zamboanga City, Davao City, including the smaller memorial parks in Manolo Fortich (at the boundary of Cagayan de Oro City and Bukidnon), Malaybalay City in Bukidnon, Malita in Davao Occidental, Bislig in Surigao del Sur, Alabel in Saranggani, Pagadian City, and the most recent in Butuan City, which was launched on January 25, 2019.\n\nPryce Gases, Inc. is the Company's major subsidiary. It is engaged in the importation and distribution of liquefied petroleum gas under the brand name 'PryceGas' and also produces and sells industrial gases. Another subsidiary is Pryce Pharmaceuticals, Inc., a wholesaler and distributor of private branded multi-vitamins and some over-the-counter generic drugs.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 14.0%\n- EPS Growth: 26.2%\n- Revenue Growth: N/A%\n- Net Income Growth: N/A%\n- FCF Growth: 720.1%\n- Book Value Growth: 21.8%\n- Debt/Equity: 0.05x\n\n## Valuation\n- Current Price: ₱15.60\n- P/E: 10.4x | P/B: 1.7x | PEG: 0.40x | Dividend Yield: 2.6%\n- Sticker Price (Rule #1 fair value): ₱15.86\n- MOS Buy Price (50% margin of safety): ₱7.93\n- Current price is ABOVE MOS by 96.7%\n\n## Recent Disclosures (last 10)\n- 2026-06-29: Material Information/Transactions\n- 2026-06-29: Material Information/Transactions\n- 2026-05-06: Declaration of Cash Dividends\n- 2026-04-28: Press Release\n- 2026-04-28: Material Information/Transactions\n- 2026-01-30: Material Information/Transactions\n- 2026-01-30: Press Release\n- 2025-12-11: Material Information/Transactions\n- 2025-11-12: Declaration of Cash Dividends\n- 2025-10-20: Press Release\n\n## Recent News (last 5)\n- LANDBANK, Pryce Corp. ink P1.6-B loan for business expansion (Punto! Central Luzon)\n- LPG margins propel Pryce profits to record P1.32 billion (mb.com.ph)\n- Pryce profits hit record as LPG prices drop (mb.com.ph)\n- SC rules senior citizen discount extends to internment services (Philippine News Agency)\n- Index rebalances, AREIT, CBC join list (Daily Tribune)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "smallcap",
+    "band": "mos-to-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "revenueGrowth",
+      "netIncomeGrowth"
+    ]
+  }
+}
