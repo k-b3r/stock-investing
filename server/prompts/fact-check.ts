@@ -13,3 +13,16 @@ etc.) that contradicts the source data above. Ignore trivial rounding difference
 {"contradictions": ["<claim> contradicts <source value>", ...]}
 Empty array if none found.`;
 }
+
+// Same parsing generate-thesis.ts applies: first {...} span, `contradictions` array. null = unparseable.
+export function parseFactCheckResponse(text: string): string[] | null {
+  const jsonMatch = text.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) return null;
+  try {
+    const parsed = JSON.parse(jsonMatch[0]) as { contradictions?: unknown };
+    const list = parsed.contradictions ?? [];
+    return Array.isArray(list) ? list.map(String) : null;
+  } catch {
+    return null;
+  }
+}

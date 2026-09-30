@@ -1,0 +1,174 @@
+{
+  "ticker": "CPG",
+  "frozenAt": "2026-09-29T17:12:23.650Z",
+  "generatedAt": "2026-08-16T12:43:17.617Z",
+  "context": {
+    "ticker": "CPG",
+    "companyName": "Century Properties Group, Inc.",
+    "sector": "Property",
+    "subsector": "Property",
+    "description": "Century Properties Group, Inc. (CPG) was incorporated on March 23, 1975 as Northwest Holdings and Resources Corporation. In September 26, 2011, the Board of CPG approved the change in the Company's name to its present name, as well as the change in its primary business purpose from power generation to that of a holding company and real estate business.\n\nCPG is primarily engaged in the development, marketing, and sale of mid- and high-rise condominiums and single-detached homes, leasing of retail and office space, and property management. As of December 31, 2024, the Company completed 39 projects.\n\nCPG has seven wholly-owned subsidiaries namely, Century Communities Corporation, Century City Development Corporation, Century Limitless Corporation, Century Properties Management Inc., PHirst Park Homes, Inc, Century Destinations and Lifestyle Corp., and Century Nuliv Development Corporation.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 8.48,
+    "epsGrowth": 5.87,
+    "revenueGrowth": 6.97,
+    "netIncomeGrowth": 6.21,
+    "fcfGrowth": 53.727999999999994,
+    "bookValueGrowth": 5.033099601169422,
+    "debtEquity": 0.4732,
+    "lastPrice": 0.76,
+    "pe": 3.3043478260869565,
+    "pb": 0.3758097216041142,
+    "peg": 0.5629212650914747,
+    "dividendYield": 6.926710526315789,
+    "stickerPrice": 0.3541895520468439,
+    "mosPrice": 0.17709477602342194,
+    "disclosures": [
+      {
+        "date": "2026-06-30",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-23",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-16",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-15",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-05",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-19",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-18",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-12",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-08",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-08",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Century Properties bets on luxury homes in Cavite",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "Century Properties to merge with mass housing arm",
+        "source": "Inquirer.net"
+      },
+      {
+        "title": "SEC OKs Century Properties Group's securities program",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "Century Properties secures permit for ₱5-billion bonds amid strong market demand",
+        "source": "Manila Bulletin"
+      },
+      {
+        "title": "SSS Raises Century Properties Stake to 9.9% in Vote of Confidence on Growth, Dividends and Governance",
+        "source": "Daily Tribune"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Century Properties Group, Inc. (CPG)\nSector: Property / Property\nCentury Properties Group, Inc. (CPG) was incorporated on March 23, 1975 as Northwest Holdings and Resources Corporation. In September 26, 2011, the Board of CPG approved the change in the Company's name to its present name, as well as the change in its primary business purpose from power generation to that of a holding company and real estate business.\n\nCPG is primarily engaged in the development, marketing, and sale of mid- and high-rise condominiums and single-detached homes, leasing of retail and office space, and property management. As of December 31, 2024, the Company completed 39 projects.\n\nCPG has seven wholly-owned subsidiaries namely, Century Communities Corporation, Century City Development Corporation, Century Limitless Corporation, Century Properties Management Inc., PHirst Park Homes, Inc, Century Destinations and Lifestyle Corp., and Century Nuliv Development Corporation.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 8.5%\n- EPS Growth: 5.9%\n- Revenue Growth: 7.0%\n- Net Income Growth: 6.2%\n- FCF Growth: 53.7%\n- Book Value Growth: 5.0%\n- Debt/Equity: 0.47x\n\n## Valuation\n- Current Price: ₱0.76\n- P/E: 3.3x | P/B: 0.4x | PEG: 0.56x | Dividend Yield: 6.9%\n- Sticker Price (Rule #1 fair value): ₱0.35\n- MOS Buy Price (50% margin of safety): ₱0.18\n- Current price is ABOVE MOS by 329.1%\n\n## Recent Disclosures (last 10)\n- 2026-06-30: Material Information/Transactions\n- 2026-06-23: Material Information/Transactions\n- 2026-06-16: Material Information/Transactions\n- 2026-06-15: Material Information/Transactions\n- 2026-06-05: Material Information/Transactions\n- 2026-05-19: Press Release\n- 2026-05-18: Material Information/Transactions\n- 2026-05-12: Material Information/Transactions\n- 2026-05-08: Material Information/Transactions\n- 2026-05-08: Material Information/Transactions\n\n## Recent News (last 5)\n- Century Properties bets on luxury homes in Cavite (Philstar.com)\n- Century Properties to merge with mass housing arm (Inquirer.net)\n- SEC OKs Century Properties Group's securities program (Philippine News Agency)\n- Century Properties secures permit for ₱5-billion bonds amid strong market demand (Manila Bulletin)\n- SSS Raises Century Properties Stake to 9.9% in Vote of Confidence on Growth, Dividends and Governance (Daily Tribune)",
+  "storedThesis": "Century Properties Group is a mid-tier Philippine property developer with a clear enough business to understand: it builds and sells condominiums and horizontal housing, manages its own portfolio, and leases retail and office space. The pivot toward PHirst Park Homes — its affordable, first-home horizontal brand — is now the core of the story, contributing 73% of consolidated revenues as of mid-2026. The business is intelligible, the housing backlog in the Philippines is real, and the first-home segment has genuine demand tailwinds. That part clears the Meaning test.\n\nThe moat question is where CPG struggles. Philippine real estate development is fragmented and deeply competitive — Ayala Land, SM Prime, SMDC, DMCI, and Vista Land all compete across similar price points. PHirst Park has carved a niche in suburban horizontal housing outside Metro Manila, which is differentiated from pure high-rise condo plays, but land banking, branding, and distribution in this segment can be replicated by better-capitalized peers. There is no identifiable pricing power, network effect, or switching cost. The business has an operational track record but no durable structural moat — it relies on execution and site selection rather than any defensible advantage.\n\nManagement signals are mixed but leaning constructive. The Antonio family retains control, and the April 2026 merger of PHirst Park Homes into the listed entity is a sensible simplification that reduces holding company drag and improves capital efficiency. The ₱5 billion bond raise — oversubscribed, with ₱12 billion capex planned and ₱40 billion in projects queued — shows management is moving aggressively on growth. SSS raising its stake to 10% is a meaningful institutional validation; SSS is a conservative, long-horizon investor. The risk is that the aggressive capex cycle is financed with debt at 6.5–7.6% coupon rates, and if pre-selling slows or interest rates stay elevated, leverage becomes the dominant concern. No obvious governance red flags surfaced in recent disclosures, but the disclosure feed is heavy on \"Material Information/Transactions\" with no specifics visible here — worth reading the actual filings.\n\nOn valuation, the Rule #1 framework gives a clear answer: pass. The Sticker Price of ₱0.35 implies fair value is less than half the current price of ₱0.76, and the MOS buy price of ₱0.18 is not remotely in play. ROIC at 8.5% sits below the 10% threshold Rule #1 demands for quality compounders, and EPS growth of 5.9% is modest. The P/E of 3.3x and P/B of 0.4x look cheap on surface multiples, but those multiples reflect real estate cyclicality, leverage risk, and the market's historically low confidence in Philippine mid-tier developers — not hidden value. The 6.9% dividend yield is attractive in isolation but insufficient as the primary thesis when the capital structure is being stretched for a large capex cycle. Watch for pre-selling reservation data, real estate demand softening tied to OFW remittance trends, and whether the PHirst Park merger delivers the promised cost synergies within 12–18 months.\n\nBottom line: CPG is understandable and operates in a market with genuine long-run demand, but it lacks a durable moat, its ROIC is sub-threshold, and the current price is more than double its Rule #1 fair value. The growth ambition is real but debt-financed, and the margin of safety is absent. This is a watch — revisit if price pulls back meaningfully toward ₱0.40–0.45 range and if the PHirst Park integration demonstrates improved returns on capital over the next two reporting periods.",
+  "thesis": "Century Properties Group is a mid-tier Philippine property developer with a clear enough business to understand: it builds and sells condominiums and horizontal housing, manages its own portfolio, and leases retail and office space. The pivot toward PHirst Park Homes — its affordable, first-home horizontal brand — is now the core of the story, contributing 73% of consolidated revenues as of mid-2026. The business is intelligible, the housing backlog in the Philippines is real, and the first-home segment has genuine demand tailwinds. That part clears the Meaning test.\n\nThe moat question is where CPG struggles. Philippine real estate development is fragmented and deeply competitive — Ayala Land, SM Prime, SMDC, DMCI, and Vista Land all compete across similar price points. PHirst Park has carved a niche in suburban horizontal housing outside Metro Manila, which is differentiated from pure high-rise condo plays, but land banking, branding, and distribution in this segment can be replicated by better-capitalized peers. There is no identifiable pricing power, network effect, or switching cost. The business has an operational track record but no durable structural moat — it relies on execution and site selection rather than any defensible advantage.\n\nManagement signals are mixed but leaning constructive. The Antonio family retains control, and the April 2026 merger of PHirst Park Homes into the listed entity is a sensible simplification that reduces holding company drag and improves capital efficiency. The ₱5 billion bond raise — oversubscribed, with ₱12 billion capex planned and ₱40 billion in projects queued — shows management is moving aggressively on growth. SSS raising its stake to 10% is a meaningful institutional validation; SSS is a conservative, long-horizon investor. The risk is that the aggressive capex cycle is financed with debt at 6.5–7.6% coupon rates, and if pre-selling slows or interest rates stay elevated, leverage becomes the dominant concern. No obvious governance red flags surfaced in recent disclosures, but the disclosure feed is heavy on \"Material Information/Transactions\" with no specifics visible here — worth reading the actual filings.\n\nOn valuation, the Rule #1 framework gives a clear answer: pass. The Sticker Price of ₱0.35 implies fair value is less than half the current price of ₱0.76, and the MOS buy price of ₱0.18 is not remotely in play. ROIC at 8.5% sits below the 10% threshold Rule #1 demands for quality compounders, and EPS growth of 5.9% is modest. The P/E of 3.3x and P/B of 0.4x look cheap on surface multiples, but those multiples reflect real estate cyclicality, leverage risk, and the market's historically low confidence in Philippine mid-tier developers — not hidden value. The 6.9% dividend yield is attractive in isolation but insufficient as the primary thesis when the capital structure is being stretched for a large capex cycle. Watch for pre-selling reservation data, real estate demand softening tied to OFW remittance trends, and whether the PHirst Park merger delivers the promised cost synergies within 12–18 months.\n\nBottom line: CPG is understandable and operates in a market with genuine long-run demand, but it lacks a durable moat, its ROIC is sub-threshold, and the current price is more than double its Rule #1 fair value. The growth ambition is real but debt-financed, and the margin of safety is absent. This is a watch — revisit if price pulls back meaningfully toward ₱0.40–0.45 range and if the PHirst Park integration demonstrates improved returns on capital over the next two reporting periods.",
+  "reconcileEdits": [],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "ROIC at 8.5% sits below the 10% threshold Rule #1 demands",
+      "claim": "ROIC at 5.8% sits below the 10% threshold Rule #1 demands",
+      "trueValue": "ROIC 8.5%",
+      "sourceQuote": "ROIC: 8.5%",
+      "match": [
+        "5.8"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "The P/E of 3.3x and P/B of 0.4x look cheap on surface multiples",
+      "claim": "The P/E of 13.3x and P/B of 0.4x look cheap on surface multiples",
+      "trueValue": "P/E 3.3x",
+      "sourceQuote": "P/E: 3.3x",
+      "match": [
+        "13.3"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "the current price is more than double its Rule #1 fair value",
+      "claim": "the current price is below its Rule #1 fair value",
+      "trueValue": "Current price ₱0.76 is above the ₱0.35 Sticker Price (ABOVE MOS by 329.1%)",
+      "sourceQuote": "Current price is ABOVE MOS by 329.1%",
+      "match": [
+        "below its Rule #1",
+        "price is below"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "EPS growth of 5.9% is modest",
+      "claim": "EPS decline of 5.9% is modest",
+      "trueValue": "EPS Growth 5.9% (positive)",
+      "sourceQuote": "EPS Growth: 5.9%",
+      "match": [
+        "decline",
+        "EPS decline"
+      ]
+    },
+    {
+      "type": "units",
+      "original": "The ₱5 billion bond raise — oversubscribed, with ₱12 billion capex planned",
+      "claim": "The ₱5 million bond raise — oversubscribed, with ₱12 billion capex planned",
+      "trueValue": "₱5-billion bonds",
+      "sourceQuote": "Century Properties secures permit for ₱5-billion bonds",
+      "match": [
+        "₱5 million",
+        "5 million"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "The Sticker Price of ₱0.35 implies fair value is less than half",
+      "claim": "The Sticker Price of $0.35 implies fair value is less than half",
+      "trueValue": "Sticker Price ₱0.35",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱0.35",
+      "match": [
+        "$0.35"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "the MOS buy price of ₱0.18 is not remotely in play",
+      "claim": "the MOS buy price of $0.18 is not remotely in play",
+      "trueValue": "MOS Buy Price ₱0.18",
+      "sourceQuote": "MOS Buy Price (50% margin of safety): ₱0.18",
+      "match": [
+        "$0.18"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-29T17:22:29.062Z"
+  }
+}

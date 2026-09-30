@@ -1,0 +1,156 @@
+{
+  "ticker": "ALTER",
+  "frozenAt": "2026-09-29T17:12:13.365Z",
+  "generatedAt": "2026-09-26T13:58:32.047Z",
+  "context": {
+    "ticker": "ALTER",
+    "companyName": "Alternergy Holdings Corporation",
+    "sector": "Industrial",
+    "subsector": "Electricity, Energy, Power, & Water",
+    "description": "Alternergy Holdings Corporation (ALTER), formerly Alternergy Viento Partners Corporation, was incorporated on June 18, 2009 as El Viento Partners Corporation. The Company later changed its corporate name to its present name on April 24, 2018.\n\nALTER is a renewable energy holding company that has a portfolio of investee companies which own, construct, install, operate, and maintain different renewable energy projects, such as wind, solar, run-of-river hydro, and battery storage power. Since 2008, the Company has developed 67.24 MW of operating assets in wind and solar. \n\nALTER's subsidiaries are Alternergy Wind Holdings Corporation; Liberty Solar Energy Corporation; Alternergy Hydro Partners Corporation; SolarPacific Energy Corporation; Kirahon Solar Energy Corporation; Solar Pacific Pristine Power Inc.; Olympia Solar Power Corporation; and Green Energy Supply Solutions Inc.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 0.83,
+    "epsGrowth": 47.58,
+    "revenueGrowth": 13.23,
+    "netIncomeGrowth": 49.87,
+    "fcfGrowth": null,
+    "bookValueGrowth": 30.14612342620049,
+    "debtEquity": 3.1155,
+    "lastPrice": 0.67,
+    "pe": 22.333333333333336,
+    "pb": 0.7385361552028219,
+    "peg": 0.4693848956144039,
+    "dividendYield": null,
+    "stickerPrice": 0.9,
+    "mosPrice": 0.45,
+    "disclosures": [
+      {
+        "date": "2026-07-09",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-06-25",
+        "template": "[Amend-2]Acquisition or Disposition of Shares of Another Corporation"
+      },
+      {
+        "date": "2026-06-25",
+        "template": "[Amend-2]Acquisition or Disposition of Shares of Another Corporation"
+      },
+      {
+        "date": "2026-05-25",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-07",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-04-10",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-23",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-10",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-10",
+        "template": "[Amend-1]Press Release"
+      },
+      {
+        "date": "2026-03-10",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Alternergy wins high credit rating for planned ₱2-billion note issue",
+        "source": "Manila Bulletin"
+      },
+      {
+        "title": "Philippines’ Alternergy issues $32m green notes in debt market debut",
+        "source": "asian-power.com"
+      },
+      {
+        "title": "Philippines' Alternergy Issues $32 Million Green Notes in Debt Market Debut",
+        "source": "energynews.pro"
+      },
+      {
+        "title": "PCC clears ABC Energy’s Alternergy wind investment",
+        "source": "thephilbiznews"
+      },
+      {
+        "title": "Alternergy completes $37.25m investment deal with A Brown for wind projects",
+        "source": "asian-power.com"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Alternergy Holdings Corporation (ALTER)\nSector: Industrial / Electricity, Energy, Power, & Water\nAlternergy Holdings Corporation (ALTER), formerly Alternergy Viento Partners Corporation, was incorporated on June 18, 2009 as El Viento Partners Corporation. The Company later changed its corporate name to its present name on April 24, 2018.\n\nALTER is a renewable energy holding company that has a portfolio of investee companies which own, construct, install, operate, and maintain different renewable energy projects, such as wind, solar, run-of-river hydro, and battery storage power. Since 2008, the Company has developed 67.24 MW of operating assets in wind and solar. \n\nALTER's subsidiaries are Alternergy Wind Holdings Corporation; Liberty Solar Energy Corporation; Alternergy Hydro Partners Corporation; SolarPacific Energy Corporation; Kirahon Solar Energy Corporation; Solar Pacific Pristine Power Inc.; Olympia Solar Power Corporation; and Green Energy Supply Solutions Inc.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 0.8%\n- EPS Growth: 47.6%\n- Revenue Growth: 13.2%\n- Net Income Growth: 49.9%\n- FCF Growth: N/A%\n- Book Value Growth: 30.1%\n- Debt/Equity: 3.12x\n\n## Valuation\n- Current Price: ₱0.67\n- P/E: 22.3x | P/B: 0.7x | PEG: 0.47x | Dividend Yield: N/A%\n- Sticker Price (Rule #1 fair value): ₱0.90\n- MOS Buy Price (50% margin of safety): ₱0.45\n- Current price is ABOVE MOS by 48.9%\n\n## Recent Disclosures (last 10)\n- 2026-07-09: Press Release\n- 2026-06-25: [Amend-2]Acquisition or Disposition of Shares of Another Corporation\n- 2026-06-25: [Amend-2]Acquisition or Disposition of Shares of Another Corporation\n- 2026-05-25: Press Release\n- 2026-05-07: Press Release\n- 2026-04-10: Press Release\n- 2026-03-23: Press Release\n- 2026-03-10: Press Release\n- 2026-03-10: [Amend-1]Press Release\n- 2026-03-10: Material Information/Transactions\n\n## Recent News (last 5)\n- Alternergy wins high credit rating for planned ₱2-billion note issue (Manila Bulletin)\n- Philippines’ Alternergy issues $32m green notes in debt market debut (asian-power.com)\n- Philippines' Alternergy Issues $32 Million Green Notes in Debt Market Debut (energynews.pro)\n- PCC clears ABC Energy’s Alternergy wind investment (thephilbiznews)\n- Alternergy completes $37.25m investment deal with A Brown for wind projects (asian-power.com)",
+  "storedThesis": "Pulled extra context: P2B green note issuance (PhilRatings Aa- rating), 700+MW pipeline under GEA4, D/E ~399% by early 2026. Writing thesis now.\n\nAlternergy Holdings is a renewable energy holding company that owns and operates wind, solar, run-of-river hydro, and battery storage assets across the Philippines through a cluster of project-level subsidiaries. The business model is straightforward: build or acquire generation assets, sign long-term offtake or feed-in-tariff arrangements, and collect predictable cash flows from electricity sold into the grid. This is well within a reasonable circle of competence — power generation from contracted renewable assets is one of the more legible business models on the PSE, with revenue drivers (installed capacity, capacity factor, tariff/PPA price) that are easy to model even if the underlying engineering is specialized.\n\nThe moat case is weak. Renewable generation in the Philippines is a capital-intensive, commodity business: Alternergy competes for DOE Green Energy Auction (GEA) allocations against AC Energy, ACEN, First Gen, and other larger, better-capitalized players, and wind/solar sites themselves are not scarce or defensible once permits and land rights are secured. The company's edge, such as it is, comes from being an early mover with an existing operating base (67 MW) and a large secured pipeline (700+ MW under GEA4 — Liberty Solar, Kalandagan Solar, Alegria Wind, Tayabas North Wind), not from pricing power or switching costs. Regulated/auctioned tariffs cap upside, and ROIC of 0.8% over the trailing ten years confirms there's no economic moat translating into returns on capital — this is a build-and-hold utility-style asset story, not a compounder.\n\nManagement is aggressively growth-oriented and has shown some financial discipline in how it funds that growth. The August 2026 PhilRatings \"PRS Aa-\" investment-grade rating (stable outlook) on the ₱2B green notes debut, and the earlier $32M green bond issuance, signal management can access debt markets on decent terms rather than relying purely on dilutive equity or expensive short-term debt. The buildout is real and moving — Tanay Wind (128MW) and Alabat Wind (64MW) are targeted to lift operating capacity to ~311MW by end-2026, a roughly 4.6x increase from today's 67MW base. The red flag is leverage: debt/equity has run up to ~3.12x on the provided metrics and reportedly ~4.0x by early 2026 per total-asset growth, with net debt around ₱15.5B against a company still generating thin returns on capital. The Ombudsman reprimand of GSIS officials over a ₱1.45B investment in Alternergy is a governance-adjacent headline worth noting, though it centers on the GSIS-side decision-makers, not on Alternergy management malfeasance — still, it puts the company in a controversy searchlight (see Rappler's \"at the crosshairs\" piece) that's worth monitoring for follow-on regulatory scrutiny.\n\nOn valuation, the picture is genuinely mixed. P/B of 0.7x and PEG of 0.47x look statistically cheap, and the sticker price (₱0.90) implies the stock is trading close to — arguably above — fair value at ₱0.67, which the data flags as 48.9% above the 50%-margin-of-safety buy price of ₱0.45. But a Rule #1 sticker price built on trailing EPS growth (47.6% average) is unreliable here: growth of that magnitude on a 0.8% ROIC base is being funded by heavy debt issuance and capacity additions, not organic compounding, so extrapolating it forward is dangerous. The real risk isn't overpaying relative to today's earnings — it's a highly leveraged renewable build-out hitting execution delays, interest rate shocks, or curtailment/tariff risk before GEA4 capacity comes online and starts generating the cash flow needed to service ~₱18B in debt.\n\nBottom line: pass at ₱0.67. The story is a leveraged capacity bet, not a moat-protected compounder, and the current price does not offer the margin of safety this balance sheet risk demands. Watch for two triggers before revisiting: (1) commercial operations confirmed at Tanay and Alabat Wind with actual capacity-factor and revenue data, which would de-risk the growth thesis, and (2) any move in D/E back toward 2x or below, showing the debt-funded build isn't outrunning equity capacity. Until then, this is a name to track, not own.",
+  "thesis": "Pulled extra context: P2B green note issuance (PhilRatings Aa- rating), 700+MW pipeline under GEA4, D/E ~399% by early 2026. Writing thesis now.\n\nAlternergy Holdings is a renewable energy holding company that owns and operates wind, solar, run-of-river hydro, and battery storage assets across the Philippines through a cluster of project-level subsidiaries. The business model is straightforward: build or acquire generation assets, sign long-term offtake or feed-in-tariff arrangements, and collect predictable cash flows from electricity sold into the grid. This is well within a reasonable circle of competence — power generation from contracted renewable assets is one of the more legible business models on the PSE, with revenue drivers (installed capacity, capacity factor, tariff/PPA price) that are easy to model even if the underlying engineering is specialized.\n\nThe moat case is weak. Renewable generation in the Philippines is a capital-intensive, commodity business: Alternergy competes for DOE Green Energy Auction (GEA) allocations against AC Energy, ACEN, First Gen, and other larger, better-capitalized players, and wind/solar sites themselves are not scarce or defensible once permits and land rights are secured. The company's edge, such as it is, comes from being an early mover with an existing operating base (67 MW) and a large secured pipeline (700+ MW under GEA4 — Liberty Solar, Kalandagan Solar, Alegria Wind, Tayabas North Wind), not from pricing power or switching costs. Regulated/auctioned tariffs cap upside, and ROIC of 0.8% over the trailing ten years confirms there's no economic moat translating into returns on capital — this is a build-and-hold utility-style asset story, not a compounder.\n\nManagement is aggressively growth-oriented and has shown some financial discipline in how it funds that growth. The August 2026 PhilRatings \"PRS Aa-\" investment-grade rating (stable outlook) on the planned ₱2B green notes, and the $32M green notes debt-market debut, signal management can access debt markets on decent terms rather than relying purely on dilutive equity or expensive short-term debt. The buildout is real and moving — Tanay Wind (128MW) and Alabat Wind (64MW) are targeted to lift operating capacity to ~311MW by end-2026, a roughly 4.6x increase from today's 67MW base. The red flag is leverage: debt/equity has run up to ~3.12x on the provided metrics and reportedly ~4.0x by early 2026 per total-asset growth, with net debt around ₱15.5B against a company still generating thin returns on capital. The Ombudsman reprimand of GSIS officials over a ₱1.45B investment in Alternergy is a governance-adjacent headline worth noting, though it centers on the GSIS-side decision-makers, not on Alternergy management malfeasance — still, it puts the company in a controversy searchlight (see Rappler's \"at the crosshairs\" piece) that's worth monitoring for follow-on regulatory scrutiny.\n\nOn valuation, the picture is genuinely mixed. P/B of 0.7x and PEG of 0.47x look statistically cheap, and the sticker price (₱0.90) implies the stock is trading below fair value at ₱0.67, which the data flags as 48.9% above the 50%-margin-of-safety buy price of ₱0.45. But a Rule #1 sticker price built on trailing EPS growth (47.6% average) is unreliable here: growth of that magnitude on a 0.8% ROIC base is being funded by heavy debt issuance and capacity additions, not organic compounding, so extrapolating it forward is dangerous. The real risk isn't overpaying relative to today's earnings — it's a highly leveraged renewable build-out hitting execution delays, interest rate shocks, or curtailment/tariff risk before GEA4 capacity comes online and starts generating the cash flow needed to service ~₱18B in debt.\n\nBottom line: pass at ₱0.67. The story is a leveraged capacity bet, not a moat-protected compounder, and the current price does not offer the margin of safety this balance sheet risk demands. Watch for two triggers before revisiting: (1) commercial operations confirmed at Tanay and Alabat Wind with actual capacity-factor and revenue data, which would de-risk the growth thesis, and (2) any move in D/E back toward 2x or below, showing the debt-funded build isn't outrunning equity capacity. Until then, this is a name to track, not own.",
+  "reconcileEdits": [
+    {
+      "find": "trading close to — arguably above — fair value at ₱0.67",
+      "replace": "trading below fair value at ₱0.67",
+      "reason": "The source gives a current price of ₱0.67 against a sticker price of ₱0.90, so the stock trades about 26% below fair value, not at or above it."
+    },
+    {
+      "find": "on the ₱2B green notes debut, and the earlier $32M green bond issuance",
+      "replace": "on the planned ₱2B green notes, and the $32M green notes debt-market debut",
+      "reason": "The source news calls the ₱2B note issue 'planned' and names the $32M green notes as the debt-market debut."
+    }
+  ],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "ROIC of 0.8% over the trailing ten years confirms there's no economic moat",
+      "claim": "ROIC of 8.0% over the trailing ten years confirms there's no economic moat",
+      "trueValue": "ROIC 0.8%",
+      "sourceQuote": "ROIC: 0.8%",
+      "match": [
+        "8.0%",
+        "8.0"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "debt/equity has run up to ~3.12x on the provided metrics",
+      "claim": "debt/equity has run up to ~1.32x on the provided metrics",
+      "trueValue": "Debt/Equity 3.12x",
+      "sourceQuote": "Debt/Equity: 3.12x",
+      "match": [
+        "1.32x",
+        "1.32"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "implies the stock is trading below fair value at ₱0.67",
+      "claim": "implies the stock is trading above fair value at ₱0.67",
+      "trueValue": "Price ₱0.67 is below sticker price ₱0.90",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱0.90",
+      "match": [
+        "above fair value",
+        "trading above"
+      ]
+    },
+    {
+      "type": "units",
+      "original": "an existing operating base (67 MW) and a large secured pipeline",
+      "claim": "an existing operating base (67 GW) and a large secured pipeline",
+      "trueValue": "67.24 MW of operating assets",
+      "sourceQuote": "the Company has developed 67.24 MW of operating assets in wind and solar",
+      "match": [
+        "67 GW",
+        "GW"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-29T17:20:59.916Z"
+  }
+}

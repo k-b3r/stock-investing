@@ -11,6 +11,7 @@ pnpm eval:freeze --variants-only    # rebuild variants from frozen bases, no net
 pnpm eval                           # run default models on all cases, grade, print scorecard
 pnpm eval --models glm-5.3,sonnet --cases areit --runs 3
 pnpm eval:score                     # reprint scorecard from saved results
+pnpm eval:score factcheck           # reprint fact-check scorecard
 pnpm test                           # grader unit tests
 ```
 
@@ -28,3 +29,21 @@ pnpm test                           # grader unit tests
   - `na-handling.ts` (`n/a`): no value stated for any `expect.missingFields` field. Only cases with missing fields.
   - `trap.ts`: for a case with `expect.trap`, some sentence names any of `trap.fields` (or its value) and doubts it. Only trap cases.
   - `sanity.ts` (`prod-sanity`): `sanityCheck` from `thesis-context.ts`, the last gate before `generate-thesis.ts` stores a thesis.
+
+## Fact-check suite
+
+Grades models on the production fact-check prompt (`buildFactCheckPrompt`, run by Haiku in `generate-thesis.ts`): given source data and a thesis, list contradictions.
+
+```bash
+cd server
+pnpm eval:factcheck:freeze          # stored theses + today's source data → cases/factcheck/bases/ (price fields overlaid with generation-time values)
+pnpm eval:factcheck:draft --model opus   # per base: edits making the thesis agree with its source (clean copy) + candidate planted errors
+pnpm eval:factcheck:build           # pick ~40 planted + ~15 clean cases, write cases/factcheck/*.json and REVIEW.md
+pnpm eval:factcheck --models haiku,glm-5.3 --runs 3   # approved cases only; --all includes unapproved
+```
+
+- Error types: size, direction, year, units (₱M vs ₱B), stake, currency (USD/PHP). Real past failures: KEEPR 30% Pernod stake, PPC ₱3.72B net income. Script mutations (`mutations.ts`) fill types the drafts leave short.
+- Clean cases: plain, rounding-only (within the prompt's tolerance), and BPI "founded 1851" (true, not in source; a past false alarm). Any flag on a clean case is a false alarm.
+- Each planted error lists `match` strings; a contradiction containing any of them catches it. Contradictions matching no planted error are false alarms.
+- Scorecard: recall (planted errors caught), precision (flags that name a planted error), clean-pass, recall per type. Scores regrade saved outputs against current cases.
+- Every case needs user approval (`approved: true`) after reviewing `cases/factcheck/REVIEW.md`.

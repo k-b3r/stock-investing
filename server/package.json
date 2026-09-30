@@ -21,7 +21,11 @@
     "eval": "tsx --env-file=../.env evals/run.ts",
     "eval:freeze": "tsx --env-file=../.env evals/freeze-case.ts",
     "eval:select": "tsx --env-file=../.env evals/select-tickers.ts",
-    "eval:score": "tsx evals/scorecard.ts"
+    "eval:score": "tsx evals/scorecard.ts",
+    "eval:factcheck": "tsx --env-file=../.env evals/factcheck/run.ts",
+    "eval:factcheck:freeze": "tsx --env-file=../.env evals/factcheck/freeze-bases.ts",
+    "eval:factcheck:draft": "tsx evals/factcheck/draft.ts",
+    "eval:factcheck:build": "tsx evals/factcheck/build.ts"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

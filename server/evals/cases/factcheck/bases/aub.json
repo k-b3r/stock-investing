@@ -1,0 +1,202 @@
+{
+  "ticker": "AUB",
+  "frozenAt": "2026-09-29T17:12:17.451Z",
+  "generatedAt": "2026-08-16T12:32:32.211Z",
+  "context": {
+    "ticker": "AUB",
+    "companyName": "Asia United Bank Corporation",
+    "sector": "Financials",
+    "subsector": "Banks",
+    "description": "Asia United Bank Corporation (AUB) was incorporated on October 3, 1997 and was granted authority to operate as a commercial bank on September 3, 1997. AUB began its commercial operations on October 31, 1997. In 2012, the Company obtained approval from the Bangko Sentral ng Pilipinas to upgrade its license into expanded commercial banking status. \n\nIn addition to commercial banking, with AUB's universal bank status, the Company is authorized with the powers of an investment house, such as securities underwriting and trading, loan syndication, financial advisory, private placement of debt and equity securities, project finance, and direct equity investment; and the power to invest in allied and non-allied enterprises.\n\nAs of December 31, 2024, AUB's subsidiaries are Rural Bank of Angeles and Cavite United Rural Bank. AUB also has 39% equity in Asia United Leasing and Finance Corp. The Company, together with its subsidiaries, has a network of 266 branches.\n\nSource: SEC Form 17-A (2024)",
+    "roic": null,
+    "epsGrowth": 23.71,
+    "revenueGrowth": 14.360000000000001,
+    "netIncomeGrowth": 23.69,
+    "fcfGrowth": 791.33,
+    "bookValueGrowth": 12.342764226064663,
+    "debtEquity": 0.0577,
+    "lastPrice": 48.95,
+    "pe": 5.6071019473081325,
+    "pb": 1.0868382664763128,
+    "peg": 0.23648679659671581,
+    "dividendYield": 4.085801838610827,
+    "stickerPrice": 54,
+    "mosPrice": 27,
+    "disclosures": [
+      {
+        "date": "2026-06-30",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-06-26",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-06-26",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-06-26",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-05-21",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-17",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-17",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-02-19",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-16",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-02-16",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "RCBC extends waived fees for PESONet, InstaPay until year’s end",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "Hann Reserve secures P9B loan from AUB and Union Bank for phase one development",
+        "source": "Punto! Central Luzon"
+      },
+      {
+        "title": "Bank transfers via InstaPay thru GCash to be charged starting Oct. 1",
+        "source": "GMA Network"
+      },
+      {
+        "title": "𝐇𝐚𝐧𝐧 𝐑𝐞𝐬𝐨𝐫𝐭 𝐛𝐚𝐫𝐞𝐬 𝐦𝐚𝐣𝐨𝐫 𝐞𝐱𝐩𝐚𝐧𝐬𝐢𝐨𝐧 𝐢𝐧 𝐂𝐥𝐚𝐫𝐤",
+        "source": "The Voice Newsweekly"
+      },
+      {
+        "title": "Visitors to Japan from 14 Countries and Regions Can Make Cashless Payments by Using PayPay’s QR Codes",
+        "source": "ソフトバンク"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Asia United Bank Corporation (AUB)\nSector: Financials / Banks\nAsia United Bank Corporation (AUB) was incorporated on October 3, 1997 and was granted authority to operate as a commercial bank on September 3, 1997. AUB began its commercial operations on October 31, 1997. In 2012, the Company obtained approval from the Bangko Sentral ng Pilipinas to upgrade its license into expanded commercial banking status. \n\nIn addition to commercial banking, with AUB's universal bank status, the Company is authorized with the powers of an investment house, such as securities underwriting and trading, loan syndication, financial advisory, private placement of debt and equity securities, project finance, and direct equity investment; and the power to invest in allied and non-allied enterprises.\n\nAs of December 31, 2024, AUB's subsidiaries are Rural Bank of Angeles and Cavite United Rural Bank. AUB also has 39% equity in Asia United Leasing and Finance Corp. The Company, together with its subsidiaries, has a network of 266 branches.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: N/A%\n- EPS Growth: 23.7%\n- Revenue Growth: 14.4%\n- Net Income Growth: 23.7%\n- FCF Growth: 791.3%\n- Book Value Growth: 12.3%\n- Debt/Equity: 0.06x\n\n## Valuation\n- Current Price: ₱48.95\n- P/E: 5.6x | P/B: 1.1x | PEG: 0.24x | Dividend Yield: 4.1%\n- Sticker Price (Rule #1 fair value): ₱54.00\n- MOS Buy Price (50% margin of safety): ₱27.00\n- Current price is ABOVE MOS by 81.3%\n\n## Recent Disclosures (last 10)\n- 2026-06-30: Press Release\n- 2026-06-26: Declaration of Cash Dividends\n- 2026-06-26: Declaration of Cash Dividends\n- 2026-06-26: Declaration of Cash Dividends\n- 2026-05-21: Material Information/Transactions\n- 2026-05-17: Material Information/Transactions\n- 2026-05-17: Press Release\n- 2026-02-19: Material Information/Transactions\n- 2026-02-16: Press Release\n- 2026-02-16: Material Information/Transactions\n\n## Recent News (last 5)\n- RCBC extends waived fees for PESONet, InstaPay until year’s end (Philippine News Agency)\n- Hann Reserve secures P9B loan from AUB and Union Bank for phase one development (Punto! Central Luzon)\n- Bank transfers via InstaPay thru GCash to be charged starting Oct. 1 (GMA Network)\n- 𝐇𝐚𝐧𝐧 𝐑𝐞𝐬𝐨𝐫𝐭 𝐛𝐚𝐫𝐞𝐬 𝐦𝐚𝐣𝐨𝐫 𝐞𝐱𝐩𝐚𝐧𝐬𝐢𝐨𝐧 𝐢𝐧 𝐂𝐥𝐚𝐫𝐤 (The Voice Newsweekly)\n- Visitors to Japan from 14 Countries and Regions Can Make Cashless Payments by Using PayPay’s QR Codes (ソフトバンク)",
+  "storedThesis": "Asia United Bank is a straightforwardly understandable business: it takes deposits, makes loans, earns a spread, and has steadily grown that spread into a ₱427B asset base over nearly three decades. AUB's universal banking license adds securities underwriting and direct equity investment to its toolkit, but the core earnings engine remains commercial lending. For a Philippine investor, this is well within a reasonable circle of competence — a mid-tier domestic bank competing in a country with a still-underpenetrated banking sector and a growing middle class.\n\nThe moat is real but narrow. AUB's 10-year compound EPS growth of 23.7% and a sustained ROE of 18-19% — above the Philippine banking sector average — indicate a durable, if not impenetrable, cost and operational advantage. Its net interest margin expanded to 5.3% in Q1 2026, outpacing many larger peers. The 266-branch network and subsidiary rural banks (Rural Bank of Angeles, Cavite United Rural Bank) give AUB geographic reach into underbanked provincial segments that the Big Three banks often ignore. That said, AUB lacks the brand dominance or network effects of BDO or BPI, and the recent industry-wide waiver of PESONet and InstaPay fees signals fee compression risk in digital channels. Its moat is best described as a cost and focus advantage in a specific middle-market niche — durable, but not wide.\n\nManagement credibility is supported by the numbers more than by flashy disclosures. A debt-to-equity of 0.06x is extraordinarily conservative for a Philippine bank, suggesting management does not chase growth with reckless leverage. The ₱9B syndicated loan to Hann Reserve with Union Bank signals disciplined large-ticket co-lending rather than solo concentration risk. Regular cash dividend declarations (multiple in 2026 alone) at a 4.1% yield against a 28% payout ratio — leaving substantial retained earnings to fund growth — indicate a management team that balances shareholder returns with reinvestment. No regulatory censures or BSP sanctions appear in recent disclosures. The H1 2026 net income of ₱6.19B, a modest but steady increase over H1 2025's ₱6.13B, shows the growth rate normalizing from its explosive 10-year run, which is itself a mature-management signal.\n\nThe valuation is the central tension. At ₱48.95, AUB trades at 5.6x trailing earnings, 1.1x book, and a PEG of 0.24 — metrics that scream cheap by any conventional lens. The Rule #1 sticker price of ₱54.00 actually puts current price at a 9% discount to estimated intrinsic value, a modestly attractive entry. The problem is the margin of safety. Phil Town's Rule #1 demands a 50% discount to sticker (MOS price ₱27.00), and current price is 81% above that level. For strict Rule #1 practitioners, this is not a buy. However, the sticker price calculation using 23.7% historical growth is almost certainly conservative for current conditions — at 19% ROE and 5.6x P/E, even a more modest 12-15% forward growth assumption would push intrinsic value materially higher. The real risk to watch: growth normalization as the loan book matures, Philippine rate cycle compression on NIMs, and any BSP tightening that hits SME borrowers.\n\nBottom line: AUB is an excellent business — honest management, durable mid-tier moat, extraordinary historical returns, and genuinely cheap in absolute terms. The only reason this is not an outright buy today is that it sits 81% above the Rule #1 MOS entry point, offering little cushion if growth moderates sharply or a Philippine credit cycle turns. Watch it for a pullback toward ₱35-38 (roughly 30-35% discount to sticker), which would provide a more defensible margin of safety while preserving all the upside from a structurally sound compounder.",
+  "thesis": "Asia United Bank is a straightforwardly understandable business: it takes deposits, makes loans, earns a spread, and has steadily grown that spread into a ₱427B asset base over nearly three decades. AUB's universal banking license adds securities underwriting and direct equity investment to its toolkit, but the core earnings engine remains commercial lending. For a Philippine investor, this is well within a reasonable circle of competence — a mid-tier domestic bank competing in a country with a still-underpenetrated banking sector and a growing middle class.\n\nThe moat is real but narrow. AUB's 10-year average EPS growth of 23.7% and a sustained ROE of 18-19% — above the Philippine banking sector average — indicate a durable, if not impenetrable, cost and operational advantage. Its net interest margin expanded to 5.3% in Q1 2026, outpacing many larger peers. The 266-branch network and subsidiary rural banks (Rural Bank of Angeles, Cavite United Rural Bank) give AUB geographic reach into underbanked provincial segments that the Big Three banks often ignore. That said, AUB lacks the brand dominance or network effects of BDO or BPI, and RCBC's recent extended waiver of PESONet and InstaPay fees signals fee compression risk in digital channels. Its moat is best described as a cost and focus advantage in a specific middle-market niche — durable, but not wide.\n\nManagement credibility is supported by the numbers more than by flashy disclosures. A debt-to-equity of 0.06x is extraordinarily conservative for a Philippine bank, suggesting management does not chase growth with reckless leverage. The ₱9B syndicated loan to Hann Reserve with Union Bank signals disciplined large-ticket co-lending rather than solo concentration risk. Regular cash dividend declarations (multiple in 2026 alone) at a 4.1% yield against a roughly 23% payout ratio — leaving substantial retained earnings to fund growth — indicate a management team that balances shareholder returns with reinvestment. No regulatory censures or BSP sanctions appear in recent disclosures. The H1 2026 net income of ₱6.19B, a modest but steady increase over H1 2025's ₱6.13B, shows the growth rate normalizing from its explosive 10-year run, which is itself a mature-management signal.\n\nThe valuation is the central tension. At ₱48.95, AUB trades at 5.6x trailing earnings, 1.1x book, and a PEG of 0.24 — metrics that scream cheap by any conventional lens. The Rule #1 sticker price of ₱54.00 actually puts current price at a 9% discount to estimated intrinsic value, a modestly attractive entry. The problem is the margin of safety. Phil Town's Rule #1 demands a 50% discount to sticker (MOS price ₱27.00), and current price is 81% above that level. For strict Rule #1 practitioners, this is not a buy. However, the sticker price calculation using 23.7% historical growth is almost certainly conservative for current conditions — at 19% ROE and 5.6x P/E, even a more modest 12-15% forward growth assumption would push intrinsic value materially higher. The real risk to watch: growth normalization as the loan book matures, Philippine rate cycle compression on NIMs, and any BSP tightening that hits SME borrowers.\n\nBottom line: AUB is an excellent business — honest management, durable mid-tier moat, extraordinary historical returns, and genuinely cheap in absolute terms. The only reason this is not an outright buy today is that it sits 81% above the Rule #1 MOS entry point, offering little cushion if growth moderates sharply or a Philippine credit cycle turns. Watch it for a pullback toward ₱35-38 (roughly 30-35% discount to sticker), which would provide a more defensible margin of safety while preserving all the upside from a structurally sound compounder.",
+  "reconcileEdits": [
+    {
+      "find": "10-year compound EPS growth of 23.7%",
+      "replace": "10-year average EPS growth of 23.7%",
+      "reason": "The source gives 23.7% as a 10-year average EPS growth, not a compound rate."
+    },
+    {
+      "find": "the recent industry-wide waiver of PESONet and InstaPay fees",
+      "replace": "RCBC's recent extended waiver of PESONet and InstaPay fees",
+      "reason": "The source news reports only RCBC extending its fee waivers, not an industry-wide waiver."
+    },
+    {
+      "find": "against a 28% payout ratio",
+      "replace": "against a roughly 23% payout ratio",
+      "reason": "Source-implied payout is dividend yield × P/E = 4.1% × 5.6x ≈ 23%; Haiku flagged 28% as a contradiction in the smoke run (added by hand after review)."
+    }
+  ],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "AUB's 10-year average EPS growth of 23.7%",
+      "claim": "AUB's 10-year average EPS growth of 32.7%",
+      "trueValue": "EPS Growth (10-yr avg) 23.7%",
+      "sourceQuote": "EPS Growth: 23.7%",
+      "match": [
+        "32.7"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "A debt-to-equity of 0.06x is extraordinarily conservative for a Philippine bank",
+      "claim": "A debt-to-equity of 0.60x is extraordinarily conservative for a Philippine bank",
+      "trueValue": "Debt/Equity 0.06x",
+      "sourceQuote": "Debt/Equity: 0.06x",
+      "match": [
+        "0.60"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "current price is 81% above that level",
+      "claim": "current price is 81% below that level",
+      "trueValue": "Current price is ABOVE MOS by 81.3%",
+      "sourceQuote": "Current price is ABOVE MOS by 81.3%",
+      "match": [
+        "below",
+        "81% below",
+        "below that level"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "puts current price at a 9% discount to estimated intrinsic value",
+      "claim": "puts current price at a 9% premium to estimated intrinsic value",
+      "trueValue": "Price ₱48.95 is below sticker price ₱54.00",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱54.00",
+      "match": [
+        "premium",
+        "9% premium"
+      ]
+    },
+    {
+      "type": "year",
+      "original": "Regular cash dividend declarations (multiple in 2026 alone)",
+      "claim": "Regular cash dividend declarations (multiple in 2025 alone)",
+      "trueValue": "Dividend declarations dated 2026-06-26",
+      "sourceQuote": "2026-06-26: Declaration of Cash Dividends",
+      "match": [
+        "multiple in 2025",
+        "2025 alone"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "The 266-branch network and subsidiary rural banks (Rural Bank of Angeles, Cavite United Rural Bank)",
+      "claim": "The 266-branch network and minority-stake rural banks (Rural Bank of Angeles, Cavite United Rural Bank)",
+      "trueValue": "Rural Bank of Angeles and Cavite United Rural Bank are subsidiaries",
+      "sourceQuote": "AUB's subsidiaries are Rural Bank of Angeles and Cavite United Rural Bank",
+      "match": [
+        "minority",
+        "minority-stake"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "At ₱48.95, AUB trades at 5.6x trailing earnings",
+      "claim": "At $48.95, AUB trades at 5.6x trailing earnings",
+      "trueValue": "Current Price ₱48.95",
+      "sourceQuote": "Current Price: ₱48.95",
+      "match": [
+        "$48.95"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "The Rule #1 sticker price of ₱54.00",
+      "claim": "The Rule #1 sticker price of $54.00",
+      "trueValue": "Sticker Price ₱54.00",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱54.00",
+      "match": [
+        "$54.00"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-29T17:21:56.258Z"
+  }
+}

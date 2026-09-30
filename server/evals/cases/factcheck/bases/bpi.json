@@ -1,0 +1,125 @@
+{
+  "ticker": "BPI",
+  "frozenAt": "2026-09-29T17:12:19.990Z",
+  "generatedAt": "2026-09-12T04:45:17.465Z",
+  "context": {
+    "ticker": "BPI",
+    "companyName": "Bank of the Philippine Islands",
+    "sector": "Financials",
+    "subsector": "Banks",
+    "description": "Bank of the Philippine Islands (BPI) was incorporated on January 4, 1943, as a domestic commercial bank and went public on October 12, 1971. The Company offers an array of financial services that include corporate banking, consumer banking, investment banking, asset management, corporate finance, securities distribution, and insurance services.\n\nThe Company's principal subsidiaries are BPI Capital Corp.; BPI Direct BanKo, Inc.; BPI Asset Management and Trust Corporation; BPI Wealth Hongkong Limited; BPI (Europe) Plc (BPI Europe); BPI Investments Inc.; BPI Remittance Centre Hong Kong Ltd. (BERC HK); BPI Wealth Singapore Pte. Ltd.; Legazpi Savings Bank, Inc.; and BPI/MS Insurance Corp.\n\nAs of December 31, 2024, BPI operates 1,266 branches nationwide and 1,876 automated teller machines and cash accept machines. Overseas, the Company has two banking subsidiaries, BERC HK in Hong Kong and BPI Europe in London.\n\nSource: SEC Form 17-A (2024)",
+    "roic": null,
+    "epsGrowth": 11.790000000000001,
+    "revenueGrowth": 11.74,
+    "netIncomeGrowth": 13.83,
+    "fcfGrowth": 258.61,
+    "bookValueGrowth": 10.185688293531125,
+    "debtEquity": 0.5059,
+    "lastPrice": 103.1,
+    "pe": 8.169572107765452,
+    "pb": 1.147459062645032,
+    "peg": 0.692923842897833,
+    "dividendYield": 4.22890397672163,
+    "stickerPrice": 94.55726102453299,
+    "mosPrice": 47.278630512266496,
+    "disclosures": [
+      {
+        "date": "2026-07-09",
+        "template": "[Amend-1]Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "BPI sets benchmark among Philippine universal banks with dual ISO certification",
+        "source": "Magzter"
+      },
+      {
+        "title": "BPI first Philippine universal bank with dual ISO certification",
+        "source": "Daily Tribune"
+      },
+      {
+        "title": "Cezar Consing: Ayala Corporation President and CEO Profile",
+        "source": "The Business Manual"
+      },
+      {
+        "title": "In an interview with Rappler, Bank of the Philippine Islands president and chief executive officer TG Limcaoco said the country’s bank secrecy regime remains unusually strict compared with those of most jurisdictions.",
+        "source": "facebook.com"
+      },
+      {
+        "title": "Bank of the Philippine Islands Finds Everyday Miracles in 'Himala' Campaign",
+        "source": "LBB - Little Black Book"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Bank of the Philippine Islands (BPI)\nSector: Financials / Banks\nBank of the Philippine Islands (BPI) was incorporated on January 4, 1943, as a domestic commercial bank and went public on October 12, 1971. The Company offers an array of financial services that include corporate banking, consumer banking, investment banking, asset management, corporate finance, securities distribution, and insurance services.\n\nThe Company's principal subsidiaries are BPI Capital Corp.; BPI Direct BanKo, Inc.; BPI Asset Management and Trust Corporation; BPI Wealth Hongkong Limited; BPI (Europe) Plc (BPI Europe); BPI Investments Inc.; BPI Remittance Centre Hong Kong Ltd. (BERC HK); BPI Wealth Singapore Pte. Ltd.; Legazpi Savings Bank, Inc.; and BPI/MS Insurance Corp.\n\nAs of December 31, 2024, BPI operates 1,266 branches nationwide and 1,876 automated teller machines and cash accept machines. Overseas, the Company has two banking subsidiaries, BERC HK in Hong Kong and BPI Europe in London.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: N/A%\n- EPS Growth: 11.8%\n- Revenue Growth: 11.7%\n- Net Income Growth: 13.8%\n- FCF Growth: 258.6%\n- Book Value Growth: 10.2%\n- Debt/Equity: 0.51x\n\n## Valuation\n- Current Price: ₱103.10\n- P/E: 8.2x | P/B: 1.1x | PEG: 0.69x | Dividend Yield: 4.2%\n- Sticker Price (Rule #1 fair value): ₱94.56\n- MOS Buy Price (50% margin of safety): ₱47.28\n- Current price is ABOVE MOS by 118.1%\n\n## Recent Disclosures (last 1)\n- 2026-07-09: [Amend-1]Material Information/Transactions\n\n## Recent News (last 5)\n- BPI sets benchmark among Philippine universal banks with dual ISO certification (Magzter)\n- BPI first Philippine universal bank with dual ISO certification (Daily Tribune)\n- Cezar Consing: Ayala Corporation President and CEO Profile (The Business Manual)\n- In an interview with Rappler, Bank of the Philippine Islands president and chief executive officer TG Limcaoco said the country’s bank secrecy regime remains unusually strict compared with those of most jurisdictions. (facebook.com)\n- Bank of the Philippine Islands Finds Everyday Miracles in 'Himala' Campaign (LBB - Little Black Book)",
+  "storedThesis": "BPI is a well-understood business. It takes deposits, makes loans, manages wealth, and earns on the spread — a model unchanged in its essentials across economic cycles. The Philippines remains structurally underbanked relative to regional peers, giving BPI a long runway in a market it already dominates. Q1 2026 revenues hit ₱50.9 billion (+13.9% YoY), net income ₱16.9 billion (+1.7% YoY), with net interest margins expanding 7 basis points to 4.57%. The business is squarely within any generalist investor's circle of competence.\n\nThe moat is real and multi-layered. BPI's 1,266-branch network and brand — reinforced by its recent dual ISO certification and inclusion in Forbes' 2026 World's Top Performing Banks — creates deep switching-cost advantages. Filipinos rarely change banks. The moat also extends into the digital era: BPI's move to make interbank transfers permanently free from July 1 is aggressive customer acquisition that smaller rivals cannot easily absorb. The stablecoin remittance pilot with Meridian (targeting the $40B OFW corridor) signals management thinking ahead on a structural opportunity, not reacting. These are moat-widening moves, not desperation plays.\n\nManagement under CEO Limcaoco earns a qualified pass. Moody's affirmed BPI's deposit ratings in May 2026 on \"strong profitability and asset quality\" — a third-party credibility anchor. But Q1 missed EPS forecasts (₱3.2 vs. ₱3.47), and management revised credit cost guidance upward to 90–100 bps, citing Middle East tensions and retail borrower stress. The NPL ratio climbed to 2.42% (problem loan ratio 3.4% end-2025), with SME NPLs particularly elevated at 12.5% — construction and non-essential goods sectors showing stress. These aren't fabricated surprises; management disclosed them promptly and revised guidance accordingly. No red flags on honesty, but execution risk on asset quality is elevated.\n\nValuation is where a strict Rule #1 discipline forces a hard stop. The Sticker Price of ₱94.56 sits below today's ₱103.10 — meaning you're already paying above Phil Town's fair value. The MOS buy price of ₱47.28 is more than 50% below current price, a gap that requires either a dramatic market dislocation or a sustained earnings collapse to close. That said, P/E of 8.2x, P/B of 1.1x, and a PEG of 0.69x are objectively cheap on bank valuation norms. The 4.2% dividend provides meaningful return while you wait. The tension is real: the stock looks cheap by traditional bank metrics but fails the margin of safety test that Rule #1 demands. Rising credit costs and slowing net income growth (1.7% in Q1 vs. 13.8% 10-year average) suggest the near-term earnings engine is sputtering — precisely when you'd want a larger discount, not a premium.\n\nBPI is an exceptional franchise with a durable moat, credible management, and a long-term growth story tied to Philippine financial deepening and OFW remittance flows. But at ₱103.10 — above fair value with asset quality under visible pressure — the risk-reward is unfavorable for a new position. Watch for the price to pull back toward the ₱85–90 range (closer to sticker price) or for NPL trends to clearly stabilize and credit costs to normalize below 80 bps. Either development would shift this to a buy.",
+  "thesis": "BPI is a well-understood business. It takes deposits, makes loans, manages wealth, and earns on the spread — a model unchanged in its essentials across economic cycles. The Philippines remains structurally underbanked relative to regional peers, giving BPI a long runway in a market it already dominates. Q1 2026 revenues hit ₱50.9 billion (+13.9% YoY), net income ₱16.9 billion (+1.7% YoY), with net interest margins expanding 7 basis points to 4.57%. The business is squarely within any generalist investor's circle of competence.\n\nThe moat is real and multi-layered. BPI's 1,266-branch network and brand — reinforced by its recent dual ISO certification and inclusion in Forbes' 2026 World's Top Performing Banks — creates deep switching-cost advantages. Filipinos rarely change banks. The moat also extends into the digital era: BPI's move to make interbank transfers permanently free from July 1 is aggressive customer acquisition that smaller rivals cannot easily absorb. The stablecoin remittance pilot with Meridian (targeting the $40B OFW corridor) signals management thinking ahead on a structural opportunity, not reacting. These are moat-widening moves, not desperation plays.\n\nManagement under CEO Limcaoco earns a qualified pass. Moody's affirmed BPI's deposit ratings in May 2026 on \"strong profitability and asset quality\" — a third-party credibility anchor. But Q1 missed EPS forecasts (₱3.2 vs. ₱3.47), and management revised credit cost guidance upward to 90–100 bps, citing Middle East tensions and retail borrower stress. The NPL ratio climbed to 2.42% (problem loan ratio 3.4% end-2025), with SME NPLs particularly elevated at 12.5% — construction and non-essential goods sectors showing stress. These aren't fabricated surprises; management disclosed them promptly and revised guidance accordingly. No red flags on honesty, but execution risk on asset quality is elevated.\n\nValuation is where a strict Rule #1 discipline forces a hard stop. The Sticker Price of ₱94.56 sits below today's ₱103.10 — meaning you're already paying above Phil Town's fair value. The MOS buy price of ₱47.28 is more than 50% below current price, a gap that requires either a dramatic market dislocation or a sustained earnings collapse to close. That said, P/E of 8.2x, P/B of 1.1x, and a PEG of 0.69x are objectively cheap on bank valuation norms. The 4.2% dividend provides meaningful return while you wait. The tension is real: the stock looks cheap by traditional bank metrics but fails the margin of safety test that Rule #1 demands. Rising credit costs and slowing net income growth (1.7% in Q1 vs. 13.8% 10-year average) suggest the near-term earnings engine is sputtering — precisely when you'd want a larger discount, not a premium.\n\nBPI is an exceptional franchise with a durable moat, credible management, and a long-term growth story tied to Philippine financial deepening and OFW remittance flows. But at ₱103.10 — above fair value with asset quality under visible pressure — the risk-reward is unfavorable for a new position. Watch for the price to pull back toward the ₱85–90 range (closer to sticker price) or for NPL trends to clearly stabilize and credit costs to normalize below 80 bps. Either development would shift this to a buy.",
+  "reconcileEdits": [],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "That said, P/E of 8.2x, P/B of 1.1x, and a PEG of 0.69x are objectively cheap",
+      "claim": "That said, P/E of 18.2x, P/B of 1.1x, and a PEG of 0.69x are objectively cheap",
+      "trueValue": "P/E 8.2x",
+      "sourceQuote": "P/E: 8.2x",
+      "match": [
+        "18.2"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "slowing net income growth (1.7% in Q1 vs. 13.8% 10-year average)",
+      "claim": "slowing net income growth (1.7% in Q1 vs. 31.8% 10-year average)",
+      "trueValue": "10-year Net Income Growth 13.8%",
+      "sourceQuote": "Net Income Growth: 13.8%",
+      "match": [
+        "31.8"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "The Sticker Price of ₱94.56 sits below today's ₱103.10",
+      "claim": "The Sticker Price of ₱94.56 sits above today's ₱103.10",
+      "trueValue": "Sticker Price ₱94.56 is below the current price ₱103.10",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱94.56",
+      "match": [
+        "sits above",
+        "above today"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "The MOS buy price of ₱47.28 is more than 50% below current price",
+      "claim": "The MOS buy price of ₱47.28 is more than 50% above current price",
+      "trueValue": "MOS buy price ₱47.28 is below the current price ₱103.10",
+      "sourceQuote": "MOS Buy Price (50% margin of safety): ₱47.28",
+      "match": [
+        "50% above",
+        "above current price"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "But at ₱103.10 — above fair value with asset quality under visible pressure",
+      "claim": "But at $103.10 — above fair value with asset quality under visible pressure",
+      "trueValue": "Current Price ₱103.10",
+      "sourceQuote": "Current Price: ₱103.10",
+      "match": [
+        "$103.10",
+        "$103"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [
+    {
+      "type": "founding-year",
+      "original": "BPI is a well-understood business. It takes deposits, makes loans, manages wealth, and earns on the spread — a model unchanged in its essentials across economic cycles. The Philippines remains structurally underbanked relative to regional peers, giving BPI a long runway in a market it already dominates. Q1 2026 revenues hit ₱50.9 billion (+13.9% YoY), net income ₱16.9 billion (+1.7% YoY), with net interest margins expanding 7 basis points to 4.57%. The business is squarely within any generalist investor's circle of competence.",
+      "text": "BPI is a well-understood business. It takes deposits, makes loans, manages wealth, and earns on the spread — a model unchanged in its essentials across economic cycles. The Philippines remains structurally underbanked relative to regional peers, giving BPI a long runway in a market it already dominates. Q1 2026 revenues hit ₱50.9 billion (+13.9% YoY), net income ₱16.9 billion (+1.7% YoY), with net interest margins expanding 7 basis points to 4.57%. The business is squarely within any generalist investor's circle of competence. Founded in 1851 as Banco Español-Filipino, BPI is the oldest bank in Southeast Asia.",
+      "note": "True historical fact; the source gives the 1943 incorporation of the current entity. A real past false alarm."
+    }
+  ],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-29T17:21:56.233Z"
+  }
+}

@@ -2,7 +2,7 @@ import { getPool } from '../src/db.ts';
 import { upsertInvestmentThesis } from '../src/repositories/investment-theses.ts';
 import { spawn } from 'child_process';
 import { THESIS_INSTRUCTIONS } from '../prompts/thesis-instructions.ts';
-import { buildFactCheckPrompt } from '../prompts/fact-check.ts';
+import { buildFactCheckPrompt, parseFactCheckResponse } from '../prompts/fact-check.ts';
 import { buildDataBlock, buildTickerContext, parseThesisOutput, sanityCheck } from './thesis-context.ts';
 
 interface ClaudeJsonResult {
@@ -107,13 +107,8 @@ async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: n
     return { ok: false, cost: totalCost, reason: 'fact-check call failed' };
   }
 
-  let contradictions: string[] = [];
-  try {
-    const jsonMatch = factCheckResult.result.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) throw new Error('no JSON object found in response');
-    const parsed = JSON.parse(jsonMatch[0]) as { contradictions: string[] };
-    contradictions = parsed.contradictions ?? [];
-  } catch {
+  const contradictions = parseFactCheckResponse(factCheckResult.result);
+  if (!contradictions) {
     return { ok: false, cost: totalCost, reason: 'fact-check response was not valid JSON' };
   }
 

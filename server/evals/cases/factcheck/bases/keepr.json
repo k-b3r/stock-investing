@@ -1,0 +1,218 @@
+{
+  "ticker": "KEEPR",
+  "frozenAt": "2026-09-29T17:12:30.047Z",
+  "generatedAt": "2026-08-17T04:31:46.637Z",
+  "context": {
+    "ticker": "KEEPR",
+    "companyName": "The Keepers Holdings, Inc.",
+    "sector": "Industrial",
+    "subsector": "Food, Beverage & Tobacco",
+    "description": "The Keepers Holdings, Inc. (KEEPR) was first incorporated and registered with the Securities and Exchange Commission (SEC) on November 5, 1963 as Mariwasa Manufacturing, Inc., to primarily engage in the manufacture of ceramic tiles. The Company was listed in the PSE on September 3, 1991. On July 2, 2008, the SEC approved the change in corporate name to Mariwasa Siam Holdings, Inc. and change in its primary purpose from manufacturing to that of an investment holding company. On Aril 26, 2013, the SEC approved the change in name of Mariwasa Siam Holdings, Inc. to Da Vinci Capital Holdings, Inc. The Company had no operation or business since May 2013.\n\nOn March 29, 2021, the Board of Directors of KEEPR approved the issuance of 11,250,000,000 common shares of the Company to Cosco Capital, Inc. (Cosco Capital), which were created and issued out of an increase in its authorized capital stock, in exchange for 100% of the outstanding shares of Montosco, Inc. (Montosco), Meritus Prime Distributions, Inc. (Meritus), and Premier Wines and Spirits, Inc. (Premier). On June 18, 2021, the parties entered into a Deed of Exchange to implement the share swap transaction, specifically, (a) 9,488,444,240 common shares of the Company were swapped with 7,500,000 common shares of Cosco Capital in Montosco; (b) 907,885,074 common shares of the Company were swapped with 7,500,000 common shares of Cosco Capital in Meritus; and (c) 853,670,686 common shares of the Company were swapped with 1,500,000 common shares of Cosco Capital in Premier. The Company's application for the amendment of its articles of incorporation, to among others, change its corporate name to The Keepers Holdings Inc. and the share swap transaction were approved by the SEC on June 30, 2021.\n\nAs a result of the share swap transaction, the Company now legally and beneficially owns 100% of the outstanding shares of the three major players in the Philippine liquor, wine and specialty beverage distribution business Montosco, Meritus, and Premier, while Cosco Capital now owns a controlling equity interest in the Company.\n\nAs of December 31, 2024, the Company's subsidiaries include Montosco, Inc., Meritus Prime Distributions, Inc., Premier Wine & Spirits, Inc., Fertuna Distributions, Inc., Upfront Distributions Corp., Pernod Ricard Philippines, Inc., and Bodegas Williams and Humbert SA.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 18.19,
+    "epsGrowth": 0,
+    "revenueGrowth": 13.100000000000001,
+    "netIncomeGrowth": 16.85,
+    "fcfGrowth": 18.909999999999997,
+    "bookValueGrowth": 61.9650543664241,
+    "debtEquity": 0.0114,
+    "lastPrice": 1.93,
+    "pe": 7.72,
+    "pb": 1.5437529995200767,
+    "peg": null,
+    "dividendYield": 6.217616580310882,
+    "stickerPrice": 2.71,
+    "mosPrice": 1.355,
+    "disclosures": [
+      {
+        "date": "2026-05-15",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-08",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-08",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-04-08",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-04-07",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-04-07",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-04-07",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-01-25",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-11-16",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-11-12",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "The Keepers profit steady at P3.56B in 2025",
+        "source": "Inquirer.net"
+      },
+      {
+        "title": "KEEPR Stock Price and Chart — PSE:KEEPR",
+        "source": "TradingView"
+      },
+      {
+        "title": "Notice: Annual stockholders’ meeting of The Keepers Holdings Inc.",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "Lucio Co’s Keepers posts 18% Q1 profit growth as Filipinos splurge on premium liquor",
+        "source": "Bilyonaryo Business"
+      },
+      {
+        "title": "Lucio Co’s retail empire gains on robust Filipino spending",
+        "source": "Manila Bulletin"
+      }
+    ]
+  },
+  "dataBlock": "## Company: The Keepers Holdings, Inc. (KEEPR)\nSector: Industrial / Food, Beverage & Tobacco\nThe Keepers Holdings, Inc. (KEEPR) was first incorporated and registered with the Securities and Exchange Commission (SEC) on November 5, 1963 as Mariwasa Manufacturing, Inc., to primarily engage in the manufacture of ceramic tiles. The Company was listed in the PSE on September 3, 1991. On July 2, 2008, the SEC approved the change in corporate name to Mariwasa Siam Holdings, Inc. and change in its primary purpose from manufacturing to that of an investment holding company. On Aril 26, 2013, the SEC approved the change in name of Mariwasa Siam Holdings, Inc. to Da Vinci Capital Holdings, Inc. The Company had no operation or business since May 2013.\n\nOn March 29, 2021, the Board of Directors of KEEPR approved the issuance of 11,250,000,000 common shares of the Company to Cosco Capital, Inc. (Cosco Capital), which were created and issued out of an increase in its authorized capital stock, in exchange for 100% of the outstanding shares of Montosco, Inc. (Montosco), Meritus Prime Distributions, Inc. (Meritus), and Premier Wines and Spirits, Inc. (Premier). On June 18, 2021, the parties entered into a Deed of Exchange to implement the share swap transaction, specifically, (a) 9,488,444,240 common shares of the Company were swapped with 7,500,000 common shares of Cosco Capital in Montosco; (b) 907,885,074 common shares of the Company were swapped with 7,500,000 common shares of Cosco Capital in Meritus; and (c) 853,670,686 common shares of the Company were swapped with 1,500,000 common shares of Cosco Capital in Premier. The Company's application for the amendment of its articles of incorporation, to among others, change its corporate name to The Keepers Holdings Inc. and the share swap transaction were approved by the SEC on June 30, 2021.\n\nAs a result of the share swap transaction, the Company now legally and beneficially owns 100% of the outstanding shares of the three major players in the Philippine liquor, wine and specialty beverage distribution business Montosco, Meritus, and Premier, while Cosco Capital now owns a controlling equity interest in the Company.\n\nAs of December 31, 2024, the Company's subsidiaries include Montosco, Inc., Meritus Prime Distributions, Inc., Premier Wine & Spirits, Inc., Fertuna Distributions, Inc., Upfront Distributions Corp., Pernod Ricard Philippines, Inc., and Bodegas Williams and Humbert SA.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 18.2%\n- EPS Growth: 0.0%\n- Revenue Growth: 13.1%\n- Net Income Growth: 16.9%\n- FCF Growth: 18.9%\n- Book Value Growth: 62.0%\n- Debt/Equity: 0.01x\n\n## Valuation\n- Current Price: ₱1.93\n- P/E: 7.7x | P/B: 1.5x | PEG: N/Ax | Dividend Yield: 6.2%\n- Sticker Price (Rule #1 fair value): ₱2.71\n- MOS Buy Price (50% margin of safety): ₱1.35\n- Current price is ABOVE MOS by 42.4%\n\n## Recent Disclosures (last 10)\n- 2026-05-15: Material Information/Transactions\n- 2026-05-08: Press Release\n- 2026-05-08: Material Information/Transactions\n- 2026-04-08: Material Information/Transactions\n- 2026-04-07: Material Information/Transactions\n- 2026-04-07: Declaration of Cash Dividends\n- 2026-04-07: Press Release\n- 2026-01-25: Material Information/Transactions\n- 2025-11-16: Material Information/Transactions\n- 2025-11-12: Material Information/Transactions\n\n## Recent News (last 5)\n- The Keepers profit steady at P3.56B in 2025 (Inquirer.net)\n- KEEPR Stock Price and Chart — PSE:KEEPR (TradingView)\n- Notice: Annual stockholders’ meeting of The Keepers Holdings Inc. (Philstar.com)\n- Lucio Co’s Keepers posts 18% Q1 profit growth as Filipinos splurge on premium liquor (Bilyonaryo Business)\n- Lucio Co’s retail empire gains on robust Filipino spending (Manila Bulletin)",
+  "storedThesis": "The Keepers Holdings is a straightforward business to understand: it is the dominant importer and distributor of premium spirits, wines, and specialty beverages in the Philippines, holding roughly 74% volume share of the imported spirits category. Its subsidiaries Montosco, Meritus, and Premier collectively hold exclusive distribution rights for marquee global brands — Johnnie Walker, Absolut, Jim Beam, Baileys, José Cuervo, Jinro, and others — and route product through a network of 200-plus distribution partners plus direct shelf access through parent Cosco Capital's 540-store Puregold and S&R retail footprint. This is a business a layman can explain at a dinner table, and its economics are predictable: Filipino premium spirits consumption is structurally underpenetrated relative to regional peers, and a rising middle class and trade-up trend support long-run volume growth.\n\nThe moat is real and durable. Exclusive distribution agreements with brand owners like Diageo, Beam Suntory, and Pernod Ricard represent multi-year contractual moats that take years to win and carry significant switching costs — a competing distributor would need to displace KEEPR's relationships, logistics infrastructure, and retail shelf position simultaneously. The Puregold/S&R integration is a genuine cost and placement advantage: products move from importer to point of sale within the same corporate family, compressing distribution costs and giving KEEPR preferential shelf allocation. At 74% volume share, the company effectively is the imported spirits market in the Philippines, and no credible challenger at scale exists domestically today.\n\nManagement under the Lucio Co / Cosco Capital umbrella has demonstrated consistent capital discipline — a debt-to-equity ratio near zero despite aggressive expansion, and 10-year averages of 18.2% ROIC and 18.6% EPS growth speak to operators who prioritize compounding over leverage. The recent acquisition of a stake in Sula liqueur and the pending move into imported beer distribution via Booze Online show opportunistic but logical adjacency expansion. One flag worth noting: 2025 net income was essentially flat at ₱3.56 billion versus ₱3.54 billion in 2024 — a notable deceleration from the prior 20%+ growth trajectory. This warrants monitoring. Whether it reflects sin tax headwinds from the Philippines' escalating excise regime, post-COVID normalization, or temporary integration costs will be clearer in 2026 full-year results. Excise taxes on alcohol are a genuine regulatory risk: the 2012 Sin Tax Reform and subsequent expansions have compressed industry margins before, and further rate hikes remain politically viable.\n\nOn valuation, KEEPR sits in an interesting zone. At ₱1.93, the stock trades at a P/E of 7.7x and a PEG of 0.42x — deeply cheap relative to its growth history — and delivers a 6.2% dividend yield with near-zero leverage, making the wait comfortable. The Rule #1 Sticker Price at ₱2.71 implies roughly 40% upside to fair value, which is attractive. The strict 50% MOS buy price of ₱1.35, however, sits 30% below the current price, meaning a true margin-of-safety purist waits. Given the growth deceleration in 2025, pressing a full position here carries real risk that the Sticker Price calculation overstates future growth.\n\nThe bottom line is that this is an excellent business at a fair-to-reasonable price, not a screaming bargain. KEEPR's moat, management quality, and dividend yield make it far superior to most PSE alternatives at a comparable P/E. But the flat 2025 earnings and sin tax exposure mean the market may not re-rate it sharply until growth visibly reaccelerates. Watch for Q1–Q2 2026 results and excise tax policy developments. Add aggressively if the stock pulls back to ₱1.35–1.55; at current levels, a small starter position is defensible given the 6.2% yield as a carry cost while you wait for either a better entry or growth confirmation.",
+  "thesis": "The Keepers Holdings is a straightforward business to understand: it is the dominant importer and distributor of premium spirits, wines, and specialty beverages in the Philippines, holding roughly 74% volume share of the imported spirits category. Its subsidiaries Montosco, Meritus, and Premier collectively hold exclusive distribution rights for marquee global brands — Johnnie Walker, Absolut, Jim Beam, Baileys, José Cuervo, Jinro, and others — and route product through a network of 200-plus distribution partners plus direct shelf access through parent Cosco Capital's 540-store Puregold and S&R retail footprint. This is a business a layman can explain at a dinner table, and its economics are predictable: Filipino premium spirits consumption is structurally underpenetrated relative to regional peers, and a rising middle class and trade-up trend support long-run volume growth.\n\nThe moat is real and durable. Exclusive distribution agreements with brand owners like Diageo, Beam Suntory, and Pernod Ricard represent multi-year contractual moats that take years to win and carry significant switching costs — a competing distributor would need to displace KEEPR's relationships, logistics infrastructure, and retail shelf position simultaneously. The Puregold/S&R integration is a genuine cost and placement advantage: products move from importer to point of sale within the same corporate family, compressing distribution costs and giving KEEPR preferential shelf allocation. At 74% volume share, the company effectively is the imported spirits market in the Philippines, and no credible challenger at scale exists domestically today.\n\nManagement under the Lucio Co / Cosco Capital umbrella has demonstrated consistent capital discipline — a debt-to-equity ratio near zero despite aggressive expansion, and 10-year averages of 18.2% ROIC and 0.0% EPS growth speak to operators who prioritize compounding over leverage. The recent acquisition of a stake in Sula liqueur and the pending move into imported beer distribution via Booze Online show opportunistic but logical adjacency expansion. One flag worth noting: 2025 net income was essentially flat at ₱3.56 billion versus ₱3.54 billion in 2024 — a notable deceleration from the prior 20%+ growth trajectory. This warrants monitoring. Whether it reflects sin tax headwinds from the Philippines' escalating excise regime, post-COVID normalization, or temporary integration costs will be clearer in 2026 full-year results. Excise taxes on alcohol are a genuine regulatory risk: the 2012 Sin Tax Reform and subsequent expansions have compressed industry margins before, and further rate hikes remain politically viable.\n\nOn valuation, KEEPR sits in an interesting zone. At ₱1.93, the stock trades at a P/E of 7.7x and a PEG of N/A — deeply cheap relative to its growth history — and delivers a 6.2% dividend yield with near-zero leverage, making the wait comfortable. The Rule #1 Sticker Price at ₱2.71 implies roughly 40% upside to fair value, which is attractive. The strict 50% MOS buy price of ₱1.35, however, sits 30% below the current price, meaning a true margin-of-safety purist waits. Given the growth deceleration in 2025, pressing a full position here carries real risk that the Sticker Price calculation overstates future growth.\n\nThe bottom line is that this is an excellent business at a fair-to-reasonable price, not a screaming bargain. KEEPR's moat, management quality, and dividend yield make it far superior to most PSE alternatives at a comparable P/E. But the flat 2025 earnings and sin tax exposure mean the market may not re-rate it sharply until growth visibly reaccelerates. Watch for Q1–Q2 2026 results and excise tax policy developments. Add aggressively if the stock pulls back to ₱1.35–1.55; at current levels, a small starter position is defensible given the 6.2% yield as a carry cost while you wait for either a better entry or growth confirmation.",
+  "reconcileEdits": [
+    {
+      "find": "18.6% EPS growth",
+      "replace": "0.0% EPS growth",
+      "reason": "The source gives a 10-year average EPS growth of 0.0%, not 18.6%."
+    },
+    {
+      "find": "a PEG of 0.42x",
+      "replace": "a PEG of N/A",
+      "reason": "The source lists PEG as N/A, so the 0.42x figure contradicts it."
+    }
+  ],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "10-year averages of 18.2% ROIC and 0.0% EPS growth",
+      "claim": "10-year averages of 28.2% ROIC and 0.0% EPS growth",
+      "trueValue": "ROIC 18.2%",
+      "sourceQuote": "ROIC: 18.2%",
+      "match": [
+        "28.2"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "the stock trades at a P/E of 7.7x and a PEG of N/A",
+      "claim": "the stock trades at a P/E of 17.7x and a PEG of N/A",
+      "trueValue": "P/E 7.7x",
+      "sourceQuote": "P/E: 7.7x",
+      "match": [
+        "17.7"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "sits 30% below the current price",
+      "claim": "sits 30% above the current price",
+      "trueValue": "Current price is above the MOS price by 42.4%, so the MOS price of ₱1.35 is below the current price",
+      "sourceQuote": "Current price is ABOVE MOS by 42.4%",
+      "match": [
+        "above the current price",
+        "sits 30% above"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "delivers a 6.2% dividend yield with near-zero leverage",
+      "claim": "delivers a 6.2% dividend yield with heavy leverage",
+      "trueValue": "Debt/Equity 0.01x",
+      "sourceQuote": "Debt/Equity: 0.01x",
+      "match": [
+        "heavy leverage",
+        "heavy"
+      ]
+    },
+    {
+      "type": "year",
+      "original": "One flag worth noting: 2025 net income was essentially flat",
+      "claim": "One flag worth noting: 2023 net income was essentially flat",
+      "trueValue": "Profit steady at P3.56B in 2025",
+      "sourceQuote": "The Keepers profit steady at P3.56B in 2025",
+      "match": [
+        "2023"
+      ]
+    },
+    {
+      "type": "units",
+      "original": "essentially flat at ₱3.56 billion versus ₱3.54 billion in 2024",
+      "claim": "essentially flat at ₱3.56 million versus ₱3.54 billion in 2024",
+      "trueValue": "2025 profit P3.56 billion",
+      "sourceQuote": "The Keepers profit steady at P3.56B in 2025",
+      "match": [
+        "3.56 million",
+        "₱3.56 million"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "At ₱1.93, the stock trades at a P/E of 7.7x",
+      "claim": "At $1.93, the stock trades at a P/E of 7.7x",
+      "trueValue": "Current Price ₱1.93",
+      "sourceQuote": "Current Price: ₱1.93",
+      "match": [
+        "$1.93"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "The Rule #1 Sticker Price at ₱2.71 implies roughly 40% upside",
+      "claim": "The Rule #1 Sticker Price at $2.71 implies roughly 40% upside",
+      "trueValue": "Sticker Price ₱2.71",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱2.71",
+      "match": [
+        "$2.71"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "brand owners like Diageo, Beam Suntory, and Pernod Ricard represent multi-year contractual moats",
+      "claim": "brand owners like Diageo, Beam Suntory, and Pernod Ricard, where KEEPR holds a 30% stake in Pernod Ricard Philippines, represent multi-year contractual moats",
+      "trueValue": "Pernod Ricard Philippines, Inc. is listed as a subsidiary of the Company, not a 30% minority holding",
+      "sourceQuote": "Pernod Ricard Philippines, Inc.",
+      "match": [
+        "30% stake",
+        "30% stake in Pernod",
+        "stake in Pernod Ricard"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "direct shelf access through parent Cosco Capital's 540-store Puregold and S&R retail footprint",
+      "claim": "direct shelf access through minority shareholder Cosco Capital's 540-store Puregold and S&R retail footprint",
+      "trueValue": "Cosco Capital owns a controlling equity interest in KEEPR",
+      "sourceQuote": "Cosco Capital now owns a controlling equity interest in the Company",
+      "match": [
+        "minority shareholder",
+        "minority"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-30T00:16:35.057Z"
+  }
+}
