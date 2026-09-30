@@ -16,7 +16,8 @@ export interface ThesisExpectations {
   allowedVerdicts: Verdict[];
   // Numeric context fields that are null (shown as N/A); the thesis must not state values for them
   missingFields: string[];
-  // price-shift: id of the real case this differs from only in price (the lower price should never get a worse verdict)
+  // price-shift: id of the real case this differs from only in price; the verdict must move toward buy at the lower
+  // price and toward pass at the higher one (unchanged fails, see gradePriceShift)
   pair?: string;
   // trap: fields holding impossible values and what the model should notice
   trap?: { fields: string[]; description: string };
