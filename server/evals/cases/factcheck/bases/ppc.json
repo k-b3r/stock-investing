@@ -1,0 +1,178 @@
+{
+  "ticker": "PPC",
+  "frozenAt": "2026-09-29T17:12:34.458Z",
+  "generatedAt": "2026-09-12T08:51:40.548Z",
+  "context": {
+    "ticker": "PPC",
+    "companyName": "Pryce Corporation",
+    "sector": "Industrial",
+    "subsector": "Electricity, Energy, Power & Water",
+    "description": "Pryce Corporation (PPC), formerly Pryce Properties Corporation, was incorporated and registered with the Securities and Exchange Commission on September 7, 1989. The Company was established basically as a property holding and real estate development company and concentrates its operations in Mindanao, being involved in the development of memorial parks and sale of memorial lots.\n\nPPC owns and operates 13 memorial parks in Mindanao's major cities: Cagayan de Oro City, Iligan City, Ozamiz, Polanco (near Dipolog City), Zamboanga City, Davao City, including the smaller memorial parks in Manolo Fortich (at the boundary of Cagayan de Oro City and Bukidnon), Malaybalay City in Bukidnon, Malita in Davao Occidental, Bislig in Surigao del Sur, Alabel in Saranggani, Pagadian City, and the most recent in Butuan City, which was launched on January 25, 2019.\n\nPryce Gases, Inc. is the Company's major subsidiary. It is engaged in the importation and distribution of liquefied petroleum gas under the brand name 'PryceGas' and also produces and sells industrial gases. Another subsidiary is Pryce Pharmaceuticals, Inc., a wholesaler and distributor of private branded multi-vitamins and some over-the-counter generic drugs.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 13.98,
+    "epsGrowth": 26.200000000000003,
+    "revenueGrowth": null,
+    "netIncomeGrowth": null,
+    "fcfGrowth": 720.0966666666665,
+    "bookValueGrowth": 21.814891046124487,
+    "debtEquity": 0.0461,
+    "lastPrice": 15.36,
+    "pe": 10.192435301924354,
+    "pb": 1.638330097915822,
+    "peg": 0.3890242481650516,
+    "dividendYield": 2.604166666666667,
+    "stickerPrice": null,
+    "mosPrice": null,
+    "disclosures": [
+      {
+        "date": "2026-06-29",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-29",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-04-28",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-04-28",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-01-30",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-01-30",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-12-11",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-11-12",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-10-20",
+        "template": "Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "LANDBANK, Pryce Corp. ink P1.6-B loan for business expansion",
+        "source": "Punto! Central Luzon"
+      },
+      {
+        "title": "LPG margins propel Pryce profits to record P1.32 billion",
+        "source": "Manila Bulletin"
+      },
+      {
+        "title": "Pryce profits hit record as LPG prices drop",
+        "source": "Manila Bulletin"
+      },
+      {
+        "title": "SC rules senior citizen discount extends to internment services",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "Index rebalances, AREIT, CBC join list",
+        "source": "Daily Tribune"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Pryce Corporation (PPC)\nSector: Industrial / Electricity, Energy, Power & Water\nPryce Corporation (PPC), formerly Pryce Properties Corporation, was incorporated and registered with the Securities and Exchange Commission on September 7, 1989. The Company was established basically as a property holding and real estate development company and concentrates its operations in Mindanao, being involved in the development of memorial parks and sale of memorial lots.\n\nPPC owns and operates 13 memorial parks in Mindanao's major cities: Cagayan de Oro City, Iligan City, Ozamiz, Polanco (near Dipolog City), Zamboanga City, Davao City, including the smaller memorial parks in Manolo Fortich (at the boundary of Cagayan de Oro City and Bukidnon), Malaybalay City in Bukidnon, Malita in Davao Occidental, Bislig in Surigao del Sur, Alabel in Saranggani, Pagadian City, and the most recent in Butuan City, which was launched on January 25, 2019.\n\nPryce Gases, Inc. is the Company's major subsidiary. It is engaged in the importation and distribution of liquefied petroleum gas under the brand name 'PryceGas' and also produces and sells industrial gases. Another subsidiary is Pryce Pharmaceuticals, Inc., a wholesaler and distributor of private branded multi-vitamins and some over-the-counter generic drugs.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 14.0%\n- EPS Growth: 26.2%\n- Revenue Growth: N/A%\n- Net Income Growth: N/A%\n- FCF Growth: 720.1%\n- Book Value Growth: 21.8%\n- Debt/Equity: 0.05x\n\n## Valuation\n- Current Price: ₱15.36\n- P/E: 10.2x | P/B: 1.6x | PEG: 0.39x | Dividend Yield: 2.6%\n- Sticker Price (Rule #1 fair value): ₱N/A\n- MOS Buy Price (50% margin of safety): ₱N/A\n- Current price is N/A\n\n## Recent Disclosures (last 10)\n- 2026-06-29: Material Information/Transactions\n- 2026-06-29: Material Information/Transactions\n- 2026-05-06: Declaration of Cash Dividends\n- 2026-04-28: Press Release\n- 2026-04-28: Material Information/Transactions\n- 2026-01-30: Material Information/Transactions\n- 2026-01-30: Press Release\n- 2025-12-11: Material Information/Transactions\n- 2025-11-12: Declaration of Cash Dividends\n- 2025-10-20: Press Release\n\n## Recent News (last 5)\n- LANDBANK, Pryce Corp. ink P1.6-B loan for business expansion (Punto! Central Luzon)\n- LPG margins propel Pryce profits to record P1.32 billion (Manila Bulletin)\n- Pryce profits hit record as LPG prices drop (Manila Bulletin)\n- SC rules senior citizen discount extends to internment services (Philippine News Agency)\n- Index rebalances, AREIT, CBC join list (Daily Tribune)",
+  "storedThesis": "Pryce Corporation is a Mindanao-focused conglomerate operating across three understandable segments: LPG distribution (Pryce Gases), memorial parks (13 Mindanao locations), and pharmaceutical distribution. The business is easy to understand — it sells household energy and cemetery lots to a captive regional market. LPG is now the dominant earnings driver, accounting for the bulk of the recent profit surge. The pharmaceutical arm is small and largely irrelevant to the investment case. What matters here is LPG and land.\n\nThe moat is real, if regional in scope. Pryce Gases holds roughly 27% market share in Mindanao and ranks second in the combined Visayas-Mindanao region behind Petron. LPG distribution is a logistics-intensive business: terminals, cylinders, refilling infrastructure, and dealer relationships compound over time and create a durable regional cost advantage. Replicating Pryce's Mindanao footprint would require years and hundreds of millions in capex — a meaningful barrier. The memorial park segment adds another durable moat layer: pre-sold lots generate recurring cash, locations cannot be replicated, and cultural attachment to established parks is strong. Neither segment is exciting, but both are sticky and defensible within Mindanao's growing, underpenetrated markets.\n\nManagement quality shows in the numbers and in capital discipline. The balance sheet is essentially debt-free (Debt/Equity of 0.05x) even after investing in LPG terminal expansion via the ₱1.6B LANDBANK facility in 2023. Full-year 2025 net income hit ₱4.01 billion, up 30% over 2024, and Q1 2026 came in at ₱1.06 billion — up 48.8% year-on-year. Book value has compounded at 21.8% annually. The dividend payout ratio sits at a conservative 27%, allowing retained earnings to fund expansion. Pryce's inclusion on Forbes Asia's \"Best Under a Billion\" 2026 list is external confirmation of what the numbers already show. The one regulatory headache worth watching is the Supreme Court ruling extending senior citizen discounts to internment services, which will compress memorial park margins at the margin — but this segment is a small share of consolidated profit and unlikely to be thesis-breaking.\n\nOn valuation, the Sticker Price cannot be computed precisely from the data provided, but a back-of-envelope Rule #1 estimate is striking. With trailing EPS near ₱1.50, a conservative 15% growth assumption (well below the recent 30%), and a terminal P/E of 15x, the 10-year future price lands around ₱90 — implying a 50% MOS buy price near ₱45. The current price of ₱15.36 is roughly one-third of that conservative MOS threshold. Even if growth halves to 10% and the market never re-rates, the stock is deeply cheap on a P/E of 10.2x for a business generating 14% ROIC with minimal debt. The primary risks are LPG margin compression (Saudi CP fluctuations, peso weakness), the long-arc electrification transition reducing LPG demand in the Philippines over a decade, and Mindanao-specific geopolitical instability. None of these are imminent threats; the Philippines remains one of the most LPG-dependent economies in Southeast Asia for household cooking, and the government's energy transition timeline is slow.\n\nAt ₱15.36, Pryce Corporation offers a rare combination in the PSEi: genuine regional moats, growing profits, fortress balance sheet, honest capital allocation, and a valuation that prices in near-zero growth. The margin of safety here is not marginal — it is substantial. The main watch items are LPG margin sustainability heading into 2027, the impact of the senior citizen discount ruling on memorial park cash flows, and whether Pryce can deploy the LANDBANK loan productively into industrial gas expansion. Given the current price, the risk/reward is overwhelmingly favorable for a long-term hold.",
+  "thesis": "Pryce Corporation is a Mindanao-focused conglomerate operating across three understandable segments: LPG distribution (Pryce Gases), memorial parks (13 Mindanao locations), and pharmaceutical distribution. The business is easy to understand — it sells household energy and cemetery lots to a captive regional market. LPG is now the dominant earnings driver, accounting for the bulk of the recent profit surge. The pharmaceutical arm is small and largely irrelevant to the investment case. What matters here is LPG and land.\n\nThe moat is real, if regional in scope. Pryce Gases holds roughly 27% market share in Mindanao and ranks second in the combined Visayas-Mindanao region behind Petron. LPG distribution is a logistics-intensive business: terminals, cylinders, refilling infrastructure, and dealer relationships compound over time and create a durable regional cost advantage. Replicating Pryce's Mindanao footprint would require years and hundreds of millions in capex — a meaningful barrier. The memorial park segment adds another durable moat layer: pre-sold lots generate recurring cash, locations cannot be replicated, and cultural attachment to established parks is strong. Neither segment is exciting, but both are sticky and defensible within Mindanao's growing, underpenetrated markets.\n\nManagement quality shows in the numbers and in capital discipline. The balance sheet is essentially debt-free (Debt/Equity of 0.05x) even after investing in LPG terminal expansion via the ₱1.6B LANDBANK facility in 2023. Full-year 2025 net income hit ₱4.01 billion, up 30% over 2024, and Q1 2026 came in at ₱1.06 billion — up 48.8% year-on-year. Book value has compounded at 21.8% annually. The dividend payout ratio sits at a conservative 27%, allowing retained earnings to fund expansion. Pryce's inclusion on Forbes Asia's \"Best Under a Billion\" 2026 list is external confirmation of what the numbers already show. The one regulatory headache worth watching is the Supreme Court ruling extending senior citizen discounts to internment services, which will compress memorial park margins at the margin — but this segment is a small share of consolidated profit and unlikely to be thesis-breaking.\n\nOn valuation, the Sticker Price cannot be computed precisely from the data provided, but a back-of-envelope Rule #1 estimate is striking. With trailing EPS near ₱1.50, a conservative 15% growth assumption (well below the recent 30%), and a terminal P/E of 15x, the 10-year future price lands around ₱90 — implying a 50% MOS buy price near ₱45. The current price of ₱15.36 is roughly one-third of that conservative MOS threshold. Even if growth halves to 10% and the market never re-rates, the stock is deeply cheap on a P/E of 10.2x for a business generating 14% ROIC with minimal debt. The primary risks are LPG margin compression (Saudi CP fluctuations, peso weakness), the long-arc electrification transition reducing LPG demand in the Philippines over a decade, and Mindanao-specific geopolitical instability. None of these are imminent threats; the Philippines remains one of the most LPG-dependent economies in Southeast Asia for household cooking, and the government's energy transition timeline is slow.\n\nAt ₱15.36, Pryce Corporation offers a rare combination in the PSEi: genuine regional moats, growing profits, fortress balance sheet, honest capital allocation, and a valuation that prices in near-zero growth. The margin of safety here is not marginal — it is substantial. The main watch items are LPG margin sustainability heading into 2027, the impact of the senior citizen discount ruling on memorial park cash flows, and whether Pryce can deploy the LANDBANK loan productively into industrial gas expansion. Given the current price, the risk/reward is overwhelmingly favorable for a long-term hold.",
+  "reconcileEdits": [],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "Full-year 2025 net income hit ₱4.01 billion",
+      "claim": "After LPG margins propelled profits to a record ₱3.72 billion, full-year 2025 net income hit ₱4.01 billion",
+      "trueValue": "Record profits of P1.32 billion (news headline)",
+      "sourceQuote": "LPG margins propel Pryce profits to record P1.32 billion",
+      "match": [
+        "3.72"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "for a business generating 14% ROIC with minimal debt",
+      "claim": "for a business generating 41% ROIC with minimal debt",
+      "trueValue": "ROIC 14.0%",
+      "sourceQuote": "ROIC: 14.0%",
+      "match": [
+        "41%",
+        "41% ROIC"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "The balance sheet is essentially debt-free (Debt/Equity of 0.05x)",
+      "claim": "The balance sheet is essentially debt-free (Debt/Equity of 0.50x)",
+      "trueValue": "Debt/Equity 0.05x",
+      "sourceQuote": "Debt/Equity: 0.05x",
+      "match": [
+        "0.50x",
+        "0.50"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "Book value has compounded at 21.8% annually.",
+      "claim": "Book value has declined 21.8% annually.",
+      "trueValue": "Book Value Growth 21.8%",
+      "sourceQuote": "Book Value Growth: 21.8%",
+      "match": [
+        "declined",
+        "declined 21.8%"
+      ]
+    },
+    {
+      "type": "units",
+      "original": "investing in LPG terminal expansion via the ₱1.6B LANDBANK facility in 2023",
+      "claim": "investing in LPG terminal expansion via the ₱1.6M LANDBANK facility in 2023",
+      "trueValue": "P1.6 billion loan",
+      "sourceQuote": "LANDBANK, Pryce Corp. ink P1.6-B loan for business expansion",
+      "match": [
+        "1.6M",
+        "₱1.6M"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "operating across three understandable segments: LPG distribution (Pryce Gases)",
+      "claim": "operating across three understandable segments: LPG distribution (minority affiliate Pryce Gases)",
+      "trueValue": "Pryce Gases is the Company's major subsidiary",
+      "sourceQuote": "Pryce Gases, Inc. is the Company's major subsidiary.",
+      "match": [
+        "minority",
+        "minority affiliate",
+        "affiliate"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "investing in LPG terminal expansion via the ₱1.6B LANDBANK facility",
+      "claim": "investing in LPG terminal expansion via the $1.6B LANDBANK facility",
+      "trueValue": "P1.6 billion loan",
+      "sourceQuote": "LANDBANK, Pryce Corp. ink P1.6-B loan for business expansion",
+      "match": [
+        "$1.6B",
+        "$1.6"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-30T00:15:18.976Z"
+  }
+}

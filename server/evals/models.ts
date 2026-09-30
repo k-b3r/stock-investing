@@ -15,6 +15,8 @@ export const MODELS: ModelSpec[] = [
   { id: 'glm-5.3-flash', provider: 'go', model: 'glm-5.3-flash', price: { input: 0.15, output: 0.5 } },
   { id: 'qwen3.8-flash', provider: 'go', model: 'qwen3.8-flash', price: { input: 0.15, output: 0.47 } },
   { id: 'sonnet', provider: 'claude-cli', model: 'sonnet', price: null },
+  // Production fact-checker
+  { id: 'haiku', provider: 'claude-cli', model: 'haiku', price: null },
 ];
 
 export function findModel(id: string): ModelSpec {

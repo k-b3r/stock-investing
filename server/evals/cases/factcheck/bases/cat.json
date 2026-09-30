@@ -1,0 +1,134 @@
+{
+  "ticker": "CAT",
+  "frozenAt": "2026-09-29T17:12:21.176Z",
+  "generatedAt": "2026-08-16T12:38:54.997Z",
+  "context": {
+    "ticker": "CAT",
+    "companyName": "Central Azucarera de Tarlac, Inc.",
+    "sector": "Industrial",
+    "subsector": "Food, Beverage & Tobacco",
+    "description": "Central Azucarera de Tarlac (CAT) was incorporated on June 19, 1927 to operate as an integrated manufacturing facility that processes sugar and all its by-products. Its business and facilities include the sugar milling and refinery, distillery and carbon dioxide plants located in Barrio San Miguel, Tarlac City. The sugar cane supply is sourced predominantly from the Tarlac district and a few in the nearby towns of Pampanga.\n\nCAT's main products are raw and refined sugar, with the mill and refinery process also producing molasses as a by-product. The combined captive molasses are further processed in the distillery to produce alcohol. The various types of alcohol regularly produced and sold are rectified spirits (purified alcohol), absolute alcohol and denatured alcohol. The slops from the distillery are also captured by the carbon dioxide plant to produce liquid carbon dioxide also in tandem with the distillery.\n\nThe Company owns a 100% stake in Luisita Land Corporation (LLC), a domestic corporation engaged in developing, leasing, and selling real properties and other ancillary services. CAT, through LLC, provides property management, water distribution, and wastewater treatment series to locators of Luisita Industrial Park and residents of Las Haciendas de Luisita.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 10.639999999999999,
+    "epsGrowth": 15.260000000000002,
+    "revenueGrowth": 3.36,
+    "netIncomeGrowth": 13.320000000000002,
+    "fcfGrowth": 157.31142857142854,
+    "bookValueGrowth": 7.827785080622718,
+    "debtEquity": 0.0567,
+    "lastPrice": 9.8,
+    "pe": 4.642349597347229,
+    "pb": 0.5935293191370812,
+    "peg": 0.3042168805601067,
+    "dividendYield": 65.71428571428571,
+    "stickerPrice": 10.86,
+    "mosPrice": 5.43,
+    "disclosures": [],
+    "news": [
+      {
+        "title": "Central Azucarera de Tarlac, Inc.: Shareholders Board Members Managers and Company Profile | PHY124141193",
+        "source": "marketscreener.com"
+      },
+      {
+        "title": "Cojuangcos sell Central Azucarera de Tarlac",
+        "source": "Rappler"
+      },
+      {
+        "title": "CAT Stock Price and Chart — PSE:CAT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Tarlac sugar mill to sell 200 hectares to Lima Land",
+        "source": "BusinessWorld"
+      },
+      {
+        "title": "Ayala unit to buy land from Luisita sugar mill owner",
+        "source": "Inquirer.net"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Central Azucarera de Tarlac, Inc. (CAT)\nSector: Industrial / Food, Beverage & Tobacco\nCentral Azucarera de Tarlac (CAT) was incorporated on June 19, 1927 to operate as an integrated manufacturing facility that processes sugar and all its by-products. Its business and facilities include the sugar milling and refinery, distillery and carbon dioxide plants located in Barrio San Miguel, Tarlac City. The sugar cane supply is sourced predominantly from the Tarlac district and a few in the nearby towns of Pampanga.\n\nCAT's main products are raw and refined sugar, with the mill and refinery process also producing molasses as a by-product. The combined captive molasses are further processed in the distillery to produce alcohol. The various types of alcohol regularly produced and sold are rectified spirits (purified alcohol), absolute alcohol and denatured alcohol. The slops from the distillery are also captured by the carbon dioxide plant to produce liquid carbon dioxide also in tandem with the distillery.\n\nThe Company owns a 100% stake in Luisita Land Corporation (LLC), a domestic corporation engaged in developing, leasing, and selling real properties and other ancillary services. CAT, through LLC, provides property management, water distribution, and wastewater treatment series to locators of Luisita Industrial Park and residents of Las Haciendas de Luisita.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 10.6%\n- EPS Growth: 15.3%\n- Revenue Growth: 3.4%\n- Net Income Growth: 13.3%\n- FCF Growth: 157.3%\n- Book Value Growth: 7.8%\n- Debt/Equity: 0.06x\n\n## Valuation\n- Current Price: ₱9.80\n- P/E: 4.6x | P/B: 0.6x | PEG: 0.30x | Dividend Yield: 65.7%\n- Sticker Price (Rule #1 fair value): ₱10.86\n- MOS Buy Price (50% margin of safety): ₱5.43\n- Current price is ABOVE MOS by 80.5%\n\n## Recent Disclosures (last 0)\n(none available)\n\n## Recent News (last 5)\n- Central Azucarera de Tarlac, Inc.: Shareholders Board Members Managers and Company Profile | PHY124141193 (marketscreener.com)\n- Cojuangcos sell Central Azucarera de Tarlac (Rappler)\n- CAT Stock Price and Chart — PSE:CAT (TradingView)\n- Tarlac sugar mill to sell 200 hectares to Lima Land (BusinessWorld)\n- Ayala unit to buy land from Luisita sugar mill owner (Inquirer.net)",
+  "storedThesis": "Central Azucarera de Tarlac is a straightforward business to understand: it mills and refines sugar from Tarlac cane growers, distills molasses into alcohol, captures CO2 as a byproduct, and through subsidiary Luisita Land Corporation manages and sells parcels of its vast Hacienda Luisita estate as an industrial park. The business is within a reasonable circle of competence — commodity agriculture with a real estate optionality layer attached.\n\nThe moat question is where CAT struggles most. Sugar is a commodity. CAT has no pricing power; it is price-taker in a market increasingly pressured by government-sanctioned sugar imports. The regional milling position in Tarlac gives it captive supply relationships with local planters, but that is a geographic convenience rather than a durable competitive advantage. The Luisita Industrial Park and water/wastewater utility operations add a modest moat via switching costs for locators, but this is a small contributor relative to core milling revenues. There is no brand, no network effect, no structural cost advantage versus larger or more modern mills. This is a narrow moat at best — largely asset-backed rather than competitively entrenched.\n\nManagement's capital allocation through the Luisita land monetization program has been intelligent: the 290-hectare sale to Ayala Land (circa 2018) and the 200-hectare sale to Lima Land/Aboitiz (2023) generated enormous one-time cash flows that funded the extraordinary EPS and dividend figures. That explains the 65.7% dividend yield — special distributions from property proceeds, not recurring earnings power. The Cojuangco family previously sold their controlling interest to a group led by Martin Lorenzo, adding an ownership transition layer to management uncertainty. FY2025 net income collapsed 70% to ₱503 million and revenues fell 73% to ₱1.43 billion, explicitly because the prior year's property gains vanished. Management cited deliberate sugar inventory timing and margin preservation, which is reasonable, but the underlying core business generated only ₱713 million in sugar income. That normalization is the real earnings story going forward.\n\nOn valuation, the headline numbers look seductive — 4.6x P/E, 0.6x P/B, PEG of 0.30 — but these are largely rear-view figures inflated by non-recurring land sale income. The Rule #1 Sticker Price of ₱10.86 implies the current price of ₱9.80 is near fair value, but the MOS Buy Price of ₱5.43 (the 50% safety margin required by Rule #1 discipline) is 45% below where the stock trades today. More importantly, if normalized earnings power ex-property sales is closer to ₱500–700 million annually and the land bank is gradually being sold off rather than compounding, the 10-year EPS growth rate of 15.3% embedded in the Sticker Price calculation is almost certainly not repeatable — it was driven by a finite, non-recurring asset monetization strategy. The real forward P/E is likely much higher than 4.6x once the market digests the earnings reset.\n\nThis is a pass at ₱9.80. The business is understandable but lacks a durable moat; the earnings history is distorted by land sales that are winding down; and the price offers no margin of safety under Rule #1 criteria. A fair entry under strict Rule #1 discipline would require the stock to trade closer to ₱5–6, at which point the remaining land bank value, normalized sugar and alcohol operations, and the industrial park utility income would collectively provide genuine downside protection. Watch for a re-rating lower as the market digests the earnings normalization, and revisit if management announces additional land monetization at scale or if sugar margins structurally improve via industry consolidation or reduced imports.",
+  "thesis": "Central Azucarera de Tarlac is a straightforward business to understand: it mills and refines sugar from Tarlac cane growers, distills molasses into alcohol, captures CO2 as a byproduct, and through subsidiary Luisita Land Corporation manages and sells parcels of its vast Hacienda Luisita estate as an industrial park. The business is within a reasonable circle of competence — commodity agriculture with a real estate optionality layer attached.\n\nThe moat question is where CAT struggles most. Sugar is a commodity. CAT has no pricing power; it is price-taker in a market increasingly pressured by government-sanctioned sugar imports. The regional milling position in Tarlac gives it captive supply relationships with local planters, but that is a geographic convenience rather than a durable competitive advantage. The Luisita Industrial Park and water/wastewater utility operations add a modest moat via switching costs for locators, but this is a small contributor relative to core milling revenues. There is no brand, no network effect, no structural cost advantage versus larger or more modern mills. This is a narrow moat at best — largely asset-backed rather than competitively entrenched.\n\nManagement's capital allocation through the Luisita land monetization program has been intelligent: the 290-hectare sale to Ayala Land (circa 2018) and the 200-hectare sale to Lima Land/Aboitiz (2023) generated enormous one-time cash flows that funded the extraordinary EPS and dividend figures. That explains the 65.7% dividend yield — special distributions from property proceeds, not recurring earnings power. The Cojuangco family previously sold their controlling interest to a group led by Martin Lorenzo, adding an ownership transition layer to management uncertainty. FY2025 net income collapsed 70% to ₱503 million and revenues fell 73% to ₱1.43 billion, explicitly because the prior year's property gains vanished. Management cited deliberate sugar inventory timing and margin preservation, which is reasonable, but the underlying core business generated only ₱713 million in sugar income. That normalization is the real earnings story going forward.\n\nOn valuation, the headline numbers look seductive — 4.6x P/E, 0.6x P/B, PEG of 0.30 — but these are largely rear-view figures inflated by non-recurring land sale income. The Rule #1 Sticker Price of ₱10.86 implies the current price of ₱9.80 is near fair value, but the MOS Buy Price of ₱5.43 (the 50% safety margin required by Rule #1 discipline) is 45% below where the stock trades today. More importantly, if normalized earnings power ex-property sales is closer to ₱500–700 million annually and the land bank is gradually being sold off rather than compounding, the 10-year EPS growth rate of 15.3% embedded in the Sticker Price calculation is almost certainly not repeatable — it was driven by a finite, non-recurring asset monetization strategy. The real forward P/E is likely much higher than 4.6x once the market digests the earnings reset.\n\nThis is a pass at ₱9.80. The business is understandable but lacks a durable moat; the earnings history is distorted by land sales that are winding down; and the price offers no margin of safety under Rule #1 criteria. A fair entry under strict Rule #1 discipline would require the stock to trade closer to ₱5–6, at which point the remaining land bank value, normalized sugar and alcohol operations, and the industrial park utility income would collectively provide genuine downside protection. Watch for a re-rating lower as the market digests the earnings normalization, and revisit if management announces additional land monetization at scale or if sugar margins structurally improve via industry consolidation or reduced imports.",
+  "reconcileEdits": [],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "the headline numbers look seductive — 4.6x P/E, 0.6x P/B, PEG of 0.30",
+      "claim": "the headline numbers look seductive — 14.6x P/E, 0.6x P/B, PEG of 0.30",
+      "trueValue": "P/E 4.6x",
+      "sourceQuote": "P/E: 4.6x | P/B: 0.6x | PEG: 0.30x",
+      "match": [
+        "14.6"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "the 10-year EPS growth rate of 15.3% embedded in the Sticker Price calculation",
+      "claim": "the 10-year EPS growth rate of 25.3% embedded in the Sticker Price calculation",
+      "trueValue": "EPS Growth 15.3%",
+      "sourceQuote": "EPS Growth: 15.3%",
+      "match": [
+        "25.3"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "is 45% below where the stock trades today",
+      "claim": "is 45% above where the stock trades today",
+      "trueValue": "Current price is above the MOS Buy Price (₱9.80 vs ₱5.43)",
+      "sourceQuote": "Current price is ABOVE MOS by 80.5%",
+      "match": [
+        "45% above",
+        "above where the stock"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "the price offers no margin of safety under Rule #1 criteria",
+      "claim": "the price offers an ample margin of safety under Rule #1 criteria",
+      "trueValue": "Current price is 80.5% above the MOS price, so there is no margin of safety",
+      "sourceQuote": "Current price is ABOVE MOS by 80.5%",
+      "match": [
+        "ample",
+        "ample margin"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "through subsidiary Luisita Land Corporation manages and sells parcels",
+      "claim": "through minority affiliate Luisita Land Corporation manages and sells parcels",
+      "trueValue": "CAT owns a 100% stake in LLC",
+      "sourceQuote": "The Company owns a 100% stake in Luisita Land Corporation (LLC)",
+      "match": [
+        "minority",
+        "minority affiliate",
+        "affiliate"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "The Rule #1 Sticker Price of ₱10.86",
+      "claim": "The Rule #1 Sticker Price of $10.86",
+      "trueValue": "Sticker Price ₱10.86",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱10.86",
+      "match": [
+        "$10.86"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "the MOS Buy Price of ₱5.43 (the 50% safety margin required by Rule #1 discipline)",
+      "claim": "the MOS Buy Price of $5.43 (the 50% safety margin required by Rule #1 discipline)",
+      "trueValue": "MOS Buy Price ₱5.43",
+      "sourceQuote": "MOS Buy Price (50% margin of safety): ₱5.43",
+      "match": [
+        "$5.43"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-29T17:22:24.717Z"
+  }
+}

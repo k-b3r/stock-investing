@@ -1,6 +1,7 @@
 import { readdir, readFile } from 'fs/promises';
 import path from 'path';
-import type { Completion } from './types.ts';
+import { resultsDir } from './paths.ts';
+import type { Completion, RunResult, Suite } from './types.ts';
 
 // Parses every .json file in dir; a missing dir yields [].
 export async function readJsonFiles<T>(dir: string): Promise<T[]> {
@@ -10,4 +11,12 @@ export async function readJsonFiles<T>(dir: string): Promise<T[]> {
 
 export function failedCompletion(error: string, latencyMs: number): Completion {
   return { text: '', inputTokens: null, outputTokens: null, costUsd: null, latencyMs, error };
+}
+
+// Every saved run of a suite, across models
+export async function loadResults(suite: Suite): Promise<RunResult[]> {
+  const root = resultsDir(suite);
+  const models = await readdir(root).catch(() => [] as string[]);
+  const perModel = await Promise.all(models.map((model) => readJsonFiles<RunResult>(path.join(root, model))));
+  return perModel.flat();
 }

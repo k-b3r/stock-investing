@@ -1,20 +1,12 @@
-import { readdir } from 'fs/promises';
-import path from 'path';
 import { fileURLToPath } from 'url';
 import { median } from '../../shared/stats.ts';
 import { parseThesisOutput } from '../scripts/thesis-context.ts';
+import { printFactCheckScorecard } from './factcheck/scorecard.ts';
 import { applicableGraders, gradeRun } from './graders/index.ts';
 import { gradeConsistency, gradePriceShift, modalVerdict } from './graders/verdict.ts';
-import { casesDir, resultsDir } from './paths.ts';
-import { readJsonFiles } from './utils.ts';
+import { casesDir } from './paths.ts';
+import { loadResults, readJsonFiles } from './utils.ts';
 import type { GradeResult, RunGrades, RunResult, Suite, ThesisCase } from './types.ts';
-
-async function loadResults(suite: Suite): Promise<RunResult[]> {
-  const root = resultsDir(suite);
-  const models = await readdir(root).catch(() => [] as string[]);
-  const perModel = await Promise.all(models.map((model) => readJsonFiles<RunResult>(path.join(root, model))));
-  return perModel.flat();
-}
 
 const pct = (n: number, d: number) => (d === 0 ? 'N/A' : `${Math.round((n / d) * 100)}%`);
 const p50 = (xs: number[]) => (xs.length === 0 ? null : median(xs));
@@ -102,5 +94,6 @@ export async function printScorecard(suite: Suite): Promise<void> {
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
-  await printScorecard('thesis');
+  if (process.argv[2] === 'factcheck') await printFactCheckScorecard();
+  else await printScorecard('thesis');
 }

@@ -1,0 +1,156 @@
+{
+  "ticker": "FB",
+  "frozenAt": "2026-09-29T17:12:25.672Z",
+  "generatedAt": "2026-08-16T12:48:49.035Z",
+  "context": {
+    "ticker": "FB",
+    "companyName": "San Miguel Food and Beverage, Inc.",
+    "sector": "Industrial",
+    "subsector": "Food, Beverage & Tobacco",
+    "description": "San Miguel Food and Beverage, Inc. (FB), formerly San Miguel Pure Foods Company, Inc., was incorporated on October 31, 1956 to primarily engage in the business of manufacturing and marketing of processed meat products. FB, through its subsidiaries, later on diversified into poultry and livestock operations, feeds and flour milling, dairy and coffee operations, franchising and young animal ration manufacturing and distribution.\n\nIn 2018, FB amended its primary purpose and changed its corporate name to the present one to reflect its expansion into the alcoholic and non-alcoholic beverage business. In the same year, the Securities and Exchange Commission approved the increase in authorized capital stock of FB, by virtue of which FB issued new common shares to its intermediate parent San Miguel Corporation (SMC) in exchange for SMC's common shares in San Miguel Brewery Inc. (SMB) and Ginebra San Miguel Inc. (GSMI), completing the consolidation of the food and beverage businesses of SMC under FB.\n\nAs a result, FB is now operating in three business segments: beer and non-alcoholic beverages, spirits, and food. Among the brands in its portfolio include \"Magnolia\" for chicken, ice cream and dairy products; \"Monterey\" for fresh and marinated meats; \"Purefoods\" for refrigerated processed meats and canned meats; \"Star\" and \"Dari Creme\" for margarine; \"San Mig Coffee\" for coffee; \"B-Meg\" for animal feeds; and \"San Miguel Pale Pilsen\" and \"Ginebra San Miguel\" for alcoholic beverages.\n\nAside from SMB and GSMI, FB's subsidiaries include San Miguel Foods, Inc.; San Miguel Mills, Inc.; The Purefoods-Hormel Company, Inc.; Magnolia, Inc.; San Miguel Foods International, Limited; and San Miguel Super Coffeemix Co., Inc.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 13.669999999999998,
+    "epsGrowth": 9.08,
+    "revenueGrowth": 14.64,
+    "netIncomeGrowth": 20.94,
+    "fcfGrowth": 38.63285714285714,
+    "bookValueGrowth": -1.1727140506056055,
+    "debtEquity": 0.5187,
+    "lastPrice": 48.5,
+    "pe": 9.509803921568627,
+    "pb": 2.271269147735521,
+    "peg": 1.0473352336529325,
+    "dividendYield": 6.288659793814434,
+    "stickerPrice": 33.099592705113004,
+    "mosPrice": 16.549796352556502,
+    "disclosures": [
+      {
+        "date": "2026-06-04",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-03",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-10",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-10",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-02-06",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-11-19",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "San Miguel F&B earned 4% less in Jan-Jun",
+        "source": "Inquirer.net"
+      },
+      {
+        "title": "San Miguel Food & Beverage books P22.1-billion net income in H1 2026",
+        "source": "GMA Network"
+      },
+      {
+        "title": "SMFB prepares to weather challenges, remains confident in sustained growth",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "San Miguel Food and Beverage H1 Profit Down 4% as Inflation Hits Beer, Consumer Spending",
+        "source": "Daily Tribune"
+      },
+      {
+        "title": "San Miguel food unit profit rises 13% in 2025 on record food sales, higher international beer volumes",
+        "source": "Manila Bulletin"
+      }
+    ]
+  },
+  "dataBlock": "## Company: San Miguel Food and Beverage, Inc. (FB)\nSector: Industrial / Food, Beverage & Tobacco\nSan Miguel Food and Beverage, Inc. (FB), formerly San Miguel Pure Foods Company, Inc., was incorporated on October 31, 1956 to primarily engage in the business of manufacturing and marketing of processed meat products. FB, through its subsidiaries, later on diversified into poultry and livestock operations, feeds and flour milling, dairy and coffee operations, franchising and young animal ration manufacturing and distribution.\n\nIn 2018, FB amended its primary purpose and changed its corporate name to the present one to reflect its expansion into the alcoholic and non-alcoholic beverage business. In the same year, the Securities and Exchange Commission approved the increase in authorized capital stock of FB, by virtue of which FB issued new common shares to its intermediate parent San Miguel Corporation (SMC) in exchange for SMC's common shares in San Miguel Brewery Inc. (SMB) and Ginebra San Miguel Inc. (GSMI), completing the consolidation of the food and beverage businesses of SMC under FB.\n\nAs a result, FB is now operating in three business segments: beer and non-alcoholic beverages, spirits, and food. Among the brands in its portfolio include \"Magnolia\" for chicken, ice cream and dairy products; \"Monterey\" for fresh and marinated meats; \"Purefoods\" for refrigerated processed meats and canned meats; \"Star\" and \"Dari Creme\" for margarine; \"San Mig Coffee\" for coffee; \"B-Meg\" for animal feeds; and \"San Miguel Pale Pilsen\" and \"Ginebra San Miguel\" for alcoholic beverages.\n\nAside from SMB and GSMI, FB's subsidiaries include San Miguel Foods, Inc.; San Miguel Mills, Inc.; The Purefoods-Hormel Company, Inc.; Magnolia, Inc.; San Miguel Foods International, Limited; and San Miguel Super Coffeemix Co., Inc.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 13.7%\n- EPS Growth: 9.1%\n- Revenue Growth: 14.6%\n- Net Income Growth: 20.9%\n- FCF Growth: 38.6%\n- Book Value Growth: -1.2%\n- Debt/Equity: 0.52x\n\n## Valuation\n- Current Price: ₱48.50\n- P/E: 9.5x | P/B: 2.3x | PEG: 1.05x | Dividend Yield: 6.3%\n- Sticker Price (Rule #1 fair value): ₱33.10\n- MOS Buy Price (50% margin of safety): ₱16.55\n- Current price is ABOVE MOS by 193.1%\n\n## Recent Disclosures (last 10)\n- 2026-06-04: Material Information/Transactions\n- 2026-06-03: Material Information/Transactions\n- 2026-05-06: Press Release\n- 2026-05-06: Material Information/Transactions\n- 2026-05-06: Declaration of Cash Dividends\n- 2026-03-17: Material Information/Transactions\n- 2026-03-10: Material Information/Transactions\n- 2026-03-10: Press Release\n- 2026-02-06: Declaration of Cash Dividends\n- 2025-11-19: Material Information/Transactions\n\n## Recent News (last 5)\n- San Miguel F&B earned 4% less in Jan-Jun (Inquirer.net)\n- San Miguel Food & Beverage books P22.1-billion net income in H1 2026 (GMA Network)\n- SMFB prepares to weather challenges, remains confident in sustained growth (Philstar.com)\n- San Miguel Food and Beverage H1 Profit Down 4% as Inflation Hits Beer, Consumer Spending (Daily Tribune)\n- San Miguel food unit profit rises 13% in 2025 on record food sales, higher international beer volumes (Manila Bulletin)",
+  "storedThesis": "San Miguel Food and Beverage is about as understandable as a consumer business gets. It makes beer, gin, chicken, processed meats, dairy, and animal feeds — products that Filipinos buy every week regardless of what the economy is doing. The business architecture is simple: dominant brands sold through a distribution network built over decades. You don't need a finance degree to see why San Miguel Pale Pilsen still outsells every competitor combined, or why Ginebra San Miguel effectively is the Philippine gin category. That clarity of purpose is a meaningful starting point for a long-term investor.\n\nThe moat here is genuine and durable. San Miguel Beer commands roughly 90% of the domestic beer market — a near-monopoly in a geography that is still undergoing premiumization as incomes rise. Ginebra San Miguel dominates the spirits category with comparable dominance. These are not flukes; they reflect brand loyalty built over generations, a national cold-chain and logistics infrastructure that would cost billions and years to replicate, and retail relationships that give SMFB effectively first-pick shelf placement across the country. Sustaining 13.7% ROIC over a decade is the number that confirms what the brands already suggest: this company earns above its cost of capital consistently, which is the practical definition of a moat. The food segment (Magnolia, Purefoods, Monterey) is less dominant but still benefits from distribution scale and brand trust in a market that favors recognized labels.\n\nManagement quality is harder to read cleanly given the conglomerate structure under San Miguel Corporation and Ramon Ang. The 6.3% dividend yield signals a willingness to return cash, and the 20.9% ten-year net income CAGR suggests disciplined capital allocation over time. However, the negative book value growth (-1.2% over 10 years) warrants watching — it likely reflects heavy dividends and the restructuring that absorbed SMB and GSMI in 2018, but it is not a sign of earnings being converted into compounding equity. The H1 2026 results (net income down 4% to ₱22.1B on 2% revenue growth) reflect genuine macro pressure — inflation, peso weakness, and a more cautious consumer — rather than structural deterioration, but management has not articulated a concrete path to re-accelerating volume growth. The disclosure cadence is routine and there are no red flags in recent filings.\n\nThe valuation is the problem. At ₱48.50, the stock trades at 9.5x earnings with a 6.3% dividend yield — superficially attractive for a dominant consumer staples franchise in a growing emerging market. Analysts target ₱69, implying 42% upside. But by Rule #1 math, the Sticker Price is ₱33.10 and the MOS buy price is ₱16.55, putting current price 193% above where you'd want to enter with a true margin of safety. Even granting that Rule #1 is conservative, there is no buffer here if earnings growth stalls (as it has in H1 2026), the peso depreciates further, or a competitor finally makes a credible move in beer. PEG of 1.05 is fair-to-full, not cheap. The dividend yield cushions downside but does not substitute for price discipline. A quality business at a fair price is not the same as a great investment.\n\nThe bottom line is watch, not buy. SMFB clears three of the Four Ms convincingly — meaning, moat, and management are solid to good. It fails on margin of safety at current levels. The right move is to track this closely and set a target entry range of ₱30–35, which would represent both a genuine margin of safety and a more attractive dividend yield around 9%. Near-term earnings pressure from macro headwinds and cautious consumers could push the stock toward that range. If it does, SMFB becomes a compelling long-term hold for a PSEi-focused portfolio.",
+  "thesis": "San Miguel Food and Beverage is about as understandable as a consumer business gets. It makes beer, gin, chicken, processed meats, dairy, and animal feeds — products that Filipinos buy every week regardless of what the economy is doing. The business architecture is simple: dominant brands sold through a distribution network built over decades. You don't need a finance degree to see why San Miguel Pale Pilsen still outsells every competitor combined, or why Ginebra San Miguel effectively is the Philippine gin category. That clarity of purpose is a meaningful starting point for a long-term investor.\n\nThe moat here is genuine and durable. San Miguel Beer commands roughly 90% of the domestic beer market — a near-monopoly in a geography that is still undergoing premiumization as incomes rise. Ginebra San Miguel dominates the spirits category with comparable dominance. These are not flukes; they reflect brand loyalty built over generations, a national cold-chain and logistics infrastructure that would cost billions and years to replicate, and retail relationships that give SMFB effectively first-pick shelf placement across the country. Sustaining 13.7% ROIC over a decade is the number that confirms what the brands already suggest: this company earns above its cost of capital consistently, which is the practical definition of a moat. The food segment (Magnolia, Purefoods, Monterey) is less dominant but still benefits from distribution scale and brand trust in a market that favors recognized labels.\n\nManagement quality is harder to read cleanly given the conglomerate structure under San Miguel Corporation and Ramon Ang. The 6.3% dividend yield signals a willingness to return cash, and the 20.9% ten-year net income CAGR suggests disciplined capital allocation over time. However, the negative book value growth (-1.2% over 10 years) warrants watching — it likely reflects heavy dividends and the restructuring that absorbed SMB and GSMI in 2018, but it is not a sign of earnings being converted into compounding equity. The H1 2026 results (net income down 4% to ₱22.1B on 2% revenue growth) reflect genuine macro pressure — inflation, peso weakness, and a more cautious consumer — rather than structural deterioration, but management has not articulated a concrete path to re-accelerating volume growth. The disclosure cadence is routine and there are no red flags in recent filings.\n\nThe valuation is the problem. At ₱48.50, the stock trades at 9.5x earnings with a 6.3% dividend yield — superficially attractive for a dominant consumer staples franchise in a growing emerging market. Analysts target ₱69, implying 42% upside. But by Rule #1 math, the Sticker Price is ₱33.10 and the MOS buy price is ₱16.55, putting current price 193% above where you'd want to enter with a true margin of safety. Even granting that Rule #1 is conservative, there is no buffer here if earnings growth stalls (as it has in H1 2026), the peso depreciates further, or a competitor finally makes a credible move in beer. PEG of 1.05 is fair-to-full, not cheap. The dividend yield cushions downside but does not substitute for price discipline. A quality business at a fair price is not the same as a great investment.\n\nThe bottom line is watch, not buy. SMFB clears three of the Four Ms convincingly — meaning, moat, and management are solid to good. It fails on margin of safety at current levels. The right move is to track this closely and set a target entry range of ₱30–35, which would represent both a genuine margin of safety and a more attractive dividend yield around 9%. Near-term earnings pressure from macro headwinds and cautious consumers could push the stock toward that range. If it does, SMFB becomes a compelling long-term hold for a PSEi-focused portfolio.",
+  "reconcileEdits": [],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "Sustaining 13.7% ROIC over a decade is the number that confirms",
+      "claim": "Sustaining 31.7% ROIC over a decade is the number that confirms",
+      "trueValue": "ROIC 13.7%",
+      "sourceQuote": "ROIC: 13.7%",
+      "match": [
+        "31.7"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "the negative book value growth (-1.2% over 10 years) warrants watching",
+      "claim": "the positive book value growth (+1.2% over 10 years) warrants watching",
+      "trueValue": "Book Value Growth -1.2%",
+      "sourceQuote": "Book Value Growth: -1.2%",
+      "match": [
+        "positive",
+        "+1.2",
+        "positive book value"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "putting current price 193% above where you'd want to enter",
+      "claim": "putting current price 193% below where you'd want to enter",
+      "trueValue": "Current price is ABOVE MOS by 193.1%",
+      "sourceQuote": "Current price is ABOVE MOS by 193.1%",
+      "match": [
+        "below",
+        "193% below",
+        "below where"
+      ]
+    },
+    {
+      "type": "year",
+      "original": "the restructuring that absorbed SMB and GSMI in 2018",
+      "claim": "the restructuring that absorbed SMB and GSMI in 2016",
+      "trueValue": "SMB and GSMI consolidated under FB in 2018",
+      "sourceQuote": "In 2018, FB amended its primary purpose and changed its corporate name",
+      "match": [
+        "2016"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "given the conglomerate structure under San Miguel Corporation and Ramon Ang",
+      "claim": "given the conglomerate structure under minority shareholder San Miguel Corporation and Ramon Ang",
+      "trueValue": "SMC is FB's intermediate parent",
+      "sourceQuote": "its intermediate parent San Miguel Corporation (SMC)",
+      "match": [
+        "minority",
+        "minority shareholder"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-30T00:14:16.113Z"
+  }
+}

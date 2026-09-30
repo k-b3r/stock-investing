@@ -1,0 +1,449 @@
+{
+  "aba-direction": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "apvi-currency": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "abs-size": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "apx-direction": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "bdo-currency": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "balai-size": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "bpi-direction": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "cnpf-currency": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "creit-size": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "ddmpr-direction": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "fcg-currency": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "ict-size": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "jas-direction": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "ltg-currency": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "monde-size": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "nikl-direction": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "plus-currency": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "aba-size": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "abs-direction": {
+    "status": "source-only",
+    "checkedAt": "2026-09-30",
+    "notes": "Value is a figure computed by our pipeline (price/ratio/10-year average from PSE Edge + Morningstar data) and frozen in the data block; the fact-check tests consistency with it, so no web check applies.",
+    "sources": []
+  },
+  "ppc-size": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "P1.32B was PPC's record first-half 2024 net income (up 61% from P819.68M). The headline in the source data matches.",
+    "sources": [
+      "https://www.sunstar.com.ph/cebu/pryces-net-income-for-h1-2024-up-by-61",
+      "https://manilatimes.net/2024/07/26/business/corporate-news/pryce-h1-net-income-surges-61-to-p13b/1959925"
+    ]
+  },
+  "cnvrg-year": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "RA 9707 (Aug 8, 2009) grants Converge a 25-year franchise, so it runs to about Aug 2034.",
+    "sources": [
+      "https://legacy.senate.gov.ph/republic_acts/ra%209707.pdf",
+      "https://lawyerly.ph/laws/view/l6590"
+    ]
+  },
+  "cpg-units": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "₱5B bonds = ₱3B base + ₱2B oversubscription, SEC permit 2026. Note: the base thesis's \"₱12 billion capex planned\" is actually the ₱12B bond shelf program (see cpg-clean).",
+    "sources": [
+      "https://www.century-properties.com/century-properties-secures-sec-nod-for-%E2%82%B15-billion-retail-bonds-strong-demand-results-in-oversubscription/",
+      "https://www.philstar.com/business/2026/02/07/2506233/century-properties-eyes-p5-billion-bond-sale",
+      "https://www.sunstar.com.ph/cebu/sec-clears-century-properties-retail-bond-offer"
+    ]
+  },
+  "cat-stake": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Luisita Land Corp is a wholly owned CAT subsidiary; the 2023 Lima Land deal sold 200 ha of its land, not its shares.",
+    "sources": [
+      "https://edge.pse.com.ph (CAT company information, SEC 17-A 2024)",
+      "https://tribune.net.ph/2023/10/12/aboitiz-groups-lima-buys-luisita-land"
+    ]
+  },
+  "fb-year": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "SEC approved the name change on Mar 23, 2018. SMC transferred its SMB and GSMI shares to SMFB in 2018.",
+    "sources": [
+      "https://www.gmanetwork.com/news/money/economy/649092/san-miguel-merges-food-beverage-business/story",
+      "https://www.philstar.com/business/2018/01/19/1779050/business"
+    ]
+  },
+  "gsmi-stake": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "GSMI is a majority-owned SMC subsidiary, held via SMFB (about 76% after the 2018 consolidation).",
+    "sources": [
+      "https://edge.pse.com.ph/companyInformation/form.do?cmpy_id=94",
+      "https://www.gmanetwork.com/news/money/economy/649092/san-miguel-merges-food-beverage-business/story"
+    ]
+  },
+  "ogp-year": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Didipio FTAA renewed on July 14, 2021 for 25 years from June 19, 2019.",
+    "sources": [
+      "https://oceanagold.com/news/oceanagold-advises-didipio-ftaa-renewal-and-provides-operations-update",
+      "https://www.northernminer.com/news/oceanagold-to-restart-didipio-mine-after-new-deal-with-the-philippines"
+    ]
+  },
+  "bdo-units": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "BDO H1 2026 net income: ₱40.7B.",
+    "sources": [
+      "https://www.bdo.com.ph/about-bdo/learn/news-and-features/bdo-1h-2026-net-income",
+      "https://tribune.net.ph/2026/07/27/bdo-posts-record-p407b-first-half-profit",
+      "https://plus.inquirer.net/business/bdo-h1-profit-reached-record-high-p40-7b/"
+    ]
+  },
+  "jfc-stake": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "JFC sold an 11% stake to VTI, which raised VTI's holding to 51%. Only the \"51%\" in the planted claim echoes a real figure (VTI's post-deal stake).",
+    "sources": [
+      "https://www.dealstreetasia.com/?p=496106",
+      "https://vietnamnews.vn/economy/1800450/highlands-coffee-founder-spends-over-88-million-to-buy-back-stake.html",
+      "https://vir.com.vn/jollibee-sells-11-per-cent-stake-in-highlands-coffee-for-88-million-161546.html"
+    ]
+  },
+  "sevn-year": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "7-Eleven PH had 4,130 stores at end-2024.",
+    "sources": [
+      "https://insideretail.asia/2025/07/24/7-eleven-philippines-targets-5000-stores-by-next-year/",
+      "https://business.inquirer.net/609092/7-eleven-to-open-5000th-ph-store-in-cebu"
+    ]
+  },
+  "creit-units": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "CREIT H1 2026 net income: ₱686M.",
+    "sources": [
+      "https://context.ph/2026/08/12/creit-earns-p686m-sees-renewable-energy-growth/",
+      "https://mb.com.ph/2026/08/17/creit-keeps-profit-steady-as-long-term-leases-support-earnings"
+    ]
+  },
+  "sti-stake": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "STI Holdings' education network = STI ESG, STI WNU and iACADEMY (subsidiaries per its 17-A).",
+    "sources": [
+      "https://edge.pse.com.ph (STI company information, SEC 17-A 2024)",
+      "https://www.philstar.com/business/2026/03/06/2512274/sti-earns-more-h1-despite-lower-enrollment/amp/"
+    ]
+  },
+  "ddmpr-units": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "DDMP REIT portfolio GLA: 172,252 sqm (DoubleDragon Plaza 139,240 + Center East 16,197 + Center West 16,815).",
+    "sources": [
+      "https://www.philstar.com/business/2020/11/23/2058696/doubledragon-gears-p147-billion-reit-offering/amp/",
+      "https://malaya.com.ph/business-news/doubledragon-lays-down-plans-for-proceeds-of-p15b-reit-sale"
+    ]
+  },
+  "keepr-stake": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Pernod Ricard Philippines, Inc. is listed as a KEEPR subsidiary only in its own PSE Edge profile (17-A 2024). No independent second source found for the subsidiary status or the ownership %.",
+    "sources": [
+      "https://edge.pse.com.ph/companyInformation/form.do?cmpy_id=2"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "ans-year": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Not checked: the web search for the Anscor Bistro Group sale was blocked by a tool permission. Check the Oct 2025 disposition timing yourself.",
+    "sources": [],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "ans-units": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Not checked: the web search for \"Anscor sells Bistro Group stake ₱1.9 billion\" was blocked by a tool permission. Check it yourself.",
+    "sources": [],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "alter-units": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The source (17-A 2024 description) says 67.24 MW operating. That figure dates from the 2022 IPO; recent coverage says Alternergy now has 119 MW operating. The source is stale versus today, though still internally consistent.",
+    "sources": [
+      "https://www.philstar.com/business/2022/07/14/2195166/alternergy-eyes-p21-billion-ipo/amp/",
+      "https://tribune.net.ph/2026/09/24/alternergy-keeps-profit-steady-ahead-of-wind-payoff"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "areit-year": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The thesis dates the \"shareholder-approved ₱17.3B property swap\" to June 2026 (from the 2026-06-26 disclosure). The web shows a June 26, 2026 SEC nod for a ₱19B ALI asset injection. The ₱17.3B malls/hotels swap was announced in Aug 2026 and approved by shareholders in Sep 2026. Unclear whether these are the same deal.",
+    "sources": [
+      "https://mb.com.ph/2026/06/26/ayala-land-secures-sec-nod-for-19-billion-asset-injection-into-areit",
+      "https://tribune.net.ph/2026/08/18/areit-adds-p173b-in-ayala-malls-hotels-in-share-swap",
+      "https://tribune.net.ph/2026/09/24/areit-cuts-office-reliance-with-p173-b-swap"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "aslag-units": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "₱3B 2026 capex for the 140 MWdc Nueva Ecija solar+BESS project: confirmed only by Power Philippines (two articles, same outlet).",
+    "sources": [
+      "https://powerphilippines.com/raslag-confirms-php-3-b-solar-and-battery-project-in-nueva-ecija1/",
+      "https://powerphilippines.com/?p=25330"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "aub-stake": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Rural Bank of Angeles and Cavite United Rural Bank are AUB subsidiaries per its 17-A (99.54% / 100% as of 2016). The only second source is Wikipedia.",
+    "sources": [
+      "https://edge.pse.com.ph (AUB company information, SEC 17-A 2024)",
+      "https://en.wikipedia.org/wiki/Asia_United_Bank"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "apvi-year": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "₱1.30/share cash dividend (record date May 26, 2026): found only on dividends.ph (an aggregator), plus the 2026-05-11 PSE Edge disclosure title in our own data.",
+    "sources": [
+      "https://dividends.ph/company/APVI/dividend-history/2026"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "bpi-founding-year": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "BPI was founded Aug 1, 1851 as Banco Español-Filipino de Isabel II; the current entity was incorporated in 1943. Both are true, so this is correctly a non-error.",
+    "sources": [
+      "https://www.bpi.com.ph/about-bpi/news/bpi-celebrates-175-years-of-helping-build-a-better-philippines",
+      "https://www.encyclopedia.com/books/politics-and-business-magazines/bank-philippine-islands"
+    ]
+  },
+  "apx-rounding": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: H1 2026 net income +68% to ₱5.39B.",
+    "sources": [
+      "https://mb.com.ph/2026/08/12/razons-apex-mining-first-half-profit-tops-5-billion-on-record-metal-prices",
+      "https://context.ph/2026/08/12/apex-mining-profit-surges-as-gold-prices-soar/"
+    ]
+  },
+  "aub-rounding": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: NIM 5.3% in Q1 2026; total assets ₱427B at June 30, 2026.",
+    "sources": [
+      "https://tribune.net.ph/2026/05/18/aub-quarterly-net-income-hits-all-time-high",
+      "https://context.ph/2026/05/18/asia-united-hits-record-profit-expands-market/",
+      "https://mb.com.ph/2026/07/30/aub-first-half-earnings-hit-62-billion-as-loans-surge"
+    ]
+  },
+  "balai-clean": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: 2024 net income ₱67.83M, up 15.7% from ₱58.64M (thesis: ₱68M, +16%).",
+    "sources": [
+      "https://context.ph/2025/04/21/fruitas-unit-grows-2024-income-boosts-market-with-acquisitions-strategic-expansion/",
+      "https://manilatimes.net/2024/04/12/business/corporate-news/balai-ni-fruitas-net-59-higher-in-2023/1940991"
+    ]
+  },
+  "cnpf-clean": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: 2026 capex ₱8–9B, about double the usual level (MB says ₱8–9B; Context says ₱9B).",
+    "sources": [
+      "https://mb.com.ph/2026/06/30/century-pacific-confident-of-double-digit-sales-profit-growth-despite-global-challenges",
+      "https://context.ph/2026/07/01/century-pacific-food-keeps-p9b-capex-plan-amid-rising-demand/"
+    ]
+  },
+  "fb-clean": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: H1 2026 net income down 4% to ₱22.1B, revenue +2%.",
+    "sources": [
+      "https://www.gmanetwork.com/news/money/companies/997458/san-miguel-food-beverage-books-p22-1-billion-net-income-in-h1-2026/story/",
+      "https://www.philstar.com/nation/2026/08/09/2547909/smfb-net-income-eases-1st-half"
+    ]
+  },
+  "ict-clean": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: MICT concession extended to May 2063 (signed July 30, 2026).",
+    "sources": [
+      "https://mb.com.ph/2026/07/30/ictsi-gets-25-year-extension-to-operate-manilas-largest-container-terminal-through-2063",
+      "https://tribune.net.ph/2026/07/30/ictsi-secures-25-more-years-at-manilas-biggest-port",
+      "https://portcalls.com/ictsi-gets-25-year-extension-for-manila-flagship-terminal-to-2063"
+    ]
+  },
+  "alter-rounding": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The thesis says \"today's 67MW base\". Web says 119 MW operating now (67 MW is the 2022 IPO figure). Same stale-source issue as alter-units.",
+    "sources": [
+      "https://tribune.net.ph/2026/09/24/alternergy-keeps-profit-steady-ahead-of-wind-payoff"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "areit-rounding": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Same \"₱17.3B property swap (June 2026)\" dating issue as areit-year.",
+    "sources": [
+      "https://mb.com.ph/2026/06/26/ayala-land-secures-sec-nod-for-19-billion-asset-injection-into-areit",
+      "https://tribune.net.ph/2026/08/18/areit-adds-p173b-in-ayala-malls-hotels-in-share-swap"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "aslag-rounding": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The thesis says the FIT contracts were \"established in 2016\" and expire \"around 2036\". Raslag says RASLAG-1 and -2 started commercial operation in Feb and Dec 2015 under FIT Rounds 1–2 with 20-year terms, so expiry would be about 2035.",
+    "sources": [
+      "https://www.raslag.com.ph/wp-content/uploads/2023/05/Presentation-Deck-PSE-Star-RASLAG.pdf"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "cat-clean": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "FY2025 net income ₱503M (−70%): found only on MarketScreener (an aggregator).",
+    "sources": [
+      "https://uk.marketscreener.com/quote/stock/CENTRAL-AZUCARERA-DE-TARL-64306440/"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "cnvrg-clean": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "ComClark 66.02% stake and 700,000+ km of fiber: found only on Wikipedia and a Technology Magazine company profile (secondary).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Converge_ICT",
+      "https://technologymagazine.com/company-reports/converge-on-a-mission-to-fibre-power-the-filipino-nation"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "cpg-clean": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The thesis says \"₱12 billion capex planned\". Century Properties' own release says ₱12B is the SEC-approved bond shelf program, not capex. The thesis is likely wrong on this (the figure is not in the source data).",
+    "sources": [
+      "https://www.century-properties.com/century-properties-secures-sec-nod-for-%E2%82%B15-billion-retail-bonds-strong-demand-results-in-oversubscription/",
+      "https://www.sunstar.com.ph/cebu/sec-clears-century-properties-retail-bond-offer"
+    ],
+    "resolution": "User 2026-09-30: fixed \"₱12 billion capex planned\" to \"₱12 billion bond program\" in the thesis."
+  },
+  "fcg-clean": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "FY2025 revenue ₱5.67B (+4.1%): found only on Zonebourse (an aggregator).",
+    "sources": [
+      "https://ch.zonebourse.com/cours/action/FIGARO-CULINARY-GROUP-INC-131983569/"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  },
+  "gsmi-clean": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "H1 2026 net income +3% to ₱4.4B: not found (latest found is H1 2025 at ₱4.2B, +16%).",
+    "sources": [
+      "https://malaya.com.ph/business/corporate/ginebra-sales-increase-10-to-p25b-in-h1"
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
+  }
+}

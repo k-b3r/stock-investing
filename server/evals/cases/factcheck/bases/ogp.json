@@ -1,0 +1,184 @@
+{
+  "ticker": "OGP",
+  "frozenAt": "2026-09-29T17:12:33.100Z",
+  "generatedAt": "2026-09-12T08:45:22.950Z",
+  "context": {
+    "ticker": "OGP",
+    "companyName": "OceanaGold (Philippines), Inc.",
+    "sector": "Mining and Oil",
+    "subsector": "Mining",
+    "description": "OceanaGold (Philippines), Inc. (OGP) is a producer of gold and copper in the Philippines, and is a subsidiary of OceanaGold Corporation, a multinational gold mining and exploration company that has been listed on the Toronto Stock Exchange since June 27, 2007.\n\nOGP operates the Didipio gold and copper mine located in the northern Luzon region of the Philippines. The Didipio Mine is operated by OGP under a Financial or Technical Assistance Agreement (FTAA) with the Government, which grants the Company title, exploration, and mining rights within a fixed fiscal regime. The FTAA was executed in 1994 and was renewed on July 14, 2021, for an additional 25-year period commencing on June 19, 2019.\n\nPursuant to the FTAA, the Government and the Company share in the net revenue arising from the operations of the Didipio mine on a 60-40 basis. Hence, the Government receives 60% of the net revenue (less costs, taxes, duties, fees, and other expenses paid or accrued by the Company) while the Company takes the remaining 40%. In September 2024, the Company obtained approval for a five-year extension of the exploration period under the FTAA from 2024 to 2029.\n\nThe mining operations at the Didipio Mine currently consist of sourcing ore from the underground mine and from its surface ore stockpile. The ore is then processed through the Company's processing plant, which operates at approximately 4.1 Mtpa producing both gold doré and copper concentrate.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 13.819999999999999,
+    "epsGrowth": 7.61,
+    "revenueGrowth": 12.44,
+    "netIncomeGrowth": 11.700000000000001,
+    "fcfGrowth": 11.11,
+    "bookValueGrowth": -7.591110298630244,
+    "debtEquity": null,
+    "lastPrice": 38.6,
+    "pe": 20.524525300297867,
+    "pb": 0.04363475554049846,
+    "peg": 2.6970466886068154,
+    "dividendYield": 6.8814547733160625,
+    "stickerPrice": 14.73251005452462,
+    "mosPrice": 7.36625502726231,
+    "disclosures": [
+      {
+        "date": "2026-07-10",
+        "template": "Clarification of News Reports"
+      },
+      {
+        "date": "2026-05-07",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-30",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-30",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-20",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-19",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-02-18",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-11-14",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-11-06",
+        "template": "Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "OceanaGold Philippines, Inc. Revenue Breakdown – PSE:OGP",
+        "source": "TradingView"
+      },
+      {
+        "title": "OceanaGold Q1 profit soars 370% on record gold prices",
+        "source": "Inquirer.net"
+      },
+      {
+        "title": "Gold Price Reversal Puts OceanaGold Philippines’ Didipio Margin Above $3,460 an Ounce",
+        "source": "TechStock²"
+      },
+      {
+        "title": "OceanaGold Philippines profit more than doubles on higher gold prices",
+        "source": "BusinessWorld"
+      },
+      {
+        "title": "Proving sustainable mining is both possible, profitable",
+        "source": "Manila Bulletin"
+      }
+    ]
+  },
+  "dataBlock": "## Company: OceanaGold (Philippines), Inc. (OGP)\nSector: Mining and Oil / Mining\nOceanaGold (Philippines), Inc. (OGP) is a producer of gold and copper in the Philippines, and is a subsidiary of OceanaGold Corporation, a multinational gold mining and exploration company that has been listed on the Toronto Stock Exchange since June 27, 2007.\n\nOGP operates the Didipio gold and copper mine located in the northern Luzon region of the Philippines. The Didipio Mine is operated by OGP under a Financial or Technical Assistance Agreement (FTAA) with the Government, which grants the Company title, exploration, and mining rights within a fixed fiscal regime. The FTAA was executed in 1994 and was renewed on July 14, 2021, for an additional 25-year period commencing on June 19, 2019.\n\nPursuant to the FTAA, the Government and the Company share in the net revenue arising from the operations of the Didipio mine on a 60-40 basis. Hence, the Government receives 60% of the net revenue (less costs, taxes, duties, fees, and other expenses paid or accrued by the Company) while the Company takes the remaining 40%. In September 2024, the Company obtained approval for a five-year extension of the exploration period under the FTAA from 2024 to 2029.\n\nThe mining operations at the Didipio Mine currently consist of sourcing ore from the underground mine and from its surface ore stockpile. The ore is then processed through the Company's processing plant, which operates at approximately 4.1 Mtpa producing both gold doré and copper concentrate.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 13.8%\n- EPS Growth: 7.6%\n- Revenue Growth: 12.4%\n- Net Income Growth: 11.7%\n- FCF Growth: 11.1%\n- Book Value Growth: -7.6%\n- Debt/Equity: N/Ax\n\n## Valuation\n- Current Price: ₱38.60\n- P/E: 20.5x | P/B: 0.0x | PEG: 2.70x | Dividend Yield: 6.9%\n- Sticker Price (Rule #1 fair value): ₱14.73\n- MOS Buy Price (50% margin of safety): ₱7.37\n- Current price is ABOVE MOS by 424.0%\n\n## Recent Disclosures (last 10)\n- 2026-07-10: Clarification of News Reports\n- 2026-05-07: Press Release\n- 2026-05-06: Declaration of Cash Dividends\n- 2026-03-30: Press Release\n- 2026-03-30: Material Information/Transactions\n- 2026-02-20: Material Information/Transactions\n- 2026-02-19: Press Release\n- 2026-02-18: Declaration of Cash Dividends\n- 2025-11-14: Press Release\n- 2025-11-06: Press Release\n\n## Recent News (last 5)\n- OceanaGold Philippines, Inc. Revenue Breakdown – PSE:OGP (TradingView)\n- OceanaGold Q1 profit soars 370% on record gold prices (Inquirer.net)\n- Gold Price Reversal Puts OceanaGold Philippines’ Didipio Margin Above $3,460 an Ounce (TechStock²)\n- OceanaGold Philippines profit more than doubles on higher gold prices (BusinessWorld)\n- Proving sustainable mining is both possible, profitable (Manila Bulletin)",
+  "storedThesis": "OceanaGold Philippines (OGP) operates a single asset — the Didipio underground gold and copper mine in Nueva Vizcaya — under a Financial or Technical Assistance Agreement (FTAA) with the Philippine government renewed in 2021 through 2044. The business is straightforward to understand: dig ore, process it into gold doré and copper concentrate, sell at spot prices. What complicates the investment story is the revenue-sharing structure: the government takes 60% of net revenue, leaving OGP with 40%. This is not a typical miner — it is a leveraged play on gold and copper prices operating inside a government-defined fiscal box. That is understandable, but the ceiling on upside is structurally lower than it appears.\n\nDidipio has no moat in the traditional sense. Gold and copper are commodities, and OGP has zero pricing power. What it does have is a cost position: all-in sustaining costs of roughly $1,300 per ounce in Q1 2026 against a realized gold price environment well above $3,000 per ounce gives the mine extraordinary margins right now. Q2 2026 gross income climbed 65% year-over-year to $71.2M; H1 2026 net profit jumped 206%. But this is entirely a function of record gold prices — not a durable competitive advantage. If gold retreats to $2,000/oz, the economics compress dramatically. The reserve base is also shrinking: 1.13 Moz gold remaining at current production rates implies roughly 12-14 years of mine life, and there is no guarantee the exploration extension (approved to 2029) converts to meaningful new resources.\n\nManagement at the OceanaGold Corporation level has a credible track record: the FTAA renewal was secured, the exploration period extended, dividends paid consistently (6.9% yield currently), and operations are tightly run. The disclosure cadence is regular and substantive. The red flag is the active legal challenge: the Catholic Diocese of Nueva Vizcaya has petitioned the Philippine Supreme Court to nullify the FTAA renewal, alleging constitutional violations and bypassed consultations. The Regional Trial Court denied an injunction, but a Supreme Court ruling could be material. For a single-asset miner dependent entirely on one government contract, this tail risk is non-trivial and cannot be dismissed.\n\nOn valuation, the Rule #1 framework gives a clear verdict: the sticker price is ₱14.73 and the MOS buy price is ₱7.37. The stock trades at ₱38.60 — roughly 424% above where margin-of-safety discipline would permit entry. The P/E of 20.5x is not unreasonable for a miner at peak margins, but PEG of 2.70x reflects the richness relative to underlying earnings growth. The 6.9% dividend yield is real and meaningful — OGP passes through capital aggressively given its limited reinvestment options — but income alone does not justify a price so far above intrinsic value, especially when that income is entirely at the mercy of commodity prices and a government contract facing legal scrutiny.\n\nBottom line: OGP is a well-run, high-margin mine benefiting from the best gold price environment in history, but at ₱38.60 it prices in a sustained supercycle and ignores both reserve depletion and FTAA legal risk. By Rule #1 standards this is a clear pass — not because the business is poor, but because there is no margin of safety at this price. Watch for a combination of gold price normalization pulling the stock down toward the ₱15-20 range and resolution of the Supreme Court challenge; at that point the dividend yield and operational quality would make it genuinely interesting.",
+  "thesis": "OceanaGold Philippines (OGP) operates a single asset — the Didipio underground gold and copper mine in Nueva Vizcaya — under a Financial or Technical Assistance Agreement (FTAA) with the Philippine government renewed in 2021 through 2044. The business is straightforward to understand: dig ore, process it into gold doré and copper concentrate, sell at spot prices. What complicates the investment story is the revenue-sharing structure: the government takes 60% of net revenue, leaving OGP with 40%. This is not a typical miner — it is a leveraged play on gold and copper prices operating inside a government-defined fiscal box. That is understandable, but the ceiling on upside is structurally lower than it appears.\n\nDidipio has no moat in the traditional sense. Gold and copper are commodities, and OGP has zero pricing power. What it does have is a cost position: all-in sustaining costs of roughly $1,300 per ounce in Q1 2026 against a realized gold price environment well above $3,000 per ounce gives the mine extraordinary margins right now. Q2 2026 gross income climbed 65% year-over-year to $71.2M; H1 2026 net profit jumped 206%. But this is entirely a function of record gold prices — not a durable competitive advantage. If gold retreats to $2,000/oz, the economics compress dramatically. The reserve base is also shrinking: 1.13 Moz gold remaining at current production rates implies roughly 12-14 years of mine life, and there is no guarantee the exploration extension (approved to 2029) converts to meaningful new resources.\n\nManagement at the OceanaGold Corporation level has a credible track record: the FTAA renewal was secured, the exploration period extended, dividends paid consistently (6.9% yield currently), and operations are tightly run. The disclosure cadence is regular and substantive. The red flag is the active legal challenge: the Catholic Diocese of Nueva Vizcaya has petitioned the Philippine Supreme Court to nullify the FTAA renewal, alleging constitutional violations and bypassed consultations. The Regional Trial Court denied an injunction, but a Supreme Court ruling could be material. For a single-asset miner dependent entirely on one government contract, this tail risk is non-trivial and cannot be dismissed.\n\nOn valuation, the Rule #1 framework gives a clear verdict: the sticker price is ₱14.73 and the MOS buy price is ₱7.37. The stock trades at ₱38.60 — roughly 424% above where margin-of-safety discipline would permit entry. The P/E of 20.5x is not unreasonable for a miner at peak margins, but PEG of 2.70x reflects the richness relative to underlying earnings growth. The 6.9% dividend yield is real and meaningful — OGP passes through capital aggressively given its limited reinvestment options — but income alone does not justify a price so far above intrinsic value, especially when that income is entirely at the mercy of commodity prices and a government contract facing legal scrutiny.\n\nBottom line: OGP is a well-run, high-margin mine benefiting from the best gold price environment in history, but at ₱38.60 it prices in a sustained supercycle and ignores both reserve depletion and FTAA legal risk. By Rule #1 standards this is a clear pass — not because the business is poor, but because there is no margin of safety at this price. Watch for a combination of gold price normalization pulling the stock down toward the ₱15-20 range and resolution of the Supreme Court challenge; at that point the dividend yield and operational quality would make it genuinely interesting.",
+  "reconcileEdits": [],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "The P/E of 20.5x is not unreasonable for a miner at peak margins",
+      "claim": "The P/E of 28.5x is not unreasonable for a miner at peak margins",
+      "trueValue": "P/E 20.5x",
+      "sourceQuote": "P/E: 20.5x",
+      "match": [
+        "28.5"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "dividends paid consistently (6.9% yield currently)",
+      "claim": "dividends paid consistently (9.6% yield currently)",
+      "trueValue": "Dividend Yield 6.9%",
+      "sourceQuote": "Dividend Yield: 6.9%",
+      "match": [
+        "9.6"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "roughly 424% above where margin-of-safety discipline would permit entry",
+      "claim": "roughly 424% below where margin-of-safety discipline would permit entry",
+      "trueValue": "Current price is ABOVE MOS by 424.0%",
+      "sourceQuote": "Current price is ABOVE MOS by 424.0%",
+      "match": [
+        "below",
+        "424% below",
+        "below where margin-of-safety"
+      ]
+    },
+    {
+      "type": "year",
+      "original": "Philippine government renewed in 2021 through 2044",
+      "claim": "Philippine government renewed in 2012 through 2044",
+      "trueValue": "FTAA renewed on July 14, 2021",
+      "sourceQuote": "was renewed on July 14, 2021",
+      "match": [
+        "2012"
+      ]
+    },
+    {
+      "type": "year",
+      "original": "there is no guarantee the exploration extension (approved to 2029) converts",
+      "claim": "there is no guarantee the exploration extension (approved to 2027) converts",
+      "trueValue": "exploration period extended from 2024 to 2029",
+      "sourceQuote": "five-year extension of the exploration period under the FTAA from 2024 to 2029",
+      "match": [
+        "2027"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "the government takes 60% of net revenue, leaving OGP with 40%",
+      "claim": "the government takes 40% of net revenue, leaving OGP with 60%",
+      "trueValue": "Government 60%, Company 40% of net revenue",
+      "sourceQuote": "the Government receives 60% of the net revenue",
+      "match": [
+        "takes 40%",
+        "OGP with 60%"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "The stock trades at ₱38.60",
+      "claim": "The stock trades at $38.60",
+      "trueValue": "Current Price ₱38.60",
+      "sourceQuote": "Current Price: ₱38.60",
+      "match": [
+        "$38.60"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "the sticker price is ₱14.73 and the MOS buy price is ₱7.37",
+      "claim": "the sticker price is $14.73 and the MOS buy price is ₱7.37",
+      "trueValue": "Sticker Price ₱14.73",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱14.73",
+      "match": [
+        "$14.73"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-30T00:15:03.161Z"
+  }
+}
