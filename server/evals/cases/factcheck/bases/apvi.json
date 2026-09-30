@@ -1,0 +1,167 @@
+{
+  "ticker": "APVI",
+  "frozenAt": "2026-09-29T17:12:14.676Z",
+  "generatedAt": "2026-08-16T22:47:27.111Z",
+  "context": {
+    "ticker": "APVI",
+    "companyName": "Altus Property Ventures, Inc.",
+    "sector": "Property",
+    "subsector": "Property",
+    "description": "Altus Property Ventures, Inc. (APVI), formerly Altus San Nicolas Corp., was incorporated and registered with the Securities and Exchange Commission on March 28, 2007. The Company listed its shares of the Philippine Stock Exchange by way of introduction on June 26, 2020, transferring to the Main Board on May 13, 2022.The primary purpose of APVI is to engage in the business of selling, acquiring, building, constructing, developing, leasing and disposing of real estate properties and property development of all kinds and nature.\n\nThe Company owns and operates the North Wing of Robinsons Place Ilocos mall located at San Nicolas, Ilocos Norte. The Company shall serve as a vehicle for possible future real estate ventures and opportunities.\n\nPrior to December 20, 2019, APVI was a wholly-owned subsidiary of Robinsons Land Corporation (RLC) and an indirect subsidiary of JG Summit Holdings, Inc. (JGS) through RLC. On December 20, 2019, the Company became a direct subsidiary of JGS by virtue of the property dividend distribution by RLC to its stockholders.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 10.72,
+    "epsGrowth": 47.96,
+    "revenueGrowth": 24.23,
+    "netIncomeGrowth": 47.99,
+    "fcfGrowth": 27.845,
+    "bookValueGrowth": 14.559945829567877,
+    "debtEquity": null,
+    "lastPrice": 10.74,
+    "pe": 6.884615384615384,
+    "pb": 0.9015361369932008,
+    "peg": 0.1435491114390197,
+    "dividendYield": null,
+    "stickerPrice": 12,
+    "mosPrice": 6,
+    "disclosures": [
+      {
+        "date": "2026-05-11",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-12",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-03-07",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Maynard Ngu resigns as Altus Property director",
+        "source": "Inquirer.net"
+      },
+      {
+        "title": "Altus Property Ventures sets PSE listing date on June 26",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "APVI Stock Price and Chart — PSE:APVI",
+        "source": "TradingView"
+      },
+      {
+        "title": "Maynard Ngu resigns from property firm amid flood control controversy",
+        "source": "GMA Network"
+      },
+      {
+        "title": "Businessman Maynard Ngu, tagged during a Senate hearing on flood control anomalies as the alleged bagman of Sen. Francis Escudero, has resigned as independent director of listed Altus Property Ventures Inc. https://tinyurl.com/ut3hj8um | via ONE News",
+        "source": "facebook.com"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Altus Property Ventures, Inc. (APVI)\nSector: Property / Property\nAltus Property Ventures, Inc. (APVI), formerly Altus San Nicolas Corp., was incorporated and registered with the Securities and Exchange Commission on March 28, 2007. The Company listed its shares of the Philippine Stock Exchange by way of introduction on June 26, 2020, transferring to the Main Board on May 13, 2022.The primary purpose of APVI is to engage in the business of selling, acquiring, building, constructing, developing, leasing and disposing of real estate properties and property development of all kinds and nature.\n\nThe Company owns and operates the North Wing of Robinsons Place Ilocos mall located at San Nicolas, Ilocos Norte. The Company shall serve as a vehicle for possible future real estate ventures and opportunities.\n\nPrior to December 20, 2019, APVI was a wholly-owned subsidiary of Robinsons Land Corporation (RLC) and an indirect subsidiary of JG Summit Holdings, Inc. (JGS) through RLC. On December 20, 2019, the Company became a direct subsidiary of JGS by virtue of the property dividend distribution by RLC to its stockholders.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 10.7%\n- EPS Growth: 48.0%\n- Revenue Growth: 24.2%\n- Net Income Growth: 48.0%\n- FCF Growth: 27.8%\n- Book Value Growth: 14.6%\n- Debt/Equity: N/Ax\n\n## Valuation\n- Current Price: ₱10.74\n- P/E: 6.9x | P/B: 0.9x | PEG: 0.14x | Dividend Yield: N/A%\n- Sticker Price (Rule #1 fair value): ₱12.00\n- MOS Buy Price (50% margin of safety): ₱6.00\n- Current price is ABOVE MOS by 79.0%\n\n## Recent Disclosures (last 3)\n- 2026-05-11: Declaration of Cash Dividends\n- 2026-03-12: Material Information/Transactions\n- 2025-03-07: Material Information/Transactions\n\n## Recent News (last 5)\n- Maynard Ngu resigns as Altus Property director (Inquirer.net)\n- Altus Property Ventures sets PSE listing date on June 26 (Philstar.com)\n- APVI Stock Price and Chart — PSE:APVI (TradingView)\n- Maynard Ngu resigns from property firm amid flood control controversy (GMA Network)\n- Businessman Maynard Ngu, tagged during a Senate hearing on flood control anomalies as the alleged bagman of Sen. Francis Escudero, has resigned as independent director of listed Altus Property Ventures Inc. https://tinyurl.com/ut3hj8um | via ONE News (facebook.com)",
+  "storedThesis": "Altus Property Ventures is a single-asset holding company — it owns and operates the North Wing of Robinsons Place Ilocos, a regional mall in San Nicolas, Ilocos Norte. The business is simple enough to understand: collect rental income from mall tenants, managed under the umbrella of the Gokongwei conglomerate through its parent JG Summit Holdings. That simplicity is a double-edged sword. A Rule #1 investor can model the cash flows clearly, but the absence of diversification means every risk is concentrated in one building in one province.\n\nThe moat here is narrow and borrowed rather than intrinsic. Robinsons Place Ilocos benefits from the Robinsons Land brand and the foot traffic that the broader mall ecosystem attracts, but APVI itself has no independent brand power, no proprietary tenant relationships, and no network effects. The switching cost for tenants is low — a competitor mall or even a commercial strip could lure them away. Regional malls in the Philippines face long-run structural headwinds from e-commerce penetration and shifting consumer behavior. The moat, such as it is, rests entirely on being the dominant enclosed mall in a secondary city, which is a defensible but fragile position.\n\nManagement quality is mixed. The Gokongwei group has a strong track record of capital discipline and operational competence across its portfolio companies, which provides a degree of institutional credibility. However, two issues give pause. The resignation in September 2025 of independent director Maynard Ngu — publicly linked to a DPWH flood control probe and allegations of being a political bagman — is not an operational risk per se, but it signals a governance gap in how independent directors were selected. More operationally concerning: 2026 Q1 results showed revenue down 24% and net income down 26% year-on-year, with no disclosed pipeline of new properties or expansion initiatives that would justify the company's existence as a separate listed entity. APVI declared a ₱1.30/share cash dividend in May 2026, signaling confidence in near-term cash generation, but this also implies management has no better use for the capital — i.e., no growth.\n\nOn valuation, the numbers look seductive at first glance: P/E of 6.9x, P/B of 0.9x, a PEG of 0.14x. But the 48% historical EPS growth figure is a statistical artifact of a low earnings base in early years after listing — 2025 earnings were essentially flat (+2%), and 2026 is tracking materially lower. The Rule #1 Sticker Price of ₱12.00 already sits above the current price of ₱10.74, meaning there is no margin of safety even at fair value. The MOS buy price of ₱6.00 requires a 44% decline from current levels. With decelerating earnings and a single-asset structure, the current price is not cheap — it is a value trap candidate.\n\nPass at ₱10.74. This is a small, illiquid, single-asset property vehicle with no identifiable growth engine, deteriorating 2026 top-line momentum, and a price that offers no margin of safety by Rule #1 standards. The Gokongwei pedigree and low P/B provide some floor, but a fair-value company with no moat and no growth is not a compelling long-term hold. Revisit only if price falls to the ₱6–₱7 range and management announces a credible second-asset pipeline.",
+  "thesis": "Altus Property Ventures is a single-asset holding company — it owns and operates the North Wing of Robinsons Place Ilocos, a regional mall in San Nicolas, Ilocos Norte. The business is simple enough to understand: collect rental income from mall tenants, managed under the umbrella of the Gokongwei conglomerate through its parent JG Summit Holdings. That simplicity is a double-edged sword. A Rule #1 investor can model the cash flows clearly, but the absence of diversification means every risk is concentrated in one building in one province.\n\nThe moat here is narrow and borrowed rather than intrinsic. Robinsons Place Ilocos benefits from the Robinsons Land brand and the foot traffic that the broader mall ecosystem attracts, but APVI itself has no independent brand power, no proprietary tenant relationships, and no network effects. The switching cost for tenants is low — a competitor mall or even a commercial strip could lure them away. Regional malls in the Philippines face long-run structural headwinds from e-commerce penetration and shifting consumer behavior. The moat, such as it is, rests entirely on being the dominant enclosed mall in a secondary city, which is a defensible but fragile position.\n\nManagement quality is mixed. The Gokongwei group has a strong track record of capital discipline and operational competence across its portfolio companies, which provides a degree of institutional credibility. However, two issues give pause. The resignation in September 2025 of independent director Maynard Ngu — publicly linked to a DPWH flood control probe and allegations of being a political bagman — is not an operational risk per se, but it signals a governance gap in how independent directors were selected. More operationally concerning: 2026 Q1 results showed revenue down 24% and net income down 26% year-on-year, with no disclosed pipeline of new properties or expansion initiatives that would justify the company's existence as a separate listed entity. APVI declared a ₱1.30/share cash dividend in May 2026, signaling confidence in near-term cash generation, but this also implies management has no better use for the capital — i.e., no growth.\n\nOn valuation, the numbers look seductive at first glance: P/E of 6.9x, P/B of 0.9x, a PEG of 0.14x. But the 48% historical EPS growth figure is a statistical artifact of a low earnings base in early years after listing — 2025 earnings were essentially flat (+2%), and 2026 is tracking materially lower. The Rule #1 Sticker Price of ₱12.00 already sits above the current price of ₱10.74, meaning the discount to fair value is only about 10%, far short of a Rule #1 margin of safety. The MOS buy price of ₱6.00 requires a 44% decline from current levels. With decelerating earnings and a single-asset structure, the current price is not cheap — it is a value trap candidate.\n\nPass at ₱10.74. This is a small, illiquid, single-asset property vehicle with no identifiable growth engine, deteriorating 2026 top-line momentum, and a price that offers no margin of safety by Rule #1 standards. The Gokongwei pedigree and low P/B provide some floor, but a fair-value company with no moat and no growth is not a compelling long-term hold. Revisit only if price falls to the ₱6–₱7 range and management announces a credible second-asset pipeline.",
+  "reconcileEdits": [
+    {
+      "find": "meaning there is no margin of safety even at fair value",
+      "replace": "meaning the discount to fair value is only about 10%, far short of a Rule #1 margin of safety",
+      "reason": "The source puts the Sticker Price (₱12.00) above the current price (₱10.74), so the stock trades about 10% below fair value. The original wording implied the price was at or above fair value."
+    }
+  ],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "P/E of 6.9x, P/B of 0.9x, a PEG of 0.14x",
+      "claim": "P/E of 9.6x, P/B of 0.9x, a PEG of 0.14x",
+      "trueValue": "P/E 6.9x",
+      "sourceQuote": "P/E: 6.9x",
+      "match": [
+        "9.6"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "But the 48% historical EPS growth figure is a statistical artifact",
+      "claim": "But the 84% historical EPS growth figure is a statistical artifact",
+      "trueValue": "EPS Growth 48.0%",
+      "sourceQuote": "EPS Growth: 48.0%",
+      "match": [
+        "84%",
+        "84"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "The Rule #1 Sticker Price of ₱12.00 already sits above the current price of ₱10.74",
+      "claim": "The Rule #1 Sticker Price of ₱12.00 already sits below the current price of ₱10.74",
+      "trueValue": "Sticker Price ₱12.00 is above the current price ₱10.74",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱12.00",
+      "match": [
+        "below",
+        "sits below"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "The MOS buy price of ₱6.00 requires a 44% decline from current levels",
+      "claim": "The MOS buy price of ₱6.00 requires a 44% rise from current levels",
+      "trueValue": "Current price is above the MOS price, so reaching it requires a decline",
+      "sourceQuote": "Current price is ABOVE MOS by 79.0%",
+      "match": [
+        "rise",
+        "44% rise"
+      ]
+    },
+    {
+      "type": "year",
+      "original": "APVI declared a ₱1.30/share cash dividend in May 2026",
+      "claim": "APVI declared a ₱1.30/share cash dividend in May 2025",
+      "trueValue": "Cash dividend declared 2026-05-11",
+      "sourceQuote": "2026-05-11: Declaration of Cash Dividends",
+      "match": [
+        "May 2025"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "managed under the umbrella of the Gokongwei conglomerate through its parent JG Summit Holdings",
+      "claim": "managed under the umbrella of the Gokongwei conglomerate through its minority shareholder JG Summit Holdings",
+      "trueValue": "APVI is a direct subsidiary of JG Summit Holdings",
+      "sourceQuote": "the Company became a direct subsidiary of JGS by virtue of the property dividend distribution",
+      "match": [
+        "minority",
+        "minority shareholder"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "it owns and operates the North Wing of Robinsons Place Ilocos",
+      "claim": "it holds a 30% minority stake in the North Wing of Robinsons Place Ilocos",
+      "trueValue": "APVI owns and operates the North Wing",
+      "sourceQuote": "The Company owns and operates the North Wing of Robinsons Place Ilocos mall",
+      "match": [
+        "30%",
+        "minority stake",
+        "minority"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "Pass at ₱10.74. This is a small, illiquid, single-asset property vehicle",
+      "claim": "Pass at US$10.74. This is a small, illiquid, single-asset property vehicle",
+      "trueValue": "Current Price ₱10.74",
+      "sourceQuote": "Current Price: ₱10.74",
+      "match": [
+        "US$10.74",
+        "$10.74",
+        "US$"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-29T17:21:26.433Z"
+  }
+}

@@ -1,20 +1,19 @@
 import { readFile, writeFile } from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
 import { parseArgs } from 'util';
-import { fetchPageText } from '../scripts/research-fetcher.ts';
-import { completeClaudeCli } from './adapters/claude-cli.ts';
-import { containsAnswer } from './graders/research.ts';
+import { fetchPageText } from '../../scripts/research-fetcher.ts';
+import { completeClaudeCli } from '../adapters/claude-cli.ts';
+import { containsAnswer } from './grader.ts';
+import { questionsFile } from './paths.ts';
 import type { AnswerKey, ResearchCategory, ResearchQuestion } from './types.ts';
 
 // Drafts an answer key for a non-DB fact: fetches the source page and asks Opus (claude CLI, subscription,
 // isolated like the eval adapter) to extract the answer with a verbatim quote. The quote must appear in the
 // page and the key must match the page, else nothing is written. Drafts land unverified; the user checks each.
-//   pnpm eval:draft-key --id web-areit-float --ticker AREIT --company "AREIT, Inc." --domain areit.com.ph \
+//   pnpm eval:research:draft --id web-areit-float --ticker AREIT --company "AREIT, Inc." --domain areit.com.ph \
 //     --category events --as-of 2026-09-30 --url https://www.areit.com.ph/about-us \
 //     --question "What share of AREIT was publicly traded as of June 30, 2026?" [--write]
 
-const QUESTIONS = path.join(path.dirname(fileURLToPath(import.meta.url)), 'research', 'questions.json');
+const QUESTIONS = questionsFile;
 const CATEGORIES: ResearchCategory[] = ['dividends', 'financials', 'officers', 'stakes', 'events'];
 
 const { values } = parseArgs({
@@ -97,5 +96,5 @@ if (values.write) {
   const questions = JSON.parse(await readFile(QUESTIONS, 'utf8')) as ResearchQuestion[];
   if (questions.some((q) => q.id === id)) throw new Error(`question ${id} already exists`);
   await writeFile(QUESTIONS, JSON.stringify([...questions, entry], null, 2) + '\n');
-  console.log(`\nAppended to research/questions.json (unverified). Add a conflict/search if useful, then: pnpm eval:fetch-research ${id}`);
+  console.log(`\nAppended to research/questions.json (unverified). Add a conflict/search if useful, then: pnpm eval:research:fetch ${id}`);
 }

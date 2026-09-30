@@ -2,8 +2,8 @@ import { getPool } from '../src/db.ts';
 import { upsertInvestmentThesis } from '../src/repositories/investment-theses.ts';
 import { spawn } from 'child_process';
 import { THESIS_INSTRUCTIONS } from '../prompts/thesis-instructions.ts';
-import { buildFactCheckPrompt } from '../prompts/fact-check.ts';
-import { buildDataBlock, buildTickerContext, parseThesisOutput, type TickerContext } from './thesis-context.ts';
+import { buildFactCheckPrompt, parseFactCheckResponse } from '../prompts/fact-check.ts';
+import { buildDataBlock, buildTickerContext, parseThesisOutput, sanityCheck } from './thesis-context.ts';
 
 interface ClaudeJsonResult {
   result: string;
@@ -80,15 +80,6 @@ function runClaude(stdinData: string, promptArg: string, model: string, tools: s
   });
 }
 
-function sanityCheck(thesis: string, ctx: TickerContext): string | null {
-  if (thesis.length < 500) return `too short (${thesis.length} chars)`;
-  const mentionsTicker = thesis.toLowerCase().includes(ctx.ticker.toLowerCase());
-  const mentionsName = thesis.toLowerCase().includes(ctx.companyName.toLowerCase());
-  if (!mentionsTicker && !mentionsName) return 'does not mention ticker or company name';
-  if (!/\b(buy|watch|pass)\b/i.test(thesis)) return 'no clear buy/watch/pass verdict found';
-  return null;
-}
-
 async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: number; reason?: string }> {
   const ctx = await buildTickerContext(ticker);
   if (!ctx) return { ok: false, cost: 0, reason: 'no financials row for ticker' };
@@ -116,13 +107,8 @@ async function generateForTicker(ticker: string): Promise<{ ok: boolean; cost: n
     return { ok: false, cost: totalCost, reason: 'fact-check call failed' };
   }
 
-  let contradictions: string[] = [];
-  try {
-    const jsonMatch = factCheckResult.result.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) throw new Error('no JSON object found in response');
-    const parsed = JSON.parse(jsonMatch[0]) as { contradictions: string[] };
-    contradictions = parsed.contradictions ?? [];
-  } catch {
+  const contradictions = parseFactCheckResponse(factCheckResult.result);
+  if (!contradictions) {
     return { ok: false, cost: totalCost, reason: 'fact-check response was not valid JSON' };
   }
 

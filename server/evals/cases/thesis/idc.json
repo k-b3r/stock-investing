@@ -1,0 +1,77 @@
+{
+  "id": "idc",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:44.105Z",
+  "context": {
+    "ticker": "IDC",
+    "companyName": "Italpinas Development Corporation",
+    "sector": "Small, Medium & Emerging Board",
+    "subsector": "Small, Medium & Emerging Board",
+    "description": "Italpinas Development Corporation (IDC) was incorporated and registered with the Securities and Exchange Commission (SEC) on January 26, 2009 as Italpinas Euroasian Design and Development Corporation. On July 15, 2015, the SEC approved the Company's change in corporate name to the present one.\n\nIDC's primary purpose is to engage in the business of real estate development using knowledge in architectural design, market and demographic strategy, project development, and sales. The Company's first development project is the Primavera Residences, a twin-tower 10-storey mixed-use condominium in Pueblo de Oro Township in Cagayan de Oro City. IDC's project pipeline presently includes the Primavera City in Cagayan de Oro City, and the Miramonti, a mixed-use development project in Sto. Tomas, Batangas.\n\nThe Company has three wholly-owned subsidiaries, namely IDC Prime Inc, IDC Homes Inc, and Prima Management Corporation. IDC also holds a 25% equity stake in Constellation Energy Corporation, which is engaged in the development of renewable energy facilities to provide clean energy to Philippine grids.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 11.05,
+    "epsGrowth": 14.35,
+    "revenueGrowth": 13.74,
+    "netIncomeGrowth": 18.89,
+    "fcfGrowth": null,
+    "bookValueGrowth": 18.539830151014968,
+    "debtEquity": 0.272,
+    "lastPrice": 0.57,
+    "pe": 1.6285714285714286,
+    "pb": 0.2379660167828664,
+    "peg": 0.1134892981582877,
+    "dividendYield": null,
+    "stickerPrice": 1.0866285869696806,
+    "mosPrice": 0.5433142934848403,
+    "disclosures": [
+      {
+        "date": "2026-03-30",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-08",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-11-10",
+        "template": "[Amend-1]Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Italpinas secures P188-million investment from businessman Benjamin Tan Co",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "Giuseppe Garofalo: Leading Italpinas With Construction Foundation & Structural Excellence",
+        "source": "CEO Insights Asia"
+      },
+      {
+        "title": "Leadership change at Italpinas: Garofalo takes over helm from Nati",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "Lamudi Honors Buyers’ Choice in The Outlook Awards — Real Estate",
+        "source": "Asian Journal News"
+      },
+      {
+        "title": "Italpinas expands project portfolio in Palawan, Misamis",
+        "source": "mb.com.ph"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Italpinas Development Corporation (IDC)\nSector: Small, Medium & Emerging Board / Small, Medium & Emerging Board\nItalpinas Development Corporation (IDC) was incorporated and registered with the Securities and Exchange Commission (SEC) on January 26, 2009 as Italpinas Euroasian Design and Development Corporation. On July 15, 2015, the SEC approved the Company's change in corporate name to the present one.\n\nIDC's primary purpose is to engage in the business of real estate development using knowledge in architectural design, market and demographic strategy, project development, and sales. The Company's first development project is the Primavera Residences, a twin-tower 10-storey mixed-use condominium in Pueblo de Oro Township in Cagayan de Oro City. IDC's project pipeline presently includes the Primavera City in Cagayan de Oro City, and the Miramonti, a mixed-use development project in Sto. Tomas, Batangas.\n\nThe Company has three wholly-owned subsidiaries, namely IDC Prime Inc, IDC Homes Inc, and Prima Management Corporation. IDC also holds a 25% equity stake in Constellation Energy Corporation, which is engaged in the development of renewable energy facilities to provide clean energy to Philippine grids.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 11.1%\n- EPS Growth: 14.3%\n- Revenue Growth: 13.7%\n- Net Income Growth: 18.9%\n- FCF Growth: N/A%\n- Book Value Growth: 18.5%\n- Debt/Equity: 0.27x\n\n## Valuation\n- Current Price: ₱0.57\n- P/E: 1.6x | P/B: 0.2x | PEG: 0.11x | Dividend Yield: N/A%\n- Sticker Price (Rule #1 fair value): ₱1.09\n- MOS Buy Price (50% margin of safety): ₱0.54\n- Current price is ABOVE MOS by 4.9%\n\n## Recent Disclosures (last 3)\n- 2026-03-30: Material Information/Transactions\n- 2026-02-08: Material Information/Transactions\n- 2025-11-10: [Amend-1]Material Information/Transactions\n\n## Recent News (last 5)\n- Italpinas secures P188-million investment from businessman Benjamin Tan Co (mb.com.ph)\n- Giuseppe Garofalo: Leading Italpinas With Construction Foundation & Structural Excellence (CEO Insights Asia)\n- Leadership change at Italpinas: Garofalo takes over helm from Nati (mb.com.ph)\n- Lamudi Honors Buyers’ Choice in The Outlook Awards — Real Estate (Asian Journal News)\n- Italpinas expands project portfolio in Palawan, Misamis (mb.com.ph)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "smallcap",
+    "band": "mos-to-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "fcfGrowth",
+      "dividendYield"
+    ]
+  }
+}

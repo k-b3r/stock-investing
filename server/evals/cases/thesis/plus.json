@@ -1,0 +1,98 @@
+{
+  "id": "plus",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:43.121Z",
+  "context": {
+    "ticker": "PLUS",
+    "companyName": "DigiPlus Interactive Corp.",
+    "sector": "Services",
+    "subsector": "Casinos & Gaming",
+    "description": "DigiPlus Interactive Corp. (PLUS), formerly Leisure and Resorts World Corporation, was originally incorporated on October 10, 1957. PLUS was initially engaged in the production of fertilizers and industrial chemicals as Atlas Fertilizer Corporation. As part of its corporate restructuring in 1996, the Company's primary purpose was amended in 1999, to engage in realty development, focusing on leisure business and its operations remained minimal and functioned as a holding company. The SEC approved its change in corporate name to its present one on February 28, 2023.\n\nThe Company's subsidiaries are grouped into four segments: retail, casino, network and licenses, and property and other investments. Among its subsidiaries are AB Leisure Exponent, Inc.; Total Gamezone Xtreme, Inc.; Blue Chip Gaming and Leisure Corporation; First Cagayan Leisure and Resort Corporation; AB Leisure Global, Inc.; and DigiPlus Brazil Holding LTDA.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 32.2,
+    "epsGrowth": 14.67,
+    "revenueGrowth": 24.68,
+    "netIncomeGrowth": 28.42,
+    "fcfGrowth": 115.296,
+    "bookValueGrowth": 5.001700959363409,
+    "debtEquity": 0.0264,
+    "lastPrice": 7.93,
+    "pe": 2.8222649298882483,
+    "pb": 0.9352076797886643,
+    "peg": 0.19238343080356157,
+    "dividendYield": 10.844892812105927,
+    "stickerPrice": 27.498319714609067,
+    "mosPrice": 13.749159857304534,
+    "disclosures": [
+      {
+        "date": "2026-07-09",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-10",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-04",
+        "template": "Update on Corporate Actions/Material Transactions/Agreements"
+      },
+      {
+        "date": "2026-05-29",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-05",
+        "template": "Clarification of News Reports"
+      },
+      {
+        "date": "2026-05-05",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-04-15",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-31",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "DigiPlus issues Brazil response following President’s ban on online gambling",
+        "source": "IAG – Inside Asian Gaming"
+      },
+      {
+        "title": "DigiPlus to sustain win streak in Philippines online gaming industry",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "Moody’s puts DigiPlus first rating at ‘B1’ with stable outlook",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "DigiPlus partnership, LaVie upgrades drive IEC’s Philippine gaming expansion",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "DigiPlus Interactive Corp Revenue Breakdown – PSE:PLUS",
+        "source": "TradingView"
+      }
+    ]
+  },
+  "dataBlock": "## Company: DigiPlus Interactive Corp. (PLUS)\nSector: Services / Casinos & Gaming\nDigiPlus Interactive Corp. (PLUS), formerly Leisure and Resorts World Corporation, was originally incorporated on October 10, 1957. PLUS was initially engaged in the production of fertilizers and industrial chemicals as Atlas Fertilizer Corporation. As part of its corporate restructuring in 1996, the Company's primary purpose was amended in 1999, to engage in realty development, focusing on leisure business and its operations remained minimal and functioned as a holding company. The SEC approved its change in corporate name to its present one on February 28, 2023.\n\nThe Company's subsidiaries are grouped into four segments: retail, casino, network and licenses, and property and other investments. Among its subsidiaries are AB Leisure Exponent, Inc.; Total Gamezone Xtreme, Inc.; Blue Chip Gaming and Leisure Corporation; First Cagayan Leisure and Resort Corporation; AB Leisure Global, Inc.; and DigiPlus Brazil Holding LTDA.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 32.2%\n- EPS Growth: 14.7%\n- Revenue Growth: 24.7%\n- Net Income Growth: 28.4%\n- FCF Growth: 115.3%\n- Book Value Growth: 5.0%\n- Debt/Equity: 0.03x\n\n## Valuation\n- Current Price: ₱7.93\n- P/E: 2.8x | P/B: 0.9x | PEG: 0.19x | Dividend Yield: 10.8%\n- Sticker Price (Rule #1 fair value): ₱27.50\n- MOS Buy Price (50% margin of safety): ₱13.75\n- Current price is BELOW MOS by 42.3%\n\n## Recent Disclosures (last 9)\n- 2026-07-09: Material Information/Transactions\n- 2026-06-10: Material Information/Transactions\n- 2026-06-04: Update on Corporate Actions/Material Transactions/Agreements\n- 2026-05-29: Press Release\n- 2026-05-05: Clarification of News Reports\n- 2026-05-05: Press Release\n- 2026-04-15: Material Information/Transactions\n- 2026-03-31: Material Information/Transactions\n- 2026-03-17: Press Release\n\n## Recent News (last 5)\n- DigiPlus issues Brazil response following President’s ban on online gambling (IAG – Inside Asian Gaming)\n- DigiPlus to sustain win streak in Philippines online gaming industry (Philstar.com)\n- Moody’s puts DigiPlus first rating at ‘B1’ with stable outlook (business.inquirer.net)\n- DigiPlus partnership, LaVie upgrades drive IEC’s Philippine gaming expansion (mb.com.ph)\n- DigiPlus Interactive Corp Revenue Breakdown – PSE:PLUS (TradingView)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "psei",
+    "band": "below-mos",
+    "allowedVerdicts": [
+      "buy",
+      "watch"
+    ],
+    "missingFields": []
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "cbc-trap-roic-de",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:43.619Z",
+  "context": {
+    "ticker": "CBC",
+    "companyName": "China Banking Corporation",
+    "sector": "Financials",
+    "subsector": "Banks",
+    "description": "China Banking Corporation (CBC) was incorporated on July 20, 1920 and commenced business on August 16 of the same year. It was listed on the local stock exchange in September 1927 and acquired its universal banking license in 1991.\n\nCBC is a private domestic universal bank in the Philippines that offers a full range of banking products and services to institutional and individual customers, as well as thrift banking, investment banking, insurance brokerage, stock brokerage, and bancassurance through its subsidiaries, China Bank Savings, China Bank Capital, CBC Assets One (SPC), China Bank Securities, Resurgent Capital (FIST-AMC), Chinabank Insurance Brokers (CIBI), CBC Properties and Computer Center, Inc., and affiliate Manulife China Bank Life Assurance Corp (MCBLife).\n\nAs of December 31, 2024, CBC has a nationwide network of 650 branches and 1,081 automated teller machines.\n\nSource: The Company (2025)",
+    "roic": 412,
+    "epsGrowth": 15.479999999999999,
+    "revenueGrowth": 14.280000000000001,
+    "netIncomeGrowth": 17.44,
+    "fcfGrowth": -11.984,
+    "bookValueGrowth": 10.389429912606317,
+    "debtEquity": -3.1,
+    "lastPrice": 51.15,
+    "pe": 4.918269230769231,
+    "pb": 0.7468516152582588,
+    "peg": 0.3177176505664878,
+    "dividendYield": 4.887585532746823,
+    "stickerPrice": 71,
+    "mosPrice": 35.5,
+    "disclosures": [
+      {
+        "date": "2026-05-26",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-04-22",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-04-22",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-04-15",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-04-15",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-04-15",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-02-26",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-25",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-02-25",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-23",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "China Banking Corporation: Notice of Annual Stockholders' Meeting",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "PHILGUARANTEE and China Banking Corporation Seal P20-Billion Partnership to Boost Housing Access",
+        "source": "Philippine Information Agency"
+      },
+      {
+        "title": "Global Banking & Finance Review Awards® 2026: China Banking Corporation Honoured for Innovation in Tax Filing & Payment",
+        "source": "Global Banking &amp; Finance Review"
+      },
+      {
+        "title": "CBS keeps profit steady despite headwinds",
+        "source": "Daily Tribune"
+      },
+      {
+        "title": "Three major Philippine banks keep investment-grade ratings from Moody’s",
+        "source": "mb.com.ph"
+      }
+    ]
+  },
+  "dataBlock": "## Company: China Banking Corporation (CBC)\nSector: Financials / Banks\nChina Banking Corporation (CBC) was incorporated on July 20, 1920 and commenced business on August 16 of the same year. It was listed on the local stock exchange in September 1927 and acquired its universal banking license in 1991.\n\nCBC is a private domestic universal bank in the Philippines that offers a full range of banking products and services to institutional and individual customers, as well as thrift banking, investment banking, insurance brokerage, stock brokerage, and bancassurance through its subsidiaries, China Bank Savings, China Bank Capital, CBC Assets One (SPC), China Bank Securities, Resurgent Capital (FIST-AMC), Chinabank Insurance Brokers (CIBI), CBC Properties and Computer Center, Inc., and affiliate Manulife China Bank Life Assurance Corp (MCBLife).\n\nAs of December 31, 2024, CBC has a nationwide network of 650 branches and 1,081 automated teller machines.\n\nSource: The Company (2025)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 412.0%\n- EPS Growth: 15.5%\n- Revenue Growth: 14.3%\n- Net Income Growth: 17.4%\n- FCF Growth: -12.0%\n- Book Value Growth: 10.4%\n- Debt/Equity: -3.10x\n\n## Valuation\n- Current Price: ₱51.15\n- P/E: 4.9x | P/B: 0.7x | PEG: 0.32x | Dividend Yield: 4.9%\n- Sticker Price (Rule #1 fair value): ₱71.00\n- MOS Buy Price (50% margin of safety): ₱35.50\n- Current price is ABOVE MOS by 44.1%\n\n## Recent Disclosures (last 10)\n- 2026-05-26: Material Information/Transactions\n- 2026-04-22: Press Release\n- 2026-04-22: Material Information/Transactions\n- 2026-04-15: Press Release\n- 2026-04-15: Declaration of Cash Dividends\n- 2026-04-15: Declaration of Cash Dividends\n- 2026-02-26: Material Information/Transactions\n- 2026-02-25: Press Release\n- 2026-02-25: Material Information/Transactions\n- 2026-02-23: Material Information/Transactions\n\n## Recent News (last 5)\n- China Banking Corporation: Notice of Annual Stockholders' Meeting (Philstar.com)\n- PHILGUARANTEE and China Banking Corporation Seal P20-Billion Partnership to Boost Housing Access (Philippine Information Agency)\n- Global Banking & Finance Review Awards® 2026: China Banking Corporation Honoured for Innovation in Tax Filing & Payment (Global Banking &amp; Finance Review)\n- CBS keeps profit steady despite headwinds (Daily Tribune)\n- Three major Philippine banks keep investment-grade ratings from Moody’s (mb.com.ph)",
+  "expect": {
+    "base": "cbc",
+    "tier": "psei",
+    "kind": "trap",
+    "trap": {
+      "fields": [
+        "roic",
+        "debtEquity"
+      ],
+      "description": "ROIC of 412% is implausible for a bank, and negative Debt/Equity contradicts positive book value growth"
+    },
+    "band": "mos-to-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "ticker": "CNPF",
+  "frozenAt": "2026-09-29T17:12:22.052Z",
+  "generatedAt": "2026-09-12T04:31:28.958Z",
+  "context": {
+    "ticker": "CNPF",
+    "companyName": "Century Pacific Food, Inc.",
+    "sector": "Industrial",
+    "subsector": "Food, Beverage & Tobacco",
+    "description": "Century Pacific Food, Inc. (CNPF) was incorporated on October 25, 2013. The Company is primarily engaged in the business of buying and selling, processing, canning, packaging, and manufacturing all kinds of food and food products. CNPF is a wholly-owned subsidiary of Century Pacific Group, Inc.\n\nThe Company's current main business segments are the canned and processed fish segment which produces tuna, sardines, and other fish and seafood-based products; the canned meat segment which produces corned beef, meat loaf, luncheon meat, and other meat-based products; the dairy and mixes segment which comprises of evaporated milk, condensed milk, and other dairy products as well as coffee mixes and flavor mixes; the tuna export segment which produces private label canned, pouched, and frozen tuna products for export; and the coconut segment which produces retail-packaged coconut water, organic virgin coconut oil, desiccated coconuts, coconut flour, and coconut milk. Recognizable brands under these segments include \"Century Tuna\", \"555\", \"Ligo\", \"Argentina\", and \"Birch Tree\", as well as emerging and challenger names such as \"Blue Bay\", \"Fresca\", \"Swift\", \"Wow\", \"Lucky Seven\", \"Angelv, \"Coco Mama\", \"unMEAT\", \"Choco Hero\", and \"Goodest\".\n\nAs of December 31, 2024, CPG's wholly-owned subsidiaries include Snow Mountain Dairy Corporation; General Tuna Corporation; Allforward Warehousing Inc.; Century Pacific Agricultural Ventures, Inc.; Century Pacific Seacrest Inc.; Century Pacific Food Packaging Ventures, Inc.; Millennium General Power Corporation; The Pacific Meat Company, Inc.; General Odyssey Inc.; Centennial Global Corporation; Century (Shanghai) Trading Company Limited; Century International (China) Company Limited; and Century Pacific North America Enterprise, Inc.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 16.41,
+    "epsGrowth": 13.18,
+    "revenueGrowth": 13.569999999999999,
+    "netIncomeGrowth": 13.84,
+    "fcfGrowth": -11.354000000000003,
+    "bookValueGrowth": 13.530204811868018,
+    "debtEquity": 0.1137,
+    "lastPrice": 33.7,
+    "pe": 16.894771143530356,
+    "pb": 3.1650324955858595,
+    "peg": 1.2818491004196022,
+    "dividendYield": 3.2640949554896146,
+    "stickerPrice": 35.21020422955328,
+    "mosPrice": 17.60510211477664,
+    "disclosures": [
+      {
+        "date": "2026-06-30",
+        "template": "[Amend-1]Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-06-30",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-06-17",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-17",
+        "template": "[Amend-1]Material Information/Transactions"
+      },
+      {
+        "date": "2026-06-09",
+        "template": "Clarification of News Reports"
+      },
+      {
+        "date": "2026-05-07",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-04-13",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-02-16",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-02-09",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-11-06",
+        "template": "[Amend-1]Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "Century Pacific first-half net income rose by 6%",
+        "source": "Inquirer.net"
+      },
+      {
+        "title": "Christopher Po of Century Pacific Food: Leadership Profile",
+        "source": "The Business Manual"
+      },
+      {
+        "title": "Century Pacific overcomes GenSan quake impact to post higher profit",
+        "source": "Manila Bulletin"
+      },
+      {
+        "title": "Century Pacific named best-managed consumer staples firm",
+        "source": "Daily Tribune"
+      },
+      {
+        "title": "Century Pacific Food eyes double-digit profit growth",
+        "source": "Philstar.com"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Century Pacific Food, Inc. (CNPF)\nSector: Industrial / Food, Beverage & Tobacco\nCentury Pacific Food, Inc. (CNPF) was incorporated on October 25, 2013. The Company is primarily engaged in the business of buying and selling, processing, canning, packaging, and manufacturing all kinds of food and food products. CNPF is a wholly-owned subsidiary of Century Pacific Group, Inc.\n\nThe Company's current main business segments are the canned and processed fish segment which produces tuna, sardines, and other fish and seafood-based products; the canned meat segment which produces corned beef, meat loaf, luncheon meat, and other meat-based products; the dairy and mixes segment which comprises of evaporated milk, condensed milk, and other dairy products as well as coffee mixes and flavor mixes; the tuna export segment which produces private label canned, pouched, and frozen tuna products for export; and the coconut segment which produces retail-packaged coconut water, organic virgin coconut oil, desiccated coconuts, coconut flour, and coconut milk. Recognizable brands under these segments include \"Century Tuna\", \"555\", \"Ligo\", \"Argentina\", and \"Birch Tree\", as well as emerging and challenger names such as \"Blue Bay\", \"Fresca\", \"Swift\", \"Wow\", \"Lucky Seven\", \"Angelv, \"Coco Mama\", \"unMEAT\", \"Choco Hero\", and \"Goodest\".\n\nAs of December 31, 2024, CPG's wholly-owned subsidiaries include Snow Mountain Dairy Corporation; General Tuna Corporation; Allforward Warehousing Inc.; Century Pacific Agricultural Ventures, Inc.; Century Pacific Seacrest Inc.; Century Pacific Food Packaging Ventures, Inc.; Millennium General Power Corporation; The Pacific Meat Company, Inc.; General Odyssey Inc.; Centennial Global Corporation; Century (Shanghai) Trading Company Limited; Century International (China) Company Limited; and Century Pacific North America Enterprise, Inc.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 16.4%\n- EPS Growth: 13.2%\n- Revenue Growth: 13.6%\n- Net Income Growth: 13.8%\n- FCF Growth: -11.4%\n- Book Value Growth: 13.5%\n- Debt/Equity: 0.11x\n\n## Valuation\n- Current Price: ₱33.70\n- P/E: 16.9x | P/B: 3.2x | PEG: 1.28x | Dividend Yield: 3.3%\n- Sticker Price (Rule #1 fair value): ₱35.21\n- MOS Buy Price (50% margin of safety): ₱17.61\n- Current price is ABOVE MOS by 91.4%\n\n## Recent Disclosures (last 10)\n- 2026-06-30: [Amend-1]Declaration of Cash Dividends\n- 2026-06-30: Declaration of Cash Dividends\n- 2026-06-17: Material Information/Transactions\n- 2026-06-17: [Amend-1]Material Information/Transactions\n- 2026-06-09: Clarification of News Reports\n- 2026-05-07: Press Release\n- 2026-04-13: Press Release\n- 2026-02-16: Declaration of Cash Dividends\n- 2026-02-09: Press Release\n- 2025-11-06: [Amend-1]Press Release\n\n## Recent News (last 5)\n- Century Pacific first-half net income rose by 6% (Inquirer.net)\n- Christopher Po of Century Pacific Food: Leadership Profile (The Business Manual)\n- Century Pacific overcomes GenSan quake impact to post higher profit (Manila Bulletin)\n- Century Pacific named best-managed consumer staples firm (Daily Tribune)\n- Century Pacific Food eyes double-digit profit growth (Philstar.com)",
+  "storedThesis": "Century Pacific Food is among the most legible businesses on the PSEi: it makes canned tuna, sardines, corned beef, evaporated milk, and coconut products under household brands that Filipinos buy weekly. Century Tuna is the dominant brand in its category, 555 and Ligo are legacy names with decades of shelf presence, and Argentina corned beef is practically a cultural institution. The coconut segment adds an export-facing growth arm riding global demand for organic coconut products. There is nothing exotic or difficult to understand here — this is a branded consumer staples business selling affordable protein and pantry essentials to a nation of 115 million people.\n\nThe moat is real but not impenetrable. CNPF's brands occupy the sweet spot between premium and mass-market, giving them pricing power that commodity private labels lack. Their distribution network — built over decades across wet markets, sari-sari stores, supermarkets, and convenience chains — is a genuine barrier to entry. Vertical integration through General Tuna Corporation (processing) and in-house packaging subsidiaries lowers cost and protects margin. ROIC of 16.4% sustained over a decade is consistent with a business that earns above its cost of capital year after year, which is the empirical signature of a moat. The vulnerability is that the canned goods category, while defensible, faces gradual competitive pressure from fresh and chilled alternatives as Filipino incomes rise, and the tuna export segment depends on trade policy it cannot control.\n\nManagement quality is a net positive. The Po family controls the business through Century Pacific Group and has managed a decade of disciplined compounding — 13% EPS growth, 13.6% revenue growth, and a debt-to-equity ratio of just 0.11x. That balance sheet conservatism is a mark of management that does not chase growth recklessly. Consistent dividends (3.3% yield) and regular disclosure filings show a company that treats minority shareholders fairly. The one flag worth watching is the announced ₱8 billion capex plan for 2026 — double the usual annual level — at the same time the export segment faces a 12.5% US Section 301 tariff threat. CNPF's US unit is actively seeking exemption and testified at USTR hearings, which is the right move, but the outcome is uncertain. The combination of elevated capex and export headwinds explains why free cash flow growth has been negative (-11.4%) even as earnings grow — a divergence that deserves scrutiny over the next two or three quarters.\n\nOn valuation, CNPF is a premium-quality business priced like one. At ₱33.70, the stock trades within 5% of the Rule #1 Sticker Price of ₱35.21 and at 91% above the margin of safety buy price of ₱17.61. A P/E of 16.9x and PEG of 1.28x are reasonable — not bubble territory — but they leave almost no cushion for error. H1 2026 revenue grew 15% year-on-year, which is encouraging, and net income rose 6%, suggesting some margin compression from the capex and cost environment. If the US tariff exemption fails, the tuna export segment (a meaningful contributor) could see material earnings impact. A disciplined Rule #1 investor needs a price closer to ₱20–25 to build in genuine protection against these scenarios.\n\nCNPF is exactly the kind of business worth owning — strong brand moat, competent management, low leverage, consistent growth — but the current price demands near-flawless execution. The US tariff overhang and the FCF divergence are real risks that the market has not fully priced. Watch for the tariff resolution, two to three quarters of FCF normalization as capex peaks, or a price pullback into the ₱22–26 range. At current levels, patience is the discipline — this is a watch, not a buy.",
+  "thesis": "Century Pacific Food is among the most legible businesses on the PSEi: it makes canned tuna, sardines, corned beef, evaporated milk, and coconut products under household brands that Filipinos buy weekly. Century Tuna is the dominant brand in its category, 555 and Ligo are legacy names with decades of shelf presence, and Argentina corned beef is practically a cultural institution. The coconut segment adds an export-facing growth arm riding global demand for organic coconut products. There is nothing exotic or difficult to understand here — this is a branded consumer staples business selling affordable protein and pantry essentials to a nation of 115 million people.\n\nThe moat is real but not impenetrable. CNPF's brands occupy the sweet spot between premium and mass-market, giving them pricing power that commodity private labels lack. Their distribution network — built over decades across wet markets, sari-sari stores, supermarkets, and convenience chains — is a genuine barrier to entry. Vertical integration through General Tuna Corporation (processing) and in-house packaging subsidiaries lowers cost and protects margin. ROIC of 16.4% sustained over a decade is consistent with a business that earns above its cost of capital year after year, which is the empirical signature of a moat. The vulnerability is that the canned goods category, while defensible, faces gradual competitive pressure from fresh and chilled alternatives as Filipino incomes rise, and the tuna export segment depends on trade policy it cannot control.\n\nManagement quality is a net positive. The Po family controls the business through Century Pacific Group and has managed a decade of disciplined compounding — 13% EPS growth, 13.6% revenue growth, and a debt-to-equity ratio of just 0.11x. That balance sheet conservatism is a mark of management that does not chase growth recklessly. Consistent dividends (3.3% yield) and regular disclosure filings show a company that treats minority shareholders fairly. The one flag worth watching is the announced ₱8 billion capex plan for 2026 — double the usual annual level — at the same time the export segment faces a 12.5% US Section 301 tariff threat. CNPF's US unit is actively seeking exemption and testified at USTR hearings, which is the right move, but the outcome is uncertain. The combination of elevated capex and export headwinds explains why free cash flow growth has been negative (-11.4% 10-year average) even as earnings grow — a divergence that deserves scrutiny over the next two or three quarters.\n\nOn valuation, CNPF is a premium-quality business priced like one. At ₱33.70, the stock trades within 5% of the Rule #1 Sticker Price of ₱35.21 and at 91% above the margin of safety buy price of ₱17.61. A P/E of 16.9x and PEG of 1.28x are reasonable — not bubble territory — but they leave almost no cushion for error. H1 2026 revenue grew 15% year-on-year, which is encouraging, and net income rose 6%, suggesting some margin compression from the capex and cost environment. If the US tariff exemption fails, the tuna export segment (a meaningful contributor) could see material earnings impact. A disciplined Rule #1 investor needs a price closer to ₱20–25 to build in genuine protection against these scenarios.\n\nCNPF is exactly the kind of business worth owning — strong brand moat, competent management, low leverage, consistent growth — but the current price demands near-flawless execution. The US tariff overhang and the FCF divergence are real risks that the market has not fully priced. Watch for the tariff resolution, two to three quarters of FCF normalization as capex peaks, or a price pullback into the ₱22–26 range. At current levels, patience is the discipline — this is a watch, not a buy.",
+  "reconcileEdits": [
+    {
+      "find": "free cash flow growth has been negative (-11.4%)",
+      "replace": "free cash flow growth has been negative (-11.4% 10-year average)",
+      "reason": "The source's -11.4% FCF growth is a 10-year average, not a recent figure. Labeling it makes clear it is not a result of the 2026 capex and export headwinds."
+    }
+  ],
+  "candidates": [
+    {
+      "type": "size",
+      "original": "ROIC of 16.4% sustained over a decade",
+      "claim": "ROIC of 26.4% sustained over a decade",
+      "trueValue": "ROIC 16.4%",
+      "sourceQuote": "ROIC: 16.4%",
+      "match": [
+        "26.4"
+      ]
+    },
+    {
+      "type": "size",
+      "original": "A P/E of 16.9x and PEG of 1.28x are reasonable",
+      "claim": "A P/E of 29.6x and PEG of 1.28x are reasonable",
+      "trueValue": "P/E 16.9x",
+      "sourceQuote": "P/E: 16.9x",
+      "match": [
+        "29.6"
+      ]
+    },
+    {
+      "type": "direction",
+      "original": "at 91% above the margin of safety buy price of ₱17.61",
+      "claim": "at 91% below the margin of safety buy price of ₱17.61",
+      "trueValue": "Current price is ABOVE MOS by 91.4%",
+      "sourceQuote": "Current price is ABOVE MOS by 91.4%",
+      "match": [
+        "below",
+        "91% below",
+        "below the margin of safety"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "Vertical integration through General Tuna Corporation (processing)",
+      "claim": "Vertical integration through 30%-owned affiliate General Tuna Corporation (processing)",
+      "trueValue": "General Tuna Corporation is a wholly-owned subsidiary",
+      "sourceQuote": "CPG's wholly-owned subsidiaries include Snow Mountain Dairy Corporation; General Tuna Corporation",
+      "match": [
+        "30%",
+        "30%-owned",
+        "affiliate"
+      ]
+    },
+    {
+      "type": "stake",
+      "original": "The Po family controls the business through Century Pacific Group",
+      "claim": "The Po family controls the business through a 35% stake held by Century Pacific Group",
+      "trueValue": "CNPF is a wholly-owned subsidiary of Century Pacific Group, Inc.",
+      "sourceQuote": "CNPF is a wholly-owned subsidiary of Century Pacific Group, Inc.",
+      "match": [
+        "35%",
+        "35% stake"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "At ₱33.70, the stock trades within 5%",
+      "claim": "At $33.70, the stock trades within 5%",
+      "trueValue": "Current Price ₱33.70",
+      "sourceQuote": "Current Price: ₱33.70",
+      "match": [
+        "$33.70"
+      ]
+    },
+    {
+      "type": "currency",
+      "original": "Rule #1 Sticker Price of ₱35.21",
+      "claim": "Rule #1 Sticker Price of $35.21",
+      "trueValue": "Sticker Price ₱35.21",
+      "sourceQuote": "Sticker Price (Rule #1 fair value): ₱35.21",
+      "match": [
+        "$35.21"
+      ]
+    }
+  ],
+  "nonErrorCandidates": [],
+  "drafted": {
+    "model": "opus",
+    "at": "2026-09-29T17:22:28.253Z"
+  }
+}

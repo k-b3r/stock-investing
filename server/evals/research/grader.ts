@@ -1,4 +1,4 @@
-import type { AnswerKey, ResearchCase, ResearchGradeResult } from '../types.ts';
+import type { AnswerKey, ResearchCase, ResearchGradeResult } from './types.ts';
 
 export interface ResearchOutput {
   found: boolean;

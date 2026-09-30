@@ -20,9 +20,15 @@
     "test": "vitest run",
     "eval": "tsx --env-file=../.env evals/run.ts",
     "eval:freeze": "tsx --env-file=../.env evals/freeze-case.ts",
-    "eval:fetch-research": "tsx --env-file=../.env evals/fetch-research.ts",
-    "eval:draft-key": "tsx --env-file=../.env evals/draft-research-key.ts",
-    "eval:score": "tsx evals/scorecard.ts"
+    "eval:select": "tsx --env-file=../.env evals/select-tickers.ts",
+    "eval:score": "tsx evals/scorecard.ts",
+    "eval:factcheck": "tsx --env-file=../.env evals/factcheck/run.ts",
+    "eval:factcheck:freeze": "tsx --env-file=../.env evals/factcheck/freeze-bases.ts",
+    "eval:factcheck:draft": "tsx evals/factcheck/draft.ts",
+    "eval:factcheck:build": "tsx evals/factcheck/build.ts",
+    "eval:research": "tsx --env-file=../.env evals/research/run.ts",
+    "eval:research:fetch": "tsx --env-file=../.env evals/research/fetch.ts",
+    "eval:research:draft": "tsx --env-file=../.env evals/research/draft-key.ts"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

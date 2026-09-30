@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { containsAnswer, extractAmounts, extractDates, gradeResearch, parseResearchOutput } from './research.ts';
-import type { AnswerKey, ResearchCase, ResearchDoc } from '../types.ts';
+import { containsAnswer, extractAmounts, extractDates, gradeResearch, parseResearchOutput } from './grader.ts';
+import type { AnswerKey, ResearchCase, ResearchDoc } from './types.ts';
 
 const doc = (id: string, sourceType: ResearchDoc['sourceType'], text: string): ResearchDoc => ({
   id, title: `Doc ${id}`, source: 'test', url: `https://example.com/${id}`, publishedAt: '2026-05-01', sourceType, role: 'search', synthetic: false, text,
