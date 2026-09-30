@@ -10,7 +10,7 @@ import { printScorecard } from './scorecard.ts';
 import { readJsonFiles } from './utils.ts';
 import type { RunResult, ThesisCase } from './types.ts';
 
-const DEFAULT_MODELS = 'mimo-v2.6-flash,sonnet';
+const DEFAULT_MODELS = 'mimo-v2.6-flash';
 
 const { values } = parseArgs({
   options: {

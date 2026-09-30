@@ -12,7 +12,7 @@ import { RESEARCH_INSTRUCTIONS, buildResearchPrompt } from './prompts.ts';
 import { printResearchScorecard } from './scorecard.ts';
 import type { ResearchCase } from './types.ts';
 
-const DEFAULT_MODELS = 'mimo-v2.6-flash,sonnet';
+const DEFAULT_MODELS = 'mimo-v2.6-flash';
 
 const { values } = parseArgs({
   options: {

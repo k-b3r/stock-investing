@@ -31,3 +31,18 @@ export const areitThesis = [
   `- Dividend yield of 6.3% with a nearly debt-free balance sheet`,
   `- Sponsor pipeline from Ayala Land drives growth`,
 ].join('\n\n');
+
+// Known-worse AREIT thesis for the judge: generic business description, asserted moat, invented management facts
+// (no insider buying or named CEO in the data) and a bottom line that contradicts its own argument
+export const areitWeakThesis = [
+  `AREIT is a great company with a strong business in a growing market. It is one of the best stocks on the PSE and investors love it.`,
+  `AREIT has an unbreakable moat: it is effectively a monopoly on prime office space in the Philippines, and no competitor can ever match it. This advantage will last forever.`,
+  `Management is excellent. CEO Carol Mejia bought ₱50 million of shares on the open market in March 2026, and the board approved a ₱2 billion buyback, clear signs of confidence and skin in the game.`,
+  `The stock is deeply undervalued and one of the cheapest REITs available, with every metric pointing to a bargain. Bottom line: pass.`,
+  `---VERDICT---`,
+  `pass`,
+  `---HIGHLIGHTS---`,
+  `- Monopoly on prime office space`,
+  `- CEO bought ₱50 million of shares`,
+  `- Deeply undervalued`,
+].join('\n\n');

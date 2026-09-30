@@ -15,8 +15,7 @@ import type { FactCheckCase } from './types.ts';
 // Production sends the prompt alone (claude -p); adapters need a system prompt, so keep it neutral
 export const FACT_CHECK_SYSTEM = 'You check investment theses against source financial data.';
 
-// Haiku is the production fact-checker
-const DEFAULT_MODELS = 'mimo-v2.6-flash,haiku';
+const DEFAULT_MODELS = 'mimo-v2.6-flash';
 
 const { values } = parseArgs({
   options: {

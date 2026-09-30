@@ -13,10 +13,10 @@ export function failedCompletion(error: string, latencyMs: number): Completion {
   return { text: '', inputTokens: null, outputTokens: null, costUsd: null, latencyMs, error };
 }
 
-// Every saved run of a suite, across models
+// Every saved run of a suite, across models (judge verdict dirs skipped)
 export async function loadResults(suite: Suite): Promise<RunResult[]> {
   const root = resultsDir(suite);
-  const models = await readdir(root).catch(() => [] as string[]);
+  const models = (await readdir(root).catch(() => [] as string[])).filter((d) => !d.startsWith('judge'));
   const perModel = await Promise.all(models.map((model) => readJsonFiles<RunResult>(path.join(root, model))));
   return perModel.flat();
 }

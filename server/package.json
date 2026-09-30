@@ -22,6 +22,7 @@
     "eval:freeze": "tsx --env-file=../.env evals/freeze-case.ts",
     "eval:select": "tsx --env-file=../.env evals/select-tickers.ts",
     "eval:score": "tsx evals/scorecard.ts",
+    "eval:judge": "tsx --env-file=../.env evals/judge.ts",
     "eval:factcheck": "tsx --env-file=../.env evals/factcheck/run.ts",
     "eval:factcheck:freeze": "tsx --env-file=../.env evals/factcheck/freeze-bases.ts",
     "eval:factcheck:draft": "tsx evals/factcheck/draft.ts",
