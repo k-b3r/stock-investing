@@ -1,0 +1,102 @@
+{
+  "id": "meg",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:45.399Z",
+  "context": {
+    "ticker": "MEG",
+    "companyName": "Megaworld Corporation",
+    "sector": "Property",
+    "subsector": "Property",
+    "description": "Megaworld Corporation (MEG) was incorporated on August 24, 1989, to engage in real estate development, leasing, and marketing. In 1996, the Company shifted its focus to providing office buildings to support BPO businesses when it began the development of the Eastwood City township. On August 19, 1999, MEG changed its corporate name to the present one to coincide with its conversion from a purely real estate company into a holding company, although the Company continues to focus on real estate development.\n\nMEG's real estate portfolio includes residential condominiums, residential and commercial lots, office buildings, retail spaces, and hotels. The Company has three primary business segments: real estate sales of residential properties; leasing of office spaces, primarily to BPO enterprises, and of retail spaces; and development and operation of hotels through its subsidiaries. Since its incorporation, the Company and its affiliates have launched more than 800 residential buildings, alongside more than 1.5 million square meters of gross leasable office space, over 500,000 square meters of mall retail space, and more than 6,000 hotel room keys across 15 homegrown hotels.\n\nThe Company's subsidiaries and associates include Megaworld Land, Inc.; Richmonde Hotel Group International Limited; Eastwood Cyber One Corporation; Empire East Land Holdings, Inc.; Global-Estate Resorts, Inc.; MREIT, Inc.; Mactan Oceanview Properties and Holdings, Inc.; and Bonifacio West Development Corporation.\n\nSource: SEC Form 17-A (2025)",
+    "roic": 5.93,
+    "epsGrowth": 7.290000000000001,
+    "revenueGrowth": 6.47,
+    "netIncomeGrowth": 7.470000000000001,
+    "fcfGrowth": 70.16099999999999,
+    "bookValueGrowth": 8.609036492583687,
+    "debtEquity": 0.31,
+    "lastPrice": 2.18,
+    "pe": 3.3798449612403103,
+    "pb": 0.2707839069894543,
+    "peg": 0.463627566699631,
+    "dividendYield": 4.31,
+    "stickerPrice": 1.1890250558574256,
+    "mosPrice": 0.5945125279287128,
+    "disclosures": [
+      {
+        "date": "2026-09-15",
+        "template": "[Amend-2]Acquisition or Disposition of Assets"
+      },
+      {
+        "date": "2026-09-02",
+        "template": "[Amend-1]Acquisition or Disposition of Assets"
+      },
+      {
+        "date": "2026-09-01",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-09-01",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-08-26",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-08-26",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-08-13",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-08-13",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-08-13",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-08-13",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Checking in on the future as Megaworld Corporation brings 6 new hotels into the pipeline",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "MEGAWORLD CORPORATION: Notice of Annual Meeting of Stockholders",
+        "source": "Daily Tribune"
+      },
+      {
+        "title": "Megaworld to add 6 hotels and nearly 2,000 rooms across the Philippines by 2029",
+        "source": "Asia Gaming Brief"
+      },
+      {
+        "title": "Megaworld sets turnover of ₱21-billion residential, commercial properties",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "Megaworld targets nearly 12,000 hotel rooms by 2032",
+        "source": "Daily Tribune"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Megaworld Corporation (MEG)\nSector: Property / Property\nMegaworld Corporation (MEG) was incorporated on August 24, 1989, to engage in real estate development, leasing, and marketing. In 1996, the Company shifted its focus to providing office buildings to support BPO businesses when it began the development of the Eastwood City township. On August 19, 1999, MEG changed its corporate name to the present one to coincide with its conversion from a purely real estate company into a holding company, although the Company continues to focus on real estate development.\n\nMEG's real estate portfolio includes residential condominiums, residential and commercial lots, office buildings, retail spaces, and hotels. The Company has three primary business segments: real estate sales of residential properties; leasing of office spaces, primarily to BPO enterprises, and of retail spaces; and development and operation of hotels through its subsidiaries. Since its incorporation, the Company and its affiliates have launched more than 800 residential buildings, alongside more than 1.5 million square meters of gross leasable office space, over 500,000 square meters of mall retail space, and more than 6,000 hotel room keys across 15 homegrown hotels.\n\nThe Company's subsidiaries and associates include Megaworld Land, Inc.; Richmonde Hotel Group International Limited; Eastwood Cyber One Corporation; Empire East Land Holdings, Inc.; Global-Estate Resorts, Inc.; MREIT, Inc.; Mactan Oceanview Properties and Holdings, Inc.; and Bonifacio West Development Corporation.\n\nSource: SEC Form 17-A (2025)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 5.9%\n- EPS Growth: 7.3%\n- Revenue Growth: 6.5%\n- Net Income Growth: 7.5%\n- FCF Growth: 70.2%\n- Book Value Growth: 8.6%\n- Debt/Equity: 0.31x\n\n## Valuation\n- Current Price: ₱2.18\n- P/E: 3.4x | P/B: 0.3x | PEG: 0.46x | Dividend Yield: 4.3%\n- Sticker Price (Rule #1 fair value): ₱1.19\n- MOS Buy Price (50% margin of safety): ₱0.59\n- Current price is ABOVE MOS by 266.7%\n\n## Recent Disclosures (last 10)\n- 2026-09-15: [Amend-2]Acquisition or Disposition of Assets\n- 2026-09-02: [Amend-1]Acquisition or Disposition of Assets\n- 2026-09-01: Press Release\n- 2026-09-01: Material Information/Transactions\n- 2026-08-26: Press Release\n- 2026-08-26: Material Information/Transactions\n- 2026-08-13: Declaration of Cash Dividends\n- 2026-08-13: Material Information/Transactions\n- 2026-08-13: Press Release\n- 2026-08-13: Material Information/Transactions\n\n## Recent News (last 5)\n- Checking in on the future as Megaworld Corporation brings 6 new hotels into the pipeline (mb.com.ph)\n- MEGAWORLD CORPORATION: Notice of Annual Meeting of Stockholders (Daily Tribune)\n- Megaworld to add 6 hotels and nearly 2,000 rooms across the Philippines by 2029 (Asia Gaming Brief)\n- Megaworld sets turnover of ₱21-billion residential, commercial properties (mb.com.ph)\n- Megaworld targets nearly 12,000 hotel rooms by 2032 (Daily Tribune)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "midcap",
+    "band": "above-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": []
+  }
+}

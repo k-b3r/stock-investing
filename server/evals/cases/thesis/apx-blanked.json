@@ -1,0 +1,106 @@
+{
+  "id": "apx-blanked",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:39.020Z",
+  "context": {
+    "ticker": "APX",
+    "companyName": "Apex Mining Co., Inc.",
+    "sector": "Mining and Oil",
+    "subsector": "Mining",
+    "description": "Apex Mining Company, Inc. (APX) was incorporated on February 26, 1970, primarily to carry on the business of mining, milling, concentrating, converting, smelting, treating, preparing for market, manufacturing, buying, selling, exchanging and otherwise producing and dealing in gold, silver, copper, lead, zinc, brass, iron, steel, and all kinds of ores, metals, and minerals. \n\nIn October 2014, APX acquired 100% ownership of Monte Oro Resources & Energy, Inc. (MOREI), while Prime Strategic Holdings, Inc. and other MOREI shareholders used the proceeds from the sale of their shares in MOREI to subscribe to new APX shares and, in the process, acquire control of APX, diluting the shareholdings of Mindanao Gold Ltd. and Mapula Creek Gold Corporation to a small minority.\n\nAPX operates the Maco Mines in Maco, Davao de Oro, where it produces gold and silver bullions and buttons. The Company has three wholly-owned subsidiaries: Itogon-Suyoc Resources, Inc. (ISRI), MOREI, and Asia Alliance Mining Resources Corporation. ISRI holds the mineral rights to the Sangilo and Suyoc mines in Itogon, Benguet. All production from the Maco and Sangilo mines is sold to Heraeus Ltd., a refining company based in Hong Kong.\n\nSource: SEC Form 17-A (2024)",
+    "roic": null,
+    "epsGrowth": null,
+    "revenueGrowth": 24.03,
+    "netIncomeGrowth": 58.13,
+    "fcfGrowth": 127.90799999999999,
+    "bookValueGrowth": 19.561080793634076,
+    "debtEquity": null,
+    "lastPrice": 17.38,
+    "pe": 12.874074074074073,
+    "pb": 4.2731050082364215,
+    "peg": 0.2033176575185419,
+    "dividendYield": 0.7990794016110473,
+    "stickerPrice": 19.2,
+    "mosPrice": 9.6,
+    "disclosures": [
+      {
+        "date": "2026-05-14",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "[Amend-1]Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-17",
+        "template": "[Amend-1]Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-11-10",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-10-15",
+        "template": "[Amend-1]Material Information/Transactions"
+      },
+      {
+        "date": "2025-10-13",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Apex Mining net income jumps 68% to P5.39B",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "Razon solidifies control over Apex Mining to 67% with ₱1.68-billion share deal",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "Apex Mining Q1 profit surges on pricey gold",
+        "source": "businessmirror.com.ph"
+      },
+      {
+        "title": "Maynilad, Apex Mining added to MSCI Philippines Small Cap Index",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "Apex Mining bucks lower output with 94% profit rise",
+        "source": "Daily Tribune"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Apex Mining Co., Inc. (APX)\nSector: Mining and Oil / Mining\nApex Mining Company, Inc. (APX) was incorporated on February 26, 1970, primarily to carry on the business of mining, milling, concentrating, converting, smelting, treating, preparing for market, manufacturing, buying, selling, exchanging and otherwise producing and dealing in gold, silver, copper, lead, zinc, brass, iron, steel, and all kinds of ores, metals, and minerals. \n\nIn October 2014, APX acquired 100% ownership of Monte Oro Resources & Energy, Inc. (MOREI), while Prime Strategic Holdings, Inc. and other MOREI shareholders used the proceeds from the sale of their shares in MOREI to subscribe to new APX shares and, in the process, acquire control of APX, diluting the shareholdings of Mindanao Gold Ltd. and Mapula Creek Gold Corporation to a small minority.\n\nAPX operates the Maco Mines in Maco, Davao de Oro, where it produces gold and silver bullions and buttons. The Company has three wholly-owned subsidiaries: Itogon-Suyoc Resources, Inc. (ISRI), MOREI, and Asia Alliance Mining Resources Corporation. ISRI holds the mineral rights to the Sangilo and Suyoc mines in Itogon, Benguet. All production from the Maco and Sangilo mines is sold to Heraeus Ltd., a refining company based in Hong Kong.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: N/A%\n- EPS Growth: N/A%\n- Revenue Growth: 24.0%\n- Net Income Growth: 58.1%\n- FCF Growth: 127.9%\n- Book Value Growth: 19.6%\n- Debt/Equity: N/Ax\n\n## Valuation\n- Current Price: ₱17.38\n- P/E: 12.9x | P/B: 4.3x | PEG: 0.20x | Dividend Yield: 0.8%\n- Sticker Price (Rule #1 fair value): ₱19.20\n- MOS Buy Price (50% margin of safety): ₱9.60\n- Current price is ABOVE MOS by 81.0%\n\n## Recent Disclosures (last 10)\n- 2026-05-14: Press Release\n- 2026-03-17: Press Release\n- 2026-03-17: Declaration of Cash Dividends\n- 2026-03-17: [Amend-1]Declaration of Cash Dividends\n- 2026-03-17: Material Information/Transactions\n- 2026-03-17: Declaration of Cash Dividends\n- 2026-03-17: [Amend-1]Declaration of Cash Dividends\n- 2025-11-10: Press Release\n- 2025-10-15: [Amend-1]Material Information/Transactions\n- 2025-10-13: Material Information/Transactions\n\n## Recent News (last 5)\n- Apex Mining net income jumps 68% to P5.39B (business.inquirer.net)\n- Razon solidifies control over Apex Mining to 67% with ₱1.68-billion share deal (mb.com.ph)\n- Apex Mining Q1 profit surges on pricey gold (businessmirror.com.ph)\n- Maynilad, Apex Mining added to MSCI Philippines Small Cap Index (Philstar.com)\n- Apex Mining bucks lower output with 94% profit rise (Daily Tribune)",
+  "expect": {
+    "base": "apx",
+    "tier": "midcap",
+    "kind": "blanked",
+    "band": "mos-to-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "roic",
+      "epsGrowth",
+      "debtEquity"
+    ]
+  }
+}

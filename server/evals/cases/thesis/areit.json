@@ -1,7 +1,7 @@
 {
   "id": "areit",
   "suite": "thesis",
-  "frozenAt": "2026-09-29T06:46:33.238Z",
+  "frozenAt": "2026-09-29T17:22:46.576Z",
   "context": {
     "ticker": "AREIT",
     "companyName": "AREIT, Inc.",
@@ -15,11 +15,11 @@
     "fcfGrowth": 41.790000000000006,
     "bookValueGrowth": 24.88224854955614,
     "debtEquity": 0.0094,
-    "lastPrice": 36.8,
-    "pe": 13.381818181818181,
-    "pb": 1.0099263686835005,
-    "peg": 0.7664271581797354,
-    "dividendYield": 6.440217391304348,
+    "lastPrice": 37.5,
+    "pe": 13.636363636363637,
+    "pb": 1.0291369246095454,
+    "peg": 0.7810059356451109,
+    "dividendYield": 6.32,
     "stickerPrice": 45.2,
     "mosPrice": 22.6,
     "disclosures": [
@@ -67,7 +67,7 @@
     "news": [
       {
         "title": "AREIT shareholders approve P17.3-B swap",
-        "source": "Inquirer.net"
+        "source": "business.inquirer.net"
       },
       {
         "title": "Rising Philippine bond yields eclipses REITs’ story",
@@ -79,13 +79,24 @@
       },
       {
         "title": "AREIT to acquire Fairmont Raffles, major malls in ₱20-billion property swap",
-        "source": "Manila Bulletin"
+        "source": "mb.com.ph"
       },
       {
         "title": "AREIT Forecast — Price Target — Prediction for 2027",
-        "source": "tradingview.com"
+        "source": "TradingView"
       }
     ]
   },
-  "dataBlock": "## Company: AREIT, Inc. (AREIT)\nSector: Property / Property\nAREIT, Inc. (AREIT) was incorporated on September 4, 2006, as a real estate company. The Company was originally known as One Dela Rosa Property Development, Inc. before changing its name to the present one on June 28, 2019.\n\nAREIT is a commercial Real Estate Investment Trust, sponsored by Ayala Land, Inc. and specializes in owning and investing in a portfolio of income-generating commercial assets, including offices, malls, hotels, and industrial land across the nation. \n\nAs of December 31, 2024, AREIT's investment properties consist of 18 stand-alone buildings, six mixed-use properties, six condominium office units, and 285.73 hectares of land. The land on which the buildings are built does not form part of the Company's asset portfolio and is not owned by the Company.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 5.9%\n- EPS Growth: 17.5%\n- Revenue Growth: 43.1%\n- Net Income Growth: 50.7%\n- FCF Growth: 41.8%\n- Book Value Growth: 24.9%\n- Debt/Equity: 0.01x\n\n## Valuation\n- Current Price: ₱36.80\n- P/E: 13.4x | P/B: 1.0x | PEG: 0.77x | Dividend Yield: 6.4%\n- Sticker Price (Rule #1 fair value): ₱45.20\n- MOS Buy Price (50% margin of safety): ₱22.60\n- Current price is ABOVE MOS by 62.8%\n\n## Recent Disclosures (last 10)\n- 2026-06-26: [Amend-1]Acquisition or Disposition of Assets\n- 2026-05-22: [Amend-1]Declaration of Cash Dividends\n- 2026-05-13: Press Release\n- 2026-05-13: Declaration of Cash Dividends\n- 2026-05-13: Material Information/Transactions\n- 2026-04-24: Clarification of News Reports\n- 2026-03-18: [Amend-1]Declaration of Cash Dividends\n- 2026-02-27: Material Information/Transactions\n- 2026-02-19: Material Information/Transactions\n- 2026-02-19: Declaration of Cash Dividends\n\n## Recent News (last 5)\n- AREIT shareholders approve P17.3-B swap (Inquirer.net)\n- Rising Philippine bond yields eclipses REITs’ story (Metrobank Wealth Insights)\n- AREIT adds P17.3B in Ayala malls, hotels in share swap (Daily Tribune)\n- AREIT to acquire Fairmont Raffles, major malls in ₱20-billion property swap (Manila Bulletin)\n- AREIT Forecast — Price Target — Prediction for 2027 (tradingview.com)"
+  "dataBlock": "## Company: AREIT, Inc. (AREIT)\nSector: Property / Property\nAREIT, Inc. (AREIT) was incorporated on September 4, 2006, as a real estate company. The Company was originally known as One Dela Rosa Property Development, Inc. before changing its name to the present one on June 28, 2019.\n\nAREIT is a commercial Real Estate Investment Trust, sponsored by Ayala Land, Inc. and specializes in owning and investing in a portfolio of income-generating commercial assets, including offices, malls, hotels, and industrial land across the nation. \n\nAs of December 31, 2024, AREIT's investment properties consist of 18 stand-alone buildings, six mixed-use properties, six condominium office units, and 285.73 hectares of land. The land on which the buildings are built does not form part of the Company's asset portfolio and is not owned by the Company.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 5.9%\n- EPS Growth: 17.5%\n- Revenue Growth: 43.1%\n- Net Income Growth: 50.7%\n- FCF Growth: 41.8%\n- Book Value Growth: 24.9%\n- Debt/Equity: 0.01x\n\n## Valuation\n- Current Price: ₱37.50\n- P/E: 13.6x | P/B: 1.0x | PEG: 0.78x | Dividend Yield: 6.3%\n- Sticker Price (Rule #1 fair value): ₱45.20\n- MOS Buy Price (50% margin of safety): ₱22.60\n- Current price is ABOVE MOS by 65.9%\n\n## Recent Disclosures (last 10)\n- 2026-06-26: [Amend-1]Acquisition or Disposition of Assets\n- 2026-05-22: [Amend-1]Declaration of Cash Dividends\n- 2026-05-13: Press Release\n- 2026-05-13: Declaration of Cash Dividends\n- 2026-05-13: Material Information/Transactions\n- 2026-04-24: Clarification of News Reports\n- 2026-03-18: [Amend-1]Declaration of Cash Dividends\n- 2026-02-27: Material Information/Transactions\n- 2026-02-19: Material Information/Transactions\n- 2026-02-19: Declaration of Cash Dividends\n\n## Recent News (last 5)\n- AREIT shareholders approve P17.3-B swap (business.inquirer.net)\n- Rising Philippine bond yields eclipses REITs’ story (Metrobank Wealth Insights)\n- AREIT adds P17.3B in Ayala malls, hotels in share swap (Daily Tribune)\n- AREIT to acquire Fairmont Raffles, major malls in ₱20-billion property swap (mb.com.ph)\n- AREIT Forecast — Price Target — Prediction for 2027 (TradingView)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "psei",
+    "band": "mos-to-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": []
+  }
 }

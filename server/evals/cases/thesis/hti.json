@@ -1,0 +1,106 @@
+{
+  "id": "hti",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:47.078Z",
+  "context": {
+    "ticker": "HTI",
+    "companyName": "Haus Talk, Inc.",
+    "sector": "Small, Medium & Emerging Board",
+    "subsector": "Small, Medium & Emerging Board",
+    "description": "Haus Talk, Inc. (HTI) was registered with the Securities and Exchange Commission originally as Haus Talk Project Managers, Inc. The Company's primary purpose is to acquire land, engage in land and housing development, and participate in the government's mass housing program. The Company adopted its present name on June 7, 2017.\n\nHTI primarily develops horizontal and vertical residential projects in select cities of Metro Manila as well as in Rizal, Laguna, and Cavite provinces.\n\nThe Company's subsidiaries include Traditional Homes, Inc. and Lifestyle Development Corporation.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 7.66,
+    "epsGrowth": 206.28000000000003,
+    "revenueGrowth": null,
+    "netIncomeGrowth": null,
+    "fcfGrowth": null,
+    "bookValueGrowth": 7.795870010797312,
+    "debtEquity": 0.2552,
+    "lastPrice": 1.42,
+    "pe": 9.677968989606406,
+    "pb": 0.9333508610490336,
+    "peg": 0.04691666176850109,
+    "dividendYield": 1.4084507042253522,
+    "stickerPrice": 1.5,
+    "mosPrice": 0.75,
+    "disclosures": [
+      {
+        "date": "2026-06-01",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-04-14",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-16",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-10",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-02",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-26",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-01-19",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-12-23",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-10-15",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-10-15",
+        "template": "Material Information/Transactions"
+      }
+    ],
+    "news": [
+      {
+        "title": "Haus Talk raises P1.8B from bond offer",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "Haus Talk investing P4.2 billion for 37-hectare Rizal township",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "Strong demand lifts Haus Talk bond sale to ₱1.8B",
+        "source": "businessmirror.com.ph"
+      },
+      {
+        "title": "Haus Talk's bond offering raises ₱1.8 billion for Luzon expansion",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "Haus Talk bond sale climbs to P1.8B on strong investor demand",
+        "source": "InsiderPH"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Haus Talk, Inc. (HTI)\nSector: Small, Medium & Emerging Board / Small, Medium & Emerging Board\nHaus Talk, Inc. (HTI) was registered with the Securities and Exchange Commission originally as Haus Talk Project Managers, Inc. The Company's primary purpose is to acquire land, engage in land and housing development, and participate in the government's mass housing program. The Company adopted its present name on June 7, 2017.\n\nHTI primarily develops horizontal and vertical residential projects in select cities of Metro Manila as well as in Rizal, Laguna, and Cavite provinces.\n\nThe Company's subsidiaries include Traditional Homes, Inc. and Lifestyle Development Corporation.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 7.7%\n- EPS Growth: 206.3%\n- Revenue Growth: N/A%\n- Net Income Growth: N/A%\n- FCF Growth: N/A%\n- Book Value Growth: 7.8%\n- Debt/Equity: 0.26x\n\n## Valuation\n- Current Price: ₱1.42\n- P/E: 9.7x | P/B: 0.9x | PEG: 0.05x | Dividend Yield: 1.4%\n- Sticker Price (Rule #1 fair value): ₱1.50\n- MOS Buy Price (50% margin of safety): ₱0.75\n- Current price is ABOVE MOS by 89.3%\n\n## Recent Disclosures (last 10)\n- 2026-06-01: Material Information/Transactions\n- 2026-04-14: Material Information/Transactions\n- 2026-03-16: Press Release\n- 2026-03-10: Material Information/Transactions\n- 2026-03-02: Material Information/Transactions\n- 2026-02-26: Material Information/Transactions\n- 2026-01-19: Material Information/Transactions\n- 2025-12-23: Material Information/Transactions\n- 2025-10-15: Declaration of Cash Dividends\n- 2025-10-15: Material Information/Transactions\n\n## Recent News (last 5)\n- Haus Talk raises P1.8B from bond offer (business.inquirer.net)\n- Haus Talk investing P4.2 billion for 37-hectare Rizal township (Philstar.com)\n- Strong demand lifts Haus Talk bond sale to ₱1.8B (businessmirror.com.ph)\n- Haus Talk's bond offering raises ₱1.8 billion for Luzon expansion (mb.com.ph)\n- Haus Talk bond sale climbs to P1.8B on strong investor demand (InsiderPH)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "smallcap",
+    "band": "mos-to-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "revenueGrowth",
+      "netIncomeGrowth",
+      "fcfGrowth"
+    ]
+  }
+}

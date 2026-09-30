@@ -1,0 +1,105 @@
+{
+  "id": "sti",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:37.479Z",
+  "context": {
+    "ticker": "STI",
+    "companyName": "STI Education Systems Holdings, Inc.",
+    "sector": "Services",
+    "subsector": "Education",
+    "description": "STI Education Systems Holdings, Inc. (STI), formerly JTH Davies Holdings, Inc., was originally established in 1928 as the Philippine branch office of Theo H. Davies & Co., a Hawaiian corporation. The Company was reincorporated as a Philippine corporation registered with the Securities and Exchange Commission (SEC) on June 28, 1946. After many years of operations as part of the Jardine-Matheson group, STI was sold to local Philippine investors in 2006. In March 2010, the Company became part of the Tanco Group of Companies. On September 10, 2012, the SEC approved the change in name to the present one.\n\nSTI is the holding company within the Tanco Group that derives investment in its education business. The Company's subsidiaries are STI Education Services Group, Inc. (STI ESG); STI West Negros University, Inc.; iACADEMY, Inc.; and Attenborough Holdings Corporation. STI ESG has a total of 63 schools nationwide.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 16.150000000000002,
+    "epsGrowth": null,
+    "revenueGrowth": null,
+    "netIncomeGrowth": null,
+    "fcfGrowth": 51.8875,
+    "bookValueGrowth": 4.604280729383325,
+    "debtEquity": 0.1888,
+    "lastPrice": 1.28,
+    "pe": 5.818181818181818,
+    "pb": 1.0769877997475812,
+    "peg": null,
+    "dividendYield": 3.515625,
+    "stickerPrice": null,
+    "mosPrice": null,
+    "disclosures": [
+      {
+        "date": "2026-05-25",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-04",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-12-14",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-11-24",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-11-05",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-10-24",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2025-05-22",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-04-08",
+        "template": "Clarification of News Reports"
+      },
+      {
+        "date": "2025-02-24",
+        "template": "Clarification of News Reports"
+      }
+    ],
+    "news": [
+      {
+        "title": "STI June to December 2025 earnings up 18%",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "STI profit improves in 9 months",
+        "source": "Philstar.com"
+      },
+      {
+        "title": "STI earnings rise despite enrollment dip",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "STI Education Systems Holdings, Inc. 2025 Notice Of Annual Stockholders’ Meeting",
+        "source": "OneNews.PH"
+      },
+      {
+        "title": "STI nets P2.22 billion as enrollment hits all-time high",
+        "source": "GMA Network"
+      }
+    ]
+  },
+  "dataBlock": "## Company: STI Education Systems Holdings, Inc. (STI)\nSector: Services / Education\nSTI Education Systems Holdings, Inc. (STI), formerly JTH Davies Holdings, Inc., was originally established in 1928 as the Philippine branch office of Theo H. Davies & Co., a Hawaiian corporation. The Company was reincorporated as a Philippine corporation registered with the Securities and Exchange Commission (SEC) on June 28, 1946. After many years of operations as part of the Jardine-Matheson group, STI was sold to local Philippine investors in 2006. In March 2010, the Company became part of the Tanco Group of Companies. On September 10, 2012, the SEC approved the change in name to the present one.\n\nSTI is the holding company within the Tanco Group that derives investment in its education business. The Company's subsidiaries are STI Education Services Group, Inc. (STI ESG); STI West Negros University, Inc.; iACADEMY, Inc.; and Attenborough Holdings Corporation. STI ESG has a total of 63 schools nationwide.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 16.2%\n- EPS Growth: N/A%\n- Revenue Growth: N/A%\n- Net Income Growth: N/A%\n- FCF Growth: 51.9%\n- Book Value Growth: 4.6%\n- Debt/Equity: 0.19x\n\n## Valuation\n- Current Price: ₱1.28\n- P/E: 5.8x | P/B: 1.1x | PEG: N/Ax | Dividend Yield: 3.5%\n- Sticker Price (Rule #1 fair value): ₱N/A\n- MOS Buy Price (50% margin of safety): ₱N/A\n- Current price is N/A\n\n## Recent Disclosures (last 9)\n- 2026-05-25: Press Release\n- 2026-03-04: Press Release\n- 2025-12-14: Declaration of Cash Dividends\n- 2025-11-24: Press Release\n- 2025-11-05: Press Release\n- 2025-10-24: Material Information/Transactions\n- 2025-05-22: Press Release\n- 2025-04-08: Clarification of News Reports\n- 2025-02-24: Clarification of News Reports\n\n## Recent News (last 5)\n- STI June to December 2025 earnings up 18% (business.inquirer.net)\n- STI profit improves in 9 months (Philstar.com)\n- STI earnings rise despite enrollment dip (mb.com.ph)\n- STI Education Systems Holdings, Inc. 2025 Notice Of Annual Stockholders’ Meeting (OneNews.PH)\n- STI nets P2.22 billion as enrollment hits all-time high (GMA Network)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "smallcap",
+    "band": "no-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "epsGrowth",
+      "revenueGrowth",
+      "netIncomeGrowth",
+      "peg",
+      "stickerPrice",
+      "mosPrice"
+    ]
+  }
+}

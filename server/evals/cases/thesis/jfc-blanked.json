@@ -1,0 +1,83 @@
+{
+  "id": "jfc-blanked",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:40.708Z",
+  "context": {
+    "ticker": "JFC",
+    "companyName": "Jollibee Foods Corporation",
+    "sector": "Industrial",
+    "subsector": "Food, Beverage & Tobacco",
+    "description": "Jollibee Foods Corporation (JFC) was incorporated on January 11, 1978. The Company's principal business is the development, operation and franchising of quick service restaurants (QSRs) under the trade names \"Jollibee\", \"Chowking\", \"Greenwich\", \"Red Ribbon\", \"Yong He King\", \"Hong Zhuang Yuan\", \"Mang Inasal\", \"Highlands Coffee\", \"Smashburger\", \"The Coffee Bean & Tea Leaf\", \"Milksha\", \"Tim Ho Wan\", \"Tortazo\", \"Burger King\", \"Panda Express\", \"Yoshinoya\", \"Common Man Coffee Roasters\", \"Tiong Bahru Bakery\" and \"Compose Coffee\".  The other activities of JFC include manufacturing and property leasing in support of the QSR systems and other business activities.\n\nAside from the subsidiaries that develop and operate the Company's QSR trade names, JFC wholly owns Freemont Foods Corporation, which owns and operates Jollibee stores in Visayas and Mindanao, and Grandworth Resources Corporation, a real estate company which owns or leases some of the properties used as store sites.\n\nBy the end of 2024, there were 1,279 Jollibee stores nationwide, of which 840 were franchised and 439 were Company-owned. On international operations, Jollibee had 480 stores, of which 122 were franchised and 358 were company-owned with specific locations as follows: 75 in the US, 28 in Canada, two in Italy, 12 in the United Kingdom, one in Spain, 60 in the Middle East, 21 in Brunei, 22 in Singapore, 20 in Malaysia, two in Guam, 20 in Hong Kong, four in Macau, and 213 in Vietnam.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 7.68,
+    "epsGrowth": 5.94,
+    "revenueGrowth": 11.700000000000001,
+    "netIncomeGrowth": 8.23,
+    "fcfGrowth": 22.4,
+    "bookValueGrowth": 7.431466666680331,
+    "debtEquity": 1.6982,
+    "lastPrice": 140.1,
+    "pe": null,
+    "pb": null,
+    "peg": null,
+    "dividendYield": null,
+    "stickerPrice": 46.28391249733209,
+    "mosPrice": 23.141956248666045,
+    "disclosures": [
+      {
+        "date": "2026-06-26",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-06-24",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-06-17",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-06-08",
+        "template": "Clarification of News Reports"
+      }
+    ],
+    "news": [
+      {
+        "title": "Jollibee Group, Cebu City Bring Inclusive Jobs Program to Visayas",
+        "source": "Jollibee Group"
+      },
+      {
+        "title": "How Philippines’ Jollibee has rewritten what it takes to thrive in Singapore’s tough fast-food market",
+        "source": "Singapore Economic Development Board (EDB)"
+      },
+      {
+        "title": "Jollibee Group to sell 11% Highlands Coffee stake to VTI to optimise ownership",
+        "source": "marketech apac"
+      },
+      {
+        "title": "Jollibee proceeds with Hong Kong listing",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "JFC Advances Planned Spinoff of International Business; Selects Hong Kong for Proposed Listing and Names JFCI CEO",
+        "source": "Jollibee Group"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Jollibee Foods Corporation (JFC)\nSector: Industrial / Food, Beverage & Tobacco\nJollibee Foods Corporation (JFC) was incorporated on January 11, 1978. The Company's principal business is the development, operation and franchising of quick service restaurants (QSRs) under the trade names \"Jollibee\", \"Chowking\", \"Greenwich\", \"Red Ribbon\", \"Yong He King\", \"Hong Zhuang Yuan\", \"Mang Inasal\", \"Highlands Coffee\", \"Smashburger\", \"The Coffee Bean & Tea Leaf\", \"Milksha\", \"Tim Ho Wan\", \"Tortazo\", \"Burger King\", \"Panda Express\", \"Yoshinoya\", \"Common Man Coffee Roasters\", \"Tiong Bahru Bakery\" and \"Compose Coffee\".  The other activities of JFC include manufacturing and property leasing in support of the QSR systems and other business activities.\n\nAside from the subsidiaries that develop and operate the Company's QSR trade names, JFC wholly owns Freemont Foods Corporation, which owns and operates Jollibee stores in Visayas and Mindanao, and Grandworth Resources Corporation, a real estate company which owns or leases some of the properties used as store sites.\n\nBy the end of 2024, there were 1,279 Jollibee stores nationwide, of which 840 were franchised and 439 were Company-owned. On international operations, Jollibee had 480 stores, of which 122 were franchised and 358 were company-owned with specific locations as follows: 75 in the US, 28 in Canada, two in Italy, 12 in the United Kingdom, one in Spain, 60 in the Middle East, 21 in Brunei, 22 in Singapore, 20 in Malaysia, two in Guam, 20 in Hong Kong, four in Macau, and 213 in Vietnam.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 7.7%\n- EPS Growth: 5.9%\n- Revenue Growth: 11.7%\n- Net Income Growth: 8.2%\n- FCF Growth: 22.4%\n- Book Value Growth: 7.4%\n- Debt/Equity: 1.70x\n\n## Valuation\n- Current Price: ₱140.10\n- P/E: N/Ax | P/B: N/Ax | PEG: N/Ax | Dividend Yield: N/A%\n- Sticker Price (Rule #1 fair value): ₱46.28\n- MOS Buy Price (50% margin of safety): ₱23.14\n- Current price is ABOVE MOS by 505.4%\n\n## Recent Disclosures (last 4)\n- 2026-06-26: Press Release\n- 2026-06-24: Press Release\n- 2026-06-17: Declaration of Cash Dividends\n- 2026-06-08: Clarification of News Reports\n\n## Recent News (last 5)\n- Jollibee Group, Cebu City Bring Inclusive Jobs Program to Visayas (Jollibee Group)\n- How Philippines’ Jollibee has rewritten what it takes to thrive in Singapore’s tough fast-food market (Singapore Economic Development Board (EDB))\n- Jollibee Group to sell 11% Highlands Coffee stake to VTI to optimise ownership (marketech apac)\n- Jollibee proceeds with Hong Kong listing (business.inquirer.net)\n- JFC Advances Planned Spinoff of International Business; Selects Hong Kong for Proposed Listing and Names JFCI CEO (Jollibee Group)",
+  "expect": {
+    "base": "jfc",
+    "tier": "psei",
+    "kind": "blanked",
+    "band": "above-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "pe",
+      "pb",
+      "peg",
+      "dividendYield"
+    ]
+  }
+}

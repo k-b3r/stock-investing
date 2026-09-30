@@ -1,0 +1,102 @@
+{
+  "id": "ac",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:38.341Z",
+  "context": {
+    "ticker": "AC",
+    "companyName": "Ayala Corporation",
+    "sector": "Holding Firms",
+    "subsector": "Holding Firms",
+    "description": "Ayala Corporation (AC) was founded in 1834, incorporated on January 23, 1968, and was listed on the Philippine Stock Exchange in 1976.\n\nAC is the holding company of the Ayala Group of Companies, with principal business interests in real estate and hotels, financial services, telecommunications, power, healthcare, logistics, industrial technologies and automotives, infrastructure, education, technology services, business process outsourcing, air charter, consulting services, and investment holdings.\n\nThe significant subsidiaries of AC as of December 31, 2025, are Ayala Land, Inc., Bank of the Philippine Islands, AC Energy and Infrastructure Corporation, and Globe Telecom, Inc.\n\nSource: SEC Form 17-A (2025)",
+    "roic": 7.5,
+    "epsGrowth": 10.99,
+    "revenueGrowth": 6.52,
+    "netIncomeGrowth": 10.67,
+    "fcfGrowth": 102.39500000000001,
+    "bookValueGrowth": 9.360015706119151,
+    "debtEquity": 1.1992,
+    "lastPrice": 490,
+    "pe": 5.167686142164101,
+    "pb": 1.0136142879070023,
+    "peg": 0.4702171193961875,
+    "dividendYield": 1.879591836734694,
+    "stickerPrice": 420.73763440300377,
+    "mosPrice": 210.36881720150188,
+    "disclosures": [
+      {
+        "date": "2026-09-25",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-09-24",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-09-22",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-09-21",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-09-21",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-09-21",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-09-20",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-09-18",
+        "template": "[Amend-3]Material Information/Transactions"
+      },
+      {
+        "date": "2026-09-16",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-09-16",
+        "template": "Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "Japanese trading giant Mitsubishi Corporation has agreed to invest P44.5 billion to significantly expand its stake in Ayala Corporation, deepening a half-century alliance with one of the Philippines' oldest and largest conglomerates, the companies announced.",
+        "source": "facebook.com"
+      },
+      {
+        "title": "Japan’s Mitsubishi drops ₱44.5 billion on Ayala",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "Ayala Corporation: Thriving over seven generations",
+        "source": "McKinsey &amp; Company"
+      },
+      {
+        "title": "First Lady, Ayala execs discuss plans to boost PH creative industry",
+        "source": "Philippine News Agency"
+      },
+      {
+        "title": "Mitsubishi Raises Ayala Stake to 15% in P44.5-Billion Deal",
+        "source": "The Business Manual"
+      }
+    ]
+  },
+  "dataBlock": "## Company: Ayala Corporation (AC)\nSector: Holding Firms / Holding Firms\nAyala Corporation (AC) was founded in 1834, incorporated on January 23, 1968, and was listed on the Philippine Stock Exchange in 1976.\n\nAC is the holding company of the Ayala Group of Companies, with principal business interests in real estate and hotels, financial services, telecommunications, power, healthcare, logistics, industrial technologies and automotives, infrastructure, education, technology services, business process outsourcing, air charter, consulting services, and investment holdings.\n\nThe significant subsidiaries of AC as of December 31, 2025, are Ayala Land, Inc., Bank of the Philippine Islands, AC Energy and Infrastructure Corporation, and Globe Telecom, Inc.\n\nSource: SEC Form 17-A (2025)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 7.5%\n- EPS Growth: 11.0%\n- Revenue Growth: 6.5%\n- Net Income Growth: 10.7%\n- FCF Growth: 102.4%\n- Book Value Growth: 9.4%\n- Debt/Equity: 1.20x\n\n## Valuation\n- Current Price: ₱490.00\n- P/E: 5.2x | P/B: 1.0x | PEG: 0.47x | Dividend Yield: 1.9%\n- Sticker Price (Rule #1 fair value): ₱420.74\n- MOS Buy Price (50% margin of safety): ₱210.37\n- Current price is ABOVE MOS by 132.9%\n\n## Recent Disclosures (last 10)\n- 2026-09-25: Press Release\n- 2026-09-24: Press Release\n- 2026-09-22: Press Release\n- 2026-09-21: Material Information/Transactions\n- 2026-09-21: Press Release\n- 2026-09-21: Material Information/Transactions\n- 2026-09-20: Press Release\n- 2026-09-18: [Amend-3]Material Information/Transactions\n- 2026-09-16: Declaration of Cash Dividends\n- 2026-09-16: Press Release\n\n## Recent News (last 5)\n- Japanese trading giant Mitsubishi Corporation has agreed to invest P44.5 billion to significantly expand its stake in Ayala Corporation, deepening a half-century alliance with one of the Philippines' oldest and largest conglomerates, the companies announced. (facebook.com)\n- Japan’s Mitsubishi drops ₱44.5 billion on Ayala (mb.com.ph)\n- Ayala Corporation: Thriving over seven generations (McKinsey &amp; Company)\n- First Lady, Ayala execs discuss plans to boost PH creative industry (Philippine News Agency)\n- Mitsubishi Raises Ayala Stake to 15% in P44.5-Billion Deal (The Business Manual)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "psei",
+    "band": "above-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": []
+  }
+}

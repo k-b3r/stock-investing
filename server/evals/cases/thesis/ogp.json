@@ -1,0 +1,104 @@
+{
+  "id": "ogp",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:42.327Z",
+  "context": {
+    "ticker": "OGP",
+    "companyName": "OceanaGold (Philippines), Inc.",
+    "sector": "Mining and Oil",
+    "subsector": "Mining",
+    "description": "OceanaGold (Philippines), Inc. (OGP) is a producer of gold and copper in the Philippines, and is a subsidiary of OceanaGold Corporation, a multinational gold mining and exploration company that has been listed on the Toronto Stock Exchange since June 27, 2007.\n\nOGP operates the Didipio gold and copper mine located in the northern Luzon region of the Philippines. The Didipio Mine is operated by OGP under a Financial or Technical Assistance Agreement (FTAA) with the Government, which grants the Company title, exploration, and mining rights within a fixed fiscal regime. The FTAA was executed in 1994 and was renewed on July 14, 2021, for an additional 25-year period commencing on June 19, 2019.\n\nPursuant to the FTAA, the Government and the Company share in the net revenue arising from the operations of the Didipio mine on a 60-40 basis. Hence, the Government receives 60% of the net revenue (less costs, taxes, duties, fees, and other expenses paid or accrued by the Company) while the Company takes the remaining 40%. In September 2024, the Company obtained approval for a five-year extension of the exploration period under the FTAA from 2024 to 2029.\n\nThe mining operations at the Didipio Mine currently consist of sourcing ore from the underground mine and from its surface ore stockpile. The ore is then processed through the Company's processing plant, which operates at approximately 4.1 Mtpa producing both gold doré and copper concentrate.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 13.819999999999999,
+    "epsGrowth": 7.61,
+    "revenueGrowth": 12.44,
+    "netIncomeGrowth": 11.700000000000001,
+    "fcfGrowth": 11.11,
+    "bookValueGrowth": -7.591110298630244,
+    "debtEquity": null,
+    "lastPrice": 34.5,
+    "pe": 18.40005858578654,
+    "pb": 0.038999975806922195,
+    "peg": 2.417878920602699,
+    "dividendYield": 7.699250847826088,
+    "stickerPrice": 14.687992839061522,
+    "mosPrice": 7.343996419530761,
+    "disclosures": [
+      {
+        "date": "2026-07-10",
+        "template": "Clarification of News Reports"
+      },
+      {
+        "date": "2026-05-07",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-06",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-30",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-30",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-20",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-02-19",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-02-18",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2025-11-14",
+        "template": "Press Release"
+      },
+      {
+        "date": "2025-11-06",
+        "template": "Press Release"
+      }
+    ],
+    "news": [
+      {
+        "title": "OceanaGold Philippines, Inc. Revenue Breakdown – PSE:OGP",
+        "source": "TradingView"
+      },
+      {
+        "title": "OceanaGold Q1 profit soars 370% on record gold prices",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "Gold Price Reversal Puts OceanaGold Philippines’ Didipio Margin Above $3,460 an Ounce",
+        "source": "TechStock²"
+      },
+      {
+        "title": "OceanaGold Philippines profit more than doubles on higher gold prices",
+        "source": "BusinessWorld"
+      },
+      {
+        "title": "Proving sustainable mining is both possible, profitable",
+        "source": "mb.com.ph"
+      }
+    ]
+  },
+  "dataBlock": "## Company: OceanaGold (Philippines), Inc. (OGP)\nSector: Mining and Oil / Mining\nOceanaGold (Philippines), Inc. (OGP) is a producer of gold and copper in the Philippines, and is a subsidiary of OceanaGold Corporation, a multinational gold mining and exploration company that has been listed on the Toronto Stock Exchange since June 27, 2007.\n\nOGP operates the Didipio gold and copper mine located in the northern Luzon region of the Philippines. The Didipio Mine is operated by OGP under a Financial or Technical Assistance Agreement (FTAA) with the Government, which grants the Company title, exploration, and mining rights within a fixed fiscal regime. The FTAA was executed in 1994 and was renewed on July 14, 2021, for an additional 25-year period commencing on June 19, 2019.\n\nPursuant to the FTAA, the Government and the Company share in the net revenue arising from the operations of the Didipio mine on a 60-40 basis. Hence, the Government receives 60% of the net revenue (less costs, taxes, duties, fees, and other expenses paid or accrued by the Company) while the Company takes the remaining 40%. In September 2024, the Company obtained approval for a five-year extension of the exploration period under the FTAA from 2024 to 2029.\n\nThe mining operations at the Didipio Mine currently consist of sourcing ore from the underground mine and from its surface ore stockpile. The ore is then processed through the Company's processing plant, which operates at approximately 4.1 Mtpa producing both gold doré and copper concentrate.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 13.8%\n- EPS Growth: 7.6%\n- Revenue Growth: 12.4%\n- Net Income Growth: 11.7%\n- FCF Growth: 11.1%\n- Book Value Growth: -7.6%\n- Debt/Equity: N/Ax\n\n## Valuation\n- Current Price: ₱34.50\n- P/E: 18.4x | P/B: 0.0x | PEG: 2.42x | Dividend Yield: 7.7%\n- Sticker Price (Rule #1 fair value): ₱14.69\n- MOS Buy Price (50% margin of safety): ₱7.34\n- Current price is ABOVE MOS by 369.8%\n\n## Recent Disclosures (last 10)\n- 2026-07-10: Clarification of News Reports\n- 2026-05-07: Press Release\n- 2026-05-06: Declaration of Cash Dividends\n- 2026-03-30: Press Release\n- 2026-03-30: Material Information/Transactions\n- 2026-02-20: Material Information/Transactions\n- 2026-02-19: Press Release\n- 2026-02-18: Declaration of Cash Dividends\n- 2025-11-14: Press Release\n- 2025-11-06: Press Release\n\n## Recent News (last 5)\n- OceanaGold Philippines, Inc. Revenue Breakdown – PSE:OGP (TradingView)\n- OceanaGold Q1 profit soars 370% on record gold prices (business.inquirer.net)\n- Gold Price Reversal Puts OceanaGold Philippines’ Didipio Margin Above $3,460 an Ounce (TechStock²)\n- OceanaGold Philippines profit more than doubles on higher gold prices (BusinessWorld)\n- Proving sustainable mining is both possible, profitable (mb.com.ph)",
+  "expect": {
+    "kind": "real",
+    "base": null,
+    "tier": "midcap",
+    "band": "above-sticker",
+    "allowedVerdicts": [
+      "watch",
+      "pass"
+    ],
+    "missingFields": [
+      "debtEquity"
+    ]
+  }
+}

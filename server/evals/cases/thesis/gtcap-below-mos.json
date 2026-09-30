@@ -1,0 +1,99 @@
+{
+  "id": "gtcap-below-mos",
+  "suite": "thesis",
+  "frozenAt": "2026-09-29T17:22:39.739Z",
+  "context": {
+    "ticker": "GTCAP",
+    "companyName": "GT Capital Holdings, Inc.",
+    "sector": "Holding Firms",
+    "subsector": "Holding Firms",
+    "description": "GT Capital Holdings, Inc. (GTCAP) was incorporated on July 26, 2007 as a holding company. GTCAP is the primary vehicle for the holding and management of the diversified business interests of the Ty family in the Philippines. The Company holds interests in banking; automotive assembly, importation, distribution, dealership, and financing; property development; life and non-life insurance; and infrastructure and utilities.\n\nGTCAP's subsidiaries are Federal Land, Inc.; Toyota Motor Philippines Corporation; and GT Capital Auto and Mobility Holdings, Inc. The Company also has significant shareholdings in Metropolitan Bank & Trust Company; Metro Pacific Investments Corporation; AXA Philippines Life and General Insurance Corporation; Toyota Financial Services Philippines Corporation; and Sumisho Motor Finance Corporation.\n\nSource: SEC Form 17-A (2024)",
+    "roic": 9.47,
+    "epsGrowth": 9.59,
+    "revenueGrowth": 7.57,
+    "netIncomeGrowth": 10.76,
+    "fcfGrowth": 262.34749999999997,
+    "bookValueGrowth": 10.397751191231986,
+    "debtEquity": 0.2492,
+    "lastPrice": 198.17,
+    "pe": 1.280829886246122,
+    "pb": 0.14774688424582957,
+    "peg": 0.13355890367529946,
+    "dividendYield": 4.036937982540244,
+    "stickerPrice": 440.3727077983406,
+    "mosPrice": 220.1863538991703,
+    "disclosures": [
+      {
+        "date": "2026-05-14",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-05-11",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-31",
+        "template": "Acquisition or Disposition of Shares of Another Corporation"
+      },
+      {
+        "date": "2026-03-30",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-30",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-25",
+        "template": "Press Release"
+      },
+      {
+        "date": "2026-03-23",
+        "template": "Material Information/Transactions"
+      },
+      {
+        "date": "2026-03-23",
+        "template": "Declaration of Cash Dividends"
+      },
+      {
+        "date": "2026-03-23",
+        "template": "Declaration of Cash Dividends"
+      }
+    ],
+    "news": [
+      {
+        "title": "Beyond mobility: How the Tamaraw creates value across the GT Capital Ecosystem",
+        "source": "Philstar Life"
+      },
+      {
+        "title": "GT Capital earns ‘A-’ credit rating from JCR",
+        "source": "business.inquirer.net"
+      },
+      {
+        "title": "GTPPA Bond Profile: Coupon and Redemption",
+        "source": "TradingView"
+      },
+      {
+        "title": "High oil prices hit Toyota demand, dragging GT Capital net profit down 11%",
+        "source": "mb.com.ph"
+      },
+      {
+        "title": "GT Capital nets P16.4 billion in January-June",
+        "source": "Philstar.com"
+      }
+    ]
+  },
+  "dataBlock": "## Company: GT Capital Holdings, Inc. (GTCAP)\nSector: Holding Firms / Holding Firms\nGT Capital Holdings, Inc. (GTCAP) was incorporated on July 26, 2007 as a holding company. GTCAP is the primary vehicle for the holding and management of the diversified business interests of the Ty family in the Philippines. The Company holds interests in banking; automotive assembly, importation, distribution, dealership, and financing; property development; life and non-life insurance; and infrastructure and utilities.\n\nGTCAP's subsidiaries are Federal Land, Inc.; Toyota Motor Philippines Corporation; and GT Capital Auto and Mobility Holdings, Inc. The Company also has significant shareholdings in Metropolitan Bank & Trust Company; Metro Pacific Investments Corporation; AXA Philippines Life and General Insurance Corporation; Toyota Financial Services Philippines Corporation; and Sumisho Motor Finance Corporation.\n\nSource: SEC Form 17-A (2024)\n\n## Key Metrics (10-year averages where available)\n- ROIC: 9.5%\n- EPS Growth: 9.6%\n- Revenue Growth: 7.6%\n- Net Income Growth: 10.8%\n- FCF Growth: 262.3%\n- Book Value Growth: 10.4%\n- Debt/Equity: 0.25x\n\n## Valuation\n- Current Price: ₱198.17\n- P/E: 1.3x | P/B: 0.1x | PEG: 0.13x | Dividend Yield: 4.0%\n- Sticker Price (Rule #1 fair value): ₱440.37\n- MOS Buy Price (50% margin of safety): ₱220.19\n- Current price is BELOW MOS by 10.0%\n\n## Recent Disclosures (last 9)\n- 2026-05-14: Press Release\n- 2026-05-11: Press Release\n- 2026-03-31: Acquisition or Disposition of Shares of Another Corporation\n- 2026-03-30: Press Release\n- 2026-03-30: Material Information/Transactions\n- 2026-03-25: Press Release\n- 2026-03-23: Material Information/Transactions\n- 2026-03-23: Declaration of Cash Dividends\n- 2026-03-23: Declaration of Cash Dividends\n\n## Recent News (last 5)\n- Beyond mobility: How the Tamaraw creates value across the GT Capital Ecosystem (Philstar Life)\n- GT Capital earns ‘A-’ credit rating from JCR (business.inquirer.net)\n- GTPPA Bond Profile: Coupon and Redemption (TradingView)\n- High oil prices hit Toyota demand, dragging GT Capital net profit down 11% (mb.com.ph)\n- GT Capital nets P16.4 billion in January-June (Philstar.com)",
+  "expect": {
+    "base": "gtcap",
+    "tier": "psei",
+    "kind": "price-shift",
+    "pair": "gtcap",
+    "band": "below-mos",
+    "allowedVerdicts": [
+      "buy",
+      "watch"
+    ],
+    "missingFields": []
+  }
+}
