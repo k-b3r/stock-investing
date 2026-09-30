@@ -82,6 +82,16 @@ describe('gradeNumbers', () => {
     expect(gradeNumbers(text, areit).notes).toEqual([]);
   });
 
+  it('lets a trap case replace the trap value with its own estimate (mimo on meg-trap-sticker)', () => {
+    const trap = withContext(areit, { stickerPrice: 900, mosPrice: 450 }, { kind: 'trap', trap: { fields: ['stickerPrice', 'mosPrice'], description: 'bogus' } });
+    const text = areitThesis.replace('Rising bond yields', 'A realistic MOS buy price is around ₱25, not ₱450. Rising bond yields');
+    expect(gradeNumbers(text, trap).wrong).toBe(0);
+  });
+
+  it('skips "even relaxing" what-ifs (mimo on ppc)', () => {
+    expect(gradeNumbers(areitThesis.replace('Rising bond yields', 'Even relaxing to a 35% margin of safety, it is too expensive. Rising bond yields'), areit).pass).toBe(true);
+  });
+
   it('checks lower bounds against the data', () => {
     // Revenue growth is 43.1%
     expect(gradeNumbers(areitThesis.replace('Rising bond yields', 'Growth rates of 40%+ and over 30% are unlikely to last. Rising bond yields'), areit).pass).toBe(true);

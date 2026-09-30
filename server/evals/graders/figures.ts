@@ -58,7 +58,7 @@ const RANGE_BEFORE = /\d(?:\.\d+)?[sx%]?\s*(?:[–-]|to)\s*(?:(?:low|mid|high|up
 const RANGE_AFTER = /^s?\s*(?:[–-]|to\s)\s*(?:₱|PHP ?|P)?\d/;
 // What-if sentences ("if I assume 5% growth and a 10x to 12x exit multiple", "I'd want to see ₱80-90, or roughly
 // 0.75x book"): their unlabeled figures are scenarios, not quotes
-const WHAT_IF = /\b(?:would|i'd|if i|if we|even if|assum(?:e|es|ing)|want to see|get interested|become interested|pullback|pull back|scenario|suppose|hypothetical(?:ly)?)\b/i;
+const WHAT_IF = /\b(?:would|i'd|if i|if we|even (?:if|relaxing|using|assuming|with|at)|assum(?:e|es|ing)|want to see|get interested|become interested|pullback|pull back|scenario|suppose|hypothetical(?:ly)?)\b/i;
 function sentenceAround(text: string, index: number): string {
   const start = Math.max(text.lastIndexOf('\n', index), ...[...text.slice(0, index).matchAll(/[.!?]\s/g)].map((m) => m.index + 1));
   const rest = text.slice(index).search(/[.!?](?:\s|$)|\n/);

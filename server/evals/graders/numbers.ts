@@ -5,7 +5,7 @@ import type { NumbersGradeResult, ThesisCase } from '../types.ts';
 // Every figure in the thesis (body and highlights) must match the frozen data. A figure right after a
 // field label must match that field; any other figure must match some number in the data block.
 // Proposed entry prices, scenarios and ranges are skipped (see isHypothetical).
-export function gradeNumbers(output: string, { context, dataBlock }: ThesisCase): NumbersGradeResult {
+export function gradeNumbers(output: string, { context, dataBlock, expect }: ThesisCase): NumbersGradeResult {
   const { thesis, highlights } = parseThesisOutput(output);
   const text = [thesis, ...highlights].join('\n');
   const figures = extractFigures(text);
@@ -20,6 +20,8 @@ export function gradeNumbers(output: string, { context, dataBlock }: ThesisCase)
     if (!field && isHypothetical(text, figure)) continue;
     const expected = field ? context[field] : null;
     const atLeast = isLowerBound(text, figure);
+    // Trap fields hold impossible values; replacing them with the model's own estimate is the point
+    if (field && expect.trap?.fields.includes(field)) continue;
     if (field && expected === null) {
       invented++;
       notes.push(`"${figure.raw}" stated for ${field}, which is N/A`);
