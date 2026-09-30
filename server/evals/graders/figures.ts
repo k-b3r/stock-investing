@@ -38,18 +38,30 @@ export function knownNumbers(ctx: TickerContext, dataBlock: string): number[] {
   return [...fromBlock, ...fields, ...derivedNumbers(ctx)].map(Math.abs);
 }
 
-// Figures a model can fairly compute from the data: % gaps between price, Sticker and MOS
-// ("19% below Sticker Price") and earnings yield.
-function derivedNumbers({ lastPrice, stickerPrice, mosPrice, pe }: TickerContext): number[] {
+// Figures a model can fairly compute from the data: gaps and ratios between price, Sticker and MOS
+// ("19% below Sticker Price", "78% of fair value", "4.7x the MOS price"), earnings yield, and
+// per-share values implied by price and multiples ("EPS of roughly ₱0.64").
+function derivedNumbers({ lastPrice, stickerPrice, mosPrice, pe, pb, dividendYield }: TickerContext): number[] {
   const prices = [lastPrice, stickerPrice, mosPrice].filter((p): p is number => p !== null && p > 0);
-  const gaps = prices.flatMap((a) => prices.filter((b) => b !== a).map((b) => ((a - b) / b) * 100));
-  return pe ? [...gaps, 100 / pe] : gaps;
+  const pairs = prices.flatMap((a) => prices.filter((b) => b !== a).map((b) => [a, b]));
+  const gaps = pairs.flatMap(([a, b]) => [((a - b) / b) * 100, (a / b) * 100, a / b]);
+  const perShare = lastPrice ? [pe && lastPrice / pe, pb && lastPrice / pb, dividendYield && (lastPrice * dividendYield) / 100] : [];
+  return [...gaps, ...(pe ? [100 / pe] : []), ...perShare.filter((v): v is number => typeof v === 'number' && v > 0)];
 }
 
-// Entry prices the model proposes ("watch for a pullback toward ₱27", "buy near or below ₱28") are
-// its opinion, not a data claim, so the numbers grader skips them.
-const TARGET_LEAD = /(?:toward|towards|closer to|near|nearer|below|under|around|approach(?:es|ing)?|(?:drop|fall|pullback|pull back|decline|correction)s? (?:to|toward)|entry(?: price| point)?(?: of| at| near)?|buy(?:ing)? (?:at|below|under|near))(?: or below| or under)?(?: the)?\s*$/i;
-export const isPriceTarget = (text: string, figure: Figure) => figure.unit === 'peso' && TARGET_LEAD.test(text.slice(Math.max(0, figure.index - 40), figure.index));
+// Figures the model proposes rather than quotes are its opinion, not a data claim, so the numbers
+// grader skips them: entry prices and scenarios ("pullback toward the low ₱90s", "a buyer at ₱2.30",
+// "re-rating toward 0.6x book") and any range endpoint ("₱2.30–2.50", "10-12x"), since the data
+// only holds single values.
+const TARGET_LEAD = /(?:toward|towards|closer to|near|nearer|below|under|around|into|approach(?:es|ing)?|(?:drop|fall|pullback|pull back|decline|correction|drift)s? (?:to|toward|towards)|entry(?: price| point)?(?: of| at| near)?|buy(?:ing|er)? (?:at|below|under|near)|re-?rat(?:e|es|ing) (?:to|toward|towards)|applying an?)(?: or below| or under)?(?: the)?\s*(?:(?:low|mid|high|upper|lower)[- ]?)?$/i;
+const RANGE_BEFORE = /\d(?:\.\d+)?s?\s*(?:[–-]|to)\s*(?:₱|PHP ?|P)?$/;
+const RANGE_AFTER = /^s?\s*(?:[–-]|to\s)\s*(?:₱|PHP ?|P)?\d/;
+export function isHypothetical(text: string, figure: Figure): boolean {
+  const before = text.slice(Math.max(0, figure.index - 40), figure.index);
+  const after = text.slice(figure.index + figure.raw.length);
+  const signedRange = /^[-−]/.test(figure.raw) && /\d$/.test(before);
+  return TARGET_LEAD.test(before) || RANGE_BEFORE.test(before) || RANGE_AFTER.test(after) || signedRange;
+}
 
 // Same tolerance as the fact-check prompt (~2 percentage points / 2% relative), plus rounding
 // to the stated precision ("₱37" for 36.80, "13x" for 13.38).
@@ -91,7 +103,8 @@ export const FIELD_LABELS: Record<NumericField, RegExp> = {
   pb: /\bp\/b\b|\bpb ratio|price[- ]to[- ]book/,
   peg: /\bpeg\b/,
   dividendYield: /dividend yield/,
-  stickerPrice: /sticker(?: price)?|fair value|intrinsic value/,
+  // Not "fair/intrinsic value": models use those loosely ("trades at intrinsic value (₱1.42 vs ₱1.50 sticker)")
+  stickerPrice: /sticker(?: price)?/,
   mosPrice: /\bmos(?: buy)? price|margin[- ]of[- ]safety(?: buy)? price/,
 };
 

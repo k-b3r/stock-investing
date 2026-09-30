@@ -46,6 +46,20 @@ describe('gradeNumbers', () => {
     expect(gradeNumbers(text, areit).pass).toBe(true);
   });
 
+  it('skips scenario prices, multiples and ranges from real outputs', () => {
+    const text = areitThesis.replace(
+      'Rising bond yields',
+      'Wait for a pullback toward the low ₱30s, into the mid-₱20s, or a buyer at ₱24.30–25.50. A re-rating toward 0.5–0.6x book, applying a 10-12x multiple, means a 60–100% gain. Rising bond yields'
+    );
+    expect(gradeNumbers(text, areit).notes).toEqual([]);
+  });
+
+  it('accepts ratios and per-share values derived from the data', () => {
+    // 37.50 / 45.20 = 83% of Sticker, 37.50 / 22.60 = 1.7x MOS, EPS = 37.50 / 13.64 = ₱2.75
+    const text = areitThesis.replace('Rising bond yields', 'You pay 83% of the Sticker Price, 1.7x the MOS level, for EPS of roughly ₱2.75. Rising bond yields');
+    expect(gradeNumbers(text, areit).notes).toEqual([]);
+  });
+
   it('does not let dates in the data vouch for a figure', () => {
     // "June 28, 2019" and "2026-02-27" are in the AREIT data block
     const result = gradeNumbers(areitThesis.replace('Rising bond yields', 'Book value is ₱28 per share and ₱27 of NAV; rising bond yields'), areit);

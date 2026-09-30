@@ -1,10 +1,10 @@
 import { parseThesisOutput } from '../../scripts/thesis-context.ts';
-import { extractFigures, isPriceTarget, knownNumbers, labelFigures, matches } from './figures.ts';
+import { extractFigures, isHypothetical, knownNumbers, labelFigures, matches } from './figures.ts';
 import type { NumbersGradeResult, ThesisCase } from '../types.ts';
 
 // Every figure in the thesis (body and highlights) must match the frozen data. A figure right after a
 // field label must match that field; any other figure must match some number in the data block.
-// Proposed entry prices are skipped (see isPriceTarget).
+// Proposed entry prices, scenarios and ranges are skipped (see isHypothetical).
 export function gradeNumbers(output: string, { context, dataBlock }: ThesisCase): NumbersGradeResult {
   const { thesis, highlights } = parseThesisOutput(output);
   const text = [thesis, ...highlights].join('\n');
@@ -17,7 +17,7 @@ export function gradeNumbers(output: string, { context, dataBlock }: ThesisCase)
   let invented = 0;
   for (const figure of figures) {
     const field = labeled.get(figure.index);
-    if (!field && isPriceTarget(text, figure)) continue;
+    if (!field && isHypothetical(text, figure)) continue;
     const expected = field ? context[field] : null;
     if (field && expected === null) {
       invented++;

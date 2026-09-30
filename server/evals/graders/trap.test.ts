@@ -23,6 +23,16 @@ describe('gradeTrap', () => {
     expect(gradeTrap(text, trapCase)?.pass).toBe(true);
   });
 
+  it('passes on "data artifact" wording (mimo on ac-trap-pe)', () => {
+    const text = areitThesis.replace('Management keeps', 'The reported dividend yield of 250% is clearly a data artifact that should not be relied on. Management keeps');
+    expect(gradeTrap(text, trapCase)?.pass).toBe(true);
+  });
+
+  it('fails when the model explains the trap value away (mimo on cbc-trap-roic-de)', () => {
+    const text = areitThesis.replace('Management keeps', 'A dividend yield around 250% really reflects the sponsor topping up payouts. Management keeps');
+    expect(gradeTrap(text, trapCase)?.pass).toBe(false);
+  });
+
   it('passes when only one of several trap fields is flagged', () => {
     const text = areitThesis.replace('debt/equity of 0.01x leaves', 'a negative debt/equity of -3.1x is impossible and leaves');
     const result = gradeTrap(text, trapCase);
