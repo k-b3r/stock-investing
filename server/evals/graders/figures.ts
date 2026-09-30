@@ -53,14 +53,23 @@ function derivedNumbers({ lastPrice, stickerPrice, mosPrice, pe, pb, dividendYie
 // grader skips them: entry prices and scenarios ("pullback toward the low ₱90s", "a buyer at ₱2.30",
 // "re-rating toward 0.6x book") and any range endpoint ("₱2.30–2.50", "10-12x"), since the data
 // only holds single values.
-const TARGET_LEAD = /(?:toward|towards|closer to|near|nearer|below|under|around|into|approach(?:es|ing)?|(?:drop|fall|pullback|pull back|decline|correction|drift)s? (?:to|toward|towards)|entry(?: price| point)?(?: of| at| near)?|buy(?:ing|er)? (?:at|below|under|near)|re-?rat(?:e|es|ing) (?:to|toward|towards)|applying an?|interested (?:in|at))(?: or below| or under)?(?: the)?\s*(?:(?:low|mid|high|upper|lower)(?:-to-(?:low|mid|high|upper))?[- ]?)?$/i;
-const RANGE_BEFORE = /\d(?:\.\d+)?s?\s*(?:[–-]|to)\s*(?:(?:low|mid|high|upper|lower)[- ]?)?(?:₱|PHP ?|P)?$/;
+const TARGET_LEAD = /(?:toward|towards|closer to|near|nearer|below|under|around|into|approach(?:es|ing)?|(?:drop|fall|pullback|pull back|decline|correction|drift)s? (?:to|toward|towards)|entry(?: price| point)?(?: of| at| near)?|buy(?:ing|er)? (?:at|below|under|near)|re-?rat(?:e|es|ing) (?:to|toward|towards)|applying an?|interested (?:in|at)|wait(?:ing)? (?:for|until))(?: or below| or under)?(?: the)?\s*(?:~\s?|(?:roughly|about|around|approximately) )?(?:(?:low|mid|high|upper|lower)(?:-to-(?:low|mid|high|upper))?[- ]?)?$/i;
+const RANGE_BEFORE = /\d(?:\.\d+)?[sx%]?\s*(?:[–-]|to)\s*(?:(?:low|mid|high|upper|lower)[- ]?)?(?:₱|PHP ?|P)?$/;
 const RANGE_AFTER = /^s?\s*(?:[–-]|to\s)\s*(?:₱|PHP ?|P)?\d/;
+// What-if sentences ("if I assume 5% growth and a 10x to 12x exit multiple", "I'd want to see ₱80-90, or roughly
+// 0.75x book"): their unlabeled figures are scenarios, not quotes
+const WHAT_IF = /\b(?:would|i'd|if i|if we|even if|assum(?:e|es|ing)|want to see|get interested|become interested|pullback|pull back|scenario|suppose|hypothetical(?:ly)?)\b/i;
+function sentenceAround(text: string, index: number): string {
+  const start = Math.max(text.lastIndexOf('\n', index), ...[...text.slice(0, index).matchAll(/[.!?]\s/g)].map((m) => m.index + 1));
+  const rest = text.slice(index).search(/[.!?](?:\s|$)|\n/);
+  return text.slice(start + 1, rest === -1 ? undefined : index + rest);
+}
+
 export function isHypothetical(text: string, figure: Figure): boolean {
   const before = text.slice(Math.max(0, figure.index - 40), figure.index);
   const after = text.slice(figure.index + figure.raw.length);
   const signedRange = /^[-−]/.test(figure.raw) && /\d$/.test(before);
-  return TARGET_LEAD.test(before) || RANGE_BEFORE.test(before) || RANGE_AFTER.test(after) || signedRange;
+  return TARGET_LEAD.test(before) || RANGE_BEFORE.test(before) || RANGE_AFTER.test(after) || signedRange || WHAT_IF.test(sentenceAround(text, figure.index));
 }
 
 // "20%+", "over 20%", "at least ₱40": true when the data value is at or above the figure (within 1.5x, so any
@@ -96,6 +105,10 @@ const FIELD_UNITS: Record<NumericField, 'peso' | 'pct' | 'x'> = {
   stickerPrice: 'peso',
   mosPrice: 'peso',
 };
+
+// Price fields get mixed up in "₱3.74 sticker (₱1.87 MOS buy)" or "MOS buy price (₱198 vs ₱220)", so a labeled
+// price matching any of the three prices counts as right
+export const PRICE_FIELDS: NumericField[] = ['lastPrice', 'stickerPrice', 'mosPrice'];
 
 export const FIELD_LABELS: Record<NumericField, RegExp> = {
   roic: /\broic\b|return on invested capital/,

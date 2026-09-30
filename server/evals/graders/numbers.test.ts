@@ -59,6 +59,29 @@ describe('gradeNumbers', () => {
     expect(gradeNumbers(text, areit).notes).toEqual([]);
   });
 
+  it('skips unlabeled figures in what-if sentences (Sonnet on bdo, sti, plus)', () => {
+    const text = areitThesis.replace(
+      'Rising bond yields',
+      "I'd want to see the price closer to ₱30-32, or roughly 0.75x book. Even if I assume 5% growth and a 10x to 12x exit multiple, fair value holds. Rising bond yields"
+    );
+    expect(gradeNumbers(text, areit).notes).toEqual([]);
+  });
+
+  it('still checks labeled figures in what-if sentences', () => {
+    expect(gradeNumbers(areitThesis.replace('Bottom line: watch.', 'Bottom line: watch. I would note the P/E of 25x is rich.'), areit).wrong).toBe(1);
+  });
+
+  it('accepts swapped price labels but not an unrelated price (mimo on creit, gtcap-below-mos)', () => {
+    const swapped = areitThesis.replace('Rising bond yields', 'At ₱37.50 vs ₱45.20 sticker (₱22.60 MOS buy), upside is limited. Rising bond yields');
+    expect(gradeNumbers(swapped, areit).notes).toEqual([]);
+    expect(gradeNumbers(areitThesis.replace('Sticker Price of ₱45.20', 'Sticker Price of ₱52.00'), areit).wrong).toBe(1);
+  });
+
+  it('skips "wait for" targets and "even if" what-ifs', () => {
+    const text = areitThesis.replace('Rising bond yields', 'Even if my Sticker Price is off by 30%, wait for ~₱31 or lower, or wait for roughly ₱29. Rising bond yields');
+    expect(gradeNumbers(text, areit).notes).toEqual([]);
+  });
+
   it('checks lower bounds against the data', () => {
     // Revenue growth is 43.1%
     expect(gradeNumbers(areitThesis.replace('Rising bond yields', 'Growth rates of 40%+ and over 30% are unlikely to last. Rising bond yields'), areit).pass).toBe(true);
