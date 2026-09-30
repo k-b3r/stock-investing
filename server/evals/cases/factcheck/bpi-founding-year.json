@@ -15,7 +15,7 @@
       "note": "True historical fact; the source gives the 1943 incorporation of the current entity. A real past false alarm."
     }
   ],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "verified",
     "checkedAt": "2026-09-30",

@@ -128,7 +128,7 @@ function renderReview(cases: FactCheckCase[], bases: FactCheckBase[]): string {
     'Source data vs web disagree, sources disagree, or fewer than 2 independent sources. Decide per case: keep, fix, or drop.',
     '',
     ...cases.filter((c) => c.verification?.status === 'conflict').flatMap((c) => [
-      `- **${c.id}** (checked ${c.verification!.checkedAt}): ${c.verification!.notes}`,
+      `- **${c.id}** (checked ${c.verification!.checkedAt}): ${c.verification!.notes}${c.verification!.resolution ? ` **Decision:** ${c.verification!.resolution}` : ''}`,
       ...c.verification!.sources.map((u) => `  - ${u}`),
     ]),
     '',

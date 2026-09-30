@@ -20,7 +20,7 @@
     }
   ],
   "nonErrors": [],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "conflict",
     "checkedAt": "2026-09-30",
@@ -28,6 +28,7 @@
     "sources": [
       "https://powerphilippines.com/raslag-confirms-php-3-b-solar-and-battery-project-in-nueva-ecija1/",
       "https://powerphilippines.com/?p=25330"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   }
 }

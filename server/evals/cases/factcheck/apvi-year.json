@@ -19,13 +19,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "conflict",
     "checkedAt": "2026-09-30",
     "notes": "₱1.30/share cash dividend (record date May 26, 2026): found only on dividends.ph (an aggregator), plus the 2026-05-11 PSE Edge disclosure title in our own data.",
     "sources": [
       "https://dividends.ph/company/APVI/dividend-history/2026"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   }
 }

@@ -78,6 +78,8 @@ export interface Verification {
   checkedAt: string;
   notes: string;
   sources: string[];
+  // User's decision on a conflict
+  resolution?: string;
 }
 
 export interface FactCheckGradeResult extends GradeResult {

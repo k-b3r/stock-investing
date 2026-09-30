@@ -21,7 +21,7 @@
       "note": "Current Price is ₱18.16 in the source"
     }
   ],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "verified",
     "checkedAt": "2026-09-30",

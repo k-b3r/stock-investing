@@ -20,7 +20,7 @@
     }
   ],
   "nonErrors": [],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "conflict",
     "checkedAt": "2026-09-30",
@@ -28,6 +28,7 @@
     "sources": [
       "https://edge.pse.com.ph (AUB company information, SEC 17-A 2024)",
       "https://en.wikipedia.org/wiki/Asia_United_Bank"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   }
 }

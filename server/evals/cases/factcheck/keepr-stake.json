@@ -21,13 +21,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "conflict",
     "checkedAt": "2026-09-30",
     "notes": "Pernod Ricard Philippines, Inc. is listed as a KEEPR subsidiary only in its own PSE Edge profile (17-A 2024). No independent second source found for the subsidiary status or the ownership %.",
     "sources": [
       "https://edge.pse.com.ph/companyInformation/form.do?cmpy_id=2"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   }
 }

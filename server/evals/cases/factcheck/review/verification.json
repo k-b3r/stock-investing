@@ -239,19 +239,22 @@
     "notes": "Pernod Ricard Philippines, Inc. is listed as a KEEPR subsidiary only in its own PSE Edge profile (17-A 2024). No independent second source found for the subsidiary status or the ownership %.",
     "sources": [
       "https://edge.pse.com.ph/companyInformation/form.do?cmpy_id=2"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "ans-year": {
     "status": "conflict",
     "checkedAt": "2026-09-30",
     "notes": "Not checked: the web search for the Anscor Bistro Group sale was blocked by a tool permission. Check the Oct 2025 disposition timing yourself.",
-    "sources": []
+    "sources": [],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "ans-units": {
     "status": "conflict",
     "checkedAt": "2026-09-30",
     "notes": "Not checked: the web search for \"Anscor sells Bistro Group stake ₱1.9 billion\" was blocked by a tool permission. Check it yourself.",
-    "sources": []
+    "sources": [],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "alter-units": {
     "status": "conflict",
@@ -260,7 +263,8 @@
     "sources": [
       "https://www.philstar.com/business/2022/07/14/2195166/alternergy-eyes-p21-billion-ipo/amp/",
       "https://tribune.net.ph/2026/09/24/alternergy-keeps-profit-steady-ahead-of-wind-payoff"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "areit-year": {
     "status": "conflict",
@@ -270,7 +274,8 @@
       "https://mb.com.ph/2026/06/26/ayala-land-secures-sec-nod-for-19-billion-asset-injection-into-areit",
       "https://tribune.net.ph/2026/08/18/areit-adds-p173b-in-ayala-malls-hotels-in-share-swap",
       "https://tribune.net.ph/2026/09/24/areit-cuts-office-reliance-with-p173-b-swap"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "aslag-units": {
     "status": "conflict",
@@ -279,7 +284,8 @@
     "sources": [
       "https://powerphilippines.com/raslag-confirms-php-3-b-solar-and-battery-project-in-nueva-ecija1/",
       "https://powerphilippines.com/?p=25330"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "aub-stake": {
     "status": "conflict",
@@ -288,7 +294,8 @@
     "sources": [
       "https://edge.pse.com.ph (AUB company information, SEC 17-A 2024)",
       "https://en.wikipedia.org/wiki/Asia_United_Bank"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "apvi-year": {
     "status": "conflict",
@@ -296,7 +303,8 @@
     "notes": "₱1.30/share cash dividend (record date May 26, 2026): found only on dividends.ph (an aggregator), plus the 2026-05-11 PSE Edge disclosure title in our own data.",
     "sources": [
       "https://dividends.ph/company/APVI/dividend-history/2026"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "bpi-founding-year": {
     "status": "verified",
@@ -369,7 +377,8 @@
     "notes": "The thesis says \"today's 67MW base\". Web says 119 MW operating now (67 MW is the 2022 IPO figure). Same stale-source issue as alter-units.",
     "sources": [
       "https://tribune.net.ph/2026/09/24/alternergy-keeps-profit-steady-ahead-of-wind-payoff"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "areit-rounding": {
     "status": "conflict",
@@ -378,7 +387,8 @@
     "sources": [
       "https://mb.com.ph/2026/06/26/ayala-land-secures-sec-nod-for-19-billion-asset-injection-into-areit",
       "https://tribune.net.ph/2026/08/18/areit-adds-p173b-in-ayala-malls-hotels-in-share-swap"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "aslag-rounding": {
     "status": "conflict",
@@ -386,7 +396,8 @@
     "notes": "The thesis says the FIT contracts were \"established in 2016\" and expire \"around 2036\". Raslag says RASLAG-1 and -2 started commercial operation in Feb and Dec 2015 under FIT Rounds 1–2 with 20-year terms, so expiry would be about 2035.",
     "sources": [
       "https://www.raslag.com.ph/wp-content/uploads/2023/05/Presentation-Deck-PSE-Star-RASLAG.pdf"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "cat-clean": {
     "status": "conflict",
@@ -394,7 +405,8 @@
     "notes": "FY2025 net income ₱503M (−70%): found only on MarketScreener (an aggregator).",
     "sources": [
       "https://uk.marketscreener.com/quote/stock/CENTRAL-AZUCARERA-DE-TARL-64306440/"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "cnvrg-clean": {
     "status": "conflict",
@@ -403,7 +415,8 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Converge_ICT",
       "https://technologymagazine.com/company-reports/converge-on-a-mission-to-fibre-power-the-filipino-nation"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "cpg-clean": {
     "status": "conflict",
@@ -412,7 +425,8 @@
     "sources": [
       "https://www.century-properties.com/century-properties-secures-sec-nod-for-%E2%82%B15-billion-retail-bonds-strong-demand-results-in-oversubscription/",
       "https://www.sunstar.com.ph/cebu/sec-clears-century-properties-retail-bond-offer"
-    ]
+    ],
+    "resolution": "User 2026-09-30: fixed \"₱12 billion capex planned\" to \"₱12 billion bond program\" in the thesis."
   },
   "fcg-clean": {
     "status": "conflict",
@@ -420,7 +434,8 @@
     "notes": "FY2025 revenue ₱5.67B (+4.1%): found only on Zonebourse (an aggregator).",
     "sources": [
       "https://ch.zonebourse.com/cours/action/FIGARO-CULINARY-GROUP-INC-131983569/"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   },
   "gsmi-clean": {
     "status": "conflict",
@@ -428,6 +443,7 @@
     "notes": "H1 2026 net income +3% to ₱4.4B: not found (latest found is H1 2025 at ₱4.2B, +16%).",
     "sources": [
       "https://malaya.com.ph/business/corporate/ginebra-sales-increase-10-to-p25b-in-h1"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   }
 }

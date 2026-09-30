@@ -21,7 +21,7 @@
     }
   ],
   "nonErrors": [],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "source-only",
     "checkedAt": "2026-09-30",

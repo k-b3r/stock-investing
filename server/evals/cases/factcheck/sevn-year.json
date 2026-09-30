@@ -20,7 +20,7 @@
     }
   ],
   "nonErrors": [],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "verified",
     "checkedAt": "2026-09-30",

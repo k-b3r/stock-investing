@@ -19,7 +19,7 @@
     }
   ],
   "nonErrors": [],
-  "approved": false,
+  "approved": true,
   "verification": {
     "status": "conflict",
     "checkedAt": "2026-09-30",
@@ -28,6 +28,7 @@
       "https://mb.com.ph/2026/06/26/ayala-land-secures-sec-nod-for-19-billion-asset-injection-into-areit",
       "https://tribune.net.ph/2026/08/18/areit-adds-p173b-in-ayala-malls-hotels-in-share-swap",
       "https://tribune.net.ph/2026/09/24/areit-cuts-office-reliance-with-p173-b-swap"
-    ]
+    ],
+    "resolution": "User 2026-09-30: keep. The case tests consistency with its source data, which this does not affect."
   }
 }
