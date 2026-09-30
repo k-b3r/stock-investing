@@ -19,5 +19,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "RA 9707 (Aug 8, 2009) grants Converge a 25-year franchise, so it runs to about Aug 2034.",
+    "sources": [
+      "https://legacy.senate.gov.ph/republic_acts/ra%209707.pdf",
+      "https://lawyerly.ph/laws/view/l6590"
+    ]
+  }
 }

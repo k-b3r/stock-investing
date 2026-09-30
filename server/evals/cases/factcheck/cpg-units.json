@@ -20,5 +20,15 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "₱5B bonds = ₱3B base + ₱2B oversubscription, SEC permit 2026. Note: the base thesis's \"₱12 billion capex planned\" is actually the ₱12B bond shelf program (see cpg-clean).",
+    "sources": [
+      "https://www.century-properties.com/century-properties-secures-sec-nod-for-%E2%82%B15-billion-retail-bonds-strong-demand-results-in-oversubscription/",
+      "https://www.philstar.com/business/2026/02/07/2506233/century-properties-eyes-p5-billion-bond-sale",
+      "https://www.sunstar.com.ph/cebu/sec-clears-century-properties-retail-bond-offer"
+    ]
+  }
 }

@@ -19,5 +19,15 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "JFC sold an 11% stake to VTI, which raised VTI's holding to 51%. Only the \"51%\" in the planted claim echoes a real figure (VTI's post-deal stake).",
+    "sources": [
+      "https://www.dealstreetasia.com/?p=496106",
+      "https://vietnamnews.vn/economy/1800450/highlands-coffee-founder-spends-over-88-million-to-buy-back-stake.html",
+      "https://vir.com.vn/jollibee-sells-11-per-cent-stake-in-highlands-coffee-for-88-million-161546.html"
+    ]
+  }
 }

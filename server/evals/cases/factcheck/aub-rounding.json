@@ -15,5 +15,15 @@
       "note": "Current Price is ₱48.95 in the source"
     }
   ],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: NIM 5.3% in Q1 2026; total assets ₱427B at June 30, 2026.",
+    "sources": [
+      "https://tribune.net.ph/2026/05/18/aub-quarterly-net-income-hits-all-time-high",
+      "https://context.ph/2026/05/18/asia-united-hits-record-profit-expands-market/",
+      "https://mb.com.ph/2026/07/30/aub-first-half-earnings-hit-62-billion-as-loans-surge"
+    ]
+  }
 }

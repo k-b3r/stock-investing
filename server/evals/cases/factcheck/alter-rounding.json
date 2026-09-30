@@ -21,5 +21,13 @@
       "note": "EPS Growth is 47.6% in the source"
     }
   ],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The thesis says \"today's 67MW base\". Web says 119 MW operating now (67 MW is the 2022 IPO figure). Same stale-source issue as alter-units.",
+    "sources": [
+      "https://tribune.net.ph/2026/09/24/alternergy-keeps-profit-steady-ahead-of-wind-payoff"
+    ]
+  }
 }

@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "STI Holdings' education network = STI ESG, STI WNU and iACADEMY (subsidiaries per its 17-A).",
+    "sources": [
+      "https://edge.pse.com.ph (STI company information, SEC 17-A 2024)",
+      "https://www.philstar.com/business/2026/03/06/2512274/sti-earns-more-h1-despite-lower-enrollment/amp/"
+    ]
+  }
 }

@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The source (17-A 2024 description) says 67.24 MW operating. That figure dates from the 2022 IPO; recent coverage says Alternergy now has 119 MW operating. The source is stale versus today, though still internally consistent.",
+    "sources": [
+      "https://www.philstar.com/business/2022/07/14/2195166/alternergy-eyes-p21-billion-ipo/amp/",
+      "https://tribune.net.ph/2026/09/24/alternergy-keeps-profit-steady-ahead-of-wind-payoff"
+    ]
+  }
 }

@@ -19,5 +19,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "SEC approved the name change on Mar 23, 2018. SMC transferred its SMB and GSMI shares to SMFB in 2018.",
+    "sources": [
+      "https://www.gmanetwork.com/news/money/economy/649092/san-miguel-merges-food-beverage-business/story",
+      "https://www.philstar.com/business/2018/01/19/1779050/business"
+    ]
+  }
 }

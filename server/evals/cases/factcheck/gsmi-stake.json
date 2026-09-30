@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "GSMI is a majority-owned SMC subsidiary, held via SMFB (about 76% after the 2018 consolidation).",
+    "sources": [
+      "https://edge.pse.com.ph/companyInformation/form.do?cmpy_id=94",
+      "https://www.gmanetwork.com/news/money/economy/649092/san-miguel-merges-food-beverage-business/story"
+    ]
+  }
 }

@@ -20,5 +20,11 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Not checked: the web search for \"Anscor sells Bistro Group stake ₱1.9 billion\" was blocked by a tool permission. Check it yourself.",
+    "sources": []
+  }
 }

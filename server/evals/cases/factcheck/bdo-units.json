@@ -20,5 +20,15 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "BDO H1 2026 net income: ₱40.7B.",
+    "sources": [
+      "https://www.bdo.com.ph/about-bdo/learn/news-and-features/bdo-1h-2026-net-income",
+      "https://tribune.net.ph/2026/07/27/bdo-posts-record-p407b-first-half-profit",
+      "https://plus.inquirer.net/business/bdo-h1-profit-reached-record-high-p40-7b/"
+    ]
+  }
 }

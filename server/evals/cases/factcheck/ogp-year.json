@@ -19,5 +19,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Didipio FTAA renewed on July 14, 2021 for 25 years from June 19, 2019.",
+    "sources": [
+      "https://oceanagold.com/news/oceanagold-advises-didipio-ftaa-renewal-and-provides-operations-update",
+      "https://www.northernminer.com/news/oceanagold-to-restart-didipio-mine-after-new-deal-with-the-philippines"
+    ]
+  }
 }

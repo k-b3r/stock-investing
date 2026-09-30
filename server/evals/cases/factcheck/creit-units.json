@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "CREIT H1 2026 net income: ₱686M.",
+    "sources": [
+      "https://context.ph/2026/08/12/creit-earns-p686m-sees-renewable-energy-growth/",
+      "https://mb.com.ph/2026/08/17/creit-keeps-profit-steady-as-long-term-leases-support-earnings"
+    ]
+  }
 }

@@ -19,5 +19,15 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The thesis dates the \"shareholder-approved ₱17.3B property swap\" to June 2026 (from the 2026-06-26 disclosure). The web shows a June 26, 2026 SEC nod for a ₱19B ALI asset injection. The ₱17.3B malls/hotels swap was announced in Aug 2026 and approved by shareholders in Sep 2026. Unclear whether these are the same deal.",
+    "sources": [
+      "https://mb.com.ph/2026/06/26/ayala-land-secures-sec-nod-for-19-billion-asset-injection-into-areit",
+      "https://tribune.net.ph/2026/08/18/areit-adds-p173b-in-ayala-malls-hotels-in-share-swap",
+      "https://tribune.net.ph/2026/09/24/areit-cuts-office-reliance-with-p173-b-swap"
+    ]
+  }
 }

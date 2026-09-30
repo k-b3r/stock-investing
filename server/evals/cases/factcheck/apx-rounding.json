@@ -21,5 +21,14 @@
       "note": "Current Price is ₱18.16 in the source"
     }
   ],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Spot-check: H1 2026 net income +68% to ₱5.39B.",
+    "sources": [
+      "https://mb.com.ph/2026/08/12/razons-apex-mining-first-half-profit-tops-5-billion-on-record-metal-prices",
+      "https://context.ph/2026/08/12/apex-mining-profit-surges-as-gold-prices-soar/"
+    ]
+  }
 }

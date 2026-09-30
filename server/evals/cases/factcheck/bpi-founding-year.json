@@ -15,5 +15,14 @@
       "note": "True historical fact; the source gives the 1943 incorporation of the current entity. A real past false alarm."
     }
   ],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "BPI was founded Aug 1, 1851 as Banco Español-Filipino de Isabel II; the current entity was incorporated in 1943. Both are true, so this is correctly a non-error.",
+    "sources": [
+      "https://www.bpi.com.ph/about-bpi/news/bpi-celebrates-175-years-of-helping-build-a-better-philippines",
+      "https://www.encyclopedia.com/books/politics-and-business-magazines/bank-philippine-islands"
+    ]
+  }
 }

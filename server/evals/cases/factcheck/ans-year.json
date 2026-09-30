@@ -19,5 +19,11 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Not checked: the web search for the Anscor Bistro Group sale was blocked by a tool permission. Check the Oct 2025 disposition timing yourself.",
+    "sources": []
+  }
 }

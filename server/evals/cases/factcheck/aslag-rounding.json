@@ -15,5 +15,13 @@
       "note": "Net Income Growth is 23.3% in the source"
     }
   ],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "The thesis says the FIT contracts were \"established in 2016\" and expire \"around 2036\". Raslag says RASLAG-1 and -2 started commercial operation in Feb and Dec 2015 under FIT Rounds 1–2 with 20-year terms, so expiry would be about 2035.",
+    "sources": [
+      "https://www.raslag.com.ph/wp-content/uploads/2023/05/Presentation-Deck-PSE-Star-RASLAG.pdf"
+    ]
+  }
 }

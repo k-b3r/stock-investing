@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "Rural Bank of Angeles and Cavite United Rural Bank are AUB subsidiaries per its 17-A (99.54% / 100% as of 2016). The only second source is Wikipedia.",
+    "sources": [
+      "https://edge.pse.com.ph (AUB company information, SEC 17-A 2024)",
+      "https://en.wikipedia.org/wiki/Asia_United_Bank"
+    ]
+  }
 }

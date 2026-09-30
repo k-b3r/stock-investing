@@ -21,5 +21,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "Luisita Land Corp is a wholly owned CAT subsidiary; the 2023 Lima Land deal sold 200 ha of its land, not its shares.",
+    "sources": [
+      "https://edge.pse.com.ph (CAT company information, SEC 17-A 2024)",
+      "https://tribune.net.ph/2023/10/12/aboitiz-groups-lima-buys-luisita-land"
+    ]
+  }
 }

@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "DDMP REIT portfolio GLA: 172,252 sqm (DoubleDragon Plaza 139,240 + Center East 16,197 + Center West 16,815).",
+    "sources": [
+      "https://www.philstar.com/business/2020/11/23/2058696/doubledragon-gears-p147-billion-reit-offering/amp/",
+      "https://malaya.com.ph/business-news/doubledragon-lays-down-plans-for-proceeds-of-p15b-reit-sale"
+    ]
+  }
 }

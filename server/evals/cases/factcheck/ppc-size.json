@@ -19,5 +19,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "P1.32B was PPC's record first-half 2024 net income (up 61% from P819.68M). The headline in the source data matches.",
+    "sources": [
+      "https://www.sunstar.com.ph/cebu/pryces-net-income-for-h1-2024-up-by-61",
+      "https://manilatimes.net/2024/07/26/business/corporate-news/pryce-h1-net-income-surges-61-to-p13b/1959925"
+    ]
+  }
 }

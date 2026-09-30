@@ -67,6 +67,17 @@ export interface FactCheckCase {
   nonErrors: NonError[];
   // Set by the user after reviewing REVIEW.md; the runner skips unapproved cases unless --all
   approved: boolean;
+  // Web check of the case's facts, from review/verification.json
+  verification: Verification | null;
+}
+
+// verified = true value (and clean-thesis spot-checks) confirmed by 2+ independent sources;
+// source-only = pipeline-computed figure, no web check applies; conflict = needs the user's judgment
+export interface Verification {
+  status: 'verified' | 'source-only' | 'conflict';
+  checkedAt: string;
+  notes: string;
+  sources: string[];
 }
 
 export interface FactCheckGradeResult extends GradeResult {

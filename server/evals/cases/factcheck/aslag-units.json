@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "conflict",
+    "checkedAt": "2026-09-30",
+    "notes": "₱3B 2026 capex for the 140 MWdc Nueva Ecija solar+BESS project: confirmed only by Power Philippines (two articles, same outlet).",
+    "sources": [
+      "https://powerphilippines.com/raslag-confirms-php-3-b-solar-and-battery-project-in-nueva-ecija1/",
+      "https://powerphilippines.com/?p=25330"
+    ]
+  }
 }

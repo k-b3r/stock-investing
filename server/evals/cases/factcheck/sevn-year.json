@@ -20,5 +20,14 @@
     }
   ],
   "nonErrors": [],
-  "approved": false
+  "approved": false,
+  "verification": {
+    "status": "verified",
+    "checkedAt": "2026-09-30",
+    "notes": "7-Eleven PH had 4,130 stores at end-2024.",
+    "sources": [
+      "https://insideretail.asia/2025/07/24/7-eleven-philippines-targets-5000-stores-by-next-year/",
+      "https://business.inquirer.net/609092/7-eleven-to-open-5000th-ph-store-in-cebu"
+    ]
+  }
 }

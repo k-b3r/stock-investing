@@ -46,4 +46,4 @@ pnpm eval:factcheck --models haiku,glm-5.3 --runs 3   # approved cases only; --a
 - Clean cases: plain, rounding-only (within the prompt's tolerance), and BPI "founded 1851" (true, not in source; a past false alarm). Any flag on a clean case is a false alarm.
 - Each planted error lists `match` strings; a contradiction containing any of them catches it. Contradictions matching no planted error are false alarms.
 - Scorecard: recall (planted errors caught), precision (flags that name a planted error), clean-pass, recall per type. Scores regrade saved outputs against current cases.
-- Every case needs user approval (`approved: true`) after reviewing `cases/factcheck/REVIEW.md`.
+- Every case needs user approval (`approved: true`) after reviewing `cases/factcheck/REVIEW.md`. Web checks of each case's facts live in `cases/factcheck/review/verification.json` (verified / source-only / conflict); conflicts are listed at the top of REVIEW.md.
