@@ -11,7 +11,7 @@
     "kind": "amount",
     "value": 0.3
   },
-  "verified": false,
+  "verified": true,
   "docs": [
     {
       "id": "d1",

@@ -30,9 +30,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Amendment moved the record date from May 27 to May 28, 2026 (holiday). Original declaration kept as stale doc.",
+    "notes": "Amendment moved the record date from May 27 to May 28, 2026 (holiday). Original declaration kept as stale doc. User accepted (2026-09-30): the amendment is the authoritative latest filing; older news/aggregator dates are the intended trap.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=ec653c95a4a6ea8c64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -41,7 +41,7 @@
           "quote": "With the declaration of May 27, 2026 as a regular holiday, the record date for the cash dividend declaration will be moved to May 28, 2026."
         }
       ],
-      "issue": "Sources disagree. PSE Edge amendment (2026-05-22) moved the record date to May 28, 2026 because May 27 became a holiday. Web search found only the original May 27, 2026 date (news summary / ayalaland, pre-amendment). Key follows the amendment."
+      "issue": null
     }
   },
   {
@@ -74,9 +74,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Amendment moved payment from March 20 to March 19, 2026 (holiday).",
+    "notes": "Amendment moved payment from March 20 to March 19, 2026 (holiday). User accepted (2026-09-30): the amendment is the authoritative latest filing; older news/aggregator dates are the intended trap.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=faeff5eb8839563164d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -85,7 +85,7 @@
           "quote": "The record date is March 5, 2026, and the payment date is March 19, 2026."
         }
       ],
-      "issue": "Single source. PSE Edge amendment (2026-03-18): payment March 19, 2026. Aggregators (au.marketscreener.com, simplywall.st, 2026) show March 20, 2026 (pre-amendment). No news/IR source found for March 19."
+      "issue": null
     }
   },
   {
@@ -120,18 +120,23 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Original disclosure said regular; same-day amendment corrected it to special. Key \"special\" also matches an unrelated noise filing (Alternergy \"Special Stockholders Meeting\"), so citing that filing would pass citedHasAnswer. Low risk.",
+    "notes": "Original disclosure said regular; same-day amendment corrected it to special. Key \"special\" also matches an unrelated noise filing (Alternergy \"Special Stockholders Meeting\"), so citing that filing would pass citedHasAnswer. Low risk. User confirmed (2026-09-30): the June 30, 2026 declaration was regular Php0.60 + special Php0.30 (total Php0.90); the \"regular Php0.30\" original disclosure was the error the amendment fixed.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cb1dddf88e1439664d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
           "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cb1dddf88e1439664d70b69f0a3140b",
           "date": null,
           "quote": "Declaration of Special Cash Dividends"
+        },
+        {
+          "url": "https://governance.centurypacific.com.ph/wp-content/uploads/2026/07/CNPF-Advisory-to-Stockholders-Dividend-Declaration_June-30-2026_FINAL.pdf",
+          "date": "2026-07",
+          "quote": "regular cash dividends declared ... June 30, 2026 in the amount of Sixty Centavos (Php0.60) per share (separate from the Php0.30 special)"
         }
       ],
-      "issue": "Sources disagree. PSE Edge: original disclosure (2026-06-30) says regular Php0.30; same-day amendment says special Php0.30. Company advisory https://governance.centurypacific.com.ph/wp-content/uploads/2026/07/CNPF-Advisory-to-Stockholders-Dividend-Declaration_June-30-2026_FINAL.pdf (July 2026) says \"regular cash dividends declared ... June 30, 2026 in the amount of Sixty Centavos (Php0.60) per share\", record July 21, payable Aug 10. Possibly Php0.30 regular + Php0.30 special; key \"special\" is doubtful."
+      "issue": null
     }
   },
   {
@@ -162,9 +167,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only an aggregator (snowball-analytics.com) agrees on Php0.60, record March 3, 2026.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6cfa21d335f7f41a64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -173,7 +178,7 @@
           "quote": "approved today the declaration of regular cash dividend of Sixty Centavos (Php0.60) per share to all stockholders of record as of March 3, 2026 payable on March 25, 2026."
         }
       ],
-      "issue": "Single source (PSE Edge). Only an aggregator (snowball-analytics.com) agrees on Php0.60, record March 3, 2026."
+      "issue": null
     }
   },
   {
@@ -206,9 +211,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). No news or company IR page found.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=f6c6c73b0948f6f364d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -217,7 +222,7 @@
           "quote": "(ACR) held on 28 May 2026, the Board approved the declaration of a cash dividend of P0.02 per share out of the unrestricted retained earnings of ACR as of 31 December 2025, in favor of holders of common shares as of record date of 18 June 2026 and payable on or before 08 July 202"
         }
       ],
-      "issue": "Single source (PSE Edge). No news or company IR page found."
+      "issue": null
     }
   },
   {
@@ -346,9 +351,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). News (context.ph, sunstar.com.ph) covers FILRT's March and September 2026 payouts, not the June 5 one.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6ce1dcf00f80cff664d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -357,7 +362,7 @@
           "quote": "(“FILRT”) held today, 08 May 2026, the Board approved the declaration of its quarterly cash dividends in the amount of PhP 0.06 per share to all stockholders of record as of 25 May 2026, and with payment date of 05 June 2026."
         }
       ],
-      "issue": "Single source (PSE Edge). News (context.ph, sunstar.com.ph) covers FILRT's March and September 2026 payouts, not the June 5 one."
+      "issue": null
     }
   },
   {
@@ -440,9 +445,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). News found (insiderph.com) covers the 2024 P0.30 special dividend, not May 2026. Live PSE Edge SEC 17-C C03729-2026 (ex-date Jun 4, 2026) confirms. Pesobility lacks both LTG H1-2026 dividends (this and Feb 20), so its absence is a gap, not a contradiction. User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4db7c2886a07c7e64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -451,7 +456,7 @@
           "quote": "NEGRE Officer-in-Charge, Disclosure DepartmentGentlemen:Please be advised that the Board of Directors approved, via referendum today, May 20, 2026, the declaration and distribution of a Special Cash Dividend of Php 0.30 per share to all stockholders of record of LT Group, Inc."
         }
       ],
-      "issue": "Single source (PSE Edge). News found (insiderph.com) covers the 2024 P0.30 special dividend, not May 2026."
+      "issue": null
     }
   },
   {
@@ -536,18 +541,23 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only aggregators (investing.com, simplywall.st) show 0.6791.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6dc5541783e1fd3964d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
           "url": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=6dc5541783e1fd3964d70b69f0a3140b",
           "date": null,
           "quote": "Please be informed of the adoption and approval by our Board of Directors on May 21, 2026 of a resolution declaring (67.91%) of capital cash dividend equivalent to P0.6791 per share or the total amount of Php 287,064,106.37 in favor of all its stockholders of record as of June 8,"
+        },
+        {
+          "url": "https://www.pesobility.com/dividends/PMPC",
+          "date": "2026-09-30",
+          "quote": "2026 Cash Php 0.6791, ex 2026-Jun-05, record 2026-Jun-08, payment 2026-Jun-25 (user screenshot)"
         }
       ],
-      "issue": "Single source (PSE Edge). Only aggregators (investing.com, simplywall.st) show 0.6791."
+      "issue": null
     }
   },
   {
@@ -580,9 +590,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only an aggregator (dividends.ph) shows payment June 25, 2026. Live PSE Edge SEC 17-C C03233-2026 structured fields: Regular, Php 0.33, record Jun 1, payment Jun 25, 2026. Pesobility lacks the row (same gap as LTG). User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=b95aa66360f0a65964d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -591,7 +601,7 @@
           "quote": "The dividends will be payable on June 25, 2026 to all stockholders of record as of June 1, 2026."
         }
       ],
-      "issue": "Single source (PSE Edge). Only an aggregator (dividends.ph) shows payment June 25, 2026."
+      "issue": null
     }
   },
   {
@@ -678,9 +688,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Searches return SSI Securities (Vietnam) instead.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=243cfe0baef0cedd64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -689,7 +699,7 @@
           "quote": "(SSI) approved the declaration of a regular cash dividend in the amount of Php 0.0805 per share."
         }
       ],
-      "issue": "Single source (PSE Edge). Searches return SSI Securities (Vietnam) instead."
+      "issue": null
     }
   },
   {
@@ -722,9 +732,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Aggregator gurufocus.com shows PHP 0.038 but record May 22, 2026 (filing: May 25).  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e4d8512d42d291d564d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -733,7 +743,7 @@
           "quote": "Details as follows:Amount : Php 0.03800 per shareRecord Date : 25 May 2026Payment Date : 29 May 2026"
         }
       ],
-      "issue": "Single source (PSE Edge). Aggregator gurufocus.com shows PHP 0.038 but record May 22, 2026 (filing: May 25)."
+      "issue": null
     }
   },
   {
@@ -860,9 +870,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Only an aggregator (dividends.ph) shows record March 23, 2026.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8c065928ee5e247f64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -871,7 +881,7 @@
           "quote": "In light of the Company’s strong performance for FY 2025, the Board of Directors, at its meeting held today, March 6, 2026, approved the declaration of regular cash dividends as follows:Declaration Date: March 6, 2026Record Date: March 23, 2026Payment Date: April 1, 2026Amount: P"
         }
       ],
-      "issue": "Single source (PSE Edge). Only an aggregator (dividends.ph) shows record March 23, 2026."
+      "issue": null
     }
   },
   {
@@ -1441,9 +1451,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). BusinessWorld \"Co-led companies post first-quarter income growth\" (https://www.bworldonline.com/?p=448862) likely confirms but returned 403.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=e6550995baddb4ac64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -1452,7 +1462,7 @@
           "quote": "Press Release entitled \"Keepers net income jumped by 17.6% to PHP 811 million in 1Q 2026\""
         }
       ],
-      "issue": "Single source (PSE Edge). BusinessWorld \"Co-led companies post first-quarter income growth\" (https://www.bworldonline.com/?p=448862) likely confirms but returned 403."
+      "issue": null
     }
   },
   {
@@ -1944,9 +1954,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Aggregators (gurufocus, simplywall.st) still list Melissa Camille Z. Domingo as CFO, stale per the filing (Edang replaced her). Edang also signs VREIT's May 2026 dividend filing as CFO & Head Investor Relations. User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=8850bf59d8b299ae64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -1955,7 +1965,7 @@
           "quote": "Election of Director and Officer\n\nIn the special meeting of the Board of Directors of the Company held on January 21, 2026, Ms. Michelle E. Hernandez was elected as Director of the Corporation and member of the Executive Committee and Corporate Governance Committee, to serve for "
         }
       ],
-      "issue": "Single source (PSE Edge). Aggregators (gurufocus, simplywall.st) still list Melissa Camille Z. Domingo as CFO, stale per the filing (Edang replaced her)."
+      "issue": null
     }
   },
   {
@@ -2037,9 +2047,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). No news found.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=64f792fd45fe603bec6e1601ccee8f59",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2048,7 +2058,7 @@
           "quote": "Result of the Special Board Meeting\n\nAt the Special Meeting of the Board of Directors of the Registrant held on 15 July 2025, at which meeting a quorum was present and acting throughout, the following matters were discussed:1. Resignation of Bienvenido A. Tan III as Chairman and "
         }
       ],
-      "issue": "Single source (PSE Edge). No news found."
+      "issue": null
     }
   },
   {
@@ -2082,9 +2092,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Single source (PSE Edge). Company site (petroenergy.com.ph, July 2026) lists Helen Y. Dee as Chairman and Milagros V. Reyes as President: consistent with a temporary acting role, not a confirmation.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=30fdf0b5e0e882c264d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2093,7 +2103,7 @@
           "quote": "Appointment of Acting Chairman\n\nAt the meeting of the Board of Directors of PetroEnergy Resources Corporation held on April 8, 2026, the Board approved the appointment of the President, Ms. Milagros V. Reyes, as the acting Chairman during the temporary absence of the Chairman, Ms"
         }
       ],
-      "issue": "Single source (PSE Edge). Company site (petroenergy.com.ph, July 2026) lists Helen Y. Dee as Chairman and Milagros V. Reyes as President: consistent with a temporary acting role, not a confirmation."
+      "issue": null
     }
   },
   {
@@ -2373,9 +2383,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Stale/distractor doc: 10% stake in SPPI Aero-Logistics Park.",
+    "notes": "Stale/distractor doc: 10% stake in SPPI Aero-Logistics Park. Review (2026-09-30): Single source (PSE Edge). No news found.  User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=adb95c31cecadbeb64d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2384,7 +2394,7 @@
           "quote": "On April 30, 2026, the Board of Directors approved a 20% equity stake in Clark World Trade Center, Inc."
         }
       ],
-      "issue": "Single source (PSE Edge). No news found."
+      "issue": null
     }
   },
   {
@@ -2563,9 +2573,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "",
+    "notes": " Review (2026-09-30): Check. Search summary of BusinessWorld (https://bworldonline.com/?p=735383, March 2026) agrees on ₱2.70/share (₱41.97M), but a finder.techleap.nl headline reads \"Alsons divests entire 9.5% stake in Seafront Resources for 735,000\". 15,544,911 x 2.70 = 41,971,259.70, matching the filing; the \"735,000\" headline is likely the USD equivalent. User accepted after 1-by-1 review.",
     "source": "https://edge.pse.com.ph/openDiscViewer.do?edge_no=17d3148f1b7a4f4364d70b69f0a3140b",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2574,7 +2584,7 @@
           "quote": "(“ACR”), which owns 15,544,911 common shares of SPM, representing 9.54% of SPM’s issued and outstanding shares, elected to participate in the tender offer and applied to tender all of its shares to SPM at the tender offer price of Php 2.70 per share.The total transaction value am"
         }
       ],
-      "issue": "Check. Search summary of BusinessWorld (https://bworldonline.com/?p=735383, March 2026) agrees on ₱2.70/share (₱41.97M), but a finder.techleap.nl headline reads \"Alsons divests entire 9.5% stake in Seafront Resources for 735,000\"."
+      "issue": null
     }
   },
   {
@@ -2605,9 +2615,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Key drafted by Opus from the page. Quote: \"As of June 30, 2026, 36.18% of the Company is publicly traded, with the balance owned by Ayala Land, Inc. and its subsidiaries.\"",
+    "notes": "Key drafted by Opus from the page. Quote: \"As of June 30, 2026, 36.18% of the Company is publicly traded, with the balance owned by Ayala Land, Inc. and its subsidiaries.\" Review (2026-09-30): Single source (company site). Aggregator investing.com shows free float 39.74% (different date/measure).  User accepted after 1-by-1 review.",
     "source": "https://www.areit.com.ph/about-us",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2616,7 +2626,7 @@
           "quote": "As of June 30, 2026, 36.18% of the Company is publicly traded, with the balance owned by Ayala Land, Inc."
         }
       ],
-      "issue": "Single source (company site). Aggregator investing.com shows free float 39.74% (different date/measure)."
+      "issue": null
     }
   },
   {
@@ -2651,9 +2661,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Key drafted by Opus from the page. Quote: \"It was initially known as One Dela Rosa Property Development, Inc. before changing to its current name on April 12, 2019.\"",
+    "notes": "Key drafted by Opus from the page. Quote: \"It was initially known as One Dela Rosa Property Development, Inc. before changing to its current name on April 12, 2019.\" Review (2026-09-30): Single independent source: company site; Wikipedia (en.wikipedia.org/wiki/AREIT,_Inc.) agrees but is not a primary or news source.  User accepted after 1-by-1 review.",
     "source": "https://www.areit.com.ph/about-us",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2662,7 +2672,7 @@
           "quote": "It was initially known as One Dela Rosa Property Development, Inc."
         }
       ],
-      "issue": "Single independent source: company site; Wikipedia (en.wikipedia.org/wiki/AREIT,_Inc.) agrees but is not a primary or news source."
+      "issue": null
     }
   },
   {
@@ -2693,9 +2703,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Key drafted by Opus from the page. Quote: \"AREIT Inc. (AREIT) was incorporated as a real estate company on September 4, 2006.\"",
+    "notes": "Key drafted by Opus from the page. Quote: \"AREIT Inc. (AREIT) was incorporated as a real estate company on September 4, 2006.\" Review (2026-09-30): Single independent source: company site; Wikipedia (en.wikipedia.org/wiki/AREIT,_Inc.) agrees (September 4, 2006) but is not a primary or news source.  User accepted after 1-by-1 review.",
     "source": "https://www.areit.com.ph/about-us",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2704,7 +2714,7 @@
           "quote": "(AREIT) was incorporated as a real estate company on September 4, 2006."
         }
       ],
-      "issue": "Single independent source: company site; Wikipedia (en.wikipedia.org/wiki/AREIT,_Inc.) agrees (September 4, 2006) but is not a primary or news source."
+      "issue": null
     }
   },
   {
@@ -2787,9 +2797,9 @@
     ],
     "exclude": [],
     "noise": 3,
-    "notes": "Key drafted by Opus from the page. Quote: \"Enfinity Philippines Renewable Resources, Inc. ('EPRRI') – a wholly-owned power generation company by CREC, established in the Philippines and incorporated on July 15, 2010, focusing on exploration, development and utilization of renewable resources such as sun and wind – was renamed Citicore Energy REIT Corp. on October 12, 2021.\"",
+    "notes": "Key drafted by Opus from the page. Quote: \"Enfinity Philippines Renewable Resources, Inc. ('EPRRI') – a wholly-owned power generation company by CREC, established in the Philippines and incorporated on July 15, 2010, focusing on exploration, development and utilization of renewable resources such as sun and wind – was renamed Citicore Energy REIT Corp. on October 12, 2021.\" Review (2026-09-30): Single source: only creit.com.ph/about-us (the page the key came from).  User accepted after 1-by-1 review.",
     "source": "https://www.creit.com.ph/about-us",
-    "verified": false,
+    "verified": true,
     "verification": {
       "sources": [
         {
@@ -2798,7 +2808,7 @@
           "quote": "on October 12, 2021."
         }
       ],
-      "issue": "Single source: only creit.com.ph/about-us (the page the key came from)."
+      "issue": null
     }
   }
 ]
